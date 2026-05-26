@@ -9,7 +9,7 @@ from typing import Any, Protocol
 from .models import AnalysisResult, RepoMetadata
 
 
-DEFAULT_MODEL = "gpt-5.4-mini"
+DEFAULT_MODEL = "gpt-5.5"
 README_CHAR_LIMIT = 12_000
 
 TOPIC_KEYWORDS = {
