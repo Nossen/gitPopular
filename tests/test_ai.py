@@ -83,3 +83,39 @@ def test_openai_analyzer_parses_output_text_json() -> None:
 
     assert result.ai_related
     assert result.summary_zh == "摘要"
+
+
+def test_openai_analyzer_retries_rate_limits(monkeypatch: pytest.MonkeyPatch) -> None:
+    sleeps: list[float] = []
+
+    class RateLimitError(Exception):
+        pass
+
+    class Responses:
+        calls = 0
+
+        def create(self, **kwargs: object) -> object:
+            self.calls += 1
+            if self.calls == 1:
+                raise RateLimitError("slow down")
+            return type(
+                "Response",
+                (),
+                {
+                    "output_text": (
+                        '{"ai_related": true, "ai_confidence": 0.8, "summary_zh": "摘要", '
+                        '"purpose_zh": "作用", "application_scenarios_zh": ["一", "二", "三"]}'
+                    )
+                },
+            )()
+
+    class Client:
+        responses = Responses()
+
+    monkeypatch.setattr("gitpopular.ai.time_module.sleep", sleeps.append)
+    analyzer = OpenAIAnalyzer(model="test-model", client=Client(), retry_base_seconds=0.1)
+
+    result = analyzer.analyze(make_repo(topics=["llm"]))
+
+    assert result.ai_related
+    assert sleeps == [0.1]
