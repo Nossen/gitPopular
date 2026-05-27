@@ -225,7 +225,7 @@ def _make_openai_client() -> Any:
     try:
         from openai import OpenAI
     except ImportError as exc:
-        raise RuntimeError("The openai package is required for analysis. Run `pip install -e .`.") from exc
+        raise RuntimeError("The openai package is required for legacy API analysis. Run `pip install -e '.[api]'`.") from exc
     return OpenAI()
 
 

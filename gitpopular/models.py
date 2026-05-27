@@ -71,6 +71,80 @@ class RankedRepo:
 
 
 @dataclass(frozen=True)
+class RawRepo:
+    rank: int
+    repo: str
+    repo_id: int
+    url: str
+    description: str
+    language: str | None
+    topics: list[str]
+    yesterday_new_stars: int
+    total_stars: int
+    readme_url: str
+    readme_text: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "rank": self.rank,
+            "repo": self.repo,
+            "repo_id": self.repo_id,
+            "url": self.url,
+            "description": self.description,
+            "language": self.language,
+            "topics": self.topics,
+            "yesterday_new_stars": self.yesterday_new_stars,
+            "total_stars": self.total_stars,
+            "readme_url": self.readme_url,
+            "readme_text": self.readme_text,
+        }
+
+    @classmethod
+    def from_dict(cls, payload: dict[str, Any]) -> "RawRepo":
+        return cls(
+            rank=int(payload["rank"]),
+            repo=str(payload["repo"]),
+            repo_id=int(payload["repo_id"]),
+            url=str(payload["url"]),
+            description=str(payload.get("description") or ""),
+            language=payload.get("language"),
+            topics=[str(topic) for topic in payload.get("topics") or []],
+            yesterday_new_stars=int(payload["yesterday_new_stars"]),
+            total_stars=int(payload["total_stars"]),
+            readme_url=str(payload["readme_url"]),
+            readme_text=str(payload.get("readme_text") or ""),
+        )
+
+
+@dataclass(frozen=True)
+class RawReport:
+    date: str
+    timezone: str
+    generated_at: str
+    source: dict[str, str]
+    items: list[RawRepo]
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            "date": self.date,
+            "timezone": self.timezone,
+            "generated_at": self.generated_at,
+            "source": self.source,
+            "items": [item.to_dict() for item in self.items],
+        }
+
+    @classmethod
+    def from_dict(cls, payload: dict[str, Any]) -> "RawReport":
+        return cls(
+            date=str(payload["date"]),
+            timezone=str(payload["timezone"]),
+            generated_at=str(payload["generated_at"]),
+            source={str(key): str(value) for key, value in (payload.get("source") or {}).items()},
+            items=[RawRepo.from_dict(item) for item in payload.get("items") or []],
+        )
+
+
+@dataclass(frozen=True)
 class DailyReport:
     date: str
     timezone: str
