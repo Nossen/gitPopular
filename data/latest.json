@@ -1,7 +1,7 @@
 {
   "date": "2026-05-28",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-05-29T03:53:11.133475Z",
+  "generated_at": "2026-05-29T06:10:46.918670Z",
   "source": {
     "stars": "GH Archive WatchEvent",
     "metadata": "GitHub REST API",
@@ -25,7 +25,7 @@
         "tiktok"
       ],
       "yesterday_new_stars": 226,
-      "total_stars": 66946,
+      "total_stars": 67203,
       "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "MoneyPrinterTurbo 是一个利用 AI 大模型自动生成高清短视频的工具，用户提供主题或关键词后，系统可以辅助完成脚本生成、素材组织、配音、字幕和视频合成。",
@@ -63,7 +63,7 @@
         "vibe-coding"
       ],
       "yesterday_new_stars": 180,
-      "total_stars": 43135,
+      "total_stars": 43278,
       "readme_url": "https://github.com/Lum1104/Understand-Anything/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "Understand Anything 是一个面向 AI 编程助手和知识工作流的代码/文档理解工具，会把代码库、知识库或文档转成可探索、可搜索、可问答的交互式知识图谱。",
@@ -88,7 +88,7 @@
         "commerce"
       ],
       "yesterday_new_stars": 174,
-      "total_stars": 5053,
+      "total_stars": 5096,
       "readme_url": "https://github.com/unicity-sphere/sphere-sdk/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "Sphere SDK 是一个面向 autonomous economic agents 的 TypeScript SDK，为代理提供身份、钱包、发现交易对手、协商、点对点消息、原子交易、开票和结算能力。",
@@ -112,7 +112,7 @@
         "tutorial"
       ],
       "yesterday_new_stars": 137,
-      "total_stars": 48773,
+      "total_stars": 48869,
       "readme_url": "https://github.com/byoungd/English-level-up-tips/blob/master/README.md",
       "ai_confidence": 0.56,
       "summary_zh": "这是一个系统化英语学习指南，主体不是 AI 工具项目，但 README 中包含 AI 辅助学习与 AI 账户/接口资源相关内容，因此与 AI 的关系偏弱、更接近 AI 辅助教育场景。",
@@ -132,7 +132,7 @@
       "language": "TypeScript",
       "topics": [],
       "yesterday_new_stars": 111,
-      "total_stars": 32056,
+      "total_stars": 32172,
       "readme_url": "https://github.com/colbymchenry/codegraph/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "CodeGraph 是一个本地运行的代码知识图谱工具，为 Claude Code、Codex、Cursor、OpenCode 等 AI 编程代理预先索引代码结构、符号和语义关系，以减少上下文探索成本。",
@@ -166,7 +166,7 @@
         "vibecoding"
       ],
       "yesterday_new_stars": 97,
-      "total_stars": 26736,
+      "total_stars": 26895,
       "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Taste Skill 是一组面向 AI 代理的前端审美与设计技能，目标是减少模板化、平庸的界面生成，提升布局、排版、动效、间距和视觉参考质量。",
@@ -186,7 +186,7 @@
       "language": null,
       "topics": [],
       "yesterday_new_stars": 86,
-      "total_stars": 160697,
+      "total_stars": 160796,
       "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "这是一个面向 Claude Code 等编程代理的行为指导文件，把 Andrej Karpathy 对 LLM 编程问题的观察整理成可执行开发原则，强调先思考、保持简单、精准修改和验证。",
@@ -227,7 +227,7 @@
         "typescript"
       ],
       "yesterday_new_stars": 81,
-      "total_stars": 23991,
+      "total_stars": 24074,
       "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个完整的 AI 工程学习课程仓库，覆盖机器学习、深度学习、NLP、Transformer、LLM、生成式 AI、智能体、MCP 和生产部署，强调从零实现再落地到工程工具。",
@@ -268,7 +268,7 @@
         "vibe-coding"
       ],
       "yesterday_new_stars": 67,
-      "total_stars": 54940,
+      "total_stars": 54996,
       "readme_url": "https://github.com/nexu-io/open-design/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "Open Design 是一个本地优先、开源的 Claude Design 替代方案，把多种 coding-agent CLI、skills 和设计系统组合成设计引擎，用于生成网页、桌面、移动端原型、幻灯片和多媒体内容。",
@@ -297,7 +297,7 @@
         "productivity"
       ],
       "yesterday_new_stars": 61,
-      "total_stars": 197470,
+      "total_stars": 197554,
       "readme_url": "https://github.com/affaan-m/ECC/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "ECC 是一个面向 Claude Code、Codex、OpenCode、Cursor 等代理的 harness-native 操作系统，围绕技能、记忆、安全、研究优先开发和性能优化来提升代理工作质量。",

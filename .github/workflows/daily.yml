@@ -2,7 +2,10 @@ name: Daily Raw AI Rising Stars Collection
 
 on:
   schedule:
+    # Primary: 09:30 Asia/Shanghai. Backups cover GitHub schedule delays/drops.
     - cron: "30 1 * * *"
+    - cron: "30 3 * * *"
+    - cron: "30 5 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -12,6 +15,10 @@ on:
 
 permissions:
   contents: write
+
+concurrency:
+  group: daily-raw-ai-rising-stars
+  cancel-in-progress: false
 
 jobs:
   update:
