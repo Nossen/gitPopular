@@ -1,0 +1,279 @@
+{
+  "date": "2026-05-29",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-06-01T07:28:40.481935Z",
+  "source": {
+    "stars": "GH Archive WatchEvent",
+    "metadata": "GitHub REST API",
+    "analysis": "Local heuristic fallback"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "repo_id": 770153867,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "yesterday_new_stars": 166,
+      "total_stars": 70588,
+      "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+      "ai_confidence": 0.73,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、多媒体生成与理解、模型训练与推理；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "MoneyPrinterTurbo 主要围绕「利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、多媒体生成与理解、模型训练与推理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。",
+        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+      ]
+    },
+    {
+      "rank": 2,
+      "repo": "Leonxlnx/taste-skill",
+      "repo_id": 1162099055,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "Shell",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "yesterday_new_stars": 111,
+      "total_stars": 28522,
+      "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
+      "ai_confidence": 0.76,
+      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "taste-skill 主要围绕「Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ]
+    },
+    {
+      "rank": 3,
+      "repo": "microsoft/markitdown",
+      "repo_id": 888092115,
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "yesterday_new_stars": 108,
+      "total_stars": 130602,
+      "readme_url": "https://github.com/microsoft/markitdown/blob/main/README.md",
+      "ai_confidence": 0.77,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、AI 编程与代码理解、多媒体生成与理解、计算机视觉；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "markitdown 主要围绕「Python tool for converting files and office documents to Markdown.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、AI 编程与代码理解、多媒体生成与理解、计算机视觉相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ]
+    },
+    {
+      "rank": 4,
+      "repo": "OpenBMB/VoxCPM",
+      "repo_id": 1057664813,
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "language": "Python",
+      "topics": [
+        "audio",
+        "deeplearning",
+        "minicpm",
+        "multilingual",
+        "python",
+        "pytorch",
+        "speech",
+        "speech-synthesis",
+        "text-to-speech",
+        "tts",
+        "tts-model",
+        "voice-cloning",
+        "voice-design",
+        "voxcpm"
+      ],
+      "yesterday_new_stars": 107,
+      "total_stars": 22376,
+      "readme_url": "https://github.com/OpenBMB/VoxCPM/blob/main/README.md",
+      "ai_confidence": 0.74,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括AI 编程与代码理解、多媒体生成与理解、模型训练与推理、自然语言处理；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "VoxCPM 主要围绕「VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、多媒体生成与理解、模型训练与推理、自然语言处理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。",
+        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+      ]
+    },
+    {
+      "rank": 5,
+      "repo": "colbymchenry/codegraph",
+      "repo_id": 1137078255,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "topics": [],
+      "yesterday_new_stars": 97,
+      "total_stars": 33653,
+      "readme_url": "https://github.com/colbymchenry/codegraph/blob/main/README.md",
+      "ai_confidence": 0.61,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "codegraph 主要围绕「Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ]
+    },
+    {
+      "rank": 6,
+      "repo": "Lum1104/Understand-Anything",
+      "repo_id": 1182081931,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "yesterday_new_stars": 94,
+      "total_stars": 44970,
+      "readme_url": "https://github.com/Lum1104/Understand-Anything/blob/main/README.md",
+      "ai_confidence": 0.65,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "Understand-Anything 主要围绕「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ]
+    },
+    {
+      "rank": 7,
+      "repo": "mattpocock/skills",
+      "repo_id": 1148788086,
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "topics": [],
+      "yesterday_new_stars": 78,
+      "total_stars": 111789,
+      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
+      "ai_confidence": 0.61,
+      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .claude directory.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ]
+    },
+    {
+      "rank": 8,
+      "repo": "byoungd/English-level-up-tips",
+      "repo_id": 92807616,
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 .  离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "language": null,
+      "topics": [
+        "chinese",
+        "english-learning",
+        "tutorial"
+      ],
+      "yesterday_new_stars": 73,
+      "total_stars": 49809,
+      "readme_url": "https://github.com/byoungd/English-level-up-tips/blob/master/README.md",
+      "ai_confidence": 0.62,
+      "summary_zh": "该项目以 未知语言 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、开发框架与 SDK、AI 学习与教程；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "English-level-up-tips 主要围绕「An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、开发框架与 SDK、AI 学习与教程相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "作为学习材料或内部培训项目，帮助团队系统掌握相关 AI 工程方法。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。",
+        "基于项目提供的示例搭建内部原型，验证它与现有数据、工具链或业务流程的集成成本。"
+      ]
+    },
+    {
+      "rank": 9,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "repo_id": 1142983825,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "topics": [],
+      "yesterday_new_stars": 69,
+      "total_stars": 161972,
+      "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md",
+      "ai_confidence": 0.62,
+      "summary_zh": "该项目以 未知语言 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、开发框架与 SDK；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "andrej-karpathy-skills 主要围绕「A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、开发框架与 SDK相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ]
+    },
+    {
+      "rank": 10,
+      "repo": "obra/superpowers",
+      "repo_id": 1073224795,
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "topics": [],
+      "yesterday_new_stars": 66,
+      "total_stars": 212502,
+      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
+      "ai_confidence": 0.64,
+      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、开发框架与 SDK；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "superpowers 主要围绕「An agentic skills framework & software development methodology that works.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、开发框架与 SDK相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "辅助产品和设计团队快速生成界面原型、设计系统草案或多版本视觉方案。"
+      ]
+    }
+  ]
+}

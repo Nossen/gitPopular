@@ -6,6 +6,7 @@ from pathlib import Path
 
 from .ai import Analyzer, OpenAIAnalyzer, looks_ai_related
 from .archive import GHArchiveClient
+from .fallback import build_fallback_analysis
 from .github import GitHubClient
 import json
 from typing import Any
@@ -201,6 +202,54 @@ def finalize_report_from_analysis(
             "stars": "GH Archive WatchEvent",
             "metadata": "GitHub REST API",
             "analysis": "Codex scheduled automation",
+        },
+        items=items,
+    )
+    write_outputs(report, output_root)
+    return report
+
+
+def finalize_report_with_fallback_analysis(
+    report_date: date,
+    output_root: Path,
+    now: datetime | None = None,
+) -> DailyReport:
+    raw_path = output_root / "data" / "raw" / f"{report_date.isoformat()}.json"
+    if not raw_path.exists():
+        raise FileNotFoundError(f"Raw report not found: {raw_path}")
+
+    raw_report = RawReport.from_dict(json.loads(raw_path.read_text(encoding="utf-8")))
+    items: list[RankedRepo] = []
+
+    for raw_item in raw_report.items:
+        analysis = build_fallback_analysis(raw_item)
+        items.append(
+            RankedRepo(
+                rank=raw_item.rank,
+                repo=raw_item.repo,
+                repo_id=raw_item.repo_id,
+                url=raw_item.url,
+                description=raw_item.description,
+                language=raw_item.language,
+                topics=raw_item.topics,
+                yesterday_new_stars=raw_item.yesterday_new_stars,
+                total_stars=raw_item.total_stars,
+                readme_url=raw_item.readme_url,
+                ai_confidence=analysis.ai_confidence,
+                summary_zh=analysis.summary_zh,
+                purpose_zh=analysis.purpose_zh,
+                application_scenarios_zh=analysis.application_scenarios_zh,
+            )
+        )
+
+    report = DailyReport(
+        date=raw_report.date,
+        timezone=raw_report.timezone,
+        generated_at=_generated_at(now),
+        source={
+            "stars": "GH Archive WatchEvent",
+            "metadata": "GitHub REST API",
+            "analysis": "Local heuristic fallback",
         },
         items=items,
     )

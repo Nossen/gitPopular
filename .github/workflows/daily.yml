@@ -1,11 +1,12 @@
-name: Daily Raw AI Rising Stars Collection
+name: Daily AI Rising Stars Report
 
 on:
   schedule:
-    # Primary: 09:30 Asia/Shanghai. Backups cover GitHub schedule delays/drops.
+    # Beijing time: 09:30, 13:30, 17:30, 21:30.
     - cron: "30 1 * * *"
-    - cron: "30 3 * * *"
     - cron: "30 5 * * *"
+    - cron: "30 9 * * *"
+    - cron: "30 13 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -26,6 +27,7 @@ jobs:
     env:
       GITHUB_TOKEN: ${{ github.token }}
       INPUT_DATE: ${{ inputs.date }}
+      BACKFILL_DAYS: 7
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,14 +35,39 @@ jobs:
           python-version: "3.12"
       - name: Install
         run: python -m pip install -e .
-      - name: Collect raw report
+      - name: Resolve report dates
+        id: report-dates
         run: |
           if [ -n "$INPUT_DATE" ]; then
-            REPORT_DATE="$INPUT_DATE"
+            dates="$INPUT_DATE"
           else
-            REPORT_DATE="$(TZ=Asia/Shanghai date -d 'yesterday' +%F)"
+            dates=""
+            for offset in $(seq "$BACKFILL_DAYS" -1 1); do
+              day="$(TZ=Asia/Shanghai date -d "$offset days ago" +%F)"
+              dates="$dates $day"
+            done
+            dates="${dates# }"
           fi
-          python -m gitpopular collect --date "$REPORT_DATE" --timezone Asia/Shanghai --limit 10 --candidate-pool 150
+          echo "dates=$dates" >> "$GITHUB_OUTPUT"
+          echo "Report dates: $dates"
+      - name: Ensure raw and final reports
+        env:
+          REPORT_DATES: ${{ steps.report-dates.outputs.dates }}
+        run: |
+          for REPORT_DATE in $REPORT_DATES; do
+            if [ -f "data/$REPORT_DATE.json" ]; then
+              echo "Final report already exists for $REPORT_DATE; skipping."
+              continue
+            fi
+
+            if [ ! -f "data/raw/$REPORT_DATE.json" ]; then
+              python -m gitpopular collect --date "$REPORT_DATE" --timezone Asia/Shanghai --limit 10 --candidate-pool 150
+            else
+              echo "Raw report already exists for $REPORT_DATE."
+            fi
+
+            python -m gitpopular fallback-finalize --date "$REPORT_DATE"
+          done
       - name: Commit changes
         run: |
           if [ -z "$(git status --porcelain)" ]; then
@@ -49,6 +76,9 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/raw reports/raw
-          git commit -m "chore: collect raw AI rising stars report"
-          git push
+          git add README.md data reports
+          git commit -m "chore: update AI rising stars reports"
+          git push || {
+            git pull --rebase origin "$GITHUB_REF_NAME"
+            git push
+          }

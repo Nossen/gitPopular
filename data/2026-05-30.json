@@ -1,0 +1,322 @@
+{
+  "date": "2026-05-30",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-06-01T07:28:40.566984Z",
+  "source": {
+    "stars": "GH Archive WatchEvent",
+    "metadata": "GitHub REST API",
+    "analysis": "Local heuristic fallback"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "harry0703/MoneyPrinterTurbo",
+      "repo_id": 770153867,
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "automation",
+        "chatgpt",
+        "moviepy",
+        "python",
+        "shortvideo",
+        "tiktok"
+      ],
+      "yesterday_new_stars": 296,
+      "total_stars": 72666,
+      "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
+      "ai_confidence": 0.73,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、多媒体生成与理解、模型训练与推理；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "MoneyPrinterTurbo 主要围绕「利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、多媒体生成与理解、模型训练与推理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。",
+        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+      ]
+    },
+    {
+      "rank": 2,
+      "repo": "microsoft/markitdown",
+      "repo_id": 888092115,
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "yesterday_new_stars": 223,
+      "total_stars": 133264,
+      "readme_url": "https://github.com/microsoft/markitdown/blob/main/README.md",
+      "ai_confidence": 0.77,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、AI 编程与代码理解、多媒体生成与理解、计算机视觉；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "markitdown 主要围绕「Python tool for converting files and office documents to Markdown.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、AI 编程与代码理解、多媒体生成与理解、计算机视觉相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ]
+    },
+    {
+      "rank": 3,
+      "repo": "colbymchenry/codegraph",
+      "repo_id": 1137078255,
+      "url": "https://github.com/colbymchenry/codegraph",
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "language": "TypeScript",
+      "topics": [],
+      "yesterday_new_stars": 129,
+      "total_stars": 34708,
+      "readme_url": "https://github.com/colbymchenry/codegraph/blob/main/README.md",
+      "ai_confidence": 0.61,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "codegraph 主要围绕「Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ]
+    },
+    {
+      "rank": 4,
+      "repo": "Lum1104/Understand-Anything",
+      "repo_id": 1182081931,
+      "url": "https://github.com/Lum1104/Understand-Anything",
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "language": "TypeScript",
+      "topics": [
+        "antigravity-skills",
+        "business-knowledge",
+        "claude-code",
+        "claude-skills",
+        "codebase-analysis",
+        "codex",
+        "codex-skills",
+        "developer-tools-ai-agent",
+        "gemini-cli-skills",
+        "karpathy-llm-wiki",
+        "knowledge-base",
+        "knowledge-graph",
+        "memory",
+        "opencode-skills",
+        "pi-agent",
+        "understandcode",
+        "vibe-coding"
+      ],
+      "yesterday_new_stars": 129,
+      "total_stars": 46375,
+      "readme_url": "https://github.com/Lum1104/Understand-Anything/blob/main/README.md",
+      "ai_confidence": 0.65,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "Understand-Anything 主要围绕「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ]
+    },
+    {
+      "rank": 5,
+      "repo": "Leonxlnx/taste-skill",
+      "repo_id": 1162099055,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "language": "Shell",
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding",
+        "design",
+        "frontend",
+        "lowcode",
+        "nocode",
+        "skill",
+        "skills",
+        "vibecoding"
+      ],
+      "yesterday_new_stars": 118,
+      "total_stars": 29375,
+      "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
+      "ai_confidence": 0.76,
+      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "taste-skill 主要围绕「Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ]
+    },
+    {
+      "rank": 6,
+      "repo": "NousResearch/hermes-agent",
+      "repo_id": 1024554267,
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "yesterday_new_stars": 94,
+      "total_stars": 174068,
+      "readme_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
+      "ai_confidence": 0.95,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "hermes-agent 主要围绕「The agent that grows with you」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ]
+    },
+    {
+      "rank": 7,
+      "repo": "farion1231/cc-switch",
+      "repo_id": 1031912724,
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "minimax",
+        "omo",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "yesterday_new_stars": 93,
+      "total_stars": 85949,
+      "readme_url": "https://github.com/farion1231/cc-switch/blob/main/README.md",
+      "ai_confidence": 0.67,
+      "summary_zh": "该项目以 Rust 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "cc-switch 主要围绕「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ]
+    },
+    {
+      "rank": 8,
+      "repo": "codecrafters-io/build-your-own-x",
+      "repo_id": 132750724,
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "yesterday_new_stars": 88,
+      "total_stars": 508539,
+      "readme_url": "https://github.com/codecrafters-io/build-your-own-x/blob/master/README.md",
+      "ai_confidence": 0.7,
+      "summary_zh": "该项目以 Markdown 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、知识检索与上下文增强、AI 编程与代码理解、多媒体生成与理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "build-your-own-x 主要围绕「Master programming by recreating your favorite technologies from scratch.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、知识检索与上下文增强、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ]
+    },
+    {
+      "rank": 9,
+      "repo": "esengine/DeepSeek-Reasonix",
+      "repo_id": 1216785679,
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "yesterday_new_stars": 85,
+      "total_stars": 14838,
+      "readme_url": "https://github.com/esengine/DeepSeek-Reasonix/blob/main-v2/README.md",
+      "ai_confidence": 0.8,
+      "summary_zh": "该项目以 Go 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "DeepSeek-Reasonix 主要围绕「DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ]
+    },
+    {
+      "rank": 10,
+      "repo": "multica-ai/andrej-karpathy-skills",
+      "repo_id": 1142983825,
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "language": null,
+      "topics": [],
+      "yesterday_new_stars": 80,
+      "total_stars": 162831,
+      "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md",
+      "ai_confidence": 0.62,
+      "summary_zh": "该项目以 未知语言 为主要语言，近期新增 stars 较快。本地兜底解析识别到的核心信号包括大语言模型、智能体与自动化工作流、AI 编程与代码理解、开发框架与 SDK；建议进一步阅读原始 README 来确认安装方式、依赖条件和生产可用性。",
+      "purpose_zh": "andrej-karpathy-skills 主要围绕「A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、智能体与自动化工作流、AI 编程与代码理解、开发框架与 SDK相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ]
+    }
+  ]
+}

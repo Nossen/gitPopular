@@ -6,7 +6,13 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from .archive import parse_report_date
-from .pipeline import PipelineConfig, collect_raw_report, finalize_report_from_analysis, run_pipeline
+from .pipeline import (
+    PipelineConfig,
+    collect_raw_report,
+    finalize_report_from_analysis,
+    finalize_report_with_fallback_analysis,
+    run_pipeline,
+)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -48,6 +54,13 @@ def main(argv: list[str] | None = None) -> int:
         help="Analysis JSON path. Defaults to data/analysis/YYYY-MM-DD.json under --output.",
     )
 
+    fallback_parser = subparsers.add_parser(
+        "fallback-finalize",
+        help="Render a final report from raw data using local heuristic analysis.",
+    )
+    fallback_parser.add_argument("--date", required=True, help="Report date, YYYY-MM-DD.")
+    fallback_parser.add_argument("--output", type=Path, default=Path("."), help="Output repository root.")
+
     args = parser.parse_args(argv)
     if args.command == "run":
         report_date = parse_report_date(args.date) if args.date else _yesterday(args.timezone)
@@ -87,6 +100,15 @@ def main(argv: list[str] | None = None) -> int:
             analysis_path=args.analysis_file,
         )
         print(f"Finalized {len(report.items)} analyzed items for {report.date} to {args.output}")
+        return 0
+
+    if args.command == "fallback-finalize":
+        report_date = parse_report_date(args.date)
+        report = finalize_report_with_fallback_analysis(
+            report_date=report_date,
+            output_root=args.output,
+        )
+        print(f"Fallback-finalized {len(report.items)} items for {report.date} to {args.output}")
         return 0
 
     parser.error(f"Unknown command: {args.command}")
