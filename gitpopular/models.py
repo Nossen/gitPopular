@@ -32,6 +32,15 @@ class AnalysisResult:
     summary_zh: str
     purpose_zh: str
     application_scenarios_zh: list[str]
+    positioning_zh: str = ""
+    product_view_zh: str = ""
+    technical_view_zh: str = ""
+    trend_view_zh: str = ""
+    project_tags_zh: list[str] = field(default_factory=list)
+    maturity_score: int = 3
+    adoption_difficulty: str = "中"
+    recommendation_score: int = 3
+    adoption_notes_zh: list[str] = field(default_factory=list)
 
 
 @dataclass(frozen=True)
@@ -50,6 +59,15 @@ class RankedRepo:
     summary_zh: str
     purpose_zh: str
     application_scenarios_zh: list[str]
+    positioning_zh: str = ""
+    product_view_zh: str = ""
+    technical_view_zh: str = ""
+    trend_view_zh: str = ""
+    project_tags_zh: list[str] = field(default_factory=list)
+    maturity_score: int = 3
+    adoption_difficulty: str = "中"
+    recommendation_score: int = 3
+    adoption_notes_zh: list[str] = field(default_factory=list)
 
     def to_dict(self) -> dict[str, Any]:
         return {
@@ -67,6 +85,15 @@ class RankedRepo:
             "summary_zh": self.summary_zh,
             "purpose_zh": self.purpose_zh,
             "application_scenarios_zh": self.application_scenarios_zh,
+            "positioning_zh": self.positioning_zh,
+            "product_view_zh": self.product_view_zh,
+            "technical_view_zh": self.technical_view_zh,
+            "trend_view_zh": self.trend_view_zh,
+            "project_tags_zh": self.project_tags_zh,
+            "maturity_score": self.maturity_score,
+            "adoption_difficulty": self.adoption_difficulty,
+            "recommendation_score": self.recommendation_score,
+            "adoption_notes_zh": self.adoption_notes_zh,
         }
 
 

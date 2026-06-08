@@ -68,6 +68,15 @@ def run_pipeline(
                 summary_zh=analysis.summary_zh,
                 purpose_zh=analysis.purpose_zh,
                 application_scenarios_zh=analysis.application_scenarios_zh,
+                positioning_zh=analysis.positioning_zh,
+                product_view_zh=analysis.product_view_zh,
+                technical_view_zh=analysis.technical_view_zh,
+                trend_view_zh=analysis.trend_view_zh,
+                project_tags_zh=analysis.project_tags_zh,
+                maturity_score=analysis.maturity_score,
+                adoption_difficulty=analysis.adoption_difficulty,
+                recommendation_score=analysis.recommendation_score,
+                adoption_notes_zh=analysis.adoption_notes_zh,
             )
         )
         if len(items) >= config.limit:
@@ -191,6 +200,15 @@ def finalize_report_from_analysis(
                 summary_zh=analysis.summary_zh,
                 purpose_zh=analysis.purpose_zh,
                 application_scenarios_zh=analysis.application_scenarios_zh,
+                positioning_zh=analysis.positioning_zh,
+                product_view_zh=analysis.product_view_zh,
+                technical_view_zh=analysis.technical_view_zh,
+                trend_view_zh=analysis.trend_view_zh,
+                project_tags_zh=analysis.project_tags_zh,
+                maturity_score=analysis.maturity_score,
+                adoption_difficulty=analysis.adoption_difficulty,
+                recommendation_score=analysis.recommendation_score,
+                adoption_notes_zh=analysis.adoption_notes_zh,
             )
         )
 
@@ -239,6 +257,15 @@ def finalize_report_with_fallback_analysis(
                 summary_zh=analysis.summary_zh,
                 purpose_zh=analysis.purpose_zh,
                 application_scenarios_zh=analysis.application_scenarios_zh,
+                positioning_zh=analysis.positioning_zh,
+                product_view_zh=analysis.product_view_zh,
+                technical_view_zh=analysis.technical_view_zh,
+                trend_view_zh=analysis.trend_view_zh,
+                project_tags_zh=analysis.project_tags_zh,
+                maturity_score=analysis.maturity_score,
+                adoption_difficulty=analysis.adoption_difficulty,
+                recommendation_score=analysis.recommendation_score,
+                adoption_notes_zh=analysis.adoption_notes_zh,
             )
         )
 
@@ -273,15 +300,79 @@ def _load_analysis_by_repo(path: Path) -> dict[str, AnalysisResult]:
         scenarios = item.get("application_scenarios_zh")
         if not isinstance(scenarios, list) or len(scenarios) != 3:
             raise ValueError(f"Analysis for {repo} must include exactly three application scenarios")
+        summary = str(item["summary_zh"]).strip()
+        purpose = str(item["purpose_zh"]).strip()
+        scenario_text = [str(scenario).strip() for scenario in scenarios]
         analysis_by_repo[repo] = AnalysisResult(
             ai_related=bool(item.get("ai_related", True)),
             ai_confidence=float(item.get("ai_confidence", 0.9)),
-            summary_zh=str(item["summary_zh"]).strip(),
-            purpose_zh=str(item["purpose_zh"]).strip(),
-            application_scenarios_zh=[str(scenario).strip() for scenario in scenarios],
+            summary_zh=summary,
+            purpose_zh=purpose,
+            application_scenarios_zh=scenario_text,
+            positioning_zh=_text_or_default(item.get("positioning_zh"), summary or purpose),
+            product_view_zh=_text_or_default(item.get("product_view_zh"), purpose),
+            technical_view_zh=_text_or_default(
+                item.get("technical_view_zh"),
+                "建议结合 README、依赖、部署方式和 issue 活跃度评估接入成本。",
+            ),
+            trend_view_zh=_text_or_default(item.get("trend_view_zh"), summary),
+            project_tags_zh=_normalize_tags(item.get("project_tags_zh")),
+            maturity_score=_clamp_score(item.get("maturity_score"), default=3),
+            adoption_difficulty=_normalize_difficulty(item.get("adoption_difficulty")),
+            recommendation_score=_clamp_score(item.get("recommendation_score"), default=3),
+            adoption_notes_zh=_normalize_three_items(
+                item.get("adoption_notes_zh"),
+                [
+                    "先阅读 README 和示例，确认项目是否覆盖当前使用场景。",
+                    "检查许可证、更新频率和 issue 状态，再决定是否引入生产流程。",
+                    "优先搭建小规模原型，验证依赖、部署和集成成本。",
+                ],
+            ),
         )
     return analysis_by_repo
 
 
 def _generated_at(now: datetime | None = None) -> str:
     return (now or datetime.now(UTC)).astimezone(UTC).isoformat().replace("+00:00", "Z")
+
+
+def _text_or_default(value: Any, default: str) -> str:
+    text = str(value or "").strip()
+    return text or default
+
+
+def _normalize_tags(value: Any) -> list[str]:
+    if isinstance(value, list):
+        tags = [str(item).strip() for item in value if str(item).strip()]
+    else:
+        tags = []
+    fallback = ["AI 工具", "开源项目", "开发者工具"]
+    result: list[str] = []
+    for tag in tags + fallback:
+        if tag not in result:
+            result.append(tag)
+    return result[:5]
+
+
+def _clamp_score(value: Any, default: int) -> int:
+    try:
+        score = int(value)
+    except (TypeError, ValueError):
+        score = default
+    return max(1, min(score, 5))
+
+
+def _normalize_difficulty(value: Any) -> str:
+    text = str(value or "").strip()
+    return text if text in {"低", "中", "高"} else "中"
+
+
+def _normalize_three_items(value: Any, default: list[str]) -> list[str]:
+    if isinstance(value, list):
+        items = [str(item).strip() for item in value if str(item).strip()]
+    else:
+        items = []
+    for item in default:
+        if item not in items:
+            items.append(item)
+    return items[:3]

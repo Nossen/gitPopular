@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from html import escape
 from pathlib import Path
 
 from .models import DailyReport, RankedRepo, RawReport, RawRepo
@@ -48,8 +49,6 @@ def render_readme(report: DailyReport) -> str:
             "",
             _render_table(report.items),
             "",
-            _render_project_sections(report.items),
-            "",
             "## 数据与归档",
             "",
             f"- JSON 数据：[data/{report.date}.json](data/{report.date}.json)",
@@ -77,7 +76,7 @@ def render_daily_markdown(report: DailyReport) -> str:
             "",
             _render_table(report.items),
             "",
-            _render_project_sections(report.items),
+            _render_project_cards(report.items),
             "",
         ]
     )
@@ -101,8 +100,8 @@ def render_raw_markdown(report: RawReport) -> str:
 
 def _render_table(items: list[RankedRepo]) -> str:
     lines = [
-        "| 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | AI 置信度 |",
-        "| --- | --- | ---: | ---: | --- | ---: |",
+        "| 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |",
+        "| --- | --- | ---: | ---: | --- | --- | ---: | --- |",
     ]
     for item in items:
         lines.append(
@@ -112,7 +111,9 @@ def _render_table(items: list[RankedRepo]) -> str:
             f"{_format_int(item.yesterday_new_stars)} | "
             f"{_format_int(item.total_stars)} | "
             f"{_escape_md(item.language or '未知')} | "
-            f"{item.ai_confidence:.2f} |"
+            f"{_render_inline_tags(item.project_tags_zh)} | "
+            f"{_score_stars(item.recommendation_score)} | "
+            f"{_escape_md(item.adoption_difficulty)} |"
         )
     return "\n".join(lines)
 
@@ -135,31 +136,63 @@ def _render_raw_table(items: list[RawRepo]) -> str:
     return "\n".join(lines)
 
 
-def _render_project_sections(items: list[RankedRepo]) -> str:
+def _render_project_cards(items: list[RankedRepo]) -> str:
     sections: list[str] = []
     for item in items:
         scenarios = "\n".join(
             f"{index}. {scenario}" for index, scenario in enumerate(item.application_scenarios_zh, start=1)
         )
+        adoption_notes = item.adoption_notes_zh or [
+            "先阅读 README 和示例，确认项目是否覆盖当前使用场景。",
+            "检查许可证、更新频率和 issue 状态，再决定是否引入生产流程。",
+            "优先搭建小规模原型，验证依赖、部署和集成成本。",
+        ]
+        notes = "\n".join(f"{index}. {note}" for index, note in enumerate(adoption_notes, start=1))
         topics = ", ".join(f"`{topic}`" for topic in item.topics) if item.topics else "无"
         sections.append(
             "\n".join(
                 [
-                    f"### {item.rank}. [{_escape_md(item.repo)}]({item.url})",
+                    "---",
                     "",
-                    f"- 昨日新增 stars：`{_format_int(item.yesterday_new_stars)}`",
-                    f"- 当前 stars：`{_format_int(item.total_stars)}`",
-                    f"- 主要语言：`{item.language or '未知'}`",
-                    f"- Topics：{topics}",
-                    f"- README：[{_escape_md(item.readme_url)}]({item.readme_url})",
+                    "<details open>",
+                    f"<summary><strong>#{item.rank} "
+                    f"<a href=\"{escape(item.url, quote=True)}\">{escape(item.repo)}</a></strong> "
+                    f"· +{_format_int(item.yesterday_new_stars)} stars · "
+                    f"{escape(item.language or '未知')}</summary>",
                     "",
-                    f"**项目作用**：{item.purpose_zh}",
+                    "| 指标 | 内容 |",
+                    "| --- | --- |",
+                    f"| 一句话定位 | {_escape_md(item.positioning_zh or item.purpose_zh)} |",
+                    f"| 项目标签 | {_render_inline_tags(item.project_tags_zh)} |",
+                    f"| 推荐关注 | {_score_stars(item.recommendation_score)} |",
+                    f"| 成熟度 | {_score_stars(item.maturity_score)} |",
+                    f"| 接入难度 | `{_escape_md(item.adoption_difficulty)}` |",
+                    f"| AI 置信度 | `{item.ai_confidence:.2f}` |",
+                    f"| 当前 stars | `{_format_int(item.total_stars)}` |",
+                    f"| Topics | {topics} |",
+                    f"| README | [{_escape_md(item.readme_url)}]({item.readme_url}) |",
                     "",
-                    f"**简要解析**：{item.summary_zh}",
+                    "#### 产品/应用价值",
                     "",
-                    "**应用场景预测**：",
+                    item.product_view_zh or item.purpose_zh,
+                    "",
+                    "#### 技术选型观察",
+                    "",
+                    item.technical_view_zh or item.summary_zh,
+                    "",
+                    "#### 趋势判断",
+                    "",
+                    item.trend_view_zh or item.summary_zh,
+                    "",
+                    "#### 应用场景预测",
                     "",
                     scenarios,
+                    "",
+                    "#### 采用建议",
+                    "",
+                    notes,
+                    "",
+                    "</details>",
                 ]
             )
         )
@@ -172,3 +205,14 @@ def _escape_md(value: str) -> str:
 
 def _format_int(value: int) -> str:
     return f"{value:,}"
+
+
+def _render_inline_tags(tags: list[str]) -> str:
+    if not tags:
+        return "`AI 工具`"
+    return " ".join(f"`{_escape_md(tag)}`" for tag in tags[:5])
+
+
+def _score_stars(score: int) -> str:
+    normalized = max(1, min(int(score), 5))
+    return "★" * normalized + "☆" * (5 - normalized)
