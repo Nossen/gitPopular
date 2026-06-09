@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-08 (Asia/Shanghai)
+## 最新榜单：2026-06-09 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 201 | 33,770 | Python | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★★★ | 中 |
-| 2 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 131 | 63,189 | Python | `RAG` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 高 |
-| 3 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 122 | 38,241 | Shell | `智能体` `AI 编程` `大模型` `多模态` `模型推理` | ★★★★★ | 低 |
-| 4 | [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) | 107 | 8,384 | Python | `向量检索` `RAG` `大模型` `模型推理` `开发工具` | ★★★★☆ | 高 |
-| 5 | [safishamsi/graphify](https://github.com/safishamsi/graphify) | 101 | 63,137 | Python | `AI 编程` `RAG` `大模型` `智能体` `多模态` | ★★★★★ | 高 |
-| 6 | [roboflow/supervision](https://github.com/roboflow/supervision) | 89 | 42,176 | Python | `多模态` `AI 编程` `模型推理` `视觉 AI` `开发工具` | ★★★★☆ | 中 |
-| 7 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 78 | 18,293 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★☆☆ | 高 |
-| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 76 | 187,090 | Python | `智能体` `AI 编程` `大模型` `OpenAI` `RAG` | ★★★★★ | 高 |
-| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | 62 | 121,351 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
-| 10 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 60 | 148,226 | Python | `OpenAI` `多模态` `大模型` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
+| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 73 | 36,652 | Python | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★★☆ | 中 |
+| 2 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 43 | 20,093 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
+| 3 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 38 | 25,376 | Python | `智能体` `自动化` `AI 编程` `MCP` `大模型` | ★★★★☆ | 高 |
+| 4 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 37 | 211,639 | JavaScript | `智能体` `AI 编程` `大模型` `MCP` `RAG` | ★★★★★ | 高 |
+| 5 | [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) | 37 | 9,929 | Python | `向量检索` `RAG` `大模型` `模型推理` `开发工具` | ★★★☆☆ | 高 |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 36 | 39,335 | Shell | `智能体` `AI 编程` `大模型` `多模态` `模型推理` | ★★★★☆ | 低 |
+| 7 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 34 | 83,346 | Python | `自动化` `智能体` `大模型` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 8 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 33 | 65,017 | Python | `RAG` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 9 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | 32 | 45,733 | TypeScript | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★★☆ | 高 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | 30 | 122,847 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-08.json](data/2026-06-08.json)
-- Markdown 归档：[reports/2026-06-08.md](reports/2026-06-08.md)
+- JSON 数据：[data/2026-06-09.json](data/2026-06-09.json)
+- Markdown 归档：[reports/2026-06-09.md](reports/2026-06-09.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
