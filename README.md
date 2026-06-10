@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 73 | 36,652 | Python | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★★☆ | 中 |
-| 2 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 43 | 20,093 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
-| 3 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 38 | 25,376 | Python | `智能体` `自动化` `AI 编程` `MCP` `大模型` | ★★★★☆ | 高 |
-| 4 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 37 | 211,639 | JavaScript | `智能体` `AI 编程` `大模型` `MCP` `RAG` | ★★★★★ | 高 |
-| 5 | [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) | 37 | 9,929 | Python | `向量检索` `RAG` `大模型` `模型推理` `开发工具` | ★★★☆☆ | 高 |
-| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 36 | 39,335 | Shell | `智能体` `AI 编程` `大模型` `多模态` `模型推理` | ★★★★☆ | 低 |
-| 7 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 34 | 83,346 | Python | `自动化` `智能体` `大模型` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 8 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 33 | 65,017 | Python | `RAG` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 9 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | 32 | 45,733 | TypeScript | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★★☆ | 高 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | 30 | 122,847 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 1 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 73 | 36,652 | Python | `AI 搜索` `Agent 技能` `趋势研究` `社媒分析` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 43 | 20,093 | Python | `上下文压缩` `MCP` `RAG` `Agent 基础设施` `AI 工具` | ★★★★★ | 中 |
+| 3 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 38 | 25,376 | Python | `Agent 工具` `网页抓取` `社媒搜索` `中文平台` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 37 | 211,639 | JavaScript | `Agent 工作流` `开发效率` `安全护栏` `MCP` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [RyanCodrai/turbovec](https://github.com/RyanCodrai/turbovec) | 37 | 9,929 | Python | `向量检索` `RAG` `Rust` `量化` `AI 工具` | ★★★★☆ | 高 |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 36 | 39,335 | Shell | `Agent Skill` `前端设计` `审美规范` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 34 | 83,346 | Python | `AI 视频` `短视频自动化` `内容生成` `Python` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 33 | 65,017 | Python | `自托管` `AI 工作台` `本地优先` `Agent` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | 32 | 45,733 | TypeScript | `代码知识图谱` `AI 编程` `本地索引` `MCP` `AI 工具` | ★★★★★ | 中 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | 30 | 122,847 | Shell | `工程技能` `Agent Skill` `需求澄清` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
 
 ## 数据与归档
 
