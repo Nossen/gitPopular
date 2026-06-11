@@ -1,53 +1,10 @@
 {
-  "date": "2026-06-08",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-11T14:11:35.859305Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "mvanhorn/last30days-skill",
-      "repo_id": 1140843380,
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "language": "Python",
-      "topics": [
-        "ai-prompts",
-        "ai-skill",
-        "bluesky",
-        "claude",
-        "claude-code",
-        "clawhub",
-        "deep-research",
-        "hackernews",
-        "instagram",
-        "openclaw",
-        "polymarket",
-        "recency",
-        "reddit",
-        "research",
-        "social-media",
-        "tiktok",
-        "trends",
-        "twitter",
-        "web-search",
-        "youtube"
-      ],
-      "yesterday_new_stars": 201,
-      "total_stars": 33770,
-      "readme_url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "last30days-skill 是给 AI Agent 使用的近期信息研究技能，把 Reddit、X、YouTube、HN、Polymarket 和网页搜索等来源汇总成近 30 天简报。",
       "purpose_zh": "它解决模型训练数据滞后和人工跨平台搜集信号成本高的问题，适合热点追踪、竞品观察、会议准备和市场调研。",
-      "application_scenarios_zh": [
-        "产品团队追踪 Reddit、X、HN 等社区对新技术的近期反馈",
-        "销售或投资会议前快速汇总目标人物、公司和市场近况",
-        "开发者在选型前收集最近 30 天的问题、教程和案例"
-      ],
       "positioning_zh": "项目不是通用搜索引擎，而是面向 Claude Code、Codex、Cursor 等 Agent 的研究入口，强调用社媒互动、社区讨论和预测市场信号排序。",
       "product_view_zh": "产品价值在于缩短从问题到可判断材料的路径，让研究类任务更快获得有来源的摘要和线索。",
       "technical_view_zh": "接入时要评估平台认证、速率限制、引用可追溯性和隐私边界，多源检索的稳定性会直接影响摘要质量。",
@@ -56,12 +13,16 @@
         "AI 搜索",
         "Agent 技能",
         "趋势研究",
-        "社媒分析",
-        "AI 工具"
+        "社媒分析"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "产品团队追踪 Reddit、X、HN 等社区对新技术的近期反馈",
+        "销售或投资会议前快速汇总目标人物、公司和市场近况",
+        "开发者在选型前收集最近 30 天的问题、教程和案例"
+      ],
       "adoption_notes_zh": [
         "先从无需认证的数据源试用，确认摘要质量和引用颗粒度",
         "涉及社媒平台时评估账号、代理、频率限制和合规风险",
@@ -69,24 +30,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "pewdiepie-archdaemon/odysseus",
-      "repo_id": 1255180606,
-      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
-      "description": "Self-hosted AI workspace. ",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 131,
-      "total_stars": 63189,
-      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/dev/README.md",
       "ai_confidence": 0.78,
       "summary_zh": "Odysseus 是自托管 AI workspace，README 描述为类似 ChatGPT 和 Claude 的本地化工作台，支持聊天、Agent、模型推荐、深度研究、文档和多模型比较。",
       "purpose_zh": "它面向想把 AI 会话、工具和知识工作流放到自有环境中的个人或团队，减少对单一云端聊天界面的依赖。",
-      "application_scenarios_zh": [
-        "个人开发者搭建私有 AI 聊天和 Agent 工作台",
-        "小团队验证内部知识、模型和 AI 会话的统一入口",
-        "对云端聊天工具有数据边界要求的试点场景"
-      ],
       "positioning_zh": "项目定位是自托管 AI 前台和工作区，而不是底层模型框架；重点在体验整合、本地优先和可控部署。",
       "product_view_zh": "产品吸引力来自数据可控和统一入口，但团队采用前需要看清功能完整度、权限模型、协作边界和长期维护节奏。",
       "technical_view_zh": "默认开发分支可能不稳定，接入时应优先确认稳定分支、依赖服务、模型后端、认证方式和升级路径。",
@@ -95,12 +42,16 @@
         "自托管",
         "AI 工作台",
         "本地优先",
-        "工具整合",
-        "AI 工具"
+        "工具整合"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "个人开发者搭建私有 AI 聊天和 Agent 工作台",
+        "小团队验证内部知识、模型和 AI 会话的统一入口",
+        "对云端聊天工具有数据边界要求的试点场景"
+      ],
       "adoption_notes_zh": [
         "优先查看 main 或稳定分支，不要默认把开发分支用于生产",
         "上线前检查登录、权限、数据存储、备份和审计策略",
@@ -108,38 +59,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "Leonxlnx/taste-skill",
-      "repo_id": 1162099055,
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
-      "language": "Shell",
-      "topics": [
-        "agent",
-        "ai",
-        "claude",
-        "claude-code",
-        "codex",
-        "coding",
-        "design",
-        "frontend",
-        "lowcode",
-        "nocode",
-        "skill",
-        "skills",
-        "vibecoding"
-      ],
-      "yesterday_new_stars": 122,
-      "total_stars": 38241,
-      "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
       "ai_confidence": 0.8,
       "summary_zh": "taste-skill 是给 AI 编程 Agent 使用的前端审美技能包，目标是减少模板化、廉价感和泛泛而谈的界面输出，强化布局、字体、动效和间距判断。",
       "purpose_zh": "它面向低代码、vibe coding 和 AI 前端生成场景，帮助 Agent 在视觉取舍、组件组织和交付质感上更接近人工设计流程。",
-      "application_scenarios_zh": [
-        "AI 生成管理后台、官网或移动端原型时提供审美约束",
-        "设计资源不足的小团队提升前端第一稿质量",
-        "团队把设计偏好沉淀成可复用的 Agent 指令"
-      ],
       "positioning_zh": "项目定位是设计规则和工作流技能，不是 UI 框架；适合嵌入 Claude Code、Codex、Cursor 等 Agent 的生成链路。",
       "product_view_zh": "产品价值在于提升原型第一稿质量，减少设计返工，但不能替代真实品牌规范、用户研究和可用性验证。",
       "technical_view_zh": "采用时要看技能说明是否能被目标 Agent 稳定调用，以及是否会与现有设计系统、组件库和团队规范冲突。",
@@ -148,12 +71,16 @@
         "前端设计",
         "Agent 技能",
         "AI 编程",
-        "原型生成",
-        "AI 工具"
+        "原型生成"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "AI 生成管理后台、官网或移动端原型时提供审美约束",
+        "设计资源不足的小团队提升前端第一稿质量",
+        "团队把设计偏好沉淀成可复用的 Agent 指令"
+      ],
       "adoption_notes_zh": [
         "先在低风险页面试用，观察是否真的减少返工",
         "结合自己的设计系统改写规则，避免输出风格漂移",
@@ -161,40 +88,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "RyanCodrai/turbovec",
-      "repo_id": 1192555574,
-      "url": "https://github.com/RyanCodrai/turbovec",
-      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-      "language": "Python",
-      "topics": [
-        "ann",
-        "avx512",
-        "embedding",
-        "embeddings",
-        "faiss",
-        "nearest-neighbor",
-        "neon",
-        "python",
-        "quant",
-        "quantization",
-        "rag",
-        "rust",
-        "simd",
-        "turboquant",
-        "vector-search"
-      ],
-      "yesterday_new_stars": 107,
-      "total_stars": 8384,
-      "readme_url": "https://github.com/RyanCodrai/turbovec/blob/main/README.md",
       "ai_confidence": 0.87,
       "summary_zh": "turbovec 是基于 TurboQuant 的向量索引项目，以 Rust 实现核心能力并提供 Python 绑定，面向嵌入检索和近似最近邻搜索。",
       "purpose_zh": "它解决 RAG、推荐和语义检索中向量索引的内存占用、检索延迟和本地部署语言接口问题。",
-      "application_scenarios_zh": [
-        "RAG 系统评估本地向量索引替代方案",
-        "推荐或相似度搜索服务优化检索延迟和内存占用",
-        "Python 数据应用引入 Rust 向量检索能力"
-      ],
       "positioning_zh": "项目定位为轻量高性能向量检索组件，和 Faiss 等方案处在同一选型层，但强调量化、SIMD 和无训练索引流程。",
       "product_view_zh": "产品价值在于让 Python 应用获得 Rust 底层性能，适合对检索延迟、内存和私有化部署敏感的团队评估。",
       "technical_view_zh": "采用前要用真实 embedding 分布测试召回率、延迟、构建时间、AVX512/NEON 支持和跨平台 wheel 可用性。",
@@ -203,12 +100,16 @@
         "向量检索",
         "RAG",
         "Rust",
-        "量化",
-        "AI 工具"
+        "量化"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "RAG 系统评估本地向量索引替代方案",
+        "推荐或相似度搜索服务优化检索延迟和内存占用",
+        "Python 数据应用引入 Rust 向量检索能力"
+      ],
       "adoption_notes_zh": [
         "用业务 embedding 和查询集测试召回率，不只看 README benchmark",
         "确认目标 CPU 指令集、Python 版本和部署平台是否支持",
@@ -216,36 +117,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "safishamsi/graphify",
-      "repo_id": 1200597263,
-      "url": "https://github.com/safishamsi/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "topics": [
-        "antigravity",
-        "claude-code",
-        "codex",
-        "gemini",
-        "graphrag",
-        "knowledge-graph",
-        "leiden",
-        "openclaw",
-        "rag",
-        "skills",
-        "tree-sitter"
-      ],
-      "yesterday_new_stars": 101,
-      "total_stars": 63137,
-      "readme_url": "https://github.com/safishamsi/graphify/blob/v8/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "graphify 是面向 AI 编程助手的知识图谱技能，可把代码、SQL schema、脚本、文档、论文、图片和视频等资料转成可查询的项目图谱。",
       "purpose_zh": "它解决大型代码库和多类型资料难以被 Agent 准确理解的问题，让应用代码、数据库结构和基础设施关系进入同一分析视图。",
-      "application_scenarios_zh": [
-        "新成员快速理解代码库、数据库 schema 和基础设施关系",
-        "重构前分析跨模块依赖和潜在影响范围",
-        "把文档、脚本和代码合并成 Agent 可查询的知识层"
-      ],
       "positioning_zh": "项目定位在 GraphRAG 与代码理解之间，不是普通文件索引；重点是用图结构表达依赖、实体和跨文件关系。",
       "product_view_zh": "产品价值在于帮助团队更快回答架构、影响范围和知识检索问题，尤其适合接手陌生系统或做重构前调研。",
       "technical_view_zh": "接入时要评估解析器覆盖、图构建耗时、增量更新、隐私边界，以及与现有 RAG、代码搜索和数据库文档流程的重叠。",
@@ -254,12 +129,16 @@
         "知识图谱",
         "GraphRAG",
         "代码理解",
-        "Agent 技能",
-        "AI 工具"
+        "Agent 技能"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "新成员快速理解代码库、数据库 schema 和基础设施关系",
+        "重构前分析跨模块依赖和潜在影响范围",
+        "把文档、脚本和代码合并成 Agent 可查询的知识层"
+      ],
       "adoption_notes_zh": [
         "先对一个中等规模仓库试跑，确认图谱构建时间和查询质量",
         "检查是否会收集敏感代码、凭据、图像或内部文档",
@@ -267,44 +146,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "roboflow/supervision",
-      "repo_id": 571613891,
-      "url": "https://github.com/roboflow/supervision",
-      "description": "We write your reusable computer vision tools. 💜",
-      "language": "Python",
-      "topics": [
-        "classification",
-        "coco",
-        "computer-vision",
-        "deep-learning",
-        "hacktoberfest",
-        "image-processing",
-        "instance-segmentation",
-        "low-code",
-        "machine-learning",
-        "metrics",
-        "object-detection",
-        "oriented-bounding-box",
-        "pascal-voc",
-        "python",
-        "pytorch",
-        "tensorflow",
-        "tracking",
-        "video-processing",
-        "yolo"
-      ],
-      "yesterday_new_stars": 89,
-      "total_stars": 42176,
-      "readme_url": "https://github.com/roboflow/supervision/blob/develop/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "supervision 是 Roboflow 维护的可复用计算机视觉工具库，覆盖检测、分割、分类、跟踪、标注、数据集处理和模型评估等常见工程环节。",
       "purpose_zh": "它解决视觉项目从模型输出到可视化、数据转换、指标计算和视频处理之间重复造轮子的问题。",
-      "application_scenarios_zh": [
-        "把检测或分割模型输出快速绘制到图片和视频上",
-        "构建视觉数据集转换、采样、过滤和评估脚本",
-        "原型验证工业检测、安防分析或零售客流等 CV 应用"
-      ],
       "positioning_zh": "项目定位是视觉应用工程工具层，不替代 YOLO、PyTorch 或 TensorFlow 模型，而是把模型结果变成可用工作流。",
       "product_view_zh": "产品价值在于降低 CV 原型和生产管线的胶水代码成本，适合需要快速验证检测、跟踪和标注体验的团队。",
       "technical_view_zh": "采用时要确认目标模型输出格式、视频处理性能、依赖版本、数据集格式转换和与现有训练/推理框架的兼容性。",
@@ -313,12 +158,16 @@
         "计算机视觉",
         "目标检测",
         "数据标注",
-        "视频分析",
-        "AI 工具"
+        "视频分析"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "把检测或分割模型输出快速绘制到图片和视频上",
+        "构建视觉数据集转换、采样、过滤和评估脚本",
+        "原型验证工业检测、安防分析或零售客流等 CV 应用"
+      ],
       "adoption_notes_zh": [
         "先用现有模型输出验证标注、跟踪和评估 API 是否匹配",
         "视频场景要单独压测帧率、内存和批处理吞吐",
@@ -326,45 +175,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "chopratejas/headroom",
-      "repo_id": 1129940957,
-      "url": "https://github.com/chopratejas/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "yesterday_new_stars": 78,
-      "total_stars": 18293,
-      "readme_url": "https://github.com/chopratejas/headroom/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "headroom 聚焦 LLM 上下文压缩，可在工具输出、日志、文件和 RAG 片段进入模型前减少 token，并以库、代理和 MCP server 形态接入。",
       "purpose_zh": "它解决 Agent 和 RAG 场景中上下文过长、费用过高、模型注意力被噪声占用的问题。",
-      "application_scenarios_zh": [
-        "代码助手压缩日志、diff 和工具输出后再交给模型",
-        "企业知识库在召回后压缩冗余段落降低推理成本",
-        "Agent 平台通过代理层统一控制上下文预算"
-      ],
       "positioning_zh": "项目定位为上下文工程基础设施，不直接替代向量库或模型，而是作为进入模型前的压缩和预算控制层。",
       "product_view_zh": "产品价值在于降低推理成本并提升长任务可用性，尤其适合日志分析、代码助手、知识库问答和工具调用密集流程。",
       "technical_view_zh": "需要验证压缩后答案是否保持一致、延迟是否可接受，以及代理模式是否影响现有 SDK、MCP 或 RAG 链路。",
@@ -373,12 +187,16 @@
         "上下文压缩",
         "RAG",
         "MCP",
-        "Token 优化",
-        "AI 工具"
+        "Token 优化"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "代码助手压缩日志、diff 和工具输出后再交给模型",
+        "企业知识库在召回后压缩冗余段落降低推理成本",
+        "Agent 平台通过代理层统一控制上下文预算"
+      ],
       "adoption_notes_zh": [
         "用真实任务集对比压缩前后的回答准确率",
         "关注压缩带来的额外延迟和失败回退策略",
@@ -386,41 +204,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "NousResearch/hermes-agent",
-      "repo_id": 1024554267,
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
-      ],
-      "yesterday_new_stars": 76,
-      "total_stars": 187090,
-      "readme_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
       "ai_confidence": 0.84,
       "summary_zh": "Hermes Agent 是 NousResearch 推出的 AI Agent 项目，强调内置学习循环、技能沉淀、长期记忆、工具调用和跨会话个性化。",
       "purpose_zh": "它面向需要长期使用、异步执行和个人化能力的 Agent 场景，尝试把模型、记忆、技能和运行环境组织成产品化助手。",
-      "application_scenarios_zh": [
-        "个人知识工作者试用长期 AI 助手",
-        "开发者评估可扩展 Agent 的工具调用和记忆机制",
-        "团队观察开源 Agent 产品化路径和社区反馈"
-      ],
       "positioning_zh": "项目定位偏完整 Agent 生态，而不是单个脚本或 prompt 包；品牌、文档、桌面端和社区资源也是重要信号。",
       "product_view_zh": "产品价值在于提供更持续的 AI 工作伙伴体验，但实际采用要看功能开放度、数据边界、权限控制和运行稳定性。",
       "technical_view_zh": "需要检查工具调用、状态存储、模型 provider 支持、本地/云端边界和远程执行权限，避免直接接入敏感任务。",
@@ -429,12 +216,16 @@
         "AI Agent",
         "长期记忆",
         "工具调用",
-        "NousResearch",
-        "AI 工具"
+        "NousResearch"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "个人知识工作者试用长期 AI 助手",
+        "开发者评估可扩展 Agent 的工具调用和记忆机制",
+        "团队观察开源 Agent 产品化路径和社区反馈"
+      ],
       "adoption_notes_zh": [
         "先按官方文档跑通基础任务，再评估扩展和长期记忆能力",
         "明确哪些数据会进入模型、日志、远端服务或云端执行环境",
@@ -442,24 +233,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 62,
-      "total_stars": 121351,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.79,
       "summary_zh": "mattpocock/skills 是面向工程实践的 Agent 技能集合，README 强调小而可组合、可改造，并用于真实软件开发而不是完全交给流程框架接管。",
       "purpose_zh": "它解决开发者想复用成熟工程判断、但又不希望复杂方法论夺走控制权的问题，适合把个人工作流沉淀成可调用技能。",
-      "application_scenarios_zh": [
-        "个人开发者整理可复用的代码审查和实现工作流",
-        "团队把资深工程师经验改写成 Agent 可调用技能",
-        "在 Claude Code、Codex 等工具中试用轻量任务流程"
-      ],
       "positioning_zh": "项目定位是工程技能库和经验模板，不是完整 Agent 平台；核心卖点在可读、可移植和便于团队二次调整。",
       "product_view_zh": "产品价值在于让开发者快速借鉴代码审查、任务拆解、实现约束等工作习惯，降低从零写提示词的成本。",
       "technical_view_zh": "接入时要检查技能文本是否适合本团队栈、issue 工具和代码规范，避免直接套用导致流程和本地约束冲突。",
@@ -468,12 +245,16 @@
         "Agent 技能",
         "工程流程",
         "开发者工具",
-        "工作流",
-        "AI 工具"
+        "工作流"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "个人开发者整理可复用的代码审查和实现工作流",
+        "团队把资深工程师经验改写成 Agent 可调用技能",
+        "在 Claude Code、Codex 等工具中试用轻量任务流程"
+      ],
       "adoption_notes_zh": [
         "先挑一两个技能试用，不要一次性引入整套流程",
         "根据团队 issue、测试和发布习惯改写默认说明",
@@ -481,32 +262,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "microsoft/markitdown",
-      "repo_id": 888092115,
-      "url": "https://github.com/microsoft/markitdown",
-      "description": "Python tool for converting files and office documents to Markdown.",
-      "language": "Python",
-      "topics": [
-        "autogen",
-        "autogen-extension",
-        "langchain",
-        "markdown",
-        "microsoft-office",
-        "openai",
-        "pdf"
-      ],
-      "yesterday_new_stars": 60,
-      "total_stars": 148226,
-      "readme_url": "https://github.com/microsoft/markitdown/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "MarkItDown 是 Microsoft 维护的 Python 文档转换工具，可把 PDF、Office、图片、音频、HTML、CSV、JSON、XML、ZIP 和 YouTube 等内容转为 Markdown。",
       "purpose_zh": "它解决 LLM 和文本分析流程难以直接消费多格式文件的问题，把结构化内容转成更易检索、摘要和切分的 Markdown。",
-      "application_scenarios_zh": [
-        "把企业 PDF、Word、PPT 和 Excel 批量转入知识库",
-        "为 Agent 文件阅读、摘要和问答任务准备 Markdown 输入",
-        "在数据清洗流程中抽取图片、音频或压缩包中的文本线索"
-      ],
       "positioning_zh": "项目定位是文档理解管线的轻量转换层，不追求高保真排版，而是保留足够结构给模型和自动化任务使用。",
       "product_view_zh": "产品价值在于降低企业知识库、资料清洗和 Agent 文件读取的前处理成本，适合需要处理多类型文档的团队。",
       "technical_view_zh": "采用时要注意 README 提到的 I/O 权限风险，按场景选择最窄的转换入口，并隔离不可信文件和外部链接。",
@@ -515,12 +274,16 @@
         "文档转换",
         "Markdown",
         "LLM 管线",
-        "微软",
-        "AI 工具"
+        "微软"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "把企业 PDF、Word、PPT 和 Excel 批量转入知识库",
+        "为 Agent 文件阅读、摘要和问答任务准备 Markdown 输入",
+        "在数据清洗流程中抽取图片、音频或压缩包中的文本线索"
+      ],
       "adoption_notes_zh": [
         "处理不可信文件时使用隔离环境和最小权限",
         "高保真排版不是目标，正式归档前要保留原文件",
