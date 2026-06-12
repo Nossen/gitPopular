@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-11 (Asia/Shanghai)
+## 最新榜单：2026-06-12 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 111 | 4,049 | TypeScript | `AI 编程` `终端 Agent` `跨会话记忆` `开发工具` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 90 | 54,112 | Shell | `Agent 技能` `工程流程` `质量门槛` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 51 | 16,041 | 未知 | `产品管理` `Agent 技能` `增长` `工作流` `AI 工具` | ★★★☆☆ | 低 |
-| 4 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 48 | 111,309 | Shell | `多 Agent` `角色协作` `营销` `工作流` `AI 工具` | ★★★☆☆ | 低 |
-| 5 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 47 | 85,866 | Python | `短视频生成` `AIGC` `内容自动化` `多媒体` `AI 工具` | ★★★★☆ | 高 |
-| 6 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 34 | 22,869 | Python | `上下文压缩` `RAG` `MCP` `Token 优化` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 34 | 41,378 | Shell | `前端设计` `Agent 技能` `AI 编程` `原型生成` `AI 工具` | ★★★☆☆ | 低 |
-| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 33 | 190,794 | Python | `AI Agent` `桌面助手` `NousResearch` `工具调用` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers) | 32 | 224,602 | Shell | `开发方法论` `Agent 技能` `质量流程` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 10 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 29 | 151,009 | Python | `文档转换` `RAG` `Markdown` `微软` `AI 工具` | ★★★★★ | 低 |
+| 1 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 76 | 6,287 | TypeScript | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 65 | 56,477 | Shell | `AI 编程` `大模型` `智能体` `模型推理` `视觉 AI` | ★★★★☆ | 高 |
+| 3 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | 56 | 29,695 | 未知 | `智能体` `OpenAI` `大模型` `模型推理` `高增长` | ★★★★☆ | 低 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 42 | 126,722 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 5 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 36 | 24,267 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
+| 6 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 33 | 112,137 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 高 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | 31 | 225,783 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
+| 8 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 30 | 151,873 | Python | `OpenAI` `多模态` `大模型` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
+| 9 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 28 | 69,095 | Python | `RAG` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 10 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 27 | 3,222 | Python | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-11.json](data/2026-06-11.json)
-- Markdown 归档：[reports/2026-06-11.md](reports/2026-06-11.md)
+- JSON 数据：[data/2026-06-12.json](data/2026-06-12.json)
+- Markdown 归档：[reports/2026-06-12.md](reports/2026-06-12.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
