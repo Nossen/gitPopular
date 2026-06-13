@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 76 | 6,287 | TypeScript | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 65 | 56,477 | Shell | `AI 编程` `大模型` `智能体` `模型推理` `视觉 AI` | ★★★★☆ | 高 |
-| 3 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | 56 | 29,695 | 未知 | `智能体` `OpenAI` `大模型` `模型推理` `高增长` | ★★★★☆ | 低 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 42 | 126,722 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
-| 5 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 36 | 24,267 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
-| 6 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 33 | 112,137 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 高 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | 31 | 225,783 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
-| 8 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 30 | 151,873 | Python | `OpenAI` `多模态` `大模型` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
-| 9 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 28 | 69,095 | Python | `RAG` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 10 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 27 | 3,222 | Python | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★☆☆ | 中 |
+| 1 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 76 | 6,287 | TypeScript | `AI 编程` `终端 Agent` `跨会话记忆` `开发工具` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 65 | 56,477 | Shell | `Agent 技能` `工程流程` `质量门禁` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | 56 | 29,695 | 未知 | `系统提示词` `AI 透明度` `红队研究` `模型治理` `AI 工具` | ★★☆☆☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 42 | 126,722 | Shell | `工程技能` `TypeScript` `AI 编程` `开发方法` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 36 | 24,267 | Python | `上下文压缩` `RAG` `MCP` `Token 优化` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 33 | 112,137 | Shell | `多 Agent` `角色协作` `工作流` `团队助手` `AI 工具` | ★★★☆☆ | 低 |
+| 7 | [obra/superpowers](https://github.com/obra/superpowers) | 31 | 225,783 | Shell | `开发方法论` `Agent 技能` `质量流程` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 8 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 30 | 151,873 | Python | `文档转换` `Markdown` `RAG` `Python` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 28 | 69,095 | Python | `自托管 AI` `AI 工作区` `本地模型` `Agent` `AI 工具` | ★★★☆☆ | 高 |
+| 10 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 27 | 3,222 | Python | `Agent 安全` `技能扫描` `供应链安全` `MCP` `AI 工具` | ★★★★★ | 中 |
 
 ## 数据与归档
 
