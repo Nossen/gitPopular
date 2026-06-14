@@ -1,53 +1,10 @@
 {
-  "date": "2026-06-13",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-14T12:33:36.815500Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "elder-plinius/CL4R1T4S",
-      "repo_id": 942867788,
-      "url": "https://github.com/elder-plinius/CL4R1T4S",
-      "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
-      "language": null,
-      "topics": [
-        "agents",
-        "ai",
-        "chatgpt",
-        "gemini",
-        "google",
-        "grok",
-        "hacking",
-        "leak",
-        "leaked",
-        "openai",
-        "prompt",
-        "prompt-engineering",
-        "prompts",
-        "red-team",
-        "red-teaming",
-        "system",
-        "system-info",
-        "system-prompts",
-        "tools",
-        "transparency"
-      ],
-      "yesterday_new_stars": 113,
-      "total_stars": 33998,
-      "readme_url": "https://github.com/elder-plinius/CL4R1T4S/blob/main/README.md",
       "ai_confidence": 0.78,
       "summary_zh": "CL4R1T4S 收集多家 AI 产品疑似系统提示词，主打透明度、可观察性和红队研究参考。",
       "purpose_zh": "它服务于安全、治理和产品研究者理解模型外层规则、拒答边界与不同产品行为差异。",
-      "application_scenarios_zh": [
-        "研究不同 AI 产品的行为约束和安全边界",
-        "为内部红队测试设计参考维度",
-        "跟踪系统提示词公开化带来的治理议题"
-      ],
       "positioning_zh": "项目更像提示词情报资料库，不是可直接集成的应用框架；价值取决于来源可信度与合法使用边界。",
       "product_view_zh": "可用于竞品行为观察、合规讨论和安全培训，但不适合把内容直接复制进生产提示词。",
       "technical_view_zh": "使用时应把仓库文本视为未验证材料，重点做来源校验、脱敏、访问控制和法律风险评估。",
@@ -56,12 +13,16 @@
         "系统提示词",
         "AI 透明度",
         "红队研究",
-        "模型治理",
-        "AI 工具"
+        "模型治理"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
       "recommendation_score": 2,
+      "application_scenarios_zh": [
+        "研究不同 AI 产品的行为约束和安全边界",
+        "为内部红队测试设计参考维度",
+        "跟踪系统提示词公开化带来的治理议题"
+      ],
       "adoption_notes_zh": [
         "不要把仓库文本当作已验证事实",
         "先确认法律、合规和公司安全边界",
@@ -69,24 +30,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "XiaomiMiMo/MiMo-Code",
-      "repo_id": 1265025028,
-      "url": "https://github.com/XiaomiMiMo/MiMo-Code",
-      "description": "",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 76,
-      "total_stars": 8037,
-      "readme_url": "https://github.com/XiaomiMiMo/MiMo-Code/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "MiMo-Code 是小米开源的终端 AI 编程 Agent，强调跨会话记忆、多 Agent 协作、任务跟踪和代码库上下文管理。",
       "purpose_zh": "它希望把一次性代码问答推进到可持续执行的工程助手，适合连续修复、重构和项目理解。",
-      "application_scenarios_zh": [
-        "在已有代码库中执行连续修复和重构",
-        "试点带记忆的终端 AI 编程助手",
-        "评估国产模型与开源 Agent 的结合能力"
-      ],
       "positioning_zh": "定位接近终端里的开发代理，而不是普通聊天壳；差异点在记忆、长任务和工具协作。",
       "product_view_zh": "对团队的价值在于评估私有化 AI 编程入口，但需要先确认权限、审计和现有 IDE/CLI 习惯。",
       "technical_view_zh": "选型时重点看模型配置、工具边界、记忆存储、沙箱策略和大仓库稳定性。",
@@ -95,12 +42,16 @@
         "AI 编程",
         "终端 Agent",
         "跨会话记忆",
-        "开发工具",
-        "AI 工具"
+        "开发工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "在已有代码库中执行连续修复和重构",
+        "试点带记忆的终端 AI 编程助手",
+        "评估国产模型与开源 Agent 的结合能力"
+      ],
       "adoption_notes_zh": [
         "先在非敏感仓库验证工具调用和回滚流程",
         "明确记忆内容的存储位置、清理方式和访问权限",
@@ -108,45 +59,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "chopratejas/headroom",
-      "repo_id": 1129940957,
-      "url": "https://github.com/chopratejas/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "yesterday_new_stars": 66,
-      "total_stars": 26534,
-      "readme_url": "https://github.com/chopratejas/headroom/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "headroom 在工具输出、日志、文件和 RAG 片段进入模型前做上下文压缩，目标是减少 token、噪声和无效阅读。",
       "purpose_zh": "它解决 Agent 与知识库场景中上下文过长、成本过高、关键信息被稀释的问题。",
-      "application_scenarios_zh": [
-        "压缩代码助手的日志、diff 和工具输出",
-        "在知识库召回后压缩冗余段落",
-        "为 Agent 平台统一控制上下文预算"
-      ],
       "positioning_zh": "定位是上下文工程基础层，可作为库、代理或 MCP server 接入现有链路。",
       "product_view_zh": "适合日志分析、代码助手和 RAG 问答降本，但必须验证压缩后答案仍可靠。",
       "technical_view_zh": "选型应测试延迟、召回损失、失败回退，以及与 SDK、MCP、RAG 管线的兼容性。",
@@ -155,12 +71,16 @@
         "上下文压缩",
         "RAG",
         "MCP",
-        "Token 优化",
-        "AI 工具"
+        "Token 优化"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "压缩代码助手的日志、diff 和工具输出",
+        "在知识库召回后压缩冗余段落",
+        "为 Agent 平台统一控制上下文预算"
+      ],
       "adoption_notes_zh": [
         "用真实任务集对比压缩前后的准确率",
         "为压缩失败准备原文回退路径",
@@ -168,31 +88,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "addyosmani/agent-skills",
-      "repo_id": 1158722119,
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "Shell",
-      "topics": [
-        "agent-skills",
-        "antigravity",
-        "antigravity-ide",
-        "claude-code",
-        "cursor",
-        "skills"
-      ],
-      "yesterday_new_stars": 64,
-      "total_stars": 58679,
-      "readme_url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "agent-skills 汇集面向 AI 编码 Agent 的工程技能，把定义、计划、构建、验证、评审和发布流程结构化。",
       "purpose_zh": "它解决 Agent 输出不稳、质量门槛缺失和团队实践难复用的问题。",
-      "application_scenarios_zh": [
-        "统一 Codex、Claude Code 等工具的工程规范",
-        "把团队测试、评审和发布步骤沉淀为技能",
-        "培训成员理解 AI 辅助开发的质量要求"
-      ],
       "positioning_zh": "项目是工作流规范库，不是运行时框架；价值在把资深工程习惯固化成可调用技能。",
       "product_view_zh": "适合研发团队统一不同 AI 工具的交付标准，降低提示词和流程维护成本。",
       "technical_view_zh": "接入前要核对技能格式、触发规则、命令依赖以及与现有项目规范的冲突。",
@@ -201,12 +100,16 @@
         "Agent 技能",
         "工程流程",
         "质量门禁",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "统一 Codex、Claude Code 等工具的工程规范",
+        "把团队测试、评审和发布步骤沉淀为技能",
+        "培训成员理解 AI 辅助开发的质量要求"
+      ],
       "adoption_notes_zh": [
         "先挑少量高频技能试运行",
         "按本仓库规则改写门槛和命令",
@@ -214,45 +117,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "mvanhorn/last30days-skill",
-      "repo_id": 1140843380,
-      "url": "https://github.com/mvanhorn/last30days-skill",
-      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-      "language": "Python",
-      "topics": [
-        "ai-prompts",
-        "ai-skill",
-        "bluesky",
-        "claude",
-        "claude-code",
-        "clawhub",
-        "deep-research",
-        "hackernews",
-        "instagram",
-        "openclaw",
-        "polymarket",
-        "recency",
-        "reddit",
-        "research",
-        "social-media",
-        "tiktok",
-        "trends",
-        "twitter",
-        "web-search",
-        "youtube"
-      ],
-      "yesterday_new_stars": 49,
-      "total_stars": 41400,
-      "readme_url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "last30days-skill 是一个面向 AI Agent 的研究技能，聚合 Reddit、X、YouTube、HN、Polymarket 和网页信息后生成近期主题总结。",
       "purpose_zh": "它解决通用搜索难以覆盖社区信号、时效性材料分散和引用整理成本高的问题。",
-      "application_scenarios_zh": [
-        "跟踪某个行业最近一个月的社区讨论",
-        "为产品路线图收集早期用户信号",
-        "生成带来源线索的市场和内容选题简报"
-      ],
       "positioning_zh": "项目定位为近期舆情与趋势研究技能，不是完整数据平台；亮点在多源检索和综合输出模板。",
       "product_view_zh": "适合产品、投资和内容团队快速形成最近 30 天的议题雷达，但结论仍需人工核验。",
       "technical_view_zh": "接入时要检查各平台访问、速率限制、引用保存、缓存策略和失败降级。",
@@ -261,12 +129,16 @@
         "趋势研究",
         "多源检索",
         "Agent 技能",
-        "舆情分析",
-        "AI 工具"
+        "舆情分析"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "跟踪某个行业最近一个月的社区讨论",
+        "为产品路线图收集早期用户信号",
+        "生成带来源线索的市场和内容选题简报"
+      ],
       "adoption_notes_zh": [
         "先确认外部平台账号、API 和地区访问条件",
         "把引用来源与生成结论一起保存",
@@ -274,24 +146,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "NVIDIA/SkillSpector",
-      "repo_id": 1187630119,
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 44,
-      "total_stars": 4620,
-      "readme_url": "https://github.com/NVIDIA/SkillSpector/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "SkillSpector 是 NVIDIA 开源的 AI Agent 技能安全扫描器，用于检测技能包中的恶意模式、危险命令和供应链风险。",
       "purpose_zh": "它面向正在安装第三方 Agent 技能的团队，降低提示词注入、越权工具调用和隐蔽数据外泄风险。",
-      "application_scenarios_zh": [
-        "扫描团队准备安装的第三方 Agent 技能",
-        "在内部技能市场上架前做安全门禁",
-        "为安全审计积累提示词与工具调用风险样本"
-      ],
       "positioning_zh": "定位是 Agent 生态的安全审计工具，不直接提升生成能力，但能补上技能分发前的安全门禁。",
       "product_view_zh": "适合平台团队、企业安全团队和内部 AI 工具市场，在技能上架或更新前做自动检查。",
       "technical_view_zh": "需要关注规则覆盖率、误报处理、CI 集成方式、扫描可解释性和对本地技能格式的适配。",
@@ -300,12 +158,16 @@
         "Agent 安全",
         "技能扫描",
         "供应链风险",
-        "NVIDIA",
-        "AI 工具"
+        "NVIDIA"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "扫描团队准备安装的第三方 Agent 技能",
+        "在内部技能市场上架前做安全门禁",
+        "为安全审计积累提示词与工具调用风险样本"
+      ],
       "adoption_notes_zh": [
         "先用已知安全和危险样本校准误报率",
         "把扫描结果接入代码评审或 CI 流程",
@@ -313,24 +175,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 42,
-      "total_stars": 127999,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "mattpocock/skills 是一组来自 Claude 使用实践的工程技能，覆盖前端、测试、重构、文档和效率流程。",
       "purpose_zh": "它把常见工程判断拆成可复用指令，减少 Agent 过度啰嗦、跳过验证或产出不可维护代码。",
-      "application_scenarios_zh": [
-        "约束 Agent 做 TDD、重构和代码评审",
-        "沉淀前端团队常用开发流程",
-        "为个人 AI 编程环境补充实战技能"
-      ],
       "positioning_zh": "项目是个人方法论浓度较高的技能库，不是通用平台；优势在前端与 TypeScript 实战经验。",
       "product_view_zh": "适合需要快速提升 AI 编程质量的个人和小团队，但应按本地技术栈裁剪。",
       "technical_view_zh": "接入时要检查技能是否与现有 AGENTS、测试命令和代码风格一致。",
@@ -339,12 +187,16 @@
         "工程技能",
         "TypeScript",
         "AI 编程",
-        "开发方法",
-        "AI 工具"
+        "开发方法"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "约束 Agent 做 TDD、重构和代码评审",
+        "沉淀前端团队常用开发流程",
+        "为个人 AI 编程环境补充实战技能"
+      ],
       "adoption_notes_zh": [
         "优先启用与当前技术栈匹配的技能",
         "删除与团队规则冲突的个人偏好",
@@ -352,24 +204,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "obra/superpowers",
-      "repo_id": 1073224795,
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 40,
-      "total_stars": 227148,
-      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "superpowers 是面向编程 Agent 的软件开发方法论和技能框架，用技能标准化计划、实现、调试和验证流程。",
       "purpose_zh": "它解决 Agent 在复杂开发任务中跳步、缺少测试、难以复盘和上下文执行不稳定的问题。",
-      "application_scenarios_zh": [
-        "为 AI 编码任务建立计划、实现和验证门槛",
-        "把团队工程手册改造成 Agent 可执行技能",
-        "在代码评审前让 Agent 自检遗漏步骤"
-      ],
       "positioning_zh": "定位是 Agent 开发方法论，不是模型或 IDE；价值在纪律、检查点和可复用技能组合。",
       "product_view_zh": "适合希望把 AI 编程纳入正式研发流程的团队，但需要维护本地规则并培训使用者。",
       "technical_view_zh": "接入前应确认目标工具支持技能加载、命令执行、项目级指令合并和失败恢复。",
@@ -378,12 +216,16 @@
         "开发方法论",
         "Agent 技能",
         "质量流程",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "为 AI 编码任务建立计划、实现和验证门槛",
+        "把团队工程手册改造成 Agent 可执行技能",
+        "在代码评审前让 Agent 自检遗漏步骤"
+      ],
       "adoption_notes_zh": [
         "先映射到现有 CI、测试和评审流程",
         "删除与项目 AGENTS 规则重复或冲突的部分",
@@ -391,24 +233,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "colbymchenry/codegraph",
-      "repo_id": 1137078255,
-      "url": "https://github.com/colbymchenry/codegraph",
-      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 38,
-      "total_stars": 48698,
-      "readme_url": "https://github.com/colbymchenry/codegraph/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "codegraph 为代码库建立本地预索引知识图谱，并随代码变化自动同步，服务 Claude Code、Codex、Gemini、Cursor 等 Agent。",
       "purpose_zh": "它希望减少 Agent 读取文件、搜索和重复工具调用的成本，让大仓库问答与修改更稳定。",
-      "application_scenarios_zh": [
-        "为大型单体仓库提供本地语义检索",
-        "减少 Codex 或 Claude Code 的重复文件扫描",
-        "在隐私敏感项目中保留本地代码上下文"
-      ],
       "positioning_zh": "项目定位是本地代码理解基础设施，不替代 Agent，而是为多种编程助手提供语义上下文层。",
       "product_view_zh": "适合大型仓库、频繁 AI 辅助开发和隐私敏感团队，卖点是本地运行与上下文效率。",
       "technical_view_zh": "选型需验证索引准确性、增量同步、语言覆盖、资源占用和与现有开发流程的冲突。",
@@ -417,12 +245,16 @@
         "代码知识图谱",
         "本地索引",
         "AI 编程",
-        "上下文工程",
-        "AI 工具"
+        "上下文工程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "为大型单体仓库提供本地语义检索",
+        "减少 Codex 或 Claude Code 的重复文件扫描",
+        "在隐私敏感项目中保留本地代码上下文"
+      ],
       "adoption_notes_zh": [
         "先在一个中型仓库测量索引时间和磁盘占用",
         "确认自动同步不会影响开发机性能",
@@ -430,38 +262,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "Leonxlnx/taste-skill",
-      "repo_id": 1162099055,
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
-      "language": "Shell",
-      "topics": [
-        "agent",
-        "ai",
-        "claude",
-        "claude-code",
-        "codex",
-        "coding",
-        "design",
-        "frontend",
-        "lowcode",
-        "nocode",
-        "skill",
-        "skills",
-        "vibecoding"
-      ],
-      "yesterday_new_stars": 38,
-      "total_stars": 43197,
-      "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "taste-skill 是面向前端生成的 Agent 技能，目标是减少通用、廉价感和模板化 UI，提升视觉判断与产品表达。",
       "purpose_zh": "它把审美偏好、布局原则和反模式写成技能，让 Agent 在生成界面时少产出空洞装饰和普通卡片堆叠。",
-      "application_scenarios_zh": [
-        "提升 AI 生成 landing page 或仪表盘的初稿质量",
-        "为个人项目建立前端审美反模式清单",
-        "在设计评审前让 Agent 自检 UI 空洞感"
-      ],
       "positioning_zh": "项目是前端品味约束与设计指导，不是组件库；价值在提升初稿方向，而不是替代设计系统。",
       "product_view_zh": "适合个人开发者和小团队改善 AI 前端原型质量，但成熟产品仍应遵循品牌和可用性规范。",
       "technical_view_zh": "接入时要检查技能规则是否与现有设计系统、CSS 框架、可访问性和响应式要求一致。",
@@ -470,12 +274,16 @@
         "前端设计",
         "Agent 技能",
         "UI 品味",
-        "原型生成",
-        "AI 工具"
+        "原型生成"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "提升 AI 生成 landing page 或仪表盘的初稿质量",
+        "为个人项目建立前端审美反模式清单",
+        "在设计评审前让 Agent 自检 UI 空洞感"
+      ],
       "adoption_notes_zh": [
         "先与现有品牌、组件库和可访问性规则对齐",
         "保留人工设计评审，不要只靠品味提示词",
