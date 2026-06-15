@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-13 (Asia/Shanghai)
+## 最新榜单：2026-06-14 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | 113 | 33,998 | 未知 | `系统提示词` `AI 透明度` `红队研究` `模型治理` `AI 工具` | ★★☆☆☆ | 高 |
-| 2 | [XiaomiMiMo/MiMo-Code](https://github.com/XiaomiMiMo/MiMo-Code) | 76 | 8,037 | TypeScript | `AI 编程` `终端 Agent` `跨会话记忆` `开发工具` `AI 工具` | ★★★★☆ | 中 |
-| 3 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 66 | 26,534 | Python | `上下文压缩` `RAG` `MCP` `Token 优化` `AI 工具` | ★★★★☆ | 中 |
-| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 64 | 58,679 | Shell | `Agent 技能` `工程流程` `质量门禁` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 5 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 49 | 41,400 | Python | `趋势研究` `多源检索` `Agent 技能` `舆情分析` `AI 工具` | ★★★★☆ | 中 |
-| 6 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 44 | 4,620 | Python | `Agent 安全` `技能扫描` `供应链风险` `NVIDIA` `AI 工具` | ★★★★★ | 中 |
-| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 42 | 127,999 | Shell | `工程技能` `TypeScript` `AI 编程` `开发方法` `AI 工具` | ★★★★☆ | 低 |
-| 8 | [obra/superpowers](https://github.com/obra/superpowers) | 40 | 227,148 | Shell | `开发方法论` `Agent 技能` `质量流程` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 9 | [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph) | 38 | 48,698 | TypeScript | `代码知识图谱` `本地索引` `AI 编程` `上下文工程` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 38 | 43,197 | Shell | `前端设计` `Agent 技能` `UI 品味` `原型生成` `AI 工具` | ★★★☆☆ | 低 |
+| 1 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | 195 | 38,091 | 未知 | `智能体` `OpenAI` `大模型` `模型推理` `高增长` | ★★★★★ | 低 |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 144 | 9,475 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `JavaScript` | ★★★★☆ | 中 |
+| 3 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 100 | 29,037 | Python | `智能体` `自动化` `AI 编程` `MCP` `大模型` | ★★★★★ | 高 |
+| 4 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 95 | 59,751 | Shell | `AI 编程` `大模型` `智能体` `模型推理` `视觉 AI` | ★★★★☆ | 高 |
+| 5 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 91 | 27,898 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
+| 6 | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | 61 | 5,630 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 高 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 57 | 129,112 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 8 | [omnigent-ai/omnigent](https://github.com/omnigent-ai/omnigent) | 55 | 1,347 | Python | `AI 编程` `大模型` `智能体` `模型推理` `开发工具` | ★★☆☆☆ | 高 |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | 54 | 228,117 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
+| 10 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 47 | 71,161 | Python | `RAG` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-13.json](data/2026-06-13.json)
-- Markdown 归档：[reports/2026-06-13.md](reports/2026-06-13.md)
+- JSON 数据：[data/2026-06-14.json](data/2026-06-14.json)
+- Markdown 归档：[reports/2026-06-14.md](reports/2026-06-14.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
