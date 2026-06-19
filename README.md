@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-18 (Asia/Shanghai)
+## 最新榜单：2026-06-19 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 106 | 35,463 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `JavaScript` | ★★★★★ | 中 |
-| 2 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 50 | 6,739 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 50 | 135,064 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
-| 4 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 41 | 33,274 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
-| 5 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 37 | 57,082 | TypeScript | `AI 编程` `智能体` `多模态` `开发工具` `TypeScript` | ★★★★☆ | 高 |
-| 6 | [obra/superpowers](https://github.com/obra/superpowers) | 28 | 232,168 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
-| 7 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 25 | 46,470 | JavaScript | `智能体` `AI 编程` `大模型` `多模态` `模型推理` | ★★★★☆ | 中 |
-| 8 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 25 | 34,156 | Python | `智能体` `自动化` `AI 编程` `MCP` `大模型` | ★★★★☆ | 高 |
-| 9 | [google-research/timesfm](https://github.com/google-research/timesfm) | 22 | 22,716 | Python | `AI 编程` `智能体` `模型推理` `Python` `高增长` | ★★★★☆ | 中 |
-| 10 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 20 | 104,116 | Rust | `AI 编程` `MCP` `大模型` `智能体` `多模态` | ★★★★★ | 中 |
+| 1 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 58 | 37,458 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 50 | 39,371 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `AI 设计` | ★★★★☆ | 中 |
+| 3 | [google-research/timesfm](https://github.com/google-research/timesfm) | 22 | 23,947 | Python | `AI 编程` `智能体` `模型推理` `Python` `高增长` | ★★★★☆ | 中 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 21 | 136,468 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 5 | [Kilo-Org/kilocode](https://github.com/Kilo-Org/kilocode) | 18 | 22,747 | TypeScript | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
+| 6 | [obra/superpowers](https://github.com/obra/superpowers) | 15 | 233,087 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
+| 7 | [pewdiepie-archdaemon/odysseus](https://github.com/pewdiepie-archdaemon/odysseus) | 14 | 74,095 | Python | `智能体` `RAG` `多模态` `模型推理` `开发工具` | ★★★★☆ | 高 |
+| 8 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 12 | 7,827 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 9 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 12 | 155,940 | Python | `OpenAI` `多模态` `大模型` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
+| 10 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 12 | 67,785 | TypeScript | `智能体` `AI 编程` `大模型` `多模态` `模型推理` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-18.json](data/2026-06-18.json)
-- Markdown 归档：[reports/2026-06-18.md](reports/2026-06-18.md)
+- JSON 数据：[data/2026-06-19.json](data/2026-06-19.json)
+- Markdown 归档：[reports/2026-06-19.md](reports/2026-06-19.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
