@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-20 (Asia/Shanghai)
+## 最新榜单：2026-06-21 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 131 | 42,302 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★★ | 高 |
-| 2 | [tw93/Pake](https://github.com/tw93/Pake) | 113 | 55,192 | Rust | `大模型` `RAG` `AI 编程` `Rust` `高增长` | ★★★★★ | 中 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 77 | 43,965 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `AI 设计` | ★★★★☆ | 中 |
-| 4 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 42 | 9,567 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 5 | [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) | 37 | 3,720 | Swift | `MCP` `AI 编程` `大模型` `智能体` `多模态` | ★★★☆☆ | 高 |
-| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | 36 | 138,506 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
-| 7 | [obra/superpowers](https://github.com/obra/superpowers) | 36 | 234,395 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
-| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 28 | 198,457 | Python | `智能体` `AI 编程` `大模型` `OpenAI` `RAG` | ★★★★★ | 高 |
-| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 27 | 64,332 | Shell | `AI 编程` `大模型` `智能体` `模型推理` `视觉 AI` | ★★★★☆ | 高 |
-| 10 | [tursodatabase/turso](https://github.com/tursodatabase/turso) | 27 | 20,424 | Rust | `RAG` `大模型` `智能体` `AI 编程` `模型推理` | ★★★★☆ | 高 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 143 | 47,235 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `AI 设计` | ★★★★★ | 中 |
+| 2 | [chopratejas/headroom](https://github.com/chopratejas/headroom) | 109 | 45,300 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★★ | 高 |
+| 3 | [tw93/Pake](https://github.com/tw93/Pake) | 105 | 56,445 | Rust | `大模型` `RAG` `AI 编程` `Rust` `高增长` | ★★★★★ | 中 |
+| 4 | [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) | 91 | 5,901 | Swift | `MCP` `AI 编程` `大模型` `智能体` `多模态` | ★★★☆☆ | 高 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 73 | 140,315 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 6 | [StarTrail-org/PixelRAG](https://github.com/StarTrail-org/PixelRAG) | 64 | 2,854 | Python | `智能体` `RAG` `大模型` `AI 编程` `多模态` | ★★☆☆☆ | 高 |
+| 7 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 53 | 10,709 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 8 | [penpot/penpot](https://github.com/penpot/penpot) | 52 | 52,458 | Clojure | `智能体` `AI 编程` `多模态` `NLP` `开发工具` | ★★★★☆ | 高 |
+| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 51 | 37,182 | Python | `智能体` `自动化` `AI 编程` `MCP` `大模型` | ★★★★☆ | 高 |
+| 10 | [zhongerxin/Cowart](https://github.com/zhongerxin/Cowart) | 48 | 1,544 | JavaScript | `智能体` `多模态` `JavaScript` `高增长` | ★★☆☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-20.json](data/2026-06-20.json)
-- Markdown 归档：[reports/2026-06-20.md](reports/2026-06-20.md)
+- JSON 数据：[data/2026-06-21.json](data/2026-06-21.json)
+- Markdown 归档：[reports/2026-06-21.md](reports/2026-06-21.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
