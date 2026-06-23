@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-22 (Asia/Shanghai)
+## 最新榜单：2026-06-23 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 76 | 46,701 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
-| 2 | [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro) | 75 | 7,006 | Swift | `MCP` `AI 编程` `大模型` `智能体` `多模态` | ★★★☆☆ | 高 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 72 | 49,183 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `AI 设计` | ★★★★☆ | 中 |
-| 4 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 61 | 11,340 | Python | `智能体` `OpenAI` `大模型` `AI 编程` `多模态` | ★★★☆☆ | 中 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 42 | 141,347 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
-| 6 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 32 | 11,270 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 7 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 30 | 45,673 | Python | `智能体` `大模型` `AI 编程` `多模态` `NLP` | ★★★★☆ | 高 |
-| 8 | [tw93/Pake](https://github.com/tw93/Pake) | 29 | 56,689 | Rust | `大模型` `RAG` `AI 编程` `Rust` `高增长` | ★★★★☆ | 中 |
-| 9 | [StarTrail-org/PixelRAG](https://github.com/StarTrail-org/PixelRAG) | 27 | 3,326 | Python | `智能体` `RAG` `大模型` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 10 | [penpot/penpot](https://github.com/penpot/penpot) | 25 | 52,736 | Clojure | `智能体` `AI 编程` `多模态` `NLP` `开发工具` | ★★★★☆ | 高 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 23 | 51,820 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `AI 设计` | ★★★★☆ | 中 |
+| 2 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 22 | 14,752 | Python | `智能体` `OpenAI` `AI 编程` `大模型` `多模态` | ★★★☆☆ | 中 |
+| 3 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 19 | 2,546 | Python | `多模态` `AI 编程` `模型推理` `视觉 AI` `开发工具` | ★★☆☆☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 17 | 143,008 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 5 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 10 | 137,989 | TypeScript | `智能体` `大模型` `AI 编程` `模型推理` `开发工具` | ★★★★★ | 高 |
+| 6 | [obra/superpowers](https://github.com/obra/superpowers) | 9 | 236,754 | Shell | `AI 编程` `大模型` `智能体` `开发工具` `AI 设计` | ★★★★★ | 低 |
+| 7 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 8 | 12,549 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 8 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 8 | 3,805 | PowerShell | `智能体` `大模型` `AI 编程` `模型推理` `视觉 AI` | ★★★☆☆ | 中 |
+| 9 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 7 | 48,105 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
+| 10 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 7 | 18,353 | TypeScript | `智能体` `自动化` `AI 编程` `大模型` `多模态` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-22.json](data/2026-06-22.json)
-- Markdown 归档：[reports/2026-06-22.md](reports/2026-06-22.md)
+- JSON 数据：[data/2026-06-23.json](data/2026-06-23.json)
+- Markdown 归档：[reports/2026-06-23.md](reports/2026-06-23.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
