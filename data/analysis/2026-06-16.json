@@ -1,304 +1,394 @@
 {
   "items": [
     {
+      "repo": "DietrichGebert/ponytail",
       "ai_confidence": 0.77,
       "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
+      "positioning_zh": "ponytail 面向代码理解、审查或研发协作场景，主要能力是「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」。",
+      "product_view_zh": "从产品/应用角度看，ponytail 主要服务研发效率。它把「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 178 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 5,
       "application_scenarios_zh": [
         "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
         "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
         "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
       ],
-      "positioning_zh": "ponytail 面向代码理解、审查或研发协作场景，主要能力是「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」。",
-      "product_view_zh": "从产品/应用角度看，ponytail 主要服务研发效率。它把「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 178 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "project_tags_zh": [
-        "智能体",
-        "AI 编程",
-        "大模型",
-        "模型推理",
-        "开发工具"
-      ],
-      "maturity_score": 4,
-      "adoption_difficulty": "中",
-      "recommendation_score": 5,
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ],
-      "repo": "DietrichGebert/ponytail"
+      ]
     },
     {
+      "repo": "Panniantong/Agent-Reach",
       "ai_confidence": 0.7,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Agent-Reach 主要围绕「Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      "positioning_zh": "Agent-Reach 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，Agent-Reach 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API、服务端组件。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 57 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
       ],
-      "positioning_zh": "Agent-Reach 面向代码理解、审查或研发协作场景，主要能力是「Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.」。",
-      "product_view_zh": "从产品/应用角度看，Agent-Reach 主要服务研发效率。它把「Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 57 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
       "project_tags_zh": [
-        "智能体",
+        "联网 Agent",
+        "信息抓取",
         "自动化",
-        "AI 编程",
-        "MCP",
-        "大模型"
+        "智能体",
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
+        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ],
-      "repo": "Panniantong/Agent-Reach"
+      ]
     },
     {
+      "repo": "mattpocock/skills",
       "ai_confidence": 0.61,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .claude directory.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
-      ],
       "positioning_zh": "skills 面向代码理解、审查或研发协作场景，主要能力是「Skills for Real Engineers. Straight from my .claude directory.」。",
       "product_view_zh": "从产品/应用角度看，skills 主要服务研发效率。它把「Skills for Real Engineers. Straight from my .claude directory.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
       "trend_view_zh": "趋势上，该项目昨日新增 47 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
         "AI 编程",
+        "开发工具",
+        "工作流",
         "大模型",
-        "智能体",
-        "多模态",
-        "模型推理"
+        "智能体"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
-      "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ],
-      "repo": "mattpocock/skills"
-    },
-    {
-      "ai_confidence": 0.67,
-      "summary_zh": "该项目以 Rust 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "cc-switch 主要围绕「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
       "application_scenarios_zh": [
         "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
         "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
         "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
       ],
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+      ]
+    },
+    {
+      "repo": "farion1231/cc-switch",
+      "ai_confidence": 0.67,
+      "summary_zh": "该项目以 Rust 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "cc-switch 主要围绕「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
       "positioning_zh": "cc-switch 面向代码理解、审查或研发协作场景，主要能力是「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」。",
       "product_view_zh": "从产品/应用角度看，cc-switch 主要服务研发效率。它把「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Rust 实现，可见工程信号包括MCP、CLI、API、TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
       "trend_view_zh": "趋势上，该项目昨日新增 28 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "cc-switch 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
         "AI 编程",
+        "开发工具",
+        "工作流",
         "MCP",
-        "大模型",
+        "大模型"
+      ],
+      "maturity_score": 5,
+      "adoption_difficulty": "中",
+      "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ],
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+      ]
+    },
+    {
+      "repo": "GoogleCloudPlatform/knowledge-catalog",
+      "ai_confidence": 0.61,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "knowledge-catalog 主要围绕「Google Cloud Knowledge Catalog Tools and Samples」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "positioning_zh": "knowledge-catalog 聚焦检索增强与知识上下文构建，主要解决「Google Cloud Knowledge Catalog Tools and Samples」。",
+      "product_view_zh": "从产品/应用角度看，knowledge-catalog 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Google Cloud Knowledge Catalog Tools and Samples」这类需要向量检索、召回质量或上下文管理的场景。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 27 stars，反映出：RAG 和向量检索仍是企业落地大模型的基础设施入口。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "knowledge-catalog 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "RAG",
+        "知识库",
+        "上下文",
+        "智能体",
+        "AI 编程"
+      ],
+      "maturity_score": 2,
+      "adoption_difficulty": "中",
+      "recommendation_score": 2,
+      "application_scenarios_zh": [
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+      ]
+    },
+    {
+      "repo": "Egonex-AI/Understand-Anything",
+      "ai_confidence": 0.65,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "Understand-Anything 主要围绕「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
+      "positioning_zh": "Understand-Anything 面向代码理解、审查或研发协作场景，主要能力是「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」。",
+      "product_view_zh": "从产品/应用角度看，Understand-Anything 主要服务研发效率。它把「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI、API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 26 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "Understand-Anything 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "RAG",
+        "知识库",
+        "上下文",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+      ]
+    },
+    {
+      "repo": "krahets/hello-algo",
+      "ai_confidence": 0.61,
+      "summary_zh": "该项目以 Java 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解、AI 学习与教程；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "hello-algo 主要围绕「《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解、AI 学习与教程相关的开源实践、集成或学习。",
+      "positioning_zh": "hello-algo 面向代码理解、审查或研发协作场景，主要能力是「《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现」。",
+      "product_view_zh": "从产品/应用角度看，hello-algo 主要服务研发效率。它把「《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 Java 实现，可见工程信号包括Rust、TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 23 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "hello-algo 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
         "智能体",
         "多模态"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
-      "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ],
-      "repo": "farion1231/cc-switch"
-    },
-    {
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "knowledge-catalog 主要围绕「Google Cloud Knowledge Catalog Tools and Samples」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
-      ],
-      "positioning_zh": "knowledge-catalog 聚焦检索增强与知识上下文构建，主要解决「Google Cloud Knowledge Catalog Tools and Samples」。",
-      "product_view_zh": "从产品/应用角度看，knowledge-catalog 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Google Cloud Knowledge Catalog Tools and Samples」这类需要向量检索、召回质量或上下文管理的场景。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。README 和 topics 暗示其核心能力集中在知识检索与上下文增强、智能体与自动化工作流、AI 编程与代码理解。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 27 stars，反映出：RAG 和向量检索仍是企业落地大模型的基础设施入口。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "project_tags_zh": [
-        "RAG",
-        "智能体",
-        "AI 编程",
-        "Python",
-        "高增长"
-      ],
-      "maturity_score": 2,
-      "adoption_difficulty": "中",
-      "recommendation_score": 2,
-      "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ],
-      "repo": "GoogleCloudPlatform/knowledge-catalog"
-    },
-    {
-      "ai_confidence": 0.65,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "Understand-Anything 主要围绕「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
-      ],
-      "positioning_zh": "Understand-Anything 面向代码理解、审查或研发协作场景，主要能力是「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」。",
-      "product_view_zh": "从产品/应用角度看，Understand-Anything 主要服务研发效率。它把「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 26 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "project_tags_zh": [
-        "AI 编程",
-        "大模型",
-        "智能体",
-        "RAG",
-        "NLP"
-      ],
-      "maturity_score": 4,
-      "adoption_difficulty": "中",
-      "recommendation_score": 4,
-      "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ],
-      "repo": "Egonex-AI/Understand-Anything"
-    },
-    {
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 Java 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解、AI 学习与教程；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "hello-algo 主要围绕「《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解、AI 学习与教程相关的开源实践、集成或学习。",
       "application_scenarios_zh": [
         "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
         "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
         "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
       ],
-      "positioning_zh": "hello-algo 面向代码理解、审查或研发协作场景，主要能力是「《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现」。",
-      "product_view_zh": "从产品/应用角度看，hello-algo 主要服务研发效率。它把「《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Java 实现，可见工程信号包括Rust、TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 23 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "project_tags_zh": [
-        "AI 编程",
-        "智能体",
-        "多模态",
-        "AI 教程",
-        "Java"
-      ],
-      "maturity_score": 5,
-      "adoption_difficulty": "中",
-      "recommendation_score": 5,
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ],
-      "repo": "krahets/hello-algo"
+      ]
     },
     {
+      "repo": "Leonxlnx/taste-skill",
       "ai_confidence": 0.76,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "taste-skill 主要围绕「Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
-      ],
       "positioning_zh": "taste-skill 面向代码理解、审查或研发协作场景，主要能力是「Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop」。",
       "product_view_zh": "从产品/应用角度看，taste-skill 主要服务研发效率。它把「Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
       "trend_view_zh": "趋势上，该项目昨日新增 22 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "智能体",
         "AI 编程",
-        "大模型",
-        "多模态",
-        "模型推理"
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ],
-      "repo": "Leonxlnx/taste-skill"
+      ]
     },
     {
+      "repo": "mvanhorn/last30days-skill",
       "ai_confidence": 0.65,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "last30days-skill 主要围绕「AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      "positioning_zh": "last30days-skill 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，last30days-skill 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "last30days-skill 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
       ],
-      "positioning_zh": "last30days-skill 面向代码理解、审查或研发协作场景，主要能力是「AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary」。",
-      "product_view_zh": "从产品/应用角度看，last30days-skill 主要服务研发效率。它把「AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
       "project_tags_zh": [
+        "联网 Agent",
+        "信息抓取",
+        "自动化",
         "AI 编程",
-        "大模型",
-        "智能体",
-        "RAG",
-        "模型推理"
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
+        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ],
-      "repo": "mvanhorn/last30days-skill"
+      ]
     },
     {
+      "repo": "omnigent-ai/omnigent",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "omnigent 主要围绕「A meta-harness for all your AI agents. Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
+      "positioning_zh": "omnigent 面向代码理解、审查或研发协作场景，主要能力是「A meta-harness for all your AI agents. Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting…」。",
+      "product_view_zh": "从产品/应用角度看，omnigent 主要服务研发效率。它把「A meta-harness for all your AI agents. Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "omnigent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
+      ],
+      "maturity_score": 2,
+      "adoption_difficulty": "高",
+      "recommendation_score": 2,
       "application_scenarios_zh": [
         "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
         "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
         "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
       ],
-      "positioning_zh": "omnigent 面向代码理解、审查或研发协作场景，主要能力是「A meta-harness for all your AI agents. Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting…」。",
-      "product_view_zh": "从产品/应用角度看，omnigent 主要服务研发效率。它把「A meta-harness for all your AI agents. Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "project_tags_zh": [
-        "智能体",
-        "大模型",
-        "AI 编程",
-        "模型推理",
-        "开发工具"
-      ],
-      "maturity_score": 2,
-      "adoption_difficulty": "高",
-      "recommendation_score": 2,
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ],
-      "repo": "omnigent-ai/omnigent"
+      ]
     }
   ]
 }

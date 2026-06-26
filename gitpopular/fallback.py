@@ -203,6 +203,16 @@ def _scenarios(text: str, category: str) -> list[str]:
             "用于前端学习、页面重构评估或设计还原原型验证。",
             "快速生成可修改的页面初稿，再由工程师补齐状态管理和业务逻辑。",
         ],
+        "RAG/知识库": [
+            "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+            "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+            "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。",
+        ],
+        "学习教程": [
+            "作为个人 AI 工程学习路线，按模块补齐算法、LLM、Agent 和部署能力。",
+            "用于团队内部训练营，把示例项目改造成可交付的 AI 原型。",
+            "为技术选型前的预研提供可运行样例和学习材料。",
+        ],
     }.get(category, [])
     matched = [scenario for pattern, scenario in SCENARIO_RULES if re.search(pattern, text, flags=re.IGNORECASE)]
     return _dedupe(category_scenarios + matched + GENERIC_SCENARIOS)[:3]
@@ -220,6 +230,8 @@ def _project_tags(item: RawRepo, capabilities: list[str], category: str) -> list
         "网站/前端生成": ["前端生成", "网站复刻", "AI 编程"],
         "AI 编程工作流": ["AI 编程", "开发工具", "工作流"],
         "Agent 工具": ["智能体", "自动化", "工具调用"],
+        "RAG/知识库": ["RAG", "知识库", "上下文"],
+        "学习教程": ["AI 教程", "学习路径", "工程实践"],
     }.get(category, [])
     topic_tags = [_topic_to_tag(topic) for topic in item.topics]
     tags = [*category_tags, *[tag for tag in topic_tags if tag]]
@@ -283,10 +295,10 @@ def _category(item: RawRepo, text: str, capabilities: list[str]) -> str:
         ("金融分析", r"\b(stock|finance|quant|trading|market)\b|股票|金融|量化"),
         ("视觉/OCR", r"\b(ocr|computer vision|image-generation|image generation|detection|segmentation)\b|视觉|图像|识别"),
         ("安全研究", r"\b(security|reverse|pentest|penetration|red team|malware)\b|安全|逆向|渗透"),
-        ("联网 Agent", r"\b(web-scraper|twitter|reddit|youtube|bilibili|xiaohongshu|search|browser)\b|联网|社媒|搜索"),
+        ("联网 Agent", r"\b(web-scraper|twitter|reddit|youtube|bilibili|xiaohongshu|web search|browser automation)\b|联网|社媒"),
+        ("RAG/知识库", r"\b(rag|retrieval|embedding|vector|knowledge[- ]?(graph|base))\b|知识库|知识图谱|检索|向量"),
         ("上下文管理", r"\b(context compression|context management|conversation memory|memory|token)\b|上下文|记忆|压缩"),
-        ("AI 编程工作流", r"\b(claude-code|codex|cursor|code review|codebase|developer tools?|agent-skills|cursor-rules)\b|代码|编程"),
-        ("RAG/知识库", r"\b(rag|retrieval|embedding|vector|knowledge graph)\b|知识库|检索|向量"),
+        ("AI 编程工作流", r"\b(claude-code|claude\\.md|codex|cursor|coding|code review|codebase|developer tools?|agent-skills|cursor-rules)\b|代码|编程"),
         ("AI 设计", r"\b(design|figma|prototype|ui|ux)\b|设计|原型"),
         ("学习教程", r"\b(course|tutorial|learning|from scratch|guide)\b|教程|课程|学习"),
         ("Agent 工具", r"\b(agent|agents|agentic|mcp|workflow|automation|skill)\b|智能体|自动化"),
@@ -413,6 +425,8 @@ def _highlight(project_name: str, description: str, category: str) -> str:
         "网站/前端生成": f"{project_name} 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。",
         "AI 编程工作流": f"{project_name} 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
         "Agent 工具": f"{project_name} 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+        "学习教程": f"{project_name} 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。",
+        "RAG/知识库": f"{project_name} 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
     }
     return templates.get(category, f"{project_name} 围绕「{description}」提供 AI 相关开源能力，适合快速评估和原型验证。")
 
@@ -429,6 +443,8 @@ def _target_users(category: str) -> list[str]:
         "网站/前端生成": ["前端开发者", "设计工程师", "站点迁移团队"],
         "AI 编程工作流": ["AI 编程用户", "研发团队", "代码审查/交付负责人"],
         "Agent 工具": ["Agent 开发者", "自动化工作流团队", "AI 工具调研者"],
+        "学习教程": ["AI 工程学习者", "技术培训团队", "转型中的开发者"],
+        "RAG/知识库": ["RAG 工程师", "知识库产品团队", "企业 AI 平台团队"],
     }
     return mapping.get(category, ["AI 工具调研者", "开发者", "产品/技术团队"])
 
@@ -443,6 +459,8 @@ def _best_use_case(project_name: str, category: str, scenarios: list[str]) -> st
         "安全研究": f"在授权环境中组织逆向、安全测试和工具路由流程。",
         "金融分析": f"自动汇总行情、新闻和指标，生成可复核的日常投研看板。",
         "网站/前端生成": f"把自有或授权网站迁移到现代前端栈，并保留主要视觉和交互细节。",
+        "学习教程": f"按章节或模块系统学习 AI 工程方法，并把示例改造成自己的原型项目。",
+        "RAG/知识库": f"把项目、文档或业务资料转成可检索、可追问的知识上下文。",
     }
     return mapping.get(category, scenarios[0] if scenarios else "先搭建最小原型，验证它是否适配当前工作流。")
 
@@ -479,6 +497,8 @@ def _technical_view(
         "金融分析": "重点应关注数据源可靠性、时效性、指标计算透明度和结论可复核性。",
         "视觉/OCR": "重点应关注识别准确率、版面保留、批处理性能和多语言/复杂文档支持。",
         "网站/前端生成": "重点应关注页面解析、组件还原、样式一致性和生成代码的可维护性。",
+        "RAG/知识库": "重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。",
+        "学习教程": "重点应关注示例可运行性、学习路径完整度、依赖版本和从原理到工程实践的衔接。",
     }.get(category, f"README 和 topics 暗示其核心能力集中在{capability_text}。")
     return (
         f"技术选型上，它主要以 {language} 实现，{stack_signals}。"
@@ -498,6 +518,8 @@ def _trend_view(item: RawRepo, capabilities: list[str], category: str) -> str:
         "金融分析": "投研场景正在用 LLM 连接行情、新闻和结构化指标，但可复核性比生成速度更关键",
         "视觉/OCR": "多模态应用正在从图像理解走向文档、票据和复杂版面的结构化处理",
         "网站/前端生成": "前端生产力工具正在把页面理解、设计还原和代码生成合并到一个流程中",
+        "RAG/知识库": "知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施",
+        "学习教程": "AI 工程学习正在从零散教程转向可运行、可交付、覆盖 Agent 和部署的系统路线",
     }
     capability_trends = {
         "智能体与自动化工作流": "智能体正在从演示走向可执行工作流",

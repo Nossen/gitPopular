@@ -9,11 +9,21 @@
       "product_view_zh": "对团队的价值在于评估私有化 AI 编程入口，但需要先确认权限、审计和现有 IDE/CLI 习惯。",
       "technical_view_zh": "选型时重点看模型配置、工具边界、记忆存储、沙箱策略和大仓库稳定性。",
       "trend_view_zh": "大厂开源编程 Agent，说明开发者入口正成为模型能力和工程生态的展示窗口。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "MiMo-Code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
         "AI 编程",
-        "终端 Agent",
-        "跨会话记忆",
-        "开发工具"
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
@@ -38,11 +48,21 @@
       "product_view_zh": "适合研发团队统一不同 AI 工具的交付标准，降低提示词和流程维护成本。",
       "technical_view_zh": "接入前要核对技能格式、触发规则、命令依赖以及与现有项目规范的冲突。",
       "trend_view_zh": "AI 编程竞争正在从模型能力延伸到流程资产、质量门禁和团队治理。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
-        "Agent 技能",
-        "工程流程",
-        "质量门禁",
-        "AI 编程"
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "大模型",
+        "智能体"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
@@ -67,11 +87,21 @@
       "product_view_zh": "适合安全、合规和产品团队做竞品行为观察，但不应直接照搬其中内容。",
       "technical_view_zh": "使用时要把 README 与仓库内容视为未验证材料，重点做来源校验、脱敏和合法性评估。",
       "trend_view_zh": "系统提示词透明化需求升温，说明 AI 产品治理和可解释边界正在进入公众视野。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "CL4R1T4S 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "系统提示词",
-        "AI 透明度",
-        "红队研究",
-        "模型治理"
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "OpenAI"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
@@ -96,11 +126,21 @@
       "product_view_zh": "适合需要快速提升 AI 编程质量的个人和小团队，但应按本地技术栈裁剪。",
       "technical_view_zh": "接入时要检查技能是否与现有 AGENTS、测试命令和代码风格一致。",
       "trend_view_zh": "资深开发者把个人工作法产品化，反映 Agent 时代经验资产正在被结构化传播。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "工程技能",
-        "TypeScript",
         "AI 编程",
-        "开发方法"
+        "开发工具",
+        "工作流",
+        "大模型",
+        "智能体"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
@@ -121,23 +161,33 @@
       "ai_confidence": 0.9,
       "summary_zh": "headroom 在工具输出、日志、文件和 RAG 片段进入模型前做上下文压缩，目标是减少 token 与噪声。",
       "purpose_zh": "它解决 Agent 与知识库场景中上下文过长、成本过高、关键信息被稀释的问题。",
-      "positioning_zh": "定位是上下文工程基础层，可作为库、代理或 MCP server 接入现有链路。",
-      "product_view_zh": "适合日志分析、代码助手和 RAG 问答降本，但必须验证压缩后答案仍可靠。",
-      "technical_view_zh": "选型应测试延迟、召回损失、失败回退，以及与 SDK、MCP、RAG 管线的兼容性。",
-      "trend_view_zh": "Agent 应用开始重视上下文预算、信息密度和推理成本控制。",
+      "positioning_zh": "headroom 聚焦检索增强与知识上下文构建，主要解决「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」。",
+      "product_view_zh": "从产品/应用角度看，headroom 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」这类需要向量检索、召回质量或上下文管理的场景。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Rust、Docker、MCP、CLI。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 36 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
-        "上下文压缩",
         "RAG",
-        "MCP",
-        "Token 优化"
+        "知识库",
+        "上下文",
+        "智能体",
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
       "application_scenarios_zh": [
-        "压缩代码助手的日志、diff 和工具输出",
-        "在知识库召回后压缩冗余段落",
-        "为 Agent 平台统一控制上下文预算"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
       ],
       "adoption_notes_zh": [
         "用真实任务集对比压缩前后的准确率",
@@ -150,23 +200,33 @@
       "ai_confidence": 0.83,
       "summary_zh": "agency-agents 把前端、DevOps、社区、创意和校验等角色包装成一组 AI 专家代理。",
       "purpose_zh": "它面向多角色协作任务，让用户按岗位视角获得结构化建议、草稿和交付模板。",
-      "positioning_zh": "定位是角色化 Agent 集合，不是统一平台；亮点在角色边界和交付物定义。",
-      "product_view_zh": "适合小团队快速获得多职能初稿，但专业质量依赖输入材料和人工筛选。",
-      "technical_view_zh": "应检查每个 Agent 的指令粒度、依赖工具和输出格式，避免角色重叠造成噪声。",
-      "trend_view_zh": "Agent 生态正在从单助手走向岗位化、团队化和流程化包装。",
+      "positioning_zh": "agency-agents 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，agency-agents 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括CLI、API、服务端组件。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 33 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
+      ],
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
       "project_tags_zh": [
-        "多 Agent",
-        "角色协作",
-        "工作流",
-        "团队助手"
+        "联网 Agent",
+        "信息抓取",
+        "自动化",
+        "AI 编程",
+        "大模型"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
       "application_scenarios_zh": [
-        "让不同 Agent 分别产出前端、文案和运营建议",
-        "为小团队建立轻量虚拟专家协作流程",
-        "在方案评审中加入现实校验和反向意见角色"
+        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
+        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
       ],
       "adoption_notes_zh": [
         "先明确每个角色负责的输入和输出",
@@ -183,11 +243,21 @@
       "product_view_zh": "适合希望把 AI 编程纳入正式研发流程的团队，但需要维护本地规则。",
       "technical_view_zh": "接入前应确认目标工具支持技能加载、命令执行和项目级指令合并。",
       "trend_view_zh": "开发者正在为 Agent 构建类似团队工程手册的长期规范层。",
+      "category_zh": "Agent 工具",
+      "highlight_zh": "superpowers 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "target_users_zh": [
+        "Agent 开发者",
+        "自动化工作流团队",
+        "AI 工具调研者"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "开发方法论",
-        "Agent 技能",
-        "质量流程",
-        "AI 编程"
+        "智能体",
+        "自动化",
+        "工具调用",
+        "AI 编程",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
@@ -210,13 +280,23 @@
       "purpose_zh": "它为 LLM、RAG 和文档处理流程提供更统一的文本入口，降低多格式解析成本。",
       "positioning_zh": "项目是文档转换层，不是完整知识库；优势在文件格式覆盖和 AutoGen 生态关联。",
       "product_view_zh": "适合企业把历史文档接入 AI 检索或分析，但转换质量仍需按文件类型抽检。",
-      "technical_view_zh": "选型应关注可选依赖、文件 I/O 权限、插件机制、表格图片保真和异常文件处理。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、CLI、API。重点应关注格式覆盖、解析保真度、批处理能力和对下游 RAG/LLM 的文本质量。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
       "trend_view_zh": "AI 应用落地正在从模型调用转向文档摄取、格式归一和数据预处理能力。",
+      "category_zh": "文档转换",
+      "highlight_zh": "markitdown 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。",
+      "target_users_zh": [
+        "知识库/RAG 开发者",
+        "研究与资料整理用户",
+        "企业文档系统团队"
+      ],
+      "best_use_case_zh": "把外部资料批量转成 Markdown 后进入知识库、RAG 或 LLM 分析链路。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
         "文档转换",
-        "Markdown",
         "RAG",
-        "Python"
+        "知识库",
+        "OpenAI",
+        "多模态"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "中",
@@ -237,23 +317,33 @@
       "ai_confidence": 0.86,
       "summary_zh": "Odysseus 是自托管 AI 工作区，整合聊天、Agent、深度研究、文档、笔记、任务和本地模型入口。",
       "purpose_zh": "它服务于希望掌控数据和模型选择的个人或团队，把多种 AI 工作流集中到本地优先环境。",
-      "positioning_zh": "定位接近自托管 AI 操作台，不是单一聊天 UI；差异点在隐私、本地模型和工具整合。",
-      "product_view_zh": "适合重视数据边界的用户试点，但功能范围大，稳定性和运维成本需要谨慎评估。",
-      "technical_view_zh": "部署前要核对 Docker、模型后端、MCP、文件权限、GPU/Apple Silicon 支持和更新策略。",
-      "trend_view_zh": "本地优先 AI 工作区升温，说明用户在云端助手之外仍需要可控、可扩展的工作台。",
+      "positioning_zh": "odysseus 聚焦检索增强与知识上下文构建，主要解决「Self-hosted AI workspace.」。",
+      "product_view_zh": "从产品/应用角度看，odysseus 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Self-hosted AI workspace.」这类需要向量检索、召回质量或上下文管理的场景。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、MCP、CLI、API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 28 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "odysseus 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
-        "自托管 AI",
-        "AI 工作区",
-        "本地模型",
-        "Agent"
+        "RAG",
+        "知识库",
+        "上下文",
+        "大模型",
+        "智能体"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
       "application_scenarios_zh": [
-        "搭建个人可控的 AI 聊天和研究环境",
-        "在团队内试点本地优先的文档与任务助手",
-        "评估多模型、多工具统一入口的体验"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
       ],
       "adoption_notes_zh": [
         "优先用 Docker 在隔离环境试跑",
@@ -267,22 +357,32 @@
       "summary_zh": "SkillSpector 是 NVIDIA 开源的 AI Agent 技能安全扫描器，检测提示注入、数据外泄、权限升级等风险。",
       "purpose_zh": "它帮助团队在安装或共享技能前发现恶意模式、过度权限和供应链问题。",
       "positioning_zh": "定位是 Agent 技能安全门禁，不是通用代码扫描器；重点覆盖技能与 MCP 场景。",
-      "product_view_zh": "适合把第三方技能纳入企业 AI 工具链前做准入检查，能补足人工审查盲区。",
-      "technical_view_zh": "选型要评估规则覆盖、误报率、YARA/AST/污点分析能力，以及与 CI 的集成方式。",
+      "product_view_zh": "从产品/应用角度看，SkillSpector 主要服务研发效率。它把「Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API。重点应关注授权边界、命令执行隔离、日志审计和工具链可控性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
       "trend_view_zh": "Agent 技能生态扩张后，安全扫描和最小权限会成为企业采用的必要基础设施。",
+      "category_zh": "安全研究",
+      "highlight_zh": "SkillSpector 把安全研究工具链和知识库组织成 Agent 可调用的工作流。",
+      "target_users_zh": [
+        "安全研究员",
+        "授权渗透测试团队",
+        "安全工具开发者"
+      ],
+      "best_use_case_zh": "在授权环境中组织逆向、安全测试和工具路由流程。",
+      "not_suitable_zh": "不适合未授权测试、灰色用途或缺少审计边界的生产环境。",
       "project_tags_zh": [
-        "Agent 安全",
-        "技能扫描",
-        "供应链安全",
-        "MCP"
+        "安全研究",
+        "工具链",
+        "Agent",
+        "AI 编程",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
       "application_scenarios_zh": [
-        "扫描第三方 Agent 技能仓库和压缩包",
-        "在 CI 中阻止高风险技能进入团队环境",
-        "为内部技能市场建立安全准入流程"
+        "在授权环境中组织逆向、安全测试、工具路由和知识库沉淀。",
+        "把安全研究流程拆成可复用的 Agent 技能或命令链。",
+        "为安全团队建立可审计的实验流程，降低重复配置工具链的成本。"
       ],
       "adoption_notes_zh": [
         "把扫描结果与人工安全评审结合",

@@ -1,7 +1,7 @@
 {
   "date": "2026-06-01",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-04T08:49:19.490425Z",
+  "generated_at": "2026-06-26T09:34:12.989847Z",
   "source": {
     "stars": "GH Archive WatchEvent",
     "metadata": "GitHub REST API",
@@ -23,9 +23,37 @@
       "summary_zh": "Odysseus 是一个自托管 AI 工作台，面向希望把模型、知识资料和日常 AI 使用统一放在自己环境中的用户。",
       "purpose_zh": "项目的核心作用是提供一个可自部署的 AI 工作空间，降低依赖外部 SaaS 平台的程度，让用户能在可控环境中组织对话、资料和工具。",
       "application_scenarios_zh": [
-        "个人或团队部署内部 AI 工作台，集中管理常用模型和知识资料",
-        "在有数据合规要求的场景中，把 AI 使用入口放在自有基础设施内",
-        "作为研究自托管 AI 产品形态的参考项目，评估前端、后端和模型接入方式"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
+      "positioning_zh": "odysseus 聚焦检索增强与知识上下文构建，主要解决「Self-hosted AI workspace.」。",
+      "product_view_zh": "从产品/应用角度看，odysseus 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Self-hosted AI workspace.」这类需要向量检索、召回质量或上下文管理的场景。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括Docker、MCP、API、服务端组件。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 725 stars，反映出：RAG 和向量检索仍是企业落地大模型的基础设施入口。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "odysseus 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "RAG",
+        "知识库",
+        "上下文",
+        "大模型",
+        "智能体"
+      ],
+      "maturity_score": 3,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -54,6 +82,34 @@
         "自媒体团队围绕热点主题批量生成短视频初稿",
         "营销团队快速制作产品介绍、知识科普和投放测试素材",
         "开发者研究 AI 文案、配音、字幕和视频合成的一体化流程"
+      ],
+      "positioning_zh": "MoneyPrinterTurbo 是 AI 视频生产工具，核心目标是「利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.」。",
+      "product_view_zh": "从产品/应用角度看，MoneyPrinterTurbo 把脚本、素材、字幕、配音和画面生成串成视频生产流程。它适合内容团队或个人开发者验证低成本视频自动化，而不是只做单点生成。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、API。重点应关注生成链路编排、素材依赖、渲染性能、版权控制和人工审核接口。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 177 stars，反映出：内容生产正在从单点生成转向脚本、素材、配音和渲染的端到端工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 视频生产",
+      "highlight_zh": "MoneyPrinterTurbo 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。",
+      "target_users_zh": [
+        "内容创作者",
+        "营销/运营团队",
+        "视频自动化开发者"
+      ],
+      "best_use_case_zh": "用 MoneyPrinterTurbo 快速搭建从主题、脚本、素材到字幕/配音的自动化视频原型。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "AI 视频",
+        "内容生产",
+        "多模态",
+        "自动化",
+        "智能体"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 5,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -82,6 +138,34 @@
         "为企业知识库或 RAG 系统批量抽取 PDF、Word、Excel 和网页内容",
         "在智能体流水线中把多模态输入统一转换为 Markdown 上下文",
         "处理办公文档归档、审阅和搜索前的结构化文本预处理"
+      ],
+      "positioning_zh": "markitdown 是面向 LLM 资料处理的文档转换工具，核心目标是「Python tool for converting files and office documents to Markdown.」。",
+      "product_view_zh": "从产品/应用角度看，markitdown 的价值在于把 PDF、Office、网页或多媒体资料转成更适合 LLM 消化的文本。它适合知识库入库、资料清洗、研究整理和企业文档问答前处理。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、CLI、API。重点应关注格式覆盖、解析保真度、批处理能力和对下游 RAG/LLM 的文本质量。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 144 stars，反映出：LLM 应用越来越需要稳定的数据入口，文档转换正在成为 RAG 和知识库建设的前置基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "文档转换",
+      "highlight_zh": "markitdown 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。",
+      "target_users_zh": [
+        "知识库/RAG 开发者",
+        "研究与资料整理用户",
+        "企业文档系统团队"
+      ],
+      "best_use_case_zh": "把外部资料批量转成 Markdown 后进入知识库、RAG 或 LLM 分析链路。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "文档转换",
+        "RAG",
+        "知识库",
+        "OpenAI",
+        "多模态"
+      ],
+      "maturity_score": 5,
+      "adoption_difficulty": "高",
+      "recommendation_score": 5,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -108,9 +192,37 @@
       "summary_zh": "ECC 是面向 Claude Code、Codex、OpenCode、Cursor 等 AI 编程环境的智能体操作规范和性能优化系统。",
       "purpose_zh": "项目通过技能、记忆、安全边界和研究优先的工作流，帮助编码代理更稳定地完成复杂研发任务。",
       "application_scenarios_zh": [
-        "为团队的 AI 编程助手配置统一的技能、记忆和工作流约束",
-        "优化智能体执行复杂研发任务时的上下文使用和任务分解顺序",
-        "评估多种编码代理环境下的安全实践、提示规范和生产力模式"
+        "在授权环境中组织逆向、安全测试、工具路由和知识库沉淀。",
+        "把安全研究流程拆成可复用的 Agent 技能或命令链。",
+        "为安全团队建立可审计的实验流程，降低重复配置工具链的成本。"
+      ],
+      "positioning_zh": "ECC 面向授权安全研究和工具编排，核心能力是「The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.」。",
+      "product_view_zh": "从产品/应用角度看，ECC 主要服务研发效率。它把「The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括Rust、MCP、CLI、API。重点应关注授权边界、命令执行隔离、日志审计和工具链可控性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 79 stars，反映出：安全工具也在尝试用 Agent 化方式组织工具链、知识库和重复性分析流程。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "安全研究",
+      "highlight_zh": "ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。",
+      "target_users_zh": [
+        "安全研究员",
+        "授权渗透测试团队",
+        "安全工具开发者"
+      ],
+      "best_use_case_zh": "在授权环境中组织逆向、安全测试和工具路由流程。",
+      "not_suitable_zh": "不适合未授权测试、灰色用途或缺少审计边界的生产环境。",
+      "project_tags_zh": [
+        "安全研究",
+        "工具链",
+        "Agent",
+        "智能体",
+        "AI 编程"
+      ],
+      "maturity_score": 5,
+      "adoption_difficulty": "高",
+      "recommendation_score": 5,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -128,9 +240,37 @@
       "summary_zh": "CodeGraph 是本地运行的代码知识图谱工具，面向 Claude Code、Codex、Gemini、Cursor 等编码代理预先索引代码结构。",
       "purpose_zh": "项目用于把代码库预处理成可查询的语义图谱，减少智能体读取文件和重复检索带来的 token 消耗。",
       "application_scenarios_zh": [
-        "在大型代码库中为 AI 编程助手提供符号、依赖和模块关系查询",
-        "降低频繁读取文件带来的 token 成本和上下文噪声",
-        "在重视隐私的环境中本地构建代码索引，辅助重构、审查和问题定位"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
+      "positioning_zh": "codegraph 面向代码理解、审查或研发协作场景，主要能力是「Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local」。",
+      "product_view_zh": "从产品/应用角度看，codegraph 主要服务研发效率。它把「Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括Rust、MCP、CLI、API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 78 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "codegraph 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "RAG",
+        "知识库",
+        "上下文",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -166,9 +306,37 @@
       "summary_zh": "Understand Anything 可以把代码库、知识库或文档转换成可探索、可搜索、可问答的交互式知识图谱。",
       "purpose_zh": "项目的核心目标是用知识图谱降低大型代码库和文档集合的理解成本，让工程师和 AI 助手更快定位概念、依赖关系和上下文。",
       "application_scenarios_zh": [
-        "新成员入职时快速浏览代码库结构、模块关系和关键概念",
-        "为编码智能体提供可查询的代码知识图谱，减少重复检索和上下文浪费",
-        "把产品文档、业务知识和技术资料整理成可问答的知识网络"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
+      "positioning_zh": "Understand-Anything 面向代码理解、审查或研发协作场景，主要能力是「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」。",
+      "product_view_zh": "从产品/应用角度看，Understand-Anything 主要服务研发效率。它把「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI、API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 76 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "Understand-Anything 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "RAG",
+        "知识库",
+        "上下文",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
       ]
     },
     {
@@ -210,6 +378,34 @@
         "构建面向 RAG 或数据分析的网页内容采集管道",
         "为价格监控、竞品分析和公开信息追踪提供自动化抓取能力",
         "作为 AI 浏览代理的数据获取层，处理网页请求、解析和反爬适配"
+      ],
+      "positioning_zh": "Scrapling 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，Scrapling 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API、服务端组件。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 71 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "Scrapling 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
+      ],
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "project_tags_zh": [
+        "联网 Agent",
+        "信息抓取",
+        "自动化",
+        "MCP",
+        "智能体"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -227,9 +423,37 @@
       "summary_zh": "该仓库把 Andrej Karpathy 对 LLM 编程常见问题的观察整理为可直接放入 Claude Code 的行为指导文件。",
       "purpose_zh": "项目的作用是约束和改进编码智能体的工作方式，强调先思考、保持简单、精准修改和验证闭环。",
       "application_scenarios_zh": [
-        "为 Claude Code 或类似编码代理配置更稳健的工程行为规范",
-        "团队把其中原则改写成本项目的 AGENTS.md 或 CLAUDE.md",
-        "研究 LLM 编程失误模式，并建立更明确的开发协作准则"
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ],
+      "positioning_zh": "andrej-karpathy-skills 是一个智能体/自动化工作流项目，核心目标是「A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.」。",
+      "product_view_zh": "从产品/应用角度看，andrej-karpathy-skills 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
+      "technical_view_zh": "技术选型上，它主要以 未知语言 实现，可见工程信号包括API、TypeScript。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、AI 编程与代码理解。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 65 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "andrej-karpathy-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
+      ],
+      "maturity_score": 5,
+      "adoption_difficulty": "低",
+      "recommendation_score": 5,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
       ]
     },
     {
@@ -268,9 +492,37 @@
       "summary_zh": "Headroom 是一个面向 LLM 上下文优化的压缩工具，可在日志、文件、工具输出和 RAG 片段进入模型前减少 token。",
       "purpose_zh": "项目用于降低大模型上下文成本，在尽量保持答案质量的同时压缩冗长输入，并提供库、代理和 MCP 服务形态。",
       "application_scenarios_zh": [
-        "在编码智能体中压缩命令输出、日志和长文件，减少上下文占用",
-        "在 RAG 系统中预处理检索片段，提高单位上下文窗口的信息密度",
-        "通过 MCP 或代理层接入现有 LLM 工具链，统一做 token 优化"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
+      "positioning_zh": "headroom 聚焦检索增强与知识上下文构建，主要解决「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」。",
+      "product_view_zh": "从产品/应用角度看，headroom 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」这类需要向量检索、召回质量或上下文管理的场景。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Rust、Docker、MCP、CLI。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 61 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "RAG",
+        "知识库",
+        "上下文",
+        "智能体",
+        "AI 编程"
+      ],
+      "maturity_score": 3,
+      "adoption_difficulty": "高",
+      "recommendation_score": 3,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
       ]
     },
     {
@@ -312,6 +564,34 @@
         "开发者在 Windows、macOS 或 Linux 上集中切换多个 AI 编程 CLI",
         "团队统一管理模型供应商配置、MCP 服务和技能包设置",
         "需要频繁测试不同智能体工具的用户快速切换环境并观察使用情况"
+      ],
+      "positioning_zh": "cc-switch 面向代码理解、审查或研发协作场景，主要能力是「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」。",
+      "product_view_zh": "从产品/应用角度看，cc-switch 主要服务研发效率。它把「A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 Rust 实现，可见工程信号包括MCP、CLI、API、TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 58 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "cc-switch 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "MCP",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
       ]
     }
   ]

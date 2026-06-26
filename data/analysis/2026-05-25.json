@@ -1,50 +1,10 @@
 {
-  "date": "2026-05-25",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-26T09:34:12.989847Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "Lum1104/Understand-Anything",
-      "repo_id": 1182081931,
-      "url": "https://github.com/Lum1104/Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "language": "TypeScript",
-      "topics": [
-        "antigravity-skills",
-        "business-knowledge",
-        "claude-code",
-        "claude-skills",
-        "codebase-analysis",
-        "codex",
-        "codex-skills",
-        "developer-tools-ai-agent",
-        "gemini-cli-skills",
-        "karpathy-llm-wiki",
-        "knowledge-base",
-        "knowledge-graph",
-        "memory",
-        "opencode-skills",
-        "pi-agent",
-        "understandcode",
-        "vibe-coding"
-      ],
-      "yesterday_new_stars": 500,
-      "total_stars": 33763,
-      "readme_url": "https://github.com/Lum1104/Understand-Anything/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "这是一个面向 AI 编程助手/IDE 插件的代码理解工具：它会分析代码库、知识库或文档，结合静态解析与大模型能力，生成可交互的知识图谱，帮助用户搜索、浏览、问答和理解项目结构与业务逻辑。",
       "purpose_zh": "核心作用是把复杂代码库转成“可探索、可检索、可提问”的知识图谱，并提供分层视图、引导式导览、语义搜索、变更影响分析和新成员上手支持，提升代码理解与协作效率。",
-      "application_scenarios_zh": [
-        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
-        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
-        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
-      ],
       "positioning_zh": "Understand-Anything 面向代码理解、审查或研发协作场景，主要能力是「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」。",
       "product_view_zh": "从产品/应用角度看，Understand-Anything 主要服务研发效率。它把「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -68,6 +28,11 @@
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -75,24 +40,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "colbymchenry/codegraph",
-      "repo_id": 1137078255,
-      "url": "https://github.com/colbymchenry/codegraph",
-      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 287,
-      "total_stars": 26802,
-      "readme_url": "https://github.com/colbymchenry/codegraph/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "CodeGraph 是一个面向 Claude Code、Cursor、Codex 等 AI 编程代理的本地代码知识图谱工具，提前为代码库建立符号关系、调用关系和结构索引，帮助代理更快定位相关代码并减少文件扫描。",
       "purpose_zh": "它的核心作用是把代码库预先索引成可查询的知识图谱，让 AI 编程助手直接通过图谱获取上下文、追踪调用链和影响范围，从而降低 token 消耗、工具调用次数和探索时间；同时保持 100% 本地运行，不依赖外部服务。",
-      "application_scenarios_zh": [
-        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
-        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
-        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
-      ],
       "positioning_zh": "codegraph 面向代码理解、审查或研发协作场景，主要能力是「Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local」。",
       "product_view_zh": "从产品/应用角度看，codegraph 主要服务研发效率。它把「Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -116,6 +67,11 @@
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -123,45 +79,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "rohitg00/ai-engineering-from-scratch",
-      "repo_id": 1185590488,
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "description": "Learn it. Build it. Ship it for others.",
-      "language": "Python",
-      "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "ai-engineering",
-        "computer-vision",
-        "course",
-        "deep-learning",
-        "from-scratch",
-        "generative-ai",
-        "llm",
-        "machine-learning",
-        "mcp",
-        "nlp",
-        "python",
-        "reinforcement-learning",
-        "rust",
-        "swarm-intelligence",
-        "transformers",
-        "tutorial",
-        "typescript"
-      ],
-      "yesterday_new_stars": 283,
-      "total_stars": 19861,
-      "readme_url": "https://github.com/rohitg00/ai-engineering-from-scratch/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个面向 AI 工程学习的开源课程仓库，覆盖从数学、机器学习、深度学习、NLP、Transformer、LLM、生成式 AI 到智能体、MCP、多智能体与生产部署的完整学习路径，强调“从零实现 + 再用框架落地”。",
       "purpose_zh": "项目的作用是系统性教授 AI 工程能力：先用原理和代码从头构建核心算法，再迁移到 PyTorch、sklearn 等工程栈，并产出可复用的提示词、技能、智能体和 MCP 服务器。核心价值在于把碎片化 AI 知识串成完整技能树，帮助学习者真正理解模型与智能体的底层机制，并具备交付可用 AI 工具的能力。",
-      "application_scenarios_zh": [
-        "个人系统学习 AI/LLM/Agent 工程，按阶段补齐数学、建模和部署能力",
-        "团队内部培训新成员，作为 AI 工程课程和实战教材使用",
-        "将课程产出的 prompts、skills、agents、MCP servers 直接集成到日常开发或 AI 产品原型中"
-      ],
       "positioning_zh": "ai-engineering-from-scratch 是一个智能体/自动化工作流项目，核心目标是「Learn it. Build it. Ship it for others.」。",
       "product_view_zh": "从产品/应用角度看，ai-engineering-from-scratch 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「Learn it. Build it. Ship it for others.」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
       "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Rust、MCP、TypeScript。重点应关注示例可运行性、学习路径完整度、依赖版本和从原理到工程实践的衔接。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -185,6 +106,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "个人系统学习 AI/LLM/Agent 工程，按阶段补齐数学、建模和部署能力",
+        "团队内部培训新成员，作为 AI 工程课程和实战教材使用",
+        "将课程产出的 prompts、skills、agents、MCP servers 直接集成到日常开发或 AI 产品原型中"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -192,24 +118,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "multica-ai/andrej-karpathy-skills",
-      "repo_id": 1142983825,
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 254,
-      "total_stars": 156225,
-      "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "这是一个面向 Claude Code / Cursor 的提示与规则配置仓库，提供单个 CLAUDE.md（以及对应规则文件）来改善大模型编程助手的行为，核心是减少幻觉、过度复杂化、误改无关代码，并通过测试和成功标准驱动执行。",
       "purpose_zh": "项目的作用是为 AI 编程助手注入一套高层行为准则：先澄清再编码、优先保持简单、只做必要的局部修改、用可验证目标推动迭代。核心价值在于提升代码生成的准确性、可控性和改动质量，降低大模型在真实代码库中的误判与副作用。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。",
-        "基于项目提供的示例搭建内部原型，验证它与现有数据、工具链或业务流程的集成成本。"
-      ],
       "positioning_zh": "andrej-karpathy-skills 是一个大模型相关开源项目，核心目标是「A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.」。",
       "product_view_zh": "从产品/应用角度看，andrej-karpathy-skills 的价值在于把「A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.」对应的问题转成可复用工具或参考实现。它适合正在评估大语言模型、AI 编程与代码理解方案的个人开发者、产品团队或技术团队，用来快速验证场景是否成立。",
       "technical_view_zh": "技术选型上，它主要以 未知语言 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。README 和 topics 暗示其核心能力集中在大语言模型、AI 编程与代码理解。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -233,6 +145,11 @@
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。",
+        "基于项目提供的示例搭建内部原型，验证它与现有数据、工具链或业务流程的集成成本。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -240,33 +157,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "affaan-m/ECC",
-      "repo_id": 1136590548,
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "yesterday_new_stars": 180,
-      "total_stars": 193418,
-      "readme_url": "https://github.com/affaan-m/ECC/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个面向 AI 智能体/大模型开发环境的性能优化与运维系统，主要为 Claude Code、Codex、Cursor、OpenCode 等 agent harness 提供技能、记忆、hook、规则、MCP 配置、安全检查和研究优先的工作流支持。",
       "purpose_zh": "核心作用是提升 AI agent 在真实开发任务中的效率、稳定性与可控性，包括上下文/记忆管理、令牌与提示优化、并行执行、持续学习、评估验证和安全防护。其核心价值在于把分散的 AI 编程配置升级为一套可复用、跨平台的 agent 运行体系。",
-      "application_scenarios_zh": [
-        "在授权环境中组织逆向、安全测试、工具路由和知识库沉淀。",
-        "把安全研究流程拆成可复用的 Agent 技能或命令链。",
-        "为安全团队建立可审计的实验流程，降低重复配置工具链的成本。"
-      ],
       "positioning_zh": "ECC 面向授权安全研究和工具编排，核心能力是「The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.」。",
       "product_view_zh": "从产品/应用角度看，ECC 主要服务研发效率。它把「The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括MCP。重点应关注授权边界、命令执行隔离、日志审计和工具链可控性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -290,6 +184,11 @@
       "maturity_score": 5,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "在授权环境中组织逆向、安全测试、工具路由和知识库沉淀。",
+        "把安全研究流程拆成可复用的 Agent 技能或命令链。",
+        "为安全团队建立可审计的实验流程，降低重复配置工具链的成本。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -297,24 +196,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 141,
-      "total_stars": 106203,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "这是一个面向 AI 编程代理的“技能”集合仓库，提供一组可复用的 Shell/配置型工作流，用来指导 Claude Code、Codex 等代理进行需求澄清、架构审视、TDD、故障诊断、任务拆分等工程实践。核心价值在于把软件工程方法论封装成可安装、可组合的 agent skills，帮助开发者提升与 AI 协作时的对齐度、反馈质量和代码质量。",
       "purpose_zh": "为编码代理提供一套可安装的工程工作流技能，减少误解、提升需求澄清能力、增强测试与调试反馈，并帮助控制代码库复杂度。",
-      "application_scenarios_zh": [
-        "在 Claude Code 中安装并使用 /grill-me 对新需求做充分澄清，避免 AI 误解目标",
-        "在现有代码库中使用 /tdd 和 /diagnose 辅助实现功能、修复 Bug 与回归测试",
-        "在团队项目中用 /to-prd、/to-issues、/triage 将讨论内容转成 PRD、任务拆分和问题分流"
-      ],
       "positioning_zh": "skills 面向代码理解、审查或研发协作场景，主要能力是「Skills for Real Engineers. Straight from my .claude directory.」。",
       "product_view_zh": "从产品/应用角度看，skills 主要服务研发效率。它把「Skills for Real Engineers. Straight from my .claude directory.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Shell 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -338,6 +223,11 @@
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "在 Claude Code 中安装并使用 /grill-me 对新需求做充分澄清，避免 AI 误解目标",
+        "在现有代码库中使用 /tdd 和 /diagnose 辅助实现功能、修复 Bug 与回归测试",
+        "在团队项目中用 /to-prd、/to-issues、/triage 将讨论内容转成 PRD、任务拆分和问题分流"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -345,41 +235,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "NousResearch/hermes-agent",
-      "repo_id": 1024554267,
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
-      ],
-      "yesterday_new_stars": 136,
-      "total_stars": 168037,
-      "readme_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个面向大模型的 AI Agent 项目 Hermes Agent，支持多模型接入、终端/消息平台对话、工具调用、记忆与技能积累、定时任务和子代理协作，核心是把 LLM 变成可长期运行、可自我改进的助理。",
       "purpose_zh": "用于构建和运行具备持续记忆、工具使用、任务自动化与跨平台交互能力的智能代理，方便用户在 CLI、Telegram、Discord、Slack 等渠道中与大模型协作完成复杂工作。",
-      "application_scenarios_zh": [
-        "个人 AI 助手：在命令行或聊天软件中持续对话、记忆偏好并协助日常事务",
-        "自动化工作流：定时生成日报、备份提醒、夜间巡检等无人值守任务",
-        "开发/研究场景：调用工具、拆分子任务、生成轨迹数据，用于多步推理与 agent 训练研究"
-      ],
       "positioning_zh": "hermes-agent 面向代码理解、审查或研发协作场景，主要能力是「The agent that grows with you」。",
       "product_view_zh": "从产品/应用角度看，hermes-agent 主要服务研发效率。它把「The agent that grows with you」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -403,6 +262,11 @@
       "maturity_score": 5,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "个人 AI 助手：在命令行或聊天软件中持续对话、记忆偏好并协助日常事务",
+        "自动化工作流：定时生成日报、备份提醒、夜间巡检等无人值守任务",
+        "开发/研究场景：调用工具、拆分子任务、生成轨迹数据，用于多步推理与 agent 训练研究"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -410,41 +274,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "esengine/DeepSeek-Reasonix",
-      "repo_id": 1216785679,
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "TypeScript",
-      "topics": [
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-coding",
-        "cli",
-        "coding-agent",
-        "deepseek",
-        "developer-tools",
-        "ink",
-        "llm",
-        "prompt-caching",
-        "r1",
-        "terminal",
-        "tool-use",
-        "tui",
-        "typescript"
-      ],
-      "yesterday_new_stars": 124,
-      "total_stars": 9443,
-      "readme_url": "https://github.com/esengine/DeepSeek-Reasonix/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个面向终端的 DeepSeek 原生 AI 编程代理（CLI/TUI），可在本地项目中执行对话、代码修改、工具调用、会话管理等能力。",
       "purpose_zh": "项目的核心作用是把 DeepSeek 大模型接入终端开发工作流，充当可持续运行的编码助手：能够理解任务、读取/编辑文件、调用工具、生成补丁并执行受控 shell 操作。其核心价值在于围绕 prefix-cache 稳定性设计，降低长会话推理成本，并提升持续编程任务的可用性与效率。",
-      "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
-      ],
       "positioning_zh": "DeepSeek-Reasonix 是一个智能体/自动化工作流项目，核心目标是「DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.」。",
       "product_view_zh": "从产品/应用角度看，DeepSeek-Reasonix 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
       "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、AI 编程与代码理解。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -468,6 +301,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -475,24 +313,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "anthropics/knowledge-work-plugins",
-      "repo_id": 1140828898,
-      "url": "https://github.com/anthropics/knowledge-work-plugins",
-      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 121,
-      "total_stars": 16289,
-      "readme_url": "https://github.com/anthropics/knowledge-work-plugins/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个面向 Claude Cowork / Claude Code 的插件仓库，用于把 Claude 变成不同岗位的“专用助手”。仓库提供销售、客服、产品、营销、法务、财务、数据分析、企业搜索等角色插件，包含技能说明、工具连接器、命令和子代理配置，帮助模型按团队流程完成更一致的工作。",
       "purpose_zh": "核心用途是为大模型提供岗位化工作流、企业工具接入和可定制的操作指令，让 Claude 能基于组织上下文执行知识工作任务。核心价值在于提升自动化程度、一致性和专业性，并降低团队在重复性知识工作上的时间成本。",
-      "application_scenarios_zh": [
-        "销售团队用 Claude 进行线索研究、通话准备、外联邮件草拟和竞品对比卡片整理",
-        "客服团队用 Claude 进行工单分流、回复草拟、升级处理和知识库文章生成",
-        "产品/数据团队用 Claude 编写需求文档或 SQL、分析用户数据并同步项目进展"
-      ],
       "positioning_zh": "knowledge-work-plugins 面向代码理解、审查或研发协作场景，主要能力是「Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork」。",
       "product_view_zh": "从产品/应用角度看，knowledge-work-plugins 主要服务研发效率。它把「Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Python 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -516,6 +340,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "销售团队用 Claude 进行线索研究、通话准备、外联邮件草拟和竞品对比卡片整理",
+        "客服团队用 Claude 进行工单分流、回复草拟、升级处理和知识库文章生成",
+        "产品/数据团队用 Claude 编写需求文档或 SQL、分析用户数据并同步项目进展"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
@@ -523,24 +352,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "obra/superpowers",
-      "repo_id": 1073224795,
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 104,
-      "total_stars": 207352,
-      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "ai_confidence": 0.99,
       "summary_zh": "这是一个面向编程 AI 代理的技能框架与开发方法论，提供可组合的工作流、指令和插件安装方式，帮助代理在写代码前先澄清需求、制定计划、分步执行并进行测试与代码审查。",
       "purpose_zh": "核心作用是提升 coding agent 的软件开发质量与稳定性：通过标准化的 Brainstorming、TDD、分工执行、代码审查、Git worktree 等流程，减少拍脑袋式生成代码，强调可验证、可协作、可长期 автономously 执行的开发方式。",
-      "application_scenarios_zh": [
-        "在 Claude Code、Codex CLI、Cursor 等编程 AI 工具中安装插件，规范 AI 代理的开发流程",
-        "团队使用 AI 代理进行需求澄清、方案设计、任务拆分和自动化实现，提高交付效率",
-        "在复杂项目中让 AI 按 TDD 和分阶段审查自动完成修复、重构和新功能开发"
-      ],
       "positioning_zh": "superpowers 面向代码理解、审查或研发协作场景，主要能力是「An agentic skills framework & software development methodology that works.」。",
       "product_view_zh": "从产品/应用角度看，superpowers 主要服务研发效率。它把「An agentic skills framework & software development methodology that works.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
       "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
@@ -564,6 +379,11 @@
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "在 Claude Code、Codex CLI、Cursor 等编程 AI 工具中安装插件，规范 AI 代理的开发流程",
+        "团队使用 AI 代理进行需求澄清、方案设计、任务拆分和自动化实现，提高交付效率",
+        "在复杂项目中让 AI 按 TDD 和分阶段审查自动完成修复、重构和新功能开发"
+      ],
       "adoption_notes_zh": [
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",

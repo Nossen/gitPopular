@@ -9,11 +9,21 @@
       "product_view_zh": "可用于竞品行为观察、合规讨论和安全培训，但不适合把内容直接复制进生产提示词。",
       "technical_view_zh": "使用时应把仓库文本视为未验证材料，重点做来源校验、脱敏、访问控制和法律风险评估。",
       "trend_view_zh": "系统提示词透明化需求升温，说明 AI 产品治理、可解释性与安全边界正在进入公共讨论。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "CL4R1T4S 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "系统提示词",
-        "AI 透明度",
-        "红队研究",
-        "模型治理"
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "OpenAI"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
@@ -38,11 +48,21 @@
       "product_view_zh": "对团队的价值在于评估私有化 AI 编程入口，但需要先确认权限、审计和现有 IDE/CLI 习惯。",
       "technical_view_zh": "选型时重点看模型配置、工具边界、记忆存储、沙箱策略和大仓库稳定性。",
       "trend_view_zh": "大厂开源编程 Agent，说明开发者入口正成为模型能力和工程生态的展示窗口。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "MiMo-Code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
         "AI 编程",
-        "终端 Agent",
-        "跨会话记忆",
-        "开发工具"
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
@@ -63,23 +83,33 @@
       "ai_confidence": 0.9,
       "summary_zh": "headroom 在工具输出、日志、文件和 RAG 片段进入模型前做上下文压缩，目标是减少 token、噪声和无效阅读。",
       "purpose_zh": "它解决 Agent 与知识库场景中上下文过长、成本过高、关键信息被稀释的问题。",
-      "positioning_zh": "定位是上下文工程基础层，可作为库、代理或 MCP server 接入现有链路。",
-      "product_view_zh": "适合日志分析、代码助手和 RAG 问答降本，但必须验证压缩后答案仍可靠。",
-      "technical_view_zh": "选型应测试延迟、召回损失、失败回退，以及与 SDK、MCP、RAG 管线的兼容性。",
-      "trend_view_zh": "Agent 应用开始重视上下文预算、信息密度和推理成本控制，而不只是扩大窗口。",
+      "positioning_zh": "headroom 聚焦检索增强与知识上下文构建，主要解决「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」。",
+      "product_view_zh": "从产品/应用角度看，headroom 的价值在于提升知识查找和大模型回答的可用性。它适合用于「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」这类需要向量检索、召回质量或上下文管理的场景。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Rust、Docker、MCP、CLI。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 66 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
-        "上下文压缩",
         "RAG",
-        "MCP",
-        "Token 优化"
+        "知识库",
+        "上下文",
+        "智能体",
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
       "application_scenarios_zh": [
-        "压缩代码助手的日志、diff 和工具输出",
-        "在知识库召回后压缩冗余段落",
-        "为 Agent 平台统一控制上下文预算"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
       ],
       "adoption_notes_zh": [
         "用真实任务集对比压缩前后的准确率",
@@ -96,11 +126,21 @@
       "product_view_zh": "适合研发团队统一不同 AI 工具的交付标准，降低提示词和流程维护成本。",
       "technical_view_zh": "接入前要核对技能格式、触发规则、命令依赖以及与现有项目规范的冲突。",
       "trend_view_zh": "AI 编程竞争正在从模型能力延伸到流程资产、质量门禁和团队治理。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
-        "Agent 技能",
-        "工程流程",
-        "质量门禁",
-        "AI 编程"
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "大模型",
+        "智能体"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
@@ -121,23 +161,33 @@
       "ai_confidence": 0.88,
       "summary_zh": "last30days-skill 是一个面向 AI Agent 的研究技能，聚合 Reddit、X、YouTube、HN、Polymarket 和网页信息后生成近期主题总结。",
       "purpose_zh": "它解决通用搜索难以覆盖社区信号、时效性材料分散和引用整理成本高的问题。",
-      "positioning_zh": "项目定位为近期舆情与趋势研究技能，不是完整数据平台；亮点在多源检索和综合输出模板。",
-      "product_view_zh": "适合产品、投资和内容团队快速形成最近 30 天的议题雷达，但结论仍需人工核验。",
-      "technical_view_zh": "接入时要检查各平台访问、速率限制、引用保存、缓存策略和失败降级。",
+      "positioning_zh": "last30days-skill 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，last30days-skill 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
       "trend_view_zh": "AI 研究工具正从静态网页摘要转向多社区、多模态和时间窗口明确的证据合成。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "last30days-skill 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
+      ],
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
       "project_tags_zh": [
-        "趋势研究",
-        "多源检索",
-        "Agent 技能",
-        "舆情分析"
+        "联网 Agent",
+        "信息抓取",
+        "自动化",
+        "AI 编程",
+        "大模型"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
       "application_scenarios_zh": [
-        "跟踪某个行业最近一个月的社区讨论",
-        "为产品路线图收集早期用户信号",
-        "生成带来源线索的市场和内容选题简报"
+        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
+        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
       ],
       "adoption_notes_zh": [
         "先确认外部平台账号、API 和地区访问条件",
@@ -154,11 +204,21 @@
       "product_view_zh": "适合平台团队、企业安全团队和内部 AI 工具市场，在技能上架或更新前做自动检查。",
       "technical_view_zh": "需要关注规则覆盖率、误报处理、CI 集成方式、扫描可解释性和对本地技能格式的适配。",
       "trend_view_zh": "Agent 技能开始形成供应链，安全扫描从代码依赖扩展到提示词、工具权限和操作流程。",
+      "category_zh": "安全研究",
+      "highlight_zh": "SkillSpector 把安全研究工具链和知识库组织成 Agent 可调用的工作流。",
+      "target_users_zh": [
+        "安全研究员",
+        "授权渗透测试团队",
+        "安全工具开发者"
+      ],
+      "best_use_case_zh": "在授权环境中组织逆向、安全测试和工具路由流程。",
+      "not_suitable_zh": "不适合未授权测试、灰色用途或缺少审计边界的生产环境。",
       "project_tags_zh": [
-        "Agent 安全",
-        "技能扫描",
-        "供应链风险",
-        "NVIDIA"
+        "安全研究",
+        "工具链",
+        "Agent",
+        "AI 编程",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
@@ -183,11 +243,21 @@
       "product_view_zh": "适合需要快速提升 AI 编程质量的个人和小团队，但应按本地技术栈裁剪。",
       "technical_view_zh": "接入时要检查技能是否与现有 AGENTS、测试命令和代码风格一致。",
       "trend_view_zh": "资深开发者把个人工作法产品化，反映 Agent 时代经验资产正在被结构化传播。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "工程技能",
-        "TypeScript",
         "AI 编程",
-        "开发方法"
+        "开发工具",
+        "工作流",
+        "大模型",
+        "智能体"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
@@ -212,11 +282,21 @@
       "product_view_zh": "适合希望把 AI 编程纳入正式研发流程的团队，但需要维护本地规则并培训使用者。",
       "technical_view_zh": "接入前应确认目标工具支持技能加载、命令执行、项目级指令合并和失败恢复。",
       "trend_view_zh": "开发者正在为 Agent 构建类似团队工程手册的长期规范层。",
+      "category_zh": "Agent 工具",
+      "highlight_zh": "superpowers 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "target_users_zh": [
+        "Agent 开发者",
+        "自动化工作流团队",
+        "AI 工具调研者"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "开发方法论",
-        "Agent 技能",
-        "质量流程",
-        "AI 编程"
+        "智能体",
+        "自动化",
+        "工具调用",
+        "AI 编程",
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
@@ -237,23 +317,33 @@
       "ai_confidence": 0.91,
       "summary_zh": "codegraph 为代码库建立本地预索引知识图谱，并随代码变化自动同步，服务 Claude Code、Codex、Gemini、Cursor 等 Agent。",
       "purpose_zh": "它希望减少 Agent 读取文件、搜索和重复工具调用的成本，让大仓库问答与修改更稳定。",
-      "positioning_zh": "项目定位是本地代码理解基础设施，不替代 Agent，而是为多种编程助手提供语义上下文层。",
-      "product_view_zh": "适合大型仓库、频繁 AI 辅助开发和隐私敏感团队，卖点是本地运行与上下文效率。",
-      "technical_view_zh": "选型需验证索引准确性、增量同步、语言覆盖、资源占用和与现有开发流程的冲突。",
-      "trend_view_zh": "AI 编程正在从临时 grep 走向持久代码索引、知识图谱和本地上下文服务。",
+      "positioning_zh": "codegraph 面向代码理解、审查或研发协作场景，主要能力是「Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool call…」。",
+      "product_view_zh": "从产品/应用角度看，codegraph 主要服务研发效率。它把「Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool call…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括Rust、MCP、CLI、服务端组件。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 38 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "RAG/知识库",
+      "highlight_zh": "codegraph 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "target_users_zh": [
+        "RAG 工程师",
+        "知识库产品团队",
+        "企业 AI 平台团队"
+      ],
+      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
       "project_tags_zh": [
-        "代码知识图谱",
-        "本地索引",
+        "RAG",
+        "知识库",
+        "上下文",
         "AI 编程",
-        "上下文工程"
+        "大模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
       "application_scenarios_zh": [
-        "为大型单体仓库提供本地语义检索",
-        "减少 Codex 或 Claude Code 的重复文件扫描",
-        "在隐私敏感项目中保留本地代码上下文"
+        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
+        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
+        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
       ],
       "adoption_notes_zh": [
         "先在一个中型仓库测量索引时间和磁盘占用",
@@ -270,11 +360,21 @@
       "product_view_zh": "适合个人开发者和小团队改善 AI 前端原型质量，但成熟产品仍应遵循品牌和可用性规范。",
       "technical_view_zh": "接入时要检查技能规则是否与现有设计系统、CSS 框架、可访问性和响应式要求一致。",
       "trend_view_zh": "AI 前端生成的竞争焦点正在从能写页面转向能否做出有判断、有质感且可落地的界面。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
       "project_tags_zh": [
-        "前端设计",
-        "Agent 技能",
-        "UI 品味",
-        "原型生成"
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
