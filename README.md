@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-24 (Asia/Shanghai)
+## 最新榜单：2026-06-25 (Asia/Shanghai)
 
 | 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 62 | 20,161 | Python | `智能体` `OpenAI` `AI 编程` `大模型` `多模态` | ★★★★☆ | 中 |
-| 2 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 49 | 6,699 | Python | `多模态` `AI 编程` `模型推理` `视觉 AI` `开发工具` | ★★★☆☆ | 高 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 48 | 55,885 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `开发工具` | ★★★★☆ | 中 |
-| 4 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | 26 | 21,771 | Python | `智能体` `RAG` `大模型` `AI 编程` `多模态` | ★★★★☆ | 高 |
-| 5 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 25 | 48,854 | Python | `智能体` `大模型` `AI 编程` `多模态` `NLP` | ★★★★☆ | 高 |
-| 6 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 21 | 50,130 | Python | `智能体` `AI 编程` `大模型` `MCP` `OpenAI` | ★★★★☆ | 高 |
-| 7 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | 21 | 60,056 | HTML | `智能体` `AI 编程` `大模型` `RAG` `模型推理` | ★★★★☆ | 高 |
-| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 20 | 202,275 | Python | `智能体` `AI 编程` `大模型` `OpenAI` `RAG` | ★★★★★ | 高 |
-| 9 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 19 | 14,283 | C | `AI 编程` `MCP` `大模型` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 10 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 18 | 33,940 | TypeScript | `智能体` `大模型` `AI 编程` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 1 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 89 | 22,472 | Python | `智能体` `OpenAI` `AI 编程` `大模型` `多模态` | ★★★★☆ | 中 |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 78 | 58,582 | JavaScript | `智能体` `AI 编程` `大模型` `模型推理` `开发工具` | ★★★★☆ | 中 |
+| 3 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 45 | 41,484 | Python | `智能体` `自动化` `AI 编程` `MCP` `大模型` | ★★★★☆ | 高 |
+| 4 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 42 | 6,383 | PowerShell | `AI 编程` `大模型` `智能体` `模型推理` `视觉 AI` | ★★★☆☆ | 中 |
+| 5 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 31 | 49,699 | Python | `智能体` `大模型` `AI 编程` `多模态` `NLP` | ★★★★☆ | 高 |
+| 6 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 28 | 9,219 | Python | `多模态` `AI 编程` `模型推理` `视觉 AI` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 27 | 146,579 | Shell | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★★ | 低 |
+| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 27 | 203,214 | Python | `智能体` `AI 编程` `大模型` `OpenAI` `RAG` | ★★★★★ | 高 |
+| 9 | [stablyai/orca](https://github.com/stablyai/orca) | 26 | 7,604 | TypeScript | `智能体` `AI 编程` `大模型` `多模态` `模型推理` | ★★★☆☆ | 中 |
+| 10 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | 25 | 20,696 | TypeScript | `智能体` `自动化` `AI 编程` `大模型` `多模态` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-24.json](data/2026-06-24.json)
-- Markdown 归档：[reports/2026-06-24.md](reports/2026-06-24.md)
+- JSON 数据：[data/2026-06-25.json](data/2026-06-25.json)
+- Markdown 归档：[reports/2026-06-25.md](reports/2026-06-25.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
