@@ -74,6 +74,12 @@ def render_daily_markdown(report: DailyReport) -> str:
             f"- 生成时间：`{report.generated_at}`",
             f"- 数据源：GH Archive WatchEvent、GitHub REST API、{report.source.get('analysis', '未知分析')}",
             "",
+            "## 社媒速读版",
+            "",
+            "```text",
+            _render_social_digest(report),
+            "```",
+            "",
             _render_table(report.items),
             "",
             _render_project_cards(report.items),
@@ -100,14 +106,15 @@ def render_raw_markdown(report: RawReport) -> str:
 
 def _render_table(items: list[RankedRepo]) -> str:
     lines = [
-        "| 排名 | 项目 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |",
-        "| --- | --- | ---: | ---: | --- | --- | ---: | --- |",
+        "| 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |",
+        "| --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |",
     ]
     for item in items:
         lines.append(
             "| "
             f"{item.rank} | "
             f"[{_escape_md(item.repo)}]({item.url}) | "
+            f"{_escape_md(_display_highlight(item))} | "
             f"{_format_int(item.yesterday_new_stars)} | "
             f"{_format_int(item.total_stars)} | "
             f"{_escape_md(item.language or '未知')} | "
@@ -149,6 +156,7 @@ def _render_project_cards(items: list[RankedRepo]) -> str:
         ]
         notes = "\n".join(f"{index}. {note}" for index, note in enumerate(adoption_notes, start=1))
         topics = ", ".join(f"`{topic}`" for topic in item.topics) if item.topics else "无"
+        target_users = "、".join(item.target_users_zh) if item.target_users_zh else "AI 工具调研者、开发者"
         sections.append(
             "\n".join(
                 [
@@ -162,7 +170,12 @@ def _render_project_cards(items: list[RankedRepo]) -> str:
                     "",
                     "| 指标 | 内容 |",
                     "| --- | --- |",
+                    f"| 项目类别 | `{_escape_md(item.category_zh or 'AI 工具')}` |",
                     f"| 一句话定位 | {_escape_md(item.positioning_zh or item.purpose_zh)} |",
+                    f"| 一句话亮点 | {_escape_md(_display_highlight(item))} |",
+                    f"| 适合人群 | {_escape_md(target_users)} |",
+                    f"| 最佳使用场景 | {_escape_md(item.best_use_case_zh or _first_or_default(item.application_scenarios_zh))} |",
+                    f"| 不适合场景 | {_escape_md(item.not_suitable_zh or '不适合在未验证依赖、许可证和维护状态前直接投入生产。')} |",
                     f"| 项目标签 | {_render_inline_tags(item.project_tags_zh)} |",
                     f"| 推荐关注 | {_score_stars(item.recommendation_score)} |",
                     f"| 成熟度 | {_score_stars(item.maturity_score)} |",
@@ -199,12 +212,41 @@ def _render_project_cards(items: list[RankedRepo]) -> str:
     return "\n\n".join(sections)
 
 
+def _render_social_digest(report: DailyReport) -> str:
+    lines = [f"GitHub AI 热门项目速读（{report.date}）"]
+    for item in report.items:
+        repo_name = item.repo.split("/")[-1]
+        lines.extend(
+            [
+                f"👉{item.rank:02d} {repo_name} ⭐ {_format_short_stars(item.total_stars)} · {item.language or '未知'}",
+                _display_highlight(item),
+                f"🔗 github.com/{item.repo}",
+            ]
+        )
+    lines.append("#AI工具 #开源工具 #GitHub #大模型 #个人开发者")
+    return "\n".join(lines)
+
+
+def _display_highlight(item: RankedRepo) -> str:
+    return item.highlight_zh or item.positioning_zh or item.purpose_zh
+
+
+def _first_or_default(items: list[str]) -> str:
+    return items[0] if items else "先搭建最小原型，验证它是否适配当前工作流。"
+
+
 def _escape_md(value: str) -> str:
     return value.replace("|", "\\|")
 
 
 def _format_int(value: int) -> str:
     return f"{value:,}"
+
+
+def _format_short_stars(value: int) -> str:
+    if value >= 1000:
+        return f"{value / 1000:.1f}k"
+    return str(value)
 
 
 def _render_inline_tags(tags: list[str]) -> str:

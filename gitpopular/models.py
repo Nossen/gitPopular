@@ -36,6 +36,11 @@ class AnalysisResult:
     product_view_zh: str = ""
     technical_view_zh: str = ""
     trend_view_zh: str = ""
+    category_zh: str = ""
+    highlight_zh: str = ""
+    target_users_zh: list[str] = field(default_factory=list)
+    best_use_case_zh: str = ""
+    not_suitable_zh: str = ""
     project_tags_zh: list[str] = field(default_factory=list)
     maturity_score: int = 3
     adoption_difficulty: str = "中"
@@ -63,6 +68,11 @@ class RankedRepo:
     product_view_zh: str = ""
     technical_view_zh: str = ""
     trend_view_zh: str = ""
+    category_zh: str = ""
+    highlight_zh: str = ""
+    target_users_zh: list[str] = field(default_factory=list)
+    best_use_case_zh: str = ""
+    not_suitable_zh: str = ""
     project_tags_zh: list[str] = field(default_factory=list)
     maturity_score: int = 3
     adoption_difficulty: str = "中"
@@ -89,6 +99,11 @@ class RankedRepo:
             "product_view_zh": self.product_view_zh,
             "technical_view_zh": self.technical_view_zh,
             "trend_view_zh": self.trend_view_zh,
+            "category_zh": self.category_zh,
+            "highlight_zh": self.highlight_zh,
+            "target_users_zh": self.target_users_zh,
+            "best_use_case_zh": self.best_use_case_zh,
+            "not_suitable_zh": self.not_suitable_zh,
             "project_tags_zh": self.project_tags_zh,
             "maturity_score": self.maturity_score,
             "adoption_difficulty": self.adoption_difficulty,

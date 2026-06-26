@@ -72,6 +72,11 @@ def run_pipeline(
                 product_view_zh=analysis.product_view_zh,
                 technical_view_zh=analysis.technical_view_zh,
                 trend_view_zh=analysis.trend_view_zh,
+                category_zh=analysis.category_zh,
+                highlight_zh=analysis.highlight_zh,
+                target_users_zh=analysis.target_users_zh,
+                best_use_case_zh=analysis.best_use_case_zh,
+                not_suitable_zh=analysis.not_suitable_zh,
                 project_tags_zh=analysis.project_tags_zh,
                 maturity_score=analysis.maturity_score,
                 adoption_difficulty=analysis.adoption_difficulty,
@@ -204,6 +209,11 @@ def finalize_report_from_analysis(
                 product_view_zh=analysis.product_view_zh,
                 technical_view_zh=analysis.technical_view_zh,
                 trend_view_zh=analysis.trend_view_zh,
+                category_zh=analysis.category_zh,
+                highlight_zh=analysis.highlight_zh,
+                target_users_zh=analysis.target_users_zh,
+                best_use_case_zh=analysis.best_use_case_zh,
+                not_suitable_zh=analysis.not_suitable_zh,
                 project_tags_zh=analysis.project_tags_zh,
                 maturity_score=analysis.maturity_score,
                 adoption_difficulty=analysis.adoption_difficulty,
@@ -261,6 +271,11 @@ def finalize_report_with_fallback_analysis(
                 product_view_zh=analysis.product_view_zh,
                 technical_view_zh=analysis.technical_view_zh,
                 trend_view_zh=analysis.trend_view_zh,
+                category_zh=analysis.category_zh,
+                highlight_zh=analysis.highlight_zh,
+                target_users_zh=analysis.target_users_zh,
+                best_use_case_zh=analysis.best_use_case_zh,
+                not_suitable_zh=analysis.not_suitable_zh,
                 project_tags_zh=analysis.project_tags_zh,
                 maturity_score=analysis.maturity_score,
                 adoption_difficulty=analysis.adoption_difficulty,
@@ -303,6 +318,12 @@ def _load_analysis_by_repo(path: Path) -> dict[str, AnalysisResult]:
         summary = str(item["summary_zh"]).strip()
         purpose = str(item["purpose_zh"]).strip()
         scenario_text = [str(scenario).strip() for scenario in scenarios]
+        tags = _normalize_tags(item.get("project_tags_zh"))
+        category = _text_or_default(item.get("category_zh"), _infer_category(tags, summary, purpose))
+        highlight = _text_or_default(
+            item.get("highlight_zh"),
+            _compact_text(item.get("positioning_zh") or purpose or summary, limit=96),
+        )
         analysis_by_repo[repo] = AnalysisResult(
             ai_related=bool(item.get("ai_related", True)),
             ai_confidence=float(item.get("ai_confidence", 0.9)),
@@ -316,7 +337,20 @@ def _load_analysis_by_repo(path: Path) -> dict[str, AnalysisResult]:
                 "建议结合 README、依赖、部署方式和 issue 活跃度评估接入成本。",
             ),
             trend_view_zh=_text_or_default(item.get("trend_view_zh"), summary),
-            project_tags_zh=_normalize_tags(item.get("project_tags_zh")),
+            category_zh=category,
+            highlight_zh=highlight,
+            target_users_zh=_normalize_list(
+                item.get("target_users_zh"),
+                ["AI 工具调研者", "开发者", "产品/技术团队"],
+                min_items=2,
+                max_items=4,
+            ),
+            best_use_case_zh=_text_or_default(item.get("best_use_case_zh"), scenario_text[0]),
+            not_suitable_zh=_text_or_default(
+                item.get("not_suitable_zh"),
+                "不适合在未验证依赖、许可证和维护状态前直接投入生产。",
+            ),
+            project_tags_zh=tags,
             maturity_score=_clamp_score(item.get("maturity_score"), default=3),
             adoption_difficulty=_normalize_difficulty(item.get("adoption_difficulty")),
             recommendation_score=_clamp_score(item.get("recommendation_score"), default=3),
@@ -341,6 +375,26 @@ def _text_or_default(value: Any, default: str) -> str:
     return text or default
 
 
+def _compact_text(value: Any, limit: int) -> str:
+    text = " ".join(str(value or "").split())
+    if len(text) <= limit:
+        return text
+    return text[: limit - 1].rstrip() + "…"
+
+
+def _normalize_list(value: Any, default: list[str], min_items: int, max_items: int) -> list[str]:
+    if isinstance(value, list):
+        items = [str(item).strip() for item in value if str(item).strip()]
+    else:
+        items = []
+    if len(items) >= min_items:
+        return items[:max_items]
+    for item in default:
+        if item not in items:
+            items.append(item)
+    return items[:max_items]
+
+
 def _normalize_tags(value: Any) -> list[str]:
     if isinstance(value, list):
         tags = [str(item).strip() for item in value if str(item).strip()]
@@ -352,6 +406,25 @@ def _normalize_tags(value: Any) -> list[str]:
         if tag not in result:
             result.append(tag)
     return result[:5]
+
+
+def _infer_category(tags: list[str], summary: str, purpose: str) -> str:
+    text = " ".join(tags + [summary, purpose]).lower()
+    checks = [
+        ("文档转换", ["markdown", "pdf", "office", "文档"]),
+        ("AI 视频生产", ["视频", "video", "短视频"]),
+        ("上下文管理", ["上下文", "context", "memory", "记忆"]),
+        ("联网 Agent", ["联网", "社媒", "search", "scraper", "搜索"]),
+        ("AI 编程工作流", ["ai 编程", "代码", "code", "developer"]),
+        ("RAG/知识库", ["rag", "检索", "向量", "知识"]),
+        ("视觉/OCR", ["ocr", "视觉", "image", "图像"]),
+        ("安全研究", ["安全", "security", "reverse", "渗透"]),
+        ("Agent 工具", ["agent", "智能体", "mcp"]),
+    ]
+    for category, needles in checks:
+        if any(needle in text for needle in needles):
+            return category
+    return "AI 工具"
 
 
 def _clamp_score(value: Any, default: int) -> int:
