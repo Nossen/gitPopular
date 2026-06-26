@@ -1,35 +1,6 @@
 {
-  "date": "2026-06-23",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-26T08:55:31.926893Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
-      "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 23,
-      "total_stars": 51820,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.79,
       "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
@@ -56,39 +27,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "DietrichGebert/ponytail"
     },
     {
-      "rank": 2,
-      "repo": "calesthio/OpenMontage",
-      "repo_id": 1195360525,
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot",
-        "cursor",
-        "elevenlabs",
-        "ffmpeg",
-        "flux",
-        "image-generation",
-        "open-source",
-        "openai",
-        "python",
-        "remotion",
-        "stable-diffusion",
-        "text-to-speech",
-        "text-to-video",
-        "video-generation",
-        "video-production"
-      ],
-      "yesterday_new_stars": 22,
-      "total_stars": 14752,
-      "readme_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "OpenMontage 主要围绕「World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -115,19 +57,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "calesthio/OpenMontage"
     },
     {
-      "rank": 3,
-      "repo": "baidu/Unlimited-OCR",
-      "repo_id": 1273138090,
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 19,
-      "total_stars": 2546,
-      "readme_url": "https://github.com/baidu/Unlimited-OCR/blob/main/README.md",
       "ai_confidence": 0.65,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括多媒体生成与理解、AI 编程与代码理解、模型训练与推理、计算机视觉；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Unlimited-OCR 主要围绕「Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.」展开，结合 README、topics 和仓库描述来看，可用于多媒体生成与理解、AI 编程与代码理解、模型训练与推理、计算机视觉相关的开源实践、集成或学习。",
@@ -154,19 +87,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "baidu/Unlimited-OCR"
     },
     {
-      "rank": 4,
-      "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 17,
-      "total_stars": 143008,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.61,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .claude directory.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -193,39 +117,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ]
+      ],
+      "repo": "mattpocock/skills"
     },
     {
-      "rank": 5,
-      "repo": "firecrawl/firecrawl",
-      "repo_id": 787076358,
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 137989,
-      "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "firecrawl 主要围绕「The API to search, scrape, and interact with the web at scale. 🔥」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、模型训练与推理相关的开源实践、集成或学习。",
@@ -252,28 +147,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "firecrawl/firecrawl"
     },
     {
-      "rank": 6,
-      "repo": "obra/superpowers",
-      "repo_id": 1073224795,
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "topics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 236754,
-      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "ai_confidence": 0.71,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "superpowers 主要围绕「An agentic skills framework & software development methodology that works.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK相关的开源实践、集成或学习。",
@@ -300,40 +177,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ]
+      ],
+      "repo": "obra/superpowers"
     },
     {
-      "rank": 7,
-      "repo": "DeusData/codebase-memory-mcp",
-      "repo_id": 1166102148,
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "topics": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 12549,
-      "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md",
       "ai_confidence": 0.7,
       "summary_zh": "该项目以 C 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "codebase-memory-mcp 主要围绕「High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens.…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -360,19 +207,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "DeusData/codebase-memory-mcp"
     },
     {
-      "rank": 8,
-      "repo": "zhaoxuya520/reverse-skill",
-      "repo_id": 1237819660,
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "topics": [],
-      "yesterday_new_stars": 8,
-      "total_stars": 3805,
-      "readme_url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
       "ai_confidence": 0.62,
       "summary_zh": "该项目以 PowerShell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "reverse-skill 主要围绕「Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Su…」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、模型训练与推理相关的开源实践、集成或学习。",
@@ -399,40 +237,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "zhaoxuya520/reverse-skill"
     },
     {
-      "rank": 9,
-      "repo": "headroomlabs-ai/headroom",
-      "repo_id": 1129940957,
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 48105,
-      "readme_url": "https://github.com/headroomlabs-ai/headroom/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "headroom 主要围绕「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -459,39 +267,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "headroomlabs-ai/headroom"
     },
     {
-      "rank": 10,
-      "repo": "JCodesMore/ai-website-cloner-template",
-      "repo_id": 1180745961,
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "description": "Clone any website with one command using AI coding agents",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-tools",
-        "automation",
-        "boilerplate",
-        "claude",
-        "claude-code",
-        "clone",
-        "developer-tools",
-        "nextjs",
-        "react",
-        "reverse-engineering",
-        "shadcn-ui",
-        "skills",
-        "tailwindcss",
-        "template",
-        "typescript",
-        "web-scraping",
-        "website-clone"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 18353,
-      "readme_url": "https://github.com/JCodesMore/ai-website-cloner-template/blob/master/README.md",
       "ai_confidence": 0.77,
       "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "ai-website-cloner-template 主要围绕「Clone any website with one command using AI coding agents」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -518,7 +297,8 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "JCodesMore/ai-website-cloner-template"
     }
   ]
 }

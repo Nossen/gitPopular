@@ -1,35 +1,6 @@
 {
-  "date": "2026-06-15",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-26T08:55:31.913962Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
-      "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 229,
-      "total_stars": 14419,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.77,
       "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
@@ -56,40 +27,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "DietrichGebert/ponytail"
     },
     {
-      "rank": 2,
-      "repo": "elder-plinius/CL4R1T4S",
-      "repo_id": 942867788,
-      "url": "https://github.com/elder-plinius/CL4R1T4S",
-      "description": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
-      "language": null,
-      "topics": [
-        "agents",
-        "ai",
-        "chatgpt",
-        "gemini",
-        "google",
-        "grok",
-        "hacking",
-        "leak",
-        "leaked",
-        "openai",
-        "prompt",
-        "prompt-engineering",
-        "prompts",
-        "red-team",
-        "red-teaming",
-        "system",
-        "system-info",
-        "system-prompts",
-        "tools",
-        "transparency"
-      ],
-      "yesterday_new_stars": 127,
-      "total_stars": 39405,
-      "readme_url": "https://github.com/elder-plinius/CL4R1T4S/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "该项目以 未知语言 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "CL4R1T4S 主要围绕「LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、模型训练与推理相关的开源实践、集成或学习。",
@@ -116,19 +57,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ]
+      ],
+      "repo": "elder-plinius/CL4R1T4S"
     },
     {
-      "rank": 3,
-      "repo": "obra/superpowers",
-      "repo_id": 1073224795,
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 42,
-      "total_stars": 228650,
-      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "ai_confidence": 0.64,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "superpowers 主要围绕「An agentic skills framework & software development methodology that works.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK相关的开源实践、集成或学习。",
@@ -155,19 +87,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ]
+      ],
+      "repo": "obra/superpowers"
     },
     {
-      "rank": 4,
-      "repo": "NVIDIA/SkillSpector",
-      "repo_id": 1187630119,
-      "url": "https://github.com/NVIDIA/SkillSpector",
-      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 39,
-      "total_stars": 6140,
-      "readme_url": "https://github.com/NVIDIA/SkillSpector/blob/main/README.md",
       "ai_confidence": 0.73,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "SkillSpector 主要围绕「Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -194,37 +117,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "NVIDIA/SkillSpector"
     },
     {
-      "rank": 5,
-      "repo": "Egonex-AI/Understand-Anything",
-      "repo_id": 1182081931,
-      "url": "https://github.com/Egonex-AI/Understand-Anything",
-      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-      "language": "TypeScript",
-      "topics": [
-        "antigravity-skills",
-        "business-knowledge",
-        "claude-code",
-        "claude-skills",
-        "codebase-analysis",
-        "codex",
-        "codex-skills",
-        "developer-tools-ai-agent",
-        "gemini-cli-skills",
-        "karpathy-llm-wiki",
-        "knowledge-base",
-        "knowledge-graph",
-        "memory",
-        "opencode-skills",
-        "pi-agent",
-        "understandcode",
-        "vibe-coding"
-      ],
-      "yesterday_new_stars": 36,
-      "total_stars": 60280,
-      "readme_url": "https://github.com/Egonex-AI/Understand-Anything/blob/main/README.md",
       "ai_confidence": 0.65,
       "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Understand-Anything 主要围绕「Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor,…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -251,19 +147,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "Egonex-AI/Understand-Anything"
     },
     {
-      "rank": 6,
-      "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 36,
-      "total_stars": 129879,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.61,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .claude directory.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -290,40 +177,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ]
+      ],
+      "repo": "mattpocock/skills"
     },
     {
-      "rank": 7,
-      "repo": "chopratejas/headroom",
-      "repo_id": 1129940957,
-      "url": "https://github.com/chopratejas/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "yesterday_new_stars": 33,
-      "total_stars": 28591,
-      "readme_url": "https://github.com/chopratejas/headroom/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "headroom 主要围绕「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -350,36 +207,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "chopratejas/headroom"
     },
     {
-      "rank": 8,
-      "repo": "NousResearch/hermes-agent",
-      "repo_id": 1024554267,
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
-      ],
-      "yesterday_new_stars": 33,
-      "total_stars": 194298,
-      "readme_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "hermes-agent 主要围绕「The agent that grows with you」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -406,19 +237,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "NousResearch/hermes-agent"
     },
     {
-      "rank": 9,
-      "repo": "pewdiepie-archdaemon/odysseus",
-      "repo_id": 1255180606,
-      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
-      "description": "Self-hosted AI workspace. ",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 33,
-      "total_stars": 71601,
-      "readme_url": "https://github.com/pewdiepie-archdaemon/odysseus/blob/dev/README.md",
       "ai_confidence": 0.59,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、知识检索与上下文增强、多媒体生成与理解、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "odysseus 主要围绕「Self-hosted AI workspace.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、知识检索与上下文增强、多媒体生成与理解、模型训练与推理相关的开源实践、集成或学习。",
@@ -445,37 +267,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "pewdiepie-archdaemon/odysseus"
     },
     {
-      "rank": 10,
-      "repo": "Panniantong/Agent-Reach",
-      "repo_id": 1165277268,
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "yesterday_new_stars": 32,
-      "total_stars": 29861,
-      "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "ai_confidence": 0.7,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Agent-Reach 主要围绕「Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -502,7 +297,8 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "Panniantong/Agent-Reach"
     }
   ]
 }

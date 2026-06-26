@@ -1,35 +1,6 @@
 {
-  "date": "2026-06-21",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-26T08:55:31.923718Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
-      "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 143,
-      "total_stars": 47235,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.79,
       "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
@@ -56,40 +27,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "DietrichGebert/ponytail"
     },
     {
-      "rank": 2,
-      "repo": "chopratejas/headroom",
-      "repo_id": 1129940957,
-      "url": "https://github.com/chopratejas/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "yesterday_new_stars": 109,
-      "total_stars": 45300,
-      "readme_url": "https://github.com/chopratejas/headroom/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "headroom 主要围绕「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -116,33 +57,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "chopratejas/headroom"
     },
     {
-      "rank": 3,
-      "repo": "tw93/Pake",
-      "repo_id": 551376520,
-      "url": "https://github.com/tw93/Pake",
-      "description": "🤱🏻 Turn any webpage into a desktop app with one command.",
-      "language": "Rust",
-      "topics": [
-        "chatgpt",
-        "claude",
-        "desktop",
-        "gemini",
-        "hight-performance",
-        "linux",
-        "macos",
-        "no-electron",
-        "package",
-        "rust",
-        "tauri",
-        "windows",
-        "youtube"
-      ],
-      "yesterday_new_stars": 105,
-      "total_stars": 56445,
-      "readme_url": "https://github.com/tw93/Pake/blob/main/README.md",
       "ai_confidence": 0.61,
       "summary_zh": "该项目以 Rust 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Pake 主要围绕「🤱🏻 Turn any webpage into a desktop app with one command.」展开，结合 README、topics 和仓库描述来看，可用于大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -169,27 +87,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "tw93/Pake"
     },
     {
-      "rank": 4,
-      "repo": "palmier-io/palmier-pro",
-      "repo_id": 1203468533,
-      "url": "https://github.com/palmier-io/palmier-pro",
-      "description": "macOS video editor built for AI",
-      "language": "Swift",
-      "topics": [
-        "ai-video",
-        "claude",
-        "macos",
-        "mcp",
-        "seedance2",
-        "swift",
-        "video-editor"
-      ],
-      "yesterday_new_stars": 91,
-      "total_stars": 5901,
-      "readme_url": "https://github.com/palmier-io/palmier-pro/blob/main/README.md",
       "ai_confidence": 0.62,
       "summary_zh": "该项目以 Swift 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "palmier-pro 主要围绕「macOS video editor built for AI」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -216,19 +117,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "palmier-io/palmier-pro"
     },
     {
-      "rank": 5,
-      "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 73,
-      "total_stars": 140315,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.61,
       "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .claude directory.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -255,29 +147,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
-      ]
+      ],
+      "repo": "mattpocock/skills"
     },
     {
-      "rank": 6,
-      "repo": "StarTrail-org/PixelRAG",
-      "repo_id": 1253138201,
-      "url": "https://github.com/StarTrail-org/PixelRAG",
-      "description": "The end of web parsing. The beginning of scalable pixel-native search.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "memory",
-        "multimodal",
-        "rag",
-        "search",
-        "searchengine",
-        "vision",
-        "vlm"
-      ],
-      "yesterday_new_stars": 64,
-      "total_stars": 2854,
-      "readme_url": "https://github.com/StarTrail-org/PixelRAG/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "PixelRAG 主要围绕「The end of web parsing. The beginning of scalable pixel-native search.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -304,40 +177,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "StarTrail-org/PixelRAG"
     },
     {
-      "rank": 7,
-      "repo": "DeusData/codebase-memory-mcp",
-      "repo_id": 1166102148,
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "topics": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "yesterday_new_stars": 53,
-      "total_stars": 10709,
-      "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md",
       "ai_confidence": 0.7,
       "summary_zh": "该项目以 C 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "codebase-memory-mcp 主要围绕「High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens.…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -364,27 +207,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "DeusData/codebase-memory-mcp"
     },
     {
-      "rank": 8,
-      "repo": "penpot/penpot",
-      "repo_id": 48769241,
-      "url": "https://github.com/penpot/penpot",
-      "description": "Penpot: The open-source design tool for design and code collaboration",
-      "language": "Clojure",
-      "topics": [
-        "clojure",
-        "clojurescript",
-        "design",
-        "prototyping",
-        "ui",
-        "ux-design",
-        "ux-experience"
-      ],
-      "yesterday_new_stars": 52,
-      "total_stars": 52458,
-      "readme_url": "https://github.com/penpot/penpot/blob/develop/README.md",
       "ai_confidence": 0.59,
       "summary_zh": "该项目以 Clojure 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解、自然语言处理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "penpot 主要围绕「Penpot: The open-source design tool for design and code collaboration」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、AI 编程与代码理解、多媒体生成与理解、自然语言处理相关的开源实践、集成或学习。",
@@ -411,37 +237,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "penpot/penpot"
     },
     {
-      "rank": 9,
-      "repo": "Panniantong/Agent-Reach",
-      "repo_id": 1165277268,
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "yesterday_new_stars": 51,
-      "total_stars": 37182,
-      "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "ai_confidence": 0.7,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Agent-Reach 主要围绕「Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -468,19 +267,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "Panniantong/Agent-Reach"
     },
     {
-      "rank": 10,
-      "repo": "zhongerxin/Cowart",
-      "repo_id": 1273536446,
-      "url": "https://github.com/zhongerxin/Cowart",
-      "description": "",
-      "language": "JavaScript",
-      "topics": [],
-      "yesterday_new_stars": 48,
-      "total_stars": 1544,
-      "readme_url": "https://github.com/zhongerxin/Cowart/blob/main/README.md",
       "ai_confidence": 0.59,
       "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Cowart 主要围绕「Cowart」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -497,8 +287,7 @@
         "智能体",
         "多模态",
         "JavaScript",
-        "高增长",
-        "AI 工具"
+        "高增长"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
@@ -507,7 +296,8 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "zhongerxin/Cowart"
     }
   ]
 }

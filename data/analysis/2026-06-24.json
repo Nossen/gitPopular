@@ -1,44 +1,6 @@
 {
-  "date": "2026-06-24",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-26T08:55:31.928701Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
-      "repo": "calesthio/OpenMontage",
-      "repo_id": 1195360525,
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot",
-        "cursor",
-        "elevenlabs",
-        "ffmpeg",
-        "flux",
-        "image-generation",
-        "open-source",
-        "openai",
-        "python",
-        "remotion",
-        "stable-diffusion",
-        "text-to-speech",
-        "text-to-video",
-        "video-generation",
-        "video-production"
-      ],
-      "yesterday_new_stars": 62,
-      "total_stars": 20161,
-      "readme_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "OpenMontage 主要围绕「World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -65,19 +27,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "calesthio/OpenMontage"
     },
     {
-      "rank": 2,
-      "repo": "baidu/Unlimited-OCR",
-      "repo_id": 1273138090,
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 49,
-      "total_stars": 6699,
-      "readme_url": "https://github.com/baidu/Unlimited-OCR/blob/main/README.md",
       "ai_confidence": 0.65,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括多媒体生成与理解、AI 编程与代码理解、模型训练与推理、计算机视觉；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "Unlimited-OCR 主要围绕「Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.」展开，结合 README、topics 和仓库描述来看，可用于多媒体生成与理解、AI 编程与代码理解、模型训练与推理、计算机视觉相关的开源实践、集成或学习。",
@@ -104,30 +57,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "baidu/Unlimited-OCR"
     },
     {
-      "rank": 3,
-      "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 48,
-      "total_stars": 55885,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.79,
       "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
@@ -154,39 +87,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
-      ]
+      ],
+      "repo": "DietrichGebert/ponytail"
     },
     {
-      "rank": 4,
-      "repo": "topoteretes/cognee",
-      "repo_id": 679343504,
-      "url": "https://github.com/topoteretes/cognee",
-      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-      "language": "Python",
-      "topics": [
-        "agent-memory",
-        "agent-skills",
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "cognitive-architecture",
-        "cognitive-memory",
-        "context-engineering",
-        "contributions-welcome",
-        "good-first-issue",
-        "good-first-pr",
-        "graph-database",
-        "graph-rag",
-        "help-wanted",
-        "knowledge",
-        "knowledge-graph",
-        "memory-management",
-        "open-source",
-        "vector-database"
-      ],
-      "yesterday_new_stars": 26,
-      "total_stars": 21771,
-      "readme_url": "https://github.com/topoteretes/cognee/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "cognee 主要围绕「Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -213,27 +117,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "topoteretes/cognee"
     },
     {
-      "rank": 5,
-      "repo": "ZhuLinsen/daily_stock_analysis",
-      "repo_id": 1131513930,
-      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "language": "Python",
-      "topics": [
-        "a-stock",
-        "ai-agent",
-        "aigc",
-        "llm",
-        "quant",
-        "quantitative-finance",
-        "quantitative-trading"
-      ],
-      "yesterday_new_stars": 25,
-      "total_stars": 48854,
-      "readme_url": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
       "ai_confidence": 0.79,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "daily_stock_analysis 主要围绕「LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notif…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -260,40 +147,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "ZhuLinsen/daily_stock_analysis"
     },
     {
-      "rank": 6,
-      "repo": "headroomlabs-ai/headroom",
-      "repo_id": 1129940957,
-      "url": "https://github.com/headroomlabs-ai/headroom",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "anthropic",
-        "claude-code",
-        "compression",
-        "context-engineering",
-        "context-window",
-        "cursor",
-        "fastapi",
-        "langchain",
-        "llm",
-        "mcp",
-        "openai",
-        "prompt-engineering",
-        "proxy",
-        "python",
-        "rag",
-        "token-optimization",
-        "tokens",
-        "typescript"
-      ],
-      "yesterday_new_stars": 21,
-      "total_stars": 50130,
-      "readme_url": "https://github.com/headroomlabs-ai/headroom/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "headroom 主要围绕「Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
@@ -320,40 +177,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "headroomlabs-ai/headroom"
     },
     {
-      "rank": 7,
-      "repo": "shanraisshan/claude-code-best-practice",
-      "repo_id": 1087192965,
-      "url": "https://github.com/shanraisshan/claude-code-best-practice",
-      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
-      "language": "HTML",
-      "topics": [
-        "agentic-ai",
-        "agentic-coding",
-        "agentic-engineering",
-        "agentic-workflow",
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "best-practices",
-        "boris",
-        "claude",
-        "claude-ai",
-        "claude-code",
-        "claude-code-agents",
-        "claude-code-best-practices",
-        "claude-code-commands",
-        "claude-code-skills",
-        "context-engineering",
-        "pakistan",
-        "pakistani-developer",
-        "vibe-coding"
-      ],
-      "yesterday_new_stars": 21,
-      "total_stars": 60056,
-      "readme_url": "https://github.com/shanraisshan/claude-code-best-practice/blob/main/README.md",
       "ai_confidence": 0.76,
       "summary_zh": "该项目以 HTML 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "claude-code-best-practice 主要围绕「from vibe coding to agentic engineering - practice makes claude perfect」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -380,36 +207,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "shanraisshan/claude-code-best-practice"
     },
     {
-      "rank": 8,
-      "repo": "NousResearch/hermes-agent",
-      "repo_id": 1024554267,
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
-      ],
-      "yesterday_new_stars": 20,
-      "total_stars": 202275,
-      "readme_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "hermes-agent 主要围绕「The agent that grows with you」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -436,40 +237,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "NousResearch/hermes-agent"
     },
     {
-      "rank": 9,
-      "repo": "DeusData/codebase-memory-mcp",
-      "repo_id": 1166102148,
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "topics": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "yesterday_new_stars": 19,
-      "total_stars": 14283,
-      "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md",
       "ai_confidence": 0.7,
       "summary_zh": "该项目以 C 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "codebase-memory-mcp 主要围绕「High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens.…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
@@ -496,28 +267,10 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "DeusData/codebase-memory-mcp"
     },
     {
-      "rank": 10,
-      "repo": "jamiepine/voicebox",
-      "repo_id": 1141782198,
-      "url": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "cuda",
-        "mlx",
-        "qwen3-tts",
-        "qwen3-tts-ui",
-        "voice-ai",
-        "voice-clone",
-        "whisper"
-      ],
-      "yesterday_new_stars": 18,
-      "total_stars": 33940,
-      "readme_url": "https://github.com/jamiepine/voicebox/blob/main/README.md",
       "ai_confidence": 0.74,
       "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
       "purpose_zh": "voicebox 主要围绕「The open-source AI voice studio. Clone, dictate, create.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
@@ -544,7 +297,8 @@
         "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
         "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
         "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
-      ]
+      ],
+      "repo": "jamiepine/voicebox"
     }
   ]
 }
