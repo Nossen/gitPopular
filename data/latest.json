@@ -1,11 +1,11 @@
 {
   "date": "2026-06-26",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-27T05:10:29.315961Z",
+  "generated_at": "2026-06-27T12:33:42.471410Z",
   "source": {
     "stars": "GH Archive WatchEvent",
     "metadata": "GitHub REST API",
-    "analysis": "Local heuristic fallback"
+    "analysis": "Codex scheduled automation"
   },
   "items": [
     {
@@ -19,41 +19,41 @@
       "yesterday_new_stars": 54,
       "total_stars": 10536,
       "readme_url": "https://github.com/baidu/Unlimited-OCR/blob/main/README.md",
-      "ai_confidence": 0.65,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括多媒体生成与理解、AI 编程与代码理解、模型训练与推理、计算机视觉；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "Unlimited-OCR 主要围绕「Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.」展开，结合 README、topics 和仓库描述来看，可用于多媒体生成与理解、AI 编程与代码理解、模型训练与推理、计算机视觉相关的开源实践、集成或学习。",
+      "ai_confidence": 0.88,
+      "summary_zh": "Unlimited-OCR 是百度开源的长程 OCR/文档解析项目，面向一次性解析长文档、复杂版面和图片文字信息。它更适合作为多模态文档处理能力评估对象，而不是普通截图识别小工具。",
+      "purpose_zh": "项目核心作用是把复杂图片、扫描件或长文档中的文本与结构抽取出来，供检索、问答、归档、审核或后续 LLM 分析使用，补齐 AI 应用中“非结构化资料入口”的能力。",
       "application_scenarios_zh": [
-        "把图片、扫描件或复杂版面内容转成结构化文本，供检索和分析使用。",
-        "为票据、合同、表格或多模态资料处理提供识别能力验证。",
-        "作为文档自动化流水线的视觉入口，连接后续抽取、审核和归档。"
+        "将合同、票据、报告等材料转成结构化文本后进入 RAG 或搜索系统。",
+        "为文档审核、归档和信息抽取流程提供 OCR 能力验证。",
+        "在多模态模型评测中比较长文档、复杂版面和低质量扫描件解析效果。"
       ],
-      "positioning_zh": "Unlimited-OCR 面向视觉识别或 OCR 场景，核心能力是「Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.」。",
-      "product_view_zh": "从产品/应用角度看，Unlimited-OCR 的价值在于把「Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.」对应的问题转成可复用工具或参考实现。它适合正在评估多媒体生成与理解、AI 编程与代码理解、模型训练与推理方案的个人开发者、产品团队或技术团队，用来快速验证场景是否成立。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括API、服务端组件。重点应关注识别准确率、版面保留、批处理性能和多语言/复杂文档支持。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 54 stars，反映出：多模态应用正在从图像理解走向文档、票据和复杂版面的结构化处理。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向长文档和复杂版面的 OCR/视觉解析模型与工具。",
+      "product_view_zh": "从产品角度看，它适合文档自动化、知识库入库、合同/票据处理和多模态资料清洗。若识别质量稳定，可以成为 RAG、企业搜索和审核系统的前置能力。",
+      "technical_view_zh": "技术上需要重点看模型权重、推理依赖、显存/吞吐、版面保真度和多语言表现。接入时应先用自有样本压测长文档、表格和低质量扫描件。",
+      "trend_view_zh": "趋势上，OCR 正从单页文字识别走向长程解析和结构理解，说明多模态应用越来越依赖高质量资料入口，而不仅是聊天或图片描述。",
       "category_zh": "视觉/OCR",
-      "highlight_zh": "Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。",
+      "highlight_zh": "Unlimited-OCR 聚焦长文档 OCR 与复杂版面解析，适合做企业知识库和文档自动化入口。",
       "target_users_zh": [
         "OCR 应用开发者",
         "文档自动化团队",
-        "多模态产品团队"
+        "RAG/知识库工程师"
       ],
-      "best_use_case_zh": "把图片、扫描件或复杂版面内容转成结构化文本，供检索和分析使用。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "把扫描件、PDF 或复杂版面图片转成可检索、可问答的结构化文本。",
+      "not_suitable_zh": "不适合在未验证识别准确率、推理成本和数据合规前直接处理关键业务文档。",
       "project_tags_zh": [
         "OCR",
         "视觉 AI",
+        "文档解析",
         "多模态",
-        "AI 编程",
-        "模型推理"
+        "AI 工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先用真实业务样本测试识别准确率和版面结构保留能力。",
+        "评估模型权重、推理资源、许可证和数据出境/隐私要求。",
+        "生产接入前加入人工复核或置信度阈值，避免 OCR 错误直接进入决策链。"
       ]
     },
     {
@@ -78,41 +78,41 @@
       "yesterday_new_stars": 45,
       "total_stars": 60402,
       "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
-      "ai_confidence": 0.79,
-      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
+      "ai_confidence": 0.82,
+      "summary_zh": "ponytail 是面向 Claude Code、Cursor 等 AI 编程代理的规则/技能包，强调少写代码、先判断是否需要改动，并让代理更像谨慎的资深工程师。它的价值在于约束代理行为，而不是提供一个运行时框架。",
+      "purpose_zh": "项目核心作用是给 AI coding agent 注入工程判断：减少过度实现、无关重构和盲目改动，让代理在现有代码库里更克制地理解问题、定位最小改动并完成交付。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+        "为团队 AI 编程助手统一最小改动、先思考、避免过度设计等规则。",
+        "在代码审查前减少代理生成的大段无关修改。",
+        "作为个人 Claude Code/Cursor 配置的一部分，提高日常开发稳定性。"
       ],
-      "positioning_zh": "ponytail 面向代码理解、审查或研发协作场景，主要能力是「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」。",
-      "product_view_zh": "从产品/应用角度看，ponytail 主要服务研发效率。它把「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 45 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI 编程代理的工程行为约束与技能集。",
+      "product_view_zh": "从产品角度看，它适合个人和团队改造 AI 编程助手的默认工作方式，尤其适合代码库较大、容易被代理改乱的项目，用较低成本提升协作稳定性。",
+      "technical_view_zh": "技术上主要是规则、提示词和 agent skill 组织方式，接入成本低，但效果依赖具体代理是否支持技能机制，以及团队是否能把规则融入日常开发流程。",
+      "trend_view_zh": "趋势上，AI 编程从“能写代码”进入“会判断该不该写”的阶段。此类项目说明社区开始重视代理的工程品味、边界意识和最小改动能力。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "ponytail 用工程规则约束 AI 编程代理，让它少写无用代码、少做无关改动。",
       "target_users_zh": [
         "AI 编程用户",
         "研发团队",
-        "代码审查/交付负责人"
+        "代码审查负责人"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "把它接入 Claude Code、Cursor 等工具，约束代理在真实代码库中的修改习惯。",
+      "not_suitable_zh": "不适合期待它直接提供完整 IDE、模型服务或自动修复系统的场景。",
       "project_tags_zh": [
         "AI 编程",
+        "Agent Skills",
+        "工程规范",
         "开发工具",
-        "工作流",
-        "智能体",
-        "大模型"
+        "AI 工具"
       ],
       "maturity_score": 4,
-      "adoption_difficulty": "中",
+      "adoption_difficulty": "低",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先在个人项目试用，观察代理是否明显减少无关改动。",
+        "结合团队自己的工程规范裁剪规则，不要直接照搬所有偏好。",
+        "把效果评估放在实际 PR 质量、回滚率和审查成本上，而不是只看生成速度。"
       ]
     },
     {
@@ -147,40 +147,40 @@
       "total_stars": 23877,
       "readme_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md",
       "ai_confidence": 0.9,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "OpenMontage 主要围绕「World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "summary_zh": "OpenMontage 是 agentic 视频生产系统，把脚本、素材、图片生成、语音、字幕和渲染流程组织成可调用工具链。它不是单一视频生成模型，而是把多种生成能力串成生产流水线。",
+      "purpose_zh": "项目核心作用是让 AI 编程助手或 Agent 参与视频生产，从选题、脚本、素材生成到剪辑/字幕/配音形成自动化流程，降低短视频和演示内容的原型制作门槛。",
       "application_scenarios_zh": [
-        "搭建从选题、脚本、素材、字幕到配音的短视频自动化原型。",
-        "批量生成营销素材、教程视频或产品演示草稿，再由人工做最终审核。",
-        "把多模态生成能力嵌入内容工作流，验证低成本视频生产的可行性。"
+        "批量生成营销视频、教程草稿或产品演示素材。",
+        "验证 Agent 参与脚本、素材和渲染编排的工作流。",
+        "把多模态生成工具接入内部内容生产系统，先做人审后发布。"
       ],
-      "positioning_zh": "OpenMontage 是 AI 视频生产工具，核心目标是「World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.」。",
-      "product_view_zh": "从产品/应用角度看，OpenMontage 把脚本、素材、字幕、配音和画面生成串成视频生产流程。它适合内容团队或个人开发者验证低成本视频自动化，而不是只做单点生成。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括API。重点应关注生成链路编排、素材依赖、渲染性能、版权控制和人工审核接口。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 36 stars，反映出：内容生产正在从单点生成转向脚本、素材、配音和渲染的端到端工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 Agent 的开源视频生产工作流与工具集合。",
+      "product_view_zh": "从产品角度看，它适合内容团队、开发者和营销团队快速验证视频自动化流程，尤其适合批量草稿、教程、演示视频和多版本素材探索。",
+      "technical_view_zh": "技术上要关注依赖的生成模型、FFmpeg/Remotion 渲染链、素材版权、任务编排和失败恢复。AGPL 许可证也需要在商业接入前认真评估。",
+      "trend_view_zh": "趋势上，视频生成正在从单点模型能力转向端到端生产系统。OpenMontage 的增长说明用户更关心可落地流程，而不只是生成一个片段。",
       "category_zh": "AI 视频生产",
-      "highlight_zh": "OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。",
+      "highlight_zh": "OpenMontage 把 Agent、素材生成和渲染工具串成开源视频生产流水线。",
       "target_users_zh": [
         "内容创作者",
         "营销/运营团队",
         "视频自动化开发者"
       ],
-      "best_use_case_zh": "用 OpenMontage 快速搭建从主题、脚本、素材到字幕/配音的自动化视频原型。",
-      "not_suitable_zh": "不适合对成片质量、版权素材和品牌一致性要求很高但没有人工审核的场景。",
+      "best_use_case_zh": "快速搭建从主题、脚本、素材到字幕配音的短视频自动化原型。",
+      "not_suitable_zh": "不适合缺少人工审核、版权管理和品牌一致性要求很高的成片生产。",
       "project_tags_zh": [
         "AI 视频",
         "内容生产",
         "多模态",
-        "智能体",
-        "OpenAI"
+        "Agent",
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先跑官方 quick start，确认渲染链和模型 provider 是否稳定。",
+        "明确素材版权、模型授权和 AGPL 对商业使用的影响。",
+        "生产使用前增加人工审核、素材追踪和失败重试机制。"
       ]
     },
     {
@@ -215,41 +215,41 @@
       "yesterday_new_stars": 25,
       "total_stars": 3237,
       "readme_url": "https://github.com/xbtlin/ai-berkshire/blob/main/README.md",
-      "ai_confidence": 0.82,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "ai-berkshire 主要围绕「AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + mult…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.86,
+      "summary_zh": "ai-berkshire 是基于 Claude Code 的价值投资研究框架，把巴菲特、芒格、段永平、李录等方法论整理为多 Agent 研究流程。它偏向投研框架和技能集合，而不是自动交易机器人。",
+      "purpose_zh": "项目核心作用是让 AI 辅助完成公司研究、财报分析、竞争格局判断和多视角辩论，帮助个人或小团队用结构化方法提升价值投资研究深度。",
       "application_scenarios_zh": [
-        "自动汇总行情、公告、新闻和技术指标，形成可复核的投研看板。",
-        "作为个人量化研究或团队晨报的原型工具。",
-        "跟踪特定股票或行业主题，辅助发现需要人工进一步验证的信号。"
+        "为股票研究生成商业模式、护城河、估值和风险清单。",
+        "把投资大师方法论转成团队内部可复用投研模板。",
+        "用多 Agent 辩论方式审视投资假设和反方观点。"
       ],
-      "positioning_zh": "ai-berkshire 面向金融数据分析和自动化决策辅助，核心目标是「AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + mult…」。",
-      "product_view_zh": "从产品/应用角度看，ai-berkshire 主要服务研发效率。它把「AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + mult…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP。重点应关注数据源可靠性、时效性、指标计算透明度和结论可复核性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 25 stars，反映出：投研场景正在用 LLM 连接行情、新闻和结构化指标，但可复核性比生成速度更关键。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向价值投资研究的 Claude Code 多 Agent 框架。",
+      "product_view_zh": "从产品角度看，它适合投研爱好者、个人投资者和小型研究团队建立可复用研究模板，把大师方法论转成步骤化工作流，提升研究一致性。",
+      "technical_view_zh": "技术上主要依赖 Claude Code、MCP/Agent 流程和研究模板。关键风险不在代码复杂度，而在数据来源、投资假设、回测真实性和结论可复核性。",
+      "trend_view_zh": "趋势上，金融 AI 正从泛泛问答走向结构化投研流程。此类项目的热度说明用户希望让 LLM 扮演研究助理，而不是直接替代投资决策。",
       "category_zh": "金融分析",
-      "highlight_zh": "ai-berkshire 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。",
+      "highlight_zh": "ai-berkshire 把价值投资方法论做成 Claude Code 多 Agent 投研工作流。",
       "target_users_zh": [
-        "量化/投研团队",
-        "金融数据开发者",
-        "自动化看板用户"
+        "个人投资者",
+        "投研团队",
+        "金融 AI 开发者"
       ],
-      "best_use_case_zh": "自动汇总行情、新闻和指标，生成可复核的日常投研看板。",
-      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "best_use_case_zh": "围绕单家公司生成多视角价值投资研究框架和可复核分析清单。",
+      "not_suitable_zh": "不适合把模型输出直接作为买卖建议或收益承诺。",
       "project_tags_zh": [
         "金融分析",
-        "投研",
-        "自动化",
-        "智能体",
-        "AI 编程"
+        "价值投资",
+        "Agent",
+        "Claude Code",
+        "AI 工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
-      "recommendation_score": 3,
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "重点核验数据来源、收益展示和历史样本，避免被叙事带偏。",
+        "把输出作为研究草稿，必须由人工复核财务数据和投资结论。",
+        "接入前明确不构成投资建议，并保留分析过程和引用来源。"
       ]
     },
     {
@@ -284,41 +284,41 @@
       "yesterday_new_stars": 22,
       "total_stars": 21857,
       "readme_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills/blob/main/README.md",
-      "ai_confidence": 0.8,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "Anthropic-Cybersecurity-Skills 主要围绕「817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
+      "ai_confidence": 0.88,
+      "summary_zh": "Anthropic-Cybersecurity-Skills 是大型网络安全技能库，覆盖 MITRE ATT&CK、NIST、ATLAS 等框架，并面向 Claude Code、Codex、Cursor 等 Agent 平台组织安全任务能力。",
+      "purpose_zh": "项目核心作用是把威胁建模、漏洞扫描、事件响应、恶意软件分析、云安全、红队和治理框架整理成可供 AI Agent 调用的结构化技能。",
       "application_scenarios_zh": [
-        "在授权环境中组织逆向、安全测试、工具路由和知识库沉淀。",
-        "把安全研究流程拆成可复用的 Agent 技能或命令链。",
-        "为安全团队建立可审计的实验流程，降低重复配置工具链的成本。"
+        "为安全团队构建可复用的 Agent 技能库和响应流程。",
+        "把 MITRE/NIST 等框架映射到内部安全自动化工具。",
+        "训练 AI 安全助手进行授权范围内的威胁建模和漏洞 triage。"
       ],
-      "positioning_zh": "Anthropic-Cybersecurity-Skills 面向授权安全研究和工具编排，核心能力是「817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io…」。",
-      "product_view_zh": "从产品/应用角度看，Anthropic-Cybersecurity-Skills 主要服务研发效率。它把「817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API。重点应关注授权边界、命令执行隔离、日志审计和工具链可控性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 22 stars，反映出：安全工具也在尝试用 Agent 化方式组织工具链、知识库和重复性分析流程。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI Agent 的网络安全技能库与框架映射集合。",
+      "product_view_zh": "从产品角度看，它适合安全团队把重复性分析流程标准化，也适合 AI 安全产品验证技能编排、知识库映射和安全自动化助手的能力边界。",
+      "technical_view_zh": "技术上重点不是算法，而是技能结构、框架映射、可执行边界和平台兼容性。采用时要严格区分授权防御、研究和可能被滥用的进攻能力。",
+      "trend_view_zh": "趋势上，安全领域正在把 Agent 从聊天助手升级为流程化分析协作者。技能库化有助于审计和复用，但也放大了权限控制的重要性。",
       "category_zh": "安全研究",
-      "highlight_zh": "Anthropic-Cybersecurity-Skills 把安全研究工具链和知识库组织成 Agent 可调用的工作流。",
+      "highlight_zh": "Anthropic-Cybersecurity-Skills 把数百个安全任务整理成 Agent 可调用的结构化技能库。",
       "target_users_zh": [
         "安全研究员",
-        "授权渗透测试团队",
-        "安全工具开发者"
+        "DevSecOps 团队",
+        "AI 安全产品开发者"
       ],
-      "best_use_case_zh": "在授权环境中组织逆向、安全测试和工具路由流程。",
-      "not_suitable_zh": "不适合未授权测试、灰色用途或缺少审计边界的生产环境。",
+      "best_use_case_zh": "在授权环境中为 AI 安全助手提供威胁建模、扫描 triage 和事件响应技能模板。",
+      "not_suitable_zh": "不适合未授权测试、灰色攻击或缺少审计边界的环境。",
       "project_tags_zh": [
         "安全研究",
-        "工具链",
-        "Agent",
-        "智能体",
-        "AI 编程"
+        "Agent Skills",
+        "MITRE",
+        "DevSecOps",
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "接入前明确授权范围、日志审计和命令执行边界。",
+        "根据团队框架筛选技能，不要一次性开放所有能力。",
+        "对可能触发攻击行为的技能加入人工审批和隔离运行环境。"
       ]
     },
     {
@@ -332,41 +332,41 @@
       "yesterday_new_stars": 21,
       "total_stars": 147622,
       "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .claude directory.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.79,
+      "summary_zh": "mattpocock/skills 是工程师个人沉淀的 agent skills 集合，来自真实 Claude 工作目录，强调真实应用开发、类型安全、项目上下文和可执行工程习惯。",
+      "purpose_zh": "项目核心作用是把资深前端/TypeScript 工程师的工作方式转成可复用技能，帮助 AI 编程代理在真实项目中更稳定地理解需求、修改代码和避免低质量 vibe coding。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "为 Claude Code/Codex 配置团队级开发技能和行为准则。",
+        "学习真实工程师如何组织 AI 编程上下文和任务边界。",
+        "在前端项目中复用部分技能，提升代理生成代码的工程质量。"
       ],
-      "positioning_zh": "skills 面向代码理解、审查或研发协作场景，主要能力是「Skills for Real Engineers. Straight from my .claude directory.」。",
-      "product_view_zh": "从产品/应用角度看，skills 主要服务研发效率。它把「Skills for Real Engineers. Straight from my .claude directory.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向真实软件工程的 AI 编程技能集合。",
+      "product_view_zh": "从产品角度看，它适合作为个人或团队 AI 编程配置参考，尤其适合 TypeScript、前端工程和产品化项目，帮助代理输出更贴近工程实践。",
+      "technical_view_zh": "技术上以 Shell/Markdown 技能和工作流说明为主，接入成本低，但需要根据本地工具链和团队规范裁剪。真正价值取决于是否能嵌入日常开发流程。",
+      "trend_view_zh": "趋势上，AI 编程生态正在从模型能力转向技能、规则和工作流资产。成熟工程师公开自己的 skills，说明可迁移的工程经验正在被产品化。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "skills 把真实工程师的 Claude 工作习惯整理成可复用 AI 编程技能。",
       "target_users_zh": [
         "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "前端/TypeScript 团队",
+        "工程效率负责人"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "作为团队定制 AI 编程规则和技能库的参考模板。",
+      "not_suitable_zh": "不适合直接照搬到技术栈、流程和代码风格差异很大的团队。",
       "project_tags_zh": [
         "AI 编程",
-        "开发工具",
-        "工作流",
-        "大模型",
-        "智能体"
+        "Agent Skills",
+        "TypeScript",
+        "工程实践",
+        "AI 工具"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+        "先阅读技能内容，筛掉不符合团队技术栈的部分。",
+        "结合项目 AGENTS.md 或 CLAUDE.md 做本地化改写。",
+        "用 PR 质量、测试通过率和审查耗时来评估引入效果。"
       ]
     },
     {
@@ -398,41 +398,41 @@
       "yesterday_new_stars": 19,
       "total_stars": 42569,
       "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
-      "ai_confidence": 0.7,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "Agent-Reach 主要围绕「Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.83,
+      "summary_zh": "Agent-Reach 是给 AI Agent 增加互联网信息获取能力的工具，支持读取和搜索 Twitter、Reddit、YouTube、GitHub、B 站、小红书等公开内容，强调 CLI 和低 API 成本。",
+      "purpose_zh": "项目核心作用是把多平台公开信息抓取封装成 Agent 可用工具，让研究型 Agent 能自动收集资料、生成报告、做竞品监测或内容调研。",
       "application_scenarios_zh": [
-        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
-        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
-        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
+        "自动收集小红书、B 站、YouTube、Reddit 等平台资料并生成调研摘要。",
+        "为竞品监测、舆情追踪和选题研究提供 Agent 信息入口。",
+        "把公开网页和社媒内容封装成内部 Agent 的可调用工具。"
       ],
-      "positioning_zh": "Agent-Reach 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
-      "product_view_zh": "从产品/应用角度看，Agent-Reach 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API、服务端组件。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 19 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI Agent 的多平台公开信息读取与搜索工具。",
+      "product_view_zh": "从产品角度看，它适合内容研究、舆情分析、竞品监控和资料收集型 Agent。价值在于降低接入多个平台的工程成本，但平台稳定性和合规边界很关键。",
+      "technical_view_zh": "技术上要关注各平台抓取方式、登录状态、反爬限制、失败重试、数据清洗和 CLI/MCP 接口。它更像信息入口层，不应直接替代判断和核验。",
+      "trend_view_zh": "趋势上，Agent 正从离线推理走向可执行的信息获取。多平台读取能力会成为研究型 Agent 的基础设施，但合规和稳定性会决定长期可用性。",
       "category_zh": "联网 Agent",
-      "highlight_zh": "Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "highlight_zh": "Agent-Reach 为 AI Agent 接入网页和社媒信息源，让研究与监测流程自动化。",
       "target_users_zh": [
-        "研究型 Agent 开发者",
-        "舆情/竞品分析团队",
-        "内容运营团队"
+        "Agent 开发者",
+        "内容运营团队",
+        "舆情/竞品分析团队"
       ],
-      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
-      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "best_use_case_zh": "让研究型 Agent 自动读取公开平台内容并整理成可复核报告。",
+      "not_suitable_zh": "不适合未确认平台条款、登录权限和数据合规前直接大规模抓取。",
       "project_tags_zh": [
         "联网 Agent",
         "信息抓取",
+        "MCP",
         "自动化",
-        "智能体",
-        "AI 编程"
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先确认目标平台条款、频率限制和账号风险。",
+        "为抓取结果保留来源链接、时间和失败状态，方便复核。",
+        "涉及商业使用时增加数据合规审查和缓存清理策略。"
       ]
     },
     {
@@ -446,41 +446,41 @@
       "yesterday_new_stars": 18,
       "total_stars": 53436,
       "readme_url": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
-      "ai_confidence": 0.64,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "MediaCrawler 主要围绕「小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.58,
+      "summary_zh": "MediaCrawler 是多平台自媒体内容爬虫，覆盖小红书、抖音、快手、B 站、微博、贴吧、知乎等平台的笔记、视频、帖子和评论采集。它本身不是 AI 模型，但可作为 AI 内容分析链路的数据采集入口。",
+      "purpose_zh": "项目核心作用是把分散在多个内容平台的公开内容与评论抓取下来，为舆情分析、选题研究、用户反馈挖掘、内容趋势判断和后续 LLM 总结提供原始数据。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+        "抓取小红书、抖音、B 站等平台内容，做选题和爆款分析。",
+        "采集评论数据后用 LLM 进行情绪、需求和反馈归类。",
+        "为舆情监测或竞品内容研究建立可持续的数据源。"
       ],
-      "positioning_zh": "MediaCrawler 是一个智能体/自动化工作流项目，核心目标是「小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫」。",
-      "product_view_zh": "从产品/应用角度看，MediaCrawler 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括API、服务端组件。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、AI 编程与代码理解。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 18 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "MediaCrawler 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "面向社媒和内容平台的数据采集/爬虫工具。",
+      "product_view_zh": "从产品角度看，它适合内容运营、增长、市场研究和舆情团队搭建数据入口，再接入 LLM 做摘要、分类、情绪分析或爆款规律复盘。",
+      "technical_view_zh": "技术上重点是平台适配、登录态、反爬变化、频率控制、字段结构和数据落库。它的价值来自稳定采集，不来自模型推理能力。",
+      "trend_view_zh": "趋势上，AI 分析越来越依赖可靠的垂直数据来源。爬虫项目被关注，说明很多团队需要先解决数据入口，再谈自动化洞察。",
+      "category_zh": "数据采集/爬虫",
+      "highlight_zh": "MediaCrawler 覆盖多个中文内容平台，可作为 AI 舆情和选题分析的数据入口。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "内容运营团队",
+        "舆情分析团队",
+        "数据工程师"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "采集多平台公开内容和评论后，交给 LLM 做选题、舆情或用户反馈分析。",
+      "not_suitable_zh": "不适合无视平台条款、账号风险和隐私合规进行大规模采集。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "大模型",
-        "AI 编程"
+        "数据采集",
+        "社媒分析",
+        "爬虫",
+        "内容研究",
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先确认采集目标和平台条款，避免触碰账号与合规风险。",
+        "为登录态、限流、失败重试和数据去重建立监控。",
+        "不要把采集结果直接发布或商用，需做隐私和版权审查。"
       ]
     },
     {
@@ -515,41 +515,41 @@
       "yesterday_new_stars": 18,
       "total_stars": 61165,
       "readme_url": "https://github.com/shanraisshan/claude-code-best-practice/blob/main/README.md",
-      "ai_confidence": 0.76,
-      "summary_zh": "该项目以 HTML 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "claude-code-best-practice 主要围绕「from vibe coding to agentic engineering - practice makes claude perfect」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
+      "ai_confidence": 0.82,
+      "summary_zh": "claude-code-best-practice 是 Claude Code 最佳实践集合，围绕 agentic engineering、命令、技能、上下文工程和工作流组织，帮助用户从随意 vibe coding 转向更可控的 AI 辅助开发。",
+      "purpose_zh": "项目核心作用是沉淀 Claude Code 使用方法和工程实践，让开发者更系统地组织提示、技能、上下文和任务编排，提高 AI 编程输出的稳定性。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "为团队建立 Claude Code 使用规范和上下文组织方式。",
+        "学习 agentic engineering、命令和技能配置方法。",
+        "在复杂项目中减少随意生成代码带来的返工和不一致。"
       ],
-      "positioning_zh": "claude-code-best-practice 面向代码理解、审查或研发协作场景，主要能力是「from vibe coding to agentic engineering - practice makes claude perfect」。",
-      "product_view_zh": "从产品/应用角度看，claude-code-best-practice 主要服务研发效率。它把「from vibe coding to agentic engineering - practice makes claude perfect」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 HTML 实现，可见工程信号包括MCP、CLI、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 18 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 Claude Code 的 AI 编程最佳实践与工作流知识库。",
+      "product_view_zh": "从产品角度看，它适合作为团队引入 Claude Code 的培训材料，也适合个人优化命令、技能和上下文管理方式，降低 AI 编程的不确定性。",
+      "technical_view_zh": "技术上以文档、实践模式和示例为主，接入难度低，但需要用户把最佳实践转成自己的项目规则、命令和审查流程。",
+      "trend_view_zh": "趋势上，AI 编程工具的竞争已经延伸到方法论和工程流程。社区对 best practice 的关注，说明用户需要可复制的使用范式。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "claude-code-best-practice 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "claude-code-best-practice 汇总 Claude Code 工作流，让 AI 编程更接近工程化交付。",
       "target_users_zh": [
-        "AI 编程用户",
+        "Claude Code 用户",
         "研发团队",
-        "代码审查/交付负责人"
+        "AI 编程实践者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "作为团队 Claude Code 使用规范、培训材料和项目配置参考。",
+      "not_suitable_zh": "不适合期待即装即用的代码框架或自动化平台的场景。",
       "project_tags_zh": [
+        "Claude Code",
         "AI 编程",
-        "开发工具",
+        "最佳实践",
         "工作流",
-        "智能体",
-        "大模型"
+        "AI 工具"
       ],
       "maturity_score": 4,
-      "adoption_difficulty": "高",
+      "adoption_difficulty": "低",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "按项目类型挑选实践，不要一次性搬入所有内容。",
+        "把有用规则沉淀到 AGENTS.md、CLAUDE.md 或团队模板中。",
+        "用实际任务复盘输出质量，持续删减无效规则。"
       ]
     },
     {
@@ -571,41 +571,41 @@
       "yesterday_new_stars": 18,
       "total_stars": 50196,
       "readme_url": "https://github.com/ZhuLinsen/daily_stock_analysis/blob/main/README.md",
-      "ai_confidence": 0.79,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "daily_stock_analysis 主要围绕「LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notif…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.86,
+      "summary_zh": "daily_stock_analysis 是 LLM 驱动的多市场股票分析系统，整合行情、新闻、指标、看板和定时推送，定位更接近自动化投研助手，而不是交易执行工具。",
+      "purpose_zh": "项目核心作用是把股票数据、实时新闻和大模型分析串成每日研究流程，帮助用户自动生成市场观察、个股摘要、风险提示和决策参考。",
       "application_scenarios_zh": [
-        "自动汇总行情、公告、新闻和技术指标，形成可复核的投研看板。",
-        "作为个人量化研究或团队晨报的原型工具。",
-        "跟踪特定股票或行业主题，辅助发现需要人工进一步验证的信号。"
+        "自动汇总 A 股/美股等市场行情、新闻和关键指标。",
+        "为个人或团队生成每日投研摘要和风险观察。",
+        "作为金融 AI 产品原型，验证数据源、看板和推送链路。"
       ],
-      "positioning_zh": "daily_stock_analysis 面向金融数据分析和自动化决策辅助，核心目标是「LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notif…」。",
-      "product_view_zh": "从产品/应用角度看，daily_stock_analysis 主要服务研发效率。它把「LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notif…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、API。重点应关注数据源可靠性、时效性、指标计算透明度和结论可复核性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 18 stars，反映出：投研场景正在用 LLM 连接行情、新闻和结构化指标，但可复核性比生成速度更关键。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向多市场股票研究的 LLM 自动分析与看板系统。",
+      "product_view_zh": "从产品角度看，它适合个人投资者、量化爱好者和小团队搭建低成本投研看板，把重复的数据收集和晨报整理交给自动化流程。",
+      "technical_view_zh": "技术上要关注数据源稳定性、新闻时效、指标解释、LLM 提示词、Docker/GitHub Actions 部署和推送通道。结论必须可追溯，不能只看生成文本。",
+      "trend_view_zh": "趋势上，金融 AI 正在从单次问答转向定时运行的研究系统。用户更需要可复核的数据链路和看板，而不是孤立的模型建议。",
       "category_zh": "金融分析",
-      "highlight_zh": "daily_stock_analysis 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。",
+      "highlight_zh": "daily_stock_analysis 用 LLM 串联行情、新闻和看板，适合搭建自动化投研日报。",
       "target_users_zh": [
+        "个人投资者",
         "量化/投研团队",
-        "金融数据开发者",
-        "自动化看板用户"
+        "金融数据开发者"
       ],
-      "best_use_case_zh": "自动汇总行情、新闻和指标，生成可复核的日常投研看板。",
-      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "best_use_case_zh": "每天自动生成多市场股票研究摘要、新闻解读和风险提示看板。",
+      "not_suitable_zh": "不适合把模型结论直接作为交易指令或收益保证。",
       "project_tags_zh": [
         "金融分析",
-        "投研",
-        "自动化",
-        "智能体",
-        "大模型"
+        "股票研究",
+        "LLM",
+        "自动化看板",
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "核验行情和新闻数据源，保留引用和更新时间。",
+        "明确模型输出只做研究参考，不构成投资建议。",
+        "部署前检查密钥、推送通道、Docker/Actions 配置和异常告警。"
       ]
     }
   ]

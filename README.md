@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 54 | 10,536 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 45 | 60,402 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 3 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 36 | 23,877 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
-| 4 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 25 | 3,237 | Python | `金融分析` `投研` `自动化` `智能体` `AI 编程` | ★★★☆☆ | 中 |
-| 5 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Anthropic-Cybersecurity-Skills 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 22 | 21,857 | Python | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★☆ | 中 |
-| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 147,622 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 19 | 42,569 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | MediaCrawler 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 53,436 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 9 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | claude-code-best-practice 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 61,165 | HTML | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 10 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | daily_stock_analysis 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 18 | 50,196 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★☆ | 高 |
+| 1 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦长文档 OCR 与复杂版面解析，适合做企业知识库和文档自动化入口。 | 54 | 10,536 | Python | `OCR` `视觉 AI` `文档解析` `多模态` `AI 工具` | ★★★★☆ | 高 |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 用工程规则约束 AI 编程代理，让它少写无用代码、少做无关改动。 | 45 | 60,402 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `开发工具` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 Agent、素材生成和渲染工具串成开源视频生产流水线。 | 36 | 23,877 | Python | `AI 视频` `内容生产` `多模态` `Agent` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 把价值投资方法论做成 Claude Code 多 Agent 投研工作流。 | 25 | 3,237 | Python | `金融分析` `价值投资` `Agent` `Claude Code` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Anthropic-Cybersecurity-Skills 把数百个安全任务整理成 Agent 可调用的结构化技能库。 | 22 | 21,857 | Python | `安全研究` `Agent Skills` `MITRE` `DevSecOps` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 把真实工程师的 Claude 工作习惯整理成可复用 AI 编程技能。 | 21 | 147,622 | Shell | `AI 编程` `Agent Skills` `TypeScript` `工程实践` `AI 工具` | ★★★★★ | 低 |
+| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 AI Agent 接入网页和社媒信息源，让研究与监测流程自动化。 | 19 | 42,569 | Python | `联网 Agent` `信息抓取` `MCP` `自动化` `AI 工具` | ★★★★☆ | 高 |
+| 8 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | MediaCrawler 覆盖多个中文内容平台，可作为 AI 舆情和选题分析的数据入口。 | 18 | 53,436 | Python | `数据采集` `社媒分析` `爬虫` `内容研究` `AI 工具` | ★★★★☆ | 高 |
+| 9 | [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | claude-code-best-practice 汇总 Claude Code 工作流，让 AI 编程更接近工程化交付。 | 18 | 61,165 | HTML | `Claude Code` `AI 编程` `最佳实践` `工作流` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | daily_stock_analysis 用 LLM 串联行情、新闻和看板，适合搭建自动化投研日报。 | 18 | 50,196 | Python | `金融分析` `股票研究` `LLM` `自动化看板` `AI 工具` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
