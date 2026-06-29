@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-28 (Asia/Shanghai)
+## 最新榜单：2026-06-29 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 77 | 20,222 | C | `RAG` `知识库` `上下文` `AI 编程` `MCP` | ★★★★☆ | 高 |
-| 2 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 65 | 27,471 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
-| 3 | [bikini/exploitarium](https://github.com/bikini/exploitarium) | exploitarium 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 55 | 2,597 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 65,339 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 48 | 5,758 | Python | `金融分析` `投研` `自动化` `智能体` `AI 编程` | ★★★☆☆ | 中 |
-| 6 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 47 | 117,907 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 42 | 44,816 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | DeepSpec 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 41 | 2,517 | Python | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★☆☆☆ | 中 |
-| 9 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | cognee 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 38 | 25,054 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
-| 10 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | ppt-master 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 33,940 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 中 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 43 | 66,832 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 2 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | exercises-dataset 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 34 | 4,601 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `多模态` | ★★★☆☆ | 高 |
+| 3 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | free-for-dev 围绕「A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev」提供 AI 相关开源能力，适合快速评估和原型验证。 | 27 | 126,548 | HTML | `AI 设计` `大模型` `RAG` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
+| 4 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 24 | 21,104 | C | `RAG` `知识库` `上下文` `AI 编程` `MCP` | ★★★★☆ | 高 |
+| 5 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 22 | 28,265 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
+| 6 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 22 | 6,483 | Python | `金融分析` `投研` `自动化` `智能体` `AI 编程` | ★★★☆☆ | 中 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 150,362 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 18 | 118,609 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 16 | 45,491 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 10 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 241,369 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-28.json](data/2026-06-28.json)
-- Markdown 归档：[reports/2026-06-28.md](reports/2026-06-28.md)
+- JSON 数据：[data/2026-06-29.json](data/2026-06-29.json)
+- Markdown 归档：[reports/2026-06-29.md](reports/2026-06-29.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
