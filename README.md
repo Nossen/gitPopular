@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-06-27 (Asia/Shanghai)
+## 最新榜单：2026-06-28 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 用工程规则约束 AI 编程代理，让它少写无用代码、少做无关改动。 | 88 | 62,119 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `开发工具` `AI 工具` | ★★★★☆ | 低 |
-| 2 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 Agent、素材生成和渲染工具串成开源视频生产流水线。 | 81 | 25,585 | Python | `AI 视频` `内容生产` `多模态` `Agent` `AI 工具` | ★★★★☆ | 中 |
-| 3 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 把代码库索引成持久知识图谱，让 AI 编程代理更省 token 地理解项目。 | 79 | 18,026 | C | `MCP` `代码知识图谱` `AI 编程` `上下文工程` `AI 工具` | ★★★★★ | 中 |
-| 4 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 AI Agent 接入网页和社媒信息源，让研究与监测流程自动化。 | 54 | 43,660 | Python | `联网 Agent` `信息抓取` `MCP` `自动化` `AI 工具` | ★★★★☆ | 高 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 把真实工程师的 Claude 工作习惯整理成可复用 AI 编程技能。 | 51 | 148,513 | Shell | `AI 编程` `Agent Skills` `TypeScript` `工程实践` `AI 工具` | ★★★★★ | 低 |
-| 6 | [JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template) | ai-website-cloner-template 用 AI agent 把网页拆解并重建成现代前端代码。 | 42 | 22,278 | TypeScript | `前端生成` `网站复刻` `AI 编程` `Next.js` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [opendatalab/MinerU](https://github.com/opendatalab/MinerU) | MinerU 把复杂 PDF/Office 文档转成 LLM 友好的 Markdown/JSON，是 RAG 入库前处理利器。 | 41 | 71,095 | Python | `文档转换` `RAG` `OCR` `知识库` `AI 工具` | ★★★★☆ | 高 |
-| 8 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦长文档 OCR 与复杂版面解析，适合做企业知识库和文档自动化入口。 | 37 | 11,165 | Python | `OCR` `视觉 AI` `文档解析` `多模态` `AI 工具` | ★★★★☆ | 高 |
-| 9 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 把价值投资方法论做成 Claude Code/Codex 多 Agent 投研工作流。 | 37 | 4,457 | Python | `金融分析` `价值投资` `Agent` `Claude Code` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | cognee 为 AI Agent 提供自托管长期记忆和知识图谱上下文。 | 35 | 24,144 | Python | `RAG` `长期记忆` `知识图谱` `Agent` `AI 工具` | ★★★★☆ | 高 |
+| 1 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 77 | 20,222 | C | `RAG` `知识库` `上下文` `AI 编程` `MCP` | ★★★★☆ | 高 |
+| 2 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 65 | 27,471 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
+| 3 | [bikini/exploitarium](https://github.com/bikini/exploitarium) | exploitarium 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 55 | 2,597 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 65,339 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 5 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 48 | 5,758 | Python | `金融分析` `投研` `自动化` `智能体` `AI 编程` | ★★★☆☆ | 中 |
+| 6 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 47 | 117,907 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 42 | 44,816 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 8 | [deepseek-ai/DeepSpec](https://github.com/deepseek-ai/DeepSpec) | DeepSpec 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 41 | 2,517 | Python | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★☆☆☆ | 中 |
+| 9 | [topoteretes/cognee](https://github.com/topoteretes/cognee) | cognee 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 38 | 25,054 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
+| 10 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | ppt-master 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 33,940 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-06-27.json](data/2026-06-27.json)
-- Markdown 归档：[reports/2026-06-27.md](reports/2026-06-27.md)
+- JSON 数据：[data/2026-06-28.json](data/2026-06-28.json)
+- Markdown 归档：[reports/2026-06-28.md](reports/2026-06-28.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
