@@ -1,53 +1,10 @@
 {
-  "date": "2026-06-28",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-06-29T15:01:22.284875Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "DeusData/codebase-memory-mcp",
-      "repo_id": 1166102148,
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "topics": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "yesterday_new_stars": 77,
-      "total_stars": 20222,
-      "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "codebase-memory-mcp 是面向 AI 编程代理的代码理解 MCP 服务，把仓库索引成可查询的持久知识图谱，强调多语言、低延迟和低 token 消耗。它更像代码库记忆层，而不是普通搜索工具。",
       "purpose_zh": "项目核心作用是让 Claude Code、Codex、Cursor 等代理在大型仓库里更快理解文件、符号和依赖关系，减少反复读取上下文的成本，并把影响分析、定位代码和跨文件推理变成可复用能力。",
-      "application_scenarios_zh": [
-        "大型代码库问答与影响分析",
-        "AI 编程代理上下文增强",
-        "跨语言仓库符号关系检索"
-      ],
       "positioning_zh": "面向 AI 编程代理的高性能代码库知识图谱 MCP。",
       "product_view_zh": "从产品角度看，它适合接入已有 AI 编程工作流，尤其是中大型仓库、多人维护项目和需要持续问代码关系的场景。价值不在替代 IDE，而在让代理拥有稳定的代码库记忆。",
       "technical_view_zh": "技术上需要关注 tree-sitter 解析覆盖、SQLite 图谱存储、MCP 接入稳定性和增量索引表现。单静态二进制降低部署门槛，但仍应在真实仓库压测索引耗时和查询准确率。",
@@ -65,12 +22,16 @@
         "代码记忆",
         "MCP",
         "知识图谱",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "大型代码库问答与影响分析",
+        "AI 编程代理上下文增强",
+        "跨语言仓库符号关系检索"
+      ],
       "adoption_notes_zh": [
         "先用真实仓库测试索引速度和查询准确率。",
         "把 MCP 权限限制在必要目录，避免暴露敏感代码。",
@@ -78,44 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "calesthio/OpenMontage",
-      "repo_id": 1195360525,
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot",
-        "cursor",
-        "elevenlabs",
-        "ffmpeg",
-        "flux",
-        "image-generation",
-        "open-source",
-        "openai",
-        "python",
-        "remotion",
-        "stable-diffusion",
-        "text-to-speech",
-        "text-to-video",
-        "video-generation",
-        "video-production"
-      ],
-      "yesterday_new_stars": 65,
-      "total_stars": 27471,
-      "readme_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "OpenMontage 是面向 AI 视频生产的开源 agentic 系统，试图把脚本、素材、配音、字幕、图像生成和渲染串成多条流水线。它的重点不是单个视频模型，而是让 AI 编程助手变成视频制作工作室。",
       "purpose_zh": "项目核心作用是把视频生产中分散的工具和步骤编排起来，让创作者或开发者用 Agent 方式完成从参考视频、脚本到成片素材的流程化生成，适合作为 AI 内容生产自动化的实验底座。",
-      "application_scenarios_zh": [
-        "短视频脚本到成片原型",
-        "产品功能演示自动生成",
-        "内容团队批量素材生产"
-      ],
       "positioning_zh": "面向 Agent 工作流的开源 AI 视频生产系统。",
       "product_view_zh": "从产品角度看，它适合短视频团队、产品演示、课程预告和内容原型。价值在于把多工具协作做成流程，但稳定成片质量仍取决于素材、模型、提示词和后期审核。",
       "technical_view_zh": "技术上涉及 Python、FFmpeg、TTS、图像/视频生成和 Remotion 等组件，依赖链较长。接入前应确认本地环境、API Key、渲染耗时和失败重试机制。",
@@ -134,12 +61,16 @@
         "AI 视频",
         "Agent 工作流",
         "内容生产",
-        "自动化",
-        "AI 工具"
+        "自动化"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "短视频脚本到成片原型",
+        "产品功能演示自动生成",
+        "内容团队批量素材生产"
+      ],
       "adoption_notes_zh": [
         "先跑通最小 pipeline，再逐步接入复杂工具。",
         "准备人工审核环节，避免生成内容质量波动。",
@@ -147,24 +78,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "bikini/exploitarium",
-      "repo_id": 1277675818,
-      "url": "https://github.com/bikini/exploitarium",
-      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 55,
-      "total_stars": 2597,
-      "readme_url": "https://github.com/bikini/exploitarium/blob/main/README.md",
       "ai_confidence": 0.58,
       "summary_zh": "exploitarium 是公开漏洞 PoC 和安全研究 writeup 的归档项目，README 提到部分 fuzzing 工作流由 AI 自动化辅助完成。它本身不是通用 AI 工具，更接近安全研究资料库与 AI 辅助漏洞挖掘案例集合。",
       "purpose_zh": "项目核心作用是集中展示公开漏洞研究、PoC 和相关说明，为安全研究者提供样本、思路和复现材料。若结合 README 中的 AI fuzzing 描述，也能观察 AI 在漏洞挖掘流程中的辅助方式。",
-      "application_scenarios_zh": [
-        "漏洞复现训练",
-        "安全防御验证",
-        "AI 辅助 fuzzing 研究"
-      ],
       "positioning_zh": "带有 AI 辅助 fuzzing 痕迹的安全研究与 PoC 归档。",
       "product_view_zh": "从产品角度看，它适合安全团队做研究参考、漏洞复现训练和防御验证。由于内容涉及 PoC，业务价值应落在合规研究和修复验证，而不是攻击利用。",
       "technical_view_zh": "技术上需要重点审查 PoC 适用版本、复现条件、依赖环境和风险隔离。所有代码都应在隔离实验环境运行，不应直接接入生产网络或未授权目标。",
@@ -182,12 +99,16 @@
         "安全研究",
         "漏洞 PoC",
         "AI Fuzzing",
-        "风险验证",
-        "AI 工具"
+        "风险验证"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "漏洞复现训练",
+        "安全防御验证",
+        "AI 辅助 fuzzing 研究"
+      ],
       "adoption_notes_zh": [
         "只在授权、隔离、可回滚的环境中测试。",
         "优先用于修复验证和安全学习，不用于攻击。",
@@ -195,35 +116,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 53,
-      "total_stars": 65339,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "ponytail 是面向 Claude Code、Cursor 等 AI 编程代理的规则与技能包，核心思想是让代理像克制的资深工程师一样少写代码、少做无关改动。它不是模型服务，而是 Agent 行为约束层。",
       "purpose_zh": "项目核心作用是把 YAGNI、最小变更、先判断再动手等工程习惯注入 AI 编程流程，减少代理过度设计、到处改文件和引入无关复杂度的问题，提升人机协作稳定性。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规则统一",
-        "减少代理过度改动",
-        "代码审查前置约束"
-      ],
       "positioning_zh": "面向 AI 编程代理的工程行为约束与技能集。",
       "product_view_zh": "从产品角度看，它适合个人开发者和团队统一 AI 编程助手的默认工作方式。收益在于降低代码审查压力和返工成本，但需要团队认可其克制的工程风格。",
       "technical_view_zh": "技术上主要由规则、提示和 agent skills 组成，接入门槛低。真正效果取决于所用工具是否支持规则注入，以及任务描述、测试约束和代码审查是否配套。",
@@ -241,12 +137,16 @@
         "AI 编程",
         "Agent Skills",
         "工程规范",
-        "YAGNI",
-        "AI 工具"
+        "YAGNI"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "团队 AI 编程规则统一",
+        "减少代理过度改动",
+        "代码审查前置约束"
+      ],
       "adoption_notes_zh": [
         "先在小仓库验证规则是否符合团队习惯。",
         "与测试和代码审查一起使用，避免只靠提示词。",
@@ -254,45 +154,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "xbtlin/ai-berkshire",
-      "repo_id": 1203777920,
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "anthropic",
-        "berkshire-hathaway",
-        "charlie-munger",
-        "china-stock",
-        "claude",
-        "claude-code",
-        "financial-analysis",
-        "fintech",
-        "fundamental-analysis",
-        "investment",
-        "investment-research",
-        "llm",
-        "mcp",
-        "portfolio-management",
-        "stock-analysis",
-        "stock-market",
-        "value-investing",
-        "warren-buffett"
-      ],
-      "yesterday_new_stars": 48,
-      "total_stars": 5758,
-      "readme_url": "https://github.com/xbtlin/ai-berkshire/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "ai-berkshire 是面向 Claude Code 和 Codex 的价值投资研究框架，把巴菲特、芒格、段永平、李录等方法论结构化为多 Agent 投研流程。它更像投资研究工作台，而不是单一荐股工具。",
       "purpose_zh": "项目核心作用是用 AI Agent 拆解公司、财报、商业模式、竞争优势和估值判断，让个人或小团队模拟更系统的投研流程，提高资料整理、交叉质疑和研究产出的效率。",
-      "application_scenarios_zh": [
-        "公司基本面研究",
-        "投资 thesis 生成",
-        "财报和商业模式拆解"
-      ],
       "positioning_zh": "面向价值投资研究的多 Agent 分析框架。",
       "product_view_zh": "从产品角度看，它适合个人投资者、研究员和金融内容创作者建立投研模板。它能提升研究结构化程度，但不应被当作收益承诺或自动交易系统。",
       "technical_view_zh": "技术上依赖 Claude Code、Codex 和多 Agent prompt/skill 组织，重点在研究流程设计而非复杂模型训练。接入时要关注数据来源、事实核验和结论可追溯。",
@@ -310,12 +175,16 @@
         "AI 投研",
         "价值投资",
         "多 Agent",
-        "金融分析",
-        "AI 工具"
+        "金融分析"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "公司基本面研究",
+        "投资 thesis 生成",
+        "财报和商业模式拆解"
+      ],
       "adoption_notes_zh": [
         "所有结论都要回到原始财报和公开资料核验。",
         "避免把历史收益展示等同于未来收益预期。",
@@ -323,24 +192,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "msitarzewski/agency-agents",
-      "repo_id": 1075372545,
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 47,
-      "total_stars": 117907,
-      "readme_url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "agency-agents 把多种工作角色封装成一组可调用的 AI 专家代理，从前端、社区运营到现实校验等都有对应设定。它的重点是角色化 Agent 组合，而不是底层模型或单一应用。",
       "purpose_zh": "项目核心作用是提供一套可复用的专业代理模板，让用户在内容、产品、社区、前端和运营任务中快速调用不同角色视角，提升任务拆解和交付物结构化程度。",
-      "application_scenarios_zh": [
-        "产品方案多角色评审",
-        "内容选题和运营拆解",
-        "小团队 AI 协作模板"
-      ],
       "positioning_zh": "面向业务协作的角色化 AI Agent 模板集合。",
       "product_view_zh": "从产品角度看，它适合个人创业者、小团队和内容/增长岗位，把重复性脑力任务拆给不同 Agent 处理。价值在于角色分工清晰，但仍需要人来整合判断。",
       "technical_view_zh": "技术上更偏 prompt/agent 配置资产，Shell 只是组织方式。接入难点不在运行，而在把角色模板映射到真实业务流程，并避免输出风格漂移或互相矛盾。",
@@ -359,12 +214,16 @@
         "Agent 模板",
         "虚拟团队",
         "工作流",
-        "提示词资产",
-        "AI 工具"
+        "提示词资产"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "产品方案多角色评审",
+        "内容选题和运营拆解",
+        "小团队 AI 协作模板"
+      ],
       "adoption_notes_zh": [
         "先选少量高频角色接入，不要一次性全量使用。",
         "为关键输出增加人工审核和事实核验。",
@@ -372,42 +231,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "Panniantong/Agent-Reach",
-      "repo_id": 1165277268,
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "yesterday_new_stars": 42,
-      "total_stars": 44816,
-      "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Agent-Reach 是给 AI Agent 接入互联网公开内容源的 CLI/工具集合，覆盖 Twitter、Reddit、YouTube、GitHub、B 站、小红书等平台。它的卖点是让代理具备读取和搜索外部信息的能力。",
       "purpose_zh": "项目核心作用是让 Claude Code、Cursor 或其他 Agent 在不依赖昂贵官方 API 的情况下读取公开网页和平台内容，用于调研、选题、竞品分析、舆情观察和资料汇总。",
-      "application_scenarios_zh": [
-        "小红书和视频平台选题调研",
-        "GitHub/Reddit 技术趋势监测",
-        "Agent 外部资料读取"
-      ],
       "positioning_zh": "面向 AI Agent 的联网内容读取与搜索工具。",
       "product_view_zh": "从产品角度看，它适合内容团队、研究人员和开发者做公开信息抓取。价值在于降低 Agent 获取外部资料的门槛，但平台规则、登录状态和稳定性会影响体验。",
       "technical_view_zh": "技术上涉及多平台抓取、转写、搜索和 CLI 集成，需关注反爬、页面变化、速率限制和本地凭据安全。接入 Agent 时应限制可访问域和输出范围。",
@@ -425,12 +252,16 @@
         "联网 Agent",
         "内容抓取",
         "CLI",
-        "公开调研",
-        "AI 工具"
+        "公开调研"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "小红书和视频平台选题调研",
+        "GitHub/Reddit 技术趋势监测",
+        "Agent 外部资料读取"
+      ],
       "adoption_notes_zh": [
         "确认目标平台规则和账号安全要求。",
         "为抓取频率、缓存和失败重试设置边界。",
@@ -438,24 +269,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "deepseek-ai/DeepSpec",
-      "repo_id": 1281315781,
-      "url": "https://github.com/deepseek-ai/DeepSpec",
-      "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 41,
-      "total_stars": 2517,
-      "readme_url": "https://github.com/deepseek-ai/DeepSpec/blob/main/README.md",
       "ai_confidence": 0.87,
       "summary_zh": "DeepSpec 是 DeepSeek 开源的 speculative decoding 训练与评估代码库，覆盖草稿模型、数据准备、训练和评测脚本。它面向大模型推理效率研究，不是普通应用层工具。",
       "purpose_zh": "项目核心作用是帮助研究者和工程团队训练、评估 speculative decoding 相关算法，通过草稿模型提升推理吞吐或降低延迟，为大模型服务优化提供可复现实验基础。",
-      "application_scenarios_zh": [
-        "大模型推理加速评测",
-        "草稿模型训练实验",
-        "推理服务成本优化研究"
-      ],
       "positioning_zh": "面向 speculative decoding 的大模型推理训练与评测框架。",
       "product_view_zh": "从产品角度看，它适合推理平台、模型服务团队和研究人员验证加速方案。短期更偏工程研究资产，普通业务应用需要通过推理服务框架间接受益。",
       "technical_view_zh": "技术上需要理解草稿模型、目标模型服务、数据再生成和评测指标。接入难度较高，需要 GPU 环境、依赖配置和对推理链路的系统测试。",
@@ -473,12 +290,16 @@
         "推理加速",
         "Speculative Decoding",
         "模型训练",
-        "DeepSeek",
-        "AI 工具"
+        "DeepSeek"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "大模型推理加速评测",
+        "草稿模型训练实验",
+        "推理服务成本优化研究"
+      ],
       "adoption_notes_zh": [
         "先复现实验指标，再考虑接入生产推理链路。",
         "准备充足 GPU 和目标模型服务环境。",
@@ -486,44 +307,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "topoteretes/cognee",
-      "repo_id": 679343504,
-      "url": "https://github.com/topoteretes/cognee",
-      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-      "language": "Python",
-      "topics": [
-        "agent-memory",
-        "agent-skills",
-        "ai",
-        "ai-agents",
-        "ai-memory",
-        "cognitive-architecture",
-        "cognitive-memory",
-        "context-engineering",
-        "contributions-welcome",
-        "good-first-issue",
-        "good-first-pr",
-        "graph-database",
-        "graph-rag",
-        "help-wanted",
-        "knowledge",
-        "knowledge-graph",
-        "memory-management",
-        "open-source",
-        "vector-database"
-      ],
-      "yesterday_new_stars": 38,
-      "total_stars": 25054,
-      "readme_url": "https://github.com/topoteretes/cognee/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "cognee 是面向 AI Agent 的开源长期记忆平台，使用知识图谱和自托管引擎帮助代理跨会话保存、检索和组织知识。它定位在 Agent memory 基础设施，而不是简单向量库。",
       "purpose_zh": "项目核心作用是为 Agent 提供持久记忆层，让知识、关系和上下文不只停留在单次会话里，适合构建长期助手、企业知识代理和需要跨任务积累信息的系统。",
-      "application_scenarios_zh": [
-        "企业长期知识助手",
-        "跨会话 Agent 记忆",
-        "自托管知识图谱 RAG"
-      ],
       "positioning_zh": "面向 AI Agent 的自托管长期记忆与知识图谱平台。",
       "product_view_zh": "从产品角度看，它适合企业知识助手、个人长期代理和研发内部知识库。价值在于把记忆能力产品化，但落地时要处理数据治理、权限和记忆质量评估。",
       "technical_view_zh": "技术上需要关注图谱建模、向量检索、存储后端、数据导入和查询 API。与普通 RAG 相比，它更强调持久结构和跨会话复用，接入复杂度也更高。",
@@ -541,12 +328,16 @@
         "Agent 记忆",
         "知识图谱",
         "自托管",
-        "RAG",
-        "AI 工具"
+        "RAG"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "企业长期知识助手",
+        "跨会话 Agent 记忆",
+        "自托管知识图谱 RAG"
+      ],
       "adoption_notes_zh": [
         "先定义哪些知识值得进入长期记忆。",
         "把权限、删除和更新机制纳入设计。",
@@ -554,35 +345,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "hugohe3/ppt-master",
-      "repo_id": 1113573066,
-      "url": "https://github.com/hugohe3/ppt-master",
-      "description": "AI generates a real, editable PowerPoint from any document — native shapes & animations, speaker notes voiced as audio narration, and the option to follow your own .pptx template, not slide images · by Hugo He",
-      "language": "Python",
-      "topics": [
-        "ai-agent",
-        "aippt",
-        "office",
-        "powerpoint",
-        "powerpoint-generation",
-        "ppt",
-        "pptx",
-        "presentation",
-        "slide",
-        "slides"
-      ],
-      "yesterday_new_stars": 30,
-      "total_stars": 33940,
-      "readme_url": "https://github.com/hugohe3/ppt-master/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "ppt-master 是面向文档到 PowerPoint 的 AI 生成工具，强调输出真正可编辑的 PPTX，而不是图片式幻灯片。它覆盖模板跟随、原生形状、动画和讲稿音频等办公生产环节。",
       "purpose_zh": "项目核心作用是把文档资料转成可编辑演示文稿，减少从资料整理到 PPT 排版的手工成本，并让用户继续在 PowerPoint 里修改结构、样式和演讲备注。",
-      "application_scenarios_zh": [
-        "文档转汇报 PPT",
-        "课程讲义生成演示稿",
-        "销售资料快速成 deck"
-      ],
       "positioning_zh": "面向办公场景的 AI 原生 PPTX 生成工具。",
       "product_view_zh": "从产品角度看，它适合咨询、培训、销售、课程和汇报场景。比截图式生成更有后续编辑价值，但最终美观度仍取决于输入资料质量和模板设计。",
       "technical_view_zh": "技术上重点在 PPTX 原生对象生成、模板匹配、版式规划和讲稿处理。接入时应测试复杂表格、图表、品牌模板和中文排版的稳定性。",
@@ -600,12 +366,16 @@
         "AI PPT",
         "文档转换",
         "办公自动化",
-        "可编辑文件",
-        "AI 工具"
+        "可编辑文件"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "文档转汇报 PPT",
+        "课程讲义生成演示稿",
+        "销售资料快速成 deck"
+      ],
       "adoption_notes_zh": [
         "准备结构清晰的输入文档，减少后期返工。",
         "用自己的品牌模板测试版式稳定性。",
