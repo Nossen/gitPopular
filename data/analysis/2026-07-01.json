@@ -1,36 +1,10 @@
 {
-  "date": "2026-07-01",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-02T06:33:43.817640Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "hasaneyldrm/exercises-dataset",
-      "repo_id": 1184892122,
-      "url": "https://github.com/hasaneyldrm/exercises-dataset",
-      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
-      "language": "HTML",
-      "topics": [
-        "excercises",
-        "fitness",
-        "fitness-app"
-      ],
-      "yesterday_new_stars": 54,
-      "total_stars": 8599,
-      "readme_url": "https://github.com/hasaneyldrm/exercises-dataset/blob/main/README.md",
       "ai_confidence": 0.58,
       "summary_zh": "exercises-dataset 是结构化健身动作数据集和开发者脚手架，包含 1324 个动作、分类、部位、器械、目标肌群和多语言说明。它不是 AI 框架，但非常适合作为健身 AI 应用的数据底座。",
       "purpose_zh": "项目核心作用是帮助开发者快速搭建运动动作库、训练计划生成、动作检索和 AI 教练原型，减少整理健身内容、字段结构和多语言描述的时间成本。",
-      "application_scenarios_zh": [
-        "AI 健身计划生成",
-        "动作名称和肌群检索",
-        "健身 App 后端数据初始化"
-      ],
       "positioning_zh": "面向健身产品和 AI 教练应用的运动动作数据集。",
       "product_view_zh": "产品价值在于内容结构清晰，可直接支撑健身 App 的筛选、推荐和教学页面。对 AI 教练来说，它能提供动作知识库，但仍需要额外补充个体化风险判断和专业审核。",
       "technical_view_zh": "技术上以 JSON 数据和脚手架说明为主，接入简单。关键检查点是数据授权、多语言质量、字段一致性，以及是否需要自行补齐动作媒体和医学安全标签。",
@@ -48,12 +22,16 @@
         "健身数据",
         "AI 教练",
         "动作库",
-        "多语言",
-        "AI 工具"
+        "多语言"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "AI 健身计划生成",
+        "动作名称和肌群检索",
+        "健身 App 后端数据初始化"
+      ],
       "adoption_notes_zh": [
         "上线前核对数据授权和商用限制。",
         "为高风险动作补充安全提示和禁忌说明。",
@@ -61,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "msitarzewski/agency-agents",
-      "repo_id": 1075372545,
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 45,
-      "total_stars": 123997,
-      "readme_url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "agency-agents 把 AI 助手拆成一组专业角色，从前端、社区运营到现实校验都有对应 agent。它更像一个可安装的虚拟 agency，而不是单一提示词合集。",
       "purpose_zh": "项目的作用是让用户按任务调用不同专家角色，把创意、开发、营销、审查等流程拆开处理，减少一个通用 Agent 同时承担所有职责造成的混乱。",
-      "application_scenarios_zh": [
-        "产品从想法到落地的角色分工",
-        "内容和社区运营协作",
-        "工程方案的多视角审查"
-      ],
       "positioning_zh": "面向多角色协作的 AI Agent 模板库。",
       "product_view_zh": "产品价值在于降低搭建虚拟团队的门槛，适合独立开发者和小团队做产品、内容、社区与工程协作。角色多是优势，也可能带来选择成本。",
       "technical_view_zh": "技术上是可安装的 agent 配置和脚本，并提供桌面应用分发。接入时要检查目标工具兼容性、角色边界、输出格式和是否会产生重复流程。",
@@ -96,12 +60,16 @@
         "多 Agent",
         "虚拟团队",
         "角色模板",
-        "工作流",
-        "AI 工具"
+        "工作流"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "产品从想法到落地的角色分工",
+        "内容和社区运营协作",
+        "工程方案的多视角审查"
+      ],
       "adoption_notes_zh": [
         "先确定常用角色，避免一次安装过多。",
         "给每个 agent 设定清晰输入和产出边界。",
@@ -109,35 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 31,
-      "total_stars": 70753,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "ponytail 是面向 AI 编程代理的技能和规则集，核心是让 Agent 少写无用代码、少做过度设计，把 YAGNI、克制修改和工程判断前置到协作流程里。",
       "purpose_zh": "它的作用不是增强模型知识，而是约束模型行为：在改代码前先收窄需求、质疑复杂方案、避免制造新抽象，让 Claude Code、Cursor、Codex 更像谨慎的工程同事。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规则统一",
-        "复杂需求改动前的范围收敛",
-        "减少过度抽象和无效重构"
-      ],
       "positioning_zh": "面向 AI 编程代理的克制型工程技能包。",
       "product_view_zh": "产品价值在于降低 AI 编程返工成本，适合团队把统一工程口味沉淀成可复用规则。对个人开发者，它能把少改、改准、别炫技变成默认协作方式。",
       "technical_view_zh": "技术上主要是 agent skills 和规则资产，接入门槛低，但效果依赖模型遵守程度。团队使用时仍要配合测试、lint 和 code review，不能把提示词当硬约束。",
@@ -155,12 +98,16 @@
         "AI 编程",
         "Agent Skills",
         "工程规范",
-        "YAGNI",
-        "AI 工具"
+        "YAGNI"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "团队 AI 编程规则统一",
+        "复杂需求改动前的范围收敛",
+        "减少过度抽象和无效重构"
+      ],
       "adoption_notes_zh": [
         "先在个人项目试用，再推广到团队规则库。",
         "保留测试和人工 review，不要只依赖提示词约束。",
@@ -168,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 27,
-      "total_stars": 153347,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "skills 是 Matt Pocock 公开的 Agent 技能集合，强调真实工程而非 vibe coding。它把开发中的判断、流程和检查点拆成小型可组合技能，让不同模型都能复用。",
       "purpose_zh": "项目的作用是帮助 AI 编程用户建立可控工作法：先明确目标，再拆规格、执行、验证和迭代。它适合把个人经验沉淀成代理可执行的工程流程。",
-      "application_scenarios_zh": [
-        "团队 Agent 行为规范",
-        "个人 AI 编程流程优化",
-        "技能化工程经验沉淀"
-      ],
       "positioning_zh": "面向真实工程交付的 AI Agent 技能库。",
       "product_view_zh": "产品价值在于把高级工程师的隐性习惯显性化，适合团队训练 Agent 行为和个人改善协作体验。它不是一键工具，而是可复制的工作方式。",
       "technical_view_zh": "技术上主要是 shell/文本技能资产，接入简单，迁移性强。实际效果取决于技能描述质量、模型遵守程度，以及是否和测试、lint、review 等硬验证配套。",
@@ -203,12 +136,16 @@
         "Agent Skills",
         "工程流程",
         "AI 编程",
-        "开发方法论",
-        "AI 工具"
+        "开发方法论"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "团队 Agent 行为规范",
+        "个人 AI 编程流程优化",
+        "技能化工程经验沉淀"
+      ],
       "adoption_notes_zh": [
         "先挑少量高频技能接入，避免规则过载。",
         "按团队技术栈改写技能内容。",
@@ -216,42 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "Panniantong/Agent-Reach",
-      "repo_id": 1165277268,
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "yesterday_new_stars": 27,
-      "total_stars": 48519,
-      "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "Agent-Reach 给 AI Agent 提供互联网读取能力，支持 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等平台的搜索和内容读取，强调一个 CLI、零 API 费用。",
       "purpose_zh": "它的作用是补齐 Agent 不能稳定访问外部平台内容的问题，让调研、舆情、视频总结、社媒分析和资料搜集可以直接进入自动化工作流。",
-      "application_scenarios_zh": [
-        "小红书和 B 站内容调研",
-        "YouTube 视频摘要自动化",
-        "GitHub/Reddit 趋势监测"
-      ],
       "positioning_zh": "面向 AI Agent 的跨平台互联网读取 CLI。",
       "product_view_zh": "产品价值在于把找资料从人工复制粘贴变成 Agent 可调用能力，适合内容团队、研究人员和自动化工作流。但平台规则变化会影响稳定性。",
       "technical_view_zh": "技术上关注 Python CLI、平台抓取适配、字幕/帖子解析和可能的 MCP 接入。接入前要验证登录态、反爬限制、速率控制和数据合规边界。",
@@ -269,12 +174,16 @@
         "联网 Agent",
         "内容抓取",
         "CLI",
-        "社媒分析",
-        "AI 工具"
+        "社媒分析"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "小红书和 B 站内容调研",
+        "YouTube 视频摘要自动化",
+        "GitHub/Reddit 趋势监测"
+      ],
       "adoption_notes_zh": [
         "确认目标平台的使用规则和数据权限。",
         "为抓取失败、验证码和登录失效准备降级方案。",
@@ -282,44 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "calesthio/OpenMontage",
-      "repo_id": 1195360525,
-      "url": "https://github.com/calesthio/OpenMontage",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "ai",
-        "claude",
-        "copilot",
-        "cursor",
-        "elevenlabs",
-        "ffmpeg",
-        "flux",
-        "image-generation",
-        "open-source",
-        "openai",
-        "python",
-        "remotion",
-        "stable-diffusion",
-        "text-to-speech",
-        "text-to-video",
-        "video-generation",
-        "video-production"
-      ],
-      "yesterday_new_stars": 22,
-      "total_stars": 31088,
-      "readme_url": "https://github.com/calesthio/OpenMontage/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "OpenMontage 是开源的 agentic 视频生产系统，把脚本、素材、图像生成、配音、字幕、剪辑和渲染串成多条流水线，目标是让 AI 编程助手具备完整视频工作室能力。",
       "purpose_zh": "它的作用是把内容生产从单次生成升级为可编排流程，帮助创作者和开发者从参考视频、脚本或提示词出发，自动组织工具链并产出可迭代的视频素材。",
-      "application_scenarios_zh": [
-        "短视频批量生成",
-        "产品演示视频原型",
-        "课程和社媒素材生产"
-      ],
       "positioning_zh": "面向 AI Agent 的开源视频生产流水线。",
       "product_view_zh": "产品价值在于把视频制作中分散的步骤流程化，适合短视频团队、课程预告、产品演示和批量内容原型。但成片质量仍需要人工审稿和后期把关。",
       "technical_view_zh": "技术上涉及 Python、FFmpeg、Remotion、TTS、图像/视频模型和多 provider 配置。接入前要评估依赖安装、API Key、渲染耗时、失败重试和素材版权。",
@@ -338,12 +213,16 @@
         "AI 视频",
         "Agent 工作流",
         "内容生产",
-        "自动化",
-        "AI 工具"
+        "自动化"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "短视频批量生成",
+        "产品演示视频原型",
+        "课程和社媒素材生产"
+      ],
       "adoption_notes_zh": [
         "先跑通最小 pipeline，再扩展复杂流程。",
         "为每条链路准备人工审核和失败重试。",
@@ -351,35 +230,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "microsoft/AI-For-Beginners",
-      "repo_id": 344190478,
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "cnn",
-        "computer-vision",
-        "deep-learning",
-        "gan",
-        "machine-learning",
-        "microsoft-for-beginners",
-        "nlp",
-        "rnn"
-      ],
-      "yesterday_new_stars": 20,
-      "total_stars": 50687,
-      "readme_url": "https://github.com/microsoft/AI-For-Beginners/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "AI-For-Beginners 是微软维护的入门级 AI 课程仓库，以 12 周、24 节课的形式覆盖机器学习、神经网络、计算机视觉、NLP、GAN 等基础主题，适合系统补课。",
       "purpose_zh": "项目的作用是给初学者提供结构化学习路径和可运行 Notebook，让学习者从概念、示例到实践逐步理解 AI，而不是只靠零散文章或短视频入门。",
-      "application_scenarios_zh": [
-        "AI 入门自学路线",
-        "高校或训练营课程材料",
-        "企业非 AI 工程师基础培训"
-      ],
       "positioning_zh": "面向初学者的系统化 AI 免费课程。",
       "product_view_zh": "产品价值在于品牌可信、内容完整、路径清楚，适合学校、训练营、企业内训和自学者作为 AI 基础课程。它偏基础教育，不直接解决生产项目落地。",
       "technical_view_zh": "技术上以 Jupyter Notebook 和课程文档为主，依赖 Python 生态。使用时要注意环境版本、Notebook 可执行性，以及部分案例与最新模型生态的差距。",
@@ -398,12 +252,16 @@
         "AI 教程",
         "机器学习",
         "Jupyter",
-        "微软课程",
-        "AI 工具"
+        "微软课程"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "AI 入门自学路线",
+        "高校或训练营课程材料",
+        "企业非 AI 工程师基础培训"
+      ],
       "adoption_notes_zh": [
         "按章节顺序学习，避免只复制 Notebook。",
         "补充最新大模型和 Agent 应用资料。",
@@ -411,45 +269,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "xbtlin/ai-berkshire",
-      "repo_id": 1203777920,
-      "url": "https://github.com/xbtlin/ai-berkshire",
-      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "anthropic",
-        "berkshire-hathaway",
-        "charlie-munger",
-        "china-stock",
-        "claude",
-        "claude-code",
-        "financial-analysis",
-        "fintech",
-        "fundamental-analysis",
-        "investment",
-        "investment-research",
-        "llm",
-        "mcp",
-        "portfolio-management",
-        "stock-analysis",
-        "stock-market",
-        "value-investing",
-        "warren-buffett"
-      ],
-      "yesterday_new_stars": 19,
-      "total_stars": 8282,
-      "readme_url": "https://github.com/xbtlin/ai-berkshire/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "ai-berkshire 是面向 Claude Code/Codex 的价值投资研究框架，把巴菲特、芒格、段永平、李录等方法论拆成多 Agent 分工，用于基本面分析、估值和反方审视。",
       "purpose_zh": "它的作用是让投资研究流程结构化，不只是让模型写一篇观点文章，而是要求输出结论、价格区间、风险清单和多角色交叉验证，提升研究纪律。",
-      "application_scenarios_zh": [
-        "股票基本面研究",
-        "投资备忘录生成",
-        "反方观点和风险审查"
-      ],
       "positioning_zh": "面向价值投资研究的多 Agent 分析框架。",
       "product_view_zh": "产品价值在于把个人投研变成可复用流程，适合投资爱好者、研究员和金融内容创作者做初筛与复盘。但它不能替代真实数据校验和投资责任判断。",
       "technical_view_zh": "技术上更像 skills/prompt 工作流，依赖 Claude Code 或 Codex 执行。关键是数据源质量、财报解析准确性、估值假设透明度和结论可追溯性。",
@@ -467,12 +290,16 @@
         "AI 投研",
         "价值投资",
         "多 Agent",
-        "金融分析",
-        "AI 工具"
+        "金融分析"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "股票基本面研究",
+        "投资备忘录生成",
+        "反方观点和风险审查"
+      ],
       "adoption_notes_zh": [
         "所有财务数据必须回到原始来源核验。",
         "明确估值假设，不要只看模型结论。",
@@ -480,45 +307,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "DeusData/codebase-memory-mcp",
-      "repo_id": 1166102148,
-      "url": "https://github.com/DeusData/codebase-memory-mcp",
-      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-      "language": "C",
-      "topics": [
-        "aider",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-intelligence",
-        "codex",
-        "cursor",
-        "cypher",
-        "developer-tools",
-        "gemini-cli",
-        "graph-visualization",
-        "kilocode",
-        "knowledge-graph",
-        "mcp",
-        "mcp-server",
-        "model-context-protocol",
-        "opencode",
-        "sqlite",
-        "tree-sitter",
-        "windsurf"
-      ],
-      "yesterday_new_stars": 18,
-      "total_stars": 23993,
-      "readme_url": "https://github.com/DeusData/codebase-memory-mcp/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "codebase-memory-mcp 是面向 AI 编程代理的代码理解 MCP 服务，把代码库索引成持久知识图谱，强调多语言、低延迟和低 token 消耗，适合给 Agent 增加长期代码记忆。",
       "purpose_zh": "它的核心作用是让 Claude Code、Codex、Cursor 等工具在大型仓库中更快理解符号、文件和依赖关系，减少重复读取上下文，提高定位、问答和影响分析效率。",
-      "application_scenarios_zh": [
-        "大型仓库代码问答",
-        "跨文件影响分析",
-        "AI Agent 上下文增强"
-      ],
       "positioning_zh": "面向 AI 编程代理的代码库知识图谱 MCP。",
       "product_view_zh": "产品价值在于把代码理解从一次性上下文变成可复用基础设施。对中大型仓库、跨语言项目和长期维护团队，它能明显降低 Agent 每次接手项目的启动成本。",
       "technical_view_zh": "技术上关注 tree-sitter 解析、SQLite 图谱、MCP 协议和增量索引。单二进制部署降低门槛，但仍需要用真实仓库验证解析覆盖率、查询准确率和权限隔离。",
@@ -536,12 +328,16 @@
         "代码记忆",
         "MCP",
         "知识图谱",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "大型仓库代码问答",
+        "跨文件影响分析",
+        "AI Agent 上下文增强"
+      ],
       "adoption_notes_zh": [
         "先用真实仓库压测索引速度和准确率。",
         "限制 MCP 可访问目录，避免暴露敏感代码。",
@@ -549,24 +345,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "KittenML/KittenTTS",
-      "repo_id": 1032248449,
-      "url": "https://github.com/KittenML/KittenTTS",
-      "description": " State-of-the-art TTS model under 25MB 😻 ",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 18,
-      "total_stars": 14698,
-      "readme_url": "https://github.com/KittenML/KittenTTS/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "KittenTTS 是一个体积小于 25MB 的文本转语音模型项目，强调轻量、可演示和易部署。它的吸引力不在超大模型能力，而在把 TTS 能力压到更容易本地或边缘使用的尺度。",
       "purpose_zh": "项目核心作用是提供小体积语音合成模型，让开发者在资源受限设备、离线应用或低成本原型里快速接入语音输出，降低 TTS 服务依赖和部署成本。",
-      "application_scenarios_zh": [
-        "本地语音助手原型",
-        "阅读器和无障碍朗读",
-        "低成本教育或陪伴类应用"
-      ],
       "positioning_zh": "面向轻量部署场景的小型 TTS 模型。",
       "product_view_zh": "产品价值在于适合语音助手、儿童教育、阅读器、无障碍朗读和本地 demo。若声音自然度、情绪控制和多语言覆盖要求很高，仍需要与商业 TTS 或更大模型对比。",
       "technical_view_zh": "技术上需要关注模型文件大小、推理速度、采样率、声音质量、许可证和硬件兼容。接入前应在目标设备上测试延迟、内存占用和长文本稳定性。",
@@ -584,12 +366,16 @@
         "TTS",
         "轻量模型",
         "语音合成",
-        "本地部署",
-        "AI 工具"
+        "本地部署"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "本地语音助手原型",
+        "阅读器和无障碍朗读",
+        "低成本教育或陪伴类应用"
+      ],
       "adoption_notes_zh": [
         "先在目标设备上测试延迟和内存占用。",
         "核对许可证是否允许计划中的使用方式。",

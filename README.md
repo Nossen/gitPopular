@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | exercises-dataset 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 54 | 8,599 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `多模态` | ★★★☆☆ | 高 |
-| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 45 | 123,997 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 31 | 70,753 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 153,347 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 5 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 27 | 48,519 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 6 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 22 | 31,088 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
-| 7 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI-For-Beginners 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 20 | 50,687 | Jupyter Notebook | `AI 教程` `学习路径` `工程实践` `开发工具` `智能体` | ★★★★☆ | 高 |
-| 8 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | ai-berkshire 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 19 | 8,282 | Python | `金融分析` `投研` `自动化` `智能体` `AI 编程` | ★★★☆☆ | 中 |
-| 9 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 18 | 23,993 | C | `RAG` `知识库` `上下文` `AI 编程` `MCP` | ★★★★☆ | 高 |
-| 10 | [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | KittenTTS 围绕「State-of-the-art TTS model under 25MB 😻」提供 AI 相关开源能力，适合快速评估和原型验证。 | 18 | 14,698 | Python | `多模态` `AI 编程` `模型推理` `开发工具` `Python` | ★★★☆☆ | 中 |
+| 1 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | 一套可直接做 AI 健身教练原型的动作数据底座。 | 54 | 8,599 | HTML | `健身数据` `AI 教练` `动作库` `多语言` `AI 工具` | ★★★☆☆ | 低 |
+| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把一个 AI 助手升级成一支可调用的虚拟专家团队。 | 45 | 123,997 | Shell | `多 Agent` `虚拟团队` `角色模板` `工作流` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 编程代理少乱写代码，更像一个克制的资深工程师。 | 31 | 70,753 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `YAGNI` `AI 工具` | ★★★★★ | 低 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程经验拆成可复用的 AI Agent 技能。 | 27 | 153,347 | Shell | `Agent Skills` `工程流程` `AI 编程` `开发方法论` `AI 工具` | ★★★★★ | 低 |
+| 5 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 AI Agent 装上跨平台上网读内容的能力。 | 27 | 48,519 | Python | `联网 Agent` `内容抓取` `CLI` `社媒分析` `AI 工具` | ★★★★★ | 中 |
+| 6 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 把 AI 编程助手扩展成一套视频生产流水线。 | 22 | 31,088 | Python | `AI 视频` `Agent 工作流` `内容生产` `自动化` `AI 工具` | ★★★★★ | 高 |
+| 7 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 微软出品的 12 周 AI 入门课程，适合系统补基础。 | 20 | 50,687 | Jupyter Notebook | `AI 教程` `机器学习` `Jupyter` `微软课程` `AI 工具` | ★★★★☆ | 低 |
+| 8 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 把价值投资方法论拆成多 Agent 投研流程。 | 19 | 8,282 | Python | `AI 投研` `价值投资` `多 Agent` `金融分析` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 把代码库变成知识图谱，让 AI Agent 更快读懂大项目。 | 18 | 23,993 | C | `代码记忆` `MCP` `知识图谱` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 10 | [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | 一个不到 25MB 的轻量 TTS 模型，适合本地语音原型。 | 18 | 14,698 | Python | `TTS` `轻量模型` `语音合成` `本地部署` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
