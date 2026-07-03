@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-01 (Asia/Shanghai)
+## 最新榜单：2026-07-02 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | 一套可直接做 AI 健身教练原型的动作数据底座。 | 54 | 8,599 | HTML | `健身数据` `AI 教练` `动作库` `多语言` `AI 工具` | ★★★☆☆ | 低 |
-| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把一个 AI 助手升级成一支可调用的虚拟专家团队。 | 45 | 123,997 | Shell | `多 Agent` `虚拟团队` `角色模板` `工作流` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 编程代理少乱写代码，更像一个克制的资深工程师。 | 31 | 70,753 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `YAGNI` `AI 工具` | ★★★★★ | 低 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程经验拆成可复用的 AI Agent 技能。 | 27 | 153,347 | Shell | `Agent Skills` `工程流程` `AI 编程` `开发方法论` `AI 工具` | ★★★★★ | 低 |
-| 5 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 AI Agent 装上跨平台上网读内容的能力。 | 27 | 48,519 | Python | `联网 Agent` `内容抓取` `CLI` `社媒分析` `AI 工具` | ★★★★★ | 中 |
-| 6 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 把 AI 编程助手扩展成一套视频生产流水线。 | 22 | 31,088 | Python | `AI 视频` `Agent 工作流` `内容生产` `自动化` `AI 工具` | ★★★★★ | 高 |
-| 7 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 微软出品的 12 周 AI 入门课程，适合系统补基础。 | 20 | 50,687 | Jupyter Notebook | `AI 教程` `机器学习` `Jupyter` `微软课程` `AI 工具` | ★★★★☆ | 低 |
-| 8 | [xbtlin/ai-berkshire](https://github.com/xbtlin/ai-berkshire) | 把价值投资方法论拆成多 Agent 投研流程。 | 19 | 8,282 | Python | `AI 投研` `价值投资` `多 Agent` `金融分析` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 把代码库变成知识图谱，让 AI Agent 更快读懂大项目。 | 18 | 23,993 | C | `代码记忆` `MCP` `知识图谱` `AI 编程` `AI 工具` | ★★★★★ | 中 |
-| 10 | [KittenML/KittenTTS](https://github.com/KittenML/KittenTTS) | 一个不到 25MB 的轻量 TTS 模型，适合本地语音原型。 | 18 | 14,698 | Python | `TTS` `轻量模型` `语音合成` `本地部署` `AI 工具` | ★★★★☆ | 中 |
+| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 107 | 125,753 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 2 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 68 | 32,674 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
+| 3 | [erincatto/box3d](https://github.com/erincatto/box3d) | box3d 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 59 | 2,007 | C | `OCR` `视觉 AI` `多模态` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 154,595 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 5 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Vibe-Trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 39 | 17,454 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 6 | [facebook/astryx](https://github.com/facebook/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 38 | 3,820 | TypeScript | `智能体` `开发工具` `AI 设计` `TypeScript` `高增长` | ★★★☆☆ | 中 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 71,941 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 37 | 81,437 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 9 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | openwiki 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 1,282 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
+| 10 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | hermes-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 208,157 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-01.json](data/2026-07-01.json)
-- Markdown 归档：[reports/2026-07-01.md](reports/2026-07-01.md)
+- JSON 数据：[data/2026-07-02.json](data/2026-07-02.json)
+- Markdown 归档：[reports/2026-07-02.md](reports/2026-07-02.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
