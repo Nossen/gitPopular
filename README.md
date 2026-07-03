@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 107 | 125,753 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 2 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 68 | 32,674 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
-| 3 | [erincatto/box3d](https://github.com/erincatto/box3d) | box3d 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 59 | 2,007 | C | `OCR` `视觉 AI` `多模态` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 154,595 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 5 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Vibe-Trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 39 | 17,454 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 6 | [facebook/astryx](https://github.com/facebook/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 38 | 3,820 | TypeScript | `智能体` `开发工具` `AI 设计` `TypeScript` `高增长` | ★★★☆☆ | 中 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 71,941 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 37 | 81,437 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 9 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | openwiki 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 1,282 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
-| 10 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | hermes-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 208,157 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
+| 1 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把一个 AI 助手升级成一支可调用的虚拟专家团队。 | 107 | 125,753 | Shell | `多 Agent` `虚拟团队` `角色模板` `工作流` `AI 工具` | ★★★★☆ | 低 |
+| 2 | [usestrix/strix](https://github.com/usestrix/strix) | 用 AI Agent 自动找漏洞、解释漏洞，并给出修复方向。 | 68 | 32,674 | Python | `AI 安全` `渗透测试` `红队自动化` `漏洞修复` `AI 工具` | ★★★★★ | 高 |
+| 3 | [erincatto/box3d](https://github.com/erincatto/box3d) | 一个新兴 3D 物理引擎，可作为游戏 AI 和仿真环境底座。 | 59 | 2,007 | C | `3D 物理` `游戏引擎` `仿真环境` `C 语言` `AI 工具` | ★★★☆☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程经验拆成可复用的 AI Agent 技能。 | 53 | 154,595 | Shell | `Agent Skills` `工程流程` `AI 编程` `开发方法论` `AI 工具` | ★★★★★ | 低 |
+| 5 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 把市场研究、回测和交易辅助包装成一个个人 AI Trading Agent。 | 39 | 17,454 | Python | `AI 交易` `量化金融` `回测` `多 Agent` `AI 工具` | ★★★★☆ | 高 |
+| 6 | [facebook/astryx](https://github.com/facebook/astryx) | Meta 开源的 agent-ready 设计系统，让 AI 生成界面更有边界。 | 38 | 3,820 | TypeScript | `设计系统` `React` `Agent Ready` `前端组件` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 编程代理少乱写代码，更像一个克制的资深工程师。 | 37 | 71,941 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `YAGNI` `AI 工具` | ★★★★★ | 低 |
+| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 用极简 Claude Code skill 压缩输出，少花 token 少看废话。 | 37 | 81,437 | JavaScript | `Token 节省` `Claude Code` `提示词技能` `AI 编程` `AI 工具` | ★★★☆☆ | 低 |
+| 9 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | 让代码库自动生成并维护 Agent 能读懂的项目文档。 | 37 | 1,282 | TypeScript | `Agent 文档` `代码库理解` `自动文档` `LangChain` `AI 工具` | ★★★★★ | 中 |
+| 10 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | NousResearch 做的个人 Agent，目标是随你的工作流一起成长。 | 37 | 208,157 | Python | `个人 Agent` `NousResearch` `桌面助手` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
