@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-03 (Asia/Shanghai)
+## 最新榜单：2026-07-04 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [usestrix/strix](https://github.com/usestrix/strix) | 用 AI Agent 自动找漏洞、解释漏洞，并给出修复方向。 | 39 | 34,750 | Python | `AI 安全` `渗透测试` `红队自动化` `漏洞修复` `AI 工具` | ★★★★★ | 高 |
-| 2 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 用极简 Claude Code skill 压缩输出，少花 token 少看废话。 | 35 | 83,008 | JavaScript | `Token 节省` `Claude Code` `提示词技能` `AI 编程` `AI 工具` | ★★★☆☆ | 低 |
-| 3 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把一个 AI 助手升级成一支可调用的虚拟专家团队。 | 18 | 126,536 | Shell | `多 Agent` `虚拟团队` `角色模板` `工作流` `AI 工具` | ★★★★☆ | 低 |
-| 4 | [facebook/astryx](https://github.com/facebook/astryx) | Meta 开源的 agent-ready 设计系统，让 AI 生成界面更有边界。 | 16 | 4,710 | TypeScript | `设计系统` `React` `Agent Ready` `前端组件` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 编程代理少乱写代码，更像一个克制的资深工程师。 | 15 | 73,089 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `YAGNI` `AI 工具` | ★★★★★ | 低 |
-| 6 | [santifer/career-ops](https://github.com/santifer/career-ops) | 把 Claude Code 变成求职作战系统，批量处理岗位和材料。 | 15 | 58,414 | JavaScript | `AI 求职` `Claude Code` `简历优化` `职业自动化` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | 把 AI 编程助手扩展成一套视频生产流水线。 | 14 | 32,474 | Python | `AI 视频` `Agent 工作流` `内容生产` `自动化` `AI 工具` | ★★★★★ | 高 |
-| 8 | [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book) | 哈佛机器学习系统教材，补齐 AI 从模型到工程落地的中间层。 | 14 | 26,206 | Python | `ML Systems` `AI 教材` `边缘 AI` `TinyML` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程经验拆成可复用的 AI Agent 技能。 | 13 | 155,632 | Shell | `Agent Skills` `工程流程` `AI 编程` `开发方法论` `AI 工具` | ★★★★★ | 低 |
-| 10 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | 阿里开源页面内 GUI Agent，让 AI 用自然语言操作网页界面。 | 12 | 22,494 | TypeScript | `GUI Agent` `浏览器自动化` `MCP` `TypeScript` `AI 工具` | ★★★★★ | 中 |
+| 1 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 40 | 36,139 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
+| 2 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | page-agent 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 35 | 23,170 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
+| 3 | [erincatto/box3d](https://github.com/erincatto/box3d) | box3d 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 33 | 3,381 | C | `OCR` `视觉 AI` `多模态` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 4 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 33 | 84,043 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 5 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 31 | 56,556 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 73,979 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 7 | [facebook/astryx](https://github.com/facebook/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 30 | 5,391 | TypeScript | `智能体` `开发工具` `AI 设计` `TypeScript` `高增长` | ★★★☆☆ | 中 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 156,642 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 9 | [teamchong/pxpipe](https://github.com/teamchong/pxpipe) | pxpipe 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 25 | 1,942 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★☆☆☆ | 中 |
+| 10 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 22 | 26,224 | C | `RAG` `知识库` `上下文` `AI 编程` `MCP` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-03.json](data/2026-07-03.json)
-- Markdown 归档：[reports/2026-07-03.md](reports/2026-07-03.md)
+- JSON 数据：[data/2026-07-04.json](data/2026-07-04.json)
+- Markdown 归档：[reports/2026-07-04.md](reports/2026-07-04.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
