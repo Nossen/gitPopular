@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 40 | 36,139 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
-| 2 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | page-agent 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 35 | 23,170 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
-| 3 | [erincatto/box3d](https://github.com/erincatto/box3d) | box3d 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 33 | 3,381 | C | `OCR` `视觉 AI` `多模态` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 4 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 33 | 84,043 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 5 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 31 | 56,556 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 73,979 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [facebook/astryx](https://github.com/facebook/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 30 | 5,391 | TypeScript | `智能体` `开发工具` `AI 设计` `TypeScript` `高增长` | ★★★☆☆ | 中 |
-| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 156,642 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 9 | [teamchong/pxpipe](https://github.com/teamchong/pxpipe) | pxpipe 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 25 | 1,942 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 10 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | codebase-memory-mcp 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 22 | 26,224 | C | `RAG` `知识库` `上下文` `AI 编程` `MCP` | ★★★★☆ | 高 |
+| 1 | [usestrix/strix](https://github.com/usestrix/strix) | 让 AI Agent 帮你找漏洞、解释风险，并给出修复方向。 | 40 | 36,139 | Python | `AI 安全` `渗透测试` `红队自动化` `漏洞修复` `AI 工具` | ★★★★★ | 高 |
+| 2 | [alibaba/page-agent](https://github.com/alibaba/page-agent) | 把自然语言控制能力直接放进网页里，不必先装浏览器插件。 | 35 | 23,170 | TypeScript | `GUI Agent` `浏览器自动化` `前端集成` `自然语言交互` `AI 工具` | ★★★★★ | 中 |
+| 3 | [erincatto/box3d](https://github.com/erincatto/box3d) | 不是典型 AI 项目，但可能成为生成式游戏和仿真环境的物理底座。 | 33 | 3,381 | C | `物理引擎` `游戏开发` `实时仿真` `C 语言` `AI 工具` | ★★★☆☆ | 高 |
+| 4 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 让编码 Agent 少说废话，保留关键信息，降低 token 和阅读成本。 | 33 | 84,043 | JavaScript | `Token 节省` `Claude Code` `Agent Skill` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 给 AI 前端代理补审美判断，减少模板感和廉价 UI。 | 31 | 56,556 | JavaScript | `AI 前端` `设计审美` `Agent Skills` `UI 质量` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 编程代理少乱写代码，更像一个克制的资深工程师。 | 30 | 73,979 | JavaScript | `AI 编程` `Agent Skills` `工程规范` `YAGNI` `AI 工具` | ★★★★★ | 低 |
+| 7 | [facebook/astryx](https://github.com/facebook/astryx) | Meta 开源 agent-ready 设计系统，让 AI 生成界面更有边界。 | 30 | 5,391 | TypeScript | `设计系统` `React` `Agent Ready` `前端组件` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的 Agent 使用经验，拆成可安装的小技能。 | 26 | 156,642 | Shell | `Agent Skills` `真实工程` `Claude Code` `工作流` `AI 工具` | ★★★★☆ | 低 |
+| 9 | [teamchong/pxpipe](https://github.com/teamchong/pxpipe) | 把大段上下文渲染成图片，尝试大幅降低 Claude Code token 成本。 | 25 | 1,942 | TypeScript | `Token 优化` `上下文压缩` `Claude Code` `本地代理` `AI 工具` | ★★★☆☆ | 高 |
+| 10 | [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp) | 把代码库变成持久知识图谱，让 AI 编程少烧 token。 | 22 | 26,224 | C | `代码图谱` `MCP` `AI 编程` `上下文管理` `AI 工具` | ★★★★★ | 中 |
 
 ## 数据与归档
 
