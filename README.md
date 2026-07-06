@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-05 (Asia/Shanghai)
+## 最新榜单：2026-07-06 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | 给代码库自动写 wiki，让 Agent 和新人都更快读懂项目。 | 74 | 5,369 | TypeScript | `AI 编程` `代码文档` `Agent 上下文` `研发协作` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 在 Claude Code 里直接叫 Codex 做审查和任务委派。 | 58 | 25,554 | JavaScript | `Codex` `Claude Code` `代码审查` `多 Agent` `AI 工具` | ★★★★★ | 中 |
-| 3 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 会议纪要不上云，本地完成转写、分离说话人和总结。 | 52 | 17,223 | Rust | `会议助手` `本地 AI` `语音转写` `隐私优先` `AI 工具` | ★★★★★ | 中 |
-| 4 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 集中观察主流 AI 产品背后的系统提示词和规则变化。 | 51 | 50,079 | JavaScript | `提示词` `AI 安全` `产品研究` `资料库` `AI 工具` | ★★★★☆ | 低 |
-| 5 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 让 AI 编程代理少说废话，用更少 token 交付结果。 | 47 | 84,936 | JavaScript | `Token 优化` `Claude Code` `Agent 技能` `AI 编程` `AI 工具` | ★★★☆☆ | 低 |
-| 6 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 把网页变成 Agent 和 RAG 能直接使用的干净数据。 | 46 | 145,164 | TypeScript | `网页抓取` `RAG` `联网 Agent` `数据提取` `AI 工具` | ★★★★★ | 中 |
-| 7 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 不是 AI 项目，但展示了老游戏引擎登陆 Apple 全平台的工程路径。 | 45 | 813 | C++ | `游戏移植` `Apple 平台` `C++` `图形渲染` `AI 工具` | ★★☆☆☆ | 高 |
-| 8 | [usestrix/strix](https://github.com/usestrix/strix) | 让 AI Agent 在授权环境里找漏洞、解释风险并给修复方向。 | 42 | 37,209 | Python | `AI 安全` `渗透测试` `红队自动化` `漏洞修复` `AI 工具` | ★★★★★ | 高 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 把“少写没必要的代码”变成 AI Agent 的默认习惯。 | 41 | 74,942 | JavaScript | `AI 编程` `Agent 规则` `工程克制` `代码审查` `AI 工具` | ★★★★☆ | 低 |
-| 10 | [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | 把多 Agent 用到授权红队测试里，但风险边界必须先画清楚。 | 38 | 1,741 | TypeScript | `红队自动化` `多 Agent` `安全研究` `攻防测试` `AI 工具` | ★★★☆☆ | 高 |
+| 1 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | openwiki 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 6,980 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 2 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | system_prompts_leaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 51,044 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 3 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | meetily 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 15 | 18,835 | Rust | `联网 Agent` `信息抓取` `自动化` `大模型` `多模态` | ★★★☆☆ | 高 |
+| 4 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 58,604 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 5 | [teamchong/pxpipe](https://github.com/teamchong/pxpipe) | pxpipe 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 12 | 3,801 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 70,503 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 75,727 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 8 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 10 | 12,399 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 9 | [davidondrej/skills](https://github.com/davidondrej/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 1,260 | 未知 | `智能体` `自动化` `工具调用` `AI 编程` `高增长` | ★★☆☆☆ | 高 |
+| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 9 | 145,903 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-05.json](data/2026-07-05.json)
-- Markdown 归档：[reports/2026-07-05.md](reports/2026-07-05.md)
+- JSON 数据：[data/2026-07-06.json](data/2026-07-06.json)
+- Markdown 归档：[reports/2026-07-06.md](reports/2026-07-06.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
