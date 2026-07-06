@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | openwiki 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 74 | 5,369 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 2 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | codex-plugin-cc 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 58 | 25,554 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 3 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | meetily 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 52 | 17,223 | Rust | `联网 Agent` `信息抓取` `自动化` `大模型` `多模态` | ★★★☆☆ | 高 |
-| 4 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | system_prompts_leaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 51 | 50,079 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 5 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 47 | 84,936 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 6 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 46 | 145,164 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 7 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | Generals-Mac-iOS-iPad 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 45 | 813 | C++ | `AI 编程` `开发工具` `工作流` `多模态` `大模型` | ★★☆☆☆ | 高 |
-| 8 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 42 | 37,209 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 41 | 74,942 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | T3MP3ST 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 38 | 1,741 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★☆☆☆ | 高 |
+| 1 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | 给代码库自动写 wiki，让 Agent 和新人都更快读懂项目。 | 74 | 5,369 | TypeScript | `AI 编程` `代码文档` `Agent 上下文` `研发协作` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [openai/codex-plugin-cc](https://github.com/openai/codex-plugin-cc) | 在 Claude Code 里直接叫 Codex 做审查和任务委派。 | 58 | 25,554 | JavaScript | `Codex` `Claude Code` `代码审查` `多 Agent` `AI 工具` | ★★★★★ | 中 |
+| 3 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 会议纪要不上云，本地完成转写、分离说话人和总结。 | 52 | 17,223 | Rust | `会议助手` `本地 AI` `语音转写` `隐私优先` `AI 工具` | ★★★★★ | 中 |
+| 4 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 集中观察主流 AI 产品背后的系统提示词和规则变化。 | 51 | 50,079 | JavaScript | `提示词` `AI 安全` `产品研究` `资料库` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 让 AI 编程代理少说废话，用更少 token 交付结果。 | 47 | 84,936 | JavaScript | `Token 优化` `Claude Code` `Agent 技能` `AI 编程` `AI 工具` | ★★★☆☆ | 低 |
+| 6 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 把网页变成 Agent 和 RAG 能直接使用的干净数据。 | 46 | 145,164 | TypeScript | `网页抓取` `RAG` `联网 Agent` `数据提取` `AI 工具` | ★★★★★ | 中 |
+| 7 | [ammaarreshi/Generals-Mac-iOS-iPad](https://github.com/ammaarreshi/Generals-Mac-iOS-iPad) | 不是 AI 项目，但展示了老游戏引擎登陆 Apple 全平台的工程路径。 | 45 | 813 | C++ | `游戏移植` `Apple 平台` `C++` `图形渲染` `AI 工具` | ★★☆☆☆ | 高 |
+| 8 | [usestrix/strix](https://github.com/usestrix/strix) | 让 AI Agent 在授权环境里找漏洞、解释风险并给修复方向。 | 42 | 37,209 | Python | `AI 安全` `渗透测试` `红队自动化` `漏洞修复` `AI 工具` | ★★★★★ | 高 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 把“少写没必要的代码”变成 AI Agent 的默认习惯。 | 41 | 74,942 | JavaScript | `AI 编程` `Agent 规则` `工程克制` `代码审查` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [elder-plinius/T3MP3ST](https://github.com/elder-plinius/T3MP3ST) | 把多 Agent 用到授权红队测试里，但风险边界必须先画清楚。 | 38 | 1,741 | TypeScript | `红队自动化` `多 Agent` `安全研究` `攻防测试` `AI 工具` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 

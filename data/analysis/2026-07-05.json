@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-05",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-06T02:36:26.445866Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "langchain-ai/openwiki",
-      "repo_id": 1277477208,
-      "url": "https://github.com/langchain-ai/openwiki",
-      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 74,
-      "total_stars": 5369,
-      "readme_url": "https://github.com/langchain-ai/openwiki/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "OpenWiki 是 LangChain 生态里的代码库文档 CLI，目标是让 Agent 能持续生成和维护面向代码库的说明文档。它不只是把 README 摘出来，而是围绕仓库结构、开发约定和自动更新流程，补齐 AI 编程时最缺的项目上下文。",
       "purpose_zh": "项目作用是把代码库知识沉淀成可维护的 wiki，让团队成员和编码 Agent 更快理解系统边界、模块职责与协作方式。",
-      "application_scenarios_zh": [
-        "团队项目 onboarding 文档自动化。",
-        "给 Codex、Claude Code 等编码 Agent 准备仓库背景资料。",
-        "通过 GitHub Action 定期更新代码库 wiki。"
-      ],
       "positioning_zh": "面向 AI 编程时代的代码库文档生成与维护工具。",
       "product_view_zh": "产品价值在于减少“新人或 Agent 读不懂老项目”的成本。它适合放进研发流程里，定期更新项目文档、辅助 onboarding，也能为代码审查和自动化开发任务提供更稳定的背景资料。",
       "technical_view_zh": "技术上采用 TypeScript CLI 形态，接入门槛相对明确，并提供 GitHub Action 自动更新思路。评估时应重点看模型配置、文档增量更新质量、对大型仓库的扫描成本，以及生成内容是否容易被团队校正。",
@@ -44,12 +22,16 @@
         "AI 编程",
         "代码文档",
         "Agent 上下文",
-        "研发协作",
-        "AI 工具"
+        "研发协作"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队项目 onboarding 文档自动化。",
+        "给 Codex、Claude Code 等编码 Agent 准备仓库背景资料。",
+        "通过 GitHub Action 定期更新代码库 wiki。"
+      ],
       "adoption_notes_zh": [
         "先在一个中等规模仓库试跑，检查目录理解和模块描述是否准确。",
         "把生成文档纳入 PR 审查，避免错误说明长期沉淀。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "openai/codex-plugin-cc",
-      "repo_id": 1196321162,
-      "url": "https://github.com/openai/codex-plugin-cc",
-      "description": "Use Codex from Claude Code to review code or delegate tasks.",
-      "language": "JavaScript",
-      "topics": [],
-      "yesterday_new_stars": 58,
-      "total_stars": 25554,
-      "readme_url": "https://github.com/openai/codex-plugin-cc/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "codex-plugin-cc 是 OpenAI 为 Claude Code 用户提供的 Codex 插件，让用户可以在现有 Claude Code 工作流里调用 Codex 做代码审查、任务委派和后台执行管理。它的价值不在模型本身，而在把两个开发工具的工作流连接起来。",
       "purpose_zh": "项目作用是让 Claude Code 用户无需切换环境，就能使用 Codex 的审查、任务转交、状态查询和结果回收能力。",
-      "application_scenarios_zh": [
-        "让 Codex 对 Claude Code 生成的改动做二次审查。",
-        "把较长的重构或排查任务委派给后台 Codex 会话。",
-        "在同一终端里管理多 Agent 协作结果。"
-      ],
       "positioning_zh": "连接 Claude Code 与 Codex 的 AI 编程协作插件。",
       "product_view_zh": "从产品角度看，它解决的是多 Agent 工具之间的切换成本。团队可以把 Codex 当成第二审查者或后台执行者，用于复杂改动复核、方案挑战和任务拆分，适合已经重度使用 Claude Code 的开发者。",
       "technical_view_zh": "技术上以 JavaScript 插件形式分发，依赖 Claude Code 插件机制和 Codex 可用账号。接入前要确认 Node 版本、Codex 额度、权限边界，以及后台任务产生的代码是否进入现有审查流程。",
@@ -92,12 +60,16 @@
         "Codex",
         "Claude Code",
         "代码审查",
-        "多 Agent",
-        "AI 工具"
+        "多 Agent"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "让 Codex 对 Claude Code 生成的改动做二次审查。",
+        "把较长的重构或排查任务委派给后台 Codex 会话。",
+        "在同一终端里管理多 Agent 协作结果。"
+      ],
       "adoption_notes_zh": [
         "先跑 `/codex:setup` 确认可用账号和环境。",
         "所有 Codex 产物仍应走正常 git diff 和测试流程。",
@@ -105,45 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "Zackriya-Solutions/meetily",
-      "repo_id": 908589694,
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.  ",
-      "language": "Rust",
-      "topics": [
-        "ai",
-        "ai-meeting-assistant",
-        "llm",
-        "local-ai",
-        "mac",
-        "meeting-minutes",
-        "meeting-notes",
-        "offline-first",
-        "ollama",
-        "parakeet",
-        "privacy-focused",
-        "privacy-tools",
-        "rust",
-        "self-hosted",
-        "sortformer",
-        "speech-to-text",
-        "transcription",
-        "whisper",
-        "whisper-cpp",
-        "windows"
-      ],
-      "yesterday_new_stars": 52,
-      "total_stars": 17223,
-      "readme_url": "https://github.com/Zackriya-Solutions/meetily/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Meetily 是强调隐私优先的本地 AI 会议助手，核心能力包括实时转写、说话人分离、Whisper/Parakeet 语音识别和 Ollama 本地总结。它主打 macOS 与 Windows 桌面场景，适合不希望会议内容上云的团队。",
       "purpose_zh": "项目作用是把会议录音、实时字幕、说话人识别和会议纪要生成放到本地完成，降低敏感会议资料外泄风险。",
-      "application_scenarios_zh": [
-        "客户访谈和需求会议自动生成纪要。",
-        "研发评审、复盘会议的本地记录归档。",
-        "无法上云的敏感会议转写与总结。"
-      ],
       "positioning_zh": "面向隐私敏感团队的本地 AI 会议记录工具。",
       "product_view_zh": "产品价值很清晰：替代云端会议纪要工具，同时保留 AI 总结能力。它适合律师、咨询、研发评审、客户访谈等会议密集且重视隐私的团队，也适合个人建立本地会议知识库。",
       "technical_view_zh": "技术上使用 Rust 桌面端，结合 Whisper/Parakeet 转写、speaker diarization 和 Ollama 总结。评估重点是不同设备的实时性能、中文识别效果、模型下载成本、音频权限和跨平台打包稳定性。",
@@ -161,12 +98,16 @@
         "会议助手",
         "本地 AI",
         "语音转写",
-        "隐私优先",
-        "AI 工具"
+        "隐私优先"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "客户访谈和需求会议自动生成纪要。",
+        "研发评审、复盘会议的本地记录归档。",
+        "无法上云的敏感会议转写与总结。"
+      ],
       "adoption_notes_zh": [
         "先用真实会议音频测试中文、英文和多人场景识别质量。",
         "确认本地模型占用、显存和 CPU 负载是否可接受。",
@@ -174,45 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "asgeirtj/system_prompts_leaks",
-      "repo_id": 976921297,
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "awesome",
-        "chatbot",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "deep-learning",
-        "education",
-        "gemini",
-        "generative-ai",
-        "google",
-        "llm",
-        "machine-learning",
-        "nlp",
-        "open-source",
-        "openai",
-        "prompt-engineering"
-      ],
-      "yesterday_new_stars": 51,
-      "total_stars": 50079,
-      "readme_url": "https://github.com/asgeirtj/system_prompts_leaks/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "system_prompts_leaks 收集并整理多家 AI 产品被公开披露的系统提示词，覆盖 Claude、ChatGPT、Gemini、Copilot、Cursor 等工具。它更像一个观察 AI 产品行为边界的资料库，而不是可直接接入生产的工程组件。",
       "purpose_zh": "项目作用是帮助研究者和开发者观察不同 AI 产品的系统级约束、角色设定、安全策略和提示词演化。",
-      "application_scenarios_zh": [
-        "分析 AI 产品的安全边界和角色设定。",
-        "学习系统提示词组织方式和写法。",
-        "跟踪不同模型产品的规则变化。"
-      ],
       "positioning_zh": "面向提示词研究、AI 安全观察和产品分析的资料库。",
       "product_view_zh": "从产品角度看，它适合做竞品研究、提示工程学习和 AI 产品设计参考。读者可以看到不同厂商如何描述工具能力、拒答边界和行为规范，但不应把内容照搬到商业产品里。",
       "technical_view_zh": "技术含量主要在资料整理、更新频率和差异追踪，而不是复杂系统实现。使用时要重点关注来源可信度、授权风险、过期内容和可能的误导信息，尤其不要把泄露文本当成官方文档。",
@@ -230,12 +136,16 @@
         "提示词",
         "AI 安全",
         "产品研究",
-        "资料库",
-        "AI 工具"
+        "资料库"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "分析 AI 产品的安全边界和角色设定。",
+        "学习系统提示词组织方式和写法。",
+        "跟踪不同模型产品的规则变化。"
+      ],
       "adoption_notes_zh": [
         "只把它当研究资料，不要视为官方文档。",
         "引用时标注来源和时间，避免过期内容误导判断。",
@@ -243,35 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "JuliusBrussee/caveman",
-      "repo_id": 1201173969,
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "anthropic",
-        "caveman",
-        "claude",
-        "claude-code",
-        "llm",
-        "meme",
-        "prompt-engineering",
-        "skill",
-        "tokens"
-      ],
-      "yesterday_new_stars": 47,
-      "total_stars": 84936,
-      "readme_url": "https://github.com/JuliusBrussee/caveman/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "caveman 是一个面向 Claude Code 等 AI 编程代理的技能，核心思路是用极简、类似“穴居人”的表达压缩输出 token。它有强烈 meme 属性，但背后指向一个真实问题：Agent 交互中大量解释性文本会增加成本和噪音。",
       "purpose_zh": "项目作用是通过输出风格约束减少 AI 编程代理的冗长回答，让人和工具更关注行动结果。",
-      "application_scenarios_zh": [
-        "个人使用 Claude Code 时压缩输出长度。",
-        "在低风险任务中减少 Agent 解释性文本。",
-        "实验不同沟通风格对 AI 编程效率的影响。"
-      ],
       "positioning_zh": "面向 AI 编程代理的 token 压缩和沟通风格技能。",
       "product_view_zh": "产品价值主要在个人效率和成本控制。对频繁使用 Agent 的开发者来说，它可以减少无效寒暄和过度解释；对团队来说，更适合作为沟通风格实验，而不是核心工程依赖。",
       "technical_view_zh": "技术上更接近规则/技能包，不是复杂模型系统。评估重点是它是否影响可读性、是否遗漏关键风险说明，以及不同 Agent 平台的安装兼容性。过度压缩可能让审查和交接变差。",
@@ -289,12 +174,16 @@
         "Token 优化",
         "Claude Code",
         "Agent 技能",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "个人使用 Claude Code 时压缩输出长度。",
+        "在低风险任务中减少 Agent 解释性文本。",
+        "实验不同沟通风格对 AI 编程效率的影响。"
+      ],
       "adoption_notes_zh": [
         "不要用于安全、金融或复杂架构评审等高风险输出。",
         "保留要求详细解释的备用模式。",
@@ -302,44 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "firecrawl/firecrawl",
-      "repo_id": 787076358,
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "yesterday_new_stars": 46,
-      "total_stars": 145164,
-      "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "Firecrawl 是面向 AI 应用的网页搜索、抓取和结构化提取 API，常用于把网页内容转成 Markdown 或适合 LLM 使用的数据。它解决的是 RAG、Agent 和数据管道里最常见的前置问题：稳定拿到可读网页内容。",
       "purpose_zh": "项目作用是为 AI Agent、RAG 和数据分析流程提供可规模化的网页抓取、搜索、解析和交互能力。",
-      "application_scenarios_zh": [
-        "把公开网站内容接入企业知识库。",
-        "为 Agent 提供网页搜索和读取能力。",
-        "批量采集竞品、文档和市场资料。"
-      ],
       "positioning_zh": "面向 Agent 和 RAG 的网页数据获取基础设施。",
       "product_view_zh": "产品价值在于把“爬网页”从一次性脚本变成可复用 API。它适合研究 Agent、竞品监测、知识库构建和内容分析，比自己维护爬虫更省时间，但也更依赖服务稳定性和成本模型。",
       "technical_view_zh": "技术上以 TypeScript 服务为主，围绕抓取、解析、队列、反爬处理和 Markdown 输出组织能力。接入前要重点评估限流、失败重试、登录页面、JS 渲染、robots 合规和自托管成本。",
@@ -357,12 +212,16 @@
         "网页抓取",
         "RAG",
         "联网 Agent",
-        "数据提取",
-        "AI 工具"
+        "数据提取"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "把公开网站内容接入企业知识库。",
+        "为 Agent 提供网页搜索和读取能力。",
+        "批量采集竞品、文档和市场资料。"
+      ],
       "adoption_notes_zh": [
         "先确认目标网站的抓取授权和频率限制。",
         "评估自托管与云 API 在成本、稳定性上的差异。",
@@ -370,37 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "ammaarreshi/Generals-Mac-iOS-iPad",
-      "repo_id": 1288835164,
-      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
-      "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
-      "language": "C++",
-      "topics": [
-        "apple-silicon",
-        "command-and-conquer",
-        "dxvk",
-        "game-port",
-        "generals-zero-hour",
-        "ios",
-        "ipad",
-        "macos",
-        "moltenvk",
-        "open-source-game",
-        "rts",
-        "sdl3"
-      ],
-      "yesterday_new_stars": 45,
-      "total_stars": 813,
-      "readme_url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad/blob/main/README.md",
       "ai_confidence": 0.18,
       "summary_zh": "Generals-Mac-iOS-iPad 是经典 RTS 游戏 Command & Conquer Generals: Zero Hour 的 Apple 平台原生移植项目，重点在 EA GPL v3 源码、GeneralsX、DXVK/MoltenVK 渲染链路和触控适配。它本身不是 AI 项目，更像榜单中的非 AI 高热误入项。",
       "purpose_zh": "项目作用是让原始 2003 年游戏引擎在 macOS、iPhone 和 iPad 上原生运行，并探索 RTS 在触控设备上的交互适配。",
-      "application_scenarios_zh": [
-        "研究 DirectX 游戏到 Metal 生态的迁移路径。",
-        "参考 RTS 触控操作设计。",
-        "学习 GPL 游戏源码的现代平台适配。"
-      ],
       "positioning_zh": "面向 Apple 平台的经典 RTS 游戏引擎移植项目。",
       "product_view_zh": "从产品角度看，它吸引人的地方在于情怀、可玩性和移动端改造。对 AI 项目读者的参考价值较弱，但对游戏移植、跨平台图形栈和触控交互设计很有学习意义。",
       "technical_view_zh": "技术上重点是 C++ 旧引擎、ARM64 编译、DirectX 8 到 Vulkan 再到 Metal 的渲染桥接，以及 SDL3 和触控操作适配。真正落地时还要处理游戏资产授权和平台打包问题。",
@@ -418,12 +250,16 @@
         "游戏移植",
         "Apple 平台",
         "C++",
-        "图形渲染",
-        "AI 工具"
+        "图形渲染"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 2,
+      "application_scenarios_zh": [
+        "研究 DirectX 游戏到 Metal 生态的迁移路径。",
+        "参考 RTS 触控操作设计。",
+        "学习 GPL 游戏源码的现代平台适配。"
+      ],
       "adoption_notes_zh": [
         "确认自己拥有合法游戏资产。",
         "重点关注 GPL 许可证和原始素材版权边界。",
@@ -431,45 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "usestrix/strix",
-      "repo_id": 1032808806,
-      "url": "https://github.com/usestrix/strix",
-      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "language": "Python",
-      "topics": [
-        "agents",
-        "ai-hacking",
-        "ai-penetration-testing",
-        "ai-pentesting",
-        "ai-security",
-        "artificial-intelligence",
-        "bug-bounty",
-        "code-quality",
-        "ctf-tools",
-        "cybersecurity",
-        "cybersecurity-tools",
-        "ethical-hacking",
-        "hacking",
-        "llm-security",
-        "offensive-security",
-        "penetration-testing",
-        "pentesting-tools",
-        "red-teaming",
-        "security",
-        "security-automation"
-      ],
-      "yesterday_new_stars": 42,
-      "total_stars": 37209,
-      "readme_url": "https://github.com/usestrix/strix/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Strix 是开源 AI 渗透测试工具，目标是让自主 Agent 帮助发现并修复应用漏洞。它把安全测试从单点扫描扩展到任务规划、工具调用、漏洞验证和修复建议，更接近一个面向 DevSecOps 的 AI 红队工作流。",
       "purpose_zh": "项目作用是帮助安全和研发团队在授权环境中自动化发现应用风险，并把复现与修复建议前移到开发流程。",
-      "application_scenarios_zh": [
-        "测试环境安全预扫描。",
-        "漏洞复现和修复建议生成。",
-        "CI 或发布前的 DevSecOps 风险检查。"
-      ],
       "positioning_zh": "面向授权应用安全测试的 AI 渗透测试平台。",
       "product_view_zh": "产品价值在于降低持续安全测试门槛。它适合测试环境预扫描、漏洞复现辅助和修复建议整理，能帮助非大型安全团队补齐部分红队能力，但不能替代专业安全审计。",
       "technical_view_zh": "技术上使用 Python 和 Agent 工具链组织安全任务。接入时必须重点评估授权边界、命令执行隔离、扫描副作用、日志审计和误报率，最好先在沙盒或靶场应用中验证。",
@@ -487,12 +288,16 @@
         "AI 安全",
         "渗透测试",
         "红队自动化",
-        "漏洞修复",
-        "AI 工具"
+        "漏洞修复"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "测试环境安全预扫描。",
+        "漏洞复现和修复建议生成。",
+        "CI 或发布前的 DevSecOps 风险检查。"
+      ],
       "adoption_notes_zh": [
         "只在授权范围和隔离环境运行。",
         "把 AI 发现结果交给安全人员复核。",
@@ -500,35 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 41,
-      "total_stars": 74942,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.84,
       "summary_zh": "Ponytail 是面向 AI 编程代理的规则/技能项目，主张让 Agent 像“懒惰的资深工程师”一样少写代码、少做无谓改动。它不是底层模型工具，而是把 YAGNI、最小改动和工程克制包装成可复用的 Agent 行为约束。",
       "purpose_zh": "项目作用是约束 AI 编程代理避免过度工程、无关重构和冗长输出，让改动更贴近真实资深工程师的审慎风格。",
-      "application_scenarios_zh": [
-        "写入团队 AGENTS.md 约束 AI 改动范围。",
-        "减少 Agent 生成不必要抽象和模板代码。",
-        "在代码审查前统一 AI 输出风格。"
-      ],
       "positioning_zh": "面向 AI 编程代理的工程判断和最小改动规则集。",
       "product_view_zh": "产品价值在于减少 AI 编程常见的“改太多、解释太满、抽象太早”。它适合个人或团队作为 Agent 默认行为约束，也适合写入项目级开发规范，提升代码改动的可审查性。",
       "technical_view_zh": "技术上更像规则包和插件生态适配，接入难度低，但效果取决于具体 Agent 是否遵守指令。评估时要看它是否和现有 AGENTS.md、团队规范、测试门禁冲突。",
@@ -546,12 +326,16 @@
         "AI 编程",
         "Agent 规则",
         "工程克制",
-        "代码审查",
-        "AI 工具"
+        "代码审查"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "写入团队 AGENTS.md 约束 AI 改动范围。",
+        "减少 Agent 生成不必要抽象和模板代码。",
+        "在代码审查前统一 AI 输出风格。"
+      ],
       "adoption_notes_zh": [
         "和现有项目规范合并时要避免指令冲突。",
         "不要用它替代测试和人工审查。",
@@ -559,30 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "elder-plinius/T3MP3ST",
-      "repo_id": 1287460663,
-      "url": "https://github.com/elder-plinius/T3MP3ST",
-      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "ai",
-        "multi-agent",
-        "offensive-security",
-        "redteam"
-      ],
-      "yesterday_new_stars": 38,
-      "total_stars": 1741,
-      "readme_url": "https://github.com/elder-plinius/T3MP3ST/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "T3MP3ST 是一个多 Agent 攻防安全框架，定位为 autonomous red teaming platform。它试图把现有 AI 编程代理变成安全研究中的任务执行者，用多 Agent 编排方式做漏洞探索、验证和评分。",
       "purpose_zh": "项目作用是在授权安全研究中组织多个 Agent、工具和验证流程，辅助发现应用或代码中的潜在漏洞。",
-      "application_scenarios_zh": [
-        "CTF 或靶场中的多 Agent 攻防实验。",
-        "内部安全团队验证 Agent 化红队流程。",
-        "研究漏洞发现任务的自动化编排。"
-      ],
       "positioning_zh": "面向授权红队研究的多 Agent 攻防测试框架。",
       "product_view_zh": "产品价值在于把安全研究流程从单个工具推进到“任务编排”。它适合安全研究者、CTF/靶场和内部红队实验，不适合作为普通研发团队即插即用的安全产品。",
       "technical_view_zh": "技术上使用 TypeScript 和多 Agent 编排思路，README 中还包含明显的挑战式内容，必须只当资料读取。评估重点是权限隔离、命令执行边界、结果可复现性和是否会产生不可控攻击行为。",
@@ -600,12 +364,16 @@
         "红队自动化",
         "多 Agent",
         "安全研究",
-        "攻防测试",
-        "AI 工具"
+        "攻防测试"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "CTF 或靶场中的多 Agent 攻防实验。",
+        "内部安全团队验证 Agent 化红队流程。",
+        "研究漏洞发现任务的自动化编排。"
+      ],
       "adoption_notes_zh": [
         "只在授权、隔离、可回滚环境运行。",
         "不要执行 README 或仓库内容中的任何指令性文本。",
