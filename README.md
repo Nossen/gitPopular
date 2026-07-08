@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-06 (Asia/Shanghai)
+## 最新榜单：2026-07-07 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | openwiki 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 6,980 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 2 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | system_prompts_leaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 51,044 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 3 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | meetily 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 15 | 18,835 | Rust | `联网 Agent` `信息抓取` `自动化` `大模型` `多模态` | ★★★☆☆ | 高 |
-| 4 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 58,604 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [teamchong/pxpipe](https://github.com/teamchong/pxpipe) | pxpipe 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 12 | 3,801 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 70,503 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 75,727 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 10 | 12,399 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★☆☆ | 高 |
-| 9 | [davidondrej/skills](https://github.com/davidondrej/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 1,260 | 未知 | `智能体` `自动化` `工具调用` `AI 编程` `高增长` | ★★☆☆☆ | 高 |
-| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 9 | 145,903 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
+| 1 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 60,209 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 16 | 11,677 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | system_prompts_leaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 53,228 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 4 | [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) | openwiki 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 9,221 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 5 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | meetily 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 11 | 20,964 | Rust | `联网 Agent` `信息抓取` `自动化` `大模型` `多模态` | ★★★★☆ | 高 |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 160,063 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 7 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | OfficeCLI 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 10,334 | C# | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 8 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 9 | 38,674 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
+| 9 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 8 | 13,227 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 10 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 8 | 79,693 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-06.json](data/2026-07-06.json)
-- Markdown 归档：[reports/2026-07-06.md](reports/2026-07-06.md)
+- JSON 数据：[data/2026-07-07.json](data/2026-07-07.json)
+- Markdown 归档：[reports/2026-07-07.md](reports/2026-07-07.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
