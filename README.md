@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-08 (Asia/Shanghai)
+## 最新榜单：2026-07-09 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把岗位评估、简历定制和求职信写作交给 Claude Code 跑流程。 | 34 | 15,939 | TypeScript | `AI 求职` `Claude Code` `简历优化` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 让 Agent 真的读写 Word、Excel、PPT，并能看见渲染结果。 | 10 | 12,297 | C# | `Office Agent` `文档自动化` `PPTX` `Excel` `AI 工具` | ★★★★★ | 中 |
-| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 集中观察主流 AI 产品的系统提示词和行为边界。 | 9 | 54,434 | JavaScript | `系统提示词` `AI 安全` `Prompt Engineering` `产品研究` `AI 工具` | ★★★★☆ | 低 |
-| 4 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | 在一个终端里盯住多个编码 Agent，谁卡住谁完成一眼看清。 | 9 | 14,472 | Rust | `多 Agent` `终端工具` `TUI` `会话管理` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 把设计系统写进 Markdown，让 Agent 生成更像真实产品的 UI。 | 9 | 98,708 | 未知 | `DESIGN.md` `AI 前端` `设计系统` `Vibe Coding` `AI 工具` | ★★★★☆ | 低 |
-| 6 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 会议纪要不上云，本地完成转写、分离说话人和总结。 | 8 | 21,750 | Rust | `会议助手` `本地 AI` `语音转写` `隐私优先` `AI 工具` | ★★★★★ | 中 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让编码 Agent 少写没必要的代码，像资深工程师一样克制。 | 7 | 78,259 | JavaScript | `AI 编程` `Agent Skills` `最小改动` `工程治理` `AI 工具` | ★★★★★ | 低 |
-| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 6 | 74,635 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
-| 9 | [chuspeeism/dashiAI-ppt-skill](https://github.com/chuspeeism/dashiAI-ppt-skill) | AI 生成 PPT 后还能在浏览器里改，最后导出可编辑 PPTX。 | 6 | 1,550 | JavaScript | `AI PPT` `演示生成` `可编辑` `职场效率` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个端点接多家模型，把 AI 编程工具路由到更便宜、更稳的模型池。 | 6 | 13,885 | TypeScript | `LLM 网关` `模型路由` `Token 压缩` `AI 编程` `AI 工具` | ★★★★☆ | 高 |
+| 1 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | OfficeCLI 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 13,103 | C# | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 17,865 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 3 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | claude-video 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 7 | 6,505 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 78,905 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 162,617 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 75,595 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 7 | [generative-computing/mellea](https://github.com/generative-computing/mellea) | mellea 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 1,712 | Python | `智能体` `自动化` `工具调用` `RAG` `大模型` | ★★☆☆☆ | 中 |
+| 8 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 61,125 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 250,635 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 10 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | RuView 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 5 | 79,568 | Rust | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-08.json](data/2026-07-08.json)
-- Markdown 归档：[reports/2026-07-08.md](reports/2026-07-08.md)
+- JSON 数据：[data/2026-07-09.json](data/2026-07-09.json)
+- Markdown 归档：[reports/2026-07-09.md](reports/2026-07-09.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
