@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 34 | 15,939 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 2 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | OfficeCLI 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 12,297 | C# | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | system_prompts_leaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 54,434 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 4 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | herdr 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 14,472 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 5 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | awesome-design-md 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 98,708 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 6 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | meetily 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 8 | 21,750 | Rust | `联网 Agent` `信息抓取` `自动化` `大模型` `多模态` | ★★★★☆ | 高 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 78,259 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 74,635 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 9 | [chuspeeism/dashiAI-ppt-skill](https://github.com/chuspeeism/dashiAI-ppt-skill) | dashiAI-ppt-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 1,550 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 10 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 6 | 13,885 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 1 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把岗位评估、简历定制和求职信写作交给 Claude Code 跑流程。 | 34 | 15,939 | TypeScript | `AI 求职` `Claude Code` `简历优化` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 让 Agent 真的读写 Word、Excel、PPT，并能看见渲染结果。 | 10 | 12,297 | C# | `Office Agent` `文档自动化` `PPTX` `Excel` `AI 工具` | ★★★★★ | 中 |
+| 3 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 集中观察主流 AI 产品的系统提示词和行为边界。 | 9 | 54,434 | JavaScript | `系统提示词` `AI 安全` `Prompt Engineering` `产品研究` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | 在一个终端里盯住多个编码 Agent，谁卡住谁完成一眼看清。 | 9 | 14,472 | Rust | `多 Agent` `终端工具` `TUI` `会话管理` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 把设计系统写进 Markdown，让 Agent 生成更像真实产品的 UI。 | 9 | 98,708 | 未知 | `DESIGN.md` `AI 前端` `设计系统` `Vibe Coding` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | 会议纪要不上云，本地完成转写、分离说话人和总结。 | 8 | 21,750 | Rust | `会议助手` `本地 AI` `语音转写` `隐私优先` `AI 工具` | ★★★★★ | 中 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让编码 Agent 少写没必要的代码，像资深工程师一样克制。 | 7 | 78,259 | JavaScript | `AI 编程` `Agent Skills` `最小改动` `工程治理` `AI 工具` | ★★★★★ | 低 |
+| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 6 | 74,635 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 9 | [chuspeeism/dashiAI-ppt-skill](https://github.com/chuspeeism/dashiAI-ppt-skill) | AI 生成 PPT 后还能在浏览器里改，最后导出可编辑 PPTX。 | 6 | 1,550 | JavaScript | `AI PPT` `演示生成` `可编辑` `职场效率` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个端点接多家模型，把 AI 编程工具路由到更便宜、更稳的模型池。 | 6 | 13,885 | TypeScript | `LLM 网关` `模型路由` `Token 压缩` `AI 编程` `AI 工具` | ★★★★☆ | 高 |
 
 ## 数据与归档
 

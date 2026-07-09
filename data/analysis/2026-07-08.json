@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-08",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-09T06:31:37.342130Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "MadsLorentzen/ai-job-search",
-      "repo_id": 1185389803,
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 34,
-      "total_stars": 15939,
-      "readme_url": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "ai-job-search 是一个基于 Claude Code 的求职申请工作流框架。用户 fork 项目后填入个人资料，它会帮助评估岗位匹配度、定制简历、撰写求职信，并准备面试材料。它的价值不是替代求职判断，而是把重复、耗时、格式化的申请流程拆成可执行步骤。",
       "purpose_zh": "项目作用是把岗位搜索、匹配评估、简历改写、求职信生成和面试准备串成一套 AI 辅助求职流程。",
-      "application_scenarios_zh": [
-        "每天批量筛选岗位并生成匹配评分。",
-        "根据不同 JD 改写简历要点和求职信。",
-        "把面试准备材料按公司和岗位归档。"
-      ],
       "positioning_zh": "面向求职者的 Claude Code 驱动求职申请自动化框架。",
       "product_view_zh": "从产品角度看，它击中了求职中最痛的重复劳动：每个岗位都要重新判断匹配度、调整简历表述和写求职信。它适合主动投递量大、岗位信息分散、希望保持材料一致性的求职者，也适合职业顾问做流程模板。",
       "technical_view_zh": "技术上以 TypeScript 项目组织流程，核心依赖 Claude Code 执行 profile、scrape、apply 等命令。丹麦招聘网站适配较明显，迁移到其他国家时需要替换抓取来源、简历格式和本地化语气。",
@@ -44,12 +22,16 @@
         "AI 求职",
         "Claude Code",
         "简历优化",
-        "工作流自动化",
-        "AI 工具"
+        "工作流自动化"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "每天批量筛选岗位并生成匹配评分。",
+        "根据不同 JD 改写简历要点和求职信。",
+        "把面试准备材料按公司和岗位归档。"
+      ],
       "adoption_notes_zh": [
         "先替换成本地招聘网站和目标行业的抓取来源。",
         "保留人工审核环节，避免虚构经历或过度包装。",
@@ -57,39 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "iOfficeAI/OfficeCLI",
-      "repo_id": 1182212878,
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "language": "C#",
-      "topics": [
-        "agent",
-        "ai",
-        "claude-code",
-        "cli",
-        "codex",
-        "docx",
-        "excel",
-        "office",
-        "openclaw",
-        "pptx",
-        "presentation",
-        "skills",
-        "word",
-        "xlsx"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 12297,
-      "readme_url": "https://github.com/iOfficeAI/OfficeCLI/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "OfficeCLI 是为 AI Agent 准备的 Office 文档命令行工具，让 Agent 能读取、编辑和自动化 Word、Excel、PowerPoint 文件。它的关键点是把文档渲染成 HTML 或 PNG，让 AI 可以看见并修正格式，补上 Office 自动化里最难的视觉闭环。",
       "purpose_zh": "项目作用是给 AI Agent 提供跨 Word、Excel、PowerPoint 的读取、渲染、编辑和自动化能力。",
-      "application_scenarios_zh": [
-        "批量生成并修订客户报告和演示文稿。",
-        "让 Agent 读取 Excel 数据后输出图表和摘要。",
-        "在 CI 或内部工具里自动检查 Office 文档格式。"
-      ],
       "positioning_zh": "面向 AI Agent 的 Office 文档自动化基础工具。",
       "product_view_zh": "产品价值在于把办公文档从“人手点鼠标”变成可脚本化、可审查、可由 Agent 操作的对象。它适合报告生成、PPT 自动化、Excel 批处理和合同文档检查，也适合企业把文档处理接入内部 Agent。",
       "technical_view_zh": "技术上以 C# 单二进制分发，强调无 Office 安装依赖和高保真 HTML 渲染。评估时要重点看复杂版式、中文字体、嵌入图片、表格公式和 PPTX 导出后的兼容性。",
@@ -107,12 +60,16 @@
         "Office Agent",
         "文档自动化",
         "PPTX",
-        "Excel",
-        "AI 工具"
+        "Excel"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "批量生成并修订客户报告和演示文稿。",
+        "让 Agent 读取 Excel 数据后输出图表和摘要。",
+        "在 CI 或内部工具里自动检查 Office 文档格式。"
+      ],
       "adoption_notes_zh": [
         "先用公司真实模板测试中文字体和版式还原。",
         "把渲染截图纳入人工复核，避免文档看似生成但格式错误。",
@@ -120,45 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "asgeirtj/system_prompts_leaks",
-      "repo_id": 976921297,
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "awesome",
-        "chatbot",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "deep-learning",
-        "education",
-        "gemini",
-        "generative-ai",
-        "google",
-        "llm",
-        "machine-learning",
-        "nlp",
-        "open-source",
-        "openai",
-        "prompt-engineering"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 54434,
-      "readme_url": "https://github.com/asgeirtj/system_prompts_leaks/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "system_prompts_leaks 收集公开流出的 AI 产品系统提示词，覆盖 Claude、ChatGPT、Gemini、Copilot、Cursor 等工具。它更像一个研究资料库，用来观察不同产品的角色设定、安全边界、工具调用规则和提示词演化，而不是生产环境组件。",
       "purpose_zh": "项目作用是整理各类 AI 产品的系统提示词资料，帮助研究者理解模型产品的行为约束和安全策略。",
-      "application_scenarios_zh": [
-        "研究不同 AI 产品的安全拒答和工具调用规则。",
-        "为内部 Agent 设计系统提示词提供参考。",
-        "跟踪模型产品提示词版本变化。"
-      ],
       "positioning_zh": "面向提示词研究、AI 安全观察和产品分析的资料库。",
       "product_view_zh": "从产品角度看，它适合做竞品分析、提示词工程学习和 AI 产品设计参考。读者可以比较不同厂商如何定义工具、权限、安全拒答和用户体验，但不应简单复制系统提示词当成万能模板。",
       "technical_view_zh": "技术上主要是资料整理和目录维护，价值来自更新频率、来源标注和 diff 对比。使用时要注意材料真实性、时效性和上下文缺失，不要把泄露内容当作官方完整规范。",
@@ -176,12 +98,16 @@
         "系统提示词",
         "AI 安全",
         "Prompt Engineering",
-        "产品研究",
-        "AI 工具"
+        "产品研究"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "研究不同 AI 产品的安全拒答和工具调用规则。",
+        "为内部 Agent 设计系统提示词提供参考。",
+        "跟踪模型产品提示词版本变化。"
+      ],
       "adoption_notes_zh": [
         "优先把它当研究资料，不要当官方文档。",
         "检查每条材料的来源、日期和上下文完整性。",
@@ -189,43 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "ogulcancelik/herdr",
-      "repo_id": 1193909050,
-      "url": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "topics": [
-        "agent",
-        "agent-orchestration",
-        "ai",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "coding-agents",
-        "developer-tools",
-        "devtools",
-        "multiplexer",
-        "rust",
-        "terminal",
-        "terminal-multiplexer",
-        "terminal-ui",
-        "tmux",
-        "tui",
-        "workspace-manager"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 14472,
-      "readme_url": "https://github.com/ogulcancelik/herdr/blob/master/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "herdr 是运行在终端里的 Agent multiplexer，用来同时观察和管理多个编码 Agent 会话。它强调真实终端视图、任务状态、detach/reattach 和远程连接能力，适合已经把 Claude Code、Codex 等工具用于并行开发的人。",
       "purpose_zh": "项目作用是把多个 AI Agent 会话集中到一个终端工作台中，方便观察阻塞、运行、完成和重连状态。",
-      "application_scenarios_zh": [
-        "并行跑多个代码修改、测试和审查任务。",
-        "通过 SSH 重连长期运行的 Agent 会话。",
-        "为团队搭建 AI 编程任务观察台。"
-      ],
       "positioning_zh": "面向多 Agent 开发的终端会话编排工具。",
       "product_view_zh": "产品价值在于解决多 Agent 并行时的管理混乱：哪个任务卡住了、哪个完成了、哪个还在跑。对重度 AI 编程用户来说，它类似 tmux 与 Agent 状态面板的结合，可以提高后台任务的可控性。",
       "technical_view_zh": "技术上使用 Rust 和 TUI 形态，重点在终端会话管理、持久连接和状态展示。接入前要确认它与现有 shell、SSH、工作区权限和不同 Agent CLI 的兼容性。",
@@ -243,12 +136,16 @@
         "多 Agent",
         "终端工具",
         "TUI",
-        "会话管理",
-        "AI 工具"
+        "会话管理"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "并行跑多个代码修改、测试和审查任务。",
+        "通过 SSH 重连长期运行的 Agent 会话。",
+        "为团队搭建 AI 编程任务观察台。"
+      ],
       "adoption_notes_zh": [
         "先在个人开发环境试用，确认不会干扰现有终端习惯。",
         "为不同 Agent 会话设定清晰目录和权限边界。",
@@ -256,35 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "VoltAgent/awesome-design-md",
-      "repo_id": 1197515131,
-      "url": "https://github.com/VoltAgent/awesome-design-md",
-      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-      "language": null,
-      "topics": [
-        "awesome-list",
-        "design-md",
-        "design-system",
-        "design-tokens",
-        "figma",
-        "google-stitch",
-        "landing-page",
-        "vibe-coding",
-        "vibe-design",
-        "vibecoding"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 98708,
-      "readme_url": "https://github.com/VoltAgent/awesome-design-md/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "awesome-design-md 收集热门品牌和网站的 DESIGN.md 分析文件，让 AI 编程代理读取后生成更接近目标设计语言的页面。它的核心不是组件库，而是把视觉规则、设计 token、布局模式和风格判断写成 LLM 友好的 Markdown。",
       "purpose_zh": "项目作用是为 AI 前端生成提供可复制的设计系统文本，让 Agent 生成更统一、更像样的 UI。",
-      "application_scenarios_zh": [
-        "给新产品原型快速套用成熟设计语言。",
-        "让编码 Agent 按指定品牌风格生成页面。",
-        "沉淀团队自己的 DESIGN.md 作为前端生成规范。"
-      ],
       "positioning_zh": "面向 AI 前端生成的 DESIGN.md 设计系统资料集。",
       "product_view_zh": "从产品角度看，它解决的是 vibe coding 常见问题：功能能跑，但视觉不像一个真实产品。开发者可以把某个 DESIGN.md 放进项目，让 Agent 按品牌风格生成页面，适合落地页、控制台和产品原型。",
       "technical_view_zh": "技术上以 Markdown 资料库为主，依赖 Agent 对设计语言的理解能力。效果取决于 DESIGN.md 的分析质量、模型审美能力、组件实现约束和项目原有设计系统的一致性。",
@@ -302,12 +174,16 @@
         "DESIGN.md",
         "AI 前端",
         "设计系统",
-        "Vibe Coding",
-        "AI 工具"
+        "Vibe Coding"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "给新产品原型快速套用成熟设计语言。",
+        "让编码 Agent 按指定品牌风格生成页面。",
+        "沉淀团队自己的 DESIGN.md 作为前端生成规范。"
+      ],
       "adoption_notes_zh": [
         "先选一个接近目标产品的 DESIGN.md，不要盲目混用多个风格。",
         "生成后检查响应式、可访问性和组件一致性。",
@@ -315,45 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "Zackriya-Solutions/meetily",
-      "repo_id": 908589694,
-      "url": "https://github.com/Zackriya-Solutions/meetily",
-      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted,  Open-source Ai meeting note taker for macOS & Windows.  ",
-      "language": "Rust",
-      "topics": [
-        "ai",
-        "ai-meeting-assistant",
-        "llm",
-        "local-ai",
-        "mac",
-        "meeting-minutes",
-        "meeting-notes",
-        "offline-first",
-        "ollama",
-        "parakeet",
-        "privacy-focused",
-        "privacy-tools",
-        "rust",
-        "self-hosted",
-        "sortformer",
-        "speech-to-text",
-        "transcription",
-        "whisper",
-        "whisper-cpp",
-        "windows"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 21750,
-      "readme_url": "https://github.com/Zackriya-Solutions/meetily/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "Meetily 是隐私优先的本地 AI 会议助手，支持实时转写、说话人分离、Whisper/Parakeet 识别和 Ollama 本地总结。它主打 macOS 与 Windows，不依赖云端处理，适合对会议内容安全、离线可控和本地模型有要求的团队。",
       "purpose_zh": "项目作用是在本地完成会议录音、语音转写、说话人识别和会议纪要生成，减少敏感会议数据上云。",
-      "application_scenarios_zh": [
-        "客户访谈和需求会议自动生成纪要。",
-        "研发评审、复盘会议的本地记录归档。",
-        "无法上云的敏感会议转写与总结。"
-      ],
       "positioning_zh": "面向隐私敏感团队的本地 AI 会议记录工具。",
       "product_view_zh": "产品价值很明确：替代云端会议纪要工具，同时保留 AI 总结能力。它适合客户访谈、研发评审、咨询会议、律师会议等需要留痕但不能轻易上云的场景，也适合个人建立本地会议资料库。",
       "technical_view_zh": "技术上使用 Rust 桌面端，结合本地语音识别、说话人分离和 Ollama 总结。评估重点是中文识别质量、实时性能、模型体积、音频权限、跨平台安装和长会议稳定性。",
@@ -371,12 +212,16 @@
         "会议助手",
         "本地 AI",
         "语音转写",
-        "隐私优先",
-        "AI 工具"
+        "隐私优先"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "客户访谈和需求会议自动生成纪要。",
+        "研发评审、复盘会议的本地记录归档。",
+        "无法上云的敏感会议转写与总结。"
+      ],
       "adoption_notes_zh": [
         "先用真实会议音频测试中文、英文和多人场景识别质量。",
         "确认本地模型占用、显存和 CPU 负载是否可接受。",
@@ -384,35 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 78259,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Ponytail 是面向 AI 编程代理的行为约束技能，主张像“懒但靠谱的资深工程师”一样少写代码、少做无关改动、优先选择最小可行修复。它的意义在于给 Agent 加工程纪律，而不是继续刺激它多生成。",
       "purpose_zh": "项目作用是让 Claude Code、Cursor 等编码 Agent 遵守 YAGNI、最小改动和可审查输出原则。",
-      "application_scenarios_zh": [
-        "约束 Claude Code 执行小范围 bugfix。",
-        "减少 AI 生成的无关重构和风格改动。",
-        "作为团队 AGENTS 规则的参考模板。"
-      ],
       "positioning_zh": "面向 AI 编程的 Agent 行为约束与工程治理技能。",
       "product_view_zh": "从产品角度看，它解决了 AI 编程里很常见的痛点：Agent 容易过度设计、顺手重构、扩大修改范围。团队可以把它作为默认规则，降低审查负担，让 AI 更像一个谨慎的工程协作者。",
       "technical_view_zh": "技术上以 JavaScript/NPM 和多 Agent 规则适配为主，接入成本较低。真正要验证的是在本团队代码库里是否减少无关 diff、是否降低 token 消耗，以及是否会让复杂任务解释不足。",
@@ -430,12 +250,16 @@
         "AI 编程",
         "Agent Skills",
         "最小改动",
-        "工程治理",
-        "AI 工具"
+        "工程治理"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "约束 Claude Code 执行小范围 bugfix。",
+        "减少 AI 生成的无关重构和风格改动。",
+        "作为团队 AGENTS 规则的参考模板。"
+      ],
       "adoption_notes_zh": [
         "先在低风险仓库对比启用前后的 diff 规模。",
         "复杂任务仍要补充设计意图，避免 Agent 过度保守。",
@@ -443,31 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "addyosmani/agent-skills",
-      "repo_id": 1158722119,
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "cursor",
-        "skills"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 74635,
-      "readme_url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "agent-skills 是 Addy Osmani 整理的一套生产级 AI 编程技能，覆盖 spec、plan、build、test、review、ship 等开发生命周期。它把资深工程师常用的质量门槛、工作流和最佳实践打包给编码 Agent 使用。",
       "purpose_zh": "项目作用是让 AI 编码代理在需求定义、计划、构建、测试、审查和发布阶段遵循稳定工程流程。",
-      "application_scenarios_zh": [
-        "用 `/spec` 和 `/plan` 约束需求拆解。",
-        "让 Agent 按阶段实现、测试、审查和发布。",
-        "沉淀团队自己的 AI 编程质量门禁。"
-      ],
       "positioning_zh": "面向生产级 AI 编程的工程技能包和命令工作流。",
       "product_view_zh": "从产品角度看，它适合团队把 AI 编程从随意对话升级成可执行流程。每个 slash command 对应开发阶段，能帮助独立开发者和团队减少遗漏需求、缺测试、无审查就上线的问题。",
       "technical_view_zh": "技术上主要是规则、命令和技能文档集合，接入取决于 Claude Code、Codex、Cursor 等工具对 skills 的支持。评估重点是与现有工程规范是否冲突，以及自动执行阶段的审批边界。",
@@ -485,12 +288,16 @@
         "Agent Skills",
         "工程流程",
         "代码审查",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "用 `/spec` 和 `/plan` 约束需求拆解。",
+        "让 Agent 按阶段实现、测试、审查和发布。",
+        "沉淀团队自己的 AI 编程质量门禁。"
+      ],
       "adoption_notes_zh": [
         "先挑一个小项目试用完整生命周期流程。",
         "保留关键节点人工审批，尤其是 build auto 和 ship。",
@@ -498,38 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "chuspeeism/dashiAI-ppt-skill",
-      "repo_id": 1264811161,
-      "url": "https://github.com/chuspeeism/dashiAI-ppt-skill",
-      "description": "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skill",
-        "ai-agent",
-        "ai-ppt",
-        "claude",
-        "claude-code",
-        "html-presentation",
-        "ppt",
-        "pptx",
-        "presentation",
-        "presentation-generator",
-        "skill",
-        "slide-generator",
-        "slides"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 1550,
-      "readme_url": "https://github.com/chuspeeism/dashiAI-ppt-skill/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "dashiAI-ppt-skill 是一个面向 AI Agent 的 PPT 生成技能，能把文档生成可离线打开、可浏览器编辑、可导出 PPTX 的演示文件。它强调多主题、丰富版式和生成后的可编辑性，目标是解决 AI 做 PPT 难以二次调整的问题。",
       "purpose_zh": "项目作用是让 AI Agent 根据文档生成网页 PPT，并支持在浏览器里修改后导出为可编辑 PPTX。",
-      "application_scenarios_zh": [
-        "把调研报告生成管理层汇报 PPT。",
-        "用多主题模板快速制作课程或产品介绍。",
-        "在浏览器中微调版式后导出 PPTX 继续编辑。"
-      ],
       "positioning_zh": "面向职场汇报的 AI PPT 生成与编辑技能。",
       "product_view_zh": "从产品角度看，它抓住了职场 PPT 的核心需求：生成只是第一步，后续能不能改才重要。多主题和大量版式适合周报、方案、调研、商业分析等场景，也适合内容团队快速出视觉草稿。",
       "technical_view_zh": "技术上以 JavaScript/HTML 演示为核心，再导出 PDF 或 PPTX。评估时要重点看中文排版、图表可编辑性、导出兼容性、浏览器编辑状态保存，以及生成大文档时的性能。",
@@ -547,12 +326,16 @@
         "AI PPT",
         "演示生成",
         "可编辑",
-        "职场效率",
-        "AI 工具"
+        "职场效率"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "把调研报告生成管理层汇报 PPT。",
+        "用多主题模板快速制作课程或产品介绍。",
+        "在浏览器中微调版式后导出 PPTX 继续编辑。"
+      ],
       "adoption_notes_zh": [
         "先测试导出的 PPTX 在 PowerPoint 和 Keynote 中的兼容性。",
         "用公司真实模板校验字体、图表和页眉页脚。",
@@ -560,45 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "diegosouzapw/OmniRoute",
-      "repo_id": 1157102282,
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
-      "language": "TypeScript",
-      "topics": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cline",
-        "codex",
-        "copilot",
-        "cursor",
-        "deepseek",
-        "free-ai",
-        "gemini",
-        "gemini-cli",
-        "llm-gateway",
-        "mcp",
-        "openai",
-        "openai-proxy",
-        "qwen",
-        "token-saver"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 13885,
-      "readme_url": "https://github.com/diegosouzapw/OmniRoute/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "OmniRoute 是一个面向开发者和 AI Agent 的 LLM 网关，主打一个端点连接多家模型提供商、自动 fallback、免费额度聚合和 token 压缩。它的价值在于把 Claude Code、Codex、Cursor、Cline 等工具接到更灵活的模型路由层。",
       "purpose_zh": "项目作用是通过统一 API 网关管理多个 LLM 提供商，提升可用性、降低成本，并为 Agent 工具提供模型路由。",
-      "application_scenarios_zh": [
-        "统一管理多个模型供应商和免费额度。",
-        "为编码 Agent 设置自动 fallback，减少任务中断。",
-        "在内部团队中集中审计模型调用和成本。"
-      ],
       "positioning_zh": "面向 AI 编程和多模型调用的 LLM 网关与路由层。",
       "product_view_zh": "从产品角度看，它解决的是模型额度、价格、限流和可用性问题。对高频使用 AI 编程工具的人来说，统一路由、自动 fallback 和压缩能减少中断；对团队来说，它也可以成为模型接入治理入口。",
       "technical_view_zh": "技术上以 TypeScript 实现网关、提供商适配、MCP/A2A 和 token 压缩能力。评估时要重点看密钥安全、日志隐私、供应商稳定性、压缩对代码任务准确性的影响，以及免费额度统计是否符合实际。",
@@ -616,12 +364,16 @@
         "LLM 网关",
         "模型路由",
         "Token 压缩",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "统一管理多个模型供应商和免费额度。",
+        "为编码 Agent 设置自动 fallback，减少任务中断。",
+        "在内部团队中集中审计模型调用和成本。"
+      ],
       "adoption_notes_zh": [
         "先在非敏感任务里测试不同模型路由的稳定性。",
         "妥善管理 API 密钥、调用日志和代理服务器权限。",
