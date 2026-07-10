@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | OfficeCLI 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 13,103 | C# | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 17,865 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 3 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | claude-video 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 7 | 6,505 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 78,905 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 162,617 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 75,595 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 7 | [generative-computing/mellea](https://github.com/generative-computing/mellea) | mellea 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 1,712 | Python | `智能体` `自动化` `工具调用` `RAG` `大模型` | ★★☆☆☆ | 中 |
-| 8 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 61,125 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 250,635 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 10 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | RuView 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 5 | 79,568 | Rust | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★★★☆ | 高 |
+| 1 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 让 Agent 真的读写 Word、Excel、PPT，并能看见渲染结果。 | 8 | 13,103 | C# | `Office Agent` `文档自动化` `PPTX` `Excel` `AI 工具` | ★★★★★ | 中 |
+| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 让 Claude Code 帮你评估岗位、改简历、写求职信和准备面试。 | 8 | 17,865 | TypeScript | `AI 求职` `Claude Code` `简历优化` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
+| 3 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 给 Claude 一个 `/watch`，让它真正看视频、听音频再回答。 | 7 | 6,505 | Python | `视频理解` `Claude Code` `多模态` `内容分析` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让编码 Agent 少写没必要的代码，像资深工程师一样克制。 | 7 | 78,905 | JavaScript | `AI 编程` `Agent Skills` `最小改动` `工程治理` `AI 工具` | ★★★★★ | 低 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师每天用的 AI 编程方法，拆成可安装技能。 | 6 | 162,617 | Shell | `Agent Skills` `工程经验` `AI 编程` `Claude` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 5 | 75,595 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 7 | [generative-computing/mellea](https://github.com/generative-computing/mellea) | 把不稳定的 LLM 调用变成可测试、可验证的生成式程序。 | 5 | 1,712 | Python | `生成式程序` `LLM 工程` `结构化输出` `可靠性` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 给 AI 前端生成加审美约束，少一点模板味，多一点产品感。 | 5 | 61,125 | JavaScript | `AI 前端` `Agent Skills` `设计审美` `Vibe Coding` `AI 工具` | ★★★★☆ | 低 |
+| 9 | [obra/superpowers](https://github.com/obra/superpowers) | 让编码 Agent 先问清楚、写规格、定计划，再进入实现。 | 5 | 250,635 | Shell | `软件方法论` `Agent Skills` `TDD` `子 Agent` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | 不用摄像头，尝试用 WiFi 信号感知房间里的人和状态。 | 5 | 79,568 | Rust | `WiFi 感知` `智能家居` `空间智能` `IoT` `AI 工具` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 

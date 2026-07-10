@@ -1,47 +1,10 @@
 {
-  "date": "2026-07-09",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-10T02:34:35.514061Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "iOfficeAI/OfficeCLI",
-      "repo_id": 1182212878,
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "language": "C#",
-      "topics": [
-        "agent",
-        "ai",
-        "claude-code",
-        "cli",
-        "codex",
-        "docx",
-        "excel",
-        "office",
-        "openclaw",
-        "pptx",
-        "presentation",
-        "skills",
-        "word",
-        "xlsx"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 13103,
-      "readme_url": "https://github.com/iOfficeAI/OfficeCLI/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "OfficeCLI 是为 AI Agent 准备的 Office 文档命令行工具，让 Agent 能读取、编辑和自动化 Word、Excel、PowerPoint 文件。它的关键价值是把文档渲染成 HTML 或 PNG，让 AI 能看见版式并修正结果，补齐办公自动化里最难的视觉闭环。",
       "purpose_zh": "项目作用是给 AI Agent 提供跨 Word、Excel、PowerPoint 的读取、渲染、编辑和自动化能力。",
-      "application_scenarios_zh": [
-        "批量生成并修订客户报告和演示文稿。",
-        "让 Agent 读取 Excel 数据后输出图表和摘要。",
-        "在 CI 或内部工具里自动检查 Office 文档格式。"
-      ],
       "positioning_zh": "面向 AI Agent 的 Office 文档自动化基础工具。",
       "product_view_zh": "产品价值在于把办公文档从人手操作变成可脚本化、可审查、可由 Agent 操作的对象。它适合报告生成、PPT 自动化、Excel 批处理和合同文档检查，也适合企业把文档处理接入内部 Agent。",
       "technical_view_zh": "技术上以 C# 单二进制分发，强调无 Office 安装依赖和高保真 HTML 渲染。评估时要重点看复杂版式、中文字体、嵌入图片、表格公式和 PPTX 导出后的兼容性。",
@@ -59,12 +22,16 @@
         "Office Agent",
         "文档自动化",
         "PPTX",
-        "Excel",
-        "AI 工具"
+        "Excel"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "批量生成并修订客户报告和演示文稿。",
+        "让 Agent 读取 Excel 数据后输出图表和摘要。",
+        "在 CI 或内部工具里自动检查 Office 文档格式。"
+      ],
       "adoption_notes_zh": [
         "先用公司真实模板测试中文字体和版式还原。",
         "把渲染截图纳入人工复核，避免文档看似生成但格式错误。",
@@ -72,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "MadsLorentzen/ai-job-search",
-      "repo_id": 1185389803,
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 8,
-      "total_stars": 17865,
-      "readme_url": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "ai-job-search 是基于 Claude Code 的求职申请工作流框架。用户填入个人资料后，它会帮助评估岗位匹配度、定制简历、撰写求职信并准备面试材料。它不是替代求职判断，而是把重复、耗时、格式化的申请流程拆成可执行步骤。",
       "purpose_zh": "项目作用是把岗位搜索、匹配评估、简历改写、求职信生成和面试准备串成一套 AI 辅助求职流程。",
-      "application_scenarios_zh": [
-        "每天批量筛选岗位并生成匹配评分。",
-        "根据不同 JD 改写简历要点和求职信。",
-        "把面试准备材料按公司和岗位归档。"
-      ],
       "positioning_zh": "面向求职者的 Claude Code 驱动求职申请自动化框架。",
       "product_view_zh": "从产品角度看，它击中了求职中最耗时的环节：每个岗位都要重新判断匹配度、调整简历要点和写求职信。它适合主动投递量大、岗位来源分散、希望保持申请材料一致性的求职者。",
       "technical_view_zh": "技术上以 TypeScript 项目组织流程，核心依赖 Claude Code 执行 setup、scrape、apply 等命令。丹麦招聘网站适配较明显，迁移到其他地区时需要替换抓取来源和本地化表达。",
@@ -107,12 +60,16 @@
         "AI 求职",
         "Claude Code",
         "简历优化",
-        "工作流自动化",
-        "AI 工具"
+        "工作流自动化"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "每天批量筛选岗位并生成匹配评分。",
+        "根据不同 JD 改写简历要点和求职信。",
+        "把面试准备材料按公司和岗位归档。"
+      ],
       "adoption_notes_zh": [
         "先替换成本地招聘网站和目标行业的抓取来源。",
         "保留人工审核环节，避免虚构经历或过度包装。",
@@ -120,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "bradautomates/claude-video",
-      "repo_id": 1219644159,
-      "url": "https://github.com/bradautomates/claude-video",
-      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 6505,
-      "readme_url": "https://github.com/bradautomates/claude-video/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "claude-video 给 Claude 增加 `/watch` 能力：输入公开视频链接或本地视频路径后，它会优先抓取字幕，必要时下载视频、抽取关键帧、转录音频，再把画面和文本交给 Claude 分析。它解决的是模型看不见视频内容的问题。",
       "purpose_zh": "项目作用是让 Claude Code 等 Agent 能读取视频画面和音频信息，用于内容分析、复盘和问答。",
-      "application_scenarios_zh": [
-        "分析竞品视频的结构、卖点和画面节奏。",
-        "从课程视频中提取重点和时间戳。",
-        "让 Agent 基于本地视频回答细节问题。"
-      ],
       "positioning_zh": "面向 Claude 和多 Agent 宿主的视频理解技能。",
       "product_view_zh": "产品价值很直接：把视频从黑盒素材变成 Agent 可分析的输入。它适合拆解教程、复盘竞品视频、分析课程内容和提取短视频脚本，但对版权视频和私密视频要有明确边界。",
       "technical_view_zh": "技术上依赖 yt-dlp、ffmpeg、字幕优先策略和 Whisper 兜底转录，再把关键帧作为图像输入给模型。评估重点是安装依赖、抽帧成本、长视频处理速度、字幕质量和 API 费用。",
@@ -155,12 +98,16 @@
         "视频理解",
         "Claude Code",
         "多模态",
-        "内容分析",
-        "AI 工具"
+        "内容分析"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "分析竞品视频的结构、卖点和画面节奏。",
+        "从课程视频中提取重点和时间戳。",
+        "让 Agent 基于本地视频回答细节问题。"
+      ],
       "adoption_notes_zh": [
         "先确认 yt-dlp、ffmpeg 和系统权限是否可用。",
         "长视频建议限制抽帧密度，避免处理时间和费用失控。",
@@ -168,35 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 78905,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Ponytail 是面向 AI 编程代理的行为约束技能，主张像“懒但靠谱的资深工程师”一样少写代码、少做无关改动、优先选择最小可行修复。它的意义在于给 Agent 加工程纪律，而不是继续刺激它多生成。",
       "purpose_zh": "项目作用是让 Claude Code、Cursor 等编码 Agent 遵守 YAGNI、最小改动和可审查输出原则。",
-      "application_scenarios_zh": [
-        "约束 Claude Code 执行小范围 bugfix。",
-        "减少 AI 生成的无关重构和风格改动。",
-        "作为团队 AGENTS 规则的参考模板。"
-      ],
       "positioning_zh": "面向 AI 编程的 Agent 行为约束与工程治理技能。",
       "product_view_zh": "从产品角度看，它解决了 AI 编程里很常见的痛点：Agent 容易过度设计、顺手重构、扩大修改范围。团队可以把它作为默认规则，降低审查负担，让 AI 更像谨慎的工程协作者。",
       "technical_view_zh": "技术上以 JavaScript/NPM 和多 Agent 规则适配为主，接入成本较低。真正要验证的是在本团队代码库里是否减少无关 diff、是否降低 token 消耗，以及是否会让复杂任务解释不足。",
@@ -214,12 +136,16 @@
         "AI 编程",
         "Agent Skills",
         "最小改动",
-        "工程治理",
-        "AI 工具"
+        "工程治理"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "约束 Claude Code 执行小范围 bugfix。",
+        "减少 AI 生成的无关重构和风格改动。",
+        "作为团队 AGENTS 规则的参考模板。"
+      ],
       "adoption_notes_zh": [
         "先在低风险仓库对比启用前后的 diff 规模。",
         "复杂任务仍要补充设计意图，避免 Agent 过度保守。",
@@ -227,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 162617,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "mattpocock/skills 是一组来自真实工程实践的 Agent Skills，作者强调它不是 vibe coding，而是把日常工程中的小流程、小约束和可组合经验沉淀下来。它适合希望保留控制权、又想让 AI 更稳定执行工程任务的开发者。",
       "purpose_zh": "项目作用是把真实工程师的开发习惯、上下文处理和任务执行方法整理成可安装、可改造的 Agent 技能。",
-      "application_scenarios_zh": [
-        "把常用工程检查步骤封装成 Agent 技能。",
-        "为团队 Claude Code 环境安装统一技能。",
-        "参考作者技能改写成本地开发规范。"
-      ],
       "positioning_zh": "面向真实工程开发的可组合 Agent 技能集合。",
       "product_view_zh": "从产品角度看，它解决的是大型流程框架过重、黑盒化的问题。团队可以选择少量技能装进自己的 Claude 或其他 Agent 环境，让 AI 更贴近本团队习惯，而不是被迫采用整套外部流程。",
       "technical_view_zh": "技术上以 Shell、技能文档和 skills.sh 安装机制为主，强调小而可改。评估重点是技能内容是否适合现有工具、是否会和仓库 AGENTS 规则冲突，以及安装后是否容易维护。",
@@ -262,12 +174,16 @@
         "Agent Skills",
         "工程经验",
         "AI 编程",
-        "Claude",
-        "AI 工具"
+        "Claude"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "把常用工程检查步骤封装成 Agent 技能。",
+        "为团队 Claude Code 环境安装统一技能。",
+        "参考作者技能改写成本地开发规范。"
+      ],
       "adoption_notes_zh": [
         "先读清楚每个技能的适用边界，不要一次性全装。",
         "和本仓库 AGENTS 规则合并，避免指令互相冲突。",
@@ -275,31 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "addyosmani/agent-skills",
-      "repo_id": 1158722119,
-      "url": "https://github.com/addyosmani/agent-skills",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "cursor",
-        "skills"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 75595,
-      "readme_url": "https://github.com/addyosmani/agent-skills/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "agent-skills 是 Addy Osmani 整理的一套生产级 AI 编程技能，覆盖 spec、plan、build、test、review、ship 等开发生命周期。它把资深工程师常用的质量门槛、工作流和最佳实践打包给编码 Agent 使用。",
       "purpose_zh": "项目作用是让 AI 编码代理在需求定义、计划、构建、测试、审查和发布阶段遵循稳定工程流程。",
-      "application_scenarios_zh": [
-        "用 `/spec` 和 `/plan` 约束需求拆解。",
-        "让 Agent 按阶段实现、测试、审查和发布。",
-        "沉淀团队自己的 AI 编程质量门禁。"
-      ],
       "positioning_zh": "面向生产级 AI 编程的工程技能包和命令工作流。",
       "product_view_zh": "从产品角度看，它适合团队把 AI 编程从随意对话升级成可执行流程。每个 slash command 对应开发阶段，能帮助独立开发者和团队减少遗漏需求、缺测试、无审查就上线的问题。",
       "technical_view_zh": "技术上主要是规则、命令和技能文档集合，接入取决于 Claude Code、Codex、Cursor 等工具对 skills 的支持。评估重点是与现有工程规范是否冲突，以及自动执行阶段的审批边界。",
@@ -317,12 +212,16 @@
         "Agent Skills",
         "工程流程",
         "代码审查",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "用 `/spec` 和 `/plan` 约束需求拆解。",
+        "让 Agent 按阶段实现、测试、审查和发布。",
+        "沉淀团队自己的 AI 编程质量门禁。"
+      ],
       "adoption_notes_zh": [
         "先挑一个小项目试用完整生命周期流程。",
         "保留关键节点人工审批，尤其是 build auto 和 ship。",
@@ -330,29 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "generative-computing/mellea",
-      "repo_id": 1029765858,
-      "url": "https://github.com/generative-computing/mellea",
-      "description": "Mellea is a library for writing generative programs. ",
-      "language": "Python",
-      "topics": [
-        "agents",
-        "generative-ai",
-        "generative-computing",
-        "llms"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 1712,
-      "readme_url": "https://github.com/generative-computing/mellea/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Mellea 是用于编写 generative programs 的 Python 库，目标是把脆弱的提示词和不稳定的 Agent 调用变成结构化、可测试、可验证的 AI 工作流。它强调类型化输出、需求验证和自动重试，适合对可靠性要求更高的 LLM 管线。",
       "purpose_zh": "项目作用是帮助开发者把 LLM 调用包装成可测试、可验证、可自动修正的生成式程序。",
-      "application_scenarios_zh": [
-        "把文档生成流程改造成可验证管线。",
-        "为 LLM 输出增加类型检查和自动重试。",
-        "构建需要稳定 JSON 或结构化结果的 AI 服务。"
-      ],
       "positioning_zh": "面向可靠 LLM 应用开发的生成式程序库。",
       "product_view_zh": "从产品角度看，它适合把 AI 能力嵌入业务流程的团队，而不只是做聊天 Demo。结构化输出和验证机制能减少静默失败，让客服、数据处理、文档生成等任务更接近工程化交付。",
       "technical_view_zh": "技术上以 Python 库形式提供类型标注、输出约束、需求检查和重试机制。评估重点是与现有 LLM SDK、测试框架、日志系统和异常处理策略的整合成本。",
@@ -370,12 +250,16 @@
         "生成式程序",
         "LLM 工程",
         "结构化输出",
-        "可靠性",
-        "AI 工具"
+        "可靠性"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "把文档生成流程改造成可验证管线。",
+        "为 LLM 输出增加类型检查和自动重试。",
+        "构建需要稳定 JSON 或结构化结果的 AI 服务。"
+      ],
       "adoption_notes_zh": [
         "先选一个输出结构明确的流程试点。",
         "把验证失败日志纳入监控，避免静默降级。",
@@ -383,38 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "Leonxlnx/taste-skill",
-      "repo_id": 1162099055,
-      "url": "https://github.com/Leonxlnx/taste-skill",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
-      "language": "JavaScript",
-      "topics": [
-        "agent",
-        "ai",
-        "claude",
-        "claude-code",
-        "codex",
-        "coding",
-        "design",
-        "frontend",
-        "lowcode",
-        "nocode",
-        "skill",
-        "skills",
-        "vibecoding"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 61125,
-      "readme_url": "https://github.com/Leonxlnx/taste-skill/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Taste-Skill 是一组面向 AI 前端生成的 Agent Skills，目标是减少 AI 做出来的页面“模板味、廉价感和无设计判断”。它把布局、字体、间距、动效、视觉参考板等审美规则写成可被 Agent 调用的技能，适合 vibe coding 后补足质感。",
       "purpose_zh": "项目作用是给 AI 编码代理提供前端审美和界面质量规则，让生成页面更像真实产品而不是通用模板。",
-      "application_scenarios_zh": [
-        "优化 AI 生成的落地页和产品首页。",
-        "为编码 Agent 准备视觉参考板和界面规则。",
-        "在原型阶段快速提升页面质感。"
-      ],
       "positioning_zh": "面向 AI 前端生成的反模板化设计技能包。",
       "product_view_zh": "产品价值在于解决 AI 前端常见问题：功能能跑，但页面很像默认 PPT 或组件库堆叠。它适合独立开发者、低代码用户和设计资源不足的小团队，用来提升落地页、控制台和产品原型的第一眼质量。",
       "technical_view_zh": "技术上以 JavaScript 技能包和提示规则为主，依赖 Claude Code、Codex 等 Agent 对技能内容的执行能力。真正效果取决于项目原有组件库、模型审美能力、参考图质量和人工验收标准。",
@@ -432,12 +288,16 @@
         "AI 前端",
         "Agent Skills",
         "设计审美",
-        "Vibe Coding",
-        "AI 工具"
+        "Vibe Coding"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "优化 AI 生成的落地页和产品首页。",
+        "为编码 Agent 准备视觉参考板和界面规则。",
+        "在原型阶段快速提升页面质感。"
+      ],
       "adoption_notes_zh": [
         "先在一个页面上对比启用前后的视觉质量。",
         "结合现有设计系统使用，避免风格混乱。",
@@ -445,33 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "obra/superpowers",
-      "repo_id": 1073224795,
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "topics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 250635,
-      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "Superpowers 是一套给编码 Agent 使用的软件开发方法论和技能框架，强调先澄清目标、形成规格、制定计划，再通过子 Agent 执行并审查。它把 TDD、YAGNI、DRY 和分阶段验收写进 Agent 工作流，目标是降低盲目开工的风险。",
       "purpose_zh": "项目作用是为编码 Agent 提供从需求澄清到实现、测试、审查的完整软件开发方法。",
-      "application_scenarios_zh": [
-        "让 Agent 先产出规格再进入实现。",
-        "把大型功能拆给多个子 Agent 并行处理。",
-        "在 AI 开发流程中加入 TDD 和审查门槛。"
-      ],
       "positioning_zh": "面向编码 Agent 的软件开发方法论和技能框架。",
       "product_view_zh": "从产品角度看，它适合希望 Agent 更像工程团队而不是代码生成器的用户。它通过规格确认、计划拆分和子 Agent 执行，让复杂项目更可控，也减少用户反复返工。",
       "technical_view_zh": "技术上以 Shell、技能文件和多平台安装说明为主，支持 Claude Code、Codex、Cursor 等环境。评估重点是流程是否过重、审批点是否清晰，以及与本地 AGENTS 规则是否冲突。",
@@ -489,12 +326,16 @@
         "软件方法论",
         "Agent Skills",
         "TDD",
-        "子 Agent",
-        "AI 工具"
+        "子 Agent"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "让 Agent 先产出规格再进入实现。",
+        "把大型功能拆给多个子 Agent 并行处理。",
+        "在 AI 开发流程中加入 TDD 和审查门槛。"
+      ],
       "adoption_notes_zh": [
         "先在中等复杂度功能上试用完整流程。",
         "明确哪些审批节点必须由人确认。",
@@ -502,45 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "ruvnet/RuView",
-      "repo_id": 997737944,
-      "url": "https://github.com/ruvnet/RuView",
-      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-      "language": "Rust",
-      "topics": [
-        "awesome",
-        "claude",
-        "densepose",
-        "esp32",
-        "firmware",
-        "home-assistant",
-        "home-automation",
-        "iot",
-        "monitoring",
-        "networking",
-        "npm",
-        "pose-estimation",
-        "react",
-        "rf",
-        "self-learning",
-        "skills",
-        "spatial-intelligence",
-        "typescript",
-        "wifi",
-        "wifi-security"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 79568,
-      "readme_url": "https://github.com/ruvnet/RuView/blob/main/README.md",
       "ai_confidence": 0.84,
       "summary_zh": "RuView 试图把普通 WiFi 信号变成空间感知系统，用于存在检测、运动追踪、呼吸和心率等生命体征监测，并接入 Home Assistant、Apple Home、Google Home 等智能家居生态。它更偏物联网和空间智能，但包含 AI 感知与推理场景。",
       "purpose_zh": "项目作用是利用 WiFi/RF 信号进行无摄像头空间感知和生命体征监测，服务智能家居与环境监控。",
-      "application_scenarios_zh": [
-        "在 Home Assistant 中做房间存在检测。",
-        "探索无摄像头的老人看护和活动监测。",
-        "研究 WiFi/RF 信号在空间智能中的应用。"
-      ],
       "positioning_zh": "面向智能家居和空间感知的 WiFi sensing 工具。",
       "product_view_zh": "从产品角度看，它的吸引力在于“不用摄像头也能感知房间状态”。这对隐私敏感家庭、老人看护、安防和自动化场景有想象空间，但真实落地要看硬件稳定性和误报控制。",
       "technical_view_zh": "技术上涉及 Rust、ESP32、RF/WiFi 信号、智能家居协议和可能的姿态/生命体征估计。评估重点是硬件要求、环境干扰、校准难度、数据准确率和隐私合规。",
@@ -558,12 +364,16 @@
         "WiFi 感知",
         "智能家居",
         "空间智能",
-        "IoT",
-        "AI 工具"
+        "IoT"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "在 Home Assistant 中做房间存在检测。",
+        "探索无摄像头的老人看护和活动监测。",
+        "研究 WiFi/RF 信号在空间智能中的应用。"
+      ],
       "adoption_notes_zh": [
         "先在实验环境验证准确率，不要直接用于关键决策。",
         "明确硬件、固件和网络部署要求。",
