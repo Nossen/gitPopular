@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 2,257 | C | `RAG` `大模型` `AI 编程` `多模态` `模型推理` | ★★☆☆☆ | 高 |
-| 2 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 5 | 8,555 | 未知 | `智能体` `AI 编程` `多模态` `AI 设计` `高增长` | ★★★☆☆ | 低 |
-| 3 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 20,651 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 4 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | awesome-design-md 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 100,635 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 164,728 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 6 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | andrej-karpathy-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 190,625 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 低 |
-| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 54,505 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 15,987 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [vercel-labs/native](https://github.com/vercel-labs/native) | native 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 4 | 5,708 | Zig | `前端生成` `网站复刻` `AI 编程` `AI 设计` `智能体` | ★★★☆☆ | 高 |
-| 10 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 76,858 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 用纯 C 和磁盘流式专家，在消费级机器上跑 744B MoE。 | 7 | 2,257 | C | `本地推理` `MoE` `纯 C` `GLM` `AI 工具` | ★★★★☆ | 高 |
+| 2 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 让 AI 做 UI 时更懂动画、间距、阴影和设计取舍。 | 5 | 8,555 | 未知 | `UI 设计` `动效` `Agent Skills` `前端生成` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 让 Claude Code 帮你评估岗位、改简历、写求职信和准备面试。 | 5 | 20,651 | TypeScript | `AI 求职` `Claude Code` `简历优化` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 把设计系统写进 Markdown，让 Agent 生成更像真实产品的 UI。 | 5 | 100,635 | 未知 | `DESIGN.md` `AI 前端` `设计系统` `Vibe Coding` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师每天用的 AI 编程方法，拆成可安装技能。 | 4 | 164,728 | Shell | `Agent Skills` `工程经验` `AI 编程` `Claude` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 一份 CLAUDE.md，把 Karpathy 提到的 Agent 编程坑写成规则。 | 4 | 190,625 | 未知 | `CLAUDE.md` `Agent 规则` `AI 编程` `工程治理` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 Agent 装上互联网读取能力，GitHub、B站、小红书、YouTube 都能查。 | 4 | 54,505 | Python | `联网 Agent` `内容抓取` `MCP` `调研工具` `AI 工具` | ★★★★★ | 中 |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca) | 一个界面管住多个编码 Agent，每个任务独立 worktree 并行推进。 | 4 | 15,987 | TypeScript | `Agent 编排` `多 Agent` `Worktree` `开发环境` `AI 工具` | ★★★★★ | 中 |
+| 9 | [vercel-labs/native](https://github.com/vercel-labs/native) | 不是直接 AI 项目，但适合构建更轻的原生 AI 桌面工具。 | 4 | 5,708 | Zig | `桌面应用` `Zig` `原生 UI` `开发工具` `AI 工具` | ★★★☆☆ | 高 |
+| 10 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 3 | 76,858 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
 
 ## 数据与归档
 
