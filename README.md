@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-09 (Asia/Shanghai)
+## 最新榜单：2026-07-10 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | 让 Agent 真的读写 Word、Excel、PPT，并能看见渲染结果。 | 8 | 13,103 | C# | `Office Agent` `文档自动化` `PPTX` `Excel` `AI 工具` | ★★★★★ | 中 |
-| 2 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 让 Claude Code 帮你评估岗位、改简历、写求职信和准备面试。 | 8 | 17,865 | TypeScript | `AI 求职` `Claude Code` `简历优化` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
-| 3 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 给 Claude 一个 `/watch`，让它真正看视频、听音频再回答。 | 7 | 6,505 | Python | `视频理解` `Claude Code` `多模态` `内容分析` `AI 工具` | ★★★★☆ | 中 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让编码 Agent 少写没必要的代码，像资深工程师一样克制。 | 7 | 78,905 | JavaScript | `AI 编程` `Agent Skills` `最小改动` `工程治理` `AI 工具` | ★★★★★ | 低 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师每天用的 AI 编程方法，拆成可安装技能。 | 6 | 162,617 | Shell | `Agent Skills` `工程经验` `AI 编程` `Claude` `AI 工具` | ★★★★☆ | 低 |
-| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 5 | 75,595 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
-| 7 | [generative-computing/mellea](https://github.com/generative-computing/mellea) | 把不稳定的 LLM 调用变成可测试、可验证的生成式程序。 | 5 | 1,712 | Python | `生成式程序` `LLM 工程` `结构化输出` `可靠性` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 给 AI 前端生成加审美约束，少一点模板味，多一点产品感。 | 5 | 61,125 | JavaScript | `AI 前端` `Agent Skills` `设计审美` `Vibe Coding` `AI 工具` | ★★★★☆ | 低 |
-| 9 | [obra/superpowers](https://github.com/obra/superpowers) | 让编码 Agent 先问清楚、写规格、定计划，再进入实现。 | 5 | 250,635 | Shell | `软件方法论` `Agent Skills` `TDD` `子 Agent` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [ruvnet/RuView](https://github.com/ruvnet/RuView) | 不用摄像头，尝试用 WiFi 信号感知房间里的人和状态。 | 5 | 79,568 | Rust | `WiFi 感知` `智能家居` `空间智能` `IoT` `AI 工具` | ★★★☆☆ | 高 |
+| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 2,257 | C | `RAG` `大模型` `AI 编程` `多模态` `模型推理` | ★★☆☆☆ | 高 |
+| 2 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 5 | 8,555 | 未知 | `智能体` `AI 编程` `多模态` `AI 设计` `高增长` | ★★★☆☆ | 低 |
+| 3 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 20,651 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 4 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | awesome-design-md 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 100,635 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 164,728 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 6 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | andrej-karpathy-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 190,625 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 低 |
+| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 54,505 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 15,987 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 9 | [vercel-labs/native](https://github.com/vercel-labs/native) | native 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 4 | 5,708 | Zig | `前端生成` `网站复刻` `AI 编程` `AI 设计` `智能体` | ★★★☆☆ | 高 |
+| 10 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 76,858 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-09.json](data/2026-07-09.json)
-- Markdown 归档：[reports/2026-07-09.md](reports/2026-07-09.md)
+- JSON 数据：[data/2026-07-10.json](data/2026-07-10.json)
+- Markdown 归档：[reports/2026-07-10.md](reports/2026-07-10.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
