@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 4,115 | C | `模型推理` `大模型` `智能体` `AI 编程` `视觉 AI` | ★★★☆☆ | 高 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 252,492 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 165,819 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 4 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | DesktopCommanderMCP 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 7,790 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `MCP` | ★★★☆☆ | 高 |
-| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 77,357 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 6 | [chordswallowthrust/undress-design](https://github.com/chordswallowthrust/undress-design) | undress-design 围绕「AI-powered fashion visualization and virtual try-on toolkit for consent-based garment editing, outfit prototyping, and creative design workflows. https://undress.design/edit?utm_s…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 133 | 未知 | `AI 编程` `多模态` `视觉 AI` `NLP` `开发工具` | ★★☆☆☆ | 低 |
-| 7 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | build-your-own-x 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 3 | 524,335 | Markdown | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | destructive_command_guard 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 2,181 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 80,806 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [dnshe/DNSHE-FreeDomains](https://github.com/dnshe/DNSHE-FreeDomains) | DNSHE-FreeDomains 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 5,267 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 低 |
+| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 25GB 内存跑 744B MoE，大模型本地化被推到很极限。 | 7 | 4,115 | C | `本地推理` `MoE` `纯 C` `低内存` `AI 工具` | ★★★★★ | 高 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | 给编码 Agent 加一套工程纪律，先想清楚再写代码。 | 6 | 252,492 | Shell | `Agent Skills` `工程流程` `需求澄清` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 不是让 AI 接管流程，而是给工程师一盒可组合技能。 | 5 | 165,819 | Shell | `轻量 Skills` `工程经验` `TypeScript` `可组合` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 把 AI 助手接进你的终端和文件系统，能力很强也要控权限。 | 5 | 7,790 | TypeScript | `MCP` `本地自动化` `终端控制` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把 AI 编程从“写代码”推进到“按工程生命周期交付”。 | 3 | 77,357 | JavaScript | `Agent Skills` `研发流程` `质量门禁` `生产交付` `AI 工具` | ★★★★★ | 中 |
+| 6 | [chordswallowthrust/undress-design](https://github.com/chordswallowthrust/undress-design) | 虚拟试衣有真实价值，但这个项目首先要看合规边界。 | 3 | 133 | 未知 | `虚拟试衣` `图像编辑` `内容安全` `合规风险` `AI 工具` | ★★☆☆☆ | 高 |
+| 7 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 不是 AI 工具，但很适合补 AI 工程的底层基本功。 | 3 | 524,335 | Markdown | `学习资源` `从零实现` `计算机基础` `AI 原理` `AI 工具` | ★★★★☆ | 低 |
+| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | AI 会跑命令之后，第一件事就是防止它误删你的项目。 | 3 | 2,181 | Rust | `Agent 安全` `命令拦截` `Rust` `开发防护` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 少写点代码，可能比让它多写更有价值。 | 3 | 80,806 | JavaScript | `YAGNI` `Agent 规则` `极简工程` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [dnshe/DNSHE-FreeDomains](https://github.com/dnshe/DNSHE-FreeDomains) | 不是 AI 工具，但能给 AI Demo 一个低成本入口。 | 3 | 5,267 | 未知 | `免费域名` `DNS` `开发者基础设施` `低成本部署` `AI 工具` | ★★☆☆☆ | 低 |
 
 ## 数据与归档
 
