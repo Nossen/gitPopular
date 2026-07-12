@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-10 (Asia/Shanghai)
+## 最新榜单：2026-07-11 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 用纯 C 和磁盘流式专家，在消费级机器上跑 744B MoE。 | 7 | 2,257 | C | `本地推理` `MoE` `纯 C` `GLM` `AI 工具` | ★★★★☆ | 高 |
-| 2 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 让 AI 做 UI 时更懂动画、间距、阴影和设计取舍。 | 5 | 8,555 | 未知 | `UI 设计` `动效` `Agent Skills` `前端生成` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 让 Claude Code 帮你评估岗位、改简历、写求职信和准备面试。 | 5 | 20,651 | TypeScript | `AI 求职` `Claude Code` `简历优化` `工作流自动化` `AI 工具` | ★★★★☆ | 中 |
-| 4 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 把设计系统写进 Markdown，让 Agent 生成更像真实产品的 UI。 | 5 | 100,635 | 未知 | `DESIGN.md` `AI 前端` `设计系统` `Vibe Coding` `AI 工具` | ★★★★☆ | 低 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师每天用的 AI 编程方法，拆成可安装技能。 | 4 | 164,728 | Shell | `Agent Skills` `工程经验` `AI 编程` `Claude` `AI 工具` | ★★★★☆ | 低 |
-| 6 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 一份 CLAUDE.md，把 Karpathy 提到的 Agent 编程坑写成规则。 | 4 | 190,625 | 未知 | `CLAUDE.md` `Agent 规则` `AI 编程` `工程治理` `AI 工具` | ★★★★☆ | 低 |
-| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 Agent 装上互联网读取能力，GitHub、B站、小红书、YouTube 都能查。 | 4 | 54,505 | Python | `联网 Agent` `内容抓取` `MCP` `调研工具` `AI 工具` | ★★★★★ | 中 |
-| 8 | [stablyai/orca](https://github.com/stablyai/orca) | 一个界面管住多个编码 Agent，每个任务独立 worktree 并行推进。 | 4 | 15,987 | TypeScript | `Agent 编排` `多 Agent` `Worktree` `开发环境` `AI 工具` | ★★★★★ | 中 |
-| 9 | [vercel-labs/native](https://github.com/vercel-labs/native) | 不是直接 AI 项目，但适合构建更轻的原生 AI 桌面工具。 | 4 | 5,708 | Zig | `桌面应用` `Zig` `原生 UI` `开发工具` `AI 工具` | ★★★☆☆ | 高 |
-| 10 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 3 | 76,858 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 4,115 | C | `模型推理` `大模型` `智能体` `AI 编程` `视觉 AI` | ★★★☆☆ | 高 |
+| 2 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 252,492 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 165,819 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 4 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | DesktopCommanderMCP 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 7,790 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `MCP` | ★★★☆☆ | 高 |
+| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 77,357 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 6 | [chordswallowthrust/undress-design](https://github.com/chordswallowthrust/undress-design) | undress-design 围绕「AI-powered fashion visualization and virtual try-on toolkit for consent-based garment editing, outfit prototyping, and creative design workflows. https://undress.design/edit?utm_s…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 133 | 未知 | `AI 编程` `多模态` `视觉 AI` `NLP` `开发工具` | ★★☆☆☆ | 低 |
+| 7 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | build-your-own-x 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 3 | 524,335 | Markdown | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | destructive_command_guard 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 2,181 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 80,806 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 10 | [dnshe/DNSHE-FreeDomains](https://github.com/dnshe/DNSHE-FreeDomains) | DNSHE-FreeDomains 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 5,267 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-10.json](data/2026-07-10.json)
-- Markdown 归档：[reports/2026-07-10.md](reports/2026-07-10.md)
+- JSON 数据：[data/2026-07-11.json](data/2026-07-11.json)
+- Markdown 归档：[reports/2026-07-11.md](reports/2026-07-11.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
