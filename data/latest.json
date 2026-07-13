@@ -1,11 +1,11 @@
 {
   "date": "2026-07-12",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-13T02:34:07.496706Z",
+  "generated_at": "2026-07-13T02:37:25.179102Z",
   "source": {
     "stars": "GH Archive WatchEvent",
     "metadata": "GitHub REST API",
-    "analysis": "Local heuristic fallback"
+    "analysis": "Codex scheduled automation"
   },
   "items": [
     {
@@ -26,41 +26,41 @@
       "yesterday_new_stars": 696,
       "total_stars": 234473,
       "readme_url": "https://github.com/re4/LibreCode/blob/main/README.md",
-      "ai_confidence": 0.79,
-      "summary_zh": "该项目以 C# 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "LibreCode 主要围绕「LibreCode - A Ollama cursor like coding / Reversing Interface」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.96,
+      "summary_zh": "LibreCode 是一个基于 .NET 10 与 Avalonia UI 的开源原生 AI 代码编辑器，主打本地 Ollama 模型、跨平台原生界面和逆向工程工具链。它把代码编辑、终端、模型市场、.NET/WASM/ELF 分析、反汇编和调试能力放在同一桌面应用里。",
+      "purpose_zh": "为需要本地 AI 编程和逆向分析的开发者提供无云依赖的原生工作台。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "安全团队离线代码分析",
+        "本地模型辅助编程",
+        "WASM/.NET 二进制逆向研究"
       ],
-      "positioning_zh": "LibreCode 聚焦检索增强与知识上下文构建，主要解决「LibreCode - A Ollama cursor like coding / Reversing Interface」。",
-      "product_view_zh": "从产品/应用角度看，LibreCode 的价值在于提升知识查找和大模型回答的可用性。它适合用于「LibreCode - A Ollama cursor like coding / Reversing Interface」这类需要向量检索、召回质量或上下文管理的场景。",
-      "technical_view_zh": "技术选型上，它主要以 C# 实现，可见工程信号包括Rust、TypeScript。README 和 topics 暗示其核心能力集中在知识检索与上下文增强、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 696 stars，反映出：RAG 和向量检索仍是企业落地大模型的基础设施入口。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向本地 AI 编程与逆向工程的原生桌面 IDE。",
+      "product_view_zh": "它的产品价值在于把“AI 编辑器”和“逆向工作台”合并：代码不离开本机，适合安全敏感代码库、离线环境和二进制分析。相比普通 AI 编辑器，它更偏 hacker 工具，而不是面向所有团队的轻量编辑器。",
+      "technical_view_zh": "技术选型是 .NET 10、Avalonia、Ollama、本地终端和多类二进制分析能力。优势是跨平台原生渲染、无 Electron 负担、隐私边界清晰；挑战是逆向工具链复杂，模型管理、调试稳定性和跨系统兼容性都需要持续打磨。",
+      "trend_view_zh": "AI 编程工具正在分化：一类追求云端协作，一类回到本地、隐私和专业垂直场景。LibreCode 的爆发说明本地 AI IDE 还有空间，尤其是安全研究和逆向工程这种不能轻易上云的场景。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "LibreCode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "一个本地 AI 编辑器，直接把逆向工程工具也塞进来了。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "本地 AI 编程用户",
+        "逆向工程师",
+        "安全研究人员"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "在离线或隐私敏感环境中做代码编辑、模型辅助和二进制分析。",
+      "not_suitable_zh": "不适合只需要轻量文本编辑或云端团队协作的普通开发流程。",
       "project_tags_zh": [
-        "AI 编程",
-        "开发工具",
-        "工作流",
-        "智能体",
-        "RAG"
+        "本地 AI IDE",
+        "Ollama",
+        "逆向工程",
+        "原生桌面",
+        "AI 工具"
       ],
-      "maturity_score": 5,
+      "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先验证目标平台安装包、模型下载和项目打开稳定性。",
+        "逆向功能较多，建议按实际任务逐步启用。",
+        "涉及第三方二进制分析时注意授权和合规边界。"
       ]
     },
     {
@@ -74,41 +74,41 @@
       "yesterday_new_stars": 10,
       "total_stars": 6671,
       "readme_url": "https://github.com/JustVugg/colibri/blob/main/README.md",
-      "ai_confidence": 0.64,
-      "summary_zh": "该项目以 C 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括模型训练与推理、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "colibri 主要围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」展开，结合 README、topics 和仓库描述来看，可用于模型训练与推理、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.97,
+      "summary_zh": "colibri 是一个纯 C 本地推理引擎，目标是在约 25GB 内存的消费级机器上运行 GLM-5.2 744B MoE。它把稠密权重常驻内存，把大量路由专家放在磁盘按需流式读取，用系统工程手段把超大模型门槛压低。",
+      "purpose_zh": "让个人电脑也能实验超大 MoE 模型的低成本本地推理。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+        "本地离线大模型实验",
+        "MoE 推理系统课程演示",
+        "低成本边缘 AI 原型验证"
       ],
-      "positioning_zh": "colibri 偏模型实验、训练或推理工程，主要围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」展开。",
-      "product_view_zh": "从产品/应用角度看，colibri 的价值在于把「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」对应的问题转成可复用工具或参考实现。它适合正在评估模型训练与推理、大语言模型、智能体与自动化工作流方案的个人开发者、产品团队或技术团队，用来快速验证场景是否成立。",
-      "technical_view_zh": "技术选型上，它主要以 C 实现，可见工程信号包括CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在模型训练与推理、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 10 stars，反映出：模型推理、量化和训练工具仍在快速工程化。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "模型训练/推理",
-      "highlight_zh": "colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。",
+      "positioning_zh": "面向极限本地推理实验的纯 C MoE 运行时。",
+      "product_view_zh": "它更像技术路线验证，而不是大众应用。对研究者和本地大模型玩家，价值在于不用 GPU 集群也能体验超大 MoE 的行为；对企业生产场景，当前更适合做可行性评估和架构参考。",
+      "technical_view_zh": "核心是 int4 量化、常驻稠密层、专家权重磁盘流式加载、LRU 缓存和 page cache 协同。优点是依赖极少、可审计、硬件门槛低；瓶颈会集中在磁盘 IO、首 token 延迟和长时间稳定性。",
+      "trend_view_zh": "本地大模型不再只靠“小模型变聪明”，也在探索如何把超大稀疏模型拆给普通硬件运行。colibri 的热度说明 MoE 稀疏性、量化和存储系统会继续成为推理优化重点。",
+      "category_zh": "本地模型推理",
+      "highlight_zh": "25GB 内存跑 744B MoE，本地大模型路线被推到极限。",
       "target_users_zh": [
-        "AI 工具调研者",
-        "开发者",
-        "产品/技术团队"
+        "本地大模型玩家",
+        "推理系统研究者",
+        "边缘 AI 工程师"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "在个人工作站上验证超大 MoE 模型的离线推理可行性。",
+      "not_suitable_zh": "不适合追求低延迟、高并发或开箱即用生产服务的团队。",
       "project_tags_zh": [
-        "模型推理",
-        "大模型",
-        "智能体",
-        "AI 编程",
-        "开发工具"
+        "本地推理",
+        "MoE",
+        "纯 C",
+        "低内存",
+        "AI 工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先确认模型文件来源、磁盘容量和 IO 性能。",
+        "不要直接用于线上服务，先做延迟和稳定性评估。",
+        "更适合作系统工程样例阅读，而非普通应用框架。"
       ]
     },
     {
@@ -122,41 +122,41 @@
       "yesterday_new_stars": 4,
       "total_stars": 39811,
       "readme_url": "https://github.com/Alishahryar1/free-claude-code/blob/main/README.md",
-      "ai_confidence": 0.71,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "free-claude-code 主要围绕「Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
+      "ai_confidence": 0.82,
+      "summary_zh": "free-claude-code 提供一个 provider-backed proxy，让 Claude Code、Codex CLI、VS Code 扩展、JetBrains ACP 或聊天机器人通过自有代理访问模型能力。它满足了用户想降低 AI 编程成本的需求，但“免费使用”类项目必须重点看合规、账号安全和服务稳定性。",
+      "purpose_zh": "通过自建代理整合不同编码助手入口，降低多工具使用门槛。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+        "个人 AI 编程代理实验",
+        "多客户端接入测试",
+        "本地模型/第三方 provider 路由验证"
       ],
-      "positioning_zh": "free-claude-code 面向代码理解、审查或研发协作场景，主要能力是「Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)」。",
-      "product_view_zh": "从产品/应用角度看，free-claude-code 主要服务研发效率。它把「Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "高风险的 AI 编程代理接入与转发工具。",
+      "product_view_zh": "产品价值是把多个 AI 编码入口统一到一个本地/自托管代理里，方便终端、IDE 和聊天场景共用。但它不是官方服务，实际可用性取决于上游 provider、授权方式和项目维护，商业团队不应把它当稳定基础设施。",
+      "technical_view_zh": "技术上偏 Python 代理服务和多客户端适配，可能涉及认证、协议转换、日志和路由。采用时必须检查密钥存储、请求转发、隐私日志、依赖版本和是否违反上游条款。",
+      "trend_view_zh": "AI 编程成本上升后，代理层和多模型网关会继续流行。但合规和信任会成为分水岭，可靠的方向是透明、可审计、自带安全边界，而不是模糊宣传“免费”。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "free-claude-code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "能统一多个 AI 编程入口，但“免费”背后要先看合规和密钥安全。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "AI 编程个人用户",
+        "多模型工具玩家",
+        "自托管爱好者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "在个人测试环境中统一多个 AI 编码客户端的 provider 路由。",
+      "not_suitable_zh": "不适合企业生产、敏感代码库或不清楚上游授权边界的场景。",
       "project_tags_zh": [
-        "AI 编程",
-        "开发工具",
-        "工作流",
-        "大模型",
-        "智能体"
+        "AI 代理",
+        "编码助手",
+        "自托管",
+        "合规风险",
+        "AI 工具"
       ],
-      "maturity_score": 4,
+      "maturity_score": 2,
       "adoption_difficulty": "高",
-      "recommendation_score": 4,
+      "recommendation_score": 2,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "不要放入真实生产密钥或敏感代码上下文。",
+        "先核对上游服务条款，避免账号和合规风险。",
+        "必须检查日志、配置文件和网络转发路径是否泄露数据。"
       ]
     },
     {
@@ -179,41 +179,41 @@
       "yesterday_new_stars": 4,
       "total_stars": 1156,
       "readme_url": "https://github.com/Hao0321/video-autopilot-kit/blob/main/README.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "video-autopilot-kit 主要围绕「Fill-in-your-own-data framework for YouTube / short-form video automation: CapCut JSON + ffmpeg tooling + an onboarding questionnaire. Ships with zero private data.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.68,
+      "summary_zh": "video-autopilot-kit 是一个 YouTube 与短视频自动化框架，提供 ffmpeg pipeline、CapCut JSON 辅助路径、示例脚本和频道 onboarding 问卷。它不直接提供生成式 AI 模型，但很适合与 AI 脚本、配音、素材检索和字幕生成流程拼成内容生产系统。",
+      "purpose_zh": "为创作者提供可填入自有数据的短视频自动化骨架和方法论模板。",
       "application_scenarios_zh": [
-        "搭建从选题、脚本、素材、字幕到配音的短视频自动化原型。",
-        "批量生成营销素材、教程视频或产品演示草稿，再由人工做最终审核。",
-        "把多模态生成能力嵌入内容工作流，验证低成本视频生产的可行性。"
+        "批量生成竖屏短视频 demo",
+        "AI 脚本到字幕剪辑流水线",
+        "频道方法论和素材库搭建"
       ],
-      "positioning_zh": "video-autopilot-kit 是 AI 视频生产工具，核心目标是「Fill-in-your-own-data framework for YouTube / short-form video automation: CapCut JSON + ffmpeg tooling + an onboarding questionnaire. Ships with zero private data.」。",
-      "product_view_zh": "从产品/应用角度看，video-autopilot-kit 把脚本、素材、字幕、配音和画面生成串成视频生产流程。它适合内容团队或个人开发者验证低成本视频自动化，而不是只做单点生成。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。重点应关注生成链路编排、素材依赖、渲染性能、版权控制和人工审核接口。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：内容生产正在从单点生成转向脚本、素材、配音和渲染的端到端工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向视频创作者的自动化生产流程框架。",
+      "product_view_zh": "它的价值是把短视频生产拆成可运行的工程骨架，而不是出售某个账号的私有策略。适合想把选题、脚本、素材、字幕、剪辑半自动化的创作者或运营团队，尤其适合先跑 demo 再填自己的频道数据。",
+      "technical_view_zh": "技术路径分为纯程序 ffmpeg 和 CapCut-assisted 两条，前者跨平台可自动化，后者能利用 CapCut 模板但版本敏感。它的工程质量取决于素材命名、字幕对齐、配置管理和失败重试。",
+      "trend_view_zh": "AI 内容生产从“生成一段视频”转向“可复制的视频流水线”。这类框架会成为个人创作者的操作系统，AI 负责脚本和素材，工程流程负责稳定输出。",
       "category_zh": "AI 视频生产",
-      "highlight_zh": "video-autopilot-kit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。",
+      "highlight_zh": "不是卖现成爆款参数，而是给你搭一条能改造成自己频道的视频流水线。",
       "target_users_zh": [
-        "内容创作者",
-        "营销/运营团队",
-        "视频自动化开发者"
+        "短视频创作者",
+        "YouTube 运营",
+        "内容自动化开发者"
       ],
-      "best_use_case_zh": "用 video-autopilot-kit 快速搭建从主题、脚本、素材到字幕/配音的自动化视频原型。",
-      "not_suitable_zh": "不适合对成片质量、版权素材和品牌一致性要求很高但没有人工审核的场景。",
+      "best_use_case_zh": "把 AI 生成脚本、字幕和素材管理接入可运行的短视频生产流水线。",
+      "not_suitable_zh": "不适合不愿维护素材结构、配置和剪辑模板的纯小白用户。",
       "project_tags_zh": [
-        "AI 视频",
-        "内容生产",
-        "多模态",
-        "智能体",
-        "大模型"
+        "视频自动化",
+        "ffmpeg",
+        "CapCut",
+        "创作者工具",
+        "AI 工具"
       ],
-      "maturity_score": 2,
+      "maturity_score": 3,
       "adoption_difficulty": "中",
-      "recommendation_score": 2,
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先跑 examples 确认 ffmpeg、字体和素材路径可用。",
+        "CapCut 路径要严格匹配版本，避免自动化脚本失效。",
+        "不要照搬模板，核心是填入自己的频道定位和素材规则。"
       ]
     },
     {
@@ -234,41 +234,41 @@
       "yesterday_new_stars": 4,
       "total_stars": 6987,
       "readme_url": "https://github.com/k1tbyte/Wand-Enhancer/blob/master/README.md",
-      "ai_confidence": 0.59,
-      "summary_zh": "该项目以 C# 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "Wand-Enhancer 主要围绕「Advanced UX and interoperability extension for Wand (WeMod) app」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.24,
+      "summary_zh": "Wand-Enhancer 是一个面向 Wand/WeMod 客户端的本地 UX 与互操作扩展，强调开源、无网络请求和本地配置增强。它本身不是 AI 项目，进入榜单更像是开发者工具热度；README 同时强烈提醒不要从 YouTube 或第三方链接下载可疑 exe。",
+      "purpose_zh": "通过本地配置和扩展提升 Wand 应用的客户端体验。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "Wand 客户端 UX 增强",
+        "本地配置工具源码审计",
+        "开源项目防冒名传播案例"
       ],
-      "positioning_zh": "Wand-Enhancer 面向代码理解、审查或研发协作场景，主要能力是「Advanced UX and interoperability extension for Wand (WeMod) app」。",
-      "product_view_zh": "从产品/应用角度看，Wand-Enhancer 主要服务研发效率。它把「Advanced UX and interoperability extension for Wand (WeMod) app」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 C# 实现，可见工程信号包括API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、智能体与自动化工作流、多媒体生成与理解。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 设计",
-      "highlight_zh": "Wand-Enhancer 围绕「Advanced UX and interoperability extension for Wand (WeMod) app」提供 AI 相关开源能力，适合快速评估和原型验证。",
+      "positioning_zh": "非 AI 的本地桌面客户端增强工具。",
+      "product_view_zh": "对 Wand 用户来说，它的价值在于改进客户端体验和本地互操作；对 AI 榜单读者，它更像安全提醒案例：热门开源项目被冒名传播恶意安装包的风险很高，下载渠道比功能本身更重要。",
+      "technical_view_zh": "技术上是 C#/WPF 本地工具，项目强调不发网络请求、可审计和只修改本地客户端设置。接入时应只看源码和官方 release 信息，不要信任第三方预编译包。",
+      "trend_view_zh": "这类项目说明 GitHub 热度并不等于 AI 相关性。对自动榜单来说，低置信项目需要明确标注，避免把普通工具误包装成 AI 趋势。",
+      "category_zh": "开发者工具",
+      "highlight_zh": "不是 AI 项目，但它的安全提醒很值得开发者看一眼。",
       "target_users_zh": [
-        "AI 工具调研者",
-        "开发者",
-        "产品/技术团队"
+        "Wand 用户",
+        "Windows 工具玩家",
+        "安全意识用户"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "在确认官方源码可信后，研究本地客户端配置增强方式。",
+      "not_suitable_zh": "不适合从第三方视频、网盘或非官方镜像下载可执行文件。",
       "project_tags_zh": [
-        "AI 编程",
-        "智能体",
-        "多模态",
-        "开发工具",
-        "AI 设计"
+        "桌面工具",
+        "C#",
+        "本地增强",
+        "安全提醒",
+        "AI 工具"
       ],
       "maturity_score": 3,
-      "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "adoption_difficulty": "中",
+      "recommendation_score": 2,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "只从官方 GitHub 仓库阅读源码和 release 说明。",
+        "不要运行第三方 exe、压缩包或视频描述中的链接。",
+        "把它视为非 AI 项目，不要纳入 AI 技术选型。"
       ]
     },
     {
@@ -291,41 +291,41 @@
       "yesterday_new_stars": 4,
       "total_stars": 253102,
       "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
-      "ai_confidence": 0.7,
-      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "superpowers 主要围绕「An agentic skills framework & software development methodology that works.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.95,
+      "summary_zh": "Superpowers 是面向编码 Agent 的技能框架和软件开发方法论，覆盖需求澄清、设计确认、实现和验证等流程。它的核心不是让 AI 更快写代码，而是让 Claude Code、Codex、Cursor 等工具先理解目标，再按可读、可确认的步骤推进。",
+      "purpose_zh": "用组合式 skills 约束编码 Agent 的工作方式，减少需求跑偏和返工。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "辅助产品和设计团队快速生成界面原型、设计系统草案或多版本视觉方案。"
+        "团队 AI 编程规范落地",
+        "复杂功能需求到实现闭环",
+        "多 Agent 分工协作模板"
       ],
-      "positioning_zh": "superpowers 面向代码理解、审查或研发协作场景，主要能力是「An agentic skills framework & software development methodology that works.」。",
-      "product_view_zh": "从产品/应用角度看，superpowers 主要服务研发效率。它把「An agentic skills framework & software development methodology that works.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI 编程代理的工程方法论与 skills 套件。",
+      "product_view_zh": "它适合已经在用 AI 写代码、但经常遇到过度实现、缺少验证或上下文跑偏的团队。产品价值是把资深工程师的协作节奏固化成可执行流程，让 Agent 更像团队成员。",
+      "technical_view_zh": "技术上主要依赖初始指令、skills 和分阶段确认，跨模型和跨客户端迁移成本低。难点是团队要愿意维护流程文本，并根据自己代码库、测试方式和交付节奏做二次适配。",
+      "trend_view_zh": "AI 编程正在从 prompt 技巧转向流程资产。Superpowers 的热度说明用户开始把“怎么让 Agent 工作”当成工程问题，而不是只等模型能力自然变强。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "给编码 Agent 加工程纪律，让它别一上来就乱写代码。",
       "target_users_zh": [
-        "AI 编程用户",
+        "AI 编程重度用户",
         "研发团队",
-        "代码审查/交付负责人"
+        "技术负责人"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "把 AI 编程流程改造成有需求确认、设计确认和验证闭环的工作方式。",
+      "not_suitable_zh": "不适合只想快速试错、完全不愿维护流程规范的个人脚本场景。",
       "project_tags_zh": [
+        "Agent Skills",
+        "工程流程",
+        "需求澄清",
         "AI 编程",
-        "开发工具",
-        "工作流",
-        "大模型",
-        "智能体"
+        "AI 工具"
       ],
-      "maturity_score": 5,
-      "adoption_difficulty": "低",
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
       "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+        "先用一个真实小功能试跑，不要一次替换全部流程。",
+        "把默认 skills 改成符合团队技术栈的版本。",
+        "阶段确认会增加前期时间，但能减少后期返工。"
       ]
     },
     {
@@ -343,41 +343,41 @@
       "yesterday_new_stars": 3,
       "total_stars": 50296,
       "readme_url": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 未知语言 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "chinese-independent-developer 主要围绕「👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.42,
+      "summary_zh": "chinese-independent-developer 是中国独立开发者项目列表，近期新增条目里包含跨 AI 长期记忆、实时视频换脸、真人短剧生成等 AI 产品。仓库本身不是 AI 工具，但它是观察国内独立开发者正在做什么、哪些 AI 产品开始上线的有效样本。",
+      "purpose_zh": "聚合中国独立开发者的产品和项目，展示上线状态与一句话介绍。",
       "application_scenarios_zh": [
-        "搭建从选题、脚本、素材、字幕到配音的短视频自动化原型。",
-        "批量生成营销素材、教程视频或产品演示草稿，再由人工做最终审核。",
-        "把多模态生成能力嵌入内容工作流，验证低成本视频生产的可行性。"
+        "AI 创业选题观察",
+        "独立产品案例收集",
+        "中文项目推广和竞品扫描"
       ],
-      "positioning_zh": "chinese-independent-developer 是 AI 视频生产工具，核心目标是「👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么」。",
-      "product_view_zh": "从产品/应用角度看，chinese-independent-developer 把脚本、素材、字幕、配音和画面生成串成视频生产流程。它适合内容团队或个人开发者验证低成本视频自动化，而不是只做单点生成。",
-      "technical_view_zh": "技术选型上，它主要以 未知语言 实现，可见工程信号包括API。重点应关注生成链路编排、素材依赖、渲染性能、版权控制和人工审核接口。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 3 stars，反映出：内容生产正在从单点生成转向脚本、素材、配音和渲染的端到端工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 视频生产",
-      "highlight_zh": "chinese-independent-developer 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。",
+      "positioning_zh": "面向独立开发生态的项目索引与趋势观察样本。",
+      "product_view_zh": "对 AI 创业者和内容作者，它的价值在于发现真实产品形态：不是论文或 demo，而是已经上线的网站和 App。它能帮助判断独立开发者更偏向视频、记忆层、工具站还是垂直 SaaS。",
+      "technical_view_zh": "技术上是 Markdown 项目索引，没有复杂系统能力；关键在收录规则、PR 维护和介绍语质量。分析时不能把整个仓库当 AI 工具，只能把其中 AI 项目作为市场观察。",
+      "trend_view_zh": "AI 独立产品正在从“模型能力展示”走向“具体用户任务”：换脸、短剧、跨工具记忆、内容生产。这个列表适合长期跟踪国内小产品的真实落地方向。",
+      "category_zh": "独立开发项目索引",
+      "highlight_zh": "它不是 AI 工具，但能看见中国独立开发者正在把 AI 做成什么产品。",
       "target_users_zh": [
-        "内容创作者",
-        "营销/运营团队",
-        "视频自动化开发者"
+        "独立开发者",
+        "AI 产品观察者",
+        "内容选题作者"
       ],
-      "best_use_case_zh": "用 chinese-independent-developer 快速搭建从主题、脚本、素材到字幕/配音的自动化视频原型。",
-      "not_suitable_zh": "不适合对成片质量、版权素材和品牌一致性要求很高但没有人工审核的场景。",
+      "best_use_case_zh": "观察国内独立开发者新增 AI 产品方向和一句话定位写法。",
+      "not_suitable_zh": "不适合作为技术选型依据，因为条目质量和维护状态差异很大。",
       "project_tags_zh": [
-        "AI 视频",
-        "内容生产",
-        "多模态",
-        "AI 编程",
-        "大模型"
+        "独立开发",
+        "项目索引",
+        "AI 产品观察",
+        "中文生态",
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
-      "recommendation_score": 4,
+      "recommendation_score": 3,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+        "只把它当索引和市场样本，不要默认条目都可靠。",
+        "关注新增日期、上线状态和产品描述是否具体。",
+        "做竞品分析时需要再打开项目官网独立验证。"
       ]
     },
     {
@@ -412,41 +412,41 @@
       "yesterday_new_stars": 3,
       "total_stars": 126,
       "readme_url": "https://github.com/anthropic-sonnet/claude-code-sonnet-5-free-desktop-app/blob/main/README.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 C# 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "claude-code-sonnet-5-free-desktop-app 主要围绕「claude-code claude code ai anthropic sonnet 5 free desktop claudecode terminal agent cli coding assistant developer tool automation project development bug fixing code generation…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.74,
+      "summary_zh": "claude-code-sonnet-5-free-desktop-app 声称提供非官方的 Claude Code Sonnet 5 免费桌面客户端。它的 README 已声明不是 Anthropic 官方产品，且访问方式可能不稳定。此类项目吸引力来自“免费 AI 编程”，但风险也主要集中在身份冒用、账号安全、条款合规和下载可信度。",
+      "purpose_zh": "提供一个非官方桌面客户端入口，尝试连接 Claude Code 类 AI 编程能力。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "研究非官方 AI 客户端风险",
+        "桌面客户端安全审计练习",
+        "AI 工具合规案例分析"
       ],
-      "positioning_zh": "claude-code-sonnet-5-free-desktop-app 面向代码理解、审查或研发协作场景，主要能力是「claude-code claude code ai anthropic sonnet 5 free desktop claudecode terminal agent cli coding assistant developer tool automation project development bug fixing code generation…」。",
-      "product_view_zh": "从产品/应用角度看，claude-code-sonnet-5-free-desktop-app 主要服务研发效率。它把「claude-code claude code ai anthropic sonnet 5 free desktop claudecode terminal agent cli coding assistant developer tool automation project development bug fixing code generation…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 C# 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 3 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 编程工作流",
-      "highlight_zh": "claude-code-sonnet-5-free-desktop-app 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "positioning_zh": "高风险的非官方 AI 编程桌面客户端。",
+      "product_view_zh": "从用户角度，它试图降低 Claude Code 使用门槛，并提供桌面端体验。但由于命名强绑定官方品牌且强调免费，信任成本很高。普通用户很容易忽略授权和安全问题，企业更不应采用。",
+      "technical_view_zh": "README 暴露的信息更偏客户端包装和访问入口，缺少足够可验证的架构细节。采用前必须审计源码、构建流程、网络请求、凭据存储和 release 产物来源，不能直接运行未知安装包。",
+      "trend_view_zh": "AI 编程工具越火，围绕“免费版”“非官方客户端”的项目会越多。真正值得长期关注的是开放、合规、可审计的客户端，而不是模糊利用品牌热度的入口。",
+      "category_zh": "AI 编程工具",
+      "highlight_zh": "看到“免费 Claude Code 桌面版”，第一反应应是审计和核验，而不是直接安装。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "AI 编程个人用户",
+        "桌面客户端开发者",
+        "安全研究者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "作为非官方 AI 工具安全风险和品牌冒用风险的审计样本。",
+      "not_suitable_zh": "不适合处理真实账号、真实密钥、敏感代码或企业项目。",
       "project_tags_zh": [
+        "非官方客户端",
         "AI 编程",
-        "开发工具",
-        "工作流",
-        "大模型",
-        "智能体"
+        "合规风险",
+        "安全审计",
+        "AI 工具"
       ],
-      "maturity_score": 2,
-      "adoption_difficulty": "中",
-      "recommendation_score": 2,
+      "maturity_score": 1,
+      "adoption_difficulty": "高",
+      "recommendation_score": 1,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "不要直接下载或运行未知 release 产物。",
+        "不要输入真实 Anthropic、OpenAI 或其他服务凭据。",
+        "先核验项目归属、源码、网络请求和许可条款。"
       ]
     },
     {
@@ -472,41 +472,41 @@
       "yesterday_new_stars": 3,
       "total_stars": 83365,
       "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md",
-      "ai_confidence": 0.73,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "graphify 主要围绕「AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or vi…」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.96,
+      "summary_zh": "Graphify 是一个面向 AI 编码助手的知识图谱技能，可把代码目录、SQL schema、脚本、文档、论文、图片或视频转成可查询图谱。它把应用代码、数据库结构和基础设施放到同一张图里，服务 Claude Code、Codex、Cursor、Gemini CLI 等 Agent。",
+      "purpose_zh": "把多模态项目资料转成知识图谱，让 AI Agent 更准确理解复杂代码库。",
       "application_scenarios_zh": [
-        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
-        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
-        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+        "遗留系统代码问答",
+        "数据库与应用影响分析",
+        "AI Agent 重构前上下文构建"
       ],
-      "positioning_zh": "graphify 聚焦检索增强与知识上下文构建，主要解决「AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or vi…」。",
-      "product_view_zh": "从产品/应用角度看，graphify 的价值在于提升知识查找和大模型回答的可用性。它适合用于「AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or vi…」这类需要向量检索、召回质量或上下文管理的场景。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括CLI、API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 3 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI 编程和 GraphRAG 的代码知识图谱工具。",
+      "product_view_zh": "它适合大型项目、遗留系统和跨语言仓库，解决 Agent 只看局部文件导致误判的问题。产品价值是把代码、数据库和文档的关系显式化，让问答、影响分析和重构计划更可靠。",
+      "technical_view_zh": "技术上结合 tree-sitter、知识图谱、GraphRAG、社区发现和多资料解析。采用时要关注索引速度、增量更新、图谱质量、隐私数据处理，以及与现有 Agent 客户端的集成稳定性。",
+      "trend_view_zh": "RAG 正从文档检索升级到结构化上下文管理。代码智能的下一步不是塞更多 token，而是构建可查询、可推理的项目图谱，Graphify 正踩在这个方向上。",
       "category_zh": "RAG/知识库",
-      "highlight_zh": "graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "highlight_zh": "把整个项目变成知识图谱，让 Agent 不再只靠翻几个文件猜上下文。",
       "target_users_zh": [
-        "RAG 工程师",
-        "知识库产品团队",
-        "企业 AI 平台团队"
+        "大型代码库维护者",
+        "AI 编程团队",
+        "架构师"
       ],
-      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "为复杂代码库构建可查询知识图谱，辅助 Agent 做影响分析和重构。",
+      "not_suitable_zh": "不适合小型脚本项目或不愿维护索引基础设施的团队。",
       "project_tags_zh": [
-        "RAG",
-        "知识库",
-        "上下文",
-        "AI 编程",
-        "大模型"
+        "GraphRAG",
+        "知识图谱",
+        "代码理解",
+        "Agent Skills",
+        "AI 工具"
       ],
       "maturity_score": 4,
-      "adoption_difficulty": "高",
-      "recommendation_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先在一个中等规模仓库验证索引质量和查询命中率。",
+        "敏感项目要确认图谱存储位置和数据脱敏策略。",
+        "不要只看生成结果，关键决策仍要回到源码核验。"
       ]
     },
     {
@@ -531,41 +531,41 @@
       "yesterday_new_stars": 3,
       "total_stars": 88590,
       "readme_url": "https://github.com/JuliusBrussee/caveman/blob/main/README.md",
-      "ai_confidence": 0.76,
-      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "caveman 主要围绕「🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
+      "ai_confidence": 0.9,
+      "summary_zh": "caveman 是一个 Claude Code skill，目标是让 AI 编码 Agent 用极简语言回答，从而减少约 65% 输出 token。它带有明显 meme 风格，但背后指向一个真实问题：Agent 生成的解释、寒暄和冗余文本越来越多，成本和注意力都被浪费。",
+      "purpose_zh": "压缩 AI Agent 输出，减少 token 消耗和阅读负担。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "降低 AI 编程会话 token 消耗",
+        "压缩自动化任务状态输出",
+        "为工程师提供更直接的结论式回复"
       ],
-      "positioning_zh": "caveman 聚焦大模型上下文管理，主要解决「🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman」。",
-      "product_view_zh": "从产品/应用角度看，caveman 解决的是大模型上下文太长、成本太高和信息噪音过多的问题。它适合 Agent、RAG 和日志分析场景中做输入压缩与上下文治理。",
-      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括Docker、MCP、CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 3 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI 编程 Agent 的输出压缩与提示风格 skill。",
+      "product_view_zh": "对高频使用 Claude Code、Codex 或其他 Agent 的用户，它能降低输出成本，让结果更短、更直接。它不提升推理能力，却能改善交互效率，尤其适合只想要命令、diff 和结论的工程场景。",
+      "technical_view_zh": "技术形态是 skill/prompt 规则，接入门槛低，关键在于是否影响必要解释。好的用法是压缩冗余表达，而不是压掉风险说明、测试结果和关键假设。",
+      "trend_view_zh": "AI 工具进入日常后，token 成本和信息密度会成为体验核心。未来不只是模型更强，还会有大量针对输出风格、成本控制和注意力管理的小型 skills。",
       "category_zh": "上下文管理",
-      "highlight_zh": "caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。",
+      "highlight_zh": "用更少 token 说清楚事，可能是 AI 编程日常刚需。",
       "target_users_zh": [
-        "Agent 开发者",
-        "RAG 工程师",
-        "关注 token 成本的团队"
+        "AI 编程重度用户",
+        "Claude Code 用户",
+        "成本敏感团队"
       ],
-      "best_use_case_zh": "在 Agent 或 RAG 工作流中压缩长日志、工具输出和检索片段。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "在高频 Agent 会话中压缩冗余解释，保留结论、命令和风险。",
+      "not_suitable_zh": "不适合教学、方案评审或需要完整推理过程的场景。",
       "project_tags_zh": [
-        "上下文管理",
-        "Agent",
         "Token 优化",
+        "Prompt Skill",
         "AI 编程",
-        "大模型"
+        "输出压缩",
+        "AI 工具"
       ],
-      "maturity_score": 4,
-      "adoption_difficulty": "高",
+      "maturity_score": 3,
+      "adoption_difficulty": "低",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "不要在高风险变更中压掉测试结果和失败原因。",
+        "可以按场景设置不同压缩等级，而不是全局极简。",
+        "评估节省 token 的同时，也要检查沟通误解是否增加。"
       ]
     }
   ]
