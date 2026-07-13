@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-11 (Asia/Shanghai)
+## 最新榜单：2026-07-12 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 25GB 内存跑 744B MoE，大模型本地化被推到很极限。 | 7 | 4,115 | C | `本地推理` `MoE` `纯 C` `低内存` `AI 工具` | ★★★★★ | 高 |
-| 2 | [obra/superpowers](https://github.com/obra/superpowers) | 给编码 Agent 加一套工程纪律，先想清楚再写代码。 | 6 | 252,492 | Shell | `Agent Skills` `工程流程` `需求澄清` `AI 编程` `AI 工具` | ★★★★★ | 中 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 不是让 AI 接管流程，而是给工程师一盒可组合技能。 | 5 | 165,819 | Shell | `轻量 Skills` `工程经验` `TypeScript` `可组合` `AI 工具` | ★★★★☆ | 低 |
-| 4 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | 把 AI 助手接进你的终端和文件系统，能力很强也要控权限。 | 5 | 7,790 | TypeScript | `MCP` `本地自动化` `终端控制` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把 AI 编程从“写代码”推进到“按工程生命周期交付”。 | 3 | 77,357 | JavaScript | `Agent Skills` `研发流程` `质量门禁` `生产交付` `AI 工具` | ★★★★★ | 中 |
-| 6 | [chordswallowthrust/undress-design](https://github.com/chordswallowthrust/undress-design) | 虚拟试衣有真实价值，但这个项目首先要看合规边界。 | 3 | 133 | 未知 | `虚拟试衣` `图像编辑` `内容安全` `合规风险` `AI 工具` | ★★☆☆☆ | 高 |
-| 7 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | 不是 AI 工具，但很适合补 AI 工程的底层基本功。 | 3 | 524,335 | Markdown | `学习资源` `从零实现` `计算机基础` `AI 原理` `AI 工具` | ★★★★☆ | 低 |
-| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | AI 会跑命令之后，第一件事就是防止它误删你的项目。 | 3 | 2,181 | Rust | `Agent 安全` `命令拦截` `Rust` `开发防护` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 少写点代码，可能比让它多写更有价值。 | 3 | 80,806 | JavaScript | `YAGNI` `Agent 规则` `极简工程` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 10 | [dnshe/DNSHE-FreeDomains](https://github.com/dnshe/DNSHE-FreeDomains) | 不是 AI 工具，但能给 AI Demo 一个低成本入口。 | 3 | 5,267 | 未知 | `免费域名` `DNS` `开发者基础设施` `低成本部署` `AI 工具` | ★★☆☆☆ | 低 |
+| 1 | [re4/LibreCode](https://github.com/re4/LibreCode) | LibreCode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 696 | 234,473 | C# | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★★★ | 中 |
+| 2 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 10 | 6,671 | C | `模型推理` `大模型` `智能体` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
+| 3 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | free-claude-code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 39,811 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 4 | [Hao0321/video-autopilot-kit](https://github.com/Hao0321/video-autopilot-kit) | video-autopilot-kit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 4 | 1,156 | Python | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★☆☆☆ | 中 |
+| 5 | [k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | Wand-Enhancer 围绕「Advanced UX and interoperability extension for Wand (WeMod) app」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 6,987 | C# | `AI 编程` `智能体` `多模态` `开发工具` `AI 设计` | ★★★☆☆ | 高 |
+| 6 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 253,102 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 7 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | chinese-independent-developer 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 3 | 50,296 | 未知 | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 低 |
+| 8 | [anthropic-sonnet/claude-code-sonnet-5-free-desktop-app](https://github.com/anthropic-sonnet/claude-code-sonnet-5-free-desktop-app) | claude-code-sonnet-5-free-desktop-app 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 126 | C# | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
+| 9 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 83,365 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 10 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 3 | 88,590 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-11.json](data/2026-07-11.json)
-- Markdown 归档：[reports/2026-07-11.md](reports/2026-07-11.md)
+- JSON 数据：[data/2026-07-12.json](data/2026-07-12.json)
+- Markdown 归档：[reports/2026-07-12.md](reports/2026-07-12.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
