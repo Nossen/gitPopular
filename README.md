@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-12 (Asia/Shanghai)
+## 最新榜单：2026-07-13 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [re4/LibreCode](https://github.com/re4/LibreCode) | 一个本地 AI 编辑器，直接把逆向工程工具也塞进来了。 | 696 | 234,473 | C# | `本地 AI IDE` `Ollama` `逆向工程` `原生桌面` `AI 工具` | ★★★★★ | 中 |
-| 2 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 25GB 内存跑 744B MoE，本地大模型路线被推到极限。 | 10 | 6,671 | C | `本地推理` `MoE` `纯 C` `低内存` `AI 工具` | ★★★★★ | 高 |
-| 3 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 能统一多个 AI 编程入口，但“免费”背后要先看合规和密钥安全。 | 4 | 39,811 | Python | `AI 代理` `编码助手` `自托管` `合规风险` `AI 工具` | ★★☆☆☆ | 高 |
-| 4 | [Hao0321/video-autopilot-kit](https://github.com/Hao0321/video-autopilot-kit) | 不是卖现成爆款参数，而是给你搭一条能改造成自己频道的视频流水线。 | 4 | 1,156 | Python | `视频自动化` `ffmpeg` `CapCut` `创作者工具` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | 不是 AI 项目，但它的安全提醒很值得开发者看一眼。 | 4 | 6,987 | C# | `桌面工具` `C#` `本地增强` `安全提醒` `AI 工具` | ★★☆☆☆ | 中 |
-| 6 | [obra/superpowers](https://github.com/obra/superpowers) | 给编码 Agent 加工程纪律，让它别一上来就乱写代码。 | 4 | 253,102 | Shell | `Agent Skills` `工程流程` `需求澄清` `AI 编程` `AI 工具` | ★★★★★ | 中 |
-| 7 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 它不是 AI 工具，但能看见中国独立开发者正在把 AI 做成什么产品。 | 3 | 50,296 | 未知 | `独立开发` `项目索引` `AI 产品观察` `中文生态` `AI 工具` | ★★★☆☆ | 低 |
-| 8 | [anthropic-sonnet/claude-code-sonnet-5-free-desktop-app](https://github.com/anthropic-sonnet/claude-code-sonnet-5-free-desktop-app) | 看到“免费 Claude Code 桌面版”，第一反应应是审计和核验，而不是直接安装。 | 3 | 126 | C# | `非官方客户端` `AI 编程` `合规风险` `安全审计` `AI 工具` | ★☆☆☆☆ | 高 |
-| 9 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个项目变成知识图谱，让 Agent 不再只靠翻几个文件猜上下文。 | 3 | 83,365 | Python | `GraphRAG` `知识图谱` `代码理解` `Agent Skills` `AI 工具` | ★★★★★ | 中 |
-| 10 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 用更少 token 说清楚事，可能是 AI 编程日常刚需。 | 3 | 88,590 | JavaScript | `Token 优化` `Prompt Skill` `AI 编程` `输出压缩` `AI 工具` | ★★★★☆ | 低 |
+| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 13 | 9,978 | C | `RAG` `大模型` `AI 编程` `模型推理` `开发工具` | ★★★☆☆ | 高 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 168,529 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 3 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | chinese-independent-developer 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 6 | 52,076 | 未知 | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 低 |
+| 4 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 84,861 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 5 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 6 | 131,151 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 6 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Vibe-Trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 5 | 21,848 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★☆ | 高 |
+| 7 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 66,730 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
+| 8 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | awesome-llm-apps 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 5 | 119,726 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★★ | 中 |
+| 9 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 4 | 38,071 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
+| 10 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 4 | 89,111 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-12.json](data/2026-07-12.json)
-- Markdown 归档：[reports/2026-07-12.md](reports/2026-07-12.md)
+- JSON 数据：[data/2026-07-13.json](data/2026-07-13.json)
+- Markdown 归档：[reports/2026-07-13.md](reports/2026-07-13.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
