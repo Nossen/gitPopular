@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 12,742 | C | `RAG` `大模型` `AI 编程` `模型推理` `C` | ★★★☆☆ | 中 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 170,444 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 3 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 69,303 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
-| 4 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 86,497 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 254,744 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 6 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 5 | 151,086 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 7 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | voicebox 围绕「The open-source AI voice studio. Clone, dictate, create.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 5 | 41,339 | TypeScript | `智能体` `大模型` `AI 编程` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | caveman 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 5 | 89,516 | JavaScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 9 | [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) | codeflow 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 4,474 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 83,167 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 1 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 25GB 内存跑 744B MoE，本地推理路线继续拉高上限。 | 7 | 12,742 | C | `本地推理` `MoE` `纯 C` `低内存` `AI 工具` | ★★★★★ | 高 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | 不是让 AI 接管流程，而是给工程师一盒可组合技能。 | 7 | 170,444 | Shell | `轻量 Skills` `工程经验` `TypeScript` `可组合` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 一个开源剪辑器正在给 AI Agent 留接口，值得视频自动化方向关注。 | 7 | 69,303 | TypeScript | `开源剪辑` `MCP` `视频自动化` `插件架构` `AI 工具` | ★★★☆☆ | 中 |
+| 4 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个项目变成知识图谱，让 Agent 不再只靠翻几个文件猜上下文。 | 6 | 86,497 | Python | `GraphRAG` `知识图谱` `代码理解` `Agent Skills` `AI 工具` | ★★★★★ | 中 |
+| 5 | [obra/superpowers](https://github.com/obra/superpowers) | 给编码 Agent 加工程纪律，让它别一上来就乱写代码。 | 6 | 254,744 | Shell | `Agent Skills` `工程流程` `需求澄清` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 6 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 和 RAG 补上稳定抓网页这块基础设施。 | 5 | 151,086 | TypeScript | `网页抓取` `RAG` `联网 Agent` `数据抽取` `AI 工具` | ★★★★★ | 中 |
+| 7 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | 把声音克隆、听写和 Agent 语音交互做成本地开源工作室。 | 5 | 41,339 | TypeScript | `语音克隆` `TTS` `Whisper` `本地 AI` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 用更少 token 说清楚事，可能是 AI 编程日常刚需。 | 5 | 89,516 | JavaScript | `Token 优化` `Prompt Skill` `AI 编程` `输出压缩` `AI 工具` | ★★★★☆ | 低 |
+| 9 | [braedonsaunders/codeflow](https://github.com/braedonsaunders/codeflow) | 把代码库变成架构地图，让人和 AI 都少一点盲改。 | 4 | 4,474 | HTML | `代码可视化` `依赖图` `架构理解` `浏览器工具` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 AI 少写点代码，可能比让它多写更有价值。 | 4 | 83,167 | JavaScript | `YAGNI` `Agent 规则` `极简工程` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
 
 ## 数据与归档
 

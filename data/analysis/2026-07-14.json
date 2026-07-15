@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-14",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-15T02:36:03.473098Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "JustVugg/colibri",
-      "repo_id": 1286080397,
-      "url": "https://github.com/JustVugg/colibri",
-      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 12742,
-      "readme_url": "https://github.com/JustVugg/colibri/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "colibri 是一个纯 C 本地推理引擎，目标是在约 25GB 内存的消费级机器上运行 GLM-5.2 744B MoE。新 README 强调把 VRAM、RAM 和磁盘作为统一内存层级，并提供 Web dashboard 展示 token 指标、硬件状态和专家分层。",
       "purpose_zh": "让个人机器也能实验超大 MoE 模型的低成本本地推理。",
-      "application_scenarios_zh": [
-        "本地离线大模型实验",
-        "MoE 推理系统课程演示",
-        "低成本边缘 AI 原型验证"
-      ],
       "positioning_zh": "面向极限本地推理实验的纯 C MoE 运行时。",
       "product_view_zh": "它更像技术路线验证，而不是大众应用。对研究者和本地大模型玩家，价值在于不用 GPU 集群也能观察超大 MoE 行为；Web dashboard 则让性能和资源瓶颈更可视化。",
       "technical_view_zh": "核心是 int4 量化、常驻稠密权重、专家权重磁盘流式加载、LRU 缓存和系统 page cache 协同。优势是依赖少、可审计、硬件门槛低；瓶颈仍主要在磁盘 IO、首 token 延迟和硬件调参。",
@@ -44,12 +22,16 @@
         "本地推理",
         "MoE",
         "纯 C",
-        "低内存",
-        "AI 工具"
+        "低内存"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "本地离线大模型实验",
+        "MoE 推理系统课程演示",
+        "低成本边缘 AI 原型验证"
+      ],
       "adoption_notes_zh": [
         "先确认模型文件来源、磁盘容量和 IO 性能。",
         "不要直接用于线上服务，先做延迟和稳定性评估。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 170444,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "mattpocock/skills 收集的是作者日常工程中使用的 Agent skills，强调小、可组合、可修改，而不是让大型流程框架接管开发。它把真实工程经验沉淀为 AI 可以读取的技能文件，帮助编码助手在重构、调试和交付中更稳定。",
       "purpose_zh": "把真实工程经验拆成可复用的 AI Agent 技能，让开发者按需组合。",
-      "application_scenarios_zh": [
-        "个人 AI 编程配置增强",
-        "团队最佳实践样例库",
-        "重构和调试提示模板"
-      ],
       "positioning_zh": "面向真实工程场景的轻量 Agent skills 工具箱。",
       "product_view_zh": "它的价值在于降低 AI 编程的失控感：开发者可以只拿一个具体 skill 放进自己的工具链，而不必接受一整套庞大方法论。适合有工程判断力、希望保留控制权的个人和团队。",
       "technical_view_zh": "技术形态偏文本规则和技能文件，成本低、迁移快，可被多种 Agent 客户端读取。风险是效果依赖使用者是否理解技能边界，不能替代测试、类型检查和代码 review。",
@@ -92,12 +60,16 @@
         "轻量 Skills",
         "工程经验",
         "TypeScript",
-        "可组合",
-        "AI 工具"
+        "可组合"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "个人 AI 编程配置增强",
+        "团队最佳实践样例库",
+        "重构和调试提示模板"
+      ],
       "adoption_notes_zh": [
         "优先挑 2-3 个高频场景试用，避免技能堆叠冲突。",
         "把技能当作行为约束，不要替代自动化测试。",
@@ -105,28 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "OpenCut-app/OpenCut",
-      "repo_id": 1006414368,
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "topics": [
-        "editor",
-        "oss",
-        "videoeditor"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 69303,
-      "readme_url": "https://github.com/OpenCut-app/OpenCut/blob/main/README.md",
       "ai_confidence": 0.56,
       "summary_zh": "OpenCut 是一个开源 CapCut 替代品，计划支持 Web、桌面和移动端，并正在重写为插件优先、Rust core、Editor API、headless 渲染和 MCP server 的架构。它本身是视频编辑器，但新架构明显为 AI Agent 自动化剪辑预留接口。",
       "purpose_zh": "提供免费开源的视频编辑器，并支持脚本化、插件化和自动化渲染。",
-      "application_scenarios_zh": [
-        "开源剪辑器替代评估",
-        "AI Agent 控制视频编辑器实验",
-        "批量渲染和脚本化剪辑原型"
-      ],
       "positioning_zh": "带 AI 自动化潜力的开源视频编辑平台。",
       "product_view_zh": "对创作者，它是 CapCut 替代路线；对 AI 工具开发者，更有价值的是未来的 MCP、headless 和脚本能力，可以把剪辑器接入 Agent 流程。当前仍处重写阶段，适合关注和试验。",
       "technical_view_zh": "规划中的 Rust core、跨端代码库、插件优先架构和 Editor API 都有利于长期扩展。采用风险在于重写期 API 可能变动大，真正生产可用还要看时间线和生态插件质量。",
@@ -144,12 +98,16 @@
         "开源剪辑",
         "MCP",
         "视频自动化",
-        "插件架构",
-        "AI 工具"
+        "插件架构"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "开源剪辑器替代评估",
+        "AI Agent 控制视频编辑器实验",
+        "批量渲染和脚本化剪辑原型"
+      ],
       "adoption_notes_zh": [
         "先确认当前版本与重写路线差异，不要混用旧 API。",
         "生产场景要等 Editor API 和 headless 能力稳定后再接入。",
@@ -157,36 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "Graphify-Labs/graphify",
-      "repo_id": 1200597263,
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "topics": [
-        "antigravity",
-        "claude-code",
-        "codex",
-        "gemini",
-        "graphrag",
-        "knowledge-graph",
-        "leiden",
-        "openclaw",
-        "rag",
-        "skills",
-        "tree-sitter"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 86497,
-      "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Graphify 是一个面向 AI 编码助手的知识图谱技能，可把代码目录、SQL schema、脚本、文档、论文、图片或视频转成可查询图谱。它把应用代码、数据库结构和基础设施放到同一张图里，服务 Claude Code、Codex、Cursor、Gemini CLI 等 Agent。",
       "purpose_zh": "把多模态项目资料转成知识图谱，让 AI Agent 更准确理解复杂代码库。",
-      "application_scenarios_zh": [
-        "遗留系统代码问答",
-        "数据库与应用影响分析",
-        "AI Agent 重构前上下文构建"
-      ],
       "positioning_zh": "面向 AI 编程和 GraphRAG 的代码知识图谱工具。",
       "product_view_zh": "它适合大型项目、遗留系统和跨语言仓库，解决 Agent 只看局部文件导致误判的问题。产品价值是把代码、数据库和文档的关系显式化，让问答、影响分析和重构计划更可靠。",
       "technical_view_zh": "技术上结合 tree-sitter、知识图谱、GraphRAG、社区发现和多资料解析。采用时要关注索引速度、增量更新、图谱质量、隐私数据处理，以及与现有 Agent 客户端的集成稳定性。",
@@ -204,12 +136,16 @@
         "GraphRAG",
         "知识图谱",
         "代码理解",
-        "Agent Skills",
-        "AI 工具"
+        "Agent Skills"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "遗留系统代码问答",
+        "数据库与应用影响分析",
+        "AI Agent 重构前上下文构建"
+      ],
       "adoption_notes_zh": [
         "先在一个中等规模仓库验证索引质量和查询命中率。",
         "敏感项目要确认图谱存储位置和数据脱敏策略。",
@@ -217,33 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "obra/superpowers",
-      "repo_id": 1073224795,
-      "url": "https://github.com/obra/superpowers",
-      "description": "An agentic skills framework & software development methodology that works.",
-      "language": "Shell",
-      "topics": [
-        "ai",
-        "brainstorming",
-        "coding",
-        "obra",
-        "sdlc",
-        "skills",
-        "subagent-driven-development",
-        "superpowers"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 254744,
-      "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Superpowers 是面向编码 Agent 的技能框架和软件开发方法论，覆盖需求澄清、设计确认、实现和验证等流程。它的核心不是让 AI 更快写代码，而是让 Claude Code、Codex、Cursor 等工具先理解目标，再按可读、可确认的步骤推进。",
       "purpose_zh": "用组合式 skills 约束编码 Agent 的工作方式，减少需求跑偏和返工。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规范落地",
-        "复杂功能需求到实现闭环",
-        "多 Agent 分工协作模板"
-      ],
       "positioning_zh": "面向 AI 编程代理的工程方法论与 skills 套件。",
       "product_view_zh": "它适合已经在用 AI 写代码、但经常遇到过度实现、缺少验证或上下文跑偏的团队。产品价值是把资深工程师的协作节奏固化成可执行流程，让 Agent 更像团队成员。",
       "technical_view_zh": "技术上主要依赖初始指令、skills 和分阶段确认，跨模型和跨客户端迁移成本低。难点是团队要愿意维护流程文本，并根据自己代码库、测试方式和交付节奏做二次适配。",
@@ -261,12 +174,16 @@
         "Agent Skills",
         "工程流程",
         "需求澄清",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "团队 AI 编程规范落地",
+        "复杂功能需求到实现闭环",
+        "多 Agent 分工协作模板"
+      ],
       "adoption_notes_zh": [
         "先用一个真实小功能试跑，不要一次替换全部流程。",
         "把默认 skills 改成符合团队技术栈的版本。",
@@ -274,44 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "firecrawl/firecrawl",
-      "repo_id": 787076358,
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 151086,
-      "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Firecrawl 是面向 AI 应用的网页搜索、抓取和交互 API，能把网页数据抽取成更适合 LLM 使用的 Markdown、结构化内容或检索输入。它不是模型本身，而是解决 Agent 和 RAG 系统最常见的问题：如何稳定获取、清洗和使用 Web 数据。",
       "purpose_zh": "为 AI Agent、RAG 和数据管道提供规模化网页抓取与搜索能力。",
-      "application_scenarios_zh": [
-        "企业知识库自动更新",
-        "竞品和市场信息监控",
-        "Agent 联网搜索与资料整理"
-      ],
       "positioning_zh": "面向 AI 应用的 Web 数据抽取和爬取基础设施。",
       "product_view_zh": "它适合需要把公开网页接入 AI 工作流的团队，例如竞品监控、知识库更新、研究助手和销售情报。产品价值在于把复杂网页抓取、反爬处理和格式清洗封装成 API。",
       "technical_view_zh": "技术上涉及爬虫、搜索、HTML 到 Markdown、结构化抽取、队列和 API 服务。采用时要关注 robots、版权、速率限制、代理成本、失败重试和数据新鲜度，不能只看一次 demo 成功。",
@@ -329,12 +212,16 @@
         "网页抓取",
         "RAG",
         "联网 Agent",
-        "数据抽取",
-        "AI 工具"
+        "数据抽取"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "企业知识库自动更新",
+        "竞品和市场信息监控",
+        "Agent 联网搜索与资料整理"
+      ],
       "adoption_notes_zh": [
         "先明确数据来源许可、访问频率和缓存策略。",
         "对关键任务要设计失败重试和结果校验。",
@@ -342,33 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "jamiepine/voicebox",
-      "repo_id": 1141782198,
-      "url": "https://github.com/jamiepine/voicebox",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "cuda",
-        "mlx",
-        "qwen3-tts",
-        "qwen3-tts-ui",
-        "voice-ai",
-        "voice-clone",
-        "whisper"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 41339,
-      "readme_url": "https://github.com/jamiepine/voicebox/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Voicebox 是一个开源 AI voice studio，支持声音克隆、语音生成、听写到任意应用，以及用用户拥有的声音与 Agent 对话。它强调完整 voice I/O stack 在本机运行，topics 中也出现 CUDA、MLX、Qwen3-TTS、Whisper 等语音相关组件。",
       "purpose_zh": "提供本地语音克隆、TTS、听写和 Agent 语音交互能力。",
-      "application_scenarios_zh": [
-        "本地配音和语音生成",
-        "语音输入到桌面应用",
-        "Agent 语音交互原型"
-      ],
       "positioning_zh": "面向本地语音 AI 的开源桌面工作室。",
       "product_view_zh": "它适合需要隐私、本地化和可控声音资产的创作者与开发者，例如配音、语音输入、Agent 语音人格和辅助办公。相比云端语音服务，本地运行更适合敏感内容和个人 voice workflow。",
       "technical_view_zh": "技术上可能组合 TTS、ASR、CUDA/MLX 加速、本地模型和桌面输入输出。采用时要验证显卡或 Apple Silicon 兼容性、模型授权、音色质量、延迟和长文本稳定性。",
@@ -386,12 +250,16 @@
         "语音克隆",
         "TTS",
         "Whisper",
-        "本地 AI",
-        "AI 工具"
+        "本地 AI"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "本地配音和语音生成",
+        "语音输入到桌面应用",
+        "Agent 语音交互原型"
+      ],
       "adoption_notes_zh": [
         "只使用本人或明确授权的声音素材。",
         "先确认硬件加速和模型依赖是否匹配本机。",
@@ -399,35 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "JuliusBrussee/caveman",
-      "repo_id": 1201173969,
-      "url": "https://github.com/JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "anthropic",
-        "caveman",
-        "claude",
-        "claude-code",
-        "llm",
-        "meme",
-        "prompt-engineering",
-        "skill",
-        "tokens"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 89516,
-      "readme_url": "https://github.com/JuliusBrussee/caveman/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "caveman 是一个 Claude Code skill，目标是让 AI 编码 Agent 用极简语言回答，从而减少约 65% 输出 token。它带有明显玩梗风格，但背后指向真实问题：Agent 输出越来越冗长，成本和注意力都会被消耗。",
       "purpose_zh": "压缩 AI Agent 输出，减少 token 消耗和阅读负担。",
-      "application_scenarios_zh": [
-        "降低 AI 编程会话 token 消耗",
-        "压缩自动化任务状态输出",
-        "为工程师提供更直接的结论式回复"
-      ],
       "positioning_zh": "面向 AI 编程 Agent 的输出压缩与提示风格 skill。",
       "product_view_zh": "对高频使用 Claude Code、Codex 或其他 Agent 的用户，它能降低输出成本，让结果更短、更直接。它不提升推理能力，却能改善交互效率，尤其适合只想要命令、diff 和结论的工程场景。",
       "technical_view_zh": "技术形态是 skill/prompt 规则，接入门槛低，关键在于是否影响必要解释。好的用法是压缩冗余表达，而不是压掉风险说明、测试结果和关键假设。",
@@ -445,12 +288,16 @@
         "Token 优化",
         "Prompt Skill",
         "AI 编程",
-        "输出压缩",
-        "AI 工具"
+        "输出压缩"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "降低 AI 编程会话 token 消耗",
+        "压缩自动化任务状态输出",
+        "为工程师提供更直接的结论式回复"
+      ],
       "adoption_notes_zh": [
         "不要在高风险变更中压掉测试结果和失败原因。",
         "可以按场景设置不同压缩等级，而不是全局极简。",
@@ -458,35 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "braedonsaunders/codeflow",
-      "repo_id": 1117250245,
-      "url": "https://github.com/braedonsaunders/codeflow",
-      "description": "Paste any GitHub URL → interactive architecture map. See how files connect, find what breaks if you change something. No install, no accounts — runs entirely in your browser.",
-      "language": "HTML",
-      "topics": [
-        "architecture",
-        "browser-based",
-        "code-analysis",
-        "codebase-visualization",
-        "d3js",
-        "dependency-graph",
-        "developer-tools",
-        "github-api",
-        "single-file",
-        "visualization"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 4474,
-      "readme_url": "https://github.com/braedonsaunders/codeflow/blob/main/README.md",
       "ai_confidence": 0.62,
       "summary_zh": "CodeFlow 是一个浏览器内运行的代码架构可视化工具，输入 GitHub URL 或本地文件后生成交互式依赖图，帮助理解文件连接和改动影响。它不是直接的 AI 工具，但能补充 AI 编程前的代码理解和影响分析环节。",
       "purpose_zh": "把代码库结构可视化为交互式架构图，帮助开发者理解依赖关系。",
-      "application_scenarios_zh": [
-        "陌生代码库快速上手",
-        "重构前影响范围评估",
-        "AI 修改代码前的上下文准备"
-      ],
       "positioning_zh": "面向代码理解的浏览器端架构可视化工具。",
       "product_view_zh": "对接手陌生项目、准备重构或让 AI Agent 修改代码前的开发者，它能快速建立全局地图。无安装、无账号、浏览器内运行是亮点，适合轻量探索和演示。",
       "technical_view_zh": "技术上偏前端单页应用、GitHub API、依赖图解析和 D3 可视化。采用时要验证对不同语言的解析深度、超大仓库性能、私有仓库处理和浏览器内存占用。",
@@ -504,12 +326,16 @@
         "代码可视化",
         "依赖图",
         "架构理解",
-        "浏览器工具",
-        "AI 工具"
+        "浏览器工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "陌生代码库快速上手",
+        "重构前影响范围评估",
+        "AI 修改代码前的上下文准备"
+      ],
       "adoption_notes_zh": [
         "对私有或敏感代码先确认数据是否仅在本地处理。",
         "大仓库要测试性能和图谱可读性。",
@@ -517,35 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 83167,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Ponytail 是一个面向 AI Agent 的极简工程规则/插件，核心理念是让 Agent 像“懒惰的资深开发”一样少写代码、少造抽象、优先复用已有能力。它针对的是 AI 编程常见病：过度设计、过度修改和把简单任务做复杂。",
       "purpose_zh": "用 YAGNI 和极简工程原则约束 AI Agent，减少不必要代码。",
-      "application_scenarios_zh": [
-        "限制 AI 过度实现",
-        "维护老项目时控制变更范围",
-        "团队代码审查前的行为规范"
-      ],
       "positioning_zh": "面向 AI 编程的极简主义 Agent 行为约束。",
       "product_view_zh": "对频繁被 AI 写出大段无用代码的开发者来说，它有直接价值：让 Agent 在动手前优先问“能不能不写”。它不是功能型工具，而是一种工程品味注入，适合个人和小团队先行试用。",
       "technical_view_zh": "技术形态可能是规则、插件或 skills 配置，接入成本低，效果取决于 Agent 是否持续遵守。难点在于平衡：过度保守会阻碍必要重构，过度宽松又无法抑制复杂度增长。",
@@ -563,12 +364,16 @@
         "YAGNI",
         "Agent 规则",
         "极简工程",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "限制 AI 过度实现",
+        "维护老项目时控制变更范围",
+        "团队代码审查前的行为规范"
+      ],
       "adoption_notes_zh": [
         "适合和测试、diff 审查一起使用，不能只靠规则文件。",
         "对创新型任务要临时放宽约束，否则可能过度保守。",
