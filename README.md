@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 172,628 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 2 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | chinese-independent-developer 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 17 | 55,982 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 3 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 17 | 14,366 | C | `RAG` `大模型` `AI 编程` `模型推理` `C` | ★★★☆☆ | 中 |
-| 4 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 72,303 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
-| 5 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | Win11Debloat 围绕「A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your W…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 13 | 52,322 | PowerShell | `AI 工具` `PowerShell` `高增长` | ★★★★☆ | 中 |
-| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 22,980 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | awesome-llm-apps 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 10 | 122,067 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★★ | 中 |
-| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | destructive_command_guard 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 4,831 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 9 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 8 | 87,935 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 10 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Vibe-Trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 8 | 23,825 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★☆ | 高 |
+| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | 不是让 AI 接管流程，而是给工程师一盒可组合技能。 | 19 | 172,628 | Shell | `轻量 Skills` `工程经验` `TypeScript` `可组合` `AI 工具` | ★★★★☆ | 低 |
+| 2 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 它不是 AI 工具，但能看见中国独立开发者正在把 AI 做进哪些产品。 | 17 | 55,982 | Python | `独立开发` `项目索引` `AI 产品观察` `中文生态` `AI 工具` | ★★★☆☆ | 低 |
+| 3 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 25GB 内存跑 744B MoE，本地推理路线继续拉高上限。 | 17 | 14,366 | C | `本地推理` `MoE` `纯 C` `低内存` `AI 工具` | ★★★★★ | 高 |
+| 4 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 一个开源剪辑器正在给 AI Agent 留接口，值得视频自动化方向关注。 | 14 | 72,303 | TypeScript | `开源剪辑` `MCP` `视频自动化` `插件架构` `AI 工具` | ★★★☆☆ | 中 |
+| 5 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 它很热门，但不是 AI 项目，是一次值得保留的低置信样本。 | 13 | 52,322 | PowerShell | `Windows` `PowerShell` `系统清理` `非 AI` `AI 工具` | ★★☆☆☆ | 中 |
+| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把求职材料生成从一次性 prompt 变成可复用的本地工作流。 | 10 | 22,980 | TypeScript | `AI 求职` `Claude Code` `简历优化` `本地工作流` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ 个能跑的 LLM 应用样例，适合直接拆开学和改。 | 10 | 122,067 | Python | `LLM 应用` `RAG` `Agent` `示例合集` `AI 工具` | ★★★★★ | 低 |
+| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | AI 会跑命令之后，第一件事就是防止它误删你的项目。 | 8 | 4,831 | Rust | `Agent 安全` `命令拦截` `Rust` `开发防护` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个项目变成知识图谱，让 Agent 不再只靠翻几个文件猜上下文。 | 8 | 87,935 | Python | `GraphRAG` `知识图谱` `代码理解` `Agent Skills` `AI 工具` | ★★★★★ | 中 |
+| 10 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 交易 Agent 可以辅助研究，但不能把它当自动赚钱机器。 | 8 | 23,825 | Python | `交易 Agent` `量化金融` `MCP` `回测` `AI 工具` | ★★★★☆ | 高 |
 
 ## 数据与归档
 

@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-15",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-16T04:54:51.731971Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 19,
-      "total_stars": 172628,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "mattpocock/skills 收集的是作者日常工程中使用的 Agent skills，强调小、可组合、可修改，而不是让大型流程框架接管开发。它把真实工程经验沉淀为 AI 可以读取的技能文件，帮助编码助手在重构、调试和交付中更稳定。",
       "purpose_zh": "把真实工程经验拆成可复用的 AI Agent 技能，让开发者按需组合。",
-      "application_scenarios_zh": [
-        "个人 AI 编程配置增强",
-        "团队最佳实践样例库",
-        "重构和调试提示模板"
-      ],
       "positioning_zh": "面向真实工程场景的轻量 Agent skills 工具箱。",
       "product_view_zh": "它的价值在于降低 AI 编程的失控感：开发者可以只拿一个具体 skill 放进自己的工具链，而不必接受一整套庞大方法论。适合有工程判断力、希望保留控制权的个人和团队。",
       "technical_view_zh": "技术形态偏文本规则和技能文件，成本低、迁移快，可被多种 Agent 客户端读取。风险是效果依赖使用者是否理解技能边界，不能替代测试、类型检查和代码 review。",
@@ -44,12 +22,16 @@
         "轻量 Skills",
         "工程经验",
         "TypeScript",
-        "可组合",
-        "AI 工具"
+        "可组合"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "个人 AI 编程配置增强",
+        "团队最佳实践样例库",
+        "重构和调试提示模板"
+      ],
       "adoption_notes_zh": [
         "优先挑 2-3 个高频场景试用，避免技能堆叠冲突。",
         "把技能当作行为约束，不要替代自动化测试。",
@@ -57,28 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "1c7/chinese-independent-developer",
-      "repo_id": 104337773,
-      "url": "https://github.com/1c7/chinese-independent-developer",
-      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
-      "language": "Python",
-      "topics": [
-        "china",
-        "indie",
-        "indie-developer"
-      ],
-      "yesterday_new_stars": 17,
-      "total_stars": 55982,
-      "readme_url": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
       "ai_confidence": 0.43,
       "summary_zh": "chinese-independent-developer 是中国独立开发者项目列表，近期新增条目里出现了浏览器端模块化合成器和 AI Agent 辅助修改工程等产品线索。仓库本身不是 AI 工具，但它是观察国内独立开发者产品方向、上线节奏和一句话定位的有效样本。",
       "purpose_zh": "聚合中国独立开发者的产品和项目，展示上线状态与一句话介绍。",
-      "application_scenarios_zh": [
-        "AI 创业选题观察",
-        "独立产品案例收集",
-        "中文项目推广和竞品扫描"
-      ],
       "positioning_zh": "面向独立开发生态的项目索引与趋势观察样本。",
       "product_view_zh": "对 AI 创业者和内容作者，它的价值在于发现真实产品形态：不是论文或 demo，而是已经上线的网站和 App。它能帮助判断独立开发者更偏向教育、内容生产、音乐工具还是效率工具。",
       "technical_view_zh": "技术上是 Markdown 项目索引，没有复杂系统能力；关键在收录规则、PR 维护和介绍语质量。分析时不能把整个仓库当 AI 工具，只能把其中 AI 项目作为市场观察。",
@@ -96,12 +60,16 @@
         "独立开发",
         "项目索引",
         "AI 产品观察",
-        "中文生态",
-        "AI 工具"
+        "中文生态"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "AI 创业选题观察",
+        "独立产品案例收集",
+        "中文项目推广和竞品扫描"
+      ],
       "adoption_notes_zh": [
         "只把它当索引和市场样本，不要默认条目都可靠。",
         "关注新增日期、上线状态和产品描述是否具体。",
@@ -109,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "JustVugg/colibri",
-      "repo_id": 1286080397,
-      "url": "https://github.com/JustVugg/colibri",
-      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "topics": [],
-      "yesterday_new_stars": 17,
-      "total_stars": 14366,
-      "readme_url": "https://github.com/JustVugg/colibri/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "colibri 是一个纯 C 本地推理引擎，目标是在约 25GB 内存的消费级机器上运行 GLM-5.2 744B MoE。它把 VRAM、RAM 和磁盘作为统一内存层级，并通过 Web dashboard 展示 token 指标、硬件状态和专家分层。",
       "purpose_zh": "让个人机器也能实验超大 MoE 模型的低成本本地推理。",
-      "application_scenarios_zh": [
-        "本地离线大模型实验",
-        "MoE 推理系统课程演示",
-        "低成本边缘 AI 原型验证"
-      ],
       "positioning_zh": "面向极限本地推理实验的纯 C MoE 运行时。",
       "product_view_zh": "它更像技术路线验证，而不是大众应用。对研究者和本地大模型玩家，价值在于不用 GPU 集群也能观察超大 MoE 行为；可视化面板则让性能和资源瓶颈更容易诊断。",
       "technical_view_zh": "核心是 int4 量化、常驻稠密权重、专家权重磁盘流式加载、LRU 缓存和系统 page cache 协同。优势是依赖少、可审计、硬件门槛低；瓶颈仍主要在磁盘 IO、首 token 延迟和硬件调参。",
@@ -144,12 +98,16 @@
         "本地推理",
         "MoE",
         "纯 C",
-        "低内存",
-        "AI 工具"
+        "低内存"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "本地离线大模型实验",
+        "MoE 推理系统课程演示",
+        "低成本边缘 AI 原型验证"
+      ],
       "adoption_notes_zh": [
         "先确认模型文件来源、磁盘容量和 IO 性能。",
         "不要直接用于线上服务，先做延迟和稳定性评估。",
@@ -157,28 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "OpenCut-app/OpenCut",
-      "repo_id": 1006414368,
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "topics": [
-        "editor",
-        "oss",
-        "videoeditor"
-      ],
-      "yesterday_new_stars": 14,
-      "total_stars": 72303,
-      "readme_url": "https://github.com/OpenCut-app/OpenCut/blob/main/README.md",
       "ai_confidence": 0.56,
       "summary_zh": "OpenCut 是一个开源 CapCut 替代品，计划支持 Web、桌面和移动端，并正在重写为插件优先、Rust core、Editor API、headless 渲染和 MCP server 的架构。它本身是视频编辑器，但新架构明显为 AI Agent 自动化剪辑预留接口。",
       "purpose_zh": "提供免费开源的视频编辑器，并支持脚本化、插件化和自动化渲染。",
-      "application_scenarios_zh": [
-        "开源剪辑器替代评估",
-        "AI Agent 控制视频编辑器实验",
-        "批量渲染和脚本化剪辑原型"
-      ],
       "positioning_zh": "带 AI 自动化潜力的开源视频编辑平台。",
       "product_view_zh": "对创作者，它是 CapCut 替代路线；对 AI 工具开发者，更有价值的是未来的 MCP、headless 和脚本能力，可以把剪辑器接入 Agent 流程。当前仍处重写阶段，适合关注和试验。",
       "technical_view_zh": "规划中的 Rust core、跨端代码库、插件优先架构和 Editor API 都有利于长期扩展。采用风险在于重写期 API 可能变动大，真正生产可用还要看时间线和生态插件质量。",
@@ -196,12 +136,16 @@
         "开源剪辑",
         "MCP",
         "视频自动化",
-        "插件架构",
-        "AI 工具"
+        "插件架构"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "开源剪辑器替代评估",
+        "AI Agent 控制视频编辑器实验",
+        "批量渲染和脚本化剪辑原型"
+      ],
       "adoption_notes_zh": [
         "先确认当前版本与重写路线差异，不要混用旧 API。",
         "生产场景要等 Editor API 和 headless 能力稳定后再接入。",
@@ -209,45 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "Raphire/Win11Debloat",
-      "repo_id": 307843105,
-      "url": "https://github.com/Raphire/Win11Debloat",
-      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
-      "language": "PowerShell",
-      "topics": [
-        "automated",
-        "bloatware",
-        "bloatware-removal",
-        "cleanup",
-        "cli",
-        "debloat",
-        "debloater",
-        "interactive",
-        "optimize",
-        "powershell",
-        "powershell-script",
-        "privacy",
-        "ps1",
-        "registry-tweaks",
-        "tweaks",
-        "windows",
-        "windows-10",
-        "windows-11",
-        "windows10",
-        "windows11"
-      ],
-      "yesterday_new_stars": 13,
-      "total_stars": 52322,
-      "readme_url": "https://github.com/Raphire/Win11Debloat/blob/master/README.md",
       "ai_confidence": 0.18,
       "summary_zh": "Win11Debloat 是一个 Windows 10/11 去预装、关遥测和系统清理的 PowerShell 脚本，面向桌面优化和管理员批量配置。它不是 AI 项目，也不提供 Agent、模型或 RAG 能力；出现在榜单里更像是 GitHub 热门工具混入 AI 预筛的边界案例。",
       "purpose_zh": "帮助用户通过脚本清理 Windows 预装应用、遥测和界面干扰项。",
-      "application_scenarios_zh": [
-        "个人 Windows 环境精简",
-        "实验机批量初始化",
-        "系统脚本安全审计样本"
-      ],
       "positioning_zh": "非 AI 的 Windows 系统清理与隐私优化工具。",
       "product_view_zh": "对 Windows 用户和管理员，它的价值是快速统一系统配置、减少预装软件和干扰项。对本 AI 榜单来说，它主要提醒我们：热门仓库并不等于 AI 相关，自动筛选必须保留低置信标注。",
       "technical_view_zh": "技术上是 PowerShell 脚本和注册表/系统设置调整，接入门槛低但风险不低。执行前必须阅读脚本、确认变更项、备份系统，并避免在生产机器上无审计批量运行。",
@@ -265,12 +174,16 @@
         "Windows",
         "PowerShell",
         "系统清理",
-        "非 AI",
-        "AI 工具"
+        "非 AI"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 2,
+      "application_scenarios_zh": [
+        "个人 Windows 环境精简",
+        "实验机批量初始化",
+        "系统脚本安全审计样本"
+      ],
       "adoption_notes_zh": [
         "执行前先阅读脚本和 wiki，确认每项修改含义。",
         "重要设备先创建还原点或完整备份。",
@@ -278,37 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "MadsLorentzen/ai-job-search",
-      "repo_id": 1185389803,
-      "url": "https://github.com/MadsLorentzen/ai-job-search",
-      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "career",
-        "claude-code",
-        "cover-letter",
-        "cv",
-        "interview-preparation",
-        "job-application",
-        "job-hunting",
-        "job-search",
-        "latex",
-        "resume"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 22980,
-      "readme_url": "https://github.com/MadsLorentzen/ai-job-search/blob/master/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "ai-job-search 是一个运行在本机的 AI 求职框架，基于 Claude Code 帮用户评估岗位、定制 CV、写 cover letter 和准备面试。它不是 SaaS，而是可 fork 的个人求职工作流，让用户把简历、偏好和申请材料掌握在自己仓库里。",
       "purpose_zh": "用本地 AI 工作流辅助职位筛选、简历定制、求职信和面试准备。",
-      "application_scenarios_zh": [
-        "岗位匹配度评估",
-        "简历和求职信定制",
-        "面试问题准备和复盘"
-      ],
       "positioning_zh": "面向个人求职流程的 Claude Code 工作流框架。",
       "product_view_zh": "它适合认真投递、需要针对岗位定制材料的人。价值在于把求职从临时 prompt 变成可复用流程：岗位评估、CV 调整、cover letter 和面试准备都有结构化输入输出。",
       "technical_view_zh": "技术上基于 TypeScript、LaTeX 和 Claude Code 工作流，重点是模板、个人资料、岗位文本和生成材料之间的组织方式。采用时要注意隐私、版本管理和生成内容的真实性核查。",
@@ -326,12 +212,16 @@
         "AI 求职",
         "Claude Code",
         "简历优化",
-        "本地工作流",
-        "AI 工具"
+        "本地工作流"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "岗位匹配度评估",
+        "简历和求职信定制",
+        "面试问题准备和复盘"
+      ],
       "adoption_notes_zh": [
         "个人履历事实必须人工维护，不要让模型编造经历。",
         "投递前逐份检查语气、格式和岗位匹配度。",
@@ -339,29 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "Shubhamsaboo/awesome-llm-apps",
-      "repo_id": 793375104,
-      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "language": "Python",
-      "topics": [
-        "agents",
-        "llms",
-        "python",
-        "rag"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 122067,
-      "readme_url": "https://github.com/Shubhamsaboo/awesome-llm-apps/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "awesome-llm-apps 收集了 100+ 可运行、可克隆、可改造的 AI Agent、Agent skills 和 RAG 应用示例。它不是单一框架，而是一个面向开发者的 LLM 应用样例库，适合快速学习不同模型、RAG、多 Agent 和产品化 demo 的常见模式。",
       "purpose_zh": "提供可运行的 LLM、Agent 和 RAG 应用案例，帮助开发者快速复用和改造。",
-      "application_scenarios_zh": [
-        "AI 产品 demo 快速验证",
-        "RAG 和 Agent 学习路线",
-        "技术文章和教程选题"
-      ],
       "positioning_zh": "面向 LLM 应用开发者的可运行示例合集。",
       "product_view_zh": "它的产品价值在于降低从概念到 demo 的门槛：想做客服、研究助手、RAG 搜索或多 Agent 应用时，可以先找相近样例再改。对内容创作者，也适合做选题库。",
       "technical_view_zh": "技术上通常覆盖 Python、LLM API、RAG、Agent 编排和第三方服务集成。采用时要注意样例质量不一、依赖更新快、密钥配置和生产安全缺口，不应直接复制到线上。",
@@ -379,12 +250,16 @@
         "LLM 应用",
         "RAG",
         "Agent",
-        "示例合集",
-        "AI 工具"
+        "示例合集"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "AI 产品 demo 快速验证",
+        "RAG 和 Agent 学习路线",
+        "技术文章和教程选题"
+      ],
       "adoption_notes_zh": [
         "先选择近期维护且依赖清晰的示例。",
         "上线前必须补鉴权、日志、异常处理和成本控制。",
@@ -392,31 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "Dicklesworthstone/destructive_command_guard",
-      "repo_id": 1130004860,
-      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
-      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
-      "language": "Rust",
-      "topics": [
-        "ai-agents",
-        "cli",
-        "developer-tools",
-        "git",
-        "rust",
-        "safety"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 4831,
-      "readme_url": "https://github.com/Dicklesworthstone/destructive_command_guard/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "destructive_command_guard 是一个用 Rust 写的命令防护工具，目标是在 Claude Code、Codex CLI、Gemini CLI、Copilot CLI、Cursor 等 Agent 执行命令前拦截危险 git 和 shell 操作。它解决的是 AI 自动化越强、误删风险越大的实际问题。",
       "purpose_zh": "阻止 AI Agent 或开发者误执行高风险破坏性命令。",
-      "application_scenarios_zh": [
-        "AI 编程终端防护",
-        "团队本地开发安全基线",
-        "CI 或脚本执行前风险拦截"
-      ],
       "positioning_zh": "面向 AI 编程环境的 destructive command 安全防护层。",
       "product_view_zh": "它适合已经让 Agent 执行 shell、git、文件操作的团队，尤其是本地项目多、分支复杂、经常跑自动化脚本的场景。产品价值很明确：不提升生成能力，但降低一次误操作造成的损失。",
       "technical_view_zh": "Rust 实现有性能和分发优势，核心在命令匹配、hook 接入和规则维护。采用时要重点检查误拦截率、漏拦截率、跨平台兼容性，以及是否覆盖团队真正危险的命令模式。",
@@ -434,12 +288,16 @@
         "Agent 安全",
         "命令拦截",
         "Rust",
-        "开发防护",
-        "AI 工具"
+        "开发防护"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "AI 编程终端防护",
+        "团队本地开发安全基线",
+        "CI 或脚本执行前风险拦截"
+      ],
       "adoption_notes_zh": [
         "先用 dry-run 或日志模式观察一段时间，避免影响正常开发。",
         "把团队特有危险命令加入规则，而不是只依赖默认规则。",
@@ -447,36 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "Graphify-Labs/graphify",
-      "repo_id": 1200597263,
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "topics": [
-        "antigravity",
-        "claude-code",
-        "codex",
-        "gemini",
-        "graphrag",
-        "knowledge-graph",
-        "leiden",
-        "openclaw",
-        "rag",
-        "skills",
-        "tree-sitter"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 87935,
-      "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Graphify 是一个面向 AI 编码助手的知识图谱技能，可把代码目录、SQL schema、脚本、文档、论文、图片或视频转成可查询图谱。它把应用代码、数据库结构和基础设施放到同一张图里，服务 Claude Code、Codex、Cursor、Gemini CLI 等 Agent。",
       "purpose_zh": "把多模态项目资料转成知识图谱，让 AI Agent 更准确理解复杂代码库。",
-      "application_scenarios_zh": [
-        "遗留系统代码问答",
-        "数据库与应用影响分析",
-        "AI Agent 重构前上下文构建"
-      ],
       "positioning_zh": "面向 AI 编程和 GraphRAG 的代码知识图谱工具。",
       "product_view_zh": "它适合大型项目、遗留系统和跨语言仓库，解决 Agent 只看局部文件导致误判的问题。产品价值是把代码、数据库和文档的关系显式化，让问答、影响分析和重构计划更可靠。",
       "technical_view_zh": "技术上结合 tree-sitter、知识图谱、GraphRAG、社区发现和多资料解析。采用时要关注索引速度、增量更新、图谱质量、隐私数据处理，以及与现有 Agent 客户端的集成稳定性。",
@@ -494,12 +326,16 @@
         "GraphRAG",
         "知识图谱",
         "代码理解",
-        "Agent Skills",
-        "AI 工具"
+        "Agent Skills"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "遗留系统代码问答",
+        "数据库与应用影响分析",
+        "AI Agent 重构前上下文构建"
+      ],
       "adoption_notes_zh": [
         "先在一个中等规模仓库验证索引质量和查询命中率。",
         "敏感项目要确认图谱存储位置和数据脱敏策略。",
@@ -507,35 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "HKUDS/Vibe-Trading",
-      "repo_id": 1198306812,
-      "url": "https://github.com/HKUDS/Vibe-Trading",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "language": "Python",
-      "topics": [
-        "ai-agent",
-        "algorithmic-trading",
-        "backtesting",
-        "fintech",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "python",
-        "quantitative-finance",
-        "trading"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 23825,
-      "readme_url": "https://github.com/HKUDS/Vibe-Trading/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Vibe-Trading 是一个个人交易 Agent 项目，提供 FastAPI、React、MCP、多 Agent、回测和交易能力整合。它试图让用户用一条命令给 Agent 加上金融分析与交易工具，但金融场景天然高风险，必须区分研究、模拟和真实交易。",
       "purpose_zh": "为 AI Agent 提供交易分析、回测和金融工具调用能力。",
-      "application_scenarios_zh": [
-        "交易策略原型验证",
-        "金融数据问答和分析",
-        "MCP 工具调用研究"
-      ],
       "positioning_zh": "面向量化金融和个人交易的 AI Agent 工具箱。",
       "product_view_zh": "它适合做交易研究、策略原型和 Agent 工具调用实验，能把数据、回测、分析和交互界面串起来。真实价值在于辅助研究，而不是承诺收益；任何自动交易都需要独立风控和合规审查。",
       "technical_view_zh": "技术栈包含 Python、FastAPI、React、MCP 和多 Agent 设计，可能覆盖数据接入、策略执行和回测。采用时要重点验证数据源、滑点、手续费、过拟合、权限控制和交易账户隔离。",
@@ -553,12 +364,16 @@
         "交易 Agent",
         "量化金融",
         "MCP",
-        "回测",
-        "AI 工具"
+        "回测"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "交易策略原型验证",
+        "金融数据问答和分析",
+        "MCP 工具调用研究"
+      ],
       "adoption_notes_zh": [
         "只先在模拟盘或历史数据中验证，不要直接实盘。",
         "评估策略时必须加入手续费、滑点和回撤约束。",
