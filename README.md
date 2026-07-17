@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-15 (Asia/Shanghai)
+## 最新榜单：2026-07-16 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | 不是让 AI 接管流程，而是给工程师一盒可组合技能。 | 19 | 172,628 | Shell | `轻量 Skills` `工程经验` `TypeScript` `可组合` `AI 工具` | ★★★★☆ | 低 |
-| 2 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 它不是 AI 工具，但能看见中国独立开发者正在把 AI 做进哪些产品。 | 17 | 55,982 | Python | `独立开发` `项目索引` `AI 产品观察` `中文生态` `AI 工具` | ★★★☆☆ | 低 |
-| 3 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 25GB 内存跑 744B MoE，本地推理路线继续拉高上限。 | 17 | 14,366 | C | `本地推理` `MoE` `纯 C` `低内存` `AI 工具` | ★★★★★ | 高 |
-| 4 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 一个开源剪辑器正在给 AI Agent 留接口，值得视频自动化方向关注。 | 14 | 72,303 | TypeScript | `开源剪辑` `MCP` `视频自动化` `插件架构` `AI 工具` | ★★★☆☆ | 中 |
-| 5 | [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat) | 它很热门，但不是 AI 项目，是一次值得保留的低置信样本。 | 13 | 52,322 | PowerShell | `Windows` `PowerShell` `系统清理` `非 AI` `AI 工具` | ★★☆☆☆ | 中 |
-| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把求职材料生成从一次性 prompt 变成可复用的本地工作流。 | 10 | 22,980 | TypeScript | `AI 求职` `Claude Code` `简历优化` `本地工作流` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 100+ 个能跑的 LLM 应用样例，适合直接拆开学和改。 | 10 | 122,067 | Python | `LLM 应用` `RAG` `Agent` `示例合集` `AI 工具` | ★★★★★ | 低 |
-| 8 | [Dicklesworthstone/destructive_command_guard](https://github.com/Dicklesworthstone/destructive_command_guard) | AI 会跑命令之后，第一件事就是防止它误删你的项目。 | 8 | 4,831 | Rust | `Agent 安全` `命令拦截` `Rust` `开发防护` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个项目变成知识图谱，让 Agent 不再只靠翻几个文件猜上下文。 | 8 | 87,935 | Python | `GraphRAG` `知识图谱` `代码理解` `Agent Skills` `AI 工具` | ★★★★★ | 中 |
-| 10 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 交易 Agent 可以辅助研究，但不能把它当自动赚钱机器。 | 8 | 23,825 | Python | `交易 Agent` `量化金融` `MCP` `回测` `AI 工具` | ★★★★☆ | 高 |
+| 1 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | grok-build 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 76 | 12,692 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 中 |
+| 2 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 74,081 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
+| 3 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 11,002 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
+| 4 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | Codex-Dream-Skin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 5,864 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
+| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 11 | 89,160 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 6 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | chinese-independent-developer 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 9 | 57,368 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
+| 7 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 14,572 | 未知 | `AI 编程` `智能体` `多模态` `模型推理` `AI 设计` | ★★★☆☆ | 低 |
+| 8 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Vibe-Trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 9 | 24,325 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★☆ | 高 |
+| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 174,377 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 10 | [deer-flow/llm-space](https://github.com/deer-flow/llm-space) | llm-space 围绕「A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place. Local-first.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 881 | TypeScript | `智能体` `大模型` `AI 编程` `RAG` `多模态` | ★★☆☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-15.json](data/2026-07-15.json)
-- Markdown 归档：[reports/2026-07-15.md](reports/2026-07-15.md)
+- JSON 数据：[data/2026-07-16.json](data/2026-07-16.json)
+- Markdown 归档：[reports/2026-07-16.md](reports/2026-07-16.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
