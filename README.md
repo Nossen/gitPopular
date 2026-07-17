@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | grok-build 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 76 | 12,692 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 中 |
-| 2 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 74,081 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
-| 3 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 11,002 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
-| 4 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | Codex-Dream-Skin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 5,864 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
-| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 11 | 89,160 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 6 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | chinese-independent-developer 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 9 | 57,368 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 7 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 14,572 | 未知 | `AI 编程` `智能体` `多模态` `模型推理` `AI 设计` | ★★★☆☆ | 低 |
-| 8 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | Vibe-Trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 9 | 24,325 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★☆ | 高 |
-| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 174,377 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 10 | [deer-flow/llm-space](https://github.com/deer-flow/llm-space) | llm-space 围绕「A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place. Local-first.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 881 | TypeScript | `智能体` `大模型` `AI 编程` `RAG` `多模态` | ★★☆☆☆ | 中 |
+| 1 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | xAI 把编码 Agent 做成全屏终端工作台，能交互也能进 CI。 | 76 | 12,692 | Rust | `编码 Agent` `TUI` `Rust` `ACP` `AI 工具` | ★★★★★ | 中 |
+| 2 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 一个开源剪辑器正在给 AI Agent 留接口，值得视频自动化方向关注。 | 21 | 74,081 | TypeScript | `开源剪辑` `MCP` `视频自动化` `插件架构` `AI 工具` | ★★★☆☆ | 中 |
+| 3 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 专门对抗 AI 生成 UI 的模板味，让页面别一眼像模型产物。 | 20 | 11,002 | CSS | `AI 设计` `前端生成` `Design Skill` `反模板化` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 不是 AI 能力升级，而是给 Codex 桌面端换一张更有氛围的脸。 | 18 | 5,864 | JavaScript | `Codex` `桌面主题` `CDP 注入` `非 AI` `AI 工具` | ★★☆☆☆ | 中 |
+| 5 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个项目变成知识图谱，让 Agent 不再只靠翻几个文件猜上下文。 | 11 | 89,160 | Python | `GraphRAG` `知识图谱` `代码理解` `Agent Skills` `AI 工具` | ★★★★★ | 中 |
+| 6 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 它不是 AI 工具，但能看见中国独立开发者正在把 AI 做进哪些产品。 | 9 | 57,368 | Python | `独立开发` `项目索引` `AI 产品观察` `中文生态` `AI 工具` | ★★★☆☆ | 低 |
+| 7 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 把设计工程师的动画和 UI 品味装进 Agent，减少没必要的花活。 | 9 | 14,572 | 未知 | `Design Skills` `UI 动效` `前端生成` `设计工程` `AI 工具` | ★★★★☆ | 低 |
+| 8 | [HKUDS/Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) | 交易 Agent 可以辅助研究，但不能把它当自动赚钱机器。 | 9 | 24,325 | Python | `交易 Agent` `量化金融` `MCP` `回测` `AI 工具` | ★★★★☆ | 高 |
+| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | 不是让 AI 接管流程，而是给工程师一盒可组合技能。 | 8 | 174,377 | Shell | `轻量 Skills` `工程经验` `TypeScript` `可组合` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [deer-flow/llm-space](https://github.com/deer-flow/llm-space) | 给 Agent 开发加上 trace、回放和评估，不再只靠猜失败原因。 | 7 | 881 | TypeScript | `Agent 调试` `本地优先` `Trace` `评估` `AI 工具` | ★★★★★ | 中 |
 
 ## 数据与归档
 
