@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-17",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-18T02:37:00.344719Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "xai-org/grok-build",
-      "repo_id": 1300902838,
-      "url": "https://github.com/xai-org/grok-build",
-      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 42,
-      "total_stars": 16638,
-      "readme_url": "https://github.com/xai-org/grok-build/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "Grok Build 是 xAI/SpaceXAI 推出的终端 AI 编码 Agent，核心形态是全屏 TUI，可理解代码库、编辑文件、执行 shell、搜索网页并管理长任务。它既支持交互式编码，也支持 headless 脚本和 CI，还能通过 Agent Client Protocol 嵌入编辑器。",
       "purpose_zh": "把 AI 编程从聊天问答推进到可执行、可嵌入、可自动化的工程工作台。",
-      "application_scenarios_zh": [
-        "终端内 AI 编程协作",
-        "CI 中自动修复和验证代码",
-        "编辑器通过 ACP 接入 Agent"
-      ],
       "positioning_zh": "面向终端、CI 和编辑器集成的 AI 编程 Agent 运行环境。",
       "product_view_zh": "产品价值在于统一“看代码、改文件、跑命令、查资料、持续任务”这些动作，减少开发者在终端、浏览器和编辑器之间切换。它更适合重度工程团队做代码改造、验证和自动化修复，而不是只当普通代码补全工具。",
       "technical_view_zh": "技术上选择 Rust 和 TUI，有利于性能、跨平台和终端交互稳定性；ACP 让它具备协议化接入编辑器的潜力。采用时要重点评估 shell 权限、工作区隔离、长任务恢复、网页搜索可信度，以及 CI 中的失败回滚策略。",
@@ -44,12 +22,16 @@
         "编码 Agent",
         "终端工作流",
         "Rust",
-        "ACP",
-        "AI 工具"
+        "ACP"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "终端内 AI 编程协作",
+        "CI 中自动修复和验证代码",
+        "编辑器通过 ACP 接入 Agent"
+      ],
       "adoption_notes_zh": [
         "先在非关键仓库验证文件编辑、命令执行和回滚能力。",
         "为 shell、网络访问和密钥读取设置明确权限边界。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "Fei-Away/Codex-Dream-Skin",
-      "repo_id": 1301597356,
-      "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
-      "description": "Codex Dream Skin",
-      "language": "JavaScript",
-      "topics": [],
-      "yesterday_new_stars": 23,
-      "total_stars": 8757,
-      "readme_url": "https://github.com/Fei-Away/Codex-Dream-Skin/blob/main/README.md",
       "ai_confidence": 0.48,
       "summary_zh": "Codex Dream Skin 是给 Codex 桌面端做外部换肤的工具，通过本机 CDP 注入实现主题效果，不修改官方安装包。它不是模型、Agent 或推理框架，AI 相关性主要来自服务对象是 Codex 桌面端，以及面向 AI 开发者的使用体验美化。",
       "purpose_zh": "为 Codex 桌面端提供更有氛围感的外观主题和本地换肤方案。",
-      "application_scenarios_zh": [
-        "个性化 Codex 桌面端界面",
-        "AI 工具演示或内容录屏",
-        "本地主题方案试用"
-      ],
       "positioning_zh": "围绕 Codex 桌面端体验的本地主题增强工具。",
       "product_view_zh": "它的价值更偏体验层：让长期使用 Codex 的用户获得更个性化的界面，而不是提升模型能力或自动化效率。适合内容创作者、AI 工具重度用户或直播演示场景，用来提升界面辨识度和视觉氛围。",
       "technical_view_zh": "实现方式依赖本机 CDP 注入，优点是不改官方包、可回退；风险是桌面端版本变化可能导致注入失效。采用时应区分主题效果和 API 配置，不要让外观工具触碰模型密钥、代理和官方应用文件。",
@@ -92,12 +60,16 @@
         "Codex 主题",
         "本地注入",
         "开发者体验",
-        "低 AI 相关",
-        "AI 工具"
+        "低 AI 相关"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 2,
+      "application_scenarios_zh": [
+        "个性化 Codex 桌面端界面",
+        "AI 工具演示或内容录屏",
+        "本地主题方案试用"
+      ],
       "adoption_notes_zh": [
         "确认项目不会修改官方安装包或写入敏感配置。",
         "桌面端升级后先检查主题注入是否仍兼容。",
@@ -105,28 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "1c7/chinese-independent-developer",
-      "repo_id": 104337773,
-      "url": "https://github.com/1c7/chinese-independent-developer",
-      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
-      "language": "Python",
-      "topics": [
-        "china",
-        "indie",
-        "indie-developer"
-      ],
-      "yesterday_new_stars": 13,
-      "total_stars": 58456,
-      "readme_url": "https://github.com/1c7/chinese-independent-developer/blob/master/README.md",
       "ai_confidence": 0.44,
       "summary_zh": "chinese-independent-developer 是中国独立开发者项目列表，按网站、App、游戏和程序员项目等维度收录作品。它本身不是 AI 工具，但近期新增项目中包含 AI 视频、照片整理、工具型产品等案例，对观察国内独立开发者如何包装和验证 AI 产品有参考价值。",
       "purpose_zh": "聚合中国独立开发者项目，展示产品形态、上线状态和一句话介绍。",
-      "application_scenarios_zh": [
-        "AI 应用选题调研",
-        "独立开发竞品观察",
-        "学习产品一句话介绍写法"
-      ],
       "positioning_zh": "面向独立开发生态观察的项目索引库。",
       "product_view_zh": "产品价值在于提供真实的项目样本库，读者能看到独立开发者在做什么、如何写介绍、如何从小工具走向可用产品。对 AI 创业者而言，它更像选题和竞品观察入口，而不是直接可部署的软件。",
       "technical_view_zh": "技术门槛低，主体是 Markdown/目录维护，重点不在代码架构，而在收录规范、分类质量和链接可用性。若用于自动化分析，需要补充去重、项目状态识别、死链检测和 AI 类目抽取。",
@@ -144,12 +98,16 @@
         "独立开发",
         "项目索引",
         "产品观察",
-        "低 AI 相关",
-        "AI 工具"
+        "低 AI 相关"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "AI 应用选题调研",
+        "独立开发竞品观察",
+        "学习产品一句话介绍写法"
+      ],
       "adoption_notes_zh": [
         "将其作为观察样本，而不是技术依赖。",
         "分析项目时要核验链接、上线状态和维护情况。",
@@ -157,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "Nutlope/hallmark",
-      "repo_id": 1222917575,
-      "url": "https://github.com/Nutlope/hallmark",
-      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-      "language": "CSS",
-      "topics": [],
-      "yesterday_new_stars": 13,
-      "total_stars": 12097,
-      "readme_url": "https://github.com/Nutlope/hallmark/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Hallmark 是面向 Claude Code、Cursor 和 Codex 的设计 skill，目标是减少 AI 生成页面常见的模板味。它通过宏观结构选择、二十套主题、四个动作入口、五十多个 slop-test 检查和输出前自我审查，帮助 Agent 生成更像真实设计师完成的界面。",
       "purpose_zh": "提升 AI 生成 UI 的设计判断，避免千篇一律的模板化页面。",
-      "application_scenarios_zh": [
-        "AI 生成落地页",
-        "产品原型视觉优化",
-        "团队 UI 生成规范沉淀"
-      ],
       "positioning_zh": "面向 AI 编程工具的反 AI 味设计增强 skill。",
       "product_view_zh": "它对开发者的价值是把“审美规则”前置到 Agent 工作流里，减少反复要求改风格、改布局、去模板感的沟通成本。适合做落地页、产品页、工具界面原型，也适合团队沉淀自己的 UI 生成规范。",
       "technical_view_zh": "技术上不是传统组件库，而是一套可被 Agent 调用的设计指令和质量门禁。采用时要看它和现有设计系统是否冲突，必要时把品牌色、组件边界、可访问性和响应式规则补进本地 skill。",
@@ -192,12 +136,16 @@
         "设计 Skill",
         "反 AI 味",
         "前端生成",
-        "UI 质量门禁",
-        "AI 工具"
+        "UI 质量门禁"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "AI 生成落地页",
+        "产品原型视觉优化",
+        "团队 UI 生成规范沉淀"
+      ],
       "adoption_notes_zh": [
         "结合自身品牌规范二次改写，不要直接套用所有主题。",
         "把可访问性、移动端和真实数据状态纳入验收。",
@@ -205,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 12,
-      "total_stars": 175718,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "mattpocock/skills 是一组面向真实工程工作的 Agent skills，作者强调不是 vibe coding，而是帮助 AI 在复杂应用开发中遵守更好的工程习惯。它关注需求澄清、减少过度抽象、测试、代码审查和实际交付，比单纯提示词更接近可迁移的团队工作规范。",
       "purpose_zh": "把资深工程师的工作方法沉淀为可复用的 AI Agent 行为规则。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规范沉淀",
-        "PR 审查和测试流程强化",
-        "复杂需求拆解与执行约束"
-      ],
       "positioning_zh": "面向真实软件工程交付的 Agent skill 集合。",
       "product_view_zh": "产品价值在于降低 AI 编程的随机性，让 Agent 更像工程协作者而不是代码生成器。适合团队把常见工作流固化为技能，例如 PR 审查、重构、测试驱动修复和需求拆解，帮助输出更稳定。",
       "technical_view_zh": "它主要由文本化规则和目录组织构成，技术门槛低，但质量取决于规则是否足够具体、是否能被工具稳定执行。采用时应按团队语言栈、测试框架和代码规范裁剪，避免把泛化建议变成噪声。",
@@ -240,12 +174,16 @@
         "Agent Skills",
         "工程规范",
         "代码审查",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 AI 编程规范沉淀",
+        "PR 审查和测试流程强化",
+        "复杂需求拆解与执行约束"
+      ],
       "adoption_notes_zh": [
         "按本团队代码库和语言栈裁剪技能内容。",
         "把可验证标准写清楚，避免只留下价值观口号。",
@@ -253,36 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "Graphify-Labs/graphify",
-      "repo_id": 1200597263,
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "language": "Python",
-      "topics": [
-        "antigravity",
-        "claude-code",
-        "codex",
-        "gemini",
-        "graphrag",
-        "knowledge-graph",
-        "leiden",
-        "openclaw",
-        "rag",
-        "skills",
-        "tree-sitter"
-      ],
-      "yesterday_new_stars": 11,
-      "total_stars": 90306,
-      "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Graphify 是面向 AI 编码助手的知识图谱和 GraphRAG 工具，可把代码、SQL schema、R 脚本、shell 脚本、文档、论文、图片和视频等内容转成可查询图谱。它支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等工具，适合处理跨代码与知识资产的上下文问题。",
       "purpose_zh": "把多类型项目资产转成知识图谱，供 AI Agent 检索、理解和推理。",
-      "application_scenarios_zh": [
-        "大型代码库上下文检索",
-        "数据库 schema 与应用代码关联分析",
-        "企业知识资产图谱化"
-      ],
       "positioning_zh": "面向代码库和企业知识资产的 GraphRAG 上下文层。",
       "product_view_zh": "它的价值在于解决大项目中“Agent 不知道上下文在哪里”的问题，尤其是代码、数据库、基础设施和文档分散时。对团队来说，它可作为 AI 编程和知识问答的底座，帮助新人理解系统、辅助改造和追踪依赖。",
       "technical_view_zh": "技术上结合 tree-sitter、知识图谱、RAG 和社区发现等能力，适合结构化程度高的仓库。采用时要关注索引成本、增量更新、权限隔离、图谱可解释性，以及图查询结果能否真实改善 Agent 决策。",
@@ -300,12 +212,16 @@
         "GraphRAG",
         "知识图谱",
         "代码理解",
-        "上下文工程",
-        "AI 工具"
+        "上下文工程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "大型代码库上下文检索",
+        "数据库 schema 与应用代码关联分析",
+        "企业知识资产图谱化"
+      ],
       "adoption_notes_zh": [
         "先用一个代表性仓库验证索引质量和查询命中率。",
         "明确哪些文件、图片或文档允许进入图谱。",
@@ -313,40 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "nitrocloudofficial/nitrostack",
-      "repo_id": 1171376163,
-      "url": "https://github.com/nitrocloudofficial/nitrostack",
-      "description": "The full-stack TypeScript framework to build, test, and deploy production-ready MCP servers and AI-native apps.",
-      "language": "TypeScript",
-      "topics": [
-        "agentic-ai",
-        "ai",
-        "chatgpt",
-        "chatgpt-apps",
-        "claude",
-        "claude-apps",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "mcp-servers",
-        "mcp-tools",
-        "mcpagents",
-        "mcpapps",
-        "model-context-protocol",
-        "modelcontextprotocol"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 1174,
-      "readme_url": "https://github.com/nitrocloudofficial/nitrostack/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "NitroStack 是一个全栈 TypeScript 框架，用于构建、测试和部署生产级 MCP servers 与 AI-native apps。它强调 decorators、依赖注入、widgets、MCP server/client 生态，以及面向 ChatGPT、Claude 等应用入口的 AI 原生后端开发。",
       "purpose_zh": "提供生产级 TypeScript 框架，帮助团队更系统地构建 MCP 和 AI 应用后端。",
-      "application_scenarios_zh": [
-        "企业内部工具 MCP 化",
-        "ChatGPT/Claude 应用后端开发",
-        "AI 原生服务测试与部署"
-      ],
       "positioning_zh": "面向 MCP server 和 AI-native 应用的 TypeScript 工程框架。",
       "product_view_zh": "它的价值在于把 MCP 开发从零散脚本提升到框架化工程：模块、依赖注入、测试和部署路径更清晰。适合要把内部工具、数据源或业务能力暴露给 AI 助手的团队，尤其是已有 TypeScript 技术栈的组织。",
       "technical_view_zh": "技术选型围绕 TypeScript、decorators 和 DI，适合工程化团队，但也要求开发者理解 MCP 协议、工具权限和运行时边界。采用时要评估框架稳定性、版本兼容、部署方案和与现有后端框架的重叠。",
@@ -364,12 +250,16 @@
         "MCP",
         "TypeScript",
         "AI 后端",
-        "框架化",
-        "AI 工具"
+        "框架化"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "企业内部工具 MCP 化",
+        "ChatGPT/Claude 应用后端开发",
+        "AI 原生服务测试与部署"
+      ],
       "adoption_notes_zh": [
         "先用一个低风险内部工具验证框架开发体验。",
         "明确 MCP tool 的鉴权、审计和权限边界。",
@@ -377,24 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "emilkowalski/skills",
-      "repo_id": 1183325896,
-      "url": "https://github.com/emilkowalski/skills",
-      "description": "Skills for Design Engineers.",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 16497,
-      "readme_url": "https://github.com/emilkowalski/skills/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "emilkowalski/skills 是面向设计工程师的 skills 集合，重点帮助 AI 和开发者做出更好的界面、动画和交互判断。它来自作者在 Vercel、Linear 等公司积累的设计工程经验，强调 AI 放大专业判断，而不是替代专业能力。",
       "purpose_zh": "把高质量 UI、动画和交互经验沉淀为 AI 可复用的设计工程技能。",
-      "application_scenarios_zh": [
-        "AI 前端原型美化",
-        "动效和交互细节审查",
-        "团队设计工程经验沉淀"
-      ],
       "positioning_zh": "面向设计工程师和 AI 前端生成的审美与交互 skill 库。",
       "product_view_zh": "它适合用于提升 AI 生成界面的细节质量，尤其是动效节奏、布局选择、交互反馈和视觉克制。对个人开发者，它可以减少“能用但不好看”的返工；对团队，它可作为设计工程知识库的一部分。",
       "technical_view_zh": "这类 skill 的关键不是代码复杂度，而是规则是否具体、是否能在真实界面中验证。采用时应把它和现有组件库、动效规范、无障碍要求结合，并用截图或视觉回归检查输出是否真的改善。",
@@ -412,12 +288,16 @@
         "设计工程",
         "动效",
         "UI 生成",
-        "Agent Skills",
-        "AI 工具"
+        "Agent Skills"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "AI 前端原型美化",
+        "动效和交互细节审查",
+        "团队设计工程经验沉淀"
+      ],
       "adoption_notes_zh": [
         "结合实际产品场景选择 skill，不要机械套用。",
         "用移动端和桌面端截图检查排版与动效结果。",
@@ -425,24 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "multica-ai/andrej-karpathy-skills",
-      "repo_id": 1142983825,
-      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 193626,
-      "readme_url": "https://github.com/multica-ai/andrej-karpathy-skills/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "andrej-karpathy-skills 是一个单文件 CLAUDE.md，整理 Karpathy 对 LLM 编码常见问题的观察，并转化为 Claude Code 行为准则。它要求模型少做未经确认的假设、主动暴露困惑、避免过度抽象、清理无用代码，并在复杂任务中保持工程化节奏。",
       "purpose_zh": "用一份轻量规则文件改善 AI 编码助手的工程行为和沟通方式。",
-      "application_scenarios_zh": [
-        "改进 Claude Code 项目行为",
-        "编写团队 AGENTS/CLAUDE 规则",
-        "减少 AI 过度抽象和错误假设"
-      ],
       "positioning_zh": "面向 Claude Code 的轻量级 AI 编程行为约束模板。",
       "product_view_zh": "它的价值在于低成本：复制一份 CLAUDE.md 就能让 Agent 更重视澄清、边界、测试和简洁实现。适合个人开发者快速提高 AI 协作质量，也适合团队作为编写 AGENTS/CLAUDE 规则的参考样本。",
       "technical_view_zh": "技术实现极简，重点在规则质量而非工具链。采用时不能只复制文本，要结合项目结构、测试命令、代码风格和提交规范补充具体约束，否则模型仍可能把原则理解成空泛建议。",
@@ -460,12 +326,16 @@
         "CLAUDE.md",
         "AI 编程规范",
         "工程约束",
-        "轻量模板",
-        "AI 工具"
+        "轻量模板"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "改进 Claude Code 项目行为",
+        "编写团队 AGENTS/CLAUDE 规则",
+        "减少 AI 过度抽象和错误假设"
+      ],
       "adoption_notes_zh": [
         "将规则改写成项目可执行的具体约束。",
         "补充本仓库的测试、构建和提交命令。",
@@ -473,28 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "OpenCut-app/OpenCut",
-      "repo_id": 1006414368,
-      "url": "https://github.com/OpenCut-app/OpenCut",
-      "description": "The open-source CapCut alternative",
-      "language": "TypeScript",
-      "topics": [
-        "editor",
-        "oss",
-        "videoeditor"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 74918,
-      "readme_url": "https://github.com/OpenCut-app/OpenCut/blob/main/README.md",
       "ai_confidence": 0.56,
       "summary_zh": "OpenCut 是开源 CapCut 替代品，目标覆盖 Web、桌面和移动端。当前项目强调正在从底层重写，计划提供 Editor API、插件优先架构、Rust core、headless 渲染和 MCP server，因此它虽不是纯 AI 项目，但明显具备被 Agent 自动化控制的潜力。",
       "purpose_zh": "提供免费开源的视频编辑器，并为插件化、脚本化和自动化剪辑打基础。",
-      "application_scenarios_zh": [
-        "AI Agent 控制视频剪辑",
-        "批量渲染和脚本化剪辑",
-        "开源视频编辑器替代评估"
-      ],
       "positioning_zh": "带 AI 自动化潜力的开源视频编辑平台。",
       "product_view_zh": "对创作者，它是商业剪辑软件的开源替代方向；对 AI 应用开发者，更值得关注的是未来 MCP 和 headless 能力，可把视频剪辑纳入 Agent 流程。现阶段更适合跟踪路线和做原型，而不是直接替代成熟工作台。",
       "technical_view_zh": "技术路线偏重跨端、插件化和 Rust core，长期扩展性较好。风险在于重写期 API 变化大，插件生态和渲染稳定性尚需验证；如果要接入自动化流水线，应先确认版本、接口和素材处理边界。",
@@ -512,12 +364,16 @@
         "开源剪辑",
         "MCP",
         "视频自动化",
-        "插件架构",
-        "AI 工具"
+        "插件架构"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "AI Agent 控制视频剪辑",
+        "批量渲染和脚本化剪辑",
+        "开源视频编辑器替代评估"
+      ],
       "adoption_notes_zh": [
         "先区分当前可用功能和路线图能力。",
         "生产接入前验证渲染稳定性、素材兼容和导出质量。",
