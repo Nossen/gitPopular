@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-17 (Asia/Shanghai)
+## 最新榜单：2026-07-18 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | xAI 把编码 Agent 做成终端工作台，交互、脚本和 CI 场景都能覆盖。 | 42 | 16,638 | Rust | `编码 Agent` `终端工作流` `Rust` `ACP` `AI 工具` | ★★★★★ | 中 |
-| 2 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 不是提升模型能力，而是给 Codex 桌面端换一张更有氛围的脸。 | 23 | 8,757 | JavaScript | `Codex 主题` `本地注入` `开发者体验` `低 AI 相关` `AI 工具` | ★★☆☆☆ | 低 |
-| 3 | [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) | 看国内独立开发者在做什么，比单看技术框架更接近真实需求。 | 13 | 58,456 | Python | `独立开发` `项目索引` `产品观察` `低 AI 相关` `AI 工具` | ★★★☆☆ | 低 |
-| 4 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | 它不是给页面换色，而是让 AI 生成界面先过一遍反模板味检查。 | 13 | 12,097 | CSS | `设计 Skill` `反 AI 味` `前端生成` `UI 质量门禁` `AI 工具` | ★★★★☆ | 低 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的做事方式写成 skills，比堆提示词更可复用。 | 12 | 175,718 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 6 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把代码、数据库和文档连成知识图谱，让 Agent 不再只靠模糊检索。 | 11 | 90,306 | Python | `GraphRAG` `知识图谱` `代码理解` `上下文工程` `AI 工具` | ★★★★★ | 中 |
-| 7 | [nitrocloudofficial/nitrostack](https://github.com/nitrocloudofficial/nitrostack) | 把 MCP server 开发框架化，适合 TypeScript 团队做 AI 原生后端。 | 10 | 1,174 | TypeScript | `MCP` `TypeScript` `AI 后端` `框架化` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 把资深设计工程经验变成 skills，让 AI 生成界面少一点生硬感。 | 9 | 16,497 | 未知 | `设计工程` `动效` `UI 生成` `Agent Skills` `AI 工具` | ★★★★☆ | 低 |
-| 9 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 一份 CLAUDE.md 就能约束 Agent 少假设、少过度设计、多验证。 | 9 | 193,626 | 未知 | `CLAUDE.md` `AI 编程规范` `工程约束` `轻量模板` `AI 工具` | ★★★★☆ | 低 |
-| 10 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 开源剪辑器正在预留 MCP 和 headless 能力，视频 Agent 值得盯。 | 9 | 74,918 | TypeScript | `开源剪辑` `MCP` `视频自动化` `插件架构` `AI 工具` | ★★★☆☆ | 中 |
+| 1 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | grok-build 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 18,959 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 中 |
+| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 8 | 3,786 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 3 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 75,454 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
+| 4 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | build-your-own-x 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 6 | 528,323 | Markdown | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 85,614 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 6 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 6 | 17,544 | 未知 | `AI 编程` `智能体` `多模态` `模型推理` `AI 设计` | ★★★☆☆ | 低 |
+| 7 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | Codex-Dream-Skin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 9,781 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
+| 8 | [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | OfficeCLI 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 19,317 | C# | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 176,650 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 10 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 12,872 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-17.json](data/2026-07-17.json)
-- Markdown 归档：[reports/2026-07-17.md](reports/2026-07-17.md)
+- JSON 数据：[data/2026-07-18.json](data/2026-07-18.json)
+- Markdown 归档：[reports/2026-07-18.md](reports/2026-07-18.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
