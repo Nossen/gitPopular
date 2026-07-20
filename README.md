@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [oblien/openship](https://github.com/oblien/openship) | openship 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 3,292 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
-| 2 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 10 | 91,638 | Python | `RAG` `知识库` `上下文` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | kimi-cli 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 9,917 | Python | `智能体` `自动化` `工具调用` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 9 | 6,029 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 5 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | moonshine 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 9,349 | C++ | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 6 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | grok-build 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 20,157 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★☆ | 中 |
-| 7 | [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | wigolo 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 8 | 1,898 | TypeScript | `RAG` `知识库` `上下文` `智能体` `MCP` | ★★☆☆☆ | 高 |
-| 8 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 7 | 20,325 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 9 | [laoma2053/awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free) | awesome-zhuiju-free 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 7 | 3,742 | JavaScript | `AI 教程` `学习路径` `工程实践` `开发工具` `AI 编程` | ★★★☆☆ | 中 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 177,614 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 1 | [oblien/openship](https://github.com/oblien/openship) | 一个自托管部署平台，未来可能成为 Agent 执行发布和回滚的入口。 | 18 | 3,292 | TypeScript | `自托管` `CI/CD` `部署平台` `Agent 运维` `AI 工具` | ★★★☆☆ | 中 |
+| 2 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把代码、数据库和文档连成知识图谱，让 Agent 不再只靠模糊检索。 | 10 | 91,638 | Python | `GraphRAG` `知识图谱` `代码理解` `上下文工程` `AI 工具` | ★★★★★ | 中 |
+| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi 的终端 Agent 正向 Kimi Code CLI 迁移，新旧入口都值得关注。 | 10 | 9,917 | Python | `Kimi` `CLI Agent` `AI 编程` `终端工具` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 9 | 6,029 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
+| 5 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | 端侧低延迟 STT/TTS，让语音 Agent 不必每一步都依赖云 API。 | 9 | 9,349 | C++ | `语音 Agent` `STT` `TTS` `本地优先` `AI 工具` | ★★★★★ | 中 |
+| 6 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | xAI 的编码 Agent 继续上榜，终端、脚本和 CI 场景都能覆盖。 | 9 | 20,157 | Rust | `编码 Agent` `终端工作流` `Rust` `ACP` `AI 工具` | ★★★★★ | 中 |
+| 7 | [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | 不给 Agent 接云搜索 API，也能本地做搜索、抓取和网页研究。 | 8 | 1,898 | TypeScript | `MCP` `Web 搜索` `本地优先` `网页爬取` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个端点聚合大量模型和免费额度，但生产接入前必须严查安全边界。 | 7 | 20,325 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★☆☆ | 高 |
+| 9 | [laoma2053/awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free) | 这是追剧资源索引，不是 AI 项目，应作为误召回样本处理。 | 7 | 3,742 | JavaScript | `影视资源` `资源索引` `自动检测` `低 AI 相关` `AI 工具` | ★☆☆☆☆ | 低 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的做事方式写成 skills，比堆提示词更可复用。 | 7 | 177,614 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
 
 ## 数据与归档
 
