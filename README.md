@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-19 (Asia/Shanghai)
+## 最新榜单：2026-07-20 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [oblien/openship](https://github.com/oblien/openship) | 一个自托管部署平台，未来可能成为 Agent 执行发布和回滚的入口。 | 18 | 3,292 | TypeScript | `自托管` `CI/CD` `部署平台` `Agent 运维` `AI 工具` | ★★★☆☆ | 中 |
-| 2 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把代码、数据库和文档连成知识图谱，让 Agent 不再只靠模糊检索。 | 10 | 91,638 | Python | `GraphRAG` `知识图谱` `代码理解` `上下文工程` `AI 工具` | ★★★★★ | 中 |
-| 3 | [MoonshotAI/kimi-cli](https://github.com/MoonshotAI/kimi-cli) | Kimi 的终端 Agent 正向 Kimi Code CLI 迁移，新旧入口都值得关注。 | 10 | 9,917 | Python | `Kimi` `CLI Agent` `AI 编程` `终端工具` `AI 工具` | ★★★★☆ | 低 |
-| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 9 | 6,029 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
-| 5 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | 端侧低延迟 STT/TTS，让语音 Agent 不必每一步都依赖云 API。 | 9 | 9,349 | C++ | `语音 Agent` `STT` `TTS` `本地优先` `AI 工具` | ★★★★★ | 中 |
-| 6 | [xai-org/grok-build](https://github.com/xai-org/grok-build) | xAI 的编码 Agent 继续上榜，终端、脚本和 CI 场景都能覆盖。 | 9 | 20,157 | Rust | `编码 Agent` `终端工作流` `Rust` `ACP` `AI 工具` | ★★★★★ | 中 |
-| 7 | [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | 不给 Agent 接云搜索 API，也能本地做搜索、抓取和网页研究。 | 8 | 1,898 | TypeScript | `MCP` `Web 搜索` `本地优先` `网页爬取` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个端点聚合大量模型和免费额度，但生产接入前必须严查安全边界。 | 7 | 20,325 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★☆☆ | 高 |
-| 9 | [laoma2053/awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free) | 这是追剧资源索引，不是 AI 项目，应作为误召回样本处理。 | 7 | 3,742 | JavaScript | `影视资源` `资源索引` `自动检测` `低 AI 相关` `AI 工具` | ★☆☆☆☆ | 低 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的做事方式写成 skills，比堆提示词更可复用。 | 7 | 177,614 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 1 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 12 | 10,496 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 2 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 5,360 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
+| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 5 | 21,986 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [oblien/openship](https://github.com/oblien/openship) | openship 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 4,908 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
+| 5 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | code-review-graph 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 5 | 23,373 | Python | `RAG` `知识库` `上下文` `AI 编程` `代码审查` | ★★★★☆ | 中 |
+| 6 | [unicity-aos/capsule-react](https://github.com/unicity-aos/capsule-react) | capsule-react 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 2,850 | Rust | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★☆☆☆ | 中 |
+| 7 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | Codex-Dream-Skin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 11,120 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `AI 设计` | ★★★☆☆ | 中 |
+| 8 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 24,457 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 9 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | jcode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 9,705 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 10 | [Canner/WrenAI](https://github.com/Canner/WrenAI) | WrenAI 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 16,452 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-19.json](data/2026-07-19.json)
-- Markdown 归档：[reports/2026-07-19.md](reports/2026-07-19.md)
+- JSON 数据：[data/2026-07-20.json](data/2026-07-20.json)
+- Markdown 归档：[reports/2026-07-20.md](reports/2026-07-20.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
