@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [unicity-aos/capsule-identity](https://github.com/unicity-aos/capsule-identity) | capsule-identity 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 5,855 | Rust | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★★☆☆ | 中 |
-| 2 | [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | aos-ce 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 5,742 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 3 | [unicity-aos/capsule-react](https://github.com/unicity-aos/capsule-react) | capsule-react 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 5,091 | Rust | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★★☆☆ | 中 |
-| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 10 | 14,981 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 5 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | worldmonitor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 65,740 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
-| 6 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | moonshine 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 10,243 | C++ | `智能体` `自动化` `工具调用` `多模态` `模型推理` | ★★★☆☆ | 高 |
-| 7 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 74,771 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 180,659 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 9 | [Julian-adv/OpenMMO](https://github.com/Julian-adv/OpenMMO) | OpenMMO 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 724 | Rust | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★☆☆☆ | 高 |
-| 10 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | SkillOpt 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 14,083 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 1 | [unicity-aos/capsule-identity](https://github.com/unicity-aos/capsule-identity) | 把 Agent 身份和 system prompt 做成 OS 级组件，适合研究 Agent 运行时。 | 12 | 5,855 | Rust | `Agent OS` `System Prompt` `Rust` `身份管理` `AI 工具` | ★★★☆☆ | 高 |
+| 2 | [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | 一个开源 Agent OS，把 CLI、运行时、capsule 和审计打包成产品。 | 11 | 5,742 | Rust | `Agent OS` `自托管` `Rust` `可审计` `AI 工具` | ★★★★☆ | 高 |
+| 3 | [unicity-aos/capsule-react](https://github.com/unicity-aos/capsule-react) | 把 ReAct 循环做成 Rust 状态机，是 Agent OS 化的一块底层拼图。 | 11 | 5,091 | Rust | `ReAct` `Agent OS` `Rust` `状态机` `AI 工具` | ★★★☆☆ | 高 |
+| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 10 | 14,981 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
+| 5 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 把全球新闻、地缘政治和基础设施信号做成 AI 态势感知看板。 | 6 | 65,740 | TypeScript | `OSINT` `新闻聚合` `MCP` `态势感知` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | 端侧低延迟 STT/TTS，让语音 Agent 不必每一步都依赖云 API。 | 6 | 10,243 | C++ | `语音 Agent` `STT` `TTS` `本地优先` `AI 工具` | ★★★★★ | 中 |
+| 7 | [earendil-works/pi](https://github.com/earendil-works/pi) | 一个包含统一 LLM API、Agent runtime 和编码 CLI 的 Agent harness。 | 5 | 74,771 | TypeScript | `Agent Harness` `LLM API` `编码 CLI` `TypeScript` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的做事方式写成 skills，比堆提示词更可复用。 | 5 | 180,659 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 9 | [Julian-adv/OpenMMO](https://github.com/Julian-adv/OpenMMO) | 真人和 Agent 用同一协议进入 MMORPG，是观察 Agent 行为的实验场。 | 4 | 724 | Rust | `AI 游戏` `多 Agent` `WebSocket` `虚拟世界` `AI 工具` | ★★★☆☆ | 中 |
+| 10 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | 不改模型权重，也能像训练模型一样迭代优化 Agent skills。 | 4 | 14,083 | Python | `Agent Skills` `自进化 Agent` `提示优化` `Microsoft` `AI 工具` | ★★★★★ | 高 |
 
 ## 数据与归档
 
