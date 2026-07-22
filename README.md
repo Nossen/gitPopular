@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-20 (Asia/Shanghai)
+## 最新榜单：2026-07-21 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 12 | 10,496 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
-| 2 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 让 Agent 少铺垫、先给答案，适合被长篇输出折磨的开发者。 | 6 | 5,360 | 未知 | `Agent Skill` `输出风格` `开发者效率` `Codex` `AI 工具` | ★★★☆☆ | 低 |
-| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个端点聚合大量模型和免费额度，但生产接入前必须严查安全边界。 | 5 | 21,986 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★☆☆ | 高 |
-| 4 | [oblien/openship](https://github.com/oblien/openship) | 一个自托管部署平台，未来可能成为 Agent 执行发布和回滚的入口。 | 5 | 4,908 | TypeScript | `自托管` `CI/CD` `部署平台` `Agent 运维` `AI 工具` | ★★★☆☆ | 中 |
-| 5 | [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | 给代码库建持久图谱，让 Agent 审代码时少烧 token、少读错文件。 | 5 | 23,373 | Python | `代码图谱` `代码审查` `MCP` `上下文工程` `AI 工具` | ★★★★★ | 中 |
-| 6 | [unicity-aos/capsule-react](https://github.com/unicity-aos/capsule-react) | 把 ReAct 循环做成 Rust 状态机，是 Agent OS 化的一块底层拼图。 | 5 | 2,850 | Rust | `ReAct` `Agent OS` `Rust` `状态机` `AI 工具` | ★★★☆☆ | 高 |
-| 7 | [Fei-Away/Codex-Dream-Skin](https://github.com/Fei-Away/Codex-Dream-Skin) | 不是提升模型能力，而是给 Codex 桌面端换一张更有氛围的脸。 | 4 | 11,120 | JavaScript | `Codex 主题` `本地注入` `开发者体验` `低 AI 相关` `AI 工具` | ★★☆☆☆ | 低 |
-| 8 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把求职变成本地 AI 工作流：筛 JD、改简历、写求职信、准备面试。 | 4 | 24,457 | TypeScript | `求职自动化` `Claude Code` `简历优化` `本地优先` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [1jehuang/jcode](https://github.com/1jehuang/jcode) | Rust 终端编码 Agent，重点放在多会话、MCP 和高度可定制。 | 3 | 9,705 | Rust | `编码 Agent` `Rust` `TUI` `MCP` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [Canner/WrenAI](https://github.com/Canner/WrenAI) | 开源 GenBI：让 Agent 基于可信上下文层生成 SQL、图表和仪表盘。 | 3 | 16,452 | Python | `GenBI` `Text-to-SQL` `数据分析` `上下文层` `AI 工具` | ★★★★★ | 高 |
+| 1 | [unicity-aos/capsule-identity](https://github.com/unicity-aos/capsule-identity) | capsule-identity 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 5,855 | Rust | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★★☆☆ | 中 |
+| 2 | [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | aos-ce 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 5,742 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 3 | [unicity-aos/capsule-react](https://github.com/unicity-aos/capsule-react) | capsule-react 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 5,091 | Rust | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★★☆☆ | 中 |
+| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 10 | 14,981 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 5 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | worldmonitor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 65,740 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
+| 6 | [moonshine-ai/moonshine](https://github.com/moonshine-ai/moonshine) | moonshine 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 10,243 | C++ | `智能体` `自动化` `工具调用` `多模态` `模型推理` | ★★★☆☆ | 高 |
+| 7 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 74,771 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 180,659 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 9 | [Julian-adv/OpenMMO](https://github.com/Julian-adv/OpenMMO) | OpenMMO 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 724 | Rust | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★☆☆☆ | 高 |
+| 10 | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | SkillOpt 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 14,083 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-20.json](data/2026-07-20.json)
-- Markdown 归档：[reports/2026-07-20.md](reports/2026-07-20.md)
+- JSON 数据：[data/2026-07-21.json](data/2026-07-21.json)
+- Markdown 归档：[reports/2026-07-21.md](reports/2026-07-21.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
