@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | worldmonitor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 69,198 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
-| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 13 | 17,355 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 3 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 4,281 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 182,592 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 5 | [unicity-aos/capsule-identity](https://github.com/unicity-aos/capsule-identity) | capsule-identity 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 6,709 | Rust | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★★☆☆ | 中 |
-| 6 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 5 | 17,503 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 7 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 25,342 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 8 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 77,636 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
-| 9 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 4 | 232,252 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 10 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 4 | 25,441 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 1 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 把全球新闻、地缘政治和基础设施信号做成 AI 态势感知看板。 | 16 | 69,198 | TypeScript | `OSINT` `新闻聚合` `MCP` `态势感知` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 13 | 17,355 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
+| 3 | [block/buzz](https://github.com/block/buzz) | 把人和 Agent 放进同一个自托管工作区，用事件流协作构建项目。 | 8 | 4,281 | Rust | `Agent 协作` `自托管` `Nostr` `工作流` `AI 工具` | ★★★★☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的做事方式写成 skills，比堆提示词更可复用。 | 6 | 182,592 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [unicity-aos/capsule-identity](https://github.com/unicity-aos/capsule-identity) | 把 Agent 身份和 system prompt 做成 OS 级组件，适合研究 Agent 运行时。 | 6 | 6,709 | Rust | `Agent OS` `System Prompt` `Rust` `身份管理` `AI 工具` | ★★★☆☆ | 高 |
+| 6 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 百度开源长程 OCR 模型，适合复杂文档和知识库入口解析。 | 5 | 17,503 | Python | `OCR` `文档解析` `视觉模型` `百度` `AI 工具` | ★★★★★ | 中 |
+| 7 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把求职变成本地 AI 工作流：筛 JD、改简历、写求职信、准备面试。 | 5 | 25,342 | TypeScript | `求职自动化` `Claude Code` `简历优化` `本地优先` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | 开源剪辑器正在预留 MCP 和 headless 能力，视频 Agent 值得盯。 | 5 | 77,636 | TypeScript | `开源剪辑` `MCP` `视频自动化` `插件架构` `AI 工具` | ★★★☆☆ | 中 |
+| 9 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 把 skills、记忆、安全和研究流程打包成 Agent harness 优化体系。 | 4 | 232,252 | JavaScript | `Agent Harness` `AI 编程` `Skills` `Memory` `AI 工具` | ★★★☆☆ | 中 |
+| 10 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个端点聚合大量模型和免费额度，但生产接入前必须严查安全边界。 | 4 | 25,441 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
