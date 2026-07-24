@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | worldmonitor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 71,762 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
-| 2 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 12 | 18,212 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 12 | 27,340 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 4 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 9,256 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 5 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 76,389 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 6 | [marcelroed/gigatoken](https://github.com/marcelroed/gigatoken) | gigatoken 围绕「Language model tokenization at GB/s」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 2,063 | Rust | `大模型` `模型推理` `RAG` `AI 编程` `多模态` | ★★☆☆☆ | 中 |
-| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 184,795 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 8 | [oblien/openship](https://github.com/oblien/openship) | openship 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 7,934 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
-| 9 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 27,466 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 7,132 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 1 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 把全球新闻、地缘政治和基础设施信号做成 Agent 可用的态势感知看板。 | 13 | 71,762 | TypeScript | `OSINT` `新闻聚合` `MCP` `态势感知` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 百度把长文档 OCR 做成 one-shot parsing，复杂版面解析值得关注。 | 12 | 18,212 | Python | `OCR` `文档解析` `视觉模型` `百度` `AI 工具` | ★★★★★ | 中 |
+| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个入口接 290 多家 AI provider，并自动处理额度、fallback 和 token 压缩。 | 12 | 27,340 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
+| 4 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 一个让 Coding Agent 少废话、先给结论的轻量 skill。 | 9 | 9,256 | Python | `Agent Skills` `输出规范` `AI 编程` `效率工具` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [earendil-works/pi](https://github.com/earendil-works/pi) | 把 LLM API、Agent loop、TUI 和 coding agent CLI 做成一套工程 harness。 | 9 | 76,389 | TypeScript | `Agent Harness` `LLM API` `TUI` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [marcelroed/gigatoken](https://github.com/marcelroed/gigatoken) | 把语言模型 tokenizer 做到 GB/s 级，适合大规模文本管线提速。 | 9 | 2,063 | Rust | `Tokenizer` `Rust` `LLM 基建` `数据处理` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把成熟工程师的工作习惯打包成可复用的 Agent skills。 | 9 | 184,795 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 低 |
+| 8 | [oblien/openship](https://github.com/oblien/openship) | 一个开源自托管部署平台，适合承接 Agent 参与交付的下一步。 | 8 | 7,934 | TypeScript | `自托管` `CI/CD` `部署平台` `Agent DevOps` `AI 工具` | ★★★☆☆ | 高 |
+| 9 | [stablyai/orca](https://github.com/stablyai/orca) | 把多个编码 Agent 放进各自 worktree，用一个 ADE 统一管理。 | 8 | 27,466 | TypeScript | `并行 Agent` `Worktree` `Agent IDE` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码事件和审批都放进一个自托管协作空间。 | 7 | 7,132 | Rust | `Agent 协作` `自托管` `Nostr` `事件日志` `AI 工具` | ★★★★☆ | 高 |
 
 ## 数据与归档
 

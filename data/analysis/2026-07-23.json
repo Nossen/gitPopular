@@ -1,45 +1,10 @@
 {
-  "date": "2026-07-23",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-24T02:38:32.266720Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "koala73/worldmonitor",
-      "repo_id": 1130564872,
-      "url": "https://github.com/koala73/worldmonitor",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "language": "TypeScript",
-      "topics": [
-        "agent",
-        "ai",
-        "dashboard",
-        "geopolitics",
-        "mcp",
-        "mcp-server",
-        "monitoring",
-        "news",
-        "opensource",
-        "osint",
-        "palantir",
-        "situation"
-      ],
-      "yesterday_new_stars": 13,
-      "total_stars": 71762,
-      "readme_url": "https://github.com/koala73/worldmonitor/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "World Monitor 是实时全球情报仪表盘，把新闻聚合、地缘政治监控、基础设施追踪和 MCP server 放在同一套态势感知界面里。它适合把公开信息流变成可扫描、可订阅、可被 Agent 查询的风险视图，但在高风险场景仍需要人工核验来源与结论。",
       "purpose_zh": "聚合全球新闻、地缘事件和基础设施信号，形成实时态势感知看板。",
-      "application_scenarios_zh": [
-        "全球事件监控",
-        "地缘风险分析",
-        "Agent 查询实时情报"
-      ],
       "positioning_zh": "面向 OSINT 与地缘风险监控的 AI 情报仪表盘。",
       "product_view_zh": "产品价值在于把分散新闻和监控信号压缩成统一界面，适合安全、政策、新闻和企业风险团队快速发现异常。MCP 能力让它不只是看板，也能成为 Agent 的外部情报源。",
       "technical_view_zh": "TypeScript、dashboard、MCP server 和 OSINT 数据流是核心。采用时要重点评估来源可信度、去重、延迟、误报、数据版权，以及 AGPL 许可证对内部部署和二次分发的影响。",
@@ -57,12 +22,16 @@
         "OSINT",
         "新闻聚合",
         "MCP",
-        "态势感知",
-        "AI 工具"
+        "态势感知"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "全球事件监控",
+        "地缘风险分析",
+        "Agent 查询实时情报"
+      ],
       "adoption_notes_zh": [
         "先确认数据源质量、更新频率和版权边界。",
         "为告警建立人工复核流程，避免模型摘要被直接当事实。",
@@ -70,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "baidu/Unlimited-OCR",
-      "repo_id": 1273138090,
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 12,
-      "total_stars": 18212,
-      "readme_url": "https://github.com/baidu/Unlimited-OCR/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "Unlimited-OCR 是百度开源的长上下文 OCR 模型项目，主打 one-shot long-horizon parsing，面向复杂文档、长图和跨页面内容解析。它的价值不只是识别文字，而是降低多页、多区域、多版式材料的解析链路复杂度，适合文档自动化团队重点跟踪。",
       "purpose_zh": "用长上下文 OCR 模型解析复杂图片、长文档和多版式材料。",
-      "application_scenarios_zh": [
-        "合同和报告解析",
-        "长图文字抽取",
-        "多模态知识库入库"
-      ],
       "positioning_zh": "面向文档智能和多模态解析的开源 OCR 模型。",
       "product_view_zh": "对票据、合同、论文、报告和扫描件处理有直接应用价值，能把人工分区、逐页识别和后处理流程压缩成更统一的模型调用。百度背景也提升了项目可信度。",
       "technical_view_zh": "Python 项目，提供 Hugging Face、论文和训练适配信息。采用前要验证目标语言、版面、表格、手写体、长图边界和推理成本，不能只看演示效果。",
@@ -105,12 +60,16 @@
         "OCR",
         "文档解析",
         "视觉模型",
-        "百度",
-        "AI 工具"
+        "百度"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "合同和报告解析",
+        "长图文字抽取",
+        "多模态知识库入库"
+      ],
       "adoption_notes_zh": [
         "用真实业务样本评估表格、公式和跨页内容。",
         "确认模型许可证、权重获取方式和商业使用限制。",
@@ -118,45 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "diegosouzapw/OmniRoute",
-      "repo_id": 1157102282,
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-      "language": "TypeScript",
-      "topics": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cline",
-        "codex",
-        "copilot",
-        "cursor",
-        "deepseek",
-        "free-ai",
-        "gemini",
-        "kimi",
-        "llm-gateway",
-        "mcp",
-        "openai",
-        "openai-proxy",
-        "qwen",
-        "token-saver"
-      ],
-      "yesterday_new_stars": 12,
-      "total_stars": 27340,
-      "readme_url": "https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.49/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "OmniRoute 是多模型 AI gateway，把 290 多个 provider、500 多个模型、免费额度聚合、自动 fallback、token 压缩和 MCP/A2A 能力放到一个入口。它的核心吸引力是降低编码工具接入多模型的摩擦，但也要警惕免费额度统计、供应商条款和网关稳定性。",
       "purpose_zh": "用统一 API 路由多家 LLM 服务，并在额度、成本和可用性之间自动切换。",
-      "application_scenarios_zh": [
-        "统一 AI 编程工具入口",
-        "多 provider 额度兜底",
-        "上下文压缩和成本控制"
-      ],
       "positioning_zh": "面向 AI 编程工具和 Agent 的 LLM 网关。",
       "product_view_zh": "对 Claude Code、Codex、Cursor、Cline 等工具用户，价值在于减少 provider 切换和限额中断。它把模型路由、fallback、压缩和桌面/PWA 管理界面打包成一个成本控制层。",
       "technical_view_zh": "TypeScript 项目，覆盖多 provider、routing、quota fallback、RTK+Caveman 压缩、MCP/A2A。接入前要验证鉴权隔离、日志脱敏、失败回退策略和服务商 ToS。",
@@ -174,12 +98,16 @@
         "LLM 网关",
         "多模型路由",
         "Token 压缩",
-        "MCP",
-        "AI 工具"
+        "MCP"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "统一 AI 编程工具入口",
+        "多 provider 额度兜底",
+        "上下文压缩和成本控制"
+      ],
       "adoption_notes_zh": [
         "先用非敏感项目验证路由、日志和 fallback 行为。",
         "逐项核对 provider ToS，特别是免费额度聚合方式。",
@@ -187,31 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "ayghri/i-have-adhd",
-      "repo_id": 1238120057,
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "topics": [
-        "adhd",
-        "claude-",
-        "claude-code-plugin",
-        "claude-skills",
-        "developer-tools",
-        "productivity"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 9256,
-      "readme_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "i-have-adhd 是给 Coding Agent 用的输出风格 skill，目标是避免回答把重点埋在长篇解释里。它要求 action first、步骤编号、减少客套和绕路表达，适合高频协作场景中提升可读性与执行感，但本质是交互规范，不是模型能力增强。",
       "purpose_zh": "让编码助手输出更直接、更易扫描，减少重点被长段说明掩盖。",
-      "application_scenarios_zh": [
-        "规范 Agent 回复风格",
-        "减少代码协作噪音",
-        "提高任务状态可读性"
-      ],
       "positioning_zh": "面向 AI 编程协作的输出风格 skill。",
       "product_view_zh": "它解决的是团队与 Agent 协作时的信息密度问题。对注意力容易被长文本打断的用户，或需要快速读取任务状态的工程团队，能明显降低沟通成本。",
       "technical_view_zh": "项目提供 Claude Code、Codex 等安装方式，本质是提示词和 skill 分发。采用时要评估是否与团队现有回复格式、审查习惯和自动化脚本输出约定冲突。",
@@ -229,12 +136,16 @@
         "Agent Skills",
         "输出规范",
         "AI 编程",
-        "效率工具",
-        "AI 工具"
+        "效率工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "规范 Agent 回复风格",
+        "减少代码协作噪音",
+        "提高任务状态可读性"
+      ],
       "adoption_notes_zh": [
         "先在个人环境试用，再决定是否推广到团队。",
         "保留需要详细解释时的例外指令。",
@@ -242,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "earendil-works/pi",
-      "repo_id": 1035029907,
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 76389,
-      "readme_url": "https://github.com/earendil-works/pi/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Pi Agent Harness 是一套 Agent 工具包，包含统一多 provider LLM API、Agent runtime、TUI 和交互式 coding agent CLI。它更像把模型调用、工具调用、状态管理和终端交互整合起来的工程底座，适合想自建 Agent harness 的团队评估。",
       "purpose_zh": "提供统一 LLM API、Agent runtime、TUI 和 coding agent CLI。",
-      "application_scenarios_zh": [
-        "自建编码 Agent",
-        "统一多模型调用",
-        "终端式 AI 工具开发"
-      ],
       "positioning_zh": "面向自建 Agent 与 AI 编程助手的工程工具包。",
       "product_view_zh": "产品价值在于给开发者一套可组合的 Agent 基础组件，而不是单一聊天壳。团队可以围绕它验证自有编码助手、Slack 自动化、CLI 工作流和多模型接入。",
       "technical_view_zh": "TypeScript monorepo，包含 pi-ai、pi-agent-core、pi-coding-agent、pi-tui 等包。采用前要检查 API 稳定性、工具权限模型、状态持久化、TUI 兼容性和文档成熟度。",
@@ -277,12 +174,16 @@
         "Agent Harness",
         "LLM API",
         "TUI",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "自建编码 Agent",
+        "统一多模型调用",
+        "终端式 AI 工具开发"
+      ],
       "adoption_notes_zh": [
         "先从单个 package 验证，不要一次引入整套 monorepo。",
         "明确工具调用权限和状态存储边界。",
@@ -290,29 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "marcelroed/gigatoken",
-      "repo_id": 1093183288,
-      "url": "https://github.com/marcelroed/gigatoken",
-      "description": "Language model tokenization at GB/s",
-      "language": "Rust",
-      "topics": [
-        "llm",
-        "nlp",
-        "tokenization",
-        "tokenizer"
-      ],
-      "yesterday_new_stars": 9,
-      "total_stars": 2063,
-      "readme_url": "https://github.com/marcelroed/gigatoken/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Gigatoken 是面向语言模型数据处理的高速 tokenizer，主打 GB/s 级吞吐，并提供 Hugging Face Tokenizers 和 tiktoken 兼容模式。它适合大规模语料预处理、训练数据管线和高吞吐推理前处理，但需要用真实 tokenizer 与语料验证收益。",
       "purpose_zh": "为大模型训练和推理前处理提供高吞吐 tokenization 能力。",
-      "application_scenarios_zh": [
-        "训练语料预处理",
-        "RAG 入库切分前统计",
-        "批量 token 成本估算"
-      ],
       "positioning_zh": "面向 LLM 数据管线的 Rust 高性能 tokenizer。",
       "product_view_zh": "对做大规模文本处理、模型训练、RAG 入库或日志分析的团队，tokenization 常是隐性瓶颈。Gigatoken 的价值在于把这部分 CPU 成本和等待时间压下去。",
       "technical_view_zh": "Rust 实现，提供 Python 安装与 HF/tiktoken 兼容模式。采用时要测试目标 tokenizer 的输出一致性、Unicode 边界、批处理接口、内存占用和多线程资源竞争。",
@@ -330,12 +212,16 @@
         "Tokenizer",
         "Rust",
         "LLM 基建",
-        "数据处理",
-        "AI 工具"
+        "数据处理"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "训练语料预处理",
+        "RAG 入库切分前统计",
+        "批量 token 成本估算"
+      ],
       "adoption_notes_zh": [
         "用现有 tokenizer 做输出一致性回归测试。",
         "在真实语料和机器配置上测吞吐，不只看 README 图表。",
@@ -343,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 184795,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "mattpocock/skills 是一组面向真实工程协作的 Agent skills，强调小、可组合、可改造，而不是把整个开发流程交给单一大框架。它适合团队沉淀代码审查、任务执行、问题分解和工程规范，但需要按自身流程筛选，不宜原样全量套用。",
       "purpose_zh": "把真实工程经验沉淀成可安装、可组合的 Agent skills。",
-      "application_scenarios_zh": [
-        "统一代码审查口径",
-        "规范 Agent 执行流程",
-        "沉淀团队协作模式"
-      ],
       "positioning_zh": "面向工程团队的 AI 编程工作流技能库。",
       "product_view_zh": "产品价值在于给 Agent 加上稳定的工程行为约束，让代码修改、review、issue 处理和任务拆分更可控。它更像协作规范库，而不是某个单点工具。",
       "technical_view_zh": "Shell/Markdown 技能集合，通过 skills.sh 和不同 Agent 环境安装。采用时要检查每个 skill 的触发条件、权限边界、输出格式，以及是否与团队现有规范冲突。",
@@ -378,12 +250,16 @@
         "Agent Skills",
         "工程规范",
         "代码审查",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "统一代码审查口径",
+        "规范 Agent 执行流程",
+        "沉淀团队协作模式"
+      ],
       "adoption_notes_zh": [
         "按团队真实痛点挑选 skill，不要一次全部启用。",
         "把输出规则与现有 issue、PR 和测试流程对齐。",
@@ -391,29 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "oblien/openship",
-      "repo_id": 1173848034,
-      "url": "https://github.com/oblien/openship",
-      "description": "Self-hosted deployment platform",
-      "language": "TypeScript",
-      "topics": [
-        "agents",
-        "ai",
-        "deployments",
-        "self-hosted"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 7934,
-      "readme_url": "https://github.com/oblien/openship/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Openship 是自托管部署平台，提供桌面端、Web dashboard 和 CLI，用来推送代码、发布容器、管理基础设施与 CI/CD。虽然它不是纯 AI 工具，但 topics 显示面向 agents 与 deployments，适合关注 Agent 参与交付链路的团队评估。",
       "purpose_zh": "提供开源自托管部署平台，统一代码发布、容器交付和基础设施管理。",
-      "application_scenarios_zh": [
-        "内部部署平台",
-        "容器发布管理",
-        "Agent 辅助 DevOps"
-      ],
       "positioning_zh": "面向自托管团队的部署与 CI/CD 平台。",
       "product_view_zh": "它的价值在于把部署控制权留在团队手里，同时提供桌面、Web 和 CLI 多入口。对于希望让 Agent 参与发布、回滚或环境管理的团队，它可作为交付平台候选。",
       "technical_view_zh": "TypeScript 项目，涉及容器、CI/CD、自托管和基础设施管理。采用前要验证权限隔离、密钥管理、审计日志、回滚能力、集群兼容性和升级路径。",
@@ -431,12 +288,16 @@
         "自托管",
         "CI/CD",
         "部署平台",
-        "Agent DevOps",
-        "AI 工具"
+        "Agent DevOps"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "内部部署平台",
+        "容器发布管理",
+        "Agent 辅助 DevOps"
+      ],
       "adoption_notes_zh": [
         "先在非生产环境验证部署、回滚和审计链路。",
         "重点检查密钥、权限和多环境隔离。",
@@ -444,43 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "stablyai/orca",
-      "repo_id": 1183888342,
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "language": "TypeScript",
-      "topics": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor-agent",
-        "devtools",
-        "ghostty",
-        "ide",
-        "mobile-app",
-        "opencode",
-        "orchestration",
-        "parallel-agents",
-        "pi",
-        "terminal",
-        "worktrees",
-        "yc-backed"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 27466,
-      "readme_url": "https://github.com/stablyai/orca/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Orca 是面向并行 coding agents 的 ADE，把 Codex、Claude Code、OpenCode、Pi 等代理放在各自 worktree 中并统一跟踪，支持桌面、移动端和 VPS。它针对的是多 Agent 并行开发的协调问题，适合重度 AI 编程团队关注。",
       "purpose_zh": "管理并行编码 Agent、worktree 和任务状态，让多个代理同时推进开发。",
-      "application_scenarios_zh": [
-        "多 Agent 并行修复",
-        "跨设备跟进编码任务",
-        "管理多个 worktree 实验"
-      ],
       "positioning_zh": "面向 100x builders 的 Agent 开发环境。",
       "product_view_zh": "Orca 的产品价值在于把多个编码 Agent 的执行现场集中管理，减少终端、分支、worktree 和任务状态切换。移动端能力也让远程跟进 Agent 任务更自然。",
       "technical_view_zh": "TypeScript 项目，覆盖桌面、多平台、worktree、终端和多 Agent 编排。采用前要验证本地权限、仓库隔离、冲突处理、任务可观测性和各代理订阅模式兼容性。",
@@ -498,12 +326,16 @@
         "并行 Agent",
         "Worktree",
         "Agent IDE",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "多 Agent 并行修复",
+        "跨设备跟进编码任务",
+        "管理多个 worktree 实验"
+      ],
       "adoption_notes_zh": [
         "先建立任务拆分和分支命名规范。",
         "验证多个 Agent 同时改代码时的冲突处理方式。",
@@ -511,24 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "block/buzz",
-      "repo_id": 1174789082,
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 7132,
-      "readme_url": "https://github.com/block/buzz/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "Buzz 是自托管的人和 Agent 共享工作空间，底层用 Nostr relay，把消息、反应、workflow step、review approval 和 git event 统一为签名事件日志。它试图让 Agent 不只是外部助手，而是进入团队协作房间参与开发流程。",
       "purpose_zh": "让人类和 AI Agent 在同一自托管工作空间中协作、审查和编排工作流。",
-      "application_scenarios_zh": [
-        "人机协作研发空间",
-        "Agent 审查和审批记录",
-        "自托管团队事件日志"
-      ],
       "positioning_zh": "面向人机协作的 Agent 工作空间和事件日志平台。",
       "product_view_zh": "产品价值在于把聊天、代码事件、审批和 Agent 动作放入同一协作空间，适合探索多人多 Agent 的研发组织方式。自托管也满足对数据主权更敏感的团队。",
       "technical_view_zh": "Rust 项目，核心是 Nostr relay、签名事件、workspace 和协作客户端。采用时要评估身份模型、事件一致性、权限边界、客户端成熟度和与现有 Git 工作流的集成成本。",
@@ -546,12 +364,16 @@
         "Agent 协作",
         "自托管",
         "Nostr",
-        "事件日志",
-        "AI 工具"
+        "事件日志"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "人机协作研发空间",
+        "Agent 审查和审批记录",
+        "自托管团队事件日志"
+      ],
       "adoption_notes_zh": [
         "先验证身份、权限和审计模型是否符合团队要求。",
         "不要一次替换现有协作工具，先做旁路试点。",
