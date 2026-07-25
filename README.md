@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | openworker 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 15 | 3,552 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 2 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 10,229 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 187,012 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 4 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 8 | 29,023 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | worldmonitor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 73,450 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
-| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 67,316 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | ego-lite 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 2,733 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 8 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 5 | 95,352 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 中 |
-| 9 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 5 | 2,414 | Python | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 10 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 19,272 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 1 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 把 AI 从聊天窗口变成能在桌面交付成品的本地 coworker。 | 15 | 3,552 | Python | `桌面 Agent` `办公自动化` `本地运行` `多模型` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码事件和审批放进同一个自托管协作空间。 | 11 | 10,229 | Rust | `Agent 协作` `自托管` `Nostr` `事件日志` `AI 工具` | ★★★★☆ | 高 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把成熟工程师的工作习惯打包成可复用的 Agent skills。 | 10 | 187,012 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 低 |
+| 4 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个入口接多家 AI provider，并自动处理额度、fallback 和 token 压缩。 | 8 | 29,023 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
+| 5 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 把全球新闻、地缘政治和基础设施信号做成 Agent 可用的态势看板。 | 8 | 73,450 | TypeScript | `OSINT` `新闻聚合` `MCP` `态势感知` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 给前端 Agent 加一层审美约束，专门反对低质模板感。 | 6 | 67,316 | JavaScript | `前端生成` `Agent Skills` `设计审美` `反模板化` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | 让 AI Agent 用你的真实登录态跑网页任务，同时不抢你的标签页。 | 5 | 2,733 | JavaScript | `Agent 浏览器` `网页自动化` `登录态共享` `Spaces` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把代码和文档变成可解释知识图谱，让 Agent 查关系而不只搜文本。 | 5 | 95,352 | Python | `知识图谱` `GraphRAG` `AST` `代码理解` `AI 工具` | ★★★★★ | 中 |
+| 9 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 给 Agent 做 45 项风险体检，5 分钟内返回 A-F 级诊断报告。 | 5 | 2,414 | Python | `AI 安全` `Agent 评估` `风险治理` `LLM Security` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 4 | 19,272 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
 
 ## 数据与归档
 
