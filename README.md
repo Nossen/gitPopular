@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-24 (Asia/Shanghai)
+## 最新榜单：2026-07-25 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 把 AI 从聊天窗口变成能在桌面交付成品的本地 coworker。 | 15 | 3,552 | Python | `桌面 Agent` `办公自动化` `本地运行` `多模型` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码事件和审批放进同一个自托管协作空间。 | 11 | 10,229 | Rust | `Agent 协作` `自托管` `Nostr` `事件日志` `AI 工具` | ★★★★☆ | 高 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把成熟工程师的工作习惯打包成可复用的 Agent skills。 | 10 | 187,012 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 低 |
-| 4 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个入口接多家 AI provider，并自动处理额度、fallback 和 token 压缩。 | 8 | 29,023 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
-| 5 | [koala73/worldmonitor](https://github.com/koala73/worldmonitor) | 把全球新闻、地缘政治和基础设施信号做成 Agent 可用的态势看板。 | 8 | 73,450 | TypeScript | `OSINT` `新闻聚合` `MCP` `态势感知` `AI 工具` | ★★★★☆ | 中 |
-| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 给前端 Agent 加一层审美约束，专门反对低质模板感。 | 6 | 67,316 | JavaScript | `前端生成` `Agent Skills` `设计审美` `反模板化` `AI 工具` | ★★★★☆ | 低 |
-| 7 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | 让 AI Agent 用你的真实登录态跑网页任务，同时不抢你的标签页。 | 5 | 2,733 | JavaScript | `Agent 浏览器` `网页自动化` `登录态共享` `Spaces` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把代码和文档变成可解释知识图谱，让 Agent 查关系而不只搜文本。 | 5 | 95,352 | Python | `知识图谱` `GraphRAG` `AST` `代码理解` `AI 工具` | ★★★★★ | 中 |
-| 9 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 给 Agent 做 45 项风险体检，5 分钟内返回 A-F 级诊断报告。 | 5 | 2,414 | Python | `AI 安全` `Agent 评估` `风险治理` `LLM Security` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 4 | 19,272 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
+| 1 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 12,018 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 2 | [marcelroed/gigatoken](https://github.com/marcelroed/gigatoken) | gigatoken 围绕「Language model tokenization at GB/s」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 3,352 | Rust | `大模型` `模型推理` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 中 |
+| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 8 | 30,084 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | openworker 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 5,076 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 50,147 | JavaScript | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
+| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 26,840 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 7 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 5 | 156,021 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
+| 8 | [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | esp32-ai 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 5 | 833 | Python | `RAG` `知识库` `上下文` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 9 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | QwenPaw 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 26,582 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
+| 10 | [floci-io/floci](https://github.com/floci-io/floci) | floci 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 17,489 | Java | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-24.json](data/2026-07-24.json)
-- Markdown 归档：[reports/2026-07-24.md](reports/2026-07-24.md)
+- JSON 数据：[data/2026-07-25.json](data/2026-07-25.json)
+- Markdown 归档：[reports/2026-07-25.md](reports/2026-07-25.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
