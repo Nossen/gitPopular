@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 12,018 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 2 | [marcelroed/gigatoken](https://github.com/marcelroed/gigatoken) | gigatoken 围绕「Language model tokenization at GB/s」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 3,352 | Rust | `大模型` `模型推理` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 中 |
-| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 8 | 30,084 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 4 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | openworker 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 5,076 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 50,147 | JavaScript | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
-| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 26,840 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 7 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 5 | 156,021 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 8 | [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | esp32-ai 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 5 | 833 | Python | `RAG` `知识库` `上下文` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
-| 9 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | QwenPaw 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 26,582 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
-| 10 | [floci-io/floci](https://github.com/floci-io/floci) | floci 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 17,489 | Java | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 1 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码事件和审批放进同一个自托管协作空间。 | 10 | 12,018 | Rust | `Agent 协作` `自托管` `Nostr` `事件日志` `AI 工具` | ★★★★☆ | 高 |
+| 2 | [marcelroed/gigatoken](https://github.com/marcelroed/gigatoken) | 把语言模型 tokenizer 做到 GB/s 级，适合大规模文本管线提速。 | 9 | 3,352 | Rust | `Tokenizer` `Rust` `LLM 基建` `数据处理` `AI 工具` | ★★★★☆ | 中 |
+| 3 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个入口接多家 AI provider，并自动处理额度、fallback 和 token 压缩。 | 8 | 30,084 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
+| 4 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 把 AI 从聊天窗口变成能在桌面交付成品的本地 coworker。 | 7 | 5,076 | Python | `桌面 Agent` `办公自动化` `本地运行` `多模型` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | 给 AI 前端生成加上设计语言、23 个命令和 60 条确定性检测规则。 | 7 | 50,147 | JavaScript | `前端生成` `设计审查` `Agent Skills` `质量检测` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | 把求职流程做成本地 Agent 工作流，从职位评估到面试准备都能跑。 | 6 | 26,840 | TypeScript | `求职自动化` `Claude Code` `简历优化` `本地优先` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 把搜索、抓取和网页交互封装成 Agent 可用的 Web context API。 | 5 | 156,021 | TypeScript | `网页抓取` `Web Search` `Agent API` `RAG` `AI 工具` | ★★★★★ | 中 |
+| 8 | [slvDev/esp32-ai](https://github.com/slvDev/esp32-ai) | 在 8 美元 ESP32-S3 上跑 28.9M 参数 LLM，边缘推理很有实验价值。 | 5 | 833 | Python | `ESP32` `边缘 LLM` `嵌入式` `本地推理` `AI 工具` | ★★★★☆ | 高 |
+| 9 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 一个可本地或云端部署、能接多聊天应用的个人 AI Assistant。 | 4 | 26,582 | Python | `个人助手` `Agent Harness` `多渠道` `本地部署` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [floci-io/floci](https://github.com/floci-io/floci) | 一个免费开源的本地 AWS emulator，适合开发和 CI 里替代真实云依赖。 | 4 | 17,489 | Java | `AWS 模拟` `DevOps` `Testcontainers` `本地测试` `AI 工具` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
