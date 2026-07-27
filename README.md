@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | openworker 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 6,889 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 189,759 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 3 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 13,402 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 7 | 21,141 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 261,621 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 6 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | QwenPaw 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 28,092 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
-| 7 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | ego-lite 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 4,680 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 8 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | awesome 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 5 | 489,383 | 未知 | `联网 Agent` `信息抓取` `自动化` `AI 编程` `智能体` | ★★★★★ | 低 |
-| 9 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | claude-cookbooks 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 50,259 | Jupyter Notebook | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★★☆ | 中 |
-| 10 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | Instatic 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 5,722 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 1 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 把 AI 从聊天窗口变成能在桌面交付成品的本地 coworker。 | 8 | 6,889 | Python | `桌面 Agent` `办公自动化` `本地运行` `多模型` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把成熟工程师的工作习惯打包成可复用的 Agent skills。 | 8 | 189,759 | Shell | `Agent Skills` `工程规范` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 低 |
+| 3 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码事件和审批放进同一个自托管协作空间。 | 7 | 13,402 | Rust | `Agent 协作` `自托管` `Nostr` `事件日志` `AI 工具` | ★★★★☆ | 高 |
+| 4 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。 | 7 | 21,141 | Python | `AI Agent` `中文教程` `上下文工程` `MCP` `AI 工具` | ★★★★★ | 低 |
+| 5 | [obra/superpowers](https://github.com/obra/superpowers) | 给 coding agent 装上一整套从规格到 TDD 的软件开发方法论。 | 6 | 261,621 | Shell | `Agent Skills` `TDD` `软件方法论` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 一个可本地或云端部署、能接多聊天应用的个人 AI Assistant。 | 5 | 28,092 | Python | `个人助手` `Agent Harness` `多渠道` `本地部署` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [citrolabs/ego-lite](https://github.com/citrolabs/ego-lite) | 让 AI Agent 用你的真实登录态跑网页任务，同时不抢你的标签页。 | 5 | 4,680 | JavaScript | `Agent 浏览器` `网页自动化` `登录态共享` `Spaces` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [sindresorhus/awesome](https://github.com/sindresorhus/awesome) | 经典 Awesome 总索引，适合找资源，但不是 AI 专项工具。 | 5 | 489,383 | 未知 | `Awesome List` `资源索引` `开源导航` `学习资料` `AI 工具` | ★★★☆☆ | 低 |
+| 9 | [anthropics/claude-cookbooks](https://github.com/anthropics/claude-cookbooks) | Anthropic 官方 Claude 示例库，适合快速复现 RAG、工具调用和摘要能力。 | 4 | 50,259 | Jupyter Notebook | `Claude` `Cookbook` `RAG` `工具调用` `AI 工具` | ★★★★★ | 低 |
+| 10 | [CoreBunch/Instatic](https://github.com/CoreBunch/Instatic) | 一个自托管视觉 CMS，输出干净静态页面，适合替代重型建站 SaaS。 | 4 | 5,722 | TypeScript | `视觉 CMS` `自托管` `静态页面` `Bun` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 

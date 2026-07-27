@@ -1,11 +1,11 @@
 {
   "date": "2026-07-26",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-27T02:32:14.560610Z",
+  "generated_at": "2026-07-27T02:35:22.767557Z",
   "source": {
     "stars": "GH Archive WatchEvent",
     "metadata": "GitHub REST API",
-    "analysis": "Local heuristic fallback"
+    "analysis": "Codex scheduled automation"
   },
   "items": [
     {
@@ -19,41 +19,41 @@
       "yesterday_new_stars": 8,
       "total_stars": 6889,
       "readme_url": "https://github.com/andrewyng/openworker/blob/main/README.md",
-      "ai_confidence": 0.67,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "openworker 主要围绕「OpenWorker」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.96,
+      "summary_zh": "OpenWorker 是桌面端 AI coworker，目标不是聊天，而是交付文档、Slack 回复、日历整理、收件箱分拣等完成品。它本地运行，支持自带 OpenAI、Anthropic、Google、Ollama 等模型，并在发送消息、改日历、跑命令前要求确认。",
+      "purpose_zh": "让桌面 Agent 处理日常办公任务，并交付可直接使用的结果。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "整理日历和收件箱",
+        "生成客户简报",
+        "跨工具查询项目进展"
       ],
-      "positioning_zh": "openworker 是一个智能体/自动化工作流项目，核心目标是「OpenWorker」。",
-      "product_view_zh": "从产品/应用角度看，openworker 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「OpenWorker」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Rust、MCP、API、服务端组件。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、知识检索与上下文增强。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 8 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "openworker 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "面向个人和团队办公流的本地桌面 Agent。",
+      "product_view_zh": "产品价值在于把 Agent 从对话框拉进文件、应用和协作工具，减少用户拆任务和复制粘贴的成本。适合需要跨日历、邮件、文档和项目管理工具处理碎片事务的人群。",
+      "technical_view_zh": "Python 本地 agent server 加原生桌面壳，模型和集成由用户选择。采用时要重点评估权限授权、审批点、连接器稳定性、日志留存和本地数据边界。",
+      "trend_view_zh": "桌面 Agent 正从演示走向实际办公交付。OpenWorker 连续上榜，说明市场开始关注能完成结果、可审批、可带自己模型的个人 AI worker。",
+      "category_zh": "桌面 Agent",
+      "highlight_zh": "把 AI 从聊天窗口变成能在桌面交付成品的本地 coworker。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "知识工作者",
+        "个人效率用户",
+        "办公自动化团队"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "处理跨文件、日历、消息和项目工具的日常办公任务。",
+      "not_suitable_zh": "不适合在权限和审批策略未配置前处理敏感业务操作。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "大模型",
-        "RAG"
+        "桌面 Agent",
+        "办公自动化",
+        "本地运行",
+        "多模型",
+        "AI 工具"
       ],
       "maturity_score": 3,
-      "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先用低风险办公任务验证审批和回退流程。",
+        "明确哪些文件、应用和账号允许 Agent 访问。",
+        "本地模型与云模型要分别评估隐私和效果。"
       ]
     },
     {
@@ -67,41 +67,41 @@
       "yesterday_new_stars": 8,
       "total_stars": 189759,
       "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "skills 主要围绕「Skills for Real Engineers. Straight from my .agents directory.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.94,
+      "summary_zh": "mattpocock/skills 是面向真实工程协作的 Agent skills 集合，强调小、可组合、可改造，而不是用大流程框架接管开发。它适合沉淀代码审查、任务执行、issue 处理和沟通规范，但需要按团队流程筛选。",
+      "purpose_zh": "把成熟工程经验沉淀成可安装、可组合的 Agent skills。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "统一代码审查口径",
+        "规范 Agent 执行流程",
+        "沉淀团队协作模式"
       ],
-      "positioning_zh": "skills 面向代码理解、审查或研发协作场景，主要能力是「Skills for Real Engineers. Straight from my .agents directory.」。",
-      "product_view_zh": "从产品/应用角度看，skills 主要服务研发效率。它把「Skills for Real Engineers. Straight from my .agents directory.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括TypeScript。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 8 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "面向工程团队的 AI 编程工作流技能库。",
+      "product_view_zh": "它的价值在于给 Agent 加上稳定工程行为约束，让代码修改、review 和任务拆解更可控。对团队来说，这更像协作规范库，而不是单一功能工具。",
+      "technical_view_zh": "Shell/Markdown 技能集合，通过 skills.sh 或 Agent 插件安装。采用前要检查触发条件、权限边界、输出格式，以及是否与现有 PR 和 issue 流程冲突。",
+      "trend_view_zh": "Agent 生态正在从提示词技巧走向可版本化 skills。该项目持续高热，说明团队需要把协作方法产品化，而不是每轮对话重新约定。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "把成熟工程师的工作习惯打包成可复用的 Agent skills。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "资深工程师",
+        "AI 编程团队",
+        "技术负责人"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "为团队 Coding Agent 建立任务执行、审查和沟通规范。",
+      "not_suitable_zh": "不适合未经筛选直接全量安装到严格流程的团队环境。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
+        "Agent Skills",
+        "工程规范",
+        "代码审查",
         "AI 编程",
-        "大模型"
+        "AI 工具"
       ],
-      "maturity_score": 5,
+      "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+        "按真实痛点挑选 skill，不要一次全部启用。",
+        "把输出规则与现有 issue、PR 和测试流程对齐。",
+        "定期复盘哪些 skill 真正减少返工。"
       ]
     },
     {
@@ -115,41 +115,41 @@
       "yesterday_new_stars": 7,
       "total_stars": 13402,
       "readme_url": "https://github.com/block/buzz/blob/main/README.md",
-      "ai_confidence": 0.64,
-      "summary_zh": "该项目以 Rust 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "buzz 主要围绕「A hive mind communication platform」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.93,
+      "summary_zh": "Buzz 是自托管的人机协作工作空间，底层用 Nostr relay，把消息、reaction、workflow step、review approval 和 git event 统一成签名事件日志。它让 Agent 像团队成员一样进房间、开 repo、发 patch、做 review，并保留同一审计轨迹。",
+      "purpose_zh": "让人类和 AI Agent 在同一自托管空间里协作、审查和编排工作流。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "人机协作研发空间",
+        "Agent 审查记录",
+        "团队事件日志"
       ],
-      "positioning_zh": "buzz 是一个智能体/自动化工作流项目，核心目标是「A hive mind communication platform」。",
-      "product_view_zh": "从产品/应用角度看，buzz 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「A hive mind communication platform」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 Rust 实现，可见工程信号包括Docker、MCP、CLI。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、知识检索与上下文增强。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 7 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "面向团队人机协作的 Agent 工作空间。",
+      "product_view_zh": "Buzz 的价值在于把聊天、代码事件、审批和 Agent 动作合到一个协作空间，适合探索多 Agent 参与研发流程的团队。自托管模式也适合关注数据主权的组织。",
+      "technical_view_zh": "Rust 项目，核心是 Nostr relay、签名事件和社区隔离。采用时要评估身份模型、权限边界、事件一致性、客户端成熟度和 Git 工作流集成成本。",
+      "trend_view_zh": "Agent 协作正在从单人助手变成团队空间。Buzz 代表的方向是把 Agent 行为纳入可审计事件流，让自动化更像正式工程流程。",
+      "category_zh": "Agent 协作平台",
+      "highlight_zh": "把人、Agent、代码事件和审批放进同一个自托管协作空间。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "AI 工程团队",
+        "协作平台开发者",
+        "自托管组织"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "探索多人和多个 Agent 共同参与研发协作与代码审查。",
+      "not_suitable_zh": "不适合只需要简单聊天机器人或一次性自动化脚本的场景。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "大模型",
-        "RAG"
+        "Agent 协作",
+        "自托管",
+        "Nostr",
+        "事件日志",
+        "AI 工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先验证身份、权限和审计模型。",
+        "不要一次替换现有协作工具，先旁路试点。",
+        "重点观察客户端体验和 Git 集成成熟度。"
       ]
     },
     {
@@ -177,41 +177,41 @@
       "yesterday_new_stars": 7,
       "total_stars": 21141,
       "readme_url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
-      "ai_confidence": 0.95,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "ai-agent-book 主要围绕「《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.99,
+      "summary_zh": "ai-agent-book 是《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，包含全书正文、PDF/EPUB、在线阅读和 92 个配套实验。内容围绕 Agent = LLM + 上下文 + 工具，覆盖上下文工程、记忆、RAG、MCP、多 Agent 和多模态。",
+      "purpose_zh": "系统讲解 AI Agent 的设计原理、工程实践和配套实验代码。",
       "application_scenarios_zh": [
-        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
-        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
-        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+        "团队内部 Agent 培训",
+        "个人系统学习 AI Agent",
+        "按章节复现实验代码"
       ],
-      "positioning_zh": "ai-agent-book 聚焦检索增强与知识上下文构建，主要解决「《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码」。",
-      "product_view_zh": "从产品/应用角度看，ai-agent-book 的价值在于提升知识查找和大模型回答的可用性。它适合用于「《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码」这类需要向量检索、召回质量或上下文管理的场景。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 7 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "RAG/知识库",
-      "highlight_zh": "ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "positioning_zh": "面向开发者的 AI Agent 工程教材与实践仓库。",
+      "product_view_zh": "它不是直接可部署产品，而是把 Agent 工程拆成可学习、可实验的体系。适合个人系统学习，也适合团队内部培训，统一上下文、工具和记忆等基础概念。",
+      "technical_view_zh": "Python 示例、Markdown 正文、在线站点和多语言电子书构成核心。采用时要关注示例依赖、章节更新、实验可复现性，不要把教学代码直接等同生产架构。",
+      "trend_view_zh": "Agent 开发正在从经验贴走向体系化教材。项目持续上榜，说明开发者对 MCP、上下文工程和多 Agent 的学习需求仍在升温。",
+      "category_zh": "Agent 工程教程",
+      "highlight_zh": "一本开源 Agent 工程书，把上下文、工具、记忆和 MCP 串成体系。",
       "target_users_zh": [
-        "RAG 工程师",
-        "知识库产品团队",
-        "企业 AI 平台团队"
+        "AI Agent 开发者",
+        "后端工程师",
+        "技术学习者"
       ],
-      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "系统学习 Agent 架构，并结合章节代码做工程实验。",
+      "not_suitable_zh": "不适合作为开箱即用的生产级 Agent 框架直接部署。",
       "project_tags_zh": [
-        "RAG",
-        "知识库",
-        "上下文",
-        "智能体",
-        "大模型"
+        "AI Agent",
+        "中文教程",
+        "上下文工程",
+        "MCP",
+        "AI 工具"
       ],
       "maturity_score": 4,
-      "adoption_difficulty": "中",
-      "recommendation_score": 4,
+      "adoption_difficulty": "低",
+      "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "把它当学习材料和概念地图，不当生产框架。",
+        "运行示例前锁定依赖版本。",
+        "结合真实项目补充权限、观测和部署实践。"
       ]
     },
     {
@@ -234,41 +234,41 @@
       "yesterday_new_stars": 6,
       "total_stars": 261621,
       "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
-      "ai_confidence": 0.71,
-      "summary_zh": "该项目以 Shell 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "superpowers 主要围绕「An agentic skills framework & software development methodology that works.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.95,
+      "summary_zh": "Superpowers 是面向 coding agents 的软件开发方法论和 skills 框架，把需求澄清、规格确认、实现计划、TDD、YAGNI、DRY 和 subagent-driven development 串成一套流程。它适合想让 Agent 长时间自治但仍受工程门禁约束的团队。",
+      "purpose_zh": "用可组合 skills 和流程约束提升 coding agent 的软件交付质量。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "辅助产品和设计团队快速生成界面原型、设计系统草案或多版本视觉方案。"
+        "复杂功能交付",
+        "TDD 驱动 Agent 开发",
+        "子代理协同执行"
       ],
-      "positioning_zh": "superpowers 面向代码理解、审查或研发协作场景，主要能力是「An agentic skills framework & software development methodology that works.」。",
-      "product_view_zh": "从产品/应用角度看，superpowers 主要服务研发效率。它把「An agentic skills framework & software development methodology that works.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 Shell 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 6 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向 AI 编程的 Agent 方法论与技能框架。",
+      "product_view_zh": "产品价值在于把“让 Agent 写代码”变成更可审计的开发流程：先澄清目标、再确认设计、再拆计划和执行。对复杂改动和长任务，比临场提示词更稳定。",
+      "technical_view_zh": "Shell/技能集合，支持 Claude Code、Codex、Cursor、Gemini CLI 等多种 harness。采用时要评估流程是否过重、是否适配现有 issue/PR/TDD 习惯，以及子代理执行的可观测性。",
+      "trend_view_zh": "AI 编程正在从单步补全走向流程工程。Superpowers 的热度说明团队开始关注 Agent 的开发方法、验收门禁和长时间自治，而不是只看模型能力。",
       "category_zh": "AI 编程工作流",
-      "highlight_zh": "superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "highlight_zh": "给 coding agent 装上一整套从规格到 TDD 的软件开发方法论。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "AI 编程团队",
+        "技术负责人",
+        "复杂项目维护者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "让 Agent 处理多步骤软件开发任务，并在规格和测试门禁下推进。",
+      "not_suitable_zh": "不适合很小的临时修补任务，流程成本可能高于收益。",
       "project_tags_zh": [
+        "Agent Skills",
+        "TDD",
+        "软件方法论",
         "AI 编程",
-        "开发工具",
-        "工作流",
-        "大模型",
-        "智能体"
+        "AI 工具"
       ],
-      "maturity_score": 5,
-      "adoption_difficulty": "低",
-      "recommendation_score": 5,
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+        "先在中等复杂任务上试点，不要直接套到所有请求。",
+        "明确规格确认、测试通过和人工 review 的门禁。",
+        "观察流程是否减少返工，而不是只增加文档步骤。"
       ]
     },
     {
@@ -292,41 +292,41 @@
       "yesterday_new_stars": 5,
       "total_stars": 28092,
       "readme_url": "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
-      "ai_confidence": 0.76,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "QwenPaw 主要围绕「Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.97,
+      "summary_zh": "QwenPaw 是个人 AI 助手和 Agent harness，支持本机或云端部署，并可连接钉钉、飞书、微信等聊天应用，提供 TUI、Web Console、本地模型和多种安装方式。它强调易安装、可扩展能力和 AgentScope 生态。",
+      "purpose_zh": "构建可部署、可扩展、可接入多聊天渠道的个人 AI 助手。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "企业内部问答助手",
+        "个人多渠道 Agent",
+        "本地模型助手实验"
       ],
-      "positioning_zh": "QwenPaw 是一个智能体/自动化工作流项目，核心目标是「Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.」。",
-      "product_view_zh": "从产品/应用角度看，QwenPaw 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports multiple chat apps with easily extensible capabilities.」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、API。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、知识检索与上下文增强。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 5 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向个人和企业私有化场景的 Agent 助手框架。",
+      "product_view_zh": "产品价值在于把 Agent 能力放进用户已有聊天入口，并支持本地、Docker、云服务器和平台部署。适合希望快速搭建私有助手或企业内测 Agent 的团队。",
+      "technical_view_zh": "Python 3.11+ 项目，支持 pip、脚本、Docker、ECS、ModelScope、桌面版等路径。采用时要评估渠道适配、权限、插件扩展、本地模型效果和运维复杂度。",
+      "trend_view_zh": "个人 Agent 正在从单机 CLI 走向多渠道入口。QwenPaw 的热度说明开发者希望把 Agent 部署到真实聊天工具和企业环境中，而不是停留在 demo。",
       "category_zh": "Agent 工具",
-      "highlight_zh": "QwenPaw 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "highlight_zh": "一个可本地或云端部署、能接多聊天应用的个人 AI Assistant。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "个人 AI 助手用户",
+        "企业内测团队",
+        "AgentScope 开发者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "搭建接入钉钉、飞书、微信等渠道的私有 AI 助手。",
+      "not_suitable_zh": "不适合在未梳理企业权限和数据边界前直接接入生产聊天群。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "大模型",
-        "RAG"
+        "个人助手",
+        "Agent Harness",
+        "多渠道",
+        "本地部署",
+        "AI 工具"
       ],
-      "maturity_score": 4,
-      "adoption_difficulty": "高",
+      "maturity_score": 3,
+      "adoption_difficulty": "中",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先用单一渠道和测试账号验证能力。",
+        "明确消息、文件和工具调用权限边界。",
+        "根据部署方式评估升级、日志和故障恢复。"
       ]
     },
     {
@@ -346,41 +346,41 @@
       "yesterday_new_stars": 5,
       "total_stars": 4680,
       "readme_url": "https://github.com/citrolabs/ego-lite/blob/main/README.md",
-      "ai_confidence": 0.68,
-      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、自然语言处理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "ego-lite 主要围绕「The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zer…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、自然语言处理相关的开源实践、集成或学习。",
+      "ai_confidence": 0.96,
+      "summary_zh": "ego-lite 是为 AI agents 设计的浏览器，让 Agent 在独立 Spaces 中执行网页自动化，同时复用用户真实登录状态，避免抢占用户当前标签页。它面向 Codex、Claude Code 等工具，强调零成本、零配置和更少 token 的浏览任务。",
+      "purpose_zh": "提供可共享登录状态、可并行执行任务的 Agent 浏览器。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+        "后台系统自动查询",
+        "网页表单处理",
+        "Agent 并行浏览任务"
       ],
-      "positioning_zh": "ego-lite 面向代码理解、审查或研发协作场景，主要能力是「The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zer…」。",
-      "product_view_zh": "从产品/应用角度看，ego-lite 主要服务研发效率。它把「The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zer…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括CLI、API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 5 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 编程工作流",
-      "highlight_zh": "ego-lite 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "positioning_zh": "面向网页自动化 Agent 的浏览器运行环境。",
+      "product_view_zh": "产品价值在于解决 Agent 做网页任务时的登录、标签冲突和环境隔离问题。对需要操作后台、CRM、网页工具和长流程表单的用户，体验会比临时浏览器自动化更自然。",
+      "technical_view_zh": "JavaScript 项目，重点在 browser、agent skills 和共享状态。采用时要重点评估登录态暴露、空间隔离、权限提示、任务录制、失败恢复和本地安全边界。",
+      "trend_view_zh": "Agent 浏览器正在从自动化框架变成协作环境。ego-lite 的热度说明开发者需要让 Agent 可靠使用真实网页登录态，同时不干扰人的正常浏览。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "让 AI Agent 用你的真实登录态跑网页任务，同时不抢你的标签页。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "AI Agent 用户",
+        "网页自动化开发者",
+        "运营工具团队"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "让 Agent 在已登录网页应用中并行执行查询、填写和整理任务。",
+      "not_suitable_zh": "不适合在未明确权限边界前处理金融、账号或高敏操作。",
       "project_tags_zh": [
-        "AI 编程",
-        "开发工具",
-        "工作流",
-        "智能体",
-        "大模型"
+        "Agent 浏览器",
+        "网页自动化",
+        "登录态共享",
+        "Spaces",
+        "AI 工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
-      "recommendation_score": 3,
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先用低权限账号和非敏感网站试点。",
+        "明确哪些网页登录态允许 Agent 使用。",
+        "保留关键提交动作的人工确认。"
       ]
     },
     {
@@ -400,41 +400,41 @@
       "yesterday_new_stars": 5,
       "total_stars": 489383,
       "readme_url": "https://github.com/sindresorhus/awesome/blob/main/readme.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 未知语言 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、智能体与自动化工作流、自然语言处理、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "awesome 主要围绕「😎 Awesome lists about all kinds of interesting topics」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、智能体与自动化工作流、自然语言处理、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.24,
+      "summary_zh": "awesome 是著名的 Awesome List 总索引，覆盖平台、语言、前端、后端、计算机科学和各类资源主题，并不是 AI 专项项目。它出现在 AI 热门列表更像是主题匹配或数据筛选噪声，但作为开源资源导航仍有长期价值。",
+      "purpose_zh": "维护各类高质量 Awesome 资源列表的总入口和贡献规范。",
       "application_scenarios_zh": [
-        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
-        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
-        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
+        "技术资料调研",
+        "开源项目发现",
+        "学习路径整理"
       ],
-      "positioning_zh": "awesome 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
-      "product_view_zh": "从产品/应用角度看，awesome 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
-      "technical_view_zh": "技术选型上，它主要以 未知语言 实现，可见工程信号包括Rust、API、TypeScript。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「低」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 5 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "联网 Agent",
-      "highlight_zh": "awesome 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "positioning_zh": "面向开发者的开源资源索引集合。",
+      "product_view_zh": "它的价值在于帮助开发者按主题发现资料和项目，适合做技术调研入口。对 AI 场景只能作为资源导航补充，不应被当作 AI 工具或 Agent 框架推荐。",
+      "technical_view_zh": "主要是 Markdown 列表和贡献规范，技术接入成本很低。采用时要注意列表更新频率、链接失效、主题质量差异，以及不同子列表的维护标准并不一致。",
+      "trend_view_zh": "这个项目的上榜提醒数据筛选需要区分 AI 工具与泛技术资源。热门榜不应只看 stars，还要检查仓库真实主题，避免把非 AI 项目包装成 AI 趋势。",
+      "category_zh": "开源资源索引",
+      "highlight_zh": "经典 Awesome 总索引，适合找资源，但不是 AI 专项工具。",
       "target_users_zh": [
-        "研究型 Agent 开发者",
-        "舆情/竞品分析团队",
-        "内容运营团队"
+        "开发者",
+        "技术调研者",
+        "学习资料整理者"
       ],
-      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
-      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "best_use_case_zh": "作为技术主题资源导航入口，快速发现优质列表和学习材料。",
+      "not_suitable_zh": "不适合被当成 AI 工具、Agent 框架或可接入软件能力推荐。",
       "project_tags_zh": [
-        "联网 Agent",
-        "信息抓取",
-        "自动化",
-        "AI 编程",
-        "智能体"
+        "Awesome List",
+        "资源索引",
+        "开源导航",
+        "学习资料",
+        "AI 工具"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
-      "recommendation_score": 5,
+      "recommendation_score": 3,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "适合先作为个人或团队工作流插件试用，再决定是否沉淀为标准流程。"
+        "把它作为资源入口，而不是具体工具选型。",
+        "检查子列表维护活跃度和链接有效性。",
+        "AI 报告中应标注低 AI 相关性，避免误导读者。"
       ]
     },
     {
@@ -448,41 +448,41 @@
       "yesterday_new_stars": 4,
       "total_stars": 50259,
       "readme_url": "https://github.com/anthropics/claude-cookbooks/blob/main/README.md",
-      "ai_confidence": 0.65,
-      "summary_zh": "该项目以 Jupyter Notebook 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "claude-cookbooks 主要围绕「A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.」展开，结合 README、topics 和仓库描述来看，可用于知识检索与上下文增强、大语言模型、智能体与自动化工作流、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.99,
+      "summary_zh": "claude-cookbooks 是 Anthropic 官方维护的 Claude 示例和 notebook 集合，覆盖分类、RAG、摘要、工具调用和集成等常见能力。它提供可复制代码片段，适合开发者从 API 示例出发搭建 Claude 应用，而不是直接提供完整产品。",
+      "purpose_zh": "提供 Claude API 的可复制示例、notebook 和应用配方。",
       "application_scenarios_zh": [
-        "把代码库、文档或业务资料组织成可检索、可追问的知识上下文。",
-        "为企业问答、研发知识库或客服系统提供更可追溯的上下文来源。",
-        "辅助 Agent 在多轮任务中保留关键事实、关系和引用路径。"
+        "Claude API 入门",
+        "RAG 原型验证",
+        "工具调用示例复现"
       ],
-      "positioning_zh": "claude-cookbooks 聚焦检索增强与知识上下文构建，主要解决「A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.」。",
-      "product_view_zh": "从产品/应用角度看，claude-cookbooks 的价值在于提升知识查找和大模型回答的可用性。它适合用于「A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.」这类需要向量检索、召回质量或上下文管理的场景。",
-      "technical_view_zh": "技术选型上，它主要以 Jupyter Notebook 实现，可见工程信号包括API。重点应关注索引结构、召回质量、权限隔离、引用可追溯性和上下文更新机制。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：知识库和记忆能力仍是 Agent、企业问答和代码理解落地的关键基础设施。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "RAG/知识库",
-      "highlight_zh": "claude-cookbooks 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。",
+      "positioning_zh": "面向 Claude 开发者的官方示例教程库。",
+      "product_view_zh": "产品价值在于降低 Claude API 上手成本，让团队快速验证分类、检索增强、摘要和工具调用等能力。它适合作为原型参考和教学材料，不是生产框架。",
+      "technical_view_zh": "Jupyter Notebook 为主，示例偏 Python，但思路可迁移到其他语言。采用时要检查 SDK 版本、模型名称、费用、密钥管理和示例代码是否已适配当前 API。",
+      "trend_view_zh": "模型厂商 cookbook 仍是应用开发的重要入口。该项目上榜说明开发者需要可运行样例来把 Claude 能力落到 RAG、工具调用和业务集成中。",
+      "category_zh": "LLM 应用教程",
+      "highlight_zh": "Anthropic 官方 Claude 示例库，适合快速复现 RAG、工具调用和摘要能力。",
       "target_users_zh": [
-        "RAG 工程师",
-        "知识库产品团队",
-        "企业 AI 平台团队"
+        "Claude API 开发者",
+        "LLM 应用团队",
+        "AI 教学用户"
       ],
-      "best_use_case_zh": "把项目、文档或业务资料转成可检索、可追问的知识上下文。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "用官方 notebook 快速验证 Claude API 能力并迁移到业务原型。",
+      "not_suitable_zh": "不适合直接复制为生产系统，缺少完整部署和治理层。",
       "project_tags_zh": [
+        "Claude",
+        "Cookbook",
         "RAG",
-        "知识库",
-        "上下文",
-        "大模型",
-        "智能体"
+        "工具调用",
+        "AI 工具"
       ],
       "maturity_score": 4,
-      "adoption_difficulty": "中",
-      "recommendation_score": 4,
+      "adoption_difficulty": "低",
+      "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "运行前确认 SDK、模型和 API 文档仍匹配。",
+        "不要把示例密钥和业务数据写入 notebook。",
+        "迁移到生产时补充监控、限流和错误处理。"
       ]
     },
     {
@@ -503,41 +503,41 @@
       "yesterday_new_stars": 4,
       "total_stars": 5722,
       "readme_url": "https://github.com/CoreBunch/Instatic/blob/main/README.md",
-      "ai_confidence": 0.67,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "Instatic 主要围绕「The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all ther…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.72,
+      "summary_zh": "Instatic 是开源自托管视觉 CMS，定位为 Webflow、Framer 和 WordPress 替代方案，把可视化编辑器、内容引擎、发布器、用户、角色、插件和数据库放进一个 Bun server，并输出干净静态页面。AI 相关性主要来自 agentic 建站和内容协作方向。",
+      "purpose_zh": "提供自托管视觉 CMS，并发布语义化、轻量的静态页面。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "自托管官网管理",
+        "内容页面可视化编辑",
+        "轻量静态站发布"
       ],
-      "positioning_zh": "Instatic 面向代码理解、审查或研发协作场景，主要能力是「The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all ther…」。",
-      "product_view_zh": "从产品/应用角度看，Instatic 主要服务研发效率。它把「The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all ther…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括Docker、API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "Instatic 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "面向网站搭建和内容管理的自托管视觉 CMS。",
+      "product_view_zh": "产品价值在于减少 headless CMS、框架、托管、表单和分析工具的组合复杂度，让团队用一个服务管理页面、内容、插件和发布。适合想掌握网站数据和部署权的团队。",
+      "technical_view_zh": "TypeScript/Bun 项目，支持 SQLite 或 Postgres，输出 plain semantic HTML 和 compact CSS。采用时要评估插件体系、权限、备份、迁移、主题能力和静态输出质量。",
+      "trend_view_zh": "网站工具正在从 SaaS builder 转向自托管和 Agent 可协作。Instatic 的热度说明开发者希望在视觉编辑体验、可控部署和干净产物之间取得平衡。",
+      "category_zh": "网站/前端生成",
+      "highlight_zh": "一个自托管视觉 CMS，输出干净静态页面，适合替代重型建站 SaaS。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "独立开发者",
+        "内容团队",
+        "自托管网站团队"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "搭建可自托管、可视化编辑、可发布静态页面的网站管理系统。",
+      "not_suitable_zh": "不适合需要成熟生态、海量插件或企业级 CMS 治理的场景。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "AI 编程",
-        "大模型"
+        "视觉 CMS",
+        "自托管",
+        "静态页面",
+        "Bun",
+        "AI 工具"
       ],
       "maturity_score": 3,
-      "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先验证编辑器体验和静态输出质量。",
+        "确认数据库备份、权限和插件安全策略。",
+        "迁移现有站点前评估内容模型和主题能力。"
       ]
     }
   ]
