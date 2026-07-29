@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | Kimi-K3 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 17 | 3,499 | 未知 | `联网 Agent` `信息抓取` `自动化` `多模态` `大模型` | ★★★☆☆ | 低 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 193,111 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 3 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | MediaCrawler 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 58,836 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 4 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | opencode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 190,598 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★★ | 中 |
-| 5 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 12,845 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 24,694 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 79,759 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 8 | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | img2threejs 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 6 | 7,678 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★☆☆ | 中 |
-| 9 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | herdr 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 22,011 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | AgentENV 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 1,459 | Rust | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★☆☆☆ | 高 |
+| 1 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | Kimi-K3 把开源权重竞争推到 3T 级多模态 Agent 模型。 | 17 | 3,499 | 未知 | `开源权重` `多模态` `长上下文` `Agent 模型` `AI 工具` | ★★★★★ | 高 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把资深工程师的工作习惯拆成 Agent 可加载的小技能。 | 8 | 193,111 | Shell | `Agent 技能` `工程协作` `需求对齐` `工作流` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 覆盖小红书、抖音、B 站等主流中文平台的浏览器自动化采集工具。 | 7 | 58,836 | Python | `社媒采集` `Playwright` `小红书` `数据研究` `AI 工具` | ★★★☆☆ | 中 |
+| 4 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个开源、跨平台、终端优先的 AI coding agent。 | 6 | 190,598 | TypeScript | `Coding Agent` `开源 IDE` `终端工具` `开发自动化` `AI 工具` | ★★★★★ | 中 |
+| 5 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 让 AI 少绕弯，先把能执行的答案放到最前面。 | 6 | 12,845 | Python | `Agent 技能` `输出控制` `效率工具` `可读性` `AI 工具` | ★★★☆☆ | 低 |
+| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和 90 多个实验全开源的中文书。 | 6 | 24,694 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [earendil-works/pi](https://github.com/earendil-works/pi) | 从统一 LLM API 到 coding agent CLI，一套 Agent harness 基础件。 | 6 | 79,759 | TypeScript | `Agent Harness` `多模型 API` `TUI` `Coding Agent` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 把参考图变成可动画、可修改的 Three.js 代码资产。 | 6 | 7,678 | Python | `图像到3D` `Three.js` `程序化建模` `前端资产` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | 在一个终端里看清所有 Agent：谁在跑、谁卡住、谁完成。 | 6 | 22,011 | Rust | `Agent 编排` `终端多路复用` `Rust` `TUI` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 给大规模 Agent 训练和评测提供可快照、可 fork 的微虚拟机环境。 | 5 | 1,459 | Rust | `Agent 环境` `Firecracker` `分布式平台` `RL 训练` `AI 工具` | ★★★★☆ | 高 |
 
 ## 数据与归档
 

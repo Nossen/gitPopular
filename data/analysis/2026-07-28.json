@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-28",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-29T02:35:50.356051Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "MoonshotAI/Kimi-K3",
-      "repo_id": 1313576395,
-      "url": "https://github.com/MoonshotAI/Kimi-K3",
-      "description": "Open Frontier Intelligence",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 17,
-      "total_stars": 3499,
-      "readme_url": "https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Kimi-K3 是月之暗面开源权重的多模态 Agentic 模型，采用 2.8T 参数 MoE 架构，支持原生视觉和 100 万 token 上下文，重点面向长周期编程、知识工作和推理。",
       "purpose_zh": "提供可研究、可部署的前沿级多模态 Agent 模型权重。",
-      "application_scenarios_zh": [
-        "长周期代码任务",
-        "深度研究和可视化",
-        "多模态知识工作"
-      ],
       "positioning_zh": "面向长上下文、多模态和复杂工具调用的开源大模型。",
       "product_view_zh": "它的价值在于把模型能力直接推向长工程任务、深度研究和多模态生产场景，适合做企业级 Agent 能力底座评估。",
       "technical_view_zh": "2.8T MoE、KDA、AttnRes 和原生 MXFP4 量化带来强能力也带来部署门槛，需重点评估显存、推理框架、许可证和长上下文成本。",
@@ -44,12 +22,16 @@
         "开源权重",
         "多模态",
         "长上下文",
-        "Agent 模型",
-        "AI 工具"
+        "Agent 模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "长周期代码任务",
+        "深度研究和可视化",
+        "多模态知识工作"
+      ],
       "adoption_notes_zh": [
         "先确认许可证是否覆盖目标业务场景。",
         "用真实长上下文任务测试延迟、成本和稳定性。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 8,
-      "total_stars": 193111,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "mattpocock/skills 是一组面向真实工程工作的 Agent 技能，覆盖需求对齐、减少啰嗦、修复失败代码和避免架构泥球等常见问题。",
       "purpose_zh": "把工程协作经验拆成可组合的小技能，减少 Agent 误解和失控。",
-      "application_scenarios_zh": [
-        "需求澄清",
-        "控制 Agent 输出风格",
-        "沉淀团队工程规范"
-      ],
       "positioning_zh": "面向开发者的通用 Agent 工程技能库。",
       "product_view_zh": "适合个人或团队挑选少量高频规则接入日常开发，不强行接管流程，优势是轻量、可改、容易形成团队约定。",
       "technical_view_zh": "以技能文档和安装脚本为主，技术风险低；真正的成本在于持续维护团队自己的规则版本，而不是照搬整套技能。",
@@ -92,12 +60,16 @@
         "Agent 技能",
         "工程协作",
         "需求对齐",
-        "工作流",
-        "AI 工具"
+        "工作流"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "需求澄清",
+        "控制 Agent 输出风格",
+        "沉淀团队工程规范"
+      ],
       "adoption_notes_zh": [
         "优先启用最常用的少数技能。",
         "把团队已有规范改写成自己的 skill。",
@@ -105,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "NanmiCoder/MediaCrawler",
-      "repo_id": 651517185,
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 58836,
-      "readme_url": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "MediaCrawler 是多平台自媒体数据采集工具，支持小红书、抖音、快手、B 站、微博、贴吧、知乎等公开信息抓取，基于 Playwright 复用浏览器登录态。",
       "purpose_zh": "为学习和研究场景提供社媒公开数据采集样例与工具链。",
-      "application_scenarios_zh": [
-        "平台公开内容研究",
-        "爬虫技术学习",
-        "小规模舆情样本采集"
-      ],
       "positioning_zh": "面向中文社媒平台的数据采集和浏览器自动化项目。",
       "product_view_zh": "适合做舆情样本、内容研究和平台数据结构学习，但项目明确强调学习用途，商业采集和大规模运行存在明显合规风险。",
       "technical_view_zh": "核心依赖 Playwright 和登录态上下文，减少 JS 逆向复杂度；采用时要处理账号风控、验证码、限频、数据落库和平台规则变化。",
@@ -140,12 +98,16 @@
         "社媒采集",
         "Playwright",
         "小红书",
-        "数据研究",
-        "AI 工具"
+        "数据研究"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "平台公开内容研究",
+        "爬虫技术学习",
+        "小规模舆情样本采集"
+      ],
       "adoption_notes_zh": [
         "先阅读免责声明和目标平台规则。",
         "限制抓取规模、频率和数据用途。",
@@ -153,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "anomalyco/opencode",
-      "repo_id": 975734319,
-      "url": "https://github.com/anomalyco/opencode",
-      "description": "The open source coding agent.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 190598,
-      "readme_url": "https://github.com/anomalyco/opencode/blob/dev/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "OpenCode 是开源 AI coding agent，提供终端和桌面入口，支持多平台安装，并内置 build、plan 等 Agent 模式用于开发和只读分析。",
       "purpose_zh": "提供可自托管、可扩展的开源 AI 编程代理。",
-      "application_scenarios_zh": [
-        "终端 AI 编程",
-        "代码库问答和修改",
-        "开源 Agent 工具链评估"
-      ],
       "positioning_zh": "面向开发者的开源 coding agent 和桌面/终端工具。",
       "product_view_zh": "它适合想摆脱闭源 IDE 绑定、在终端中使用 coding agent 的开发者，也适合团队评估可控的 AI 编程工具链。",
       "technical_view_zh": "TypeScript 生态，支持 CLI、包管理器和桌面 beta；采用时要关注权限模型、模型接入、插件边界和代码改动审查。",
@@ -188,12 +136,16 @@
         "Coding Agent",
         "开源 IDE",
         "终端工具",
-        "开发自动化",
-        "AI 工具"
+        "开发自动化"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "终端 AI 编程",
+        "代码库问答和修改",
+        "开源 Agent 工具链评估"
+      ],
       "adoption_notes_zh": [
         "先在非关键仓库验证权限和回滚流程。",
         "区分 build 模式和只读分析模式。",
@@ -201,31 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "ayghri/i-have-adhd",
-      "repo_id": 1238120057,
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "topics": [
-        "adhd",
-        "claude-",
-        "claude-code-plugin",
-        "claude-skills",
-        "developer-tools",
-        "productivity"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 12845,
-      "readme_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "i-have-adhd 是让 coding agent 输出更直接的技能，要求行动优先、步骤编号、减少寒暄，目标是避免把关键答案埋进长篇解释。",
       "purpose_zh": "提升 Agent 回复的可扫读性和执行效率。",
-      "application_scenarios_zh": [
-        "代码修复摘要",
-        "命令执行结果汇报",
-        "任务步骤拆解"
-      ],
       "positioning_zh": "面向 AI 编程助手的输出风格控制技能。",
       "product_view_zh": "它解决的是低门槛但高频的沟通效率问题，适合需要快速定位结论、错误原因和下一步操作的开发者。",
       "technical_view_zh": "主要是跨工具 skill 文档，集成成本低；风险在于过度压缩时可能丢失复杂决策背景和必要风险说明。",
@@ -243,12 +174,16 @@
         "Agent 技能",
         "输出控制",
         "效率工具",
-        "可读性",
-        "AI 工具"
+        "可读性"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "代码修复摘要",
+        "命令执行结果汇报",
+        "任务步骤拆解"
+      ],
       "adoption_notes_zh": [
         "适合作为可开关的输出模式。",
         "高风险技术决策仍应保留关键依据。",
@@ -256,38 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "bojieli/ai-agent-book",
-      "repo_id": 1053118194,
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agent-memory",
-        "ai-agent",
-        "book",
-        "coding-agent",
-        "context-engineering",
-        "large-language-models",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "multimodal",
-        "rag",
-        "reinforcement-learning"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 24694,
-      "readme_url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "ai-agent-book 是《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，包含全书正文、PDF/EPUB、93 个配套实验和多语言版本。",
       "purpose_zh": "系统讲解 Agent 的设计原理、上下文、工具、记忆、评测和工程实践。",
-      "application_scenarios_zh": [
-        "团队内部培训",
-        "Agent 技术自学",
-        "课程和工作坊材料"
-      ],
       "positioning_zh": "面向中文开发者和研究者的 AI Agent 工程教材。",
       "product_view_zh": "它适合团队内部培训、个人系统学习和课程材料建设，价值在于把概念、代码和复现实验放在同一仓库中。",
       "technical_view_zh": "内容覆盖 MCP、多 Agent、RAG、记忆、强化学习和浏览器自动化；采用时要区分教学代码和生产框架，避免照搬实验实现。",
@@ -305,12 +212,16 @@
         "AI Agent",
         "开源教材",
         "工程实践",
-        "实验代码",
-        "AI 工具"
+        "实验代码"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队内部培训",
+        "Agent 技术自学",
+        "课程和工作坊材料"
+      ],
       "adoption_notes_zh": [
         "按章节选择与目标业务相关的实验。",
         "将教学代码和生产实现分开评估。",
@@ -318,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "earendil-works/pi",
-      "repo_id": 1035029907,
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 79759,
-      "readme_url": "https://github.com/earendil-works/pi/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Pi Agent Harness 包含统一多模型 API、Agent runtime、TUI 库和交互式 coding agent CLI，目标是构建可自扩展的 Agent 工具链。",
       "purpose_zh": "为开发者提供从模型调用到 Agent loop、终端界面和 coding agent 的基础组件。",
-      "application_scenarios_zh": [
-        "自研 coding agent",
-        "统一多模型调用",
-        "终端 Agent UI"
-      ],
       "positioning_zh": "面向 Agent 开发者的 harness 和编码代理工具包。",
       "product_view_zh": "适合想自己搭建 Agent 应用或编码代理的团队，价值在于把多模型 API、状态管理和终端体验组合成一套可开发基础。",
       "technical_view_zh": "TypeScript 包拆分清晰，但 README 明确默认无内建权限系统；采用时必须用容器、沙箱或宿主权限策略补边界。",
@@ -353,12 +250,16 @@
         "Agent Harness",
         "多模型 API",
         "TUI",
-        "Coding Agent",
-        "AI 工具"
+        "Coding Agent"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "自研 coding agent",
+        "统一多模型调用",
+        "终端 Agent UI"
+      ],
       "adoption_notes_zh": [
         "先补齐运行时权限边界设计。",
         "评估核心包和 CLI 的稳定性差异。",
@@ -366,35 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "img2threejs/img2threejs",
-      "repo_id": 1301140808,
-      "url": "https://github.com/img2threejs/img2threejs",
-      "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
-      "language": "Python",
-      "topics": [
-        "3d",
-        "ai-agents",
-        "claude-code",
-        "computer-graphics",
-        "generative",
-        "image-to-3d",
-        "procedural-generation",
-        "threejs",
-        "typescript",
-        "webgl"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 7678,
-      "readme_url": "https://github.com/img2threejs/img2threejs/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "img2threejs 把参考图重建为纯代码 Three.js 模型，强调程序化几何、质量门禁和动画可用性，不走摄影测量或下载素材包路线。",
       "purpose_zh": "把单张图片中的物体转成可编辑、可复现的 Web 3D 代码。",
-      "application_scenarios_zh": [
-        "网页产品 3D 展示",
-        "教学和互动演示",
-        "Agent 生成前端素材"
-      ],
       "positioning_zh": "面向前端和 3D 原型的图像到 Three.js 生成工具。",
       "product_view_zh": "适合快速做产品展示、教学演示和交互原型，价值在于输出可审查代码，而不是难维护的黑盒模型文件。",
       "technical_view_zh": "Python 脚本驱动 Three.js 输出，采用时要评估复杂形体还原、材质细节、构建门禁和浏览器性能。",
@@ -412,12 +288,16 @@
         "图像到3D",
         "Three.js",
         "程序化建模",
-        "前端资产",
-        "AI 工具"
+        "前端资产"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "网页产品 3D 展示",
+        "教学和互动演示",
+        "Agent 生成前端素材"
+      ],
       "adoption_notes_zh": [
         "先用边界清晰的单物体图片验证效果。",
         "把生成代码纳入常规前端审查和性能测试。",
@@ -425,43 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "ogulcancelik/herdr",
-      "repo_id": 1193909050,
-      "url": "https://github.com/ogulcancelik/herdr",
-      "description": "agent multiplexer that lives in your terminal.",
-      "language": "Rust",
-      "topics": [
-        "agent",
-        "agent-orchestration",
-        "ai",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "coding-agents",
-        "developer-tools",
-        "devtools",
-        "multiplexer",
-        "rust",
-        "terminal",
-        "terminal-multiplexer",
-        "terminal-ui",
-        "tmux",
-        "tui",
-        "workspace-manager"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 22011,
-      "readme_url": "https://github.com/ogulcancelik/herdr/blob/master/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "herdr 是运行在终端里的 Agent multiplexer，用真实终端视图同时观察多个 Agent 状态，支持 detach/reattach、SSH、插件和 socket API。",
       "purpose_zh": "让用户在终端中统一管理多个长时间运行的 coding agent 会话。",
-      "application_scenarios_zh": [
-        "多 Agent 并行开发",
-        "远程 SSH 会话管理",
-        "长任务状态观察"
-      ],
       "positioning_zh": "面向多 Agent 编程的终端多路复用器。",
       "product_view_zh": "适合同时跑多个 Agent、跨机器跟进任务和保留会话状态的开发者，价值在可视化状态、持久会话和 Agent 之间协调。",
       "technical_view_zh": "Rust TUI 工具，强调真实终端窗格和 socket API；采用时要关注会话隔离、日志保留、插件权限和终端兼容性。",
@@ -479,12 +326,16 @@
         "Agent 编排",
         "终端多路复用",
         "Rust",
-        "TUI",
-        "AI 工具"
+        "TUI"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "多 Agent 并行开发",
+        "远程 SSH 会话管理",
+        "长任务状态观察"
+      ],
       "adoption_notes_zh": [
         "先限定并发会话数量避免管理负担。",
         "为不同 Agent 约定清晰的任务边界。",
@@ -492,24 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "kvcache-ai/AgentENV",
-      "repo_id": 1309451980,
-      "url": "https://github.com/kvcache-ai/AgentENV",
-      "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale.",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 1459,
-      "readme_url": "https://github.com/kvcache-ai/AgentENV/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "AgentENV 是面向规模化 Agent 环境运行的平台，使用 Firecracker 微虚拟机、overlaybd、快照和 fork 支持，为 Kimi K3 的 agentic RL 训练提供环境基础。",
       "purpose_zh": "大规模、低成本地运行和复制 Agent 沙箱环境。",
-      "application_scenarios_zh": [
-        "Agentic RL 训练",
-        "大规模环境评测",
-        "并行沙箱工作流"
-      ],
       "positioning_zh": "面向 Agent 训练和并行执行的分布式环境平台。",
       "product_view_zh": "适合需要大量短生命周期沙箱的模型训练、评测和并行 Agent 工作流，价值在快速启动、暂停、快照和环境复用。",
       "technical_view_zh": "依赖 Linux 6.8+、KVM、Firecracker 和对象存储，工程门槛高；README 明确当前无授权能力，不能直接暴露公网 API。",
@@ -527,12 +364,16 @@
         "Agent 环境",
         "Firecracker",
         "分布式平台",
-        "RL 训练",
-        "AI 工具"
+        "RL 训练"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agentic RL 训练",
+        "大规模环境评测",
+        "并行沙箱工作流"
+      ],
       "adoption_notes_zh": [
         "只能部署在受控网络或授权代理之后。",
         "先验证宿主机内核、KVM 和存储兼容性。",
