@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-28 (Asia/Shanghai)
+## 最新榜单：2026-07-29 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | Kimi-K3 把开源权重竞争推到 3T 级多模态 Agent 模型。 | 17 | 3,499 | 未知 | `开源权重` `多模态` `长上下文` `Agent 模型` `AI 工具` | ★★★★★ | 高 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把资深工程师的工作习惯拆成 Agent 可加载的小技能。 | 8 | 193,111 | Shell | `Agent 技能` `工程协作` `需求对齐` `工作流` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 覆盖小红书、抖音、B 站等主流中文平台的浏览器自动化采集工具。 | 7 | 58,836 | Python | `社媒采集` `Playwright` `小红书` `数据研究` `AI 工具` | ★★★☆☆ | 中 |
-| 4 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个开源、跨平台、终端优先的 AI coding agent。 | 6 | 190,598 | TypeScript | `Coding Agent` `开源 IDE` `终端工具` `开发自动化` `AI 工具` | ★★★★★ | 中 |
-| 5 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 让 AI 少绕弯，先把能执行的答案放到最前面。 | 6 | 12,845 | Python | `Agent 技能` `输出控制` `效率工具` `可读性` `AI 工具` | ★★★☆☆ | 低 |
-| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和 90 多个实验全开源的中文书。 | 6 | 24,694 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
-| 7 | [earendil-works/pi](https://github.com/earendil-works/pi) | 从统一 LLM API 到 coding agent CLI，一套 Agent harness 基础件。 | 6 | 79,759 | TypeScript | `Agent Harness` `多模型 API` `TUI` `Coding Agent` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [img2threejs/img2threejs](https://github.com/img2threejs/img2threejs) | 把参考图变成可动画、可修改的 Three.js 代码资产。 | 6 | 7,678 | Python | `图像到3D` `Three.js` `程序化建模` `前端资产` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr) | 在一个终端里看清所有 Agent：谁在跑、谁卡住、谁完成。 | 6 | 22,011 | Rust | `Agent 编排` `终端多路复用` `Rust` `TUI` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [kvcache-ai/AgentENV](https://github.com/kvcache-ai/AgentENV) | 给大规模 Agent 训练和评测提供可快照、可 fork 的微虚拟机环境。 | 5 | 1,459 | Rust | `Agent 环境` `Firecracker` `分布式平台` `RL 训练` `AI 工具` | ★★★★☆ | 高 |
+| 1 | [openai/codex-security](https://github.com/openai/codex-security) | codex-security 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 15 | 5,099 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `OpenAI` | ★★★☆☆ | 中 |
+| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 7 | 26,394 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 3 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 80,418 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 4 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 6 | 157,941 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
+| 5 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 6 | 45,631 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
+| 6 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | speech-to-speech 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 5 | 7,925 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 7 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | airi 围绕「💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 5 | 45,432 | TypeScript | `大模型` `RAG` `AI 编程` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 8 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 13,574 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 9 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | claude-video 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 4 | 12,702 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 10 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 98,510 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-28.json](data/2026-07-28.json)
-- Markdown 归档：[reports/2026-07-28.md](reports/2026-07-28.md)
+- JSON 数据：[data/2026-07-29.json](data/2026-07-29.json)
+- Markdown 归档：[reports/2026-07-29.md](reports/2026-07-29.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
