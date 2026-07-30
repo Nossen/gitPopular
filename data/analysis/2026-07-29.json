@@ -1,48 +1,10 @@
 {
-  "date": "2026-07-29",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-30T02:37:19.844471Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "openai/codex-security",
-      "repo_id": 1299769220,
-      "url": "https://github.com/openai/codex-security",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-      "language": "TypeScript",
-      "topics": [
-        "ai-security",
-        "application-security",
-        "cli",
-        "code-scanning",
-        "codex",
-        "codex-security",
-        "cybersecurity",
-        "devsecops",
-        "nodejs",
-        "npm",
-        "openai",
-        "sdk",
-        "security",
-        "typescript",
-        "vulnerability-scanning"
-      ],
-      "yesterday_new_stars": 15,
-      "total_stars": 5099,
-      "readme_url": "https://github.com/openai/codex-security/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Codex Security 是 OpenAI 提供的安全扫描 CLI 和 TypeScript SDK，用于发现、验证并辅助修复代码中的漏洞，支持本地交互扫描和 CI API key 模式。",
       "purpose_zh": "把 AI 安全审查接入本地开发和 CI 流程。",
-      "application_scenarios_zh": [
-        "PR 安全扫描",
-        "本地漏洞验证",
-        "CI 安全门禁"
-      ],
       "positioning_zh": "面向 DevSecOps 的 AI 代码安全扫描工具。",
       "product_view_zh": "适合在 PR 或发布前做漏洞发现和验证，价值在于把安全分析从人工专项审计前移到开发日常。",
       "technical_view_zh": "依赖 Node、Python 和 Codex Security 访问权限；采用时要评估凭据管理、扫描范围、误报复核和 CI 集成策略。",
@@ -60,12 +22,16 @@
         "AI 安全",
         "漏洞扫描",
         "CLI",
-        "DevSecOps",
-        "AI 工具"
+        "DevSecOps"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "PR 安全扫描",
+        "本地漏洞验证",
+        "CI 安全门禁"
+      ],
       "adoption_notes_zh": [
         "先限定扫描仓库和权限边界。",
         "保留人工复核误报与修复建议。",
@@ -73,38 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "bojieli/ai-agent-book",
-      "repo_id": 1053118194,
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agent-memory",
-        "ai-agent",
-        "book",
-        "coding-agent",
-        "context-engineering",
-        "large-language-models",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "multimodal",
-        "rag",
-        "reinforcement-learning"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 26394,
-      "readme_url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "ai-agent-book 是《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，包含正文、PDF/EPUB、多语言版本和 94 个配套实验。",
       "purpose_zh": "系统讲解 Agent 的上下文、工具、记忆、评测和工程实践。",
-      "application_scenarios_zh": [
-        "团队内部培训",
-        "Agent 技术自学",
-        "课程和工作坊材料"
-      ],
       "positioning_zh": "面向中文开发者和研究者的 AI Agent 工程教材。",
       "product_view_zh": "适合团队培训、个人系统学习和课程材料建设，价值在于把概念、代码和可复现实验放在同一仓库。",
       "technical_view_zh": "覆盖 MCP、多 Agent、RAG、强化学习和浏览器自动化；采用时要区分教学代码与生产框架。",
@@ -122,12 +60,16 @@
         "AI Agent",
         "开源教材",
         "工程实践",
-        "实验代码",
-        "AI 工具"
+        "实验代码"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队内部培训",
+        "Agent 技术自学",
+        "课程和工作坊材料"
+      ],
       "adoption_notes_zh": [
         "按章节选择与业务相关的实验。",
         "不要把教学代码直接当生产实现。",
@@ -135,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "earendil-works/pi",
-      "repo_id": 1035029907,
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 80418,
-      "readme_url": "https://github.com/earendil-works/pi/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Pi Agent Harness 包含统一多模型 API、Agent runtime、TUI 库和交互式 coding agent CLI，目标是构建可自扩展的 Agent 工具链。",
       "purpose_zh": "提供从模型调用到 Agent loop、终端界面和 coding agent 的基础组件。",
-      "application_scenarios_zh": [
-        "自研 coding agent",
-        "统一多模型调用",
-        "终端 Agent UI"
-      ],
       "positioning_zh": "面向 Agent 开发者的 harness 和编码代理工具包。",
       "product_view_zh": "适合想自研 Agent 应用或编码代理的团队，价值在于把多模型 API、状态管理和终端体验组合起来。",
       "technical_view_zh": "TypeScript 包拆分清晰，但默认无内建权限系统；落地时必须用容器、沙箱或宿主权限策略补边界。",
@@ -170,12 +98,16 @@
         "Agent Harness",
         "多模型 API",
         "TUI",
-        "Coding Agent",
-        "AI 工具"
+        "Coding Agent"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "自研 coding agent",
+        "统一多模型调用",
+        "终端 Agent UI"
+      ],
       "adoption_notes_zh": [
         "先补齐运行时权限边界设计。",
         "评估核心包和 CLI 的稳定性差异。",
@@ -183,44 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "firecrawl/firecrawl",
-      "repo_id": 787076358,
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 157941,
-      "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Firecrawl 是面向 AI 应用的网页上下文 API，提供搜索、抓取、交互、爬取、批量抓取和结构化抽取，把网页转成 LLM 友好的 Markdown 或 JSON。",
       "purpose_zh": "为 Agent 和 RAG 应用稳定获取网页内容。",
-      "application_scenarios_zh": [
-        "网页资料检索",
-        "RAG 内容更新",
-        "市场情报采集"
-      ],
       "positioning_zh": "面向联网 Agent 的网页数据抽取基础设施。",
       "product_view_zh": "适合需要稳定网页上下文的研究、监测、销售情报和知识库更新场景，能减少团队自建爬虫和代理池成本。",
       "technical_view_zh": "TypeScript 生态，支持托管和开源部署；采用时要评估成本、限速、动态页面、数据结构化质量和缓存策略。",
@@ -238,12 +136,16 @@
         "网页抓取",
         "联网 Agent",
         "MCP",
-        "结构化数据",
-        "AI 工具"
+        "结构化数据"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "网页资料检索",
+        "RAG 内容更新",
+        "市场情报采集"
+      ],
       "adoption_notes_zh": [
         "先用目标站点样本测试抓取稳定性。",
         "为动态页面和失败重试设计缓存策略。",
@@ -251,45 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "usestrix/strix",
-      "repo_id": 1032808806,
-      "url": "https://github.com/usestrix/strix",
-      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-      "language": "Python",
-      "topics": [
-        "agents",
-        "ai-hacking",
-        "ai-penetration-testing",
-        "ai-pentesting",
-        "ai-security",
-        "artificial-intelligence",
-        "bug-bounty",
-        "code-quality",
-        "ctf-tools",
-        "cybersecurity",
-        "cybersecurity-tools",
-        "ethical-hacking",
-        "hacking",
-        "llm-security",
-        "offensive-security",
-        "penetration-testing",
-        "pentesting-tools",
-        "red-teaming",
-        "security",
-        "security-automation"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 45631,
-      "readme_url": "https://github.com/usestrix/strix/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Strix 是开源 AI 渗透测试工具，通过多 Agent 扫描、验证和辅助修复应用漏洞，并可接入 GitHub Actions 和 CI/CD 流程。",
       "purpose_zh": "用自主安全 Agent 自动发现并复现应用漏洞。",
-      "application_scenarios_zh": [
-        "预发布安全测试",
-        "漏洞回归验证",
-        "红队自动化辅助"
-      ],
       "positioning_zh": "面向应用安全和红队验证的 AI pentesting 工具。",
       "product_view_zh": "适合安全团队在测试环境中做持续漏洞发现和回归验证，价值在于把渗透测试流程自动化并形成可查看报告。",
       "technical_view_zh": "Python/PyPI 生态，强调多 Agent 和本地 Web Viewer；采用时要控制测试授权、目标范围、网络边界和误报复核。",
@@ -307,12 +174,16 @@
         "AI 渗透测试",
         "安全自动化",
         "多 Agent",
-        "CI/CD",
-        "AI 工具"
+        "CI/CD"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "预发布安全测试",
+        "漏洞回归验证",
+        "红队自动化辅助"
+      ],
       "adoption_notes_zh": [
         "先限定授权目标和测试窗口。",
         "对所有漏洞结论做人工复核。",
@@ -320,34 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "huggingface/speech-to-speech",
-      "repo_id": 839428333,
-      "url": "https://github.com/huggingface/speech-to-speech",
-      "description": "Build local voice agents with open-source models",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "assistant",
-        "language-model",
-        "machine-learning",
-        "python",
-        "speech",
-        "speech-synthesis",
-        "speech-to-text",
-        "speech-translation"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 7925,
-      "readme_url": "https://github.com/huggingface/speech-to-speech/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "speech-to-speech 是 Hugging Face 的本地语音 Agent 管线，采用 VAD、STT、LLM、TTS 模块化架构，并暴露 OpenAI Realtime 兼容 WebSocket API。",
       "purpose_zh": "用开源模型构建低延迟、可替换组件的语音 Agent。",
-      "application_scenarios_zh": [
-        "本地语音助手",
-        "机器人对话后端",
-        "语音交互原型"
-      ],
       "positioning_zh": "面向本地语音助手和机器人对话的开源语音管线。",
       "product_view_zh": "适合机器人、桌面助手和私有语音交互原型，优势是组件可替换、本地部署和兼容 Realtime 客户端。",
       "technical_view_zh": "Python 管线依赖 STT、TTS、LLM 后端和音频设备；采用时要测试延迟、打断处理、GPU/CPU 性能和模型许可。",
@@ -365,12 +212,16 @@
         "语音 Agent",
         "OpenAI Realtime",
         "本地部署",
-        "开源模型",
-        "AI 工具"
+        "开源模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "本地语音助手",
+        "机器人对话后端",
+        "语音交互原型"
+      ],
       "adoption_notes_zh": [
         "先测端到端延迟和打断体验。",
         "按硬件选择 STT、LLM 和 TTS 组合。",
@@ -378,36 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "moeru-ai/airi",
-      "repo_id": 896924279,
-      "url": "https://github.com/moeru-ai/airi",
-      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
-      "language": "TypeScript",
-      "topics": [
-        "ai-companion",
-        "ai-vtuber",
-        "airi",
-        "digital-life",
-        "grok-companion",
-        "live2d",
-        "neuro-sama",
-        "neurosama",
-        "openclaw",
-        "vrm",
-        "vtuber"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 45432,
-      "readme_url": "https://github.com/moeru-ai/airi/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "Project AIRI 是自托管 AI 伴侣和虚拟角色项目，基于 WebGPU、WebAudio、WebSocket 等 Web 技术，支持实时语音、Live2D/VRM、桌面和网页形态。",
       "purpose_zh": "构建用户自拥有、可扩展的 AI 虚拟角色和互动伴侣。",
-      "application_scenarios_zh": [
-        "AI 虚拟主播",
-        "实时语音陪伴",
-        "游戏 Agent 实验"
-      ],
       "positioning_zh": "面向 AI Companion、VTuber 和数字生命实验的开源项目。",
       "product_view_zh": "适合虚拟角色、直播陪伴、游戏 Agent 和情感互动原型，卖点是自托管、多形态和丰富前端表现。",
       "technical_view_zh": "TypeScript/Web 技术栈较重，涉及模型 API、实时音频、动画渲染和桌面打包；落地需关注性能和角色安全边界。",
@@ -425,12 +250,16 @@
         "AI 伴侣",
         "VTuber",
         "实时语音",
-        "WebGPU",
-        "AI 工具"
+        "WebGPU"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "AI 虚拟主播",
+        "实时语音陪伴",
+        "游戏 Agent 实验"
+      ],
       "adoption_notes_zh": [
         "先明确角色定位和互动边界。",
         "测试实时音频与渲染性能。",
@@ -438,31 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "ayghri/i-have-adhd",
-      "repo_id": 1238120057,
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "topics": [
-        "adhd",
-        "claude-",
-        "claude-code-plugin",
-        "claude-skills",
-        "developer-tools",
-        "productivity"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 13574,
-      "readme_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "i-have-adhd 是让 coding agent 输出更直接的技能，要求行动优先、步骤编号、减少寒暄，避免关键答案埋在长篇解释里。",
       "purpose_zh": "提升 Agent 回复的可扫读性和执行效率。",
-      "application_scenarios_zh": [
-        "代码修复摘要",
-        "命令执行结果汇报",
-        "任务步骤拆解"
-      ],
       "positioning_zh": "面向 AI 编程助手的输出风格控制技能。",
       "product_view_zh": "适合需要快速定位结论、错误原因和下一步操作的开发者，是低成本改善 AI 协作体验的风格补丁。",
       "technical_view_zh": "主要是跨工具 skill 文档，集成成本低；过度压缩时可能丢失复杂决策背景和必要风险说明。",
@@ -480,12 +288,16 @@
         "Agent 技能",
         "输出控制",
         "效率工具",
-        "可读性",
-        "AI 工具"
+        "可读性"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "代码修复摘要",
+        "命令执行结果汇报",
+        "任务步骤拆解"
+      ],
       "adoption_notes_zh": [
         "适合作为可开关输出模式。",
         "高风险决策仍保留关键依据。",
@@ -493,24 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "bradautomates/claude-video",
-      "repo_id": 1219644159,
-      "url": "https://github.com/bradautomates/claude-video",
-      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 12702,
-      "readme_url": "https://github.com/bradautomates/claude-video/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "claude-video 提供 /watch 技能，让 Claude 或其他 Agent 下载视频、提取关键帧、读取字幕或 Whisper 转写，并把画面和音频交给模型分析。",
       "purpose_zh": "补齐文本 Agent 对视频内容的视觉和语音理解能力。",
-      "application_scenarios_zh": [
-        "视频内容复盘",
-        "竞品广告分析",
-        "bug 录屏诊断"
-      ],
       "positioning_zh": "面向 Agent 技能体系的视频理解插件。",
       "product_view_zh": "适合分析内容创意、广告、竞品视频、课程和 bug 录屏，价值在于让 Agent 同时看到画面和听到音频。",
       "technical_view_zh": "依赖 yt-dlp、ffmpeg、字幕和可选 Whisper；采用时要评估下载成功率、帧预算、版权提醒和本地文件体积。",
@@ -528,12 +326,16 @@
         "视频理解",
         "Agent 技能",
         "字幕转写",
-        "关键帧",
-        "AI 工具"
+        "关键帧"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "视频内容复盘",
+        "竞品广告分析",
+        "bug 录屏诊断"
+      ],
       "adoption_notes_zh": [
         "先确认本机 ffmpeg 和下载能力。",
         "根据任务选择帧密度和细节模式。",
@@ -541,44 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "Graphify-Labs/graphify",
-      "repo_id": 1200597263,
-      "url": "https://github.com/Graphify-Labs/graphify",
-      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-      "language": "Python",
-      "topics": [
-        "ai-agents",
-        "antigravity",
-        "ast",
-        "claude-code",
-        "code-analysis",
-        "code-search",
-        "codex",
-        "cursor",
-        "developer-tools",
-        "gemini",
-        "graphrag",
-        "knowledge-graph",
-        "leiden",
-        "llm",
-        "mcp",
-        "openclaw",
-        "rag",
-        "skills",
-        "tree-sitter"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 98510,
-      "readme_url": "https://github.com/Graphify-Labs/graphify/blob/v8/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Graphify 把代码库、文档、SQL schema、配置和 PDF 转成可查询知识图谱，使用本地 AST 解析和可解释边，不依赖向量库。",
       "purpose_zh": "让 Agent 用图结构理解大型代码库和项目资料。",
-      "application_scenarios_zh": [
-        "代码库入门",
-        "架构依赖追踪",
-        "Agent 上下文增强"
-      ],
       "positioning_zh": "面向代码理解和 GraphRAG 的本地知识图谱工具。",
       "product_view_zh": "适合接手大型仓库、梳理依赖路径和做架构问答，价值在于可追踪边来源，降低黑盒检索的不确定性。",
       "technical_view_zh": "支持约 40 种语言的 tree-sitter AST、本地解析和 query/path/explain；采用时要评估索引耗时、媒体语义后端和忽略规则。",
@@ -596,12 +364,16 @@
         "知识图谱",
         "代码理解",
         "GraphRAG",
-        "本地解析",
-        "AI 工具"
+        "本地解析"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "代码库入门",
+        "架构依赖追踪",
+        "Agent 上下文增强"
+      ],
       "adoption_notes_zh": [
         "先为仓库配置忽略规则。",
         "抽样核对 EXTRACTED 与 INFERRED 边。",

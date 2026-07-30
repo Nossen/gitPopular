@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [openai/codex-security](https://github.com/openai/codex-security) | codex-security 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 15 | 5,099 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `OpenAI` | ★★★☆☆ | 中 |
-| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 7 | 26,394 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
-| 3 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 80,418 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 4 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 6 | 157,941 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 5 | [usestrix/strix](https://github.com/usestrix/strix) | strix 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 6 | 45,631 | Python | `安全研究` `工具链` `Agent` `智能体` `安全` | ★★★★☆ | 高 |
-| 6 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | speech-to-speech 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 5 | 7,925 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 7 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | airi 围绕「💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 5 | 45,432 | TypeScript | `大模型` `RAG` `AI 编程` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 8 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 13,574 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 9 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | claude-video 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 4 | 12,702 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 10 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 98,510 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 中 |
+| 1 | [openai/codex-security](https://github.com/openai/codex-security) | 把 Codex 的漏洞发现、验证和修复能力接入 CLI 与 CI。 | 15 | 5,099 | TypeScript | `AI 安全` `漏洞扫描` `CLI` `DevSecOps` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和 90 多个实验全开源的中文书。 | 7 | 26,394 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [earendil-works/pi](https://github.com/earendil-works/pi) | 从统一 LLM API 到 coding agent CLI，一套 Agent harness 基础件。 | 6 | 80,418 | TypeScript | `Agent Harness` `多模型 API` `TUI` `Coding Agent` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 一个能搜索、抓取并交互网页的稳定数据入口。 | 6 | 157,941 | TypeScript | `网页抓取` `联网 Agent` `MCP` `结构化数据` `AI 工具` | ★★★★★ | 中 |
+| 5 | [usestrix/strix](https://github.com/usestrix/strix) | 用多 Agent 自动做应用渗透测试，并把漏洞接入 CI 门禁。 | 6 | 45,631 | Python | `AI 渗透测试` `安全自动化` `多 Agent` `CI/CD` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | 用开源 VAD、STT、LLM、TTS 搭一套本地实时语音 Agent。 | 5 | 7,925 | Python | `语音 Agent` `OpenAI Realtime` `本地部署` `开源模型` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 把自托管 AI 伴侣做成能说话、能动、能进游戏的虚拟角色。 | 5 | 45,432 | TypeScript | `AI 伴侣` `VTuber` `实时语音` `WebGPU` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 让 AI 少绕弯，先把能执行的答案放到最前面。 | 4 | 13,574 | Python | `Agent 技能` `输出控制` `效率工具` `可读性` `AI 工具` | ★★★☆☆ | 低 |
+| 9 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 给 Claude 一个 /watch，让它真正看见视频里的画面和字幕。 | 4 | 12,702 | Python | `视频理解` `Agent 技能` `字幕转写` `关键帧` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个代码库变成可追路径、可解释来源的本地知识图谱。 | 4 | 98,510 | Python | `知识图谱` `代码理解` `GraphRAG` `本地解析` `AI 工具` | ★★★★★ | 中 |
 
 ## 数据与归档
 
