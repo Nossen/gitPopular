@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-29 (Asia/Shanghai)
+## 最新榜单：2026-07-30 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [openai/codex-security](https://github.com/openai/codex-security) | 把 Codex 的漏洞发现、验证和修复能力接入 CLI 与 CI。 | 15 | 5,099 | TypeScript | `AI 安全` `漏洞扫描` `CLI` `DevSecOps` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和 90 多个实验全开源的中文书。 | 7 | 26,394 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [earendil-works/pi](https://github.com/earendil-works/pi) | 从统一 LLM API 到 coding agent CLI，一套 Agent harness 基础件。 | 6 | 80,418 | TypeScript | `Agent Harness` `多模型 API` `TUI` `Coding Agent` `AI 工具` | ★★★★☆ | 中 |
-| 4 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 一个能搜索、抓取并交互网页的稳定数据入口。 | 6 | 157,941 | TypeScript | `网页抓取` `联网 Agent` `MCP` `结构化数据` `AI 工具` | ★★★★★ | 中 |
-| 5 | [usestrix/strix](https://github.com/usestrix/strix) | 用多 Agent 自动做应用渗透测试，并把漏洞接入 CI 门禁。 | 6 | 45,631 | Python | `AI 渗透测试` `安全自动化` `多 Agent` `CI/CD` `AI 工具` | ★★★★☆ | 中 |
-| 6 | [huggingface/speech-to-speech](https://github.com/huggingface/speech-to-speech) | 用开源 VAD、STT、LLM、TTS 搭一套本地实时语音 Agent。 | 5 | 7,925 | Python | `语音 Agent` `OpenAI Realtime` `本地部署` `开源模型` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [moeru-ai/airi](https://github.com/moeru-ai/airi) | 把自托管 AI 伴侣做成能说话、能动、能进游戏的虚拟角色。 | 5 | 45,432 | TypeScript | `AI 伴侣` `VTuber` `实时语音` `WebGPU` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 让 AI 少绕弯，先把能执行的答案放到最前面。 | 4 | 13,574 | Python | `Agent 技能` `输出控制` `效率工具` `可读性` `AI 工具` | ★★★☆☆ | 低 |
-| 9 | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | 给 Claude 一个 /watch，让它真正看见视频里的画面和字幕。 | 4 | 12,702 | Python | `视频理解` `Agent 技能` `字幕转写` `关键帧` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 把整个代码库变成可追路径、可解释来源的本地知识图谱。 | 4 | 98,510 | Python | `知识图谱` `代码理解` `GraphRAG` `本地解析` `AI 工具` | ★★★★★ | 中 |
+| 1 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | Kimi-K3 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 13 | 7,553 | 未知 | `联网 Agent` `信息抓取` `自动化` `多模态` `大模型` | ★★★☆☆ | 低 |
+| 2 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | book-to-skill 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 13,763 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 8 | 236,265 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 4 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 33,958 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 5 | [openai/codex-security](https://github.com/openai/codex-security) | codex-security 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 7 | 6,992 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `OpenAI` | ★★★☆☆ | 高 |
+| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 27,542 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 7 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | MediaCrawler 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 59,453 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 8 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | awesome-systematic-trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 6 | 11,117 | Python | `金融分析` `投研` `自动化` `AI 编程` `模型推理` | ★★★☆☆ | 中 |
+| 9 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 18,531 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 92,441 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-29.json](data/2026-07-29.json)
-- Markdown 归档：[reports/2026-07-29.md](reports/2026-07-29.md)
+- JSON 数据：[data/2026-07-30.json](data/2026-07-30.json)
+- Markdown 归档：[reports/2026-07-30.md](reports/2026-07-30.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
