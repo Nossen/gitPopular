@@ -1,32 +1,10 @@
 {
-  "date": "2026-07-30",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-07-31T02:38:13.354868Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "MoonshotAI/Kimi-K3",
-      "repo_id": 1313576395,
-      "url": "https://github.com/MoonshotAI/Kimi-K3",
-      "description": "Open Frontier Intelligence",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 13,
-      "total_stars": 7553,
-      "readme_url": "https://github.com/MoonshotAI/Kimi-K3/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Kimi-K3 是月之暗面开源权重的多模态 Agentic 模型，采用 2.8T 参数 MoE 架构，支持原生视觉和 100 万 token 上下文，重点面向长周期编程、知识工作和推理。",
       "purpose_zh": "提供可研究、可部署的前沿级多模态 Agent 模型权重。",
-      "application_scenarios_zh": [
-        "长周期代码任务",
-        "深度研究和可视化",
-        "多模态知识工作"
-      ],
       "positioning_zh": "面向长上下文、多模态和复杂工具调用的开源大模型。",
       "product_view_zh": "价值在于把模型能力直接推向长工程任务、深度研究和多模态生产场景，适合企业级 Agent 能力底座评估。",
       "technical_view_zh": "2.8T MoE、KDA、AttnRes 和原生 MXFP4 量化带来强能力也带来部署门槛，需评估显存、推理框架、许可证和长上下文成本。",
@@ -44,12 +22,16 @@
         "开源权重",
         "多模态",
         "长上下文",
-        "Agent 模型",
-        "AI 工具"
+        "Agent 模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "长周期代码任务",
+        "深度研究和可视化",
+        "多模态知识工作"
+      ],
       "adoption_notes_zh": [
         "先确认许可证是否覆盖目标业务场景。",
         "用真实长上下文任务测试延迟、成本和稳定性。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "virgiliojr94/book-to-skill",
-      "repo_id": 1226123343,
-      "url": "https://github.com/virgiliojr94/book-to-skill",
-      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 10,
-      "total_stars": 13763,
-      "readme_url": "https://github.com/virgiliojr94/book-to-skill/blob/master/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "book-to-skill 可把技术书、PDF、EPUB、DOCX、Markdown、HTML 等资料转成统一 Agent Skill，让 Claude Code、Copilot CLI、Amp 等在工作中按需引用。",
       "purpose_zh": "把长文档和技术书沉淀为可触发、可引用的 Agent 技能。",
-      "application_scenarios_zh": [
-        "技术书学习助手",
-        "团队文档技能化",
-        "项目资料按需引用"
-      ],
       "positioning_zh": "面向文档知识转 skill 的 Agent 内容工具。",
       "product_view_zh": "适合把团队手册、技术书、产品文档和研究资料转成工作时可调用的知识包，减少每次重新找资料的成本。",
       "technical_view_zh": "Python 工具支持多格式输入和增量合并；采用时要评估解析质量、章节索引、版权来源和生成 skill 的触发准确性。",
@@ -92,12 +60,16 @@
         "文档转 Skill",
         "Agent 技能",
         "PDF 处理",
-        "知识沉淀",
-        "AI 工具"
+        "知识沉淀"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "技术书学习助手",
+        "团队文档技能化",
+        "项目资料按需引用"
+      ],
       "adoption_notes_zh": [
         "先用结构清晰的文档测试生成质量。",
         "检查生成 skill 的触发词和引用路径。",
@@ -105,33 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "affaan-m/ECC",
-      "repo_id": 1136590548,
-      "url": "https://github.com/affaan-m/ECC",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "language": "JavaScript",
-      "topics": [
-        "ai-agents",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 236265,
-      "readme_url": "https://github.com/affaan-m/ECC/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "ECC 是面向 Claude Code、Codex、OpenCode、Cursor 等 harness 的 Agent 性能优化系统，覆盖 skills、instincts、memory、安全和 research-first 工作流。",
       "purpose_zh": "为不同 AI 编程工具提供统一的 Agent 行为优化和规则组件。",
-      "application_scenarios_zh": [
-        "跨工具 Agent 配置",
-        "团队 AI 编程规范",
-        "安全和记忆规则管理"
-      ],
       "positioning_zh": "面向 coding agent 的 harness 操作系统和规则包。",
       "product_view_zh": "适合想统一多种 Agent 工具行为的重度用户或团队，价值在跨工具复用规则、技能和安全约束。",
       "technical_view_zh": "安装路径覆盖多 harness，组件多且上下文影响大；采用时要避免规则冲突，并先评估 hooks、权限和回滚方式。",
@@ -149,12 +98,16 @@
         "Agent Harness",
         "规则系统",
         "AI 编程",
-        "安全约束",
-        "AI 工具"
+        "安全约束"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "跨工具 Agent 配置",
+        "团队 AI 编程规范",
+        "安全和记忆规则管理"
+      ],
       "adoption_notes_zh": [
         "先在单个 harness 中小范围试用。",
         "记录安装组件并保留回滚路径。",
@@ -162,43 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "stablyai/orca",
-      "repo_id": 1183888342,
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "language": "TypeScript",
-      "topics": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor-agent",
-        "devtools",
-        "ghostty",
-        "ide",
-        "mobile-app",
-        "opencode",
-        "orchestration",
-        "parallel-agents",
-        "pi",
-        "terminal",
-        "worktrees",
-        "yc-backed"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 33958,
-      "readme_url": "https://github.com/stablyai/orca/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Orca 是面向并行 coding agent 的 ADE，可在隔离 worktree 中同时运行 Codex、Claude Code、OpenCode 等 CLI agent，并提供桌面、移动和 VPS 入口。",
       "purpose_zh": "集中管理多 Agent 并行开发、比较结果和合并路径。",
-      "application_scenarios_zh": [
-        "多 Agent 方案对比",
-        "远程跟进开发任务",
-        "前端设计模式调试"
-      ],
       "positioning_zh": "面向 100x builder 的并行 Agent 开发环境。",
       "product_view_zh": "适合把一个任务分发给多个 Agent 实验方案，再统一观察、比较和选择，价值在多工作树编排和移动端跟进。",
       "technical_view_zh": "TypeScript 桌面应用加终端、worktree 和浏览器设计模式；采用时要评估 Git 流程、资源占用和冲突合并纪律。",
@@ -216,12 +136,16 @@
         "Agent IDE",
         "并行编程",
         "Worktree",
-        "移动协同",
-        "AI 工具"
+        "移动协同"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "多 Agent 方案对比",
+        "远程跟进开发任务",
+        "前端设计模式调试"
+      ],
       "adoption_notes_zh": [
         "先限定并行 Agent 数量。",
         "建立 worktree 命名、清理和合并规范。",
@@ -229,40 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "openai/codex-security",
-      "repo_id": 1299769220,
-      "url": "https://github.com/openai/codex-security",
-      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
-      "language": "TypeScript",
-      "topics": [
-        "ai-security",
-        "application-security",
-        "cli",
-        "code-scanning",
-        "codex",
-        "codex-security",
-        "cybersecurity",
-        "devsecops",
-        "nodejs",
-        "npm",
-        "openai",
-        "sdk",
-        "security",
-        "typescript",
-        "vulnerability-scanning"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 6992,
-      "readme_url": "https://github.com/openai/codex-security/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Codex Security 是 OpenAI 提供的安全扫描 CLI 和 TypeScript SDK，用于发现、验证并辅助修复代码中的漏洞，支持本地扫描、CI 和容器化批量扫描。",
       "purpose_zh": "把 AI 安全审查接入本地开发和 CI 流程。",
-      "application_scenarios_zh": [
-        "PR 安全扫描",
-        "本地漏洞验证",
-        "CI 安全门禁"
-      ],
       "positioning_zh": "面向 DevSecOps 的 AI 代码安全扫描工具。",
       "product_view_zh": "适合在 PR 或发布前做漏洞发现和验证，价值在于把安全分析从人工专项审计前移到开发日常。",
       "technical_view_zh": "依赖 Node、Python 和 Codex Security 访问权限；采用时要评估凭据管理、扫描范围、误报复核和 CI 集成策略。",
@@ -280,12 +174,16 @@
         "AI 安全",
         "漏洞扫描",
         "CLI",
-        "DevSecOps",
-        "AI 工具"
+        "DevSecOps"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "PR 安全扫描",
+        "本地漏洞验证",
+        "CI 安全门禁"
+      ],
       "adoption_notes_zh": [
         "先限定扫描仓库和权限边界。",
         "保留人工复核误报与修复建议。",
@@ -293,38 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "bojieli/ai-agent-book",
-      "repo_id": 1053118194,
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agent-memory",
-        "ai-agent",
-        "book",
-        "coding-agent",
-        "context-engineering",
-        "large-language-models",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "multimodal",
-        "rag",
-        "reinforcement-learning"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 27542,
-      "readme_url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "ai-agent-book 是《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，包含正文、PDF/EPUB、多语言版本和 94 个配套实验。",
       "purpose_zh": "系统讲解 Agent 的上下文、工具、记忆、评测和工程实践。",
-      "application_scenarios_zh": [
-        "团队内部培训",
-        "Agent 技术自学",
-        "课程和工作坊材料"
-      ],
       "positioning_zh": "面向中文开发者和研究者的 AI Agent 工程教材。",
       "product_view_zh": "适合团队培训、个人系统学习和课程材料建设，价值在于把概念、代码和可复现实验放在同一仓库。",
       "technical_view_zh": "覆盖 MCP、多 Agent、RAG、强化学习和浏览器自动化；采用时要区分教学代码与生产框架。",
@@ -342,12 +212,16 @@
         "AI Agent",
         "开源教材",
         "工程实践",
-        "实验代码",
-        "AI 工具"
+        "实验代码"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队内部培训",
+        "Agent 技术自学",
+        "课程和工作坊材料"
+      ],
       "adoption_notes_zh": [
         "按章节选择与业务相关的实验。",
         "不要把教学代码直接当生产实现。",
@@ -355,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "NanmiCoder/MediaCrawler",
-      "repo_id": 651517185,
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 59453,
-      "readme_url": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
       "ai_confidence": 0.78,
       "summary_zh": "MediaCrawler 是多平台自媒体数据采集工具，支持小红书、抖音、快手、B 站、微博、贴吧、知乎等公开信息抓取，基于 Playwright 复用浏览器登录态。",
       "purpose_zh": "为学习和研究场景提供社媒公开数据采集样例与工具链。",
-      "application_scenarios_zh": [
-        "平台公开内容研究",
-        "爬虫技术学习",
-        "小规模舆情样本采集"
-      ],
       "positioning_zh": "面向中文社媒平台的数据采集和浏览器自动化项目。",
       "product_view_zh": "适合做舆情样本、内容研究和平台数据结构学习，但项目明确强调学习用途，商业采集和大规模运行存在合规风险。",
       "technical_view_zh": "核心依赖 Playwright 和登录态上下文，减少 JS 逆向复杂度；采用时要处理账号风控、验证码、限频和平台规则变化。",
@@ -390,12 +250,16 @@
         "社媒采集",
         "Playwright",
         "小红书",
-        "数据研究",
-        "AI 工具"
+        "数据研究"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "平台公开内容研究",
+        "爬虫技术学习",
+        "小规模舆情样本采集"
+      ],
       "adoption_notes_zh": [
         "先阅读免责声明和目标平台规则。",
         "限制抓取规模、频率和数据用途。",
@@ -403,44 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "paperswithbacktest/awesome-systematic-trading",
-      "repo_id": 455982203,
-      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading",
-      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
-      "language": "Python",
-      "topics": [
-        "algorithmic-trading",
-        "algotrading",
-        "alpha",
-        "arbitrage-bot",
-        "awesome",
-        "awesome-list",
-        "book",
-        "finance",
-        "futures",
-        "futures-historical-data",
-        "futures-market",
-        "futuresmarkets",
-        "paper",
-        "quant",
-        "quantitative-finance",
-        "quantitative-trading",
-        "trading-algorithms",
-        "trading-bot",
-        "trading-strategies"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 11117,
-      "readme_url": "https://github.com/paperswithbacktest/awesome-systematic-trading/blob/main/README.md",
       "ai_confidence": 0.62,
       "summary_zh": "awesome-systematic-trading 是系统化交易资源清单，收集量化研究、回测、实盘交易、策略、书籍、课程和数据源，覆盖 Python 生态、加密货币和风险指标等方向。",
       "purpose_zh": "为系统化交易学习、研究和工具选型提供资源索引。",
-      "application_scenarios_zh": [
-        "量化工具选型",
-        "策略学习资料整理",
-        "交易系统技术调研"
-      ],
       "positioning_zh": "面向量化交易和金融工程的 awesome-list。",
       "product_view_zh": "适合量化入门者、研究员和独立交易开发者快速建立工具地图，价值是资源覆盖面广而不是单一可运行产品。",
       "technical_view_zh": "本身是清单型仓库，采用时要逐项验证库维护状态、许可证、数据源质量和回测偏差，不应直接依赖排名做交易决策。",
@@ -458,12 +288,16 @@
         "量化交易",
         "回测",
         "金融资源",
-        "Awesome List",
-        "AI 工具"
+        "Awesome List"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "量化工具选型",
+        "策略学习资料整理",
+        "交易系统技术调研"
+      ],
       "adoption_notes_zh": [
         "逐项核验资源维护状态和许可证。",
         "回测结果必须考虑数据偏差和交易成本。",
@@ -471,24 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "block/buzz",
-      "repo_id": 1174789082,
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 18531,
-      "readme_url": "https://github.com/block/buzz/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Buzz 是自托管的人与 Agent 协作工作区，基于 Nostr 风格事件日志，把消息、工作流、代码事件、审批和审计记录放在同一协议层。",
       "purpose_zh": "让 Agent 像团队成员一样参与频道、代码、工作流和审计。",
-      "application_scenarios_zh": [
-        "Agent 参与代码评审",
-        "项目频道审计",
-        "自托管协作空间"
-      ],
       "positioning_zh": "面向工程团队的 Agent 协同工作区和事件中枢。",
       "product_view_zh": "它把 Agent 从单次命令提升为可追踪成员，适合需要多人、多 Agent、代码和流程都在一个空间协同的团队。",
       "technical_view_zh": "Rust relay 加 Postgres、Redis、S3/MinIO，架构偏平台型；采用前要评估部署、身份密钥、审计日志和租户隔离。",
@@ -506,12 +326,16 @@
         "Agent 协作",
         "自托管",
         "事件日志",
-        "Rust",
-        "AI 工具"
+        "Rust"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agent 参与代码评审",
+        "项目频道审计",
+        "自托管协作空间"
+      ],
       "adoption_notes_zh": [
         "先用内部低风险项目验证协作模型。",
         "重点设计身份密钥和 Agent 权限边界。",
@@ -519,35 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 92441,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "Ponytail 是给 Claude Code、Codex 等 coding agent 用的约束型技能，要求先判断是否需要写代码，再复用现有实现、标准库和依赖。",
       "purpose_zh": "降低 Agent 过度实现、重复造轮子和输出膨胀的概率。",
-      "application_scenarios_zh": [
-        "减少无关代码改动",
-        "约束修复任务范围",
-        "提升 AI 代码评审质量"
-      ],
       "positioning_zh": "面向 AI 编程工具的极简工程决策技能。",
       "product_view_zh": "价值在于把资深工程师的 YAGNI 判断前置到 Agent 流程里，适合代码库维护和小步改动。",
       "technical_view_zh": "主要是提示词、技能和轻量安装钩子，落地成本低；效果取决于 Agent 是否按规则读取代码和追踪真实调用链。",
@@ -565,12 +364,16 @@
         "Agent 技能",
         "YAGNI",
         "代码治理",
-        "提示工程",
-        "AI 工具"
+        "提示工程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "减少无关代码改动",
+        "约束修复任务范围",
+        "提升 AI 代码评审质量"
+      ],
       "adoption_notes_zh": [
         "先在低风险仓库观察改动行数。",
         "不要替代安全、权限和数据完整性检查。",

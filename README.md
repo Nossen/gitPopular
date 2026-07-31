@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | Kimi-K3 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 13 | 7,553 | 未知 | `联网 Agent` `信息抓取` `自动化` `多模态` `大模型` | ★★★☆☆ | 低 |
-| 2 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | book-to-skill 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 13,763 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 8 | 236,265 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 4 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 33,958 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [openai/codex-security](https://github.com/openai/codex-security) | codex-security 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 7 | 6,992 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `OpenAI` | ★★★☆☆ | 高 |
-| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 27,542 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | MediaCrawler 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 59,453 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | awesome-systematic-trading 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 6 | 11,117 | Python | `金融分析` `投研` `自动化` `AI 编程` `模型推理` | ★★★☆☆ | 中 |
-| 9 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 18,531 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 92,441 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 1 | [MoonshotAI/Kimi-K3](https://github.com/MoonshotAI/Kimi-K3) | Kimi-K3 把开源权重竞争推到 3T 级多模态 Agent 模型。 | 13 | 7,553 | 未知 | `开源权重` `多模态` `长上下文` `Agent 模型` `AI 工具` | ★★★★★ | 高 |
+| 2 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 把一本技术书直接变成 Agent 工作时可调用的 skill。 | 10 | 13,763 | Python | `文档转 Skill` `Agent 技能` `PDF 处理` `知识沉淀` `AI 工具` | ★★★★☆ | 中 |
+| 3 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | 给多种 coding agent 统一装上一套技能、记忆和安全优化层。 | 8 | 236,265 | JavaScript | `Agent Harness` `规则系统` `AI 编程` `安全约束` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [stablyai/orca](https://github.com/stablyai/orca) | 把多个 coding agent 放进并行 worktree，像管理舰队一样管理开发。 | 8 | 33,958 | TypeScript | `Agent IDE` `并行编程` `Worktree` `移动协同` `AI 工具` | ★★★★★ | 中 |
+| 5 | [openai/codex-security](https://github.com/openai/codex-security) | 把 Codex 的漏洞发现、验证和修复能力接入 CLI 与 CI。 | 7 | 6,992 | TypeScript | `AI 安全` `漏洞扫描` `CLI` `DevSecOps` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和 90 多个实验全开源的中文书。 | 6 | 27,542 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 覆盖小红书、抖音、B 站等主流中文平台的浏览器自动化采集工具。 | 6 | 59,453 | Python | `社媒采集` `Playwright` `小红书` `数据研究` `AI 工具` | ★★★☆☆ | 中 |
+| 8 | [paperswithbacktest/awesome-systematic-trading](https://github.com/paperswithbacktest/awesome-systematic-trading) | 一份覆盖回测、实盘、策略和书籍的系统化交易资源地图。 | 6 | 11,117 | Python | `量化交易` `回测` `金融资源` `Awesome List` `AI 工具` | ★★★☆☆ | 低 |
+| 9 | [block/buzz](https://github.com/block/buzz) | 让人、Agent、代码和审批共享同一条可审计事件流。 | 5 | 18,531 | Rust | `Agent 协作` `自托管` `事件日志` `Rust` `AI 工具` | ★★★★☆ | 高 |
+| 10 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 coding agent 先问一句：这段代码真的需要存在吗。 | 5 | 92,441 | JavaScript | `Agent 技能` `YAGNI` `代码治理` `提示工程` `AI 工具` | ★★★★☆ | 低 |
 
 ## 数据与归档
 
