@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-07-31 (Asia/Shanghai)
+## 最新榜单：2026-08-01 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把资深工程师的协作习惯打包成 Agent 可调用的技能库。 | 10 | 197,908 | Shell | `Agent Skill` `AI 编程` `工程协作` `流程规范` `AI 工具` | ★★★★☆ | 低 |
-| 2 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码和审批放进同一条可检索事件流。 | 4 | 19,568 | Rust | `Agent 协同` `事件日志` `自托管` `工程协作` `AI 工具` | ★★★★☆ | 高 |
-| 3 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | 让 Agent 自动读取过去 30 天的社媒、市场和技术社区信号。 | 4 | 56,258 | Python | `趋势研究` `联网 Agent` `社媒分析` `证据摘要` `AI 工具` | ★★★★★ | 中 |
-| 4 | [stablyai/orca](https://github.com/stablyai/orca) | 一条需求同时交给多个 coding agent，最后比较并合并赢家。 | 4 | 34,669 | TypeScript | `AI 编程` `多 Agent` `Worktree` `开发环境` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [AminBlg/SimpleEnglish](https://github.com/AminBlg/SimpleEnglish) | 让 LLM 写技术文档时像航空手册一样清楚、短句、少歧义。 | 3 | 1,138 | Python | `技术写作` `Agent Skill` `文档质量` `STE100` `AI 工具` | ★★★★☆ | 低 |
-| 6 | [andrewyng/openworker](https://github.com/andrewyng/openworker) | 一个本地优先的桌面 AI 同事，目标是交付成品而不是列待办。 | 3 | 11,349 | Python | `桌面 Agent` `本地优先` `工具连接器` `办公自动化` `AI 工具` | ★★★★☆ | 高 |
-| 7 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 把 500+ 模型和 token 压缩能力合到一个本地 AI 网关里。 | 3 | 36,180 | TypeScript | `AI 网关` `模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
-| 8 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 给 coding agent 一个可分屏、可重连、可被 Agent 操作的终端运行时。 | 3 | 23,085 | Rust | `终端工具` `Agent 运行时` `会话管理` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | 把学习资料、测验、研究和记忆图谱放进同一个 AI 辅导工作区。 | 3 | 31,621 | Python | `AI 教育` `RAG` `记忆图谱` `学习助手` `AI 工具` | ★★★★☆ | 高 |
-| 10 | [KnockOutEZ/wigolo](https://github.com/KnockOutEZ/wigolo) | 给 coding agent 一个不用云 key 的本地网页搜索、抓取和研究层。 | 3 | 4,034 | TypeScript | `联网 Agent` `MCP` `网页抓取` `本地优先` `AI 工具` | ★★★★☆ | 中 |
+| 1 | [yc-software/qm](https://github.com/yc-software/qm) | qm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 5,083 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | awesome-llm-apps 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 129,604 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★★ | 中 |
+| 3 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | go-stock 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 2 | 7,095 | Go | `金融分析` `投研` `自动化` `OpenAI` `AI 编程` | ★★★☆☆ | 中 |
+| 4 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 2 | 20,486 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
+| 5 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | deer-flow 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 2 | 78,753 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
+| 6 | [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk) | mindwalk 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 2 | 1,113 | Go | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 7 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | hello-agents 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 2 | 70,001 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 8 | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | turbo-fieldfare 围绕「Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook」提供 AI 相关开源能力，适合快速评估和原型验证。 | 2 | 3,723 | Swift | `大模型` `模型推理` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 9 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 2 | 23,679 | 未知 | `AI 编程` `智能体` `多模态` `开发工具` `AI 设计` | ★★★★☆ | 低 |
+| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 2 | 159,126 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-07-31.json](data/2026-07-31.json)
-- Markdown 归档：[reports/2026-07-31.md](reports/2026-07-31.md)
+- JSON 数据：[data/2026-08-01.json](data/2026-08-01.json)
+- Markdown 归档：[reports/2026-08-01.md](reports/2026-08-01.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
