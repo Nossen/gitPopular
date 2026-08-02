@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [yc-software/qm](https://github.com/yc-software/qm) | qm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 5,083 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | awesome-llm-apps 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 129,604 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★★ | 中 |
-| 3 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | go-stock 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 2 | 7,095 | Go | `金融分析` `投研` `自动化` `OpenAI` `AI 编程` | ★★★☆☆ | 中 |
-| 4 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 2 | 20,486 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
-| 5 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | deer-flow 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 2 | 78,753 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
-| 6 | [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk) | mindwalk 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 2 | 1,113 | Go | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
-| 7 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | hello-agents 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 2 | 70,001 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | turbo-fieldfare 围绕「Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook」提供 AI 相关开源能力，适合快速评估和原型验证。 | 2 | 3,723 | Swift | `大模型` `模型推理` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 9 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 围绕「Skills for Design Engineers.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 2 | 23,679 | 未知 | `AI 编程` `智能体` `多模态` `开发工具` `AI 设计` | ★★★★☆ | 低 |
-| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 2 | 159,126 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
+| 1 | [yc-software/qm](https://github.com/yc-software/qm) | 把公司里的 Agent 做成有权限、有记忆、有沙箱的多人工作系统。 | 7 | 5,083 | TypeScript | `多人 Agent` `企业工作流` `沙箱` `权限治理` `AI 工具` | ★★★★☆ | 高 |
+| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 一个覆盖 100+ LLM 应用、Agent Skill 和 RAG 案例的开源模板库。 | 3 | 129,604 | Python | `LLM 应用` `Agent 模板` `RAG` `教程案例` `AI 工具` | ★★★★☆ | 低 |
+| 3 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 把行情、研报、资金和大模型分析整合到本地股票研究工具里。 | 2 | 7,095 | Go | `股票分析` `本地模型` `金融数据` `AI 选股` `AI 工具` | ★★★☆☆ | 中 |
+| 4 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码和审批放进同一条可检索事件流。 | 2 | 20,486 | Rust | `Agent 协同` `事件日志` `自托管` `工程协作` `AI 工具` | ★★★★☆ | 高 |
+| 5 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 一个能研究、编码、创作并接入消息渠道的长周期 SuperAgent harness。 | 2 | 78,753 | Python | `SuperAgent` `深度研究` `沙箱` `MCP` `多 Agent` | ★★★★★ | 高 |
+| 6 | [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk) | 把 coding agent 的搜索、阅读和编辑轨迹回放成 3D 代码地图。 | 2 | 1,113 | Go | `Agent 可观测性` `代码地图` `会话回放` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 一套中文 Agent 教程，把理论、框架和实战案例串成完整学习路线。 | 2 | 70,001 | Python | `中文教程` `Agent 入门` `RAG` `多 Agent` `AI 工具` | ★★★★☆ | 低 |
+| 8 | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | 让 26B 级 Gemma 模型在 8GB Apple Silicon Mac 上本地跑起来。 | 2 | 3,723 | Swift | `本地推理` `Swift` `Metal` `量化模型` `AI 工具` | ★★★★☆ | 高 |
+| 9 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 把设计工程师的动效和界面判断打包给 Agent 使用。 | 2 | 23,679 | 未知 | `设计工程` `Agent Skill` `前端动画` `UI 质量` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 一个能搜索、抓取、交互网页并输出干净数据的 Web API。 | 2 | 159,126 | TypeScript | `网页抓取` `Web Search` `MCP` `RAG` `AI 工具` | ★★★★★ | 中 |
 
 ## 数据与归档
 
