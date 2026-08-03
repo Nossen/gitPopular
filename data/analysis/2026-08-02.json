@@ -1,43 +1,10 @@
 {
-  "date": "2026-08-02",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-03T02:36:23.674491Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "microsoft/AI-For-Beginners",
-      "repo_id": 344190478,
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "cnn",
-        "computer-vision",
-        "deep-learning",
-        "gan",
-        "machine-learning",
-        "microsoft-for-beginners",
-        "nlp",
-        "rnn"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 59253,
-      "readme_url": "https://github.com/microsoft/AI-For-Beginners/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "AI-For-Beginners 是微软面向零基础学习者的 12 周、24 课 AI 课程，覆盖符号 AI、知识表示、神经网络、深度学习、图像、文本、多 Agent 和遗传算法等内容，并提供 Jupyter Notebook、实验和多语言支持。",
       "purpose_zh": "用结构化课程帮助初学者建立 AI 基础知识和动手经验。",
-      "application_scenarios_zh": [
-        "高校教学",
-        "企业入门培训",
-        "个人系统自学"
-      ],
       "positioning_zh": "面向入门教育的 AI 基础课程仓库。",
       "product_view_zh": "适合自学、教学和训练营，优势是课程体系完整、材料公开、实践门槛低。",
       "technical_view_zh": "以 Notebook 和课程文档为主，依赖 PyTorch、TensorFlow 等示例环境；重点是教学可复现性而非生产框架。",
@@ -55,12 +22,16 @@
         "AI 入门",
         "课程",
         "Notebook",
-        "深度学习",
-        "AI 工具"
+        "深度学习"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "高校教学",
+        "企业入门培训",
+        "个人系统自学"
+      ],
       "adoption_notes_zh": [
         "按课程顺序完成实验。",
         "补充近两年的生成式 AI 和 Agent 内容。",
@@ -68,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "repo_id": 1316875788,
-      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "description": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 1615,
-      "readme_url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/main/README.md",
       "ai_confidence": 0.78,
       "summary_zh": "该仓库是一本中文 FDE 入门书，围绕“人工智能时代的客户价值交付”展开，解释 Forward Deployed Engineer 的岗位起源、工作方法、客户交付路径、续约扩张和案例来源，强调模型之外的落地能力稀缺。",
       "purpose_zh": "帮助工程师和 AI 创业团队理解 FDE 角色与企业 AI 落地方法。",
-      "application_scenarios_zh": [
-        "岗位转型学习",
-        "企业 AI 交付培训",
-        "售前方法复盘"
-      ],
       "positioning_zh": "面向 AI 交付岗位和企业落地的中文方法论读物。",
       "product_view_zh": "适合正在做企业 AI 项目、售前交付或岗位转型的人，用来理解从问题发现到价值扩张的完整链路。",
       "technical_view_zh": "仓库以 Markdown 和 PDF 为主，不提供代码；采用时应把案例和指标转化为自己的交付清单。",
@@ -103,12 +60,16 @@
         "FDE",
         "AI 落地",
         "企业交付",
-        "中文读物",
-        "AI 工具"
+        "中文读物"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "岗位转型学习",
+        "企业 AI 交付培训",
+        "售前方法复盘"
+      ],
       "adoption_notes_zh": [
         "把书中指标改成项目检查表。",
         "结合自身行业补充案例。",
@@ -116,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "yc-software/qm",
-      "repo_id": 1316527318,
-      "url": "https://github.com/yc-software/qm",
-      "description": "Multiplayer agent harness for work",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 7412,
-      "readme_url": "https://github.com/yc-software/qm/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "qm 是面向公司协作的多人 Agent harness，提供 Slack 和 Web 两个入口。每个员工、频道和项目都有独立的记忆、文件、keychain、权限、定时任务和沙箱，管理员可统一控制模型、harness、安全策略和共享技能。",
       "purpose_zh": "把企业内部 Agent 从个人助手升级为可协作、可治理、可审计的工作系统。",
-      "application_scenarios_zh": [
-        "团队 Agent 工作台",
-        "内部应用生成",
-        "Slack 项目协作"
-      ],
       "positioning_zh": "面向创业团队和企业内部工作流的多用户 Agent 平台。",
       "product_view_zh": "适合让 Agent 参与邮件、文档、仓库、CI 和项目频道工作，价值在于按人和房间隔离上下文与权限。",
       "technical_view_zh": "TypeScript 核心配 Postgres、Fastify、Slack 插件和 per-scope sandbox；接入前要评估部署目录、命令策略和审批门禁。",
@@ -151,12 +98,16 @@
         "多人 Agent",
         "企业工作流",
         "沙箱",
-        "权限治理",
-        "AI 工具"
+        "权限治理"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 Agent 工作台",
+        "内部应用生成",
+        "Slack 项目协作"
+      ],
       "adoption_notes_zh": [
         "先用只读工具验证权限模型。",
         "明确严格、自动和高风险模式的使用边界。",
@@ -164,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "block/buzz",
-      "repo_id": 1174789082,
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 21159,
-      "readme_url": "https://github.com/block/buzz/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Buzz 是一个自托管协作空间，把人、Agent、工作流、代码事件和审批记录放进统一事件流。它强调 Agent 不是外挂机器人，而是带身份、权限和审计轨迹的协作者，适合探索项目记忆和工程自动化工作区。",
       "purpose_zh": "提供一个让人类成员和 AI Agent 在同一空间协作、检索和留痕的工作区。",
-      "application_scenarios_zh": [
-        "工程频道知识沉淀",
-        "分支协作记录",
-        "Agent 权限审计"
-      ],
       "positioning_zh": "面向 Agent 协同与工程组织记忆的自托管工作空间。",
       "product_view_zh": "适合希望把聊天、CI、代码审查和知识检索收束到同一上下文的团队，但仍处于早期落地阶段。",
       "technical_view_zh": "Rust 项目，涉及 relay、事件日志、身份模型和自托管部署；采用前要评估权限隔离、搜索索引和运维成本。",
@@ -199,12 +136,16 @@
         "Agent 协同",
         "事件日志",
         "自托管",
-        "工程协作",
-        "AI 工具"
+        "工程协作"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "工程频道知识沉淀",
+        "分支协作记录",
+        "Agent 权限审计"
+      ],
       "adoption_notes_zh": [
         "先用非核心项目验证协作模型。",
         "重点测试身份、权限和审计边界。",
@@ -212,38 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "bojieli/ai-agent-book",
-      "repo_id": 1053118194,
-      "url": "https://github.com/bojieli/ai-agent-book",
-      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agent-memory",
-        "ai-agent",
-        "book",
-        "coding-agent",
-        "context-engineering",
-        "large-language-models",
-        "llm",
-        "mcp",
-        "multi-agent",
-        "multimodal",
-        "rag",
-        "reinforcement-learning"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 30053,
-      "readme_url": "https://github.com/bojieli/ai-agent-book/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "ai-agent-book 是《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，包含全书正文、PDF、章节代码和外部实验仓库，内容覆盖上下文工程、记忆、RAG、多 Agent、多模态、强化学习和 coding agent。",
       "purpose_zh": "系统讲解 AI Agent 的设计原理、工程范式和配套实验。",
-      "application_scenarios_zh": [
-        "团队读书会",
-        "章节实验复现",
-        "Agent 架构学习"
-      ],
       "positioning_zh": "面向中文开发者的 Agent 工程书籍与代码实验库。",
       "product_view_zh": "适合系统学习 Agent 体系、组织团队读书会，或作为从概念到实验的工程参考。",
       "technical_view_zh": "Python 实验配合 uv/pip 环境和外部仓库；重点是按章复现实验，而不是把示例直接生产化。",
@@ -261,12 +174,16 @@
         "Agent 教程",
         "上下文工程",
         "RAG",
-        "多 Agent",
-        "AI 工具"
+        "多 Agent"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队读书会",
+        "章节实验复现",
+        "Agent 架构学习"
+      ],
       "adoption_notes_zh": [
         "按章节建立独立实验环境。",
         "优先复现与业务相关的章节。",
@@ -274,38 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "drumih/turbo-fieldfare",
-      "repo_id": 1304159264,
-      "url": "https://github.com/drumih/turbo-fieldfare",
-      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
-      "language": "Swift",
-      "topics": [
-        "apple-silicon",
-        "gemma",
-        "gemma4",
-        "gemma4-26b-a4b",
-        "gpgpu",
-        "llm",
-        "llm-inference",
-        "local-ai",
-        "macos",
-        "metal",
-        "on-device-ai",
-        "on-device-llm",
-        "swift"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 4208,
-      "readme_url": "https://github.com/drumih/turbo-fieldfare/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "TurboFieldfare 是一个 Swift + Metal 本地推理运行时，目标是在任意 Apple Silicon Mac 上用约 2GB 内存运行 Gemma 4 26B-A4B。它包含模型重打包、4-bit 权重、SSD-backed expert streaming、CLI、Mac App 和本地 OpenAI 兼容服务。",
       "purpose_zh": "让大参数 MoE 模型在低内存 Apple Silicon 设备上本地运行。",
-      "application_scenarios_zh": [
-        "Mac 本地模型实验",
-        "低内存推理研究",
-        "本地 OpenAI 兼容服务"
-      ],
       "positioning_zh": "面向 Mac 本地 AI 的轻量大模型推理引擎。",
       "product_view_zh": "适合本地 AI、隐私敏感实验和低成本模型服务探索，但当前范围聚焦文本推理。",
       "technical_view_zh": "Swift 6.2、Metal 4、自定义量化 kernel 和 expert 缓存策略带来创新，也要求 macOS 26、Apple Silicon 和较强调试能力。",
@@ -323,12 +212,16 @@
         "本地推理",
         "Swift",
         "Metal",
-        "量化模型",
-        "AI 工具"
+        "量化模型"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Mac 本地模型实验",
+        "低内存推理研究",
+        "本地 OpenAI 兼容服务"
+      ],
       "adoption_notes_zh": [
         "先确认系统和硬件要求。",
         "只在本机回环地址暴露服务。",
@@ -336,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "JustVugg/colibri",
-      "repo_id": 1286080397,
-      "url": "https://github.com/JustVugg/colibri",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-      "language": "C",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 22234,
-      "readme_url": "https://github.com/JustVugg/colibri/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "colibri 是一个纯 C、零依赖的前沿 MoE 模型本地推理实验引擎，核心思路是把 VRAM、RAM 和 NVMe 统一成权重层级，通过专家缓存、预取、双 SSD、异构执行和压缩状态降低 744B 级模型的硬件门槛。",
       "purpose_zh": "研究如何在已有消费级或工作站硬件上运行超大 MoE 模型。",
-      "application_scenarios_zh": [
-        "超大模型推理实验",
-        "专家缓存策略验证",
-        "异构硬件性能测试"
-      ],
       "positioning_zh": "面向本地前沿模型推理的研究型小型引擎。",
       "product_view_zh": "适合推理优化爱好者和研究者验证权重流式加载、专家缓存和硬件组合策略，不是普通用户的一键聊天工具。",
       "technical_view_zh": "C 引擎强调端到端测量和模型语义一致性；采用需要理解量化、I/O、缓存、CUDA/Metal/CPU 协同和大模型文件管理。",
@@ -371,12 +250,16 @@
         "MoE 推理",
         "本地 AI",
         "SSD Streaming",
-        "C 引擎",
-        "AI 工具"
+        "C 引擎"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "超大模型推理实验",
+        "专家缓存策略验证",
+        "异构硬件性能测试"
+      ],
       "adoption_notes_zh": [
         "先确认模型文件和存储空间。",
         "用公开 benchmark 复现实测速度。",
@@ -384,24 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 200012,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "mattpocock/skills 是一组面向真实工程协作的 Agent Skill，重点解决需求对齐、输出冗长、坏代码和架构失控等常见失败模式。它不是大流程框架，而是可复制、可改写的小型技能集合。",
       "purpose_zh": "把成熟工程习惯沉淀成可复用 Agent Skill，降低人与 Agent 协作偏差。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规范",
-        "需求澄清工作流",
-        "代码质量复盘"
-      ],
       "positioning_zh": "面向工程团队的 Agent 技能库，强调小颗粒、可组合、可按项目改造。",
       "product_view_zh": "产品价值在于把工程判断前置到 Agent 协作流程里，让需求澄清、共享语言和交付检查更稳定。",
       "technical_view_zh": "主要是 Shell 与 Markdown 技能文件，接入成本低；关键在于团队是否愿意维护自己的技能版本和触发习惯。",
@@ -419,12 +288,16 @@
         "Agent Skill",
         "AI 编程",
         "工程协作",
-        "流程规范",
-        "AI 工具"
+        "流程规范"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 AI 编程规范",
+        "需求澄清工作流",
+        "代码质量复盘"
+      ],
       "adoption_notes_zh": [
         "先挑 2-3 个高频技能试用。",
         "把项目术语和交付标准改成本地版本。",
@@ -432,35 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "Anakin-Inc/anakin",
-      "repo_id": 1183934088,
-      "url": "https://github.com/Anakin-Inc/anakin",
-      "description": "Open-source web scraping API. Turn any website into clean markdown or structured JSON. Anti-detect browser, proxy auto-selection, self-hosted. One command: make up",
-      "language": "Go",
-      "topics": [
-        "ai",
-        "anti-detect",
-        "golang",
-        "markdown",
-        "open-source",
-        "playwright",
-        "scraper",
-        "self-hosted",
-        "web-crawler",
-        "web-scraping"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 1715,
-      "readme_url": "https://github.com/Anakin-Inc/anakin/blob/master/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "AnakinScraper OSS 是一个 Go 实现的开源网页抓取 API，主打单二进制、可自托管、HTTP 到反检测浏览器再到外部 API 的 handler fallback 链。它支持域名配置、失败模式检测、代理评分和 Gemini 结构化抽取。",
       "purpose_zh": "把网页抓取、浏览器兜底和结构化抽取封装成自托管 API。",
-      "application_scenarios_zh": [
-        "网页数据采集",
-        "AI 结构化抽取",
-        "Agent Web 工具"
-      ],
       "positioning_zh": "面向 AI 数据采集和网页理解的自托管 scraping 基础设施。",
       "product_view_zh": "适合需要控制成本和部署边界的团队，用本地抓取优先，疑难页面再走浏览器或外部服务。",
       "technical_view_zh": "Go/Fiber 单体可零依赖启动，也可接 PostgreSQL、Camoufox 和 API handler；重点评估 AGPL、遥测、代理和目标站限制。",
@@ -478,12 +326,16 @@
         "网页抓取",
         "自托管",
         "反检测浏览器",
-        "结构化抽取",
-        "AI 工具"
+        "结构化抽取"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "网页数据采集",
+        "AI 结构化抽取",
+        "Agent Web 工具"
+      ],
       "adoption_notes_zh": [
         "先用无数据库模式验证效果。",
         "检查 AGPL 与业务分发方式。",
@@ -491,24 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "antirez/ds4",
-      "repo_id": 1231148626,
-      "url": "https://github.com/antirez/ds4",
-      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-      "language": "C",
-      "topics": [],
-      "yesterday_new_stars": 3,
-      "total_stars": 20036,
-      "readme_url": "https://github.com/antirez/ds4/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "ds4/DwarfStar 是 Salvatore Sanfilippo 的原生推理引擎，面向 DeepSeek V4 Flash/PRO、GLM 5.2 等模型，支持 Metal、CUDA、ROCm、SSD streaming、pipeline/tensor parallelism，并内置为 DeepSeek V4 调优的 coding agent。",
       "purpose_zh": "为少数前沿开源模型提供高度专用、端到端优化的本地推理和 Agent 环境。",
-      "application_scenarios_zh": [
-        "高端本地 LLM 服务",
-        "多 GPU 推理实验",
-        "原生 coding agent 体验"
-      ],
       "positioning_zh": "面向高端本地硬件和工作站的模型推理引擎。",
       "product_view_zh": "适合本地运行强模型、搭建公司内部 LLM 服务或研究 native agent 形态，但仍属快速变化的 beta 项目。",
       "technical_view_zh": "C 引擎深度绑定 GGUF、KV cache、工具调用和多后端并行；采用需要充足内存、GPU/SSD 知识和稳定测试流程。",
@@ -532,6 +370,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "高端本地 LLM 服务",
+        "多 GPU 推理实验",
+        "原生 coding agent 体验"
+      ],
       "adoption_notes_zh": [
         "先阅读状态和 QA 文档。",
         "用目标硬件跑最小模型路径。",
