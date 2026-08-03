@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-01 (Asia/Shanghai)
+## 最新榜单：2026-08-02 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [yc-software/qm](https://github.com/yc-software/qm) | 把公司里的 Agent 做成有权限、有记忆、有沙箱的多人工作系统。 | 7 | 5,083 | TypeScript | `多人 Agent` `企业工作流` `沙箱` `权限治理` `AI 工具` | ★★★★☆ | 高 |
-| 2 | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | 一个覆盖 100+ LLM 应用、Agent Skill 和 RAG 案例的开源模板库。 | 3 | 129,604 | Python | `LLM 应用` `Agent 模板` `RAG` `教程案例` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [ArvinLovegood/go-stock](https://github.com/ArvinLovegood/go-stock) | 把行情、研报、资金和大模型分析整合到本地股票研究工具里。 | 2 | 7,095 | Go | `股票分析` `本地模型` `金融数据` `AI 选股` `AI 工具` | ★★★☆☆ | 中 |
-| 4 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码和审批放进同一条可检索事件流。 | 2 | 20,486 | Rust | `Agent 协同` `事件日志` `自托管` `工程协作` `AI 工具` | ★★★★☆ | 高 |
-| 5 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 一个能研究、编码、创作并接入消息渠道的长周期 SuperAgent harness。 | 2 | 78,753 | Python | `SuperAgent` `深度研究` `沙箱` `MCP` `多 Agent` | ★★★★★ | 高 |
-| 6 | [cosmtrek/mindwalk](https://github.com/cosmtrek/mindwalk) | 把 coding agent 的搜索、阅读和编辑轨迹回放成 3D 代码地图。 | 2 | 1,113 | Go | `Agent 可观测性` `代码地图` `会话回放` `AI 编程` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 一套中文 Agent 教程，把理论、框架和实战案例串成完整学习路线。 | 2 | 70,001 | Python | `中文教程` `Agent 入门` `RAG` `多 Agent` `AI 工具` | ★★★★☆ | 低 |
-| 8 | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | 让 26B 级 Gemma 模型在 8GB Apple Silicon Mac 上本地跑起来。 | 2 | 3,723 | Swift | `本地推理` `Swift` `Metal` `量化模型` `AI 工具` | ★★★★☆ | 高 |
-| 9 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 把设计工程师的动效和界面判断打包给 Agent 使用。 | 2 | 23,679 | 未知 | `设计工程` `Agent Skill` `前端动画` `UI 质量` `AI 工具` | ★★★★☆ | 低 |
-| 10 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 一个能搜索、抓取、交互网页并输出干净数据的 Web API。 | 2 | 159,126 | TypeScript | `网页抓取` `Web Search` `MCP` `RAG` `AI 工具` | ★★★★★ | 中 |
+| 1 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI-For-Beginners 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 8 | 59,253 | Jupyter Notebook | `AI 教程` `学习路径` `工程实践` `开发工具` `智能体` | ★★★★☆ | 高 |
+| 2 | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | FDE-the-Guidance-Book-of-Forward-Deployed-Engineer 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 5 | 1,615 | 未知 | `文档转换` `RAG` `知识库` `AI 工具` `高增长` | ★★☆☆☆ | 低 |
+| 3 | [yc-software/qm](https://github.com/yc-software/qm) | qm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 7,412 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 4 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 21,159 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
+| 5 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 30,053 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 6 | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | turbo-fieldfare 围绕「Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 4,208 | Swift | `大模型` `模型推理` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 7 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 22,234 | C | `RAG` `AI 编程` `模型推理` `开发工具` `AI 设计` | ★★★★☆ | 中 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 200,012 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 9 | [Anakin-Inc/anakin](https://github.com/Anakin-Inc/anakin) | anakin 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 1,715 | Go | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 10 | [antirez/ds4](https://github.com/antirez/ds4) | ds4 围绕「DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 20,036 | C | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-01.json](data/2026-08-01.json)
-- Markdown 归档：[reports/2026-08-01.md](reports/2026-08-01.md)
+- JSON 数据：[data/2026-08-02.json](data/2026-08-02.json)
+- Markdown 归档：[reports/2026-08-02.md](reports/2026-08-02.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
