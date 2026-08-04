@@ -1,43 +1,10 @@
 {
-  "date": "2026-08-03",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-04T02:37:12.078211Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "microsoft/AI-For-Beginners",
-      "repo_id": 344190478,
-      "url": "https://github.com/microsoft/AI-For-Beginners",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "ai",
-        "artificial-intelligence",
-        "cnn",
-        "computer-vision",
-        "deep-learning",
-        "gan",
-        "machine-learning",
-        "microsoft-for-beginners",
-        "nlp",
-        "rnn"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 60850,
-      "readme_url": "https://github.com/microsoft/AI-For-Beginners/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "AI-For-Beginners 是微软面向零基础学习者的 12 周、24 课 AI 课程，覆盖符号 AI、知识表示、神经网络、深度学习、图像、文本、多 Agent 和遗传算法等主题，并配套 Notebook、实验和多语言翻译。",
       "purpose_zh": "帮助学习者用课程化路径建立 AI 基础和动手经验。",
-      "application_scenarios_zh": [
-        "高校教学",
-        "企业入门培训",
-        "个人系统自学"
-      ],
       "positioning_zh": "面向入门教育和培训场景的 AI 基础课程仓库。",
       "product_view_zh": "适合自学、课堂和训练营，价值在于体系完整、实验可运行、维护周期长。",
       "technical_view_zh": "以 Jupyter Notebook 和教学文档为主，重点是概念演示和实验复现，不是生产级工程框架。",
@@ -55,12 +22,16 @@
         "AI 入门",
         "课程",
         "Notebook",
-        "深度学习",
-        "AI 工具"
+        "深度学习"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "高校教学",
+        "企业入门培训",
+        "个人系统自学"
+      ],
       "adoption_notes_zh": [
         "按课程顺序完成实验。",
         "补充近两年的生成式 AI 内容。",
@@ -68,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "zhaoxuya520/reverse-skill",
-      "repo_id": 1237819660,
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 15990,
-      "readme_url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "reverse-skill 是面向逆向工程、授权渗透测试和安全研究的 AI 技能路由包，支持 Claude Code、Kiro、Cursor、Cline 等客户端。它强调按任务自动选择技能、按需自举工具链，并沉淀可演进的安全研究经验库。",
       "purpose_zh": "让安全研究中的工具选择、流程拆分和经验复用更标准化。",
-      "application_scenarios_zh": [
-        "恶意样本分析",
-        "授权渗透测试",
-        "安全知识库沉淀"
-      ],
       "positioning_zh": "面向授权安全研究的 AI 辅助技能包。",
       "product_view_zh": "适合把逆向、漏洞分析和安全审计流程接入 AI coding client，减少手工切换工具和提示词成本。",
       "technical_view_zh": "核心是技能路由、规则文件和 PowerShell 引导脚本；采用时要隔离样本、权限和外部命令执行环境。",
@@ -103,12 +60,16 @@
         "安全研究",
         "逆向工程",
         "技能路由",
-        "AI 辅助",
-        "AI 工具"
+        "AI 辅助"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "恶意样本分析",
+        "授权渗透测试",
+        "安全知识库沉淀"
+      ],
       "adoption_notes_zh": [
         "只在授权范围内使用。",
         "先审查脚本和工具链来源。",
@@ -116,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "yc-software/qm",
-      "repo_id": 1316527318,
-      "url": "https://github.com/yc-software/qm",
-      "description": "Multiplayer agent harness for work",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 9871,
-      "readme_url": "https://github.com/yc-software/qm/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "qm 是面向公司协作的多人 Agent harness，提供 Slack 和 Web 两个入口。每个员工、频道和项目都有独立的记忆、文件、keychain、权限、定时任务和沙箱，管理员可统一控制模型、工具、安全策略和共享技能。",
       "purpose_zh": "把企业内部 Agent 从个人助手升级为可协作、可治理、可审计的工作系统。",
-      "application_scenarios_zh": [
-        "团队 Agent 工作台",
-        "内部应用生成",
-        "Slack 项目协作"
-      ],
       "positioning_zh": "面向创业团队和企业内部工作流的多用户 Agent 平台。",
       "product_view_zh": "适合让 Agent 参与邮件、文档、仓库、CI 和项目频道工作，价值在于按人和房间隔离上下文与权限。",
       "technical_view_zh": "TypeScript 核心配 Postgres、Fastify、Slack 插件和 per-scope sandbox；接入前要评估部署目录、命令策略和审批门禁。",
@@ -151,12 +98,16 @@
         "多人 Agent",
         "企业工作流",
         "沙箱",
-        "权限治理",
-        "AI 工具"
+        "权限治理"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 Agent 工作台",
+        "内部应用生成",
+        "Slack 项目协作"
+      ],
       "adoption_notes_zh": [
         "先用只读工具验证权限模型。",
         "明确自动执行和高风险模式边界。",
@@ -164,45 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "FareedKhan-dev/kimi-k3-in-c",
-      "repo_id": 1319154759,
-      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
-      "language": "C",
-      "topics": [
-        "avx2",
-        "c99",
-        "cpu-inference",
-        "deep-learning",
-        "from-scratch",
-        "inference-engine",
-        "kimi-k3",
-        "linear-attention",
-        "llm",
-        "llm-inference",
-        "machine-learning",
-        "memory-efficient",
-        "mixture-of-experts",
-        "moe",
-        "mxfp4",
-        "quantization",
-        "simd",
-        "systems-programming",
-        "transformer",
-        "zero-dependencies"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 1274,
-      "readme_url": "https://github.com/FareedKhan-dev/kimi-k3-in-c/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "kimi-k3-in-c 用可移植 C99 演示在单 CPU、约 8.24GB 内存中运行 2.78T 参数 Kimi K3 推理，不依赖 BLAS、框架或 GPU。项目提供量化权重流程、内存模式、生成参数、诊断和预设，重点是极低依赖环境下的大模型推理实验。",
       "purpose_zh": "验证超大模型在普通 CPU 和有限内存中的可运行性。",
-      "application_scenarios_zh": [
-        "推理系统教学",
-        "边缘部署验证",
-        "低依赖运行时实验"
-      ],
       "positioning_zh": "面向研究和工程验证的轻量模型推理实现。",
       "product_view_zh": "适合做边缘推理可行性、教学演示和极简运行时实验，不适合作为直接面向用户的产品。",
       "technical_view_zh": "优势是 C99、低依赖和明确内存控制；代价是速度、易用性、模型准备和生产稳定性都需要额外评估。",
@@ -220,12 +136,16 @@
         "Kimi K3",
         "CPU 推理",
         "C99",
-        "低内存",
-        "AI 工具"
+        "低内存"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "推理系统教学",
+        "边缘部署验证",
+        "低依赖运行时实验"
+      ],
       "adoption_notes_zh": [
         "先确认权重来源和格式。",
         "用小样本测试内存峰值。",
@@ -233,38 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "lyogavin/airllm",
-      "repo_id": 652712035,
-      "url": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "chinese-llm",
-        "chinese-nlp",
-        "finetune",
-        "generative-ai",
-        "instruct-gpt",
-        "instruction-set",
-        "llama",
-        "llm",
-        "lora",
-        "open-models",
-        "open-source",
-        "open-source-models",
-        "qlora"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 27254,
-      "readme_url": "https://github.com/lyogavin/airllm/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "AirLLM 通过分层和专家流式加载降低大模型推理显存占用，README 强调可在单张 4GB GPU 上运行 70B 模型，并面向 Kimi K3、DeepSeek-V3 等稀疏 MoE 模型提供低内存思路。它不依赖剪枝、蒸馏或传统量化作为主要卖点。",
       "purpose_zh": "让超大模型能在消费级或低显存硬件上完成推理实验。",
-      "application_scenarios_zh": [
-        "低显存模型试跑",
-        "推理方案评估",
-        "本地大模型实验"
-      ],
       "positioning_zh": "面向低显存推理的模型加载与运行工具。",
       "product_view_zh": "适合个人开发者和研究团队在有限硬件上试跑大模型，价值是降低尝试门槛。",
       "technical_view_zh": "核心取舍是用加载策略换显存；采用前要测试具体模型的速度、I/O 开销和兼容性。",
@@ -282,12 +174,16 @@
         "低显存",
         "模型推理",
         "MoE",
-        "流式加载",
-        "AI 工具"
+        "流式加载"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "低显存模型试跑",
+        "推理方案评估",
+        "本地大模型实验"
+      ],
       "adoption_notes_zh": [
         "先用目标模型做基准测试。",
         "关注磁盘和内存 I/O 瓶颈。",
@@ -295,24 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "trycompai/crm",
-      "repo_id": 1318768894,
-      "url": "https://github.com/trycompai/crm",
-      "description": "An open-source, agentic-first CRM.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 3360,
-      "readme_url": "https://github.com/trycompai/crm/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "trycompai/crm 是一个开源 agentic-first CRM，把客户关系管理、研究代理、任务和数据存储放在同一套 TypeScript 应用中。项目强调 Agent 不是旁路助手，而是围绕客户资料、业务上下文和自动化动作运行的核心工作层。",
       "purpose_zh": "探索 AI Agent 原生 CRM 如何重构销售和客户运营流程。",
-      "application_scenarios_zh": [
-        "客户线索研究",
-        "销售跟进自动化",
-        "AI CRM 原型验证"
-      ],
       "positioning_zh": "面向销售和客户运营团队的开源业务 Agent 应用。",
       "product_view_zh": "适合团队验证自动客户研究、线索整理和跟进建议，价值在于把 CRM 数据变成可执行上下文。",
       "technical_view_zh": "TypeScript 全栈项目，采用数据库、任务和 Agent 规则组合；落地前要评估数据权限、审计和现有 CRM 迁移成本。",
@@ -330,12 +212,16 @@
         "CRM",
         "业务 Agent",
         "客户研究",
-        "开源 SaaS",
-        "AI 工具"
+        "开源 SaaS"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "客户线索研究",
+        "销售跟进自动化",
+        "AI CRM 原型验证"
+      ],
       "adoption_notes_zh": [
         "先用非敏感客户数据试点。",
         "明确 Agent 可写入的数据范围。",
@@ -343,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "baidu/Unlimited-OCR",
-      "repo_id": 1273138090,
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 3,
-      "total_stars": 21895,
-      "readme_url": "https://github.com/baidu/Unlimited-OCR/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Unlimited-OCR 是百度开源的长上下文 OCR/文档解析项目，主打 one-shot long-horizon parsing，可处理长页面和复杂文档结构。项目提供 Transformers、vLLM、SGLang 等推理方式和可视化工具，面向多页 PDF、表格和版面理解场景。",
       "purpose_zh": "提升长文档、复杂版面和多页材料的一次性 OCR 解析能力。",
-      "application_scenarios_zh": [
-        "PDF 知识库入库",
-        "表格和票据解析",
-        "企业档案结构化"
-      ],
       "positioning_zh": "面向文档智能和多模态解析的视觉/OCR 模型项目。",
       "product_view_zh": "适合知识库入库、票据文档处理和企业档案解析，价值是减少分块拼接造成的信息丢失。",
       "technical_view_zh": "需要按 GPU、推理框架和文档长度评估吞吐；生产接入还要补质量评测、隐私和失败兜底。",
@@ -378,12 +250,16 @@
         "OCR",
         "文档解析",
         "多模态",
-        "长上下文",
-        "AI 工具"
+        "长上下文"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "PDF 知识库入库",
+        "表格和票据解析",
+        "企业档案结构化"
+      ],
       "adoption_notes_zh": [
         "先建立人工抽检集。",
         "按文档类型分别评估准确率。",
@@ -391,40 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "can1357/oh-my-pi",
-      "repo_id": 1125856365,
-      "url": "https://github.com/can1357/oh-my-pi",
-      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "language": "TypeScript",
-      "topics": [
-        "ai-agent",
-        "ai-coding-agent",
-        "anthropic",
-        "bun",
-        "claude",
-        "cli",
-        "coding-assistant",
-        "llm",
-        "mcp",
-        "multi-provider",
-        "openai",
-        "rust",
-        "terminal",
-        "tui",
-        "typescript"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 21604,
-      "readme_url": "https://github.com/can1357/oh-my-pi/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "oh-my-pi 是面向终端的 AI coding agent，强调 hash-anchored edits、优化工具调用、LSP、Python、浏览器、子 Agent、调试器和多模型协作。它把代码编辑、执行、诊断、浏览器和外部应用操作整合成一套偏工程化的本地开发助手。",
       "purpose_zh": "提升终端 AI 编程代理在真实代码库中的编辑精度和工具协作能力。",
-      "application_scenarios_zh": [
-        "代码库批量修改",
-        "终端调试协作",
-        "本地 Agent 工作台"
-      ],
       "positioning_zh": "面向开发者的终端 AI 编程工作流工具。",
       "product_view_zh": "适合希望在 CLI 中完成代码阅读、修改、调试和网页辅助操作的高级用户。",
       "technical_view_zh": "亮点是锚定编辑、LSP 和多工具 harness；采用前要确认权限、模型提供商和外部应用控制边界。",
@@ -442,12 +288,16 @@
         "AI 编程",
         "终端工具",
         "LSP",
-        "子 Agent",
-        "AI 工具"
+        "子 Agent"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "代码库批量修改",
+        "终端调试协作",
+        "本地 Agent 工作台"
+      ],
       "adoption_notes_zh": [
         "先在非关键仓库试用。",
         "限制文件和命令执行权限。",
@@ -455,35 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 95045,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "ponytail 是一套让 AI coding agent 更保守、更像资深工程师的技能/插件，强调 YAGNI、少写代码、优先复用和删除不必要复杂度。它支持 Claude Code、Codex、Cursor 等工具，目标是减少 Agent 过度实现和无谓重构。",
       "purpose_zh": "约束 AI 编程代理少写无效代码，并提升实现决策质量。",
-      "application_scenarios_zh": [
-        "团队 Agent 规则统一",
-        "代码审查前置约束",
-        "减少过度实现"
-      ],
       "positioning_zh": "面向 AI 编程工具的工程决策约束技能。",
       "product_view_zh": "适合团队把它作为 agent 指令层，降低功能膨胀、重复抽象和过度设计风险。",
       "technical_view_zh": "本质是提示词、规则和安装脚本组合，接入成本低，但效果取决于模型执行纪律和项目验收标准。",
@@ -501,12 +326,16 @@
         "AI 编程",
         "工程规则",
         "YAGNI",
-        "提示词",
-        "AI 工具"
+        "提示词"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 Agent 规则统一",
+        "代码审查前置约束",
+        "减少过度实现"
+      ],
       "adoption_notes_zh": [
         "与仓库现有规范合并使用。",
         "保留任务验收标准。",
@@ -514,24 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "Lordog/dive-into-llms",
-      "repo_id": 783730789,
-      "url": "https://github.com/Lordog/dive-into-llms",
-      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
-      "language": "Jupyter Notebook",
-      "topics": [],
-      "yesterday_new_stars": 3,
-      "total_stars": 47427,
-      "readme_url": "https://github.com/Lordog/dive-into-llms/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "dive-into-llms 是中文《动手学大模型》系列编程实践教程，以 Jupyter Notebook 和章节材料组织大模型开发全流程，覆盖基础概念、模型训练、微调、应用开发和国产化大模型实践，面向希望系统入门 LLM 的学习者。",
       "purpose_zh": "用可运行实践帮助中文学习者理解大模型开发流程。",
-      "application_scenarios_zh": [
-        "LLM 入门自学",
-        "课程实验设计",
-        "团队基础培训"
-      ],
       "positioning_zh": "面向大模型学习和教学的中文实践教程。",
       "product_view_zh": "适合作为自学路线、课程实验和团队内部 LLM 入门材料，优势是中文语境和动手导向。",
       "technical_view_zh": "内容以 Notebook 和教程为主，采用时要检查依赖版本、数据来源和 GPU 条件。",
@@ -549,12 +364,16 @@
         "大模型",
         "中文教程",
         "Notebook",
-        "LLM 实践",
-        "AI 工具"
+        "LLM 实践"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "LLM 入门自学",
+        "课程实验设计",
+        "团队基础培训"
+      ],
       "adoption_notes_zh": [
         "按章节逐步运行 Notebook。",
         "提前准备模型和算力资源。",

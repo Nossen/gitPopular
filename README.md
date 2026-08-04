@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI-For-Beginners 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 7 | 60,850 | Jupyter Notebook | `AI 教程` `学习路径` `工程实践` `开发工具` `智能体` | ★★★★☆ | 高 |
-| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 6 | 15,990 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 3 | [yc-software/qm](https://github.com/yc-software/qm) | qm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 9,871 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 4 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | kimi-k3-in-c 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 4 | 1,274 | C | `上下文管理` `Agent` `Token 优化` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
-| 5 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | airllm 围绕「AirLLM 70B inference with single 4GB GPU」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 27,254 | Jupyter Notebook | `大模型` `智能体` `RAG` `AI 编程` `模型推理` | ★★★★☆ | 中 |
-| 6 | [trycompai/crm](https://github.com/trycompai/crm) | crm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 3,360 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 7 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 3 | 21,895 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `模型推理` | ★★★★☆ | 高 |
-| 8 | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | oh-my-pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 21,604 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 95,045 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | dive-into-llms 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 47,427 | Jupyter Notebook | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 1 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 微软把 AI 基础课做成了可运行、可翻译、可长期维护的开源教材。 | 7 | 60,850 | Jupyter Notebook | `AI 入门` `课程` `Notebook` `深度学习` `AI 工具` | ★★★★☆ | 低 |
+| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向和安全研究流程包装成可被 AI 客户端调度的技能路由系统。 | 6 | 15,990 | PowerShell | `安全研究` `逆向工程` `技能路由` `AI 辅助` `AI 工具` | ★★★☆☆ | 高 |
+| 3 | [yc-software/qm](https://github.com/yc-software/qm) | 把公司里的 Agent 做成有权限、有记忆、有沙箱的多人工作系统。 | 5 | 9,871 | TypeScript | `多人 Agent` `企业工作流` `沙箱` `权限治理` `AI 工具` | ★★★★☆ | 高 |
+| 4 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 一个 C 文件风格的实验，把 Kimi K3 推理压进了普通 CPU 和低内存环境。 | 4 | 1,274 | C | `Kimi K3` `CPU 推理` `C99` `低内存` `AI 工具` | ★★★★☆ | 高 |
+| 5 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | 用流式加载思路，把超大模型推理门槛从数据中心显卡拉回普通硬件。 | 4 | 27,254 | Jupyter Notebook | `低显存` `模型推理` `MoE` `流式加载` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [trycompai/crm](https://github.com/trycompai/crm) | 它把 CRM 做成 Agent 原生工作台，而不只是给传统表单加一个聊天框。 | 4 | 3,360 | TypeScript | `CRM` `业务 Agent` `客户研究` `开源 SaaS` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 百度把长文档 OCR 推向一次性解析，瞄准多页 PDF 和复杂版面理解。 | 3 | 21,895 | Python | `OCR` `文档解析` `多模态` `长上下文` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | 一个把终端、LSP、浏览器、子 Agent 和精确编辑打通的 AI 编程代理。 | 3 | 21,604 | TypeScript | `AI 编程` `终端工具` `LSP` `子 Agent` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 coding agent 先问一句：这段代码真的需要存在吗。 | 3 | 95,045 | JavaScript | `AI 编程` `工程规则` `YAGNI` `提示词` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | 一套面向中文开发者的大模型动手教程，把 LLM 学习落到 Notebook 实验里。 | 3 | 47,427 | Jupyter Notebook | `大模型` `中文教程` `Notebook` `LLM 实践` `AI 工具` | ★★★★☆ | 低 |
 
 ## 数据与归档
 
