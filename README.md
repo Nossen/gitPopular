@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-02 (Asia/Shanghai)
+## 最新榜单：2026-08-03 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | 微软把 AI 基础课做成了可运行、可翻译、可长期维护的开源课程。 | 8 | 59,253 | Jupyter Notebook | `AI 入门` `课程` `Notebook` `深度学习` `AI 工具` | ★★★★☆ | 低 |
-| 2 | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | 这本书把 FDE 讲成企业 AI 项目从失败走向价值交付的关键角色。 | 5 | 1,615 | 未知 | `FDE` `AI 落地` `企业交付` `中文读物` `AI 工具` | ★★★☆☆ | 低 |
-| 3 | [yc-software/qm](https://github.com/yc-software/qm) | 把公司里的 Agent 做成有权限、有记忆、有沙箱的多人工作系统。 | 5 | 7,412 | TypeScript | `多人 Agent` `企业工作流` `沙箱` `权限治理` `AI 工具` | ★★★★☆ | 高 |
-| 4 | [block/buzz](https://github.com/block/buzz) | 把人、Agent、代码和审批放进同一条可检索事件流。 | 4 | 21,159 | Rust | `Agent 协同` `事件日志` `自托管` `工程协作` `AI 工具` | ★★★★☆ | 高 |
-| 5 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程实践和章节实验全部开源的中文书。 | 4 | 30,053 | Python | `Agent 教程` `上下文工程` `RAG` `多 Agent` `AI 工具` | ★★★★☆ | 中 |
-| 6 | [drumih/turbo-fieldfare](https://github.com/drumih/turbo-fieldfare) | 让 26B 级 Gemma 模型在 8GB Apple Silicon Mac 上本地跑起来。 | 4 | 4,208 | Swift | `本地推理` `Swift` `Metal` `量化模型` `AI 工具` | ★★★★☆ | 高 |
-| 7 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | 用小型 C 引擎和磁盘专家流式加载探索 744B 模型本地推理。 | 4 | 22,234 | C | `MoE 推理` `本地 AI` `SSD Streaming` `C 引擎` `AI 工具` | ★★★★☆ | 高 |
-| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把资深工程师的协作习惯打包成 Agent 可调用的技能库。 | 4 | 200,012 | Shell | `Agent Skill` `AI 编程` `工程协作` `流程规范` `AI 工具` | ★★★★☆ | 低 |
-| 9 | [Anakin-Inc/anakin](https://github.com/Anakin-Inc/anakin) | 一个本地优先、可 fallback 到反检测浏览器和外部 API 的网页抓取服务。 | 3 | 1,715 | Go | `网页抓取` `自托管` `反检测浏览器` `结构化抽取` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [antirez/ds4](https://github.com/antirez/ds4) | 一个为 DeepSeek V4 Flash 等模型垂直优化的本地推理和 coding agent 引擎。 | 3 | 20,036 | C | `本地推理` `DeepSeek` `Metal` `CUDA` `Coding Agent` | ★★★★☆ | 高 |
+| 1 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI-For-Beginners 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 7 | 60,850 | Jupyter Notebook | `AI 教程` `学习路径` `工程实践` `开发工具` `智能体` | ★★★★☆ | 高 |
+| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 6 | 15,990 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 3 | [yc-software/qm](https://github.com/yc-software/qm) | qm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 9,871 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 4 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | kimi-k3-in-c 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 4 | 1,274 | C | `上下文管理` `Agent` `Token 优化` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 5 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | airllm 围绕「AirLLM 70B inference with single 4GB GPU」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 27,254 | Jupyter Notebook | `大模型` `智能体` `RAG` `AI 编程` `模型推理` | ★★★★☆ | 中 |
+| 6 | [trycompai/crm](https://github.com/trycompai/crm) | crm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 3,360 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
+| 7 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 3 | 21,895 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `模型推理` | ★★★★☆ | 高 |
+| 8 | [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi) | oh-my-pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 21,604 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 95,045 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 10 | [Lordog/dive-into-llms](https://github.com/Lordog/dive-into-llms) | dive-into-llms 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 47,427 | Jupyter Notebook | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-02.json](data/2026-08-02.json)
-- Markdown 归档：[reports/2026-08-02.md](reports/2026-08-02.md)
+- JSON 数据：[data/2026-08-03.json](data/2026-08-03.json)
+- Markdown 归档：[reports/2026-08-03.md](reports/2026-08-03.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
