@@ -1,43 +1,10 @@
 {
-  "date": "2026-08-04",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-05T03:04:55.583963Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 95965,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "ponytail 是一套让 AI coding agent 更保守、更像资深工程师的技能/插件，强调 YAGNI、少写代码、优先复用和删除不必要复杂度。它支持 Claude Code、Codex、Cursor 等工具，并用对比实验展示减少冗余 diff 的效果。",
       "purpose_zh": "约束 AI 编程代理少写无效代码，并提升实现决策质量。",
-      "application_scenarios_zh": [
-        "团队 Agent 规则统一",
-        "代码审查前置约束",
-        "减少过度实现"
-      ],
       "positioning_zh": "面向 AI 编程工具的工程决策约束技能。",
       "product_view_zh": "适合团队把它作为 agent 指令层，降低功能膨胀、重复抽象和过度设计风险。",
       "technical_view_zh": "本质是提示词、规则和安装脚本组合，接入成本低，但效果取决于模型执行纪律和项目验收标准。",
@@ -55,12 +22,16 @@
         "AI 编程",
         "工程规则",
         "YAGNI",
-        "提示词",
-        "AI 工具"
+        "提示词"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 Agent 规则统一",
+        "代码审查前置约束",
+        "减少过度实现"
+      ],
       "adoption_notes_zh": [
         "与仓库现有规范合并使用。",
         "保留任务验收标准。",
@@ -68,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "zhaoxuya520/reverse-skill",
-      "repo_id": 1237819660,
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 18051,
-      "readme_url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "reverse-skill 是面向逆向工程、授权渗透测试和安全研究的 AI 技能路由包，支持 Claude Code、Kiro、Cursor、Cline 等客户端。它强调按任务自动选择技能、按需自举工具链，并沉淀可演进的安全研究经验库。",
       "purpose_zh": "让安全研究中的工具选择、流程拆分和经验复用更标准化。",
-      "application_scenarios_zh": [
-        "恶意样本分析",
-        "授权渗透测试",
-        "安全知识库沉淀"
-      ],
       "positioning_zh": "面向授权安全研究的 AI 辅助技能包。",
       "product_view_zh": "适合把逆向、漏洞分析和安全审计流程接入 AI coding client，减少手工切换工具和提示词成本。",
       "technical_view_zh": "核心是技能路由、规则文件和 PowerShell 引导脚本；采用时要隔离样本、权限和外部命令执行环境。",
@@ -103,12 +60,16 @@
         "安全研究",
         "逆向工程",
         "技能路由",
-        "AI 辅助",
-        "AI 工具"
+        "AI 辅助"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "恶意样本分析",
+        "授权渗透测试",
+        "安全知识库沉淀"
+      ],
       "adoption_notes_zh": [
         "只在授权范围内使用。",
         "先审查脚本和工具链来源。",
@@ -116,44 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "firecrawl/firecrawl",
-      "repo_id": 787076358,
-      "url": "https://github.com/firecrawl/firecrawl",
-      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-crawler",
-        "ai-scraping",
-        "ai-search",
-        "crawler",
-        "data-extraction",
-        "html-to-markdown",
-        "llm",
-        "markdown",
-        "scraper",
-        "scraping",
-        "web-crawler",
-        "web-data",
-        "web-data-extraction",
-        "web-scraper",
-        "web-scraping",
-        "web-search",
-        "webscraping"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 161101,
-      "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Firecrawl 是面向 AI 应用的 Web context API，提供搜索、抓取、交互、站点 crawl、URL map、批量抓取和 Agent 数据采集。它能输出 LLM 友好的 Markdown、结构化 JSON 和截图，并可通过 Skill、MCP、SDK 接入 Agent。",
       "purpose_zh": "把复杂网页数据获取封装成稳定 API，供 Agent 和 AI 应用直接使用。",
-      "application_scenarios_zh": [
-        "联网 Agent 数据源",
-        "RAG 文档抓取",
-        "竞品和价格监测"
-      ],
       "positioning_zh": "面向联网 Agent 和 RAG 的 Web 数据提取基础设施。",
       "product_view_zh": "适合需要实时网页上下文、竞品数据、站点爬取和结构化抽取的 AI 产品，省去代理、JS 渲染和清洗成本。",
       "technical_view_zh": "TypeScript 项目兼 hosted API、SDK、MCP 和 CLI；采用时要评估 API 成本、速率限制、数据权限和自托管需求。",
@@ -171,12 +98,16 @@
         "网页抓取",
         "Web Search",
         "MCP",
-        "RAG",
-        "AI 工具"
+        "RAG"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "联网 Agent 数据源",
+        "RAG 文档抓取",
+        "竞品和价格监测"
+      ],
       "adoption_notes_zh": [
         "先评估 hosted API 与自托管取舍。",
         "对关键数据保留来源和抓取时间。",
@@ -184,38 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "lyogavin/airllm",
-      "repo_id": 652712035,
-      "url": "https://github.com/lyogavin/airllm",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "language": "Jupyter Notebook",
-      "topics": [
-        "chinese-llm",
-        "chinese-nlp",
-        "finetune",
-        "generative-ai",
-        "instruct-gpt",
-        "instruction-set",
-        "llama",
-        "llm",
-        "lora",
-        "open-models",
-        "open-source",
-        "open-source-models",
-        "qlora"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 28450,
-      "readme_url": "https://github.com/lyogavin/airllm/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "AirLLM 通过分层、预取和压缩配置降低大模型推理显存占用，README 强调可在单张 4GB GPU 上运行 70B 模型，也展示 Qwen、DeepSeek-V3 等更大模型的低显存试跑路径。它主打普通硬件上的大模型实验。",
       "purpose_zh": "让超大模型能在消费级或低显存硬件上完成推理实验。",
-      "application_scenarios_zh": [
-        "低显存模型试跑",
-        "推理方案评估",
-        "本地大模型实验"
-      ],
       "positioning_zh": "面向低显存推理的模型加载与运行工具。",
       "product_view_zh": "适合个人开发者和研究团队在有限硬件上试跑大模型，价值是降低尝试门槛。",
       "technical_view_zh": "核心取舍是用加载、缓存和压缩策略换显存；采用前要测试具体模型的速度、I/O 开销和兼容性。",
@@ -233,12 +136,16 @@
         "低显存",
         "模型推理",
         "模型压缩",
-        "本地实验",
-        "AI 工具"
+        "本地实验"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "低显存模型试跑",
+        "推理方案评估",
+        "本地大模型实验"
+      ],
       "adoption_notes_zh": [
         "先用目标模型做基准测试。",
         "关注磁盘和内存 I/O 瓶颈。",
@@ -246,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "yc-software/qm",
-      "repo_id": 1316527318,
-      "url": "https://github.com/yc-software/qm",
-      "description": "Multiplayer agent harness for work",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 11212,
-      "readme_url": "https://github.com/yc-software/qm/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "qm 是面向公司协作的多人 Agent harness，提供 Slack 和 Web 两个入口。每个员工、频道和项目都有独立的记忆、文件、keychain、权限、定时任务和沙箱，管理员可统一控制模型、工具、安全策略和共享技能。",
       "purpose_zh": "把企业内部 Agent 从个人助手升级为可协作、可治理、可审计的工作系统。",
-      "application_scenarios_zh": [
-        "团队 Agent 工作台",
-        "内部应用生成",
-        "Slack 项目协作"
-      ],
       "positioning_zh": "面向创业团队和企业内部工作流的多用户 Agent 平台。",
       "product_view_zh": "适合让 Agent 参与邮件、文档、仓库、CI 和项目频道工作，价值在于按人和房间隔离上下文与权限。",
       "technical_view_zh": "TypeScript 核心配 Postgres、Fastify、Slack 插件和 per-scope sandbox；接入前要评估部署目录、命令策略和审批门禁。",
@@ -281,12 +174,16 @@
         "多人 Agent",
         "企业工作流",
         "沙箱",
-        "权限治理",
-        "AI 工具"
+        "权限治理"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 Agent 工作台",
+        "内部应用生成",
+        "Slack 项目协作"
+      ],
       "adoption_notes_zh": [
         "先用只读工具验证权限模型。",
         "明确自动执行和高风险模式边界。",
@@ -294,24 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "thebuggeddev/anatomy",
-      "repo_id": 1320101490,
-      "url": "https://github.com/thebuggeddev/anatomy",
-      "description": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 1241,
-      "readme_url": "https://github.com/thebuggeddev/anatomy/blob/main/README.md",
       "ai_confidence": 0.66,
       "summary_zh": "anatomy 的仓库描述指向一个用 Three.js 和 TypeScript 构建的交互式 3D 人体解剖探索器，但 README 仍主要是 vinext starter 模板，包含 Node、Cloudflare Sites、D1/Drizzle 和 ChatGPT 登录说明。这说明项目可能更像早期生成式前端实验。",
       "purpose_zh": "用 3D 前端交互展示人体解剖结构，验证 AI 生成应用的教育体验。",
-      "application_scenarios_zh": [
-        "3D 教学原型",
-        "医学科普展示",
-        "AI 生成前端参考"
-      ],
       "positioning_zh": "面向学习和演示的 3D 教育前端应用。",
       "product_view_zh": "适合做医学科普、课堂演示或 3D UI 原型，但当前文档没有充分说明真实功能、数据来源和交互范围。",
       "technical_view_zh": "技术栈信号是 TypeScript、Three.js 和 vinext starter；采用前应先跑通源码并检查模型资源、性能和移动端适配。",
@@ -329,12 +212,16 @@
         "Three.js",
         "3D 教育",
         "前端应用",
-        "医学可视化",
-        "AI 工具"
+        "医学可视化"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "3D 教学原型",
+        "医学科普展示",
+        "AI 生成前端参考"
+      ],
       "adoption_notes_zh": [
         "先确认 README 与实际代码是否一致。",
         "检查模型资源和版权来源。",
@@ -342,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "repo_id": 1316875788,
-      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
-      "description": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
-      "language": null,
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 2988,
-      "readme_url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer/blob/main/README.md",
       "ai_confidence": 0.78,
       "summary_zh": "该仓库是一本中文 FDE 入门书，围绕“人工智能时代的客户价值交付”展开，解释 Forward Deployed Engineer 的岗位起源、工作方法、客户交付路径、续约扩张和案例来源，强调模型之外的落地能力稀缺。",
       "purpose_zh": "帮助工程师和 AI 创业团队理解 FDE 角色与企业 AI 落地方法。",
-      "application_scenarios_zh": [
-        "岗位转型学习",
-        "企业 AI 交付培训",
-        "售前方法复盘"
-      ],
       "positioning_zh": "面向 AI 交付岗位和企业落地的中文方法论读物。",
       "product_view_zh": "适合正在做企业 AI 项目、售前交付或岗位转型的人，用来理解从问题发现到价值扩张的完整链路。",
       "technical_view_zh": "仓库以 Markdown 和 PDF 为主，不提供代码；采用时应把案例和指标转化为自己的交付清单。",
@@ -377,12 +250,16 @@
         "FDE",
         "AI 落地",
         "企业交付",
-        "中文读物",
-        "AI 工具"
+        "中文读物"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "岗位转型学习",
+        "企业 AI 交付培训",
+        "售前方法复盘"
+      ],
       "adoption_notes_zh": [
         "把书中指标改成项目检查表。",
         "结合自身行业补充案例。",
@@ -390,41 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "esengine/DeepSeek-Reasonix",
-      "repo_id": 1216785679,
-      "url": "https://github.com/esengine/DeepSeek-Reasonix",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "language": "Go",
-      "topics": [
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-coding",
-        "cli",
-        "coding-agent",
-        "deepseek",
-        "developer-tools",
-        "ink",
-        "llm",
-        "prompt-caching",
-        "r1",
-        "terminal",
-        "tool-use",
-        "tui",
-        "typescript"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 30866,
-      "readme_url": "https://github.com/esengine/DeepSeek-Reasonix/blob/main-v2/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "DeepSeek-Reasonix 是面向终端的 DeepSeek 原生 AI coding agent，用 Go 构建并提供 CLI/TUI、桌面应用和 VS Code 扩展路径。项目强调配置驱动、插件工具、子 Agent、稳定前缀缓存和长时间运行的编码工作流。",
       "purpose_zh": "围绕 DeepSeek 模型构建低成本、可长期运行的终端编码代理。",
-      "application_scenarios_zh": [
-        "终端代码代理",
-        "长会话开发辅助",
-        "DeepSeek 工作流验证"
-      ],
       "positioning_zh": "面向开发者的 DeepSeek 原生 AI 编程工作流。",
       "product_view_zh": "适合偏好终端工作流、希望利用 DeepSeek 推理能力和上下文缓存的开发者或团队。",
       "technical_view_zh": "亮点是 Go 单二进制、插件子进程、配置驱动和缓存稳定性；采用前要评估工具权限、插件可信度和模型响应质量。",
@@ -442,12 +288,16 @@
         "DeepSeek",
         "AI 编程",
         "CLI",
-        "前缀缓存",
-        "AI 工具"
+        "前缀缓存"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "终端代码代理",
+        "长会话开发辅助",
+        "DeepSeek 工作流验证"
+      ],
       "adoption_notes_zh": [
         "先限制工具执行范围。",
         "用真实仓库测试缓存收益。",
@@ -455,42 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "Panniantong/Agent-Reach",
-      "repo_id": 1165277268,
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 66542,
-      "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Agent-Reach 是给 AI Agent 接入互联网内容的 CLI，支持 GitHub、YouTube、B 站、小红书、Reddit、Twitter/X、RSS 等来源，目标是绕开平台配置复杂、API 费用高或抓取结果难读的问题，让 Agent 能做真实调研。",
       "purpose_zh": "为 AI Agent 提供多平台公开内容读取、搜索和整理能力。",
-      "application_scenarios_zh": [
-        "视频和帖子调研",
-        "竞品反馈汇总",
-        "公开网页材料整理"
-      ],
       "positioning_zh": "面向内容调研和资料抓取的联网 Agent 工具。",
       "product_view_zh": "适合内容团队、研究人员和开发者做选题调研、竞品分析、舆情观察和资料汇总。",
       "technical_view_zh": "技术上以 Python CLI、MCP/Agent 工具接入和多平台抓取适配为主；评估重点是平台风控、登录态和本地凭据安全。",
@@ -508,12 +326,16 @@
         "联网 Agent",
         "内容抓取",
         "MCP",
-        "调研工具",
-        "AI 工具"
+        "调研工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "视频和帖子调研",
+        "竞品反馈汇总",
+        "公开网页材料整理"
+      ],
       "adoption_notes_zh": [
         "使用前确认平台规则和账号权限。",
         "重要结论要回到原链接人工核验。",
@@ -521,24 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "virgiliojr94/book-to-skill",
-      "repo_id": 1226123343,
-      "url": "https://github.com/virgiliojr94/book-to-skill",
-      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 16458,
-      "readme_url": "https://github.com/virgiliojr94/book-to-skill/blob/master/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "book-to-skill 可把技术书、PDF、文件夹或 glob 指向的长文档转成 Claude Code Skill。它用确定性提取器清洗文本，再按规则生成 SKILL.md 和章节文件，目标不是摘要，而是把框架、决策规则和反模式变成 Agent 可按需调用的知识包。",
       "purpose_zh": "把长文档和技术书沉淀为可触发、可引用的 Agent 技能。",
-      "application_scenarios_zh": [
-        "技术书学习助手",
-        "团队文档技能化",
-        "项目资料按需引用"
-      ],
       "positioning_zh": "面向文档知识转 skill 的 Agent 内容工具。",
       "product_view_zh": "适合把团队手册、技术书、产品文档和研究资料转成工作时可调用的知识包，减少每次重新找资料的成本。",
       "technical_view_zh": "Python 工具支持多格式输入和增量合并；采用时要评估解析质量、章节索引、版权来源和生成 skill 的触发准确性。",
@@ -556,12 +364,16 @@
         "文档转 Skill",
         "Agent 技能",
         "PDF 处理",
-        "知识沉淀",
-        "AI 工具"
+        "知识沉淀"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "技术书学习助手",
+        "团队文档技能化",
+        "项目资料按需引用"
+      ],
       "adoption_notes_zh": [
         "先用结构清晰的文档测试生成质量。",
         "检查生成 skill 的触发词和引用路径。",

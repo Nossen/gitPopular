@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 95,965 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 7 | 18,051 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 3 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 6 | 161,101 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 4 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | airllm 围绕「AirLLM 70B inference with single 4GB GPU」提供 AI 相关开源能力，适合快速评估和原型验证。 | 6 | 28,450 | Jupyter Notebook | `大模型` `智能体` `RAG` `AI 编程` `模型推理` | ★★★★☆ | 中 |
-| 5 | [yc-software/qm](https://github.com/yc-software/qm) | qm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 11,212 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 6 | [thebuggeddev/anatomy](https://github.com/thebuggeddev/anatomy) | anatomy 围绕「An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol」提供 AI 相关开源能力，适合快速评估和原型验证。 | 5 | 1,241 | TypeScript | `AI 设计` `大模型` `AI 编程` `TypeScript` `高增长` | ★★☆☆☆ | 高 |
-| 7 | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | FDE-the-Guidance-Book-of-Forward-Deployed-Engineer 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 5 | 2,988 | 未知 | `文档转换` `RAG` `知识库` `AI 工具` `高增长` | ★★☆☆☆ | 低 |
-| 8 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-Reasonix 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 30,866 | Go | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 66,542 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 10 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | book-to-skill 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 16,458 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 coding agent 先问一句：这段代码真的需要存在吗。 | 7 | 95,965 | JavaScript | `AI 编程` `工程规则` `YAGNI` `提示词` `AI 工具` | ★★★★☆ | 低 |
+| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向和安全研究流程包装成可被 AI 客户端调度的技能路由系统。 | 7 | 18,051 | PowerShell | `安全研究` `逆向工程` `技能路由` `AI 辅助` `AI 工具` | ★★★☆☆ | 高 |
+| 3 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 一个能搜索、抓取、交互网页并输出干净数据的 Web API。 | 6 | 161,101 | TypeScript | `网页抓取` `Web Search` `MCP` `RAG` `AI 工具` | ★★★★★ | 中 |
+| 4 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | 用流式加载和压缩策略，把超大模型推理门槛拉回普通硬件。 | 6 | 28,450 | Jupyter Notebook | `低显存` `模型推理` `模型压缩` `本地实验` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [yc-software/qm](https://github.com/yc-software/qm) | 把公司里的 Agent 做成有权限、有记忆、有沙箱的多人工作系统。 | 6 | 11,212 | TypeScript | `多人 Agent` `企业工作流` `沙箱` `权限治理` `AI 工具` | ★★★★☆ | 高 |
+| 6 | [thebuggeddev/anatomy](https://github.com/thebuggeddev/anatomy) | 一个 3D 解剖学习应用的早期前端实验，但文档还停留在 starter 状态。 | 5 | 1,241 | TypeScript | `Three.js` `3D 教育` `前端应用` `医学可视化` `AI 工具` | ★★★☆☆ | 中 |
+| 7 | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | 这本书把 FDE 讲成企业 AI 项目从失败走向价值交付的关键角色。 | 5 | 2,988 | 未知 | `FDE` `AI 落地` `企业交付` `中文读物` `AI 工具` | ★★★☆☆ | 低 |
+| 8 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 一个围绕 DeepSeek 前缀缓存优化的终端 AI 编程代理。 | 4 | 30,866 | Go | `DeepSeek` `AI 编程` `CLI` `前缀缓存` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 Agent 装上互联网读取能力，GitHub、B站、小红书、YouTube 都能查。 | 4 | 66,542 | Python | `联网 Agent` `内容抓取` `MCP` `调研工具` `AI 工具` | ★★★★★ | 中 |
+| 10 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 把一本技术书直接变成 Agent 工作时可调用的 skill。 | 4 | 16,458 | Python | `文档转 Skill` `Agent 技能` `PDF 处理` `知识沉淀` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
