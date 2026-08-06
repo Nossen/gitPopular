@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentDB-Agent-Memory 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 8 | 15,166 | TypeScript | `RAG` `知识库` `上下文` `智能体` `向量检索` | ★★★☆☆ | 高 |
-| 2 | [cloudflare/computer](https://github.com/cloudflare/computer) | computer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 3,180 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 7 | 19,152 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 4 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 6 | 5,716 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | opencode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 193,863 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★★ | 中 |
-| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 32,853 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 65,060 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [Accio-Lab/RealReplicaBench](https://github.com/Accio-Lab/RealReplicaBench) | RealReplicaBench 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 1,019 | HTML | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
-| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 82,026 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 10 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | QwenPaw 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 33,648 | Python | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
+| 1 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 把团队 Agent 的对话、文档和代码经验沉淀成可共享、可治理的记忆资产。 | 8 | 15,166 | TypeScript | `Agent 记忆` `知识资产` `CodeGraph` `团队协作` `AI 工具` | ★★★★★ | 中 |
+| 2 | [cloudflare/computer](https://github.com/cloudflare/computer) | Cloudflare 正在把 Agent 的“电脑”抽象成可隔离、可复现的运行环境。 | 7 | 3,180 | TypeScript | `Agent 沙箱` `Cloudflare` `运行时` `状态管理` `AI 工具` | ★★★★☆ | 高 |
+| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向和安全研究流程包装成可被 AI 客户端调度的技能路由系统。 | 7 | 19,152 | PowerShell | `安全研究` `逆向工程` `技能路由` `AI 辅助` `AI 工具` | ★★★☆☆ | 高 |
+| 4 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 给 Agent 做独立审计，120 秒内产出可引用的风险评分卡。 | 6 | 5,716 | Python | `AI 安全` `Agent 评估` `风险治理` `LLM Security` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个开源、跨平台、终端优先的 AI coding agent。 | 5 | 193,863 | TypeScript | `Coding Agent` `开源 IDE` `终端工具` `开发自动化` `AI 工具` | ★★★★★ | 中 |
+| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和配套实验全开源的中文书。 | 4 | 32,853 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 把工具输出和 RAG chunk 先压缩再进模型，少花 token 还保留原文可取回。 | 4 | 65,060 | Python | `上下文压缩` `Token 优化` `MCP` `Agent 记忆` `AI 工具` | ★★★★☆ | 中 |
+| 8 | [Accio-Lab/RealReplicaBench](https://github.com/Accio-Lab/RealReplicaBench) | 用真实在线服务副本评测长程 Agent，而不是只测简单对话题。 | 3 | 1,019 | HTML | `Agent 评测` `长程任务` `基准测试` `可复现` `AI 工具` | ★★★★☆ | 高 |
+| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 3 | 82,026 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 10 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 把个人 AI 助手接入聊天渠道、计划任务和自托管工作流。 | 3 | 33,648 | Python | `个人 Agent` `聊天渠道` `自托管` `AgentScope` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
