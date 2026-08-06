@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-04 (Asia/Shanghai)
+## 最新榜单：2026-08-05 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 coding agent 先问一句：这段代码真的需要存在吗。 | 7 | 95,965 | JavaScript | `AI 编程` `工程规则` `YAGNI` `提示词` `AI 工具` | ★★★★☆ | 低 |
-| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向和安全研究流程包装成可被 AI 客户端调度的技能路由系统。 | 7 | 18,051 | PowerShell | `安全研究` `逆向工程` `技能路由` `AI 辅助` `AI 工具` | ★★★☆☆ | 高 |
-| 3 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | 给 Agent 一个能搜索、抓取、交互网页并输出干净数据的 Web API。 | 6 | 161,101 | TypeScript | `网页抓取` `Web Search` `MCP` `RAG` `AI 工具` | ★★★★★ | 中 |
-| 4 | [lyogavin/airllm](https://github.com/lyogavin/airllm) | 用流式加载和压缩策略，把超大模型推理门槛拉回普通硬件。 | 6 | 28,450 | Jupyter Notebook | `低显存` `模型推理` `模型压缩` `本地实验` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [yc-software/qm](https://github.com/yc-software/qm) | 把公司里的 Agent 做成有权限、有记忆、有沙箱的多人工作系统。 | 6 | 11,212 | TypeScript | `多人 Agent` `企业工作流` `沙箱` `权限治理` `AI 工具` | ★★★★☆ | 高 |
-| 6 | [thebuggeddev/anatomy](https://github.com/thebuggeddev/anatomy) | 一个 3D 解剖学习应用的早期前端实验，但文档还停留在 starter 状态。 | 5 | 1,241 | TypeScript | `Three.js` `3D 教育` `前端应用` `医学可视化` `AI 工具` | ★★★☆☆ | 中 |
-| 7 | [xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer](https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer) | 这本书把 FDE 讲成企业 AI 项目从失败走向价值交付的关键角色。 | 5 | 2,988 | 未知 | `FDE` `AI 落地` `企业交付` `中文读物` `AI 工具` | ★★★☆☆ | 低 |
-| 8 | [esengine/DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | 一个围绕 DeepSeek 前缀缓存优化的终端 AI 编程代理。 | 4 | 30,866 | Go | `DeepSeek` `AI 编程` `CLI` `前缀缓存` `AI 工具` | ★★★★☆ | 中 |
-| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 Agent 装上互联网读取能力，GitHub、B站、小红书、YouTube 都能查。 | 4 | 66,542 | Python | `联网 Agent` `内容抓取` `MCP` `调研工具` `AI 工具` | ★★★★★ | 中 |
-| 10 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 把一本技术书直接变成 Agent 工作时可调用的 skill。 | 4 | 16,458 | Python | `文档转 Skill` `Agent 技能` `PDF 处理` `知识沉淀` `AI 工具` | ★★★★☆ | 中 |
+| 1 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | TencentDB-Agent-Memory 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 8 | 15,166 | TypeScript | `RAG` `知识库` `上下文` `智能体` `向量检索` | ★★★☆☆ | 高 |
+| 2 | [cloudflare/computer](https://github.com/cloudflare/computer) | computer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 3,180 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 7 | 19,152 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 4 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 6 | 5,716 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | opencode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 193,863 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★★ | 中 |
+| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | ai-agent-book 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 32,853 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 7 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 65,060 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 8 | [Accio-Lab/RealReplicaBench](https://github.com/Accio-Lab/RealReplicaBench) | RealReplicaBench 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 1,019 | HTML | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 82,026 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 10 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | QwenPaw 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 33,648 | Python | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-04.json](data/2026-08-04.json)
-- Markdown 归档：[reports/2026-08-04.md](reports/2026-08-04.md)
+- JSON 数据：[data/2026-08-05.json](data/2026-08-05.json)
+- Markdown 归档：[reports/2026-08-05.md](reports/2026-08-05.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
