@@ -1,32 +1,10 @@
 {
-  "date": "2026-08-06",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-07T02:35:14.970731Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "firecrawl/anydoc",
-      "repo_id": 1322012299,
-      "url": "https://github.com/firecrawl/anydoc",
-      "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 10,
-      "total_stars": 8643,
-      "readme_url": "https://github.com/firecrawl/anydoc/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "anydoc 是 Firecrawl 开源的多格式文档转 Markdown 工具，用 Rust 实现并提供 Node.js、Python、WASM 和 CLI/Agent Skill 入口。它把 Word、PowerPoint、Excel、OpenDocument、RTF、EPUB、CSV、PDF 等解析成统一文档模型，再稳定输出干净 Markdown。",
       "purpose_zh": "把办公文档和 PDF 可靠转成适合 LLM、RAG 和 Agent 读取的 Markdown。",
-      "application_scenarios_zh": [
-        "RAG 文档入库",
-        "Agent 文件读取",
-        "办公资料批量清洗"
-      ],
       "positioning_zh": "面向 AI 应用和数据管道的高性能文档转换基础设施。",
       "product_view_zh": "适合把企业文档、知识库资料和用户上传文件接入 RAG 或 Agent，价值在于格式覆盖广、输出统一、无需外部服务。",
       "technical_view_zh": "Rust 核心提供内容检测、共享文档模型和多语言绑定；采用时要评估扫描件 OCR、嵌入资产处理和复杂表格还原效果。",
@@ -44,12 +22,16 @@
         "文档转换",
         "Markdown",
         "Rust",
-        "RAG",
-        "AI 工具"
+        "RAG"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "RAG 文档入库",
+        "Agent 文件读取",
+        "办公资料批量清洗"
+      ],
       "adoption_notes_zh": [
         "先用真实文档集评估表格和脚注效果。",
         "扫描件需要单独接 OCR 流程。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "cloudflare/cloudflare-os",
-      "repo_id": 1211925923,
-      "url": "https://github.com/cloudflare/cloudflare-os",
-      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 5287,
-      "readme_url": "https://github.com/cloudflare/cloudflare-os/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Cloudflare OS 是基于 Cloudflare Workers 的企业 AI 工作区，提供带公司上下文的 Agent chat、可由 Agent 构建的小应用 Gadgets，以及通过 Gatekeepers 实现的能力授权、日志、模拟执行和人工审批。项目仍处早期访问阶段。",
       "purpose_zh": "让企业员工安全地用 Agent 创建文档、构建应用并操作公司系统。",
-      "application_scenarios_zh": [
-        "企业 Agent 工作台",
-        "内部小应用生成",
-        "能力审批和审计"
-      ],
       "positioning_zh": "面向企业的 Agent 工作区和能力安全框架。",
       "product_view_zh": "适合探索“公司级 AI 操作系统”形态，把文档、应用生成和系统集成放在统一、安全可审计的工作台。",
       "technical_view_zh": "TypeScript/Workers 架构，依赖 Dynamic Workers、Cap'n Web、Gatekeepers、sandboxed iframe 和服务绑定；采用前要理解权限边界。",
@@ -92,12 +60,16 @@
         "企业 Agent",
         "Cloudflare Workers",
         "安全沙箱",
-        "应用生成",
-        "AI 工具"
+        "应用生成"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "企业 Agent 工作台",
+        "内部小应用生成",
+        "能力审批和审计"
+      ],
       "adoption_notes_zh": [
         "先按本地 quick start 试跑演示。",
         "重点审查 Gatekeeper 权限和日志。",
@@ -105,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "PrimeIntellect-ai/prime-agent",
-      "repo_id": 1232493406,
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 4464,
-      "readme_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "prime-agent 是 Prime Intellect 的自改进 RLM coding agent，把上下文视作变量、把工具和子 Agent 作为可编程调用，并内置持久 IPython、Continual Harness、可精炼技能、后台会话、目标、心跳和长任务续跑能力。",
       "purpose_zh": "为长期、自主、可复盘的编码任务提供可编程 Agent 工作流。",
-      "application_scenarios_zh": [
-        "长程编码任务",
-        "后台 Agent 会话",
-        "技能沉淀实验"
-      ],
       "positioning_zh": "面向 coding workflow 和长程任务的自改进 Agent harness。",
       "product_view_zh": "适合探索后台编码代理、长期任务和多子 Agent 协作，价值在于把会话、工具、记忆和改进循环做成持久工作环境。",
       "technical_view_zh": "核心依赖 Python REPL、daemon、worker、kernel、subagent 和 skill 机制；README 明确它不是安全沙箱，运行范围必须受控。",
@@ -140,12 +98,16 @@
         "Coding Agent",
         "长程任务",
         "子 Agent",
-        "自改进",
-        "AI 工具"
+        "自改进"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "长程编码任务",
+        "后台 Agent 会话",
+        "技能沉淀实验"
+      ],
       "adoption_notes_zh": [
         "只在可信仓库中试用。",
         "为 shell 和 Python 执行设置边界。",
@@ -153,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 207211,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "mattpocock/skills 是一组面向真实工程协作的 Agent Skill，重点解决需求不清、输出冗长、代码不工作和架构失控等失败模式。它提供 setup、grill、spec、tickets、implement、review 等流程，强调共享语言和小步反馈。",
       "purpose_zh": "把成熟工程习惯沉淀成可复用 Agent Skill，降低协作和交付偏差。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规范",
-        "需求澄清工作流",
-        "代码质量复盘"
-      ],
       "positioning_zh": "面向工程团队的 Agent 技能库，强调小颗粒、可组合、可按项目改造。",
       "product_view_zh": "适合把需求澄清、术语统一、架构改进和交付检查前置到 coding agent 协作流程里。",
       "technical_view_zh": "主要是 Shell 与 Markdown 技能文件，接入成本低；关键在于团队是否愿意维护自己的技能版本和触发习惯。",
@@ -188,12 +136,16 @@
         "Agent Skill",
         "AI 编程",
         "工程协作",
-        "流程规范",
-        "AI 工具"
+        "流程规范"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 AI 编程规范",
+        "需求澄清工作流",
+        "代码质量复盘"
+      ],
       "adoption_notes_zh": [
         "先挑 2-3 个高频技能试用。",
         "把项目术语和交付标准改成本地版本。",
@@ -201,45 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "diegosouzapw/OmniRoute",
-      "repo_id": 1157102282,
-      "url": "https://github.com/diegosouzapw/OmniRoute",
-      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-      "language": "TypeScript",
-      "topics": [
-        "a2a",
-        "ai-agents",
-        "ai-gateway",
-        "anthropic",
-        "claude",
-        "claude-code",
-        "cline",
-        "codex",
-        "copilot",
-        "cursor",
-        "deepseek",
-        "free-ai",
-        "gemini",
-        "kimi",
-        "llm-gateway",
-        "mcp",
-        "openai",
-        "openai-proxy",
-        "qwen",
-        "token-saver"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 41755,
-      "readme_url": "https://github.com/diegosouzapw/OmniRoute/blob/release/v3.8.50/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "OmniRoute 是多模型 AI gateway，把 290 多个 provider、500 多个模型、免费额度聚合、自动 fallback、token 压缩、MCP/A2A 和桌面/PWA 管理放到一个入口。它主打 Claude Code、Codex、Cursor、OpenCode 等 AI 编程工具。",
       "purpose_zh": "用统一 API 路由多家 LLM 服务，并在额度、成本和可用性之间切换。",
-      "application_scenarios_zh": [
-        "统一 AI 编程入口",
-        "多 provider 兜底",
-        "上下文压缩降本"
-      ],
       "positioning_zh": "面向 AI 编程工具和 Agent 的本地 LLM 网关。",
       "product_view_zh": "适合重度使用多模型工具的开发者，核心价值是减少 provider 切换、限额中断和 token 成本。",
       "technical_view_zh": "TypeScript 网关覆盖多 provider、quota fallback、RTK/Caveman 压缩、MCP/A2A 和本地服务；需审查鉴权、日志和 ToS。",
@@ -257,12 +174,16 @@
         "LLM 网关",
         "多模型路由",
         "Token 压缩",
-        "MCP",
-        "AI 工具"
+        "MCP"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "统一 AI 编程入口",
+        "多 provider 兜底",
+        "上下文压缩降本"
+      ],
       "adoption_notes_zh": [
         "先用非敏感项目验证路由。",
         "逐项核对 provider ToS 和额度规则。",
@@ -270,41 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "NousResearch/hermes-agent",
-      "repo_id": 1024554267,
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "description": "The agent that grows with you",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "clawdbot",
-        "codex",
-        "hermes",
-        "hermes-agent",
-        "llm",
-        "moltbot",
-        "nous-research",
-        "openai",
-        "openclaw"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 226635,
-      "readme_url": "https://github.com/NousResearch/hermes-agent/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Hermes Agent 是 NousResearch 推出的多入口 Agent 系统，提供终端 UI、gateway、Telegram/Discord/Slack/WhatsApp/Signal/Email 等消息入口，并围绕 Nous Portal、工具网关、迁移 OpenClaw、技能、记忆和多模型使用构建完整助手体验。",
       "purpose_zh": "让用户通过终端和聊天渠道运行可扩展、可长期使用的个人 Agent。",
-      "application_scenarios_zh": [
-        "个人任务助理",
-        "消息渠道自动化",
-        "多模型工具入口"
-      ],
       "positioning_zh": "面向个人和社区用户的多渠道 Agent 平台。",
       "product_view_zh": "价值在于把 Agent 从开发者终端扩展到日常消息入口，并提供模型、工具、记忆和技能的一体化使用路径。",
       "technical_view_zh": "Python 生态，安装器会配置运行依赖并支持多平台；采用时要评估消息桥接、密钥存储、远端工具和权限边界。",
@@ -322,12 +212,16 @@
         "个人 Agent",
         "聊天渠道",
         "工具网关",
-        "长期记忆",
-        "AI 工具"
+        "长期记忆"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "个人任务助理",
+        "消息渠道自动化",
+        "多模型工具入口"
+      ],
       "adoption_notes_zh": [
         "先用单一入口跑通基础任务。",
         "确认密钥和聊天记录存储位置。",
@@ -335,42 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "Panniantong/Agent-Reach",
-      "repo_id": 1165277268,
-      "url": "https://github.com/Panniantong/Agent-Reach",
-      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-      "language": "Python",
-      "topics": [
-        "agent-infrastructure",
-        "ai-agent",
-        "ai-search",
-        "automation",
-        "bilibili",
-        "claude-code",
-        "cli",
-        "cursor",
-        "free-api",
-        "llm-tools",
-        "mcp",
-        "python",
-        "reddit-scraper",
-        "twitter-scraper",
-        "web-scraper",
-        "xiaohongshu",
-        "youtube-transcript"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 67689,
-      "readme_url": "https://github.com/Panniantong/Agent-Reach/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "Agent-Reach 是给 AI Agent 接入互联网内容的 CLI，支持 GitHub、YouTube、B 站、小红书、Reddit、Twitter/X、RSS 等来源，目标是绕开平台配置复杂、API 费用高或抓取结果难读的问题，让 Agent 能做真实调研。",
       "purpose_zh": "为 AI Agent 提供多平台公开内容读取、搜索和整理能力。",
-      "application_scenarios_zh": [
-        "视频和帖子调研",
-        "竞品反馈汇总",
-        "公开网页材料整理"
-      ],
       "positioning_zh": "面向内容调研和资料抓取的联网 Agent 工具。",
       "product_view_zh": "适合内容团队、研究人员和开发者做选题调研、竞品分析、舆情观察和资料汇总。",
       "technical_view_zh": "技术上以 Python CLI、MCP/Agent 工具接入和多平台抓取适配为主；评估重点是平台风控、登录态和本地凭据安全。",
@@ -388,12 +250,16 @@
         "联网 Agent",
         "内容抓取",
         "MCP",
-        "调研工具",
-        "AI 工具"
+        "调研工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "视频和帖子调研",
+        "竞品反馈汇总",
+        "公开网页材料整理"
+      ],
       "adoption_notes_zh": [
         "使用前确认平台规则和账号权限。",
         "重要结论要回到原链接人工核验。",
@@ -401,31 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "get-bb/bb",
-      "repo_id": 1166119443,
-      "url": "https://github.com/get-bb/bb",
-      "description": "The agent IDE that builds itself",
-      "language": "TypeScript",
-      "topics": [
-        "ade",
-        "agent-ide",
-        "claude-code",
-        "codex",
-        "devtools",
-        "ide"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 1079,
-      "readme_url": "https://github.com/get-bb/bb/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "bb 自称是“会构建自己的 agent IDE”，提供桌面应用和 npx 运行方式，仓库说明它仍在活跃开发中，但核心架构趋于稳定。文档提到 Electron、server、host daemon、工作区、多设备、worktrees 和 setup scripts 等工程形态。",
       "purpose_zh": "探索一个可随 Agent 协作持续演进的 IDE 和开发环境。",
-      "application_scenarios_zh": [
-        "AI IDE 体验评估",
-        "开发工具原型研究",
-        "Agent 工作区试用"
-      ],
       "positioning_zh": "面向 AI 编程的早期 Agent IDE。",
       "product_view_zh": "适合关注下一代 AI IDE 形态的开发者试用，重点观察桌面入口、项目状态、worktree 和 Agent 协作体验。",
       "technical_view_zh": "TypeScript 项目，桌面壳、服务端和 host daemon 分离；采用时要注意热更新边界、原生绑定和活跃开发带来的变更。",
@@ -443,12 +288,16 @@
         "Agent IDE",
         "AI 编程",
         "桌面应用",
-        "开发工具",
-        "AI 工具"
+        "开发工具"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "AI IDE 体验评估",
+        "开发工具原型研究",
+        "Agent 工作区试用"
+      ],
       "adoption_notes_zh": [
         "优先用桌面应用体验主路径。",
         "按文档区分 app、server 和 daemon。",
@@ -456,45 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "lidge-jun/opencodex",
-      "repo_id": 1273824907,
-      "url": "https://github.com/lidge-jun/opencodex",
-      "description": "Universal provider proxy for OpenAI Codex & Claude Code — use any LLM (Claude, Gemini, Grok, DeepSeek, Ollama…) with Codex CLI, App, SDK, and Claude Code",
-      "language": "TypeScript",
-      "topics": [
-        "ai-gateway",
-        "ai-tools",
-        "anthropic",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "codex-cli",
-        "deepseek",
-        "developer-tools",
-        "gemini",
-        "grok",
-        "kiro",
-        "llm",
-        "llm-proxy",
-        "ollama",
-        "openai",
-        "openrouter",
-        "proxy",
-        "typescript"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 8087,
-      "readme_url": "https://github.com/lidge-jun/opencodex/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "opencodex 是面向 OpenAI Codex、Claude Code、Claude Desktop 和 Grok Build 的通用 provider proxy，可接入 40 多个 provider，支持账号池、quota-aware 切换、combos、OAuth、web search/vision sidecars、dashboard，并提供 clean exit 恢复配置。",
       "purpose_zh": "让 Codex 和 Claude Code 等工具通过统一代理使用任意 LLM provider。",
-      "application_scenarios_zh": [
-        "Codex 多模型代理",
-        "Provider fallback",
-        "本地模型路由实验"
-      ],
       "positioning_zh": "面向 AI 编程工具的 LLM 代理和模型路由层。",
       "product_view_zh": "适合希望扩展 Codex/Claude Code 模型选择、管理额度和使用 sidecar 能力的高级用户。",
       "technical_view_zh": "TypeScript 代理，涉及本地配置修改、OAuth、账号池、路由组合和 sidecar；采用前要审查安装脚本、恢复路径和密钥安全。",
@@ -512,12 +326,16 @@
         "LLM 代理",
         "Codex",
         "Claude Code",
-        "模型路由",
-        "AI 工具"
+        "模型路由"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Codex 多模型代理",
+        "Provider fallback",
+        "本地模型路由实验"
+      ],
       "adoption_notes_zh": [
         "先阅读 agent 安装说明。",
         "确认 stop 能恢复原始配置。",
@@ -525,43 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "nilbuild/developer-roadmap",
-      "repo_id": 85077558,
-      "url": "https://github.com/nilbuild/developer-roadmap",
-      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
-      "language": "TypeScript",
-      "topics": [
-        "angular-roadmap",
-        "backend-roadmap",
-        "blockchain-roadmap",
-        "computer-science",
-        "dba-roadmap",
-        "developer-roadmap",
-        "devops-roadmap",
-        "frontend-roadmap",
-        "go-roadmap",
-        "java-roadmap",
-        "javascript-roadmap",
-        "nodejs-roadmap",
-        "python-roadmap",
-        "qa-roadmap",
-        "react-roadmap",
-        "roadmap",
-        "software-architect-roadmap",
-        "vue-roadmap"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 363806,
-      "readme_url": "https://github.com/nilbuild/developer-roadmap/blob/master/readme.md",
       "ai_confidence": 0.82,
       "summary_zh": "developer-roadmap 是 roadmap.sh 的开源路线图仓库，覆盖前端、后端、DevOps、AI Engineer、Claude Code、OpenClaw、Vibe Coding、FDE、数据、架构和多语言学习路径。它不是单一 AI 工具，而是开发者教育内容平台。",
       "purpose_zh": "用交互式路线图和指南帮助开发者规划学习和职业成长。",
-      "application_scenarios_zh": [
-        "个人学习规划",
-        "团队培训路线",
-        "AI 工程课程设计"
-      ],
       "positioning_zh": "面向开发者职业成长的教育内容和路线图平台。",
       "product_view_zh": "适合个人学习、团队培养和课程规划，AI 相关路线图可用于快速建立 Agent、AI Engineer 和工具链学习路径。",
       "technical_view_zh": "TypeScript 前端内容项目，价值主要在内容维护和信息架构；采用时要检查路线图是否符合目标岗位和技术栈。",
@@ -579,12 +364,16 @@
         "学习路线",
         "开发者教育",
         "AI Engineer",
-        "职业成长",
-        "AI 工具"
+        "职业成长"
       ],
       "maturity_score": 5,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "个人学习规划",
+        "团队培训路线",
+        "AI 工程课程设计"
+      ],
       "adoption_notes_zh": [
         "按目标岗位筛选路线图。",
         "结合项目实践补足实战环节。",
