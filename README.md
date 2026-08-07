@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-05 (Asia/Shanghai)
+## 最新榜单：2026-08-06 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | 把团队 Agent 的对话、文档和代码经验沉淀成可共享、可治理的记忆资产。 | 8 | 15,166 | TypeScript | `Agent 记忆` `知识资产` `CodeGraph` `团队协作` `AI 工具` | ★★★★★ | 中 |
-| 2 | [cloudflare/computer](https://github.com/cloudflare/computer) | Cloudflare 正在把 Agent 的“电脑”抽象成可隔离、可复现的运行环境。 | 7 | 3,180 | TypeScript | `Agent 沙箱` `Cloudflare` `运行时` `状态管理` `AI 工具` | ★★★★☆ | 高 |
-| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向和安全研究流程包装成可被 AI 客户端调度的技能路由系统。 | 7 | 19,152 | PowerShell | `安全研究` `逆向工程` `技能路由` `AI 辅助` `AI 工具` | ★★★☆☆ | 高 |
-| 4 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 给 Agent 做独立审计，120 秒内产出可引用的风险评分卡。 | 6 | 5,716 | Python | `AI 安全` `Agent 评估` `风险治理` `LLM Security` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个开源、跨平台、终端优先的 AI coding agent。 | 5 | 193,863 | TypeScript | `Coding Agent` `开源 IDE` `终端工具` `开发自动化` `AI 工具` | ★★★★★ | 中 |
-| 6 | [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 一本把 AI Agent 原理、工程和配套实验全开源的中文书。 | 4 | 32,853 | Python | `AI Agent` `开源教材` `工程实践` `实验代码` `AI 工具` | ★★★★☆ | 低 |
-| 7 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 把工具输出和 RAG chunk 先压缩再进模型，少花 token 还保留原文可取回。 | 4 | 65,060 | Python | `上下文压缩` `Token 优化` `MCP` `Agent 记忆` `AI 工具` | ★★★★☆ | 中 |
-| 8 | [Accio-Lab/RealReplicaBench](https://github.com/Accio-Lab/RealReplicaBench) | 用真实在线服务副本评测长程 Agent，而不是只测简单对话题。 | 3 | 1,019 | HTML | `Agent 评测` `长程任务` `基准测试` `可复现` `AI 工具` | ★★★★☆ | 高 |
-| 9 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 3 | 82,026 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
-| 10 | [agentscope-ai/QwenPaw](https://github.com/agentscope-ai/QwenPaw) | 把个人 AI 助手接入聊天渠道、计划任务和自托管工作流。 | 3 | 33,648 | Python | `个人 Agent` `聊天渠道` `自托管` `AgentScope` `AI 工具` | ★★★★☆ | 中 |
+| 1 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | anydoc 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 10 | 8,643 | Rust | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 2 | [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os) | cloudflare-os 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 5,287 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 3 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 4,464 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★☆☆ | 中 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 207,211 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 5 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 4 | 41,755 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 6 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | hermes-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 226,635 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
+| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 67,689 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 8 | [get-bb/bb](https://github.com/get-bb/bb) | bb 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 1,079 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 9 | [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) | opencodex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 8,087 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `OpenAI` | ★★★☆☆ | 中 |
+| 10 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | developer-roadmap 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 3 | 363,806 | TypeScript | `前端生成` `网站复刻` `AI 编程` `大模型` `智能体` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-05.json](data/2026-08-05.json)
-- Markdown 归档：[reports/2026-08-05.md](reports/2026-08-05.md)
+- JSON 数据：[data/2026-08-06.json](data/2026-08-06.json)
+- Markdown 归档：[reports/2026-08-06.md](reports/2026-08-06.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
