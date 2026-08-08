@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-06 (Asia/Shanghai)
+## 最新榜单：2026-08-07 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 把 Office、EPUB、CSV 和 PDF 统一转成 Agent 可读的干净 Markdown。 | 10 | 8,643 | Rust | `文档转换` `Markdown` `Rust` `RAG` `AI 工具` | ★★★★★ | 低 |
-| 2 | [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os) | Cloudflare 把企业 Agent、可生成应用和能力审批放进同一个安全工作区。 | 9 | 5,287 | TypeScript | `企业 Agent` `Cloudflare Workers` `安全沙箱` `应用生成` `AI 工具` | ★★★★☆ | 高 |
-| 3 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成可后台运行、可调用子 Agent、可沉淀经验的长期工作环境。 | 9 | 4,464 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把资深工程师的协作习惯打包成 Agent 可调用的技能库。 | 5 | 207,211 | Shell | `Agent Skill` `AI 编程` `工程协作` `流程规范` `AI 工具` | ★★★★☆ | 低 |
-| 5 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个入口接多家 AI provider，并自动处理额度、fallback 和 token 压缩。 | 4 | 41,755 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
-| 6 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 把终端 Agent、聊天渠道、模型门户和工具网关整合成个人 AI 助手系统。 | 4 | 226,635 | Python | `个人 Agent` `聊天渠道` `工具网关` `长期记忆` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | 给 Agent 装上互联网读取能力，GitHub、B站、小红书、YouTube 都能查。 | 4 | 67,689 | Python | `联网 Agent` `内容抓取` `MCP` `调研工具` `AI 工具` | ★★★★★ | 中 |
-| 8 | [get-bb/bb](https://github.com/get-bb/bb) | 一个仍在快速演进的 Agent IDE，目标是让开发环境也能被 Agent 构建和改造。 | 3 | 1,079 | TypeScript | `Agent IDE` `AI 编程` `桌面应用` `开发工具` `AI 工具` | ★★★☆☆ | 中 |
-| 9 | [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) | 把 Codex 和 Claude Code 接到任意 LLM provider 的本地代理层。 | 3 | 8,087 | TypeScript | `LLM 代理` `Codex` `Claude Code` `模型路由` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | roadmap.sh 把 AI Engineer、Claude Code、OpenClaw 和 FDE 都纳入开发者成长路线图。 | 3 | 363,806 | TypeScript | `学习路线` `开发者教育` `AI Engineer` `职业成长` `AI 工具` | ★★★★☆ | 低 |
+| 1 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | anydoc 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 16 | 11,113 | Rust | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 2 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 6,689 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★☆☆ | 中 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 208,907 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 4 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | herdr 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 25,633 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 5 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | open-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 84,411 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 6 | [brightdata/cli](https://github.com/brightdata/cli) | cli 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 1,861 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 7 | [cloudflare/computer](https://github.com/cloudflare/computer) | computer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 5,801 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 8 | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | loopx 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 3,417 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 9 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI-For-Beginners 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 4 | 63,213 | Jupyter Notebook | `AI 教程` `学习路径` `工程实践` `开发工具` `智能体` | ★★★★☆ | 高 |
+| 10 | [talivia-group/talivia](https://github.com/talivia-group/talivia) | talivia 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 1,175 | TypeScript | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-06.json](data/2026-08-06.json)
-- Markdown 归档：[reports/2026-08-06.md](reports/2026-08-06.md)
+- JSON 数据：[data/2026-08-07.json](data/2026-08-07.json)
+- Markdown 归档：[reports/2026-08-07.md](reports/2026-08-07.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
