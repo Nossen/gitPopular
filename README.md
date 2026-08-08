@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | anydoc 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 16 | 11,113 | Rust | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 2 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 6,689 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★☆☆ | 中 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 208,907 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 4 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | herdr 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 25,633 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 5 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | open-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 84,411 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 6 | [brightdata/cli](https://github.com/brightdata/cli) | cli 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 1,861 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
-| 7 | [cloudflare/computer](https://github.com/cloudflare/computer) | computer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 5,801 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 8 | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | loopx 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 3,417 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | AI-For-Beginners 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 4 | 63,213 | Jupyter Notebook | `AI 教程` `学习路径` `工程实践` `开发工具` `智能体` | ★★★★☆ | 高 |
-| 10 | [talivia-group/talivia](https://github.com/talivia-group/talivia) | talivia 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 1,175 | TypeScript | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
+| 1 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 一个 Rust 内核把 Office、EPUB、CSV 和 PDF 统一转成 Agent 可读 Markdown。 | 16 | 11,113 | Rust | `文档转换` `Markdown` `Rust` `RAG` `AI 工具` | ★★★★★ | 低 |
+| 2 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成长时间运行、可调用子 Agent、可沉淀经验的工作环境。 | 9 | 6,689 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的协作套路打包成各类 coding agent 都能调用的技能。 | 8 | 208,907 | Shell | `Agent Skill` `工程协作` `TDD` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [herdrdev/herdr](https://github.com/herdrdev/herdr) | 让 Codex、Claude Code 等 Agent 终端常驻后台，并清楚标出谁在工作、谁被卡住。 | 5 | 25,633 | Rust | `Agent 运行时` `终端复用` `Rust` `会话管理` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [nexu-io/open-design](https://github.com/nexu-io/open-design) | 把本地 coding agent 变成可导出 HTML、PPTX、PDF 和 MP4 的设计引擎。 | 5 | 84,411 | TypeScript | `设计生成` `前端原型` `MCP` `本地优先` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [brightdata/cli](https://github.com/brightdata/cli) | 一个 CLI 把抓取、搜索、结构化提取、浏览器控制和 MCP 接入串起来。 | 4 | 1,861 | TypeScript | `网页抓取` `搜索数据` `MCP` `浏览器控制` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [cloudflare/computer](https://github.com/cloudflare/computer) | Cloudflare 把 Agent 文件和执行封成持久 workspace。 | 4 | 5,801 | TypeScript | `Workers` `虚拟文件系统` `Agent 运行时` `Durable Object` `AI 工具` | ★★★☆☆ | 高 |
+| 8 | [huangruiteng/loopx](https://github.com/huangruiteng/loopx) | 给长程 Agent 加上目标、门禁、证据、quota 和可验证交接的控制平面。 | 4 | 3,417 | Python | `Agent Ops` `长程任务` `控制平面` `证据日志` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners) | Microsoft 用 12 周课程把经典 AI、深度学习、CV、NLP 和伦理串成入门路径。 | 4 | 63,213 | Jupyter Notebook | `AI 教育` `课程` `Jupyter` `PyTorch` `TensorFlow` | ★★★★☆ | 低 |
+| 10 | [talivia-group/talivia](https://github.com/talivia-group/talivia) | 把网站访问、回放和支付收入归因放进一个可自托管的创始人分析台。 | 4 | 1,175 | TypeScript | `收入分析` `网站分析` `Session Replay` `MCP` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
