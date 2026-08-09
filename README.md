@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 194 | 9,066 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★★☆ | 中 |
-| 2 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | anydoc 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 105 | 12,162 | Rust | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 77 | 210,095 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 4 | [cloudflare/computer](https://github.com/cloudflare/computer) | computer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 59 | 6,635 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 5 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 56 | 43,504 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 6 | [floci-io/floci](https://github.com/floci-io/floci) | floci 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 54 | 19,070 | Java | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 84,611 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 8 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | book-to-skill 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 50 | 18,946 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 9 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | kimi-k3-in-c 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 47 | 3,820 | C | `上下文管理` `Agent` `Token 优化` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 10 | [brightdata/cli](https://github.com/brightdata/cli) | cli 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 46 | 2,526 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成长时间运行、可调用子 Agent、可沉淀经验的工作环境。 | 194 | 9,066 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
+| 2 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 一个 Rust 内核把 Office、EPUB、CSV 和 PDF 统一转成 Agent 可读 Markdown。 | 105 | 12,162 | Rust | `文档转换` `Markdown` `Rust` `RAG` `AI 工具` | ★★★★★ | 低 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的协作套路打包成各类 coding agent 都能调用的技能。 | 77 | 210,095 | Shell | `Agent Skill` `工程协作` `TDD` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [cloudflare/computer](https://github.com/cloudflare/computer) | Cloudflare 把 Agent 文件和执行封成持久 workspace。 | 59 | 6,635 | TypeScript | `Workers` `虚拟文件系统` `Agent 运行时` `Durable Object` `AI 工具` | ★★★☆☆ | 高 |
+| 5 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 一个入口接多家 AI provider，自动处理额度、fallback 和 token 压缩。 | 56 | 43,504 | TypeScript | `LLM 网关` `多模型路由` `Token 压缩` `MCP` `AI 工具` | ★★★★☆ | 高 |
+| 6 | [floci-io/floci](https://github.com/floci-io/floci) | 一个免费开源的本地 AWS emulator，适合开发和 CI 降低云依赖。 | 54 | 19,070 | Java | `AWS 模拟` `DevOps` `Testcontainers` `本地测试` `AI 工具` | ★★★☆☆ | 中 |
+| 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把需求、计划、构建、测试、审查和发布做成 Agent 技能流程。 | 53 | 84,611 | JavaScript | `Agent Skills` `工程流程` `代码审查` `AI 编程` `AI 工具` | ★★★★★ | 中 |
+| 8 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 把一本技术书或资料夹直接变成 Agent 工作时可调用的 skill。 | 50 | 18,946 | Python | `文档转 Skill` `Agent 技能` `PDF 处理` `知识沉淀` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | 一个 C99 实验把 Kimi K3 推理压进普通 CPU 和低内存环境。 | 47 | 3,820 | C | `Kimi K3` `CPU 推理` `C99` `低内存` `AI 工具` | ★★★★☆ | 高 |
+| 10 | [brightdata/cli](https://github.com/brightdata/cli) | 一个 CLI 把抓取、搜索、结构化提取、浏览器控制和 MCP 接入串起来。 | 46 | 2,526 | TypeScript | `网页抓取` `搜索数据` `MCP` `浏览器控制` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
