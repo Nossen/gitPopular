@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 11,349 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★☆☆ | 中 |
-| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 7 | 22,606 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [google/skills](https://github.com/google/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 17,278 | Python | `智能体` `自动化` `工具调用` `RAG` `大模型` | ★★★☆☆ | 高 |
-| 4 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | Unlimited-OCR 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 4 | 23,088 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `模型推理` | ★★★★☆ | 高 |
-| 5 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 27,718 | Markdown | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 中 |
-| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 211,295 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 7 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 4 | 140,834 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 8 | [onetoken-oss/K3Flight](https://github.com/onetoken-oss/K3Flight) | K3Flight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 4 | 1,009 | HTML | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 9 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 19,832 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★☆☆ | 高 |
-| 10 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | system_prompts_leaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 62,633 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成长时间运行、可调用子 Agent、可沉淀经验的工作环境。 | 7 | 11,349 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
+| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向、渗透和 CTF 任务路由到 Agent 可执行的安全技能链。 | 7 | 22,606 | PowerShell | `安全研究` `逆向工程` `Agent Skill` `工具路由` `AI 工具` | ★★★★☆ | 高 |
+| 3 | [google/skills](https://github.com/google/skills) | Google 把 Cloud、Gemini、RAG 和 GKE AI 打包成 Agent Skills。 | 5 | 17,278 | Python | `Google Cloud` `Agent Skills` `Gemini` `云架构` `AI 工具` | ★★★★☆ | 中 |
+| 4 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 百度把 OCR 推向一次性长文档解析，覆盖图片、多页和 PDF 场景。 | 4 | 23,088 | Python | `OCR` `文档解析` `PDF` `视觉模型` `AI 工具` | ★★★★★ | 高 |
+| 5 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 把资深动效和 UI 判断打包成 Agent 可调用的设计技能。 | 4 | 27,718 | Markdown | `UI 动效` `Agent Skill` `前端设计` `原型` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的协作套路打包成各类 coding agent 都能调用的技能。 | 4 | 211,295 | Shell | `Agent Skill` `工程协作` `TDD` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 7 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把前端、设计、营销、安全等专家角色做成可安装的 Agent 团队。 | 4 | 140,834 | Shell | `Agent 角色` `多 Agent` `工作流` `安装器` `AI 工具` | ★★★☆☆ | 中 |
+| 8 | [onetoken-oss/K3Flight](https://github.com/onetoken-oss/K3Flight) | 用 CPU 和约 55GB 运行内存预览本地跑 Kimi K3 的系统路线。 | 4 | 1,009 | HTML | `Kimi K3` `CPU 推理` `本地 LLM` `低内存` `AI 工具` | ★★★☆☆ | 高 |
+| 9 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 阿里把确定性流水线和 LLM Agent 结合成精确行级代码审查 CLI。 | 3 | 19,832 | Go | `代码审查` `LLM Agent` `CI` `DevSecOps` `AI 工具` | ★★★★★ | 中 |
+| 10 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 集中整理主流 AI 产品系统提示词，便于研究指令设计和安全边界。 | 3 | 62,633 | JavaScript | `系统提示词` `提示词工程` `AI 安全` `资料库` `AI 工具` | ★★★☆☆ | 低 |
 
 ## 数据与归档
 

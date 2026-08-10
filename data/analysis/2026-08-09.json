@@ -1,32 +1,10 @@
 {
-  "date": "2026-08-09",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-10T02:38:42.870111Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "PrimeIntellect-ai/prime-agent",
-      "repo_id": 1232493406,
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 11349,
-      "readme_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "prime-agent 是 Prime Intellect 的自改进 coding/research agent，围绕 Recursive Language Model 和 Continual Harness 设计，使用持久 IPython、子 Agent、技能、记忆、后台会话、心跳和目标来承接长程任务。",
       "purpose_zh": "让编码和研究任务在多轮、多子 Agent、可复盘状态中持续推进。",
-      "application_scenarios_zh": [
-        "长程编码任务",
-        "研究评测自动化",
-        "后台 Agent 会话"
-      ],
       "positioning_zh": "面向长期自主工作的 AI 编程 Agent harness。",
       "product_view_zh": "适合长任务编码、评测和研究自动化，优势是会话续跑、状态精炼和子任务拆分。",
       "technical_view_zh": "依赖 daemon、worker、IPython 和 Python 工具调用；不是安全沙箱，权限必须受控。",
@@ -44,12 +22,16 @@
         "Coding Agent",
         "长程任务",
         "子 Agent",
-        "自改进",
-        "AI 工具"
+        "自改进"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "长程编码任务",
+        "研究评测自动化",
+        "后台 Agent 会话"
+      ],
       "adoption_notes_zh": [
         "先在可回滚仓库中试用。",
         "为 shell 与 Python 设权限边界。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "zhaoxuya520/reverse-skill",
-      "repo_id": 1237819660,
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 22606,
-      "readme_url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "reverse-skill 是逆向工程、授权渗透测试和安全研究的 Agent 技能路由包，面向 Claude Code、Codex、Cursor 等代码 AI 客户端。它通过场景路由、工具检测、按需自举和经验库，把 APK、ELF、JS 加密、PCAP、CTF、漏洞利用等任务拆到对应 playbook。",
       "purpose_zh": "让安全研究 Agent 按场景选择工具链和复用方法，而不是临时猜命令。",
-      "application_scenarios_zh": [
-        "APK 逆向分析",
-        "CTF 解题辅助",
-        "授权渗透测试"
-      ],
       "positioning_zh": "面向逆向和授权安全测试的 Agent skill router。",
       "product_view_zh": "适合安全团队把逆向、CTF、渗透和报告流程标准化，让 Agent 有明确方法和证据交接。",
       "technical_view_zh": "覆盖 jadx、Frida、Burp、IDA、radare2 等工具索引和 40+ 路由规则；采用时必须限定授权范围。",
@@ -92,12 +60,16 @@
         "安全研究",
         "逆向工程",
         "Agent Skill",
-        "工具路由",
-        "AI 工具"
+        "工具路由"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "APK 逆向分析",
+        "CTF 解题辅助",
+        "授权渗透测试"
+      ],
       "adoption_notes_zh": [
         "先限定合法授权目标。",
         "检查本机工具索引和版本。",
@@ -105,28 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "google/skills",
-      "repo_id": 1197652028,
-      "url": "https://github.com/google/skills",
-      "description": "Agent Skills for Google products and technologies",
-      "language": "Python",
-      "topics": [
-        "google",
-        "googlecloud",
-        "skills"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 17278,
-      "readme_url": "https://github.com/google/skills/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "google/skills 是 Google 产品和技术的 Agent Skills 集合，重点覆盖 Google Cloud 入门、认证、架构、Agent Platform、Gemini API、RAG、BigQuery AI/ML、GKE AI 推理和多产品解决方案。它通过 skills.sh 安装，让 Agent 在云任务中按官方流程执行。",
       "purpose_zh": "把 Google Cloud 和 Gemini 相关操作沉淀成可安装、可调用的 Agent 技能。",
-      "application_scenarios_zh": [
-        "云架构辅助",
-        "Gemini 应用部署",
-        "GKE AI 推理"
-      ],
       "positioning_zh": "Google Cloud 与 Gemini 的官方 Agent 技能库。",
       "product_view_zh": "适合让 Agent 辅助云架构、认证、RAG、Gemini 和 GKE AI 任务。",
       "technical_view_zh": "依赖 skills 标准和本地凭据；使用前要确认 IAM、费用和项目边界。",
@@ -144,12 +98,16 @@
         "Google Cloud",
         "Agent Skills",
         "Gemini",
-        "云架构",
-        "AI 工具"
+        "云架构"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "云架构辅助",
+        "Gemini 应用部署",
+        "GKE AI 推理"
+      ],
       "adoption_notes_zh": [
         "先在测试项目中安装验证。",
         "限制 Agent 可用 IAM 权限。",
@@ -157,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "baidu/Unlimited-OCR",
-      "repo_id": 1273138090,
-      "url": "https://github.com/baidu/Unlimited-OCR",
-      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 23088,
-      "readme_url": "https://github.com/baidu/Unlimited-OCR/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "Unlimited-OCR 是百度提出的一次性长程解析 OCR 模型，提供 Hugging Face、ModelScope、Baidu Cloud、Transformers、vLLM 和 SGLang 推理路径，支持单图、多页和 PDF 解析。项目目标是推进长文档 OCR 在复杂版面和长上下文上的能力。",
       "purpose_zh": "让长文档、图片和 PDF 能被一次性解析成可用文本与结构信息。",
-      "application_scenarios_zh": [
-        "长文档 OCR",
-        "RAG 文档入库",
-        "PDF 批量解析"
-      ],
       "positioning_zh": "面向长文档解析的视觉/OCR 模型与推理方案。",
       "product_view_zh": "适合票据、论文、报表、档案和知识库入库前的 OCR 解析，重点价值是长页和多页处理。",
       "technical_view_zh": "支持 Transformers、vLLM、SGLang 和 PDF 转图流程；采用时要评估显存、吞吐、版面还原和中文效果。",
@@ -192,12 +136,16 @@
         "OCR",
         "文档解析",
         "PDF",
-        "视觉模型",
-        "AI 工具"
+        "视觉模型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "长文档 OCR",
+        "RAG 文档入库",
+        "PDF 批量解析"
+      ],
       "adoption_notes_zh": [
         "先用业务版面样本评估。",
         "按推理后端测显存和吞吐。",
@@ -205,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "emilkowalski/skills",
-      "repo_id": 1183325896,
-      "url": "https://github.com/emilkowalski/skills",
-      "description": "Skills for Designers and Engineers.",
-      "language": "Markdown",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 27718,
-      "readme_url": "https://github.com/emilkowalski/skills/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "emilkowalski/skills 是面向设计师和工程师的 UI/动画 Agent 技能集，包含动画创建、动画审查、改进动画、发现动效机会、动画词汇、Apple Design 原则、UI 库选择和原型生成等技能，用专家经验纠正 Agent 常见设计品味问题。",
       "purpose_zh": "把 UI 动效和界面设计判断转成 Agent 可复用的技能规则。",
-      "application_scenarios_zh": [
-        "动效方案生成",
-        "UI 质量审查",
-        "前端原型优化"
-      ],
       "positioning_zh": "面向前端与设计协作的 UI/动画 Agent 技能包。",
       "product_view_zh": "适合让 Agent 生成或审查界面时遵循更好的动效、曲线、时长、阴影和组件选择。",
       "technical_view_zh": "主要是 Markdown 技能，通过 skills CLI 安装；收益取决于项目是否有可预览的 UI 和动效验收。",
@@ -240,12 +174,16 @@
         "UI 动效",
         "Agent Skill",
         "前端设计",
-        "原型",
-        "AI 工具"
+        "原型"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "动效方案生成",
+        "UI 质量审查",
+        "前端原型优化"
+      ],
       "adoption_notes_zh": [
         "配合截图或本地预览验证。",
         "把项目设计系统补进上下文。",
@@ -253,24 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "mattpocock/skills",
-      "repo_id": 1148788086,
-      "url": "https://github.com/mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 211295,
-      "readme_url": "https://github.com/mattpocock/skills/blob/main/README.md",
       "ai_confidence": 0.95,
       "summary_zh": "mattpocock/skills 是面向真实工程协作的 Agent Skill 集合，包含 setup、grill、spec、tickets、implement、review、tdd、debug 等流程，用小颗粒、可组合的规则约束 AI 编程中的对齐、反馈和架构失控问题。",
       "purpose_zh": "把资深工程方法沉淀为可复用技能，提升 Agent 协作质量。",
-      "application_scenarios_zh": [
-        "团队 AI 编程规范",
-        "需求澄清流程",
-        "代码质量复盘"
-      ],
       "positioning_zh": "工程团队可复制改造的 Agent 技能库。",
       "product_view_zh": "适合团队建立需求澄清、共享语言、TDD、诊断和代码审查习惯，降低 Agent 误解和返工。",
       "technical_view_zh": "主要由 Markdown/Shell 技能组成，接入成本低；效果取决于是否按项目术语、Issue 流程和质量门禁本地化。",
@@ -288,12 +212,16 @@
         "Agent Skill",
         "工程协作",
         "TDD",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "团队 AI 编程规范",
+        "需求澄清流程",
+        "代码质量复盘"
+      ],
       "adoption_notes_zh": [
         "先安装少量高频技能验证收益。",
         "把术语和文档路径改成本地约定。",
@@ -301,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "msitarzewski/agency-agents",
-      "repo_id": 1075372545,
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 140834,
-      "readme_url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "agency-agents 是一套“AI 专家团队”代理人格与工作流集合，覆盖工程、设计、营销、社区、安全等角色，并提供桌面应用和安装脚本，可把精选 agent 安装到 Claude Code、Cursor、Codex、Gemini、OpenCode 等环境。",
       "purpose_zh": "把不同专业角色的 Agent 人格、流程和交付标准打包复用。",
-      "application_scenarios_zh": [
-        "多角色产品协作",
-        "营销和社区任务",
-        "工程审查辅助"
-      ],
       "positioning_zh": "面向多角色协作的 Agent 角色库和安装工具。",
       "product_view_zh": "适合需要快速切换专业视角的个人和团队，如前端、UI、营销、社区、审核和安全任务。",
       "technical_view_zh": "Shell 脚本和桌面 App 负责跨工具安装；采用时应控制安装范围，避免过多角色污染上下文。",
@@ -336,12 +250,16 @@
         "Agent 角色",
         "多 Agent",
         "工作流",
-        "安装器",
-        "AI 工具"
+        "安装器"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "多角色产品协作",
+        "营销和社区任务",
+        "工程审查辅助"
+      ],
       "adoption_notes_zh": [
         "只安装常用角色子集。",
         "检查角色文件的权限和指令边界。",
@@ -349,32 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "onetoken-oss/K3Flight",
-      "repo_id": 1317239419,
-      "url": "https://github.com/onetoken-oss/K3Flight",
-      "description": "Run Kimi K3 locally on CPU with ~55GB measured runtime RAM. A single-file Linux inference server powered by cPilot Runtime.",
-      "language": "HTML",
-      "topics": [
-        "cpu-inference",
-        "edge-ai",
-        "inference-engine",
-        "kimi-k3",
-        "local-llm",
-        "low-memory",
-        "moe"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 1009,
-      "readme_url": "https://github.com/onetoken-oss/K3Flight/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "K3Flight 是 onetoken-oss 的 Kimi K3 本地 CPU 推理预览项目，基于 cPilot Runtime，用单文件 Linux 推理服务器在约 55GB 运行内存下调度 2.8T MoE 模型。项目强调模型无需全量驻留内存，而是通过存储、主存和 CPU 协同运行。",
       "purpose_zh": "验证超大 MoE 模型在 CPU-only 与有限内存环境中的本地运行路径。",
-      "application_scenarios_zh": [
-        "低资源推理验证",
-        "边缘 AI 实验",
-        "MoE 调度研究"
-      ],
       "positioning_zh": "面向低资源本地 LLM 推理的系统实验。",
       "product_view_zh": "适合推理系统研究、边缘 AI 可行性验证和本地大模型运行演示，当前更偏预览而非成品。",
       "technical_view_zh": "依赖 Linux x86-64、64GB+ 内存、1TB+ NVMe 和 Kimi-K3 GGUF；性能受存储带宽和运行时版本影响。",
@@ -392,12 +288,16 @@
         "Kimi K3",
         "CPU 推理",
         "本地 LLM",
-        "低内存",
-        "AI 工具"
+        "低内存"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "低资源推理验证",
+        "边缘 AI 实验",
+        "MoE 调度研究"
+      ],
       "adoption_notes_zh": [
         "等待 preview 资产和校验和固定。",
         "先确认模型许可和存储空间。",
@@ -405,31 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "alibaba/open-code-review",
-      "repo_id": 1241960226,
-      "url": "https://github.com/alibaba/open-code-review",
-      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-      "language": "Go",
-      "topics": [
-        "agent",
-        "agent-skills",
-        "code-review",
-        "code-review-assistant",
-        "harness",
-        "repository-level-context"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 19832,
-      "readme_url": "https://github.com/alibaba/open-code-review/blob/main/README.md",
       "ai_confidence": 0.97,
       "summary_zh": "Open Code Review 是阿里开源的 AI 代码审查 CLI，源自内部大规模实践。它结合确定性工程流水线和 LLM Agent，读取 Git diff、精确选择文件、规则匹配、上下文检索和行级评论，也支持 full-file scan 与 delegate 模式。",
       "purpose_zh": "用更稳定、低噪声、低 token 成本的方式完成代码审查。",
-      "application_scenarios_zh": [
-        "PR 预审",
-        "CI 代码质量门禁",
-        "陌生仓库扫描"
-      ],
       "positioning_zh": "面向 CI 与开发流程的 AI 代码审查工具。",
       "product_view_zh": "适合团队把 PR 审查前置到本地或 CI，获得更少误报、可定位到行的结构化反馈。",
       "technical_view_zh": "Go/CLI 架构结合 npm 分发、Git diff、模型 endpoint 和规则集；需配置模型、密钥和仓库权限。",
@@ -447,12 +326,16 @@
         "代码审查",
         "LLM Agent",
         "CI",
-        "DevSecOps",
-        "AI 工具"
+        "DevSecOps"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "PR 预审",
+        "CI 代码质量门禁",
+        "陌生仓库扫描"
+      ],
       "adoption_notes_zh": [
         "先用历史 PR 对比误报率。",
         "按语言配置规则集和模型。",
@@ -460,45 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "asgeirtj/system_prompts_leaks",
-      "repo_id": 976921297,
-      "url": "https://github.com/asgeirtj/system_prompts_leaks",
-      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "ai-agents",
-        "ai-prompts",
-        "anthropic",
-        "chatbot",
-        "chatgpt",
-        "claude",
-        "claude-code",
-        "codex",
-        "cursor",
-        "gemini",
-        "generative-ai",
-        "google",
-        "grok",
-        "llm",
-        "openai",
-        "prompt",
-        "prompt-engineering",
-        "system-prompt",
-        "system-prompts"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 62633,
-      "readme_url": "https://github.com/asgeirtj/system_prompts_leaks/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "system_prompts_leaks 收集并整理多个 AI 产品的系统提示词与相关工具说明，覆盖 OpenAI、Anthropic、Google、xAI、Cursor、Copilot、Perplexity 等。项目价值在于观察产品指令设计、工具边界、提示词工程和安全风险，但内容来源与时效需谨慎核验。",
       "purpose_zh": "为研究者提供 AI 产品系统提示词样本，观察指令设计和安全边界。",
-      "application_scenarios_zh": [
-        "提示词架构研究",
-        "AI 安全教学",
-        "竞品产品分析"
-      ],
       "positioning_zh": "面向提示词研究和 AI 安全观察的资料库。",
       "product_view_zh": "适合做竞品研究、提示词架构学习和 AI 产品安全讨论，能看到不同产品如何约束模型行为。",
       "technical_view_zh": "主要是 Markdown/JavaScript 资料归档；采用时要核验来源、版本、真实性和可能的版权或合规风险。",
@@ -516,12 +364,16 @@
         "系统提示词",
         "提示词工程",
         "AI 安全",
-        "资料库",
-        "AI 工具"
+        "资料库"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "提示词架构研究",
+        "AI 安全教学",
+        "竞品产品分析"
+      ],
       "adoption_notes_zh": [
         "逐条核验来源和日期。",
         "不要直接复用敏感提示词。",
