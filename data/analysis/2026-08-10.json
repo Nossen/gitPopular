@@ -1,32 +1,10 @@
 {
-  "date": "2026-08-10",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-11T02:36:02.568339Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "PrimeIntellect-ai/prime-agent",
-      "repo_id": 1232493406,
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 13174,
-      "readme_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "prime-agent 是 Prime Intellect 的自改进 coding/research agent，围绕 Recursive Language Model 与 Continual Harness 组织长程任务，支持持久 IPython、子 Agent、技能、记忆和后台会话。",
       "purpose_zh": "让编码和研究任务在多轮、可续跑、可复盘状态中持续推进。",
-      "application_scenarios_zh": [
-        "长程编码任务",
-        "研究评测自动化",
-        "后台 Agent 会话"
-      ],
       "positioning_zh": "面向长期自主工作的 AI 编程 Agent harness。",
       "product_view_zh": "适合长任务编码、评测和研究自动化，价值在于会话续跑、状态沉淀和子任务拆分。",
       "technical_view_zh": "依赖 daemon、worker、IPython 和本地工具调用；不是安全沙箱，运行权限需要明确限制。",
@@ -44,12 +22,16 @@
         "Coding Agent",
         "长程任务",
         "子 Agent",
-        "自改进",
-        "AI 工具"
+        "自改进"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "长程编码任务",
+        "研究评测自动化",
+        "后台 Agent 会话"
+      ],
       "adoption_notes_zh": [
         "先在可回滚仓库中试用。",
         "为 shell 与 Python 设权限边界。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "msitarzewski/agency-agents",
-      "repo_id": 1075372545,
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 141890,
-      "readme_url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "agency-agents 是一套“AI 专家团队”代理人格与工作流集合，覆盖工程、设计、营销、社区、安全等角色，并提供桌面应用和脚本，可安装到 Claude Code、Cursor、Codex、Gemini、OpenCode 等环境。",
       "purpose_zh": "把不同专业角色的 Agent 人格、流程和交付标准打包复用。",
-      "application_scenarios_zh": [
-        "多角色产品协作",
-        "营销和社区任务",
-        "工程审查辅助"
-      ],
       "positioning_zh": "面向多角色协作的 Agent 角色库和安装工具。",
       "product_view_zh": "适合需要快速切换专业视角的个人和团队，用统一角色包覆盖前端、设计、营销、审核和安全任务。",
       "technical_view_zh": "Shell 脚本和桌面 App 负责跨工具安装；采用时应控制角色数量，避免上下文口径过散。",
@@ -92,12 +60,16 @@
         "Agent 角色",
         "多 Agent",
         "工作流",
-        "安装器",
-        "AI 工具"
+        "安装器"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "多角色产品协作",
+        "营销和社区任务",
+        "工程审查辅助"
+      ],
       "adoption_notes_zh": [
         "只安装常用角色子集。",
         "检查角色文件的权限和指令边界。",
@@ -105,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "zhaoxuya520/reverse-skill",
-      "repo_id": 1237819660,
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "topics": [],
-      "yesterday_new_stars": 5,
-      "total_stars": 23403,
-      "readme_url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "reverse-skill 是逆向工程、授权渗透测试和安全研究的 Agent 技能路由包，支持 Claude Code、Kiro、Cursor、Cline 等客户端，覆盖工具检测、按需自举、场景路由和经验库复用。",
       "purpose_zh": "让安全研究 Agent 按场景选择工具链和方法，而不是临时猜命令。",
-      "application_scenarios_zh": [
-        "APK 逆向分析",
-        "CTF 解题辅助",
-        "授权渗透测试"
-      ],
       "positioning_zh": "面向逆向和授权安全测试的 Agent skill router。",
       "product_view_zh": "适合安全团队把逆向、CTF、渗透和报告流程标准化，让 Agent 有明确方法和证据交接。",
       "technical_view_zh": "覆盖 Frida、Burp、IDA、radare2 等工具索引和路由规则；使用时必须限定授权范围。",
@@ -140,12 +98,16 @@
         "安全研究",
         "逆向工程",
         "Agent Skill",
-        "工具路由",
-        "AI 工具"
+        "工具路由"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "APK 逆向分析",
+        "CTF 解题辅助",
+        "授权渗透测试"
+      ],
       "adoption_notes_zh": [
         "先限定合法授权目标。",
         "检查本机工具索引和版本。",
@@ -153,30 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "ailyProject/aily-blockly",
-      "repo_id": 891997126,
-      "url": "https://github.com/ailyProject/aily-blockly",
-      "description": "AI IDE for hardware development, support Arduino, MicroPython, ESP32, STM32, RP2040, Nrf5x...",
-      "language": "TypeScript",
-      "topics": [
-        "ai",
-        "arduino",
-        "blockly",
-        "ide",
-        "iot"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 3755,
-      "readme_url": "https://github.com/ailyProject/aily-blockly/blob/main/README.md",
       "ai_confidence": 0.91,
       "summary_zh": "aily-blockly 是 aily Project 的通用硬件开发 Blockly IDE，面向 Arduino、MicroPython、ESP32、STM32、RP2040 等生态，支持 AI 参与项目分析、方案推荐、接线图生成、代码编写和编译错误诊断。",
       "purpose_zh": "让非专业用户和硬件开发者更快把自然语言想法变成可运行原型。",
-      "application_scenarios_zh": [
-        "硬件教学",
-        "物联网原型",
-        "开发板选型"
-      ],
       "positioning_zh": "面向硬件原型和教育场景的 AI 原生 Blockly IDE。",
       "product_view_zh": "适合创客、课程和物联网原型，用 100+ 开发板、400+ 库和 AI 辅助减少配置与排错成本。",
       "technical_view_zh": "TypeScript IDE 结合板卡包、工具链、缓存编译和项目广场；当前 alpha 阶段，不宜直接用于量产固件。",
@@ -194,12 +136,16 @@
         "Blockly",
         "硬件 IDE",
         "Arduino",
-        "AI 辅助",
-        "AI 工具"
+        "AI 辅助"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "硬件教学",
+        "物联网原型",
+        "开发板选型"
+      ],
       "adoption_notes_zh": [
         "先用目标开发板做端到端样例。",
         "确认库和工具链版本兼容。",
@@ -207,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "block/buzz",
-      "repo_id": 1174789082,
-      "url": "https://github.com/block/buzz",
-      "description": "A hive mind communication platform",
-      "language": "Rust",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 26101,
-      "readme_url": "https://github.com/block/buzz/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Buzz 是 Block 开源的自托管人机协作工作区，把人类和 AI Agent 放进同一房间。它基于 Nostr relay 和签名事件日志记录消息、审查、工作流、git 事件与 Agent 操作，强调同身份、同审计轨迹。",
       "purpose_zh": "让 Agent 像团队成员一样在可审计的工作区中协作、提交补丁和运行流程。",
-      "application_scenarios_zh": [
-        "Agent 项目房间",
-        "代码审查协作",
-        "工作流审计"
-      ],
       "positioning_zh": "面向人类与 Agent 共建项目的协作平台。",
       "product_view_zh": "适合把需求讨论、代码补丁、CI、审查和决策放进同一项目空间，减少 Agent 工作的黑箱感。",
       "technical_view_zh": "Rust 实现，核心是 Nostr 事件日志、身份密钥和自托管 relay；采用门槛在部署、权限模型和团队流程改造。",
@@ -242,12 +174,16 @@
         "Agent 协作",
         "Nostr",
         "自托管",
-        "审计日志",
-        "AI 工具"
+        "审计日志"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agent 项目房间",
+        "代码审查协作",
+        "工作流审计"
+      ],
       "adoption_notes_zh": [
         "先用非核心项目试点。",
         "明确 Agent 身份和频道权限。",
@@ -255,24 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "corsairdev/corsair",
-      "repo_id": 1076362809,
-      "url": "https://github.com/corsairdev/corsair",
-      "description": "Your Agent's Integration Layer",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 8215,
-      "readme_url": "https://github.com/corsairdev/corsair/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "Corsair 是面向 Agent 的统一集成层，通过 MCP 连接外部应用，并用 scoped auth、权限模式和审批链接控制读写与破坏性操作。Agent 不直接接触凭据，用户可按集成和接口设置权限。",
       "purpose_zh": "让 Agent 安全接入 Gmail、Drive、GitHub、Slack 等应用，而不暴露全部钥匙。",
-      "application_scenarios_zh": [
-        "SaaS Agent 集成",
-        "敏感操作审批",
-        "企业自动化网关"
-      ],
       "positioning_zh": "面向 Agent 的集成、权限和审批网关。",
       "product_view_zh": "适合构建企业 Agent 平台，把跨应用任务接入统一权限面，降低凭据泄露和误操作风险。",
       "technical_view_zh": "TypeScript 服务提供 MCP、集成连接、权限模式和多租户能力；落地要设计审批体验、审计和密钥托管。",
@@ -290,12 +212,16 @@
         "MCP",
         "权限控制",
         "集成层",
-        "审批流",
-        "AI 工具"
+        "审批流"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "SaaS Agent 集成",
+        "敏感操作审批",
+        "企业自动化网关"
+      ],
       "adoption_notes_zh": [
         "先按应用划分读写权限。",
         "默认对发送和删除动作加审批。",
@@ -303,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "ailyProject/aily-blockly-libraries",
-      "repo_id": 942456587,
-      "url": "https://github.com/ailyProject/aily-blockly-libraries",
-      "description": "aily blockly library registry",
-      "language": "JavaScript",
-      "topics": [],
-      "yesterday_new_stars": 3,
-      "total_stars": 2268,
-      "readme_url": "https://github.com/ailyProject/aily-blockly-libraries/blob/main/readme.md",
       "ai_confidence": 0.86,
       "summary_zh": "aily-blockly-libraries 是 aily Blockly 的硬件库注册表，提供 300+ Blockly 库、多语言资源、库结构规范、校验流程和 README_AI.md，帮助 LLM 理解库用法并生成硬件相关代码。",
       "purpose_zh": "为 aily Blockly 提供可扩展、可校验、对 AI 友好的硬件模块生态。",
-      "application_scenarios_zh": [
-        "硬件库扩展",
-        "课程积木维护",
-        "AI 生成代码辅助"
-      ],
       "positioning_zh": "面向 aily Blockly 的硬件库注册表和开发规范。",
       "product_view_zh": "适合扩展传感器、执行器和开发板支持，让教学与原型复用统一积木库。",
       "technical_view_zh": "JavaScript 仓库定义 block、generator、toolbox、npm 包和 i18n；价值依赖主 IDE 与库校验。",
@@ -338,12 +250,16 @@
         "Blockly 库",
         "硬件生态",
         "i18n",
-        "AI 文档",
-        "AI 工具"
+        "AI 文档"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "硬件库扩展",
+        "课程积木维护",
+        "AI 生成代码辅助"
+      ],
       "adoption_notes_zh": [
         "先阅读库结构规范。",
         "为新库补齐 README_AI。",
@@ -351,31 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "ayghri/i-have-adhd",
-      "repo_id": 1238120057,
-      "url": "https://github.com/ayghri/i-have-adhd",
-      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-      "language": "Python",
-      "topics": [
-        "adhd",
-        "claude-",
-        "claude-code-plugin",
-        "claude-skills",
-        "developer-tools",
-        "productivity"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 19187,
-      "readme_url": "https://github.com/ayghri/i-have-adhd/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "i-have-adhd 是一个让 coding agent 输出更短、更行动导向的技能包，核心规则包括先给动作、编号步骤、每轮重述状态、少说寒暄、明确下一步，目标是减少用户在长回答中找重点的成本。",
       "purpose_zh": "让 Agent 输出更适合注意力分散或高压工作流的执行格式。",
-      "application_scenarios_zh": [
-        "短反馈工作流",
-        "Bug 修复协作",
-        "团队回复规范"
-      ],
       "positioning_zh": "面向 coding agent 的 ADHD-friendly 输出风格技能。",
       "product_view_zh": "适合个人或团队把 Agent 回复调成结论先行、步骤清晰、少铺垫的执行模式，提高协作效率。",
       "technical_view_zh": "项目本质是可安装技能和规则文本，接入成本低；效果取决于 Agent 是否稳定遵守格式约束。",
@@ -393,12 +288,16 @@
         "Agent Skill",
         "输出规范",
         "效率工具",
-        "AI 编程",
-        "AI 工具"
+        "AI 编程"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "短反馈工作流",
+        "Bug 修复协作",
+        "团队回复规范"
+      ],
       "adoption_notes_zh": [
         "先在个人 Agent 中试用。",
         "保留必要的错误上下文。",
@@ -406,35 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "DietrichGebert/ponytail",
-      "repo_id": 1266797999,
-      "url": "https://github.com/DietrichGebert/ponytail",
-      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-      "language": "JavaScript",
-      "topics": [
-        "agent-skills",
-        "ai-agents",
-        "claude",
-        "claude-code",
-        "claude-code-plugin",
-        "cursor-rules",
-        "developer-tools",
-        "llm",
-        "prompt-engineering",
-        "yagni"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 100198,
-      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "ponytail 是一个让 AI coding agent 少写代码、避免过度设计的技能/规则集，强调先寻找不改代码或少改代码的路径，并用 benchmark 展示在真实任务中减少代码量、成本和耗时的效果。",
       "purpose_zh": "把资深工程师的 YAGNI 判断植入 Agent，减少无谓实现和维护成本。",
-      "application_scenarios_zh": [
-        "Bug 修复",
-        "小功能迭代",
-        "代码审查前约束"
-      ],
       "positioning_zh": "面向 AI 编程的反过度工程技能包。",
       "product_view_zh": "适合已有代码库维护、修 bug 和小功能迭代，让 Agent 先选最小可行改动而不是扩展复杂方案。",
       "technical_view_zh": "JavaScript/npm 分发，支持多类 agent 规则；采用时要防止在复杂需求中过度压缩必要设计。",
@@ -452,12 +326,16 @@
         "YAGNI",
         "Agent Skill",
         "AI 编程",
-        "少代码",
-        "AI 工具"
+        "少代码"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Bug 修复",
+        "小功能迭代",
+        "代码审查前约束"
+      ],
       "adoption_notes_zh": [
         "先在维护型任务中启用。",
         "对复杂需求保留设计评审。",
@@ -465,34 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "h4ckf0r0day/obscura",
-      "repo_id": 1209343409,
-      "url": "https://github.com/h4ckf0r0day/obscura",
-      "description": "The headless browser for AI agents and web scraping",
-      "language": "Rust",
-      "topics": [
-        "antidetect",
-        "antidetect-browser",
-        "browser",
-        "browser-automation",
-        "cdp",
-        "headless",
-        "playwright",
-        "puppeteer",
-        "rust"
-      ],
-      "yesterday_new_stars": 3,
-      "total_stars": 21175,
-      "readme_url": "https://github.com/h4ckf0r0day/obscura/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Obscura 是面向 AI Agent 和 Web scraping 的 headless browser，Rust 实现，围绕浏览器自动化、CDP、Playwright、Puppeteer 和 antidetect 场景构建，让 Agent 能更稳定地访问、操作和采集网页。",
       "purpose_zh": "为联网 Agent 和爬取系统提供专用的无头浏览器执行层。",
-      "application_scenarios_zh": [
-        "网页操作 Agent",
-        "动态网页采集",
-        "浏览器自动化测试"
-      ],
       "positioning_zh": "面向 Agent 和数据采集的浏览器自动化基础设施。",
       "product_view_zh": "适合构建网页操作 Agent、采集流水线和自动化测试，把浏览能力抽象成独立服务。",
       "technical_view_zh": "Rust 项目覆盖 headless、CDP 和常见自动化接口；落地要评估代理、会话和目标站限制。",
@@ -510,12 +364,16 @@
         "Headless Browser",
         "联网 Agent",
         "Web Scraping",
-        "Rust",
-        "AI 工具"
+        "Rust"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "网页操作 Agent",
+        "动态网页采集",
+        "浏览器自动化测试"
+      ],
       "adoption_notes_zh": [
         "先用目标站样本验证稳定性。",
         "设计会话、代理和限速策略。",
