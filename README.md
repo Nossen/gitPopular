@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-09 (Asia/Shanghai)
+## 最新榜单：2026-08-10 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成长时间运行、可调用子 Agent、可沉淀经验的工作环境。 | 7 | 11,349 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
-| 2 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向、渗透和 CTF 任务路由到 Agent 可执行的安全技能链。 | 7 | 22,606 | PowerShell | `安全研究` `逆向工程` `Agent Skill` `工具路由` `AI 工具` | ★★★★☆ | 高 |
-| 3 | [google/skills](https://github.com/google/skills) | Google 把 Cloud、Gemini、RAG 和 GKE AI 打包成 Agent Skills。 | 5 | 17,278 | Python | `Google Cloud` `Agent Skills` `Gemini` `云架构` `AI 工具` | ★★★★☆ | 中 |
-| 4 | [baidu/Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) | 百度把 OCR 推向一次性长文档解析，覆盖图片、多页和 PDF 场景。 | 4 | 23,088 | Python | `OCR` `文档解析` `PDF` `视觉模型` `AI 工具` | ★★★★★ | 高 |
-| 5 | [emilkowalski/skills](https://github.com/emilkowalski/skills) | 把资深动效和 UI 判断打包成 Agent 可调用的设计技能。 | 4 | 27,718 | Markdown | `UI 动效` `Agent Skill` `前端设计` `原型` `AI 工具` | ★★★★☆ | 低 |
-| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的协作套路打包成各类 coding agent 都能调用的技能。 | 4 | 211,295 | Shell | `Agent Skill` `工程协作` `TDD` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 7 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把前端、设计、营销、安全等专家角色做成可安装的 Agent 团队。 | 4 | 140,834 | Shell | `Agent 角色` `多 Agent` `工作流` `安装器` `AI 工具` | ★★★☆☆ | 中 |
-| 8 | [onetoken-oss/K3Flight](https://github.com/onetoken-oss/K3Flight) | 用 CPU 和约 55GB 运行内存预览本地跑 Kimi K3 的系统路线。 | 4 | 1,009 | HTML | `Kimi K3` `CPU 推理` `本地 LLM` `低内存` `AI 工具` | ★★★☆☆ | 高 |
-| 9 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | 阿里把确定性流水线和 LLM Agent 结合成精确行级代码审查 CLI。 | 3 | 19,832 | Go | `代码审查` `LLM Agent` `CI` `DevSecOps` `AI 工具` | ★★★★★ | 中 |
-| 10 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | 集中整理主流 AI 产品系统提示词，便于研究指令设计和安全边界。 | 3 | 62,633 | JavaScript | `系统提示词` `提示词工程` `AI 安全` `资料库` `AI 工具` | ★★★☆☆ | 低 |
+| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 13,174 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★☆☆ | 中 |
+| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 5 | 141,890 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 5 | 23,403 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 4 | [ailyProject/aily-blockly](https://github.com/ailyProject/aily-blockly) | aily-blockly 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 3,755 | TypeScript | `AI 编程` `开发工具` `工作流` `多模态` `NLP` | ★★★☆☆ | 中 |
+| 5 | [block/buzz](https://github.com/block/buzz) | buzz 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 26,101 | Rust | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★★☆ | 高 |
+| 6 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | corsair 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 8,215 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [ailyProject/aily-blockly-libraries](https://github.com/ailyProject/aily-blockly-libraries) | aily-blockly-libraries 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 2,268 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `JavaScript` | ★★☆☆☆ | 中 |
+| 8 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 19,187 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 100,198 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 10 | [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) | obscura 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 3 | 21,175 | Rust | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-09.json](data/2026-08-09.json)
-- Markdown 归档：[reports/2026-08-09.md](reports/2026-08-09.md)
+- JSON 数据：[data/2026-08-10.json](data/2026-08-10.json)
+- Markdown 归档：[reports/2026-08-10.md](reports/2026-08-10.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
