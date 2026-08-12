@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-10 (Asia/Shanghai)
+## 最新榜单：2026-08-11 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成长时间运行、可调用子 Agent 的工作环境。 | 6 | 13,174 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
-| 2 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把前端、设计、营销、安全等专家角色做成可安装的 Agent 团队。 | 5 | 141,890 | Shell | `Agent 角色` `多 Agent` `工作流` `安装器` `AI 工具` | ★★★☆☆ | 中 |
-| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向、渗透和 CTF 任务路由到 Agent 可执行的安全技能链。 | 5 | 23,403 | PowerShell | `安全研究` `逆向工程` `Agent Skill` `工具路由` `AI 工具` | ★★★★☆ | 高 |
-| 4 | [ailyProject/aily-blockly](https://github.com/ailyProject/aily-blockly) | 把 Blockly、百余种开发板和 AI 辅助接入同一个硬件开发 IDE。 | 4 | 3,755 | TypeScript | `Blockly` `硬件 IDE` `Arduino` `AI 辅助` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [block/buzz](https://github.com/block/buzz) | 用签名事件日志把人和 Agent 的项目协作放进同一个工作区。 | 4 | 26,101 | Rust | `Agent 协作` `Nostr` `自托管` `审计日志` `AI 工具` | ★★★★☆ | 高 |
-| 6 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | 给 Agent 接应用加上一层 scoped auth、审批和权限模式。 | 4 | 8,215 | TypeScript | `MCP` `权限控制` `集成层` `审批流` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [ailyProject/aily-blockly-libraries](https://github.com/ailyProject/aily-blockly-libraries) | 把 300+ 硬件 Blockly 库做成对 AI 友好的可校验注册表。 | 3 | 2,268 | JavaScript | `Blockly 库` `硬件生态` `i18n` `AI 文档` `AI 工具` | ★★★☆☆ | 中 |
-| 8 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | 用一组技能规则让 coding agent 少铺垫、先给动作。 | 3 | 19,187 | Python | `Agent Skill` `输出规范` `效率工具` `AI 编程` `AI 工具` | ★★★☆☆ | 低 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 coding agent 像懒得过度设计的资深工程师一样少写代码。 | 3 | 100,198 | JavaScript | `YAGNI` `Agent Skill` `AI 编程` `少代码` `AI 工具` | ★★★★☆ | 低 |
-| 10 | [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) | 给 AI Agent 和爬取系统准备的专用 headless browser 基础设施。 | 3 | 21,175 | Rust | `Headless Browser` `联网 Agent` `Web Scraping` `Rust` `AI 工具` | ★★★★☆ | 中 |
+| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 7,019 | HTML | `AI 编程` `大模型` `智能体` `RAG` `模型推理` | ★★★☆☆ | 高 |
+| 2 | [MiniMax-AI/MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3) | MiniMax-H3 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 5,234 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 9 | 23,992 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 4 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | prime-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 14,177 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `模型推理` | ★★★☆☆ | 中 |
+| 5 | [SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI) | WeChat-AI 围绕「<div align="center">」提供 AI 相关开源能力，适合快速评估和原型验证。 | 8 | 1,443 | TypeScript | `多模态` `大模型` `RAG` `AI 编程` `模型推理` | ★★☆☆☆ | 高 |
+| 6 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | corsair 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 8,929 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 7 | 143,371 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 8 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | hello-agents 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 72,336 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 87,726 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 10 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | MediaCrawler 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 61,725 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-10.json](data/2026-08-10.json)
-- Markdown 归档：[reports/2026-08-10.md](reports/2026-08-10.md)
+- JSON 数据：[data/2026-08-11.json](data/2026-08-11.json)
+- Markdown 归档：[reports/2026-08-11.md](reports/2026-08-11.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
