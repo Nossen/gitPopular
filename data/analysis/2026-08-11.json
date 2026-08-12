@@ -1,32 +1,10 @@
 {
-  "date": "2026-08-11",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-12T02:36:39.916132Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "cathrynlavery/diagram-design",
-      "repo_id": 1212769188,
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "language": "HTML",
-      "topics": [],
-      "yesterday_new_stars": 14,
-      "total_stars": 7019,
-      "readme_url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "diagram-design 是面向 Claude Code、Codex 和 Pi 的图表设计技能包，提供 29 类 editorial diagram，输出自包含 HTML + SVG，可生成架构图、流程图、时序图、状态机、ER、时间线等，并能读取网站风格映射品牌色和字体。",
       "purpose_zh": "让 Agent 生成更像编辑设计稿的图表，而不是通用圆角框或 Mermaid 默认图。",
-      "application_scenarios_zh": [
-        "技术文章配图",
-        "产品方案图",
-        "架构图重绘"
-      ],
       "positioning_zh": "面向 Agent 的高质量图表生成技能包。",
       "product_view_zh": "适合内容团队、产品经理和架构师快速生成可发布、可浏览器打开的品牌化图表。",
       "technical_view_zh": "以 HTML/SVG 模板和技能说明为核心，无构建步骤；落地要控制节点密度、品牌色和文本长度。",
@@ -44,12 +22,16 @@
         "图表生成",
         "Agent Skill",
         "HTML/SVG",
-        "品牌化",
-        "AI 工具"
+        "品牌化"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "技术文章配图",
+        "产品方案图",
+        "架构图重绘"
+      ],
       "adoption_notes_zh": [
         "先选清楚图表类型。",
         "提供品牌色和字体参考。",
@@ -57,24 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "MiniMax-AI/MiniMax-H3",
-      "repo_id": 1317041031,
-      "url": "https://github.com/MiniMax-AI/MiniMax-H3",
-      "description": "",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 12,
-      "total_stars": 5234,
-      "readme_url": "https://github.com/MiniMax-AI/MiniMax-H3/blob/main/README.md",
       "ai_confidence": 0.98,
       "summary_zh": "MiniMax-H3 是 MiniMax/Hailuo AI 的多模态视频生成模型仓库，包含 H3-Base-FL2VA、H3-Base-Ref2VA、Context-IR 和 2K regeneration 方案，支持文本、首尾帧、图像、视频、音频和混合参考输入。",
       "purpose_zh": "提供 H3 视频生成模型、输入规格和提示词技能，帮助用户构建高质量视频生成流程。",
-      "application_scenarios_zh": [
-        "广告短片生成",
-        "角色参考视频",
-        "创意分镜验证"
-      ],
       "positioning_zh": "面向多参考输入的视频生成模型与提示词技能库。",
       "product_view_zh": "适合视频创作者和生成式应用团队，用文本、参考图、参考视频或音频控制短视频生成。",
       "technical_view_zh": "核心在 Context-IR、768p base 生成和 2K 再生成；采用时要评估输入约束、API 路径和成本。",
@@ -92,12 +60,16 @@
         "视频生成",
         "多模态",
         "Hailuo AI",
-        "Prompt Skill",
-        "AI 工具"
+        "Prompt Skill"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "广告短片生成",
+        "角色参考视频",
+        "创意分镜验证"
+      ],
       "adoption_notes_zh": [
         "先按输入模式整理素材。",
         "复用官方提示词指南。",
@@ -105,24 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "zhaoxuya520/reverse-skill",
-      "repo_id": 1237819660,
-      "url": "https://github.com/zhaoxuya520/reverse-skill",
-      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base  Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-      "language": "PowerShell",
-      "topics": [],
-      "yesterday_new_stars": 9,
-      "total_stars": 23992,
-      "readme_url": "https://github.com/zhaoxuya520/reverse-skill/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "reverse-skill 是逆向工程、授权渗透测试和安全研究的 Agent 技能路由包，支持 Claude Code、Kiro、Cursor、Cline 等客户端，覆盖工具检测、按需自举、场景路由和经验库复用。",
       "purpose_zh": "让安全研究 Agent 按场景选择工具链和方法，而不是临时猜命令。",
-      "application_scenarios_zh": [
-        "APK 逆向分析",
-        "CTF 解题辅助",
-        "授权渗透测试"
-      ],
       "positioning_zh": "面向逆向和授权安全测试的 Agent skill router。",
       "product_view_zh": "适合安全团队把逆向、CTF、渗透和报告流程标准化，让 Agent 有明确方法和证据交接。",
       "technical_view_zh": "覆盖 Frida、Burp、IDA、radare2 等工具索引和路由规则；使用时必须限定授权范围。",
@@ -140,12 +98,16 @@
         "安全研究",
         "逆向工程",
         "Agent Skill",
-        "工具路由",
-        "AI 工具"
+        "工具路由"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "APK 逆向分析",
+        "CTF 解题辅助",
+        "授权渗透测试"
+      ],
       "adoption_notes_zh": [
         "先限定合法授权目标。",
         "检查本机工具索引和版本。",
@@ -153,24 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "PrimeIntellect-ai/prime-agent",
-      "repo_id": 1232493406,
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
-      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 8,
-      "total_stars": 14177,
-      "readme_url": "https://github.com/PrimeIntellect-ai/prime-agent/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "prime-agent 是 Prime Intellect 的自改进 coding/research agent，围绕 Recursive Language Model 与 Continual Harness 组织长程任务，支持持久 IPython、子 Agent、技能、记忆和后台会话。",
       "purpose_zh": "让编码和研究任务在多轮、可续跑、可复盘状态中持续推进。",
-      "application_scenarios_zh": [
-        "长程编码任务",
-        "研究评测自动化",
-        "后台 Agent 会话"
-      ],
       "positioning_zh": "面向长期自主工作的 AI 编程 Agent harness。",
       "product_view_zh": "适合长任务编码、评测和研究自动化，价值在于会话续跑、状态沉淀和子任务拆分。",
       "technical_view_zh": "依赖 daemon、worker、IPython 和本地工具调用；不是安全沙箱，运行权限需要明确限制。",
@@ -188,12 +136,16 @@
         "Coding Agent",
         "长程任务",
         "子 Agent",
-        "自改进",
-        "AI 工具"
+        "自改进"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "长程编码任务",
+        "研究评测自动化",
+        "后台 Agent 会话"
+      ],
       "adoption_notes_zh": [
         "先在可回滚仓库中试用。",
         "为 shell 与 Python 设权限边界。",
@@ -201,24 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "SMNETSTUDIO/WeChat-AI",
-      "repo_id": 1329629252,
-      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
-      "description": "",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 8,
-      "total_stars": 1443,
-      "readme_url": "https://github.com/SMNETSTUDIO/WeChat-AI/blob/master/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "WeChat-AI 是自托管微信角色扮演对话服务，直连腾讯 iLink，使用远端 Redis 和 LINUX DO OAuth，支持扫码添加机器人、私聊中继、人设分配、表情包、图片理解、语音转写和 OpenAI 兼容模型。",
       "purpose_zh": "把微信私聊、角色扮演、人设管理和模型调用整合成可自托管服务。",
-      "application_scenarios_zh": [
-        "微信 AI 陪聊",
-        "角色社区运营",
-        "私域对话服务"
-      ],
       "positioning_zh": "面向微信生态的自托管 AI 角色扮演聊天服务。",
       "product_view_zh": "适合社区和个人搭建微信内 AI 陪聊、角色扮演或客服式对话，兼顾用户中心和管理后台。",
       "technical_view_zh": "TypeScript 服务依赖 iLink、Redis、OAuth 和 OpenAI 兼容模型；落地要处理账号、隐私和消息中继稳定性。",
@@ -236,12 +174,16 @@
         "微信 Bot",
         "角色扮演",
         "OpenAI 兼容",
-        "自托管",
-        "AI 工具"
+        "自托管"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "微信 AI 陪聊",
+        "角色社区运营",
+        "私域对话服务"
+      ],
       "adoption_notes_zh": [
         "先评估账号和协议风险。",
         "隔离 Redis 和模型密钥。",
@@ -249,24 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "corsairdev/corsair",
-      "repo_id": 1076362809,
-      "url": "https://github.com/corsairdev/corsair",
-      "description": "Your Agent's Integration Layer",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 8929,
-      "readme_url": "https://github.com/corsairdev/corsair/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "Corsair 是面向 Agent 的统一集成层，通过 MCP 连接外部应用，并用 scoped auth、权限模式和审批链接控制读写与破坏性操作。Agent 不直接接触凭据，用户可按集成和接口设置权限。",
       "purpose_zh": "让 Agent 安全接入 Gmail、Drive、GitHub、Slack 等应用，而不暴露全部钥匙。",
-      "application_scenarios_zh": [
-        "SaaS Agent 集成",
-        "敏感操作审批",
-        "企业自动化网关"
-      ],
       "positioning_zh": "面向 Agent 的集成、权限和审批网关。",
       "product_view_zh": "适合构建企业 Agent 平台，把跨应用任务接入统一权限面，降低凭据泄露和误操作风险。",
       "technical_view_zh": "TypeScript 服务提供 MCP、集成连接、权限模式和多租户能力；落地要设计审批体验、审计和密钥托管。",
@@ -284,12 +212,16 @@
         "MCP",
         "权限控制",
         "集成层",
-        "审批流",
-        "AI 工具"
+        "审批流"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "SaaS Agent 集成",
+        "敏感操作审批",
+        "企业自动化网关"
+      ],
       "adoption_notes_zh": [
         "先按应用划分读写权限。",
         "默认对发送和删除动作加审批。",
@@ -297,24 +229,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "msitarzewski/agency-agents",
-      "repo_id": 1075372545,
-      "url": "https://github.com/msitarzewski/agency-agents",
-      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-      "language": "Shell",
-      "topics": [],
-      "yesterday_new_stars": 7,
-      "total_stars": 143371,
-      "readme_url": "https://github.com/msitarzewski/agency-agents/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "agency-agents 是一套“AI 专家团队”代理人格与工作流集合，覆盖工程、设计、营销、社区、安全等角色，并提供桌面应用和脚本，可安装到 Claude Code、Cursor、Codex、Gemini、OpenCode 等环境。",
       "purpose_zh": "把不同专业角色的 Agent 人格、流程和交付标准打包复用。",
-      "application_scenarios_zh": [
-        "多角色产品协作",
-        "营销和社区任务",
-        "工程审查辅助"
-      ],
       "positioning_zh": "面向多角色协作的 Agent 角色库和安装工具。",
       "product_view_zh": "适合需要快速切换专业视角的个人和团队，用统一角色包覆盖前端、设计、营销、审核和安全任务。",
       "technical_view_zh": "Shell 脚本和桌面 App 负责跨工具安装；采用时应控制角色数量，避免上下文口径过散。",
@@ -332,12 +250,16 @@
         "Agent 角色",
         "多 Agent",
         "工作流",
-        "安装器",
-        "AI 工具"
+        "安装器"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "多角色产品协作",
+        "营销和社区任务",
+        "工程审查辅助"
+      ],
       "adoption_notes_zh": [
         "只安装常用角色子集。",
         "检查角色文件的权限和指令边界。",
@@ -345,29 +267,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "datawhalechina/hello-agents",
-      "repo_id": 1052050442,
-      "url": "https://github.com/datawhalechina/hello-agents",
-      "description": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "llm",
-        "rag",
-        "tutorial"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 72336,
-      "readme_url": "https://github.com/datawhalechina/hello-agents/blob/main/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "hello-agents 是 Datawhale 的中文智能体系统教程，从 Agent 概念、经典范式、低代码平台、代码框架、上下文工程、Memory、协议、评估到多智能体实践，目标是让学习者从使用模型转向构建 Agent。",
       "purpose_zh": "提供从零开始理解和实现 AI Native Agent 的系统性学习路径。",
-      "application_scenarios_zh": [
-        "Agent 入门课程",
-        "团队学习材料",
-        "原型实践训练"
-      ],
       "positioning_zh": "面向中文学习者的 Agent 原理与实践教程。",
       "product_view_zh": "适合高校、社区和自学者系统补齐 Agent 架构、框架和实践方法，比零散博客更连续。",
       "technical_view_zh": "以文档和 Python 示例为主，覆盖 OpenAI 原生 API、自研框架和多智能体；学习效果依赖动手实验。",
@@ -385,12 +288,16 @@
         "Agent 教程",
         "中文资料",
         "多智能体",
-        "实践项目",
-        "AI 工具"
+        "实践项目"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agent 入门课程",
+        "团队学习材料",
+        "原型实践训练"
+      ],
       "adoption_notes_zh": [
         "按章节配套运行示例。",
         "记录关键概念和代码差异。",
@@ -398,24 +305,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "earendil-works/pi",
-      "repo_id": 1035029907,
-      "url": "https://github.com/earendil-works/pi",
-      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-      "language": "TypeScript",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 87726,
-      "readme_url": "https://github.com/earendil-works/pi/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "pi 是 earendil-works 的 Agent harness 项目，包含 coding agent CLI、agent runtime、统一多供应商 LLM API、TUI 和遥测组件。它强调自扩展 coding agent、工具调用和状态管理，但默认不提供权限沙箱。",
       "purpose_zh": "为构建 coding agent 和通用 Agent runtime 提供模块化 TypeScript 工具链。",
-      "application_scenarios_zh": [
-        "自建编程代理",
-        "多模型调用封装",
-        "Agent TUI 工具"
-      ],
       "positioning_zh": "面向开发者的 Agent 运行框架与编程 CLI。",
       "product_view_zh": "适合自建编程 Agent、终端界面或多模型调用层，复用核心运行组件。",
       "technical_view_zh": "TypeScript monorepo 覆盖运行时、模型接口、编程代理和 TUI；生产需自行限权。",
@@ -433,12 +326,16 @@
         "Agent 框架",
         "编程代理",
         "TypeScript",
-        "LLM API",
-        "AI 工具"
+        "LLM API"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "自建编程代理",
+        "多模型调用封装",
+        "Agent TUI 工具"
+      ],
       "adoption_notes_zh": [
         "先明确权限边界。",
         "从单包集成开始验证。",
@@ -446,24 +343,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "NanmiCoder/MediaCrawler",
-      "repo_id": 651517185,
-      "url": "https://github.com/NanmiCoder/MediaCrawler",
-      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 6,
-      "total_stars": 61725,
-      "readme_url": "https://github.com/NanmiCoder/MediaCrawler/blob/main/README.md",
       "ai_confidence": 0.55,
       "summary_zh": "MediaCrawler 是多平台自媒体数据采集工具，支持小红书、抖音、快手、B 站、微博、贴吧、知乎等公开信息抓取，基于 Playwright 保留登录态并通过浏览器上下文获取签名参数，AI 相关度主要来自数据采集与下游分析场景。",
       "purpose_zh": "为内容研究、舆情分析和数据准备提供跨平台公开信息采集能力。",
-      "application_scenarios_zh": [
-        "舆情数据采集",
-        "内容趋势分析",
-        "训练语料准备"
-      ],
       "positioning_zh": "面向自媒体平台的浏览器自动化数据采集工具。",
       "product_view_zh": "适合研究者和数据团队采集公开帖子、评论和创作者信息，为内容分析或模型训练准备样本。",
       "technical_view_zh": "Python + Playwright 路线降低 JS 逆向成本；采用时要处理登录态、代理、频率和平台规则。",
@@ -481,12 +364,16 @@
         "数据采集",
         "Playwright",
         "自媒体",
-        "评论爬虫",
-        "AI 工具"
+        "评论爬虫"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "舆情数据采集",
+        "内容趋势分析",
+        "训练语料准备"
+      ],
       "adoption_notes_zh": [
         "先确认授权和平台规则。",
         "控制频率和账号风险。",
