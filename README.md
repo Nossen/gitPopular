@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-11 (Asia/Shanghai)
+## 最新榜单：2026-08-12 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把 29 类编辑级图表做成 Agent 可调用的 HTML/SVG 设计技能。 | 14 | 7,019 | HTML | `图表生成` `Agent Skill` `HTML/SVG` `品牌化` `AI 工具` | ★★★★☆ | 低 |
-| 2 | [MiniMax-AI/MiniMax-H3](https://github.com/MiniMax-AI/MiniMax-H3) | MiniMax H3 把文本、图像、视频和音频参考纳入统一视频生成流程。 | 12 | 5,234 | Python | `视频生成` `多模态` `Hailuo AI` `Prompt Skill` `AI 工具` | ★★★★★ | 中 |
-| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | 把逆向、渗透和 CTF 任务路由到 Agent 可执行的安全技能链。 | 9 | 23,992 | PowerShell | `安全研究` `逆向工程` `Agent Skill` `工具路由` `AI 工具` | ★★★★☆ | 高 |
-| 4 | [PrimeIntellect-ai/prime-agent](https://github.com/PrimeIntellect-ai/prime-agent) | 把 coding agent 做成长时间运行、可调用子 Agent 的工作环境。 | 8 | 14,177 | TypeScript | `Coding Agent` `长程任务` `子 Agent` `自改进` `AI 工具` | ★★★★☆ | 高 |
-| 5 | [SMNETSTUDIO/WeChat-AI](https://github.com/SMNETSTUDIO/WeChat-AI) | 把微信账号、人设、表情包和 OpenAI 兼容模型连成自托管聊天服务。 | 8 | 1,443 | TypeScript | `微信 Bot` `角色扮演` `OpenAI 兼容` `自托管` `AI 工具` | ★★★☆☆ | 高 |
-| 6 | [corsairdev/corsair](https://github.com/corsairdev/corsair) | 给 Agent 接应用加上一层 scoped auth、审批和权限模式。 | 7 | 8,929 | TypeScript | `MCP` `权限控制` `集成层` `审批流` `AI 工具` | ★★★★☆ | 中 |
-| 7 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把前端、设计、营销、安全等专家角色做成可安装的 Agent 团队。 | 7 | 143,371 | Shell | `Agent 角色` `多 Agent` `工作流` `安装器` `AI 工具` | ★★★☆☆ | 中 |
-| 8 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 把智能体原理、框架和多智能体实践整理成中文系统教程。 | 6 | 72,336 | Python | `Agent 教程` `中文资料` `多智能体` `实践项目` `AI 工具` | ★★★★☆ | 低 |
-| 9 | [earendil-works/pi](https://github.com/earendil-works/pi) | 把编程代理 CLI、运行时和多模型接口打成 TypeScript harness。 | 6 | 87,726 | TypeScript | `Agent 框架` `编程代理` `TypeScript` `LLM API` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | 用浏览器自动化覆盖多个中文自媒体平台的帖子和评论采集。 | 6 | 61,725 | Python | `数据采集` `Playwright` `自媒体` `评论爬虫` `AI 工具` | ★★★☆☆ | 高 |
+| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 10,819 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 高 |
+| 2 | [spinabot/brigade](https://github.com/spinabot/brigade) | brigade 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 2,553 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 3 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 43,992 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 4 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 8 | 144,629 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 101,581 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 6 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 88,679 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 7 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | anydoc 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 7 | 15,130 | Rust | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 8 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 2,560 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 9 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | ppt-master 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 45,712 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 中 |
+| 10 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | semantica 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 7 | 5,776 | Python | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-11.json](data/2026-08-11.json)
-- Markdown 归档：[reports/2026-08-11.md](reports/2026-08-11.md)
+- JSON 数据：[data/2026-08-12.json](data/2026-08-12.json)
+- Markdown 归档：[reports/2026-08-12.md](reports/2026-08-12.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
