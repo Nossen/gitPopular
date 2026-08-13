@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 10,819 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 高 |
-| 2 | [spinabot/brigade](https://github.com/spinabot/brigade) | brigade 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 2,553 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
-| 3 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 43,992 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 4 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 8 | 144,629 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 101,581 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 6 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 88,679 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 7 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | anydoc 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 7 | 15,130 | Rust | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 8 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 2,560 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
-| 9 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | ppt-master 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 45,712 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 10 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | semantica 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 7 | 5,776 | Python | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 1 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把编辑级图表做成 Agent 可调用的 HTML/SVG 设计技能。 | 19 | 10,819 | HTML | `图表生成` `Agent Skill` `HTML/SVG` `品牌化` `AI 工具` | ★★★★☆ | 低 |
+| 2 | [spinabot/brigade](https://github.com/spinabot/brigade) | 把个人订阅、本机登录和多 Agent crew 组合成一套开放智能平台。 | 19 | 2,553 | TypeScript | `多 Agent` `Agent Runtime` `订阅复用` `Benchmark` `AI 工具` | ★★★★☆ | 高 |
+| 3 | [stablyai/orca](https://github.com/stablyai/orca) | 把多个 coding agent 放进不同 worktree，并用桌面和手机调度。 | 10 | 43,992 | TypeScript | `Agent IDE` `Worktree` `并行 Agent` `移动伴侣` `AI 工具` | ★★★★★ | 中 |
+| 4 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | 把前端、设计、营销、安全等专家角色做成可安装的 Agent 团队。 | 8 | 144,629 | Shell | `Agent 角色` `多 Agent` `工作流` `安装器` `AI 工具` | ★★★☆☆ | 中 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 让 coding agent 像懒得过度设计的资深工程师一样少写代码。 | 7 | 101,581 | JavaScript | `YAGNI` `Agent Skill` `AI 编程` `少代码` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [earendil-works/pi](https://github.com/earendil-works/pi) | 把编程代理 CLI、运行时和多模型接口打成 TypeScript harness。 | 7 | 88,679 | TypeScript | `Agent 框架` `编程代理` `TypeScript` `LLM API` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [firecrawl/anydoc](https://github.com/firecrawl/anydoc) | 用 Rust 把办公文档、CSV、EPUB 和 PDF 快速转成 LLM-ready Markdown。 | 7 | 15,130 | Rust | `文档转换` `Markdown` `Rust` `Agent Skill` `AI 工具` | ★★★★★ | 低 |
+| 8 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 把 Unicode、C2PA、EXIF 和统计水印清理打包成 Agent skill。 | 7 | 2,560 | Python | `AI 水印` `C2PA` `元数据` `隐私清理` `AI 工具` | ★★★☆☆ | 中 |
+| 9 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 用 AI 把文档或主题生成带图表、动画和备注的原生 PPTX。 | 7 | 45,712 | Python | `PPT 生成` `办公 AI` `可编辑 PPTX` `图表` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [semantica-agi/semantica](https://github.com/semantica-agi/semantica) | 用 Context Graph 和决策溯源为高风险 AI 系统提供可问责底座。 | 7 | 5,776 | Python | `Context Graph` `知识图谱` `AI 治理` `可解释 AI` `AI 工具` | ★★★★★ | 高 |
 
 ## 数据与归档
 
