@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 56 | 58,730 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★☆ | 中 |
-| 2 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 5,548 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 3 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 12 | 14,832 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 中 |
-| 4 | [every-app/open-seo](https://github.com/every-app/open-seo) | open-seo 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 11,784 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★☆☆ | 高 |
-| 5 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | ppt-master 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 46,561 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 6 | [macro-inc/macro](https://github.com/macro-inc/macro) | macro 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 5 | 2,636 | Rust | `上下文管理` `Agent` `Token 优化` `智能体` `MCP` | ★★☆☆☆ | 中 |
-| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 216,502 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 86,996 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 9 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | opencode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 197,152 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★★ | 中 |
-| 10 | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | iPolloWork 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 3,670 | HTML | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的底座。 | 56 | 58,730 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 把 Unicode、C2PA、EXIF 和统计水印清理打包成 Agent skill。 | 18 | 5,548 | Python | `AI 水印` `C2PA` `元数据` `隐私清理` `AI 工具` | ★★★☆☆ | 中 |
+| 3 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把编辑级图表做成 Agent 可调用的 HTML/SVG 设计技能。 | 12 | 14,832 | HTML | `图表生成` `Agent Skill` `HTML/SVG` `品牌化` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [every-app/open-seo](https://github.com/every-app/open-seo) | 把关键词、排名、反链和站点审计做成 Agent 可调用的开源 SEO 套件。 | 7 | 11,784 | TypeScript | `SEO` `MCP` `关键词研究` `站点审计` `AI 工具` | ★★★★☆ | 中 |
+| 5 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 用 AI 把文档或主题生成带图表、动画和备注的原生 PPTX。 | 6 | 46,561 | Python | `PPT 生成` `办公 AI` `可编辑 PPTX` `图表` `AI 工具` | ★★★★☆ | 中 |
+| 6 | [macro-inc/macro](https://github.com/macro-inc/macro) | 把邮件、聊天、文档、任务、CRM 和 Agent 记忆连成一个团队工作系统。 | 5 | 2,636 | Rust | `工作空间` `团队记忆` `CRM` `Agent 协作` `AI 工具` | ★★★★☆ | 高 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的协作套路打包成各类 coding agent 都能调用的技能。 | 5 | 216,502 | Shell | `Agent Skill` `工程协作` `TDD` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
+| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把 spec、build、test、review、ship 等工程阶段打包成 Agent 技能。 | 4 | 86,996 | JavaScript | `Agent Skill` `工程流程` `质量门禁` `AI 编程` `AI 工具` | ★★★★★ | 低 |
+| 9 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个可通过 npm、brew 等安装的开源终端 AI coding agent。 | 4 | 197,152 | TypeScript | `Coding Agent` `终端工具` `开源` `TypeScript` `AI 工具` | ★★★★★ | 中 |
+| 10 | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | 把代码、文档、PPT、网站、设计和视频放进一个本地优先 AI workbench。 | 4 | 3,670 | HTML | `AI 工作台` `可视化编辑` `多产物` `DeepSeek Harness` `AI 工具` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
