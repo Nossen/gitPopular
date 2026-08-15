@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-13 (Asia/Shanghai)
+## 最新榜单：2026-08-14 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的底座。 | 56 | 58,730 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 把 Unicode、C2PA、EXIF 和统计水印清理打包成 Agent skill。 | 18 | 5,548 | Python | `AI 水印` `C2PA` `元数据` `隐私清理` `AI 工具` | ★★★☆☆ | 中 |
-| 3 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把编辑级图表做成 Agent 可调用的 HTML/SVG 设计技能。 | 12 | 14,832 | HTML | `图表生成` `Agent Skill` `HTML/SVG` `品牌化` `AI 工具` | ★★★★☆ | 低 |
-| 4 | [every-app/open-seo](https://github.com/every-app/open-seo) | 把关键词、排名、反链和站点审计做成 Agent 可调用的开源 SEO 套件。 | 7 | 11,784 | TypeScript | `SEO` `MCP` `关键词研究` `站点审计` `AI 工具` | ★★★★☆ | 中 |
-| 5 | [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master) | 用 AI 把文档或主题生成带图表、动画和备注的原生 PPTX。 | 6 | 46,561 | Python | `PPT 生成` `办公 AI` `可编辑 PPTX` `图表` `AI 工具` | ★★★★☆ | 中 |
-| 6 | [macro-inc/macro](https://github.com/macro-inc/macro) | 把邮件、聊天、文档、任务、CRM 和 Agent 记忆连成一个团队工作系统。 | 5 | 2,636 | Rust | `工作空间` `团队记忆` `CRM` `Agent 协作` `AI 工具` | ★★★★☆ | 高 |
-| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程师的协作套路打包成各类 coding agent 都能调用的技能。 | 5 | 216,502 | Shell | `Agent Skill` `工程协作` `TDD` `AI 编程` `AI 工具` | ★★★★☆ | 低 |
-| 8 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 把 spec、build、test、review、ship 等工程阶段打包成 Agent 技能。 | 4 | 86,996 | JavaScript | `Agent Skill` `工程流程` `质量门禁` `AI 编程` `AI 工具` | ★★★★★ | 低 |
-| 9 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个可通过 npm、brew 等安装的开源终端 AI coding agent。 | 4 | 197,152 | TypeScript | `Coding Agent` `终端工具` `开源` `TypeScript` `AI 工具` | ★★★★★ | 中 |
-| 10 | [Devin-AXIS/iPolloWork](https://github.com/Devin-AXIS/iPolloWork) | 把代码、文档、PPT、网站、设计和视频放进一个本地优先 AI workbench。 | 4 | 3,670 | HTML | `AI 工作台` `可视化编辑` `多产物` `DeepSeek Harness` `AI 工具` | ★★★★☆ | 高 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 481 | 97,584 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 中 |
+| 2 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 20 | 17,339 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 中 |
+| 3 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 15 | 8,305 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 217,643 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 5 | [xai-org/x-algorithm](https://github.com/xai-org/x-algorithm) | x-algorithm 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 12 | 29,367 | Rust | `RAG` `知识库` `上下文` `AI 编程` `多模态` | ★★★★☆ | 中 |
+| 6 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 11 | 2,225 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `AI 设计` | ★★☆☆☆ | 中 |
+| 7 | [github/spec-kit](https://github.com/github/spec-kit) | spec-kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 128,547 | Python | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
+| 8 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | public-apis 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 458,627 | Python | `AI 编程` `开发工具` `工作流` `多模态` `模型推理` | ★★★★★ | 高 |
+| 9 | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | colleague-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 22,078 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 10 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | dsh-web-ui 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 8 | 1,999 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★☆☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-13.json](data/2026-08-13.json)
-- Markdown 归档：[reports/2026-08-13.md](reports/2026-08-13.md)
+- JSON 数据：[data/2026-08-14.json](data/2026-08-14.json)
+- Markdown 归档：[reports/2026-08-14.md](reports/2026-08-14.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
