@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-14 (Asia/Shanghai)
+## 最新榜单：2026-08-15 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的开放底座。 | 481 | 97,584 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
-| 2 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把 Claude Code 画图从流程框升级为可交付的编辑级图表。 | 20 | 17,339 | HTML | `Agent Skill` `HTML SVG` `文档图表` `品牌一致性` `AI 工具` | ★★★★☆ | 低 |
-| 3 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 一个项目覆盖 Unicode、统计水印、C2PA 和文件元数据清理链路。 | 15 | 8,305 | Python | `AI 水印` `C2PA` `元数据清理` `隐私` `AI 工具` | ★★★☆☆ | 中 |
-| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 把真实工程经验拆成小而硬的 Agent skills，而不是再造一套笨重流程。 | 13 | 217,643 | Shell | `Agent Skills` `工程流程` `规格化` `代码质量` `AI 工具` | ★★★★☆ | 低 |
-| 5 | [xai-org/x-algorithm](https://github.com/xai-org/x-algorithm) | X 把 For You 信息流的候选、过滤和排序逻辑放到了台前。 | 12 | 29,367 | Rust | `推荐系统` `信息流排序` `Rust` `算法透明度` `AI 工具` | ★★★★☆ | 高 |
-| 6 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 把 DeepSeek Harness 的本地 Web UI 包成更易分发的桌面入口。 | 11 | 2,225 | TypeScript | `DeepSeek Harness` `桌面端` `Agent UI` `插件生态` `AI 工具` | ★★★☆☆ | 中 |
-| 7 | [github/spec-kit](https://github.com/github/spec-kit) | GitHub 把 Spec-Driven Development 打包成 AI coding agent 的前置工作流。 | 10 | 128,547 | Python | `Spec-Driven` `AI 编程` `GitHub` `CLI` `工程流程` | ★★★★★ | 中 |
-| 8 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费的 API 大目录正在成为 Agent 原型接入外部世界的工具索引。 | 9 | 458,627 | Python | `API 目录` `开发者资源` `数据源` `Agent 工具` `AI 工具` | ★★★☆☆ | 低 |
-| 9 | [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill) | 把一个人的工作方式蒸馏成 Agent 可调用的 dot-skill。 | 9 | 22,078 | Python | `Agent Skill` `知识蒸馏` `人格化` `上下文管理` `AI 工具` | ★★★★☆ | 中 |
-| 10 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 给 DeepSeek Harness Web UI 补上任务看板、Git 图谱和右侧工作面板。 | 8 | 1,999 | TypeScript | `DSH 插件` `Web UI` `Agent 工作台` `Git 可视化` `AI 工具` | ★★★★☆ | 中 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 41 | 116,839 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 中 |
+| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 6,203 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★☆☆ | 中 |
+| 3 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 3,106 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 4 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 9,810 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 5 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | dsh-anchored-standard 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 2,257 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 中 |
+| 6 | [github/spec-kit](https://github.com/github/spec-kit) | spec-kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 129,229 | Python | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
+| 7 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | public-apis 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 460,246 | Python | `AI 编程` `开发工具` `工作流` `多模态` `模型推理` | ★★★★★ | 高 |
+| 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | unsloth 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 4 | 72,083 | Python | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★★★☆ | 高 |
+| 9 | [xiaobright/modeltest](https://github.com/xiaobright/modeltest) | modeltest 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 220 | Python | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★☆☆☆ | 高 |
+| 10 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 18,686 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-14.json](data/2026-08-14.json)
-- Markdown 归档：[reports/2026-08-14.md](reports/2026-08-14.md)
+- JSON 数据：[data/2026-08-15.json](data/2026-08-15.json)
+- Markdown 归档：[reports/2026-08-15.md](reports/2026-08-15.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
