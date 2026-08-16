@@ -1,37 +1,10 @@
 {
-  "date": "2026-08-15",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-16T17:58:53.824995Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "deepseek-ai/deepseek-harness",
-      "repo_id": 1333065091,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "cordis",
-        "dsh",
-        "dsh-plugin"
-      ],
-      "yesterday_new_stars": 41,
-      "total_stars": 116839,
-      "readme_url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "DeepSeek Harness 是 DeepSeek AI 开源的 Agent harness，主张 Everything is a Plugin，基于 Cordis 组织运行时、Web UI 与插件生态。项目处于 developer preview，README 明确提示会有破坏性兼容变化，更适合框架预研和插件试验。",
       "purpose_zh": "为 Agent 应用提供可组合、可分发的插件化运行底座。",
-      "application_scenarios_zh": [
-        "Agent 插件生态",
-        "运行时架构预研",
-        "Web UI 实验"
-      ],
       "positioning_zh": "DeepSeek 官方插件化 Agent harness。",
       "product_view_zh": "适合 Agent 平台和插件生态预研，当前不宜直接押注生产稳定性。",
       "technical_view_zh": "TypeScript 项目可通过 npx 或源码运行，依赖 Cordis，主要风险是 API 和插件协议仍在变化。",
@@ -49,12 +22,16 @@
         "Agent Harness",
         "插件化",
         "DeepSeek",
-        "Web UI",
-        "AI 工具"
+        "Web UI"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agent 插件生态",
+        "运行时架构预研",
+        "Web UI 实验"
+      ],
       "adoption_notes_zh": [
         "先按官方指南本地运行。",
         "避免绑定未稳定 API。",
@@ -62,31 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "anywhere-labs/deepseek-harness-desktop",
-      "repo_id": 1333321333,
-      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "description": "为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验",
-      "language": "TypeScript",
-      "topics": [
-        "deepseek",
-        "deepseek-harness",
-        "desktop",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 6203,
-      "readme_url": "https://github.com/anywhere-labs/deepseek-harness-desktop/blob/master/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "deepseek-harness-desktop 为 DeepSeek Harness 生态提供桌面端体验，把本地 Web UI、服务启动、窗口、托盘和远程控制整合起来，降低用户运行 DSH 的门槛。它更像生态外壳和分发入口，而不是新的 Agent 内核。",
       "purpose_zh": "把 DeepSeek Harness 从命令行启动包装成开箱即用的桌面应用。",
-      "application_scenarios_zh": [
-        "DSH 桌面分发",
-        "本地服务管理",
-        "插件生态入口"
-      ],
       "positioning_zh": "DSH 生态的桌面客户端和插件入口。",
       "product_view_zh": "适合给非命令行用户交付 DSH 体验，也能提升插件生态可见性。",
       "technical_view_zh": "TypeScript 桌面应用依赖官方 Harness 能力，核心风险是上游预览期接口变化。",
@@ -104,12 +60,16 @@
         "DeepSeek Harness",
         "桌面端",
         "Agent UI",
-        "插件生态",
-        "AI 工具"
+        "插件生态"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "DSH 桌面分发",
+        "本地服务管理",
+        "插件生态入口"
+      ],
       "adoption_notes_zh": [
         "先确认上游 DSH 版本兼容。",
         "验证安装包和自动启动。",
@@ -117,30 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "repo_id": 1333175049,
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-      "language": "Python",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 3106,
-      "readme_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "awesome-dsh-plugin 是 DeepSeek Harness 插件精选列表，收录 UI 增强、主题、模型提供商、会话、记忆、工具、技能、自动化和集成等类别，并引导通过 dsh plugin add 安装。README 明确提示插件会以本机权限运行，列表不是安全审计。",
       "purpose_zh": "为 DSH 用户集中发现、筛选和安装社区插件。",
-      "application_scenarios_zh": [
-        "插件选型调研",
-        "DSH 能力扩展",
-        "社区生态观察"
-      ],
       "positioning_zh": "DeepSeek Harness 插件生态目录。",
       "product_view_zh": "适合 DSH 用户快速扩展能力，也能让插件作者获得分发入口。",
       "technical_view_zh": "价值在目录维护和 manifest 规范；风险是第三方插件权限高，需要逐项审查源码。",
@@ -158,12 +98,16 @@
         "DSH 插件",
         "Awesome List",
         "插件市场",
-        "Agent 生态",
-        "AI 工具"
+        "Agent 生态"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "插件选型调研",
+        "DSH 能力扩展",
+        "社区生态观察"
+      ],
       "adoption_notes_zh": [
         "安装前审查插件源码。",
         "先在隔离环境试用。",
@@ -171,32 +115,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "guillaumemeyer/watermarks-remover",
-      "repo_id": 1331135699,
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-      "language": "Python",
-      "topics": [
-        "agent-skill",
-        "ai",
-        "c2pa",
-        "claude",
-        "provenance",
-        "synthid",
-        "watermark"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 9810,
-      "readme_url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "watermarks-remover 把 Unicode 隐形字符、统计文本水印、C2PA/元数据清理以及多格式文件处理组合成 agent skill 和 Python 服务。README 强调本地服务、分层清理和可选改写钩子，适合研究 AI 内容溯源与隐私卫生。",
       "purpose_zh": "检测并清理自有文本和文件中的 AI 来源标记与元数据痕迹。",
-      "application_scenarios_zh": [
-        "内容发布前检查",
-        "水印机制研究",
-        "文件元数据清理"
-      ],
       "positioning_zh": "AI 内容水印与元数据清理工具。",
       "product_view_zh": "适合内容发布前做隐私卫生检查，也可作为水印机制研究样本。",
       "technical_view_zh": "Python 服务覆盖文本、图片和文档格式；统计水印处理依赖改写质量，需验证误伤。",
@@ -214,12 +136,16 @@
         "AI 水印",
         "C2PA",
         "元数据清理",
-        "隐私",
-        "AI 工具"
+        "隐私"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "内容发布前检查",
+        "水印机制研究",
+        "文件元数据清理"
+      ],
       "adoption_notes_zh": [
         "只处理有权处理的内容。",
         "对输出做抽样比对。",
@@ -227,29 +153,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "xiaobright/dsh-anchored-standard",
-      "repo_id": 1334245678,
-      "url": "https://github.com/xiaobright/dsh-anchored-standard",
-      "description": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
-      "language": "JavaScript",
-      "topics": [
-        "deepseek",
-        "deepseek-harness",
-        "dsh-plugin",
-        "llm-agent"
-      ],
-      "yesterday_new_stars": 6,
-      "total_stars": 2257,
-      "readme_url": "https://github.com/xiaobright/dsh-anchored-standard/blob/main/README.md",
       "ai_confidence": 0.84,
       "summary_zh": "dsh-anchored-standard 是社区实验性的 DeepSeek Harness 预设，通过首轮 Minimal 工具 schema 锚定模型轨迹，再在会话持久化后晋升到 Standard 工具目录。README 把目标定位在首次请求对齐 scaffold，并给出 Project2 98/99 的局部评测结果。",
       "purpose_zh": "验证并封装 DSH 中首轮工具目录对模型工程表现的影响。",
-      "application_scenarios_zh": [
-        "Agent harness 实验",
-        "工具目录消融",
-        "模型轨迹研究"
-      ],
       "positioning_zh": "DSH 两阶段 Agent 预设和评测实验。",
       "product_view_zh": "适合研究 Agent harness、工具暴露策略和模型轨迹稳定性的高级用户。",
       "technical_view_zh": "JavaScript 插件/预设实现较专门；复现需要理解 DSH profile、事件持久化和工具晋升机制。",
@@ -267,12 +174,16 @@
         "DSH Preset",
         "工具 Schema",
         "Agent 评测",
-        "轨迹锚定",
-        "AI 工具"
+        "轨迹锚定"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "Agent harness 实验",
+        "工具目录消融",
+        "模型轨迹研究"
+      ],
       "adoption_notes_zh": [
         "先阅读术语和实验条件。",
         "单独 profile 隔离测试。",
@@ -280,32 +191,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "github/spec-kit",
-      "repo_id": 1042367133,
-      "url": "https://github.com/github/spec-kit",
-      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
-      "language": "Python",
-      "topics": [
-        "ai",
-        "copilot",
-        "development",
-        "engineering",
-        "prd",
-        "spec",
-        "spec-driven"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 129229,
-      "readme_url": "https://github.com/github/spec-kit/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "Spec Kit 是 GitHub 推出的规格驱动开发工具包，目标是在任何 AI coding agent 动手写代码前先定义要构建什么。它提供 Specify CLI、项目原则、模板、扩展和多 Agent 集成，把 PRD、规格、计划和任务拆解变成可执行流程。",
       "purpose_zh": "把 AI 编程前的需求澄清、规格编写和任务拆解标准化。",
-      "application_scenarios_zh": [
-        "需求转规格",
-        "AI 编程治理",
-        "多人项目协作"
-      ],
       "positioning_zh": "面向 AI coding agent 的规格驱动开发工具箱。",
       "product_view_zh": "适合团队把随意提示升级为可审查的 spec 流程，尤其适合多人协作和长期项目。",
       "technical_view_zh": "Python CLI 加模板体系，接入成本中等；收益依赖团队是否持续维护原则和规格。",
@@ -330,6 +219,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "需求转规格",
+        "AI 编程治理",
+        "多人项目协作"
+      ],
       "adoption_notes_zh": [
         "先在新功能试点流程。",
         "让规格进入代码审查。",
@@ -337,38 +231,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "public-apis/public-apis",
-      "repo_id": 54346799,
-      "url": "https://github.com/public-apis/public-apis",
-      "description": "A collective list of free APIs",
-      "language": "Python",
-      "topics": [
-        "api",
-        "apis",
-        "dataset",
-        "development",
-        "free",
-        "list",
-        "lists",
-        "open-source",
-        "public",
-        "public-api",
-        "public-apis",
-        "resources",
-        "software"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 460246,
-      "readme_url": "https://github.com/public-apis/public-apis/blob/master/README.md",
       "ai_confidence": 0.32,
       "summary_zh": "public-apis 是长期维护的免费 API 目录，覆盖认证、区块链、云存储、文档、金融、媒体等大量类别。它并非 AI 原生项目，但在 Agent 和自动化应用中可作为外部工具、数据源和原型接口的发现入口。",
       "purpose_zh": "汇总可公开访问的 API，帮助开发者快速找到外部数据和服务接口。",
-      "application_scenarios_zh": [
-        "API 选型调研",
-        "Agent 工具发现",
-        "应用原型开发"
-      ],
       "positioning_zh": "开发者 API 资源目录。",
       "product_view_zh": "适合做原型、Agent tool discovery 和集成灵感收集，生产选型仍要逐项核验。",
       "technical_view_zh": "仓库以列表维护为主，覆盖面大；质量、可用性和商业条款差异明显。",
@@ -386,12 +252,16 @@
         "API 目录",
         "开发者资源",
         "数据源",
-        "Agent 工具",
-        "AI 工具"
+        "Agent 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "低",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "API 选型调研",
+        "Agent 工具发现",
+        "应用原型开发"
+      ],
       "adoption_notes_zh": [
         "逐项检查认证方式。",
         "验证限额和可用性。",
@@ -399,45 +269,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "unslothai/unsloth",
-      "repo_id": 725205304,
-      "url": "https://github.com/unslothai/unsloth",
-      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "chatgpt",
-        "deepseek",
-        "fine-tuning",
-        "gemma",
-        "image-generation",
-        "llama",
-        "llm",
-        "llms",
-        "openai",
-        "python",
-        "qwen",
-        "reinforcement-learning",
-        "self-hosted",
-        "stable-diffusion",
-        "text-to-speech",
-        "tts",
-        "ui",
-        "unsloth"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 72083,
-      "readme_url": "https://github.com/unslothai/unsloth/blob/main/README.md",
       "ai_confidence": 0.93,
       "summary_zh": "Unsloth 正在从高效微调库扩展为本地桌面应用，支持运行和训练 LLM、扩散、TTS 与 embedding 模型，并提供 Codex、Claude Code、MCP 等 Agent 接入方式。README 强调本地推理、搜索/RAG、多硬件和低显存训练。",
       "purpose_zh": "让个人和团队在本地运行、训练、导出和服务多类 AI 模型。",
-      "application_scenarios_zh": [
-        "本地模型服务",
-        "低显存微调",
-        "私有 Agent 后端"
-      ],
       "positioning_zh": "本地模型训练与推理工作台。",
       "product_view_zh": "适合需要私有化模型实验、低成本微调和本地 Agent 模型服务的团队。",
       "technical_view_zh": "覆盖桌面、CLI、Docker 和代码路径；硬件、驱动、模型格式和显存仍是主要落地变量。",
@@ -462,6 +297,11 @@
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "本地模型服务",
+        "低显存微调",
+        "私有 Agent 后端"
+      ],
       "adoption_notes_zh": [
         "先确认硬件和驱动兼容。",
         "从桌面版或 Docker 试跑。",
@@ -469,24 +309,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "xiaobright/modeltest",
-      "repo_id": 1323961166,
-      "url": "https://github.com/xiaobright/modeltest",
-      "description": "Personal LLM engineering-maintenance evaluation harness (V4.1b, frozen). Not a public benchmark.",
-      "language": "Python",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 220,
-      "readme_url": "https://github.com/xiaobright/modeltest/blob/main/README.md",
       "ai_confidence": 0.72,
       "summary_zh": "modeltest 是个人维护的 LLM 工程维护能力自测套件，围绕多模块 Python 与 ESP32 固件项目评估模型修复、测试和提交一致性。README 明确 V4.1b 已冻结、不是公开 benchmark，并展示 DeepSeek V4 与不同 harness 条件的对照结果。",
       "purpose_zh": "用固定题面和隐藏评测衡量 LLM 在工程维护任务中的实际能力。",
-      "application_scenarios_zh": [
-        "工程能力评测",
-        "Agent harness 消融",
-        "模型对比研究"
-      ],
       "positioning_zh": "个人 LLM 工程维护评测 harness。",
       "product_view_zh": "适合模型评测研究和 Agent harness 消融参考，不适合作为通用排行榜依据。",
       "technical_view_zh": "Python 评测控制区和候选工作区隔离设计清晰；复用需要理解题面、隐藏测试和评分规则。",
@@ -504,12 +330,16 @@
         "LLM 评测",
         "工程维护",
         "Harness",
-        "隐藏测试",
-        "AI 工具"
+        "隐藏测试"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "高",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "工程能力评测",
+        "Agent harness 消融",
+        "模型对比研究"
+      ],
       "adoption_notes_zh": [
         "明确它不是公开基准。",
         "复用前固定题面版本。",
@@ -517,24 +347,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "cathrynlavery/diagram-design",
-      "repo_id": 1212769188,
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "language": "HTML",
-      "topics": [],
-      "yesterday_new_stars": 3,
-      "total_stars": 18686,
-      "readme_url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "Diagram Design 是面向 Claude Code、Codex 等编码 Agent 的图表生成 skill，强调自包含 HTML+SVG、编辑级视觉规范、可访问性和自动对比度检查。它不是传统绘图库，而是把图表类型、品牌抽取、导出和自检流程封装给 Agent 使用。",
       "purpose_zh": "让 Agent 按设计规则生成可交付、可编辑的说明图。",
-      "application_scenarios_zh": [
-        "架构图重绘",
-        "文章配图",
-        "产品流程说明"
-      ],
       "positioning_zh": "面向 Agent 的文档图表设计技能包。",
       "product_view_zh": "适合技术写作、产品说明和架构文档场景，能减少粗糙 Mermaid 图的返工。",
       "technical_view_zh": "输出 HTML/SVG/PNG，依赖 Playwright 做栅格化和自检；落地时要维护品牌配置。",
@@ -553,12 +369,16 @@
         "Agent Skill",
         "HTML SVG",
         "文档图表",
-        "品牌一致性",
-        "AI 工具"
+        "品牌一致性"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "架构图重绘",
+        "文章配图",
+        "产品流程说明"
+      ],
       "adoption_notes_zh": [
         "先固定品牌色和字体。",
         "用自检脚本校验输出。",

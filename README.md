@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 41 | 116,839 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 中 |
-| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 6,203 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★☆☆ | 中 |
-| 3 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 3,106 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 4 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 9,810 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 5 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | dsh-anchored-standard 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 2,257 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 中 |
-| 6 | [github/spec-kit](https://github.com/github/spec-kit) | spec-kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 4 | 129,229 | Python | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
-| 7 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | public-apis 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 460,246 | Python | `AI 编程` `开发工具` `工作流` `多模态` `模型推理` | ★★★★★ | 高 |
-| 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | unsloth 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 4 | 72,083 | Python | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★★★☆ | 高 |
-| 9 | [xiaobright/modeltest](https://github.com/xiaobright/modeltest) | modeltest 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 220 | Python | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★☆☆☆ | 高 |
-| 10 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 18,686 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 中 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的开放底座。 | 41 | 116,839 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 把 DeepSeek Harness 的本地 Web UI 包成更易分发的桌面入口。 | 6 | 6,203 | TypeScript | `DeepSeek Harness` `桌面端` `Agent UI` `插件生态` `AI 工具` | ★★★☆☆ | 中 |
+| 3 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DSH 社区正在把插件生态整理成可搜索、可安装的能力市场。 | 6 | 3,106 | Python | `DSH 插件` `Awesome List` `插件市场` `Agent 生态` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 一个项目覆盖 Unicode、统计水印、C2PA 和文件元数据清理链路。 | 6 | 9,810 | Python | `AI 水印` `C2PA` `元数据清理` `隐私` `AI 工具` | ★★★☆☆ | 中 |
+| 5 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 用两阶段工具目录证明首轮 Agent scaffold 可能显著改变模型轨迹。 | 6 | 2,257 | JavaScript | `DSH Preset` `工具 Schema` `Agent 评测` `轨迹锚定` `AI 工具` | ★★★☆☆ | 高 |
+| 6 | [github/spec-kit](https://github.com/github/spec-kit) | GitHub 把 Spec-Driven Development 打包成 AI coding agent 的前置工作流。 | 4 | 129,229 | Python | `Spec-Driven` `AI 编程` `GitHub` `CLI` `工程流程` | ★★★★★ | 中 |
+| 7 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费的 API 大目录正在成为 Agent 原型接入外部世界的工具索引。 | 4 | 460,246 | Python | `API 目录` `开发者资源` `数据源` `Agent 工具` `AI 工具` | ★★★☆☆ | 低 |
+| 8 | [unslothai/unsloth](https://github.com/unslothai/unsloth) | Unsloth 把本地模型运行、训练和 Agent 接入放进一个桌面工作流。 | 4 | 72,083 | Python | `本地 LLM` `微调` `桌面 UI` `Agent 接入` `多模态` | ★★★★★ | 中 |
+| 9 | [xiaobright/modeltest](https://github.com/xiaobright/modeltest) | 用真实维护题面评估 LLM，而不是只看通用榜单分数。 | 4 | 220 | Python | `LLM 评测` `工程维护` `Harness` `隐藏测试` `AI 工具` | ★★★☆☆ | 高 |
+| 10 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把 Claude Code 画图从流程框升级为可交付的编辑级图表。 | 3 | 18,686 | HTML | `Agent Skill` `HTML SVG` `文档图表` `品牌一致性` `AI 工具` | ★★★★☆ | 低 |
 
 ## 数据与归档
 
