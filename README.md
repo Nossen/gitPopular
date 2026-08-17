@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 33 | 135,259 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 中 |
-| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 9,458 | TypeScript | `AI 设计` `智能体` `AI 编程` `视觉 AI` `开发工具` | ★★★☆☆ | 中 |
-| 3 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 6 | 19,654 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 中 |
-| 4 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | dsh-anchored-standard 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 3,119 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 5 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 5,595 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 6 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | needle 围绕「14MB foundation model for tiny devices; phones, wearables, smart home, and robots.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 6,656 | Python | `大模型` `RAG` `智能体` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 7 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | public-apis 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 461,917 | Python | `AI 编程` `开发工具` `工作流` `多模态` `模型推理` | ★★★★★ | 高 |
-| 8 | [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | arc-task-gen 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 3,184 | Python | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★★☆☆ | 中 |
-| 9 | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | hexstrike-ai 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 2 | 11,099 | Python | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 10 | [12britz/awesome-free-models](https://github.com/12britz/awesome-free-models) | awesome-free-models 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 2 | 1,706 | 未知 | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的开放底座。 | 33 | 135,259 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 把 DeepSeek Harness 的本地 Web UI 包成更易分发的桌面入口。 | 9 | 9,458 | TypeScript | `DeepSeek Harness` `桌面端` `Agent UI` `插件生态` `AI 工具` | ★★★☆☆ | 中 |
+| 3 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把 Claude Code 画图从流程框升级为可交付的编辑级图表。 | 6 | 19,654 | HTML | `Agent Skill` `HTML SVG` `文档图表` `品牌一致性` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [xiaobright/dsh-anchored-standard](https://github.com/xiaobright/dsh-anchored-standard) | 用两阶段工具目录证明首轮 Agent scaffold 可能显著改变模型轨迹。 | 6 | 3,119 | JavaScript | `DSH Preset` `工具 Schema` `Agent 评测` `轨迹锚定` `AI 工具` | ★★★☆☆ | 高 |
+| 5 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DSH 社区正在把插件生态整理成可搜索、可安装的能力市场。 | 5 | 5,595 | Python | `DSH 插件` `Awesome List` `插件市场` `Agent 生态` `AI 工具` | ★★★★☆ | 低 |
+| 6 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | 14MB 模型把工具调用和结构化抽取塞进了微型设备场景。 | 4 | 6,656 | Python | `端侧 AI` `工具调用` `小模型` `LoRA` `结构化输出` | ★★★★☆ | 中 |
+| 7 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费的 API 大目录正在成为 Agent 原型接入外部世界的工具索引。 | 4 | 461,917 | Python | `API 目录` `开发者资源` `数据源` `Agent 工具` `AI 工具` | ★★★☆☆ | 低 |
+| 8 | [pathwaycom/arc-task-gen](https://github.com/pathwaycom/arc-task-gen) | 用新生成的 ARC-AGI 风格任务检验模型是否真的会归纳规则。 | 3 | 3,184 | Python | `ARC-AGI` `模型评测` `任务生成` `推理模型` `AI 工具` | ★★★☆☆ | 中 |
+| 9 | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | HexStrike 把 150+ 攻防工具变成 AI Agent 可调度的 MCP 能力面。 | 2 | 11,099 | Python | `MCP` `安全自动化` `渗透测试` `AI Agent` `工具编排` | ★★★★☆ | 高 |
+| 10 | [12britz/awesome-free-models](https://github.com/12britz/awesome-free-models) | 把免费模型、API、RAG、MCP 和微调工具集中成一张低成本 AI 地图。 | 2 | 1,706 | 未知 | `免费模型` `AI 工具` `资源目录` `MCP` `RAG` | ★★★★☆ | 低 |
 
 ## 数据与归档
 
