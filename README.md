@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 58 | 151,600 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 中 |
-| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 11,970 | TypeScript | `AI 设计` `智能体` `AI 编程` `视觉 AI` `开发工具` | ★★★☆☆ | 中 |
-| 3 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 7,711 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 4 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | public-apis 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 463,278 | Python | `AI 编程` `开发工具` `工作流` `多模态` `模型推理` | ★★★★★ | 高 |
-| 5 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | dsh-routing-suite 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 5,451 | PowerShell | `智能体` `自动化` `工具调用` `PowerShell` `高增长` | ★★★☆☆ | 中 |
-| 6 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | dsh-web-ui 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 5 | 4,169 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 7 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | opencode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 198,506 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★★★ | 中 |
-| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 20,790 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★☆ | 中 |
-| 9 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 92,460 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 10 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 4 | 10,030 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的开放底座。 | 58 | 151,600 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 把 DeepSeek Harness 的本地 Web UI 包成更易分发的桌面入口。 | 9 | 11,970 | TypeScript | `DeepSeek Harness` `桌面端` `Agent UI` `插件生态` `AI 工具` | ★★★☆☆ | 中 |
+| 3 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DSH 社区正在把插件生态整理成可搜索、可安装的能力市场。 | 9 | 7,711 | Python | `DSH 插件` `Awesome List` `插件市场` `Agent 生态` `AI 工具` | ★★★★☆ | 低 |
+| 4 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 免费的 API 大目录正在成为 Agent 原型接入外部世界的工具索引。 | 6 | 463,278 | Python | `API 目录` `开发者资源` `数据源` `Agent 工具` `AI 工具` | ★★★☆☆ | 低 |
+| 5 | [yjh051108/dsh-routing-suite](https://github.com/yjh051108/dsh-routing-suite) | 把 DSH 的运行时注入器和任务感知路由预设整合成一套安装流程。 | 6 | 5,451 | PowerShell | `DSH` `运行时注入` `路由预设` `Reasoning Mode` `AI 工具` | ★★★☆☆ | 高 |
+| 6 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 给 DeepSeek Harness Web UI 补上任务看板、Git 图谱和右侧工作面板。 | 5 | 4,169 | TypeScript | `DSH 插件` `Web UI` `Agent 工作台` `Git 可视化` `AI 工具` | ★★★★☆ | 中 |
+| 7 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 一个可通过 npm、brew 等安装的开源终端 AI coding agent。 | 4 | 198,506 | TypeScript | `Coding Agent` `终端工具` `开源` `TypeScript` `AI 工具` | ★★★★★ | 中 |
+| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把 Claude Code 画图从流程框升级为可交付的编辑级图表。 | 4 | 20,790 | HTML | `Agent Skill` `HTML SVG` `文档图表` `品牌一致性` `AI 工具` | ★★★★☆ | 低 |
+| 9 | [earendil-works/pi](https://github.com/earendil-works/pi) | 把编程代理 CLI、运行时和多模型接口打成 TypeScript harness。 | 4 | 92,460 | TypeScript | `Agent 框架` `编程代理` `TypeScript` `LLM API` `AI 工具` | ★★★★☆ | 中 |
+| 10 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | 给 Agent 做独立审计，快速产出可复现的风险评分卡。 | 4 | 10,030 | Python | `AI 安全` `Agent 评估` `风险治理` `Prompt Injection` `AI 工具` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
