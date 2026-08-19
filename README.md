@@ -6,16 +6,16 @@
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 161,268 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 中 |
-| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 13,800 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `视觉 AI` | ★★★☆☆ | 中 |
-| 3 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | MoneyPrinterTurbo 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 10 | 108,711 | Python | `AI 视频` `内容生产` `多模态` `大模型` `智能体` | ★★★★★ | 中 |
-| 4 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | awesome-dsh-plugin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 9,037 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 5 | [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | trueforge 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 1,293 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★☆☆☆ | 高 |
-| 6 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 14,564 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 7 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 5 | 48,371 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | dsh-web-ui 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 5 | 4,615 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 9 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 围绕「27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 4 | 21,945 | HTML | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★☆ | 中 |
-| 10 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | marketingskills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 4 | 44,807 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | DeepSeek 把 Agent harness 做成 Everything is a Plugin 的开放底座。 | 37 | 161,268 | TypeScript | `Agent Harness` `插件化` `DeepSeek` `Web UI` `AI 工具` | ★★★★☆ | 中 |
+| 2 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | 把 DeepSeek Harness 的本地 Web UI 包成更易分发的桌面入口。 | 10 | 13,800 | TypeScript | `DeepSeek Harness` `桌面端` `Agent UI` `插件生态` `AI 工具` | ★★★☆☆ | 中 |
+| 3 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 输入主题就能串起脚本、素材、配音、字幕和成片的短视频流水线。 | 10 | 108,711 | Python | `AI 视频` `短视频` `TTS` `字幕` `自动化工作流` | ★★★★☆ | 高 |
+| 4 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | DSH 社区正在把插件生态整理成可搜索、可安装的能力市场。 | 8 | 9,037 | Python | `DSH 插件` `Awesome List` `插件市场` `Agent 生态` `AI 工具` | ★★★★☆ | 低 |
+| 5 | [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | TrueForge 把模型、MCP、skills、沙箱和审批打包成开源 Agent harness。 | 7 | 1,293 | TypeScript | `Agent Harness` `MCP` `Sandbox` `TypeScript` `SDK` | ★★★★☆ | 中 |
+| 6 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | 一个项目覆盖 Unicode、统计水印、C2PA 和文件元数据清理链路。 | 5 | 14,564 | Python | `AI 水印` `C2PA` `元数据清理` `隐私` `AI 工具` | ★★★☆☆ | 中 |
+| 7 | [stablyai/orca](https://github.com/stablyai/orca) | 把多个 coding agent 放进不同 worktree，并用桌面和手机调度。 | 5 | 48,371 | TypeScript | `Agent IDE` `Worktree` `并行 Agent` `移动伴侣` `AI 工具` | ★★★★★ | 中 |
+| 8 | [zhu1090093659/dsh-web-ui](https://github.com/zhu1090093659/dsh-web-ui) | 给 DeepSeek Harness Web UI 补上任务看板、Git 图谱和右侧工作面板。 | 5 | 4,615 | TypeScript | `DSH 插件` `Web UI` `Agent 工作台` `Git 可视化` `AI 工具` | ★★★★☆ | 中 |
+| 9 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 把 Claude Code 画图从流程框升级为可交付的编辑级图表。 | 4 | 21,945 | HTML | `Agent Skill` `HTML SVG` `文档图表` `品牌一致性` `AI 工具` | ★★★★☆ | 低 |
+| 10 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 把 CRO、SEO、文案、广告和增长方法论封装成 AI Agent 可用的技能库。 | 4 | 44,807 | JavaScript | `营销技能` `CRO` `SEO` `文案` `Agent Skills` | ★★★★☆ | 低 |
 
 ## 数据与归档
 

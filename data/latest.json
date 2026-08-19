@@ -1,11 +1,11 @@
 {
   "date": "2026-08-18",
   "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-19T02:32:22.378418Z",
+  "generated_at": "2026-08-19T02:36:27.834036Z",
   "source": {
     "stars": "GH Archive WatchEvent",
     "metadata": "GitHub REST API",
-    "analysis": "Local heuristic fallback"
+    "analysis": "Codex scheduled automation"
   },
   "items": [
     {
@@ -24,41 +24,41 @@
       "yesterday_new_stars": 37,
       "total_stars": 161268,
       "readme_url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md",
-      "ai_confidence": 0.65,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、智能体与自动化工作流、AI 设计与原型生成；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "deepseek-harness 主要围绕「DeepSeek Harness: Everything is a Plugin.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、智能体与自动化工作流、AI 设计与原型生成相关的开源实践、集成或学习。",
+      "ai_confidence": 0.96,
+      "summary_zh": "DeepSeek Harness 是 DeepSeek AI 开源的 Agent harness，主张 Everything is a Plugin，基于 Cordis 组织运行时、Web UI 与插件生态。项目处于 developer preview，README 明确提示会有破坏性兼容变化，更适合框架预研和插件试验。",
+      "purpose_zh": "为 Agent 应用提供可组合、可分发的插件化运行底座。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "辅助产品和设计团队快速生成界面原型、设计系统草案或多版本视觉方案。"
+        "Agent 插件生态",
+        "运行时架构预研",
+        "Web UI 实验"
       ],
-      "positioning_zh": "deepseek-harness 面向代码理解、审查或研发协作场景，主要能力是「DeepSeek Harness: Everything is a Plugin.」。",
-      "product_view_zh": "从产品/应用角度看，deepseek-harness 主要服务研发效率。它把「DeepSeek Harness: Everything is a Plugin.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，当前可见的工程信号主要来自 README、topics 和仓库语言。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、智能体与自动化工作流、AI 设计与原型生成。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 37 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "DeepSeek 官方插件化 Agent harness。",
+      "product_view_zh": "适合 Agent 平台和插件生态预研，当前不宜直接押注生产稳定性。",
+      "technical_view_zh": "TypeScript 项目可通过 npx 或源码运行，依赖 Cordis，主要风险是 API 和插件协议仍在变化。",
+      "trend_view_zh": "Agent 框架正从单体工具转向可扩展运行时和插件市场。",
       "category_zh": "Agent 工具",
-      "highlight_zh": "deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "highlight_zh": "DeepSeek 把 Agent harness 做成 Everything is a Plugin 的开放底座。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "Agent 平台开发者",
+        "插件作者",
+        "AI 工具研究者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "预研基于插件系统构建 Agent Web UI 和可扩展运行时。",
+      "not_suitable_zh": "不适合要求长期稳定 API 和严格兼容承诺的生产系统。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "AI 编程",
-        "AI 设计"
+        "Agent Harness",
+        "插件化",
+        "DeepSeek",
+        "Web UI",
+        "AI 工具"
       ],
-      "maturity_score": 5,
+      "maturity_score": 2,
       "adoption_difficulty": "中",
-      "recommendation_score": 5,
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先按官方指南本地运行。",
+        "避免绑定未稳定 API。",
+        "持续跟踪插件兼容变化。"
       ]
     },
     {
@@ -81,41 +81,41 @@
       "yesterday_new_stars": 10,
       "total_stars": 13800,
       "readme_url": "https://github.com/anywhere-labs/deepseek-harness-desktop/blob/master/README.md",
-      "ai_confidence": 0.59,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、AI 编程与代码理解、计算机视觉、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "deepseek-harness-desktop 主要围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、AI 编程与代码理解、计算机视觉、开发框架与 SDK相关的开源实践、集成或学习。",
+      "ai_confidence": 0.9,
+      "summary_zh": "deepseek-harness-desktop 为 DeepSeek Harness 生态提供 Windows 和 macOS 桌面客户端，强调一键下载、开箱即用，并把“桌面本身也是插件”作为产品定位。它降低普通用户启动 DSH Web UI 的门槛，不是新的 Agent 内核。",
+      "purpose_zh": "把 DeepSeek Harness 从命令行启动包装成开箱即用的桌面应用。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "辅助产品和设计团队快速生成界面原型、设计系统草案或多版本视觉方案。"
+        "DSH 桌面分发",
+        "本地服务管理",
+        "插件生态入口"
       ],
-      "positioning_zh": "deepseek-harness-desktop 是一个智能体/自动化工作流项目，核心目标是「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」。",
-      "product_view_zh": "从产品/应用角度看，deepseek-harness-desktop 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括API。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、AI 编程与代码理解、计算机视觉。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 10 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "deepseek-harness-desktop 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "DSH 生态的桌面客户端和插件入口。",
+      "product_view_zh": "适合给非命令行用户交付 DSH 体验，也能提升插件生态可见性。",
+      "technical_view_zh": "TypeScript 桌面应用依赖官方 Harness 能力，核心风险是上游预览期接口变化。",
+      "trend_view_zh": "Agent 工具正从开发者命令行走向桌面工作台和跨设备控制。",
+      "category_zh": "Agent 桌面客户端",
+      "highlight_zh": "把 DeepSeek Harness 的本地 Web UI 包成更易分发的桌面入口。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "DSH 用户",
+        "Agent 工具团队",
+        "插件开发者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "为 DeepSeek Harness 用户提供免命令行的桌面启动和管理体验。",
+      "not_suitable_zh": "不适合脱离 DSH 生态单独作为通用 Agent 平台使用。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "AI 编程",
-        "视觉 AI"
+        "DeepSeek Harness",
+        "桌面端",
+        "Agent UI",
+        "插件生态",
+        "AI 工具"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先确认上游 DSH 版本兼容。",
+        "验证安装包和自动启动。",
+        "关注跨平台打包质量。"
       ]
     },
     {
@@ -144,41 +144,41 @@
       "yesterday_new_stars": 10,
       "total_stars": 108711,
       "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
-      "ai_confidence": 0.74,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "MoneyPrinterTurbo 主要围绕「利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.9,
+      "summary_zh": "MoneyPrinterTurbo 是一站式 AI 短视频生成工具，用户提供主题或关键词后，系统自动生成脚本、匹配素材、生成字幕、配音、背景音乐并合成高清视频。它提供 Agent、WebUI、API 和 CLI 四种入口，适合短视频流水线原型。",
+      "purpose_zh": "用大模型和自动化工作流降低从选题到短视频草稿的制作成本。",
       "application_scenarios_zh": [
-        "搭建从选题、脚本、素材、字幕到配音的短视频自动化原型。",
-        "批量生成营销素材、教程视频或产品演示草稿，再由人工做最终审核。",
-        "把多模态生成能力嵌入内容工作流，验证低成本视频生产的可行性。"
+        "短视频批量草稿",
+        "营销素材生成",
+        "教程视频自动化"
       ],
-      "positioning_zh": "MoneyPrinterTurbo 是 AI 视频生产工具，核心目标是「利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.」。",
-      "product_view_zh": "从产品/应用角度看，MoneyPrinterTurbo 把脚本、素材、字幕、配音和画面生成串成视频生产流程。它适合内容团队或个人开发者验证低成本视频自动化，而不是只做单点生成。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括CLI、API。重点应关注生成链路编排、素材依赖、渲染性能、版权控制和人工审核接口。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 10 stars，反映出：内容生产正在从单点生成转向脚本、素材、配音和渲染的端到端工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "positioning_zh": "面向短视频内容生产的 AI 自动化工厂。",
+      "product_view_zh": "适合批量测试选题、营销素材和教程短视频，但成片仍需要人工审核和版权把关。",
+      "technical_view_zh": "Python 项目依赖模型 API、TTS、素材源、字幕和 FFmpeg/视频编码环境，部署链路较长。",
+      "trend_view_zh": "AIGC 正从文案和图片生成进入可运营的短视频生产流水线。",
       "category_zh": "AI 视频生产",
-      "highlight_zh": "MoneyPrinterTurbo 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。",
+      "highlight_zh": "输入主题就能串起脚本、素材、配音、字幕和成片的短视频流水线。",
       "target_users_zh": [
         "内容创作者",
-        "营销/运营团队",
+        "营销运营团队",
         "视频自动化开发者"
       ],
-      "best_use_case_zh": "用 MoneyPrinterTurbo 快速搭建从主题、脚本、素材到字幕/配音的自动化视频原型。",
-      "not_suitable_zh": "不适合对成片质量、版权素材和品牌一致性要求很高但没有人工审核的场景。",
+      "best_use_case_zh": "快速生成 TikTok、Reels、YouTube Shorts 等平台的短视频草稿。",
+      "not_suitable_zh": "不适合无人工审核就直接批量发布商业内容，容易出现事实和版权风险。",
       "project_tags_zh": [
         "AI 视频",
-        "内容生产",
-        "多模态",
-        "大模型",
-        "智能体"
+        "短视频",
+        "TTS",
+        "字幕",
+        "自动化工作流"
       ],
-      "maturity_score": 5,
-      "adoption_difficulty": "中",
-      "recommendation_score": 5,
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先用非商业素材跑通流程。",
+        "核查模型费用和素材授权。",
+        "发布前保留人工审校。"
       ]
     },
     {
@@ -198,41 +198,41 @@
       "yesterday_new_stars": 8,
       "total_stars": 9037,
       "readme_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/README.md",
-      "ai_confidence": 0.62,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "awesome-dsh-plugin 主要围绕「A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.86,
+      "summary_zh": "awesome-dsh-plugin 是 DeepSeek Harness 插件精选列表，收录 UI 增强、主题、模型提供商、会话、记忆、工具、技能、自动化和集成等类别，并引导通过 dsh plugin add 安装。README 明确提示第三方插件会以本机权限运行，列表不是安全审计。",
+      "purpose_zh": "为 DSH 用户集中发现、筛选和安装社区插件。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "插件选型调研",
+        "DSH 能力扩展",
+        "社区生态观察"
       ],
-      "positioning_zh": "awesome-dsh-plugin 是一个智能体/自动化工作流项目，核心目标是「A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表」。",
-      "product_view_zh": "从产品/应用角度看，awesome-dsh-plugin 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、知识检索与上下文增强。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 8 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 编程工作流",
-      "highlight_zh": "awesome-dsh-plugin 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "positioning_zh": "DeepSeek Harness 插件生态目录。",
+      "product_view_zh": "适合 DSH 用户快速扩展能力，也能让插件作者获得分发入口。",
+      "technical_view_zh": "价值在目录维护和 manifest 规范；风险是第三方插件权限高，需要逐项审查源码。",
+      "trend_view_zh": "Agent 平台的竞争会越来越依赖插件市场和社区分发生态。",
+      "category_zh": "Agent 插件目录",
+      "highlight_zh": "DSH 社区正在把插件生态整理成可搜索、可安装的能力市场。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "DSH 用户",
+        "插件作者",
+        "Agent 平台运营者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "为 DeepSeek Harness 查找 UI、模型、记忆和自动化插件。",
+      "not_suitable_zh": "不适合在未审查代码的生产环境中直接批量安装插件。",
       "project_tags_zh": [
-        "AI 编程",
-        "开发工具",
-        "工作流",
-        "智能体",
-        "大模型"
+        "DSH 插件",
+        "Awesome List",
+        "插件市场",
+        "Agent 生态",
+        "AI 工具"
       ],
       "maturity_score": 3,
-      "adoption_difficulty": "中",
-      "recommendation_score": 3,
+      "adoption_difficulty": "低",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "安装前审查插件源码。",
+        "先在隔离环境试用。",
+        "记录插件权限和来源。"
       ]
     },
     {
@@ -252,41 +252,41 @@
       "yesterday_new_stars": 7,
       "total_stars": 1293,
       "readme_url": "https://github.com/truefoundry/trueforge/blob/main/README.md",
-      "ai_confidence": 0.82,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "trueforge 主要围绕「The open-source agent harness - the runtime layer that turns an LLM into a working agent.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.92,
+      "summary_zh": "TrueForge 是开源 Agent harness，负责模型调用、MCP 工具、skills、沙箱、审批、上下文管理和会话状态，并提供 Chat UI、HTTP API、TypeScript SDK 与可嵌入 UI。它试图把“让 LLM 真正工作起来”的运行层产品化。",
+      "purpose_zh": "为团队提供可运行、可审计、可扩展的 Agent 执行循环和接入层。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "企业 Agent 原型",
+        "MCP 工具接入",
+        "可审批执行环境"
       ],
-      "positioning_zh": "trueforge 是一个智能体/自动化工作流项目，核心目标是「The open-source agent harness - the runtime layer that turns an LLM into a working agent.」。",
-      "product_view_zh": "从产品/应用角度看，trueforge 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「The open-source agent harness - the runtime layer that turns an LLM into a working agent.」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括Docker、MCP、API、服务端组件。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、知识检索与上下文增强。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 7 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "trueforge 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "开源 Agent harness 与运行时平台。",
+      "product_view_zh": "适合想自建 Agent 产品的团队复用 UI、API、审批、MCP 和沙箱能力，减少底座开发成本。",
+      "technical_view_zh": "Node.js 22+，本地 SQLite 或托管 Postgres/Redis；沙箱、OAuth 和权限策略需要认真配置。",
+      "trend_view_zh": "Agent 工程化正在从 demo 走向会话、工具、沙箱、审批和上下文的一体化运行层。",
+      "category_zh": "Agent 运行时平台",
+      "highlight_zh": "TrueForge 把模型、MCP、skills、沙箱和审批打包成开源 Agent harness。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "Agent 产品团队",
+        "平台工程师",
+        "AI 应用开发者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "基于开源 harness 快速搭建带 UI、MCP 工具和沙箱的企业 Agent 原型。",
+      "not_suitable_zh": "不适合只需要简单聊天机器人或无运维能力的小项目。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "大模型",
-        "RAG"
+        "Agent Harness",
+        "MCP",
+        "Sandbox",
+        "TypeScript",
+        "SDK"
       ],
-      "maturity_score": 2,
-      "adoption_difficulty": "高",
-      "recommendation_score": 2,
+      "maturity_score": 3,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "先用本地模式验证流程。",
+        "明确沙箱和密钥边界。",
+        "托管部署前规划数据库。"
       ]
     },
     {
@@ -308,41 +308,41 @@
       "yesterday_new_stars": 5,
       "total_stars": 14564,
       "readme_url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md",
-      "ai_confidence": 0.73,
-      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "watermarks-remover 主要围绕「Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.88,
+      "summary_zh": "watermarks-remover 把 Unicode 隐形字符、统计文本水印、C2PA/元数据清理以及多格式文件处理组合成 agent skill 和 Python 服务。README 强调本地服务、分层清理和可选改写钩子，适合研究 AI 内容溯源与隐私卫生。",
+      "purpose_zh": "检测并清理自有文本和文件中的 AI 来源标记与元数据痕迹。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "内容发布前检查",
+        "水印机制研究",
+        "文件元数据清理"
       ],
-      "positioning_zh": "watermarks-remover 是一个智能体/自动化工作流项目，核心目标是「Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD」。",
-      "product_view_zh": "从产品/应用角度看，watermarks-remover 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
-      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括Docker、CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、AI 编程与代码理解。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 5 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "Agent 工具",
-      "highlight_zh": "watermarks-remover 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "positioning_zh": "AI 内容水印与元数据清理工具。",
+      "product_view_zh": "适合内容发布前做隐私卫生检查，也可作为水印机制研究样本。",
+      "technical_view_zh": "Python 服务覆盖文本、图片和文档格式；统计水印处理依赖改写质量，需验证误伤。",
+      "trend_view_zh": "AI 内容来源标记、隐私保护和平台检测之间的攻防会持续升温。",
+      "category_zh": "内容溯源/隐私工具",
+      "highlight_zh": "一个项目覆盖 Unicode、统计水印、C2PA 和文件元数据清理链路。",
       "target_users_zh": [
-        "Agent 开发者",
-        "自动化工作流团队",
-        "AI 工具调研者"
+        "安全研究者",
+        "内容团队",
+        "隐私工程师"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "对自有内容做发布前水印、元数据和隐藏字符审计。",
+      "not_suitable_zh": "不适合把清理结果当作绕过平台规则或真实性证明。",
       "project_tags_zh": [
-        "智能体",
-        "自动化",
-        "工具调用",
-        "大模型",
-        "AI 编程"
+        "AI 水印",
+        "C2PA",
+        "元数据清理",
+        "隐私",
+        "AI 工具"
       ],
       "maturity_score": 3,
-      "adoption_difficulty": "高",
+      "adoption_difficulty": "中",
       "recommendation_score": 3,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "只处理有权处理的内容。",
+        "对输出做抽样比对。",
+        "关注依赖模型和格式覆盖。"
       ]
     },
     {
@@ -375,41 +375,41 @@
       "yesterday_new_stars": 5,
       "total_stars": 48371,
       "readme_url": "https://github.com/stablyai/orca/blob/main/README.md",
-      "ai_confidence": 0.68,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "orca 主要围绕「Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.94,
+      "summary_zh": "Orca 是面向并行 coding agent 的 ADE/编排器，可把 Codex、Claude Code、OpenCode、Pi 等放在不同 worktree 中并排运行，提供桌面端、移动伴侣、通知、终端分屏、GitHub/Linear 集成和远程跟进能力。",
+      "purpose_zh": "让开发者同时运行、监控和接管多个 coding agent，而不是手工切换终端和分支。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "并行功能开发",
+        "远程监控 Agent",
+        "多分支代码实验"
       ],
-      "positioning_zh": "orca 面向代码理解、审查或研发协作场景，主要能力是「Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.」。",
-      "product_view_zh": "从产品/应用角度看，orca 主要服务研发效率。它把「Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 5 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 编程工作流",
-      "highlight_zh": "orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "positioning_zh": "面向并行 coding agent 的 Agent IDE/ADE。",
+      "product_view_zh": "适合高频 AI 编程团队集中管理多个 worktree、任务状态、通知和移动端跟进。",
+      "technical_view_zh": "TypeScript 桌面应用结合终端、worktree、移动端和集成能力；采用时要设计分支、凭据和合并流程。",
+      "trend_view_zh": "AI 编程工具正在从单 Agent 对话升级为多工作树、多客户端的编排界面。",
+      "category_zh": "Agent 编排/IDE",
+      "highlight_zh": "把多个 coding agent 放进不同 worktree，并用桌面和手机调度。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "AI 编程团队",
+        "独立开发者",
+        "工程负责人"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "并行推进多个 feature branch，并随时从手机查看和跟进 Agent。",
+      "not_suitable_zh": "不适合没有清晰分支隔离和代码审查流程的小型一次性任务。",
       "project_tags_zh": [
-        "AI 编程",
-        "开发工具",
-        "工作流",
-        "智能体",
-        "大模型"
+        "Agent IDE",
+        "Worktree",
+        "并行 Agent",
+        "移动伴侣",
+        "AI 工具"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
-      "recommendation_score": 4,
+      "recommendation_score": 5,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先规范 worktree 命名。",
+        "每条任务绑定独立分支。",
+        "合并前强制人工 review。"
       ]
     },
     {
@@ -428,41 +428,41 @@
       "yesterday_new_stars": 5,
       "total_stars": 4615,
       "readme_url": "https://github.com/zhu1090093659/dsh-web-ui/blob/main/README.md",
-      "ai_confidence": 0.61,
-      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、多媒体生成与理解、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "dsh-web-ui 主要围绕「Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、多媒体生成与理解、模型训练与推理相关的开源实践、集成或学习。",
+      "ai_confidence": 0.9,
+      "summary_zh": "dsh-web-ui 是 DeepSeek Harness Web UI 的插件与皮肤集合，覆盖任务看板、Git 图谱、右侧文件/预览/变更面板、远程移动端、终端、端口转发、图像理解、实时 token 统计和皮肤中心。它补足了 Agent 工作台的日常操作层。",
+      "purpose_zh": "为 DSH Web UI 增强项目管理、代码浏览、远程控制和界面定制能力。",
       "application_scenarios_zh": [
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。",
-        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+        "Agent 任务看板",
+        "代码与 Git 浏览",
+        "远程开发控制"
       ],
-      "positioning_zh": "dsh-web-ui 聚焦大模型上下文管理，主要解决「Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.」。",
-      "product_view_zh": "从产品/应用角度看，dsh-web-ui 解决的是大模型上下文太长、成本太高和信息噪音过多的问题。它适合 Agent、RAG 和日志分析场景中做输入压缩与上下文治理。",
-      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括API、服务端组件。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、多媒体生成与理解。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 5 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "上下文管理",
-      "highlight_zh": "dsh-web-ui 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。",
+      "positioning_zh": "DeepSeek Harness 的 Web UI 插件套件。",
+      "product_view_zh": "适合已经采用 DSH 的用户提升工作台体验，特别是需要看板、Git 可视化和右侧面板的开发流程。",
+      "technical_view_zh": "TypeScript 插件集合可独立安装或聚合安装；风险在于插件数量多、上游 UI 变更可能带来维护成本。",
+      "trend_view_zh": "Agent IDE 正在向一体化工作台演进，文件、Git、任务和运行状态会成为核心 UI。",
+      "category_zh": "Agent 工作台插件",
+      "highlight_zh": "给 DeepSeek Harness Web UI 补上任务看板、Git 图谱和右侧工作面板。",
       "target_users_zh": [
-        "Agent 开发者",
-        "RAG 工程师",
-        "关注 token 成本的团队"
+        "DSH 用户",
+        "AI 编程用户",
+        "插件开发者"
       ],
-      "best_use_case_zh": "在 Agent 或 RAG 工作流中压缩长日志、工具输出和检索片段。",
-      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "best_use_case_zh": "把 DSH Web UI 扩展成更接近 IDE 的 Agent 工作台。",
+      "not_suitable_zh": "不适合未采用 DeepSeek Harness 或不愿承担插件维护成本的团队。",
       "project_tags_zh": [
-        "上下文管理",
-        "Agent",
-        "Token 优化",
-        "智能体",
-        "大模型"
+        "DSH 插件",
+        "Web UI",
+        "Agent 工作台",
+        "Git 可视化",
+        "AI 工具"
       ],
       "maturity_score": 3,
-      "adoption_difficulty": "高",
-      "recommendation_score": 3,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+        "按需启用核心插件。",
+        "验证 DSH 版本兼容。",
+        "关注远程连接安全设置。"
       ]
     },
     {
@@ -476,41 +476,42 @@
       "yesterday_new_stars": 4,
       "total_stars": 21945,
       "readme_url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
-      "ai_confidence": 0.59,
-      "summary_zh": "该项目以 HTML 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "diagram-design 主要围绕「27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
+      "ai_confidence": 0.82,
+      "summary_zh": "Diagram Design 是面向 Claude Code、Codex 等编码 Agent 的图表生成 skill，强调自包含 HTML+SVG、编辑级视觉规范、可访问性和自动对比度检查。它不是传统绘图库，而是把图表类型、品牌抽取、导出和自检流程封装给 Agent 使用。",
+      "purpose_zh": "让 Agent 按设计规则生成可交付、可编辑的说明图。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+        "架构图重绘",
+        "文章配图",
+        "产品流程说明"
       ],
-      "positioning_zh": "diagram-design 面向代码理解、审查或研发协作场景，主要能力是「27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」。",
-      "product_view_zh": "从产品/应用角度看，diagram-design 主要服务研发效率。它把「27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 HTML 实现，可见工程信号包括API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 设计",
-      "highlight_zh": "diagram-design 围绕「27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.」提供 AI 相关开源能力，适合快速评估和原型验证。",
+      "positioning_zh": "面向 Agent 的文档图表设计技能包。",
+      "product_view_zh": "适合技术写作、产品说明和架构文档场景，能减少粗糙 Mermaid 图的返工。",
+      "technical_view_zh": "输出 HTML/SVG/PNG，依赖 Playwright 做栅格化和自检；落地时要维护品牌配置。",
+      "trend_view_zh": "AI 辅助文档正在从文本生成扩展到可审美、可复用的视觉资产生成。",
+      "category_zh": "图表/文档可视化",
+      "highlight_zh": "把 Claude Code 画图从流程框升级为可交付的编辑级图表。",
       "target_users_zh": [
-        "AI 工具调研者",
-        "开发者",
-        "产品/技术团队"
+        "技术写作者",
+        "产品经理",
+        "架构师",
+        "Agent 使用者"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "为技术文章、产品说明和系统设计文档快速生成品牌一致的图表。",
+      "not_suitable_zh": "不适合需要复杂交互数据可视化或实时仪表盘的场景。",
       "project_tags_zh": [
-        "AI 编程",
-        "大模型",
-        "智能体",
-        "RAG",
-        "多模态"
+        "Agent Skill",
+        "HTML SVG",
+        "文档图表",
+        "品牌一致性",
+        "AI 工具"
       ],
-      "maturity_score": 4,
-      "adoption_difficulty": "中",
+      "maturity_score": 3,
+      "adoption_difficulty": "低",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先固定品牌色和字体。",
+        "用自检脚本校验输出。",
+        "复杂图表仍需人工审稿。"
       ]
     },
     {
@@ -528,41 +529,42 @@
       "yesterday_new_stars": 4,
       "total_stars": 44807,
       "readme_url": "https://github.com/coreyhaines31/marketingskills/blob/main/README.md",
-      "ai_confidence": 0.65,
-      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
-      "purpose_zh": "marketingskills 主要围绕「Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "ai_confidence": 0.86,
+      "summary_zh": "marketingskills 是面向 Claude Code、Codex、Cursor、Windsurf 等 Agent 的营销技能集合，覆盖 CRO、文案、SEO、AI SEO、广告、分析、增长、留存、销售和市场进入策略。核心是把营销框架写成可被 Agent 触发的技能文件。",
+      "purpose_zh": "让 AI coding agent 在做营销任务时调用专门的增长、文案和分析流程。",
       "application_scenarios_zh": [
-        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
-        "搭建内容生产流水线，批量生成或处理营销素材、短视频、语音内容和多模态资产。"
+        "落地页转化优化",
+        "SEO 和 AI SEO",
+        "营销自动化实验"
       ],
-      "positioning_zh": "marketingskills 面向代码理解、审查或研发协作场景，主要能力是「Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.」。",
-      "product_view_zh": "从产品/应用角度看，marketingskills 主要服务研发效率。它把「Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
-      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括MCP。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
-      "trend_view_zh": "趋势上，该项目昨日新增 4 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
-      "category_zh": "AI 编程工作流",
-      "highlight_zh": "marketingskills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "positioning_zh": "面向技术营销和创始人的 Agent 营销技能包。",
+      "product_view_zh": "适合技术型创始人和增长团队把营销页面、邮件、SEO、实验和分析工作交给 Agent 协作。",
+      "technical_view_zh": "JavaScript/Markdown 技能集合，可按 CLI、插件、clone 或 submodule 安装；需要结合产品定位资料使用。",
+      "trend_view_zh": "Agent skills 正从工程开发扩展到 GTM、增长和内容运营等跨职能工作。",
+      "category_zh": "营销 Agent 技能",
+      "highlight_zh": "把 CRO、SEO、文案、广告和增长方法论封装成 AI Agent 可用的技能库。",
       "target_users_zh": [
-        "AI 编程用户",
-        "研发团队",
-        "代码审查/交付负责人"
+        "技术营销人员",
+        "SaaS 创始人",
+        "增长团队",
+        "AI Agent 用户"
       ],
-      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
-      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "best_use_case_zh": "让 Agent 辅助优化落地页、SEO 内容、邮件序列和增长实验。",
+      "not_suitable_zh": "不适合缺少产品定位和转化数据时直接输出最终营销决策。",
       "project_tags_zh": [
-        "AI 编程",
-        "开发工具",
-        "工作流",
-        "大模型",
-        "智能体"
+        "营销技能",
+        "CRO",
+        "SEO",
+        "文案",
+        "Agent Skills"
       ],
-      "maturity_score": 4,
-      "adoption_difficulty": "中",
+      "maturity_score": 3,
+      "adoption_difficulty": "低",
       "recommendation_score": 4,
       "adoption_notes_zh": [
-        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
-        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
-        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+        "先补齐产品定位资料。",
+        "用真实转化数据校准建议。",
+        "按渠道选择少量技能试用。"
       ]
     }
   ]

@@ -1,37 +1,10 @@
 {
-  "date": "2026-08-18",
-  "timezone": "Asia/Shanghai",
-  "generated_at": "2026-08-19T02:36:27.834036Z",
-  "source": {
-    "stars": "GH Archive WatchEvent",
-    "metadata": "GitHub REST API",
-    "analysis": "Codex scheduled automation"
-  },
   "items": [
     {
-      "rank": 1,
       "repo": "deepseek-ai/deepseek-harness",
-      "repo_id": 1333065091,
-      "url": "https://github.com/deepseek-ai/deepseek-harness",
-      "description": "DeepSeek Harness: Everything is a Plugin.",
-      "language": "TypeScript",
-      "topics": [
-        "ai-agents",
-        "cordis",
-        "dsh",
-        "dsh-plugin"
-      ],
-      "yesterday_new_stars": 37,
-      "total_stars": 161268,
-      "readme_url": "https://github.com/deepseek-ai/deepseek-harness/blob/master/README.md",
       "ai_confidence": 0.96,
       "summary_zh": "DeepSeek Harness 是 DeepSeek AI 开源的 Agent harness，主张 Everything is a Plugin，基于 Cordis 组织运行时、Web UI 与插件生态。项目处于 developer preview，README 明确提示会有破坏性兼容变化，更适合框架预研和插件试验。",
       "purpose_zh": "为 Agent 应用提供可组合、可分发的插件化运行底座。",
-      "application_scenarios_zh": [
-        "Agent 插件生态",
-        "运行时架构预研",
-        "Web UI 实验"
-      ],
       "positioning_zh": "DeepSeek 官方插件化 Agent harness。",
       "product_view_zh": "适合 Agent 平台和插件生态预研，当前不宜直接押注生产稳定性。",
       "technical_view_zh": "TypeScript 项目可通过 npx 或源码运行，依赖 Cordis，主要风险是 API 和插件协议仍在变化。",
@@ -49,12 +22,16 @@
         "Agent Harness",
         "插件化",
         "DeepSeek",
-        "Web UI",
-        "AI 工具"
+        "Web UI"
       ],
       "maturity_score": 2,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agent 插件生态",
+        "运行时架构预研",
+        "Web UI 实验"
+      ],
       "adoption_notes_zh": [
         "先按官方指南本地运行。",
         "避免绑定未稳定 API。",
@@ -62,33 +39,10 @@
       ]
     },
     {
-      "rank": 2,
       "repo": "anywhere-labs/deepseek-harness-desktop",
-      "repo_id": 1333321333,
-      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
-      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
-      "language": "TypeScript",
-      "topics": [
-        "cordis",
-        "cordis-plugin",
-        "deepseek",
-        "deepseek-harness",
-        "desktop",
-        "dsh",
-        "dsh-plugin",
-        "dsh-plugin-desktop"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 13800,
-      "readme_url": "https://github.com/anywhere-labs/deepseek-harness-desktop/blob/master/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "deepseek-harness-desktop 为 DeepSeek Harness 生态提供 Windows 和 macOS 桌面客户端，强调一键下载、开箱即用，并把“桌面本身也是插件”作为产品定位。它降低普通用户启动 DSH Web UI 的门槛，不是新的 Agent 内核。",
       "purpose_zh": "把 DeepSeek Harness 从命令行启动包装成开箱即用的桌面应用。",
-      "application_scenarios_zh": [
-        "DSH 桌面分发",
-        "本地服务管理",
-        "插件生态入口"
-      ],
       "positioning_zh": "DSH 生态的桌面客户端和插件入口。",
       "product_view_zh": "适合给非命令行用户交付 DSH 体验，也能提升插件生态可见性。",
       "technical_view_zh": "TypeScript 桌面应用依赖官方 Harness 能力，核心风险是上游预览期接口变化。",
@@ -106,12 +60,16 @@
         "DeepSeek Harness",
         "桌面端",
         "Agent UI",
-        "插件生态",
-        "AI 工具"
+        "插件生态"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "DSH 桌面分发",
+        "本地服务管理",
+        "插件生态入口"
+      ],
       "adoption_notes_zh": [
         "先确认上游 DSH 版本兼容。",
         "验证安装包和自动启动。",
@@ -119,39 +77,10 @@
       ]
     },
     {
-      "rank": 3,
       "repo": "harry0703/MoneyPrinterTurbo",
-      "repo_id": 770153867,
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-      "language": "Python",
-      "topics": [
-        "ai-video-generator",
-        "content-creation",
-        "ffmpeg",
-        "instagram-reels",
-        "llm",
-        "python",
-        "short-video",
-        "subtitles",
-        "text-to-speech",
-        "tiktok",
-        "video-automation",
-        "video-workflow",
-        "workflow-automation",
-        "youtube-shorts"
-      ],
-      "yesterday_new_stars": 10,
-      "total_stars": 108711,
-      "readme_url": "https://github.com/harry0703/MoneyPrinterTurbo/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "MoneyPrinterTurbo 是一站式 AI 短视频生成工具，用户提供主题或关键词后，系统自动生成脚本、匹配素材、生成字幕、配音、背景音乐并合成高清视频。它提供 Agent、WebUI、API 和 CLI 四种入口，适合短视频流水线原型。",
       "purpose_zh": "用大模型和自动化工作流降低从选题到短视频草稿的制作成本。",
-      "application_scenarios_zh": [
-        "短视频批量草稿",
-        "营销素材生成",
-        "教程视频自动化"
-      ],
       "positioning_zh": "面向短视频内容生产的 AI 自动化工厂。",
       "product_view_zh": "适合批量测试选题、营销素材和教程短视频，但成片仍需要人工审核和版权把关。",
       "technical_view_zh": "Python 项目依赖模型 API、TTS、素材源、字幕和 FFmpeg/视频编码环境，部署链路较长。",
@@ -175,6 +104,11 @@
       "maturity_score": 4,
       "adoption_difficulty": "高",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "短视频批量草稿",
+        "营销素材生成",
+        "教程视频自动化"
+      ],
       "adoption_notes_zh": [
         "先用非商业素材跑通流程。",
         "核查模型费用和素材授权。",
@@ -182,30 +116,10 @@
       ]
     },
     {
-      "rank": 4,
       "repo": "awesome-dsh-plugin/awesome-dsh-plugin",
-      "repo_id": 1333175049,
-      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
-      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-      "language": "Python",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin"
-      ],
-      "yesterday_new_stars": 8,
-      "total_stars": 9037,
-      "readme_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "awesome-dsh-plugin 是 DeepSeek Harness 插件精选列表，收录 UI 增强、主题、模型提供商、会话、记忆、工具、技能、自动化和集成等类别，并引导通过 dsh plugin add 安装。README 明确提示第三方插件会以本机权限运行，列表不是安全审计。",
       "purpose_zh": "为 DSH 用户集中发现、筛选和安装社区插件。",
-      "application_scenarios_zh": [
-        "插件选型调研",
-        "DSH 能力扩展",
-        "社区生态观察"
-      ],
       "positioning_zh": "DeepSeek Harness 插件生态目录。",
       "product_view_zh": "适合 DSH 用户快速扩展能力，也能让插件作者获得分发入口。",
       "technical_view_zh": "价值在目录维护和 manifest 规范；风险是第三方插件权限高，需要逐项审查源码。",
@@ -223,12 +137,16 @@
         "DSH 插件",
         "Awesome List",
         "插件市场",
-        "Agent 生态",
-        "AI 工具"
+        "Agent 生态"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "插件选型调研",
+        "DSH 能力扩展",
+        "社区生态观察"
+      ],
       "adoption_notes_zh": [
         "安装前审查插件源码。",
         "先在隔离环境试用。",
@@ -236,30 +154,10 @@
       ]
     },
     {
-      "rank": 5,
       "repo": "truefoundry/trueforge",
-      "repo_id": 1309751899,
-      "url": "https://github.com/truefoundry/trueforge",
-      "description": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
-      "language": "TypeScript",
-      "topics": [
-        "agent",
-        "agentic-ai",
-        "agents",
-        "harness",
-        "harness-engineering"
-      ],
-      "yesterday_new_stars": 7,
-      "total_stars": 1293,
-      "readme_url": "https://github.com/truefoundry/trueforge/blob/main/README.md",
       "ai_confidence": 0.92,
       "summary_zh": "TrueForge 是开源 Agent harness，负责模型调用、MCP 工具、skills、沙箱、审批、上下文管理和会话状态，并提供 Chat UI、HTTP API、TypeScript SDK 与可嵌入 UI。它试图把“让 LLM 真正工作起来”的运行层产品化。",
       "purpose_zh": "为团队提供可运行、可审计、可扩展的 Agent 执行循环和接入层。",
-      "application_scenarios_zh": [
-        "企业 Agent 原型",
-        "MCP 工具接入",
-        "可审批执行环境"
-      ],
       "positioning_zh": "开源 Agent harness 与运行时平台。",
       "product_view_zh": "适合想自建 Agent 产品的团队复用 UI、API、审批、MCP 和沙箱能力，减少底座开发成本。",
       "technical_view_zh": "Node.js 22+，本地 SQLite 或托管 Postgres/Redis；沙箱、OAuth 和权限策略需要认真配置。",
@@ -283,6 +181,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "企业 Agent 原型",
+        "MCP 工具接入",
+        "可审批执行环境"
+      ],
       "adoption_notes_zh": [
         "先用本地模式验证流程。",
         "明确沙箱和密钥边界。",
@@ -290,32 +193,10 @@
       ]
     },
     {
-      "rank": 6,
       "repo": "guillaumemeyer/watermarks-remover",
-      "repo_id": 1331135699,
-      "url": "https://github.com/guillaumemeyer/watermarks-remover",
-      "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
-      "language": "Python",
-      "topics": [
-        "agent-skill",
-        "ai",
-        "c2pa",
-        "claude",
-        "provenance",
-        "synthid",
-        "watermark"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 14564,
-      "readme_url": "https://github.com/guillaumemeyer/watermarks-remover/blob/main/README.md",
       "ai_confidence": 0.88,
       "summary_zh": "watermarks-remover 把 Unicode 隐形字符、统计文本水印、C2PA/元数据清理以及多格式文件处理组合成 agent skill 和 Python 服务。README 强调本地服务、分层清理和可选改写钩子，适合研究 AI 内容溯源与隐私卫生。",
       "purpose_zh": "检测并清理自有文本和文件中的 AI 来源标记与元数据痕迹。",
-      "application_scenarios_zh": [
-        "内容发布前检查",
-        "水印机制研究",
-        "文件元数据清理"
-      ],
       "positioning_zh": "AI 内容水印与元数据清理工具。",
       "product_view_zh": "适合内容发布前做隐私卫生检查，也可作为水印机制研究样本。",
       "technical_view_zh": "Python 服务覆盖文本、图片和文档格式；统计水印处理依赖改写质量，需验证误伤。",
@@ -333,12 +214,16 @@
         "AI 水印",
         "C2PA",
         "元数据清理",
-        "隐私",
-        "AI 工具"
+        "隐私"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 3,
+      "application_scenarios_zh": [
+        "内容发布前检查",
+        "水印机制研究",
+        "文件元数据清理"
+      ],
       "adoption_notes_zh": [
         "只处理有权处理的内容。",
         "对输出做抽样比对。",
@@ -346,43 +231,10 @@
       ]
     },
     {
-      "rank": 7,
       "repo": "stablyai/orca",
-      "repo_id": 1183888342,
-      "url": "https://github.com/stablyai/orca",
-      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-      "language": "TypeScript",
-      "topics": [
-        "ade",
-        "agent-ide",
-        "ai-agents",
-        "claude-code",
-        "cli",
-        "codex",
-        "cursor-agent",
-        "devtools",
-        "ghostty",
-        "ide",
-        "mobile-app",
-        "opencode",
-        "orchestration",
-        "parallel-agents",
-        "pi",
-        "terminal",
-        "worktrees",
-        "yc-backed"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 48371,
-      "readme_url": "https://github.com/stablyai/orca/blob/main/README.md",
       "ai_confidence": 0.94,
       "summary_zh": "Orca 是面向并行 coding agent 的 ADE/编排器，可把 Codex、Claude Code、OpenCode、Pi 等放在不同 worktree 中并排运行，提供桌面端、移动伴侣、通知、终端分屏、GitHub/Linear 集成和远程跟进能力。",
       "purpose_zh": "让开发者同时运行、监控和接管多个 coding agent，而不是手工切换终端和分支。",
-      "application_scenarios_zh": [
-        "并行功能开发",
-        "远程监控 Agent",
-        "多分支代码实验"
-      ],
       "positioning_zh": "面向并行 coding agent 的 Agent IDE/ADE。",
       "product_view_zh": "适合高频 AI 编程团队集中管理多个 worktree、任务状态、通知和移动端跟进。",
       "technical_view_zh": "TypeScript 桌面应用结合终端、worktree、移动端和集成能力；采用时要设计分支、凭据和合并流程。",
@@ -400,12 +252,16 @@
         "Agent IDE",
         "Worktree",
         "并行 Agent",
-        "移动伴侣",
-        "AI 工具"
+        "移动伴侣"
       ],
       "maturity_score": 4,
       "adoption_difficulty": "中",
       "recommendation_score": 5,
+      "application_scenarios_zh": [
+        "并行功能开发",
+        "远程监控 Agent",
+        "多分支代码实验"
+      ],
       "adoption_notes_zh": [
         "先规范 worktree 命名。",
         "每条任务绑定独立分支。",
@@ -413,29 +269,10 @@
       ]
     },
     {
-      "rank": 8,
       "repo": "zhu1090093659/dsh-web-ui",
-      "repo_id": 1331636953,
-      "url": "https://github.com/zhu1090093659/dsh-web-ui",
-      "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
-      "language": "TypeScript",
-      "topics": [
-        "deepseek-harness",
-        "dsh",
-        "dsh-plugin",
-        "web-ui"
-      ],
-      "yesterday_new_stars": 5,
-      "total_stars": 4615,
-      "readme_url": "https://github.com/zhu1090093659/dsh-web-ui/blob/main/README.md",
       "ai_confidence": 0.9,
       "summary_zh": "dsh-web-ui 是 DeepSeek Harness Web UI 的插件与皮肤集合，覆盖任务看板、Git 图谱、右侧文件/预览/变更面板、远程移动端、终端、端口转发、图像理解、实时 token 统计和皮肤中心。它补足了 Agent 工作台的日常操作层。",
       "purpose_zh": "为 DSH Web UI 增强项目管理、代码浏览、远程控制和界面定制能力。",
-      "application_scenarios_zh": [
-        "Agent 任务看板",
-        "代码与 Git 浏览",
-        "远程开发控制"
-      ],
       "positioning_zh": "DeepSeek Harness 的 Web UI 插件套件。",
       "product_view_zh": "适合已经采用 DSH 的用户提升工作台体验，特别是需要看板、Git 可视化和右侧面板的开发流程。",
       "technical_view_zh": "TypeScript 插件集合可独立安装或聚合安装；风险在于插件数量多、上游 UI 变更可能带来维护成本。",
@@ -453,12 +290,16 @@
         "DSH 插件",
         "Web UI",
         "Agent 工作台",
-        "Git 可视化",
-        "AI 工具"
+        "Git 可视化"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "中",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "Agent 任务看板",
+        "代码与 Git 浏览",
+        "远程开发控制"
+      ],
       "adoption_notes_zh": [
         "按需启用核心插件。",
         "验证 DSH 版本兼容。",
@@ -466,24 +307,10 @@
       ]
     },
     {
-      "rank": 9,
       "repo": "cathrynlavery/diagram-design",
-      "repo_id": 1212769188,
-      "url": "https://github.com/cathrynlavery/diagram-design",
-      "description": "27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-      "language": "HTML",
-      "topics": [],
-      "yesterday_new_stars": 4,
-      "total_stars": 21945,
-      "readme_url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
       "ai_confidence": 0.82,
       "summary_zh": "Diagram Design 是面向 Claude Code、Codex 等编码 Agent 的图表生成 skill，强调自包含 HTML+SVG、编辑级视觉规范、可访问性和自动对比度检查。它不是传统绘图库，而是把图表类型、品牌抽取、导出和自检流程封装给 Agent 使用。",
       "purpose_zh": "让 Agent 按设计规则生成可交付、可编辑的说明图。",
-      "application_scenarios_zh": [
-        "架构图重绘",
-        "文章配图",
-        "产品流程说明"
-      ],
       "positioning_zh": "面向 Agent 的文档图表设计技能包。",
       "product_view_zh": "适合技术写作、产品说明和架构文档场景，能减少粗糙 Mermaid 图的返工。",
       "technical_view_zh": "输出 HTML/SVG/PNG，依赖 Playwright 做栅格化和自检；落地时要维护品牌配置。",
@@ -502,12 +329,16 @@
         "Agent Skill",
         "HTML SVG",
         "文档图表",
-        "品牌一致性",
-        "AI 工具"
+        "品牌一致性"
       ],
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "架构图重绘",
+        "文章配图",
+        "产品流程说明"
+      ],
       "adoption_notes_zh": [
         "先固定品牌色和字体。",
         "用自检脚本校验输出。",
@@ -515,28 +346,10 @@
       ]
     },
     {
-      "rank": 10,
       "repo": "coreyhaines31/marketingskills",
-      "repo_id": 1135212071,
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "language": "JavaScript",
-      "topics": [
-        "claude",
-        "codex",
-        "marketing"
-      ],
-      "yesterday_new_stars": 4,
-      "total_stars": 44807,
-      "readme_url": "https://github.com/coreyhaines31/marketingskills/blob/main/README.md",
       "ai_confidence": 0.86,
       "summary_zh": "marketingskills 是面向 Claude Code、Codex、Cursor、Windsurf 等 Agent 的营销技能集合，覆盖 CRO、文案、SEO、AI SEO、广告、分析、增长、留存、销售和市场进入策略。核心是把营销框架写成可被 Agent 触发的技能文件。",
       "purpose_zh": "让 AI coding agent 在做营销任务时调用专门的增长、文案和分析流程。",
-      "application_scenarios_zh": [
-        "落地页转化优化",
-        "SEO 和 AI SEO",
-        "营销自动化实验"
-      ],
       "positioning_zh": "面向技术营销和创始人的 Agent 营销技能包。",
       "product_view_zh": "适合技术型创始人和增长团队把营销页面、邮件、SEO、实验和分析工作交给 Agent 协作。",
       "technical_view_zh": "JavaScript/Markdown 技能集合，可按 CLI、插件、clone 或 submodule 安装；需要结合产品定位资料使用。",
@@ -561,6 +374,11 @@
       "maturity_score": 3,
       "adoption_difficulty": "低",
       "recommendation_score": 4,
+      "application_scenarios_zh": [
+        "落地页转化优化",
+        "SEO 和 AI SEO",
+        "营销自动化实验"
+      ],
       "adoption_notes_zh": [
         "先补齐产品定位资料。",
         "用真实转化数据校准建议。",
