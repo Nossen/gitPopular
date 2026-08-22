@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-20 (Asia/Shanghai)
+## 最新榜单：2026-08-21 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 41 | 175,320 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 2 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | MoneyPrinterTurbo 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 12 | 113,050 | Python | `AI 视频` `内容生产` `多模态` `大模型` `智能体` | ★★★★★ | 中 |
-| 3 | [General-Legal/legal-templates](https://github.com/General-Legal/legal-templates) | legal-templates 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 10 | 1,503 | Python | `文档转换` `RAG` `知识库` `AI 编程` `大模型` | ★★☆☆☆ | 中 |
-| 4 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 24,373 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 5 | [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot) | OpenBot 围绕「Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 8 | 1,686 | TypeScript | `智能体` `MCP` `RAG` `AI 编程` `多模态` | ★★☆☆☆ | 高 |
-| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 106,784 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 7 | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | OpenViking 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 7 | 31,083 | Python | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★★☆ | 高 |
-| 8 | [andrew-waters/orchard](https://github.com/andrew-waters/orchard) | orchard 围绕「A GUI for Apple Containers, (o)MLX and k8s, written in swift as a replacement for docker desktop」提供 AI 相关开源能力，适合快速评估和原型验证。 | 6 | 1,308 | Swift | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★☆☆☆ | 高 |
-| 9 | [Leutenegger/watermarks-remover](https://github.com/Leutenegger/watermarks-remover) | watermarks-remover 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 6 | 925 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 226,774 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 87 | 181,612 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 2 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 50 | 111,439 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 39 | 229,660 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 4 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 17,627 | TypeScript | `AI 设计` `智能体` `AI 编程` `视觉 AI` `开发工具` | ★★★☆☆ | 中 |
+| 5 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 275,684 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 6 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | free-for-dev 围绕「A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 133,288 | HTML | `AI 设计` `大模型` `RAG` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
+| 7 | [modular/modular](https://github.com/modular/modular) | modular 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 13 | 28,699 | Mojo | `AI 教程` `学习路径` `工程实践` `AI 编程` `多模态` | ★★★★☆ | 高 |
+| 8 | [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | trueforge 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 2,980 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★☆☆☆ | 高 |
+| 9 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 11 | 52,737 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 10 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 11 | 16,643 | Python | `OCR` `视觉 AI` `多模态` `OpenAI` `智能体` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-20.json](data/2026-08-20.json)
-- Markdown 归档：[reports/2026-08-20.md](reports/2026-08-20.md)
+- JSON 数据：[data/2026-08-21.json](data/2026-08-21.json)
+- Markdown 归档：[reports/2026-08-21.md](reports/2026-08-21.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
