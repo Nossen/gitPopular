@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-21 (Asia/Shanghai)
+## 最新榜单：2026-08-22 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 87 | 181,612 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 2 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 50 | 111,439 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 39 | 229,660 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 4 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 17,627 | TypeScript | `AI 设计` `智能体` `AI 编程` `视觉 AI` `开发工具` | ★★★☆☆ | 中 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 275,684 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 6 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | free-for-dev 围绕「A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 133,288 | HTML | `AI 设计` `大模型` `RAG` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
-| 7 | [modular/modular](https://github.com/modular/modular) | modular 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 13 | 28,699 | Mojo | `AI 教程` `学习路径` `工程实践` `AI 编程` `多模态` | ★★★★☆ | 高 |
-| 8 | [truefoundry/trueforge](https://github.com/truefoundry/trueforge) | trueforge 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 2,980 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★☆☆☆ | 高 |
-| 9 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 11 | 52,737 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 10 | [guillaumemeyer/watermarks-remover](https://github.com/guillaumemeyer/watermarks-remover) | watermarks-remover 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 11 | 16,643 | Python | `OCR` `视觉 AI` `多模态` `OpenAI` `智能体` | ★★★☆☆ | 高 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 34 | 185,286 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 232,200 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 3 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 113,578 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
+| 4 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | free-for-dev 围绕「A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 133,944 | HTML | `AI 设计` `大模型` `RAG` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
+| 5 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 8 | 18,376 | TypeScript | `AI 设计` `智能体` `AI 编程` `视觉 AI` `开发工具` | ★★★☆☆ | 中 |
+| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 79,358 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 7 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 51,305 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 8 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 109,588 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 9 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 6 | 27,432 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 5 | 242,199 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-21.json](data/2026-08-21.json)
-- Markdown 归档：[reports/2026-08-21.md](reports/2026-08-21.md)
+- JSON 数据：[data/2026-08-22.json](data/2026-08-22.json)
+- Markdown 归档：[reports/2026-08-22.md](reports/2026-08-22.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
