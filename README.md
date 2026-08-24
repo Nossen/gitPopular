@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-22 (Asia/Shanghai)
+## 最新榜单：2026-08-23 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 34 | 185,286 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 232,200 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 3 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 113,578 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
-| 4 | [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | free-for-dev 围绕「A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev」提供 AI 相关开源能力，适合快速评估和原型验证。 | 9 | 133,944 | HTML | `AI 设计` `大模型` `RAG` `AI 编程` `视觉 AI` | ★★★★★ | 高 |
-| 5 | [anywhere-labs/deepseek-harness-desktop](https://github.com/anywhere-labs/deepseek-harness-desktop) | deepseek-harness-desktop 围绕「为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 8 | 18,376 | TypeScript | `AI 设计` `智能体` `AI 编程` `视觉 AI` `开发工具` | ★★★☆☆ | 中 |
-| 6 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | taste-skill 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 79,358 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 51,305 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | graphify 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 6 | 109,588 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 9 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 6 | 27,432 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 5 | 242,199 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 188,503 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 2 | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | FreeToken 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 3,508 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 233,993 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 4 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | needle 围绕「14MB foundation model for tiny devices; phones, wearables, smart home, and robots.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 8,764 | Python | `大模型` `RAG` `智能体` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 108,886 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 6 | [k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | Wand-Enhancer 围绕「Advanced UX and interoperability extension for Wand (WeMod) app」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 20,168 | C# | `AI 编程` `智能体` `多模态` `开发工具` `AI 设计` | ★★★★☆ | 高 |
+| 7 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | unlazy 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 1,741 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
+| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 3 | 147,641 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
+| 9 | [NanoNets/Graft](https://github.com/NanoNets/Graft) | Graft 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 4,554 | TypeScript | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 10 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 115,524 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-22.json](data/2026-08-22.json)
-- Markdown 归档：[reports/2026-08-22.md](reports/2026-08-22.md)
+- JSON 数据：[data/2026-08-23.json](data/2026-08-23.json)
+- Markdown 归档：[reports/2026-08-23.md](reports/2026-08-23.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
