@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-23 (Asia/Shanghai)
+## 最新榜单：2026-08-24 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 188,503 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 2 | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | FreeToken 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 8 | 3,508 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 233,993 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 4 | [cactus-compute/needle](https://github.com/cactus-compute/needle) | needle 围绕「14MB foundation model for tiny devices; phones, wearables, smart home, and robots.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 8,764 | Python | `大模型` `RAG` `智能体` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 108,886 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 6 | [k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | Wand-Enhancer 围绕「Advanced UX and interoperability extension for Wand (WeMod) app」提供 AI 相关开源能力，适合快速评估和原型验证。 | 3 | 20,168 | C# | `AI 编程` `智能体` `多模态` `开发工具` `AI 设计` | ★★★★☆ | 高 |
-| 7 | [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy) | unlazy 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 1,741 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 8 | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) | agency-agents 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 3 | 147,641 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★★ | 高 |
-| 9 | [NanoNets/Graft](https://github.com/NanoNets/Graft) | Graft 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 3 | 4,554 | TypeScript | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★☆☆ | 高 |
-| 10 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 115,524 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
+| 1 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 7 | 192,360 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 2 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 109,836 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 3 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | awesome-gpt-image-2 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 6 | 15,700 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 5 | 235,512 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 5 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | book-to-skill 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 4 | 25,264 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 中 |
+| 6 | [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) | grok-bot-0.18-reconstructed 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 1,862 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 7 | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | FreeToken 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 5,577 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 8 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | andrej-karpathy-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 206,597 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 低 |
+| 9 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | hermes-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 235,867 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
+| 10 | [openai/codex](https://github.com/openai/codex) | codex 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 3 | 117,196 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `Rust` | ★★★★★ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-23.json](data/2026-08-23.json)
-- Markdown 归档：[reports/2026-08-23.md](reports/2026-08-23.md)
+- JSON 数据：[data/2026-08-24.json](data/2026-08-24.json)
+- Markdown 归档：[reports/2026-08-24.md](reports/2026-08-24.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
