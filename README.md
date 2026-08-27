@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-26 (Asia/Shanghai)
+## 最新榜单：2026-08-27 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 6,107 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 199,387 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 3 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | awesome-gpt-image-2 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 12 | 22,450 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★★☆ | 中 |
-| 4 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 20,903 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 238,525 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 6 | [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken) | FreeToken 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 8,685 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 7 | [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut) | OpenCut 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 87,097 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★★☆ | 高 |
-| 8 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 6 | 113,400 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 9 | [github/spec-kit](https://github.com/github/spec-kit) | spec-kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 6 | 131,801 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★★ | 高 |
-| 10 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | ai-engineering-from-scratch 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 6 | 49,886 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `大模型` | ★★★★☆ | 高 |
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 35 | 22,162 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 22 | 199,908 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 3 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | awesome-gpt-image-2 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 14 | 22,813 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★★☆ | 中 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 113,720 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 5 | [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) | grok-bot-0.18-reconstructed 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 3,326 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 6 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 6,977 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 7 | [Webeoidentify/Honeypot-Detector](https://github.com/Webeoidentify/Honeypot-Detector) | Honeypot-Detector 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 9 | 2,235 | TypeScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★☆☆☆ | 高 |
+| 8 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 37,149 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 9 | [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive) | OpenExecutive 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 7 | 1,357 | Python | `前端生成` `网站复刻` `AI 编程` `大模型` `RAG` | ★★☆☆☆ | 高 |
+| 10 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 55,003 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-26.json](data/2026-08-26.json)
-- Markdown 归档：[reports/2026-08-26.md](reports/2026-08-26.md)
+- JSON 数据：[data/2026-08-27.json](data/2026-08-27.json)
+- Markdown 归档：[reports/2026-08-27.md](reports/2026-08-27.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
