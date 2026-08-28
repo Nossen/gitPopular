@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-27 (Asia/Shanghai)
+## 最新榜单：2026-08-28 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 35 | 22,162 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 22 | 199,908 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 3 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | awesome-gpt-image-2 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 14 | 22,813 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★★☆ | 中 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 113,720 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 5 | [b-nnett/grok-bot-0.18-reconstructed](https://github.com/b-nnett/grok-bot-0.18-reconstructed) | grok-bot-0.18-reconstructed 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 3,326 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 6 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 9 | 6,977 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 7 | [Webeoidentify/Honeypot-Detector](https://github.com/Webeoidentify/Honeypot-Detector) | Honeypot-Detector 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 9 | 2,235 | TypeScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★☆☆☆ | 高 |
-| 8 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 37,149 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 9 | [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive) | OpenExecutive 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 7 | 1,357 | Python | `前端生成` `网站复刻` `AI 编程` `大模型` `RAG` | ★★☆☆☆ | 高 |
-| 10 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 55,003 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 26,547 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 25 | 10,550 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 201,832 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 4 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | jiuwenswarm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 4,847 | Python | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★☆☆ | 高 |
+| 5 | [sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST) | PRAXIST 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 1,433 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 115,097 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 7 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | awesome-gpt-image-2 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 10 | 24,133 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★★☆ | 中 |
+| 8 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | ui-ux-pro-max-skill 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 10 | 122,493 | Python | `前端生成` `网站复刻` `AI 编程` `大模型` `多模态` | ★★★★★ | 中 |
+| 9 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | MoneyPrinterTurbo 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 9 | 118,016 | Python | `AI 视频` `内容生产` `多模态` `大模型` `智能体` | ★★★★★ | 中 |
+| 10 | [SenteLabsAI/OpenExecutive](https://github.com/SenteLabsAI/OpenExecutive) | OpenExecutive 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 8 | 2,171 | Python | `前端生成` `网站复刻` `AI 编程` `大模型` `RAG` | ★★☆☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-27.json](data/2026-08-27.json)
-- Markdown 归档：[reports/2026-08-27.md](reports/2026-08-27.md)
+- JSON 数据：[data/2026-08-28.json](data/2026-08-28.json)
+- Markdown 归档：[reports/2026-08-28.md](reports/2026-08-28.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
