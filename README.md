@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-30 (Asia/Shanghai)
+## 最新榜单：2026-08-31 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 45 | 33,815 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 2 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | OpenMAIC 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 19 | 23,536 | TypeScript | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 204,500 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 4 | [k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer) | Wand-Enhancer 围绕「Advanced UX and interoperability extension for Wand (WeMod) app」提供 AI 相关开源能力，适合快速评估和原型验证。 | 12 | 22,792 | C# | `AI 编程` `智能体` `多模态` `开发工具` `AI 设计` | ★★★★☆ | 高 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 241,665 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 6 | [omacom/omarchy](https://github.com/omacom/omarchy) | omarchy 围绕「Beautiful, Modern & Opinionated Linux」提供 AI 相关开源能力，适合快速评估和原型验证。 | 12 | 35,333 | Shell | `AI 工具` `Shell` `高增长` | ★★★★☆ | 低 |
-| 7 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 10 | 54,540 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
-| 8 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 116,999 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 9 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | scientific-agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 38,850 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 10 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | jiuwenswarm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 5,879 | Python | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★☆☆ | 高 |
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 37,820 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 2 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | OpenMAIC 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 24 | 26,461 | TypeScript | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 206,238 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 4 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 58,212 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 5 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | scientific-agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 40,510 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 6 | [sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST) | PRAXIST 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 5,435 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 7 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 9 | 59,141 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | hermes-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 238,878 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
+| 9 | [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) | screenshot-to-code 围绕「Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)」提供 AI 相关开源能力，适合快速评估和原型验证。 | 8 | 76,649 | Python | `多模态` `大模型` `智能体` `AI 编程` `模型推理` | ★★★★☆ | 高 |
+| 10 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 14,396 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-30.json](data/2026-08-30.json)
-- Markdown 归档：[reports/2026-08-30.md](reports/2026-08-30.md)
+- JSON 数据：[data/2026-08-31.json](data/2026-08-31.json)
+- Markdown 归档：[reports/2026-08-31.md](reports/2026-08-31.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
