@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-08-31 (Asia/Shanghai)
+## 最新榜单：2026-09-01 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 37,820 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 2 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | OpenMAIC 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 24 | 26,461 | TypeScript | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 206,238 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 4 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 58,212 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | scientific-agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 40,510 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 6 | [sapientinc/PRAXIST](https://github.com/sapientinc/PRAXIST) | PRAXIST 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 5,435 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 7 | [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | OmniRoute 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 9 | 59,141 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | hermes-agent 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 238,878 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
-| 9 | [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code) | screenshot-to-code 围绕「Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)」提供 AI 相关开源能力，适合快速评估和原型验证。 | 8 | 76,649 | Python | `多模态` `大模型` `智能体` `AI 编程` `模型推理` | ★★★★☆ | 高 |
-| 10 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 14,396 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 41,463 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 2 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | OpenMAIC 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 19 | 29,216 | TypeScript | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 14 | 33,707 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 119,698 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 5 | [yanliudesign/mono-color-skill](https://github.com/yanliudesign/mono-color-skill) | mono-color-skill 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 11 | 2,732 | Python | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★☆☆☆ | 中 |
+| 6 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 207,849 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 91,403 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 8 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 13,491 | Python | `智能体` `大模型` `RAG` `多模态` `模型推理` | ★★★☆☆ | 高 |
+| 9 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | minimind 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 7 | 56,897 | Python | `AI 教程` `学习路径` `工程实践` `多模态` `大模型` | ★★★★☆ | 中 |
+| 10 | [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) | codex-chatgpt-web 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 3,758 | TypeScript | `AI 编程` `开发工具` `工作流` `MCP` `OpenAI` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-08-31.json](data/2026-08-31.json)
-- Markdown 归档：[reports/2026-08-31.md](reports/2026-08-31.md)
+- JSON 数据：[data/2026-09-01.json](data/2026-09-01.json)
+- Markdown 归档：[reports/2026-09-01.md](reports/2026-09-01.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
