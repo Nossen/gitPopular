@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-01 (Asia/Shanghai)
+## 最新榜单：2026-09-02 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 41,463 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 2 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | OpenMAIC 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 19 | 29,216 | TypeScript | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [zhaoxuya520/reverse-skill](https://github.com/zhaoxuya520/reverse-skill) | reverse-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 14 | 33,707 | PowerShell | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 119,698 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 5 | [yanliudesign/mono-color-skill](https://github.com/yanliudesign/mono-color-skill) | mono-color-skill 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 11 | 2,732 | Python | `OCR` `视觉 AI` `多模态` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 6 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 8 | 207,849 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 7 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 91,403 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 8 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 7 | 13,491 | Python | `智能体` `大模型` `RAG` `多模态` `模型推理` | ★★★☆☆ | 高 |
-| 9 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | minimind 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 7 | 56,897 | Python | `AI 教程` `学习路径` `工程实践` `多模态` `大模型` | ★★★★☆ | 中 |
-| 10 | [miuuyy/codex-chatgpt-web](https://github.com/miuuyy/codex-chatgpt-web) | codex-chatgpt-web 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 3,758 | TypeScript | `AI 编程` `开发工具` `工作流` `MCP` `OpenAI` | ★★★☆☆ | 中 |
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 43,514 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 209,411 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 3 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | codeburn 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 11 | 10,747 | TypeScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | lieflat-charts 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 3,608 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 244,942 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 121,059 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 7 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | CL4R1T4S 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 48,414 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `OpenAI` | ★★★★☆ | 低 |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 59,850 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | awesome-design-md 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 113,503 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
+| 10 | [browser-use/video-use](https://github.com/browser-use/video-use) | video-use 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 23,421 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-01.json](data/2026-09-01.json)
-- Markdown 归档：[reports/2026-09-01.md](reports/2026-09-01.md)
+- JSON 数据：[data/2026-09-02.json](data/2026-09-02.json)
+- Markdown 归档：[reports/2026-09-02.md](reports/2026-09-02.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
