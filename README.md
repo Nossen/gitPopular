@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-02 (Asia/Shanghai)
+## 最新榜单：2026-09-03 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 43,514 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 209,411 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 3 | [getagentseal/codeburn](https://github.com/getagentseal/codeburn) | codeburn 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 11 | 10,747 | TypeScript | `上下文管理` `Agent` `Token 优化` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 4 | [larashero3-dotcom/lieflat-charts](https://github.com/larashero3-dotcom/lieflat-charts) | lieflat-charts 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 3,608 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 244,942 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 6 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 121,059 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 7 | [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | CL4R1T4S 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 48,414 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `OpenAI` | ★★★★☆ | 低 |
-| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 59,850 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 9 | [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | awesome-design-md 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 113,503 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
-| 10 | [browser-use/video-use](https://github.com/browser-use/video-use) | video-use 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 7 | 23,421 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 1 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 25 | 123,087 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 24 | 246,759 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 18 | 15,922 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 高 |
+| 4 | [google-research/timesfm](https://github.com/google-research/timesfm) | timesfm 围绕「TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 18 | 30,616 | Python | `AI 编程` `智能体` `模型推理` `Python` `高增长` | ★★★★☆ | 中 |
+| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 16 | 246,891 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 6 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 16 | 45,395 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 7 | [deeplethe/utopia](https://github.com/deeplethe/utopia) | utopia 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 15 | 3,417 | Rust | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 8 | [anthropics/commerce-agents](https://github.com/anthropics/commerce-agents) | commerce-agents 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 1,399 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★☆☆☆ | 高 |
+| 9 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 60,749 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 10 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 16,792 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-02.json](data/2026-09-02.json)
-- Markdown 归档：[reports/2026-09-02.md](reports/2026-09-02.md)
+- JSON 数据：[data/2026-09-03.json](data/2026-09-03.json)
+- Markdown 归档：[reports/2026-09-03.md](reports/2026-09-03.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
