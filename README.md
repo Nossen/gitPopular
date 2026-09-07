@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-06 (Asia/Shanghai)
+## 最新榜单：2026-09-07 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 920 | 254,052 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 2 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 626 | 250,777 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 618 | 128,938 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 4 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 593 | 50,454 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
-| 5 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 403 | 213,852 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 6 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 332 | 19,600 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★☆ | 高 |
-| 7 | [sebbbi/NoGraphicsAPI](https://github.com/sebbbi/NoGraphicsAPI) | NoGraphicsAPI 围绕「Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my "No Graphics API" blog post and the SIGGRAPH talk.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 325 | 766 | C++ | `AI 设计` `RAG` `AI 编程` `开发工具` `C++` | ★★★☆☆ | 中 |
-| 8 | [lnkiai/m3e-canvas](https://github.com/lnkiai/m3e-canvas) | m3e-canvas 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 324 | 4,186 | TypeScript | `前端生成` `网站复刻` `AI 编程` `大模型` `智能体` | ★★★★☆ | 高 |
-| 9 | [openJiuwen-ai/jiuwenswarm](https://github.com/openJiuwen-ai/jiuwenswarm) | jiuwenswarm 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 315 | 8,133 | Python | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★★☆ | 高 |
-| 10 | [blader/humanizer](https://github.com/blader/humanizer) | humanizer 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 314 | 44,009 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 326 | 252,570 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 309 | 255,967 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 3 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 274 | 52,466 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 258 | 130,728 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 5 | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | ripwire 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 213 | 1,186 | C++ | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 6 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | markitdown 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 185 | 179,854 | Python | `文档转换` `RAG` `知识库` `OpenAI` `多模态` | ★★★★★ | 高 |
+| 7 | [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) | wechat-intelligence-hub 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 166 | 1,741 | Python | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 中 |
+| 8 | [blader/humanizer](https://github.com/blader/humanizer) | humanizer 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 155 | 44,897 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 9 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 150 | 215,050 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 10 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 147 | 33,213 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-06.json](data/2026-09-06.json)
-- Markdown 归档：[reports/2026-09-06.md](reports/2026-09-06.md)
+- JSON 数据：[data/2026-09-07.json](data/2026-09-07.json)
+- Markdown 归档：[reports/2026-09-07.md](reports/2026-09-07.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
