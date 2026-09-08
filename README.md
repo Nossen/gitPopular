@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-07 (Asia/Shanghai)
+## 最新榜单：2026-09-08 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 326 | 252,570 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 309 | 255,967 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 3 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 274 | 52,466 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
-| 4 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 258 | 130,728 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 5 | [redhat-et/ripwire](https://github.com/redhat-et/ripwire) | ripwire 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 213 | 1,186 | C++ | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 6 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | markitdown 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 185 | 179,854 | Python | `文档转换` `RAG` `知识库` `OpenAI` `多模态` | ★★★★★ | 高 |
-| 7 | [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) | wechat-intelligence-hub 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 166 | 1,741 | Python | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 中 |
-| 8 | [blader/humanizer](https://github.com/blader/humanizer) | humanizer 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 155 | 44,897 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
-| 9 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 150 | 215,050 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 10 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 147 | 33,213 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 40 | 54,404 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 2 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | hyperframes 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 33 | 47,541 | TypeScript | `AI 视频` `内容生产` `多模态` `MCP` `AI 编程` | ★★★★☆ | 中 |
+| 3 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | markitdown 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 26 | 181,475 | Python | `文档转换` `RAG` `知识库` `OpenAI` `多模态` | ★★★★★ | 高 |
+| 4 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 24 | 253,972 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 5 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | teamai-cli 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 2,262 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
+| 6 | [jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser) | camofox-browser 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 18 | 10,329 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `自动化` | ★★★☆☆ | 高 |
+| 7 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 34,279 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 216,112 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 9 | [hoochanlon/fq-book](https://github.com/hoochanlon/fq-book) | fq-book 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 17 | 5,380 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `Shell` | ★★★☆☆ | 低 |
+| 10 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 16 | 70,673 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-07.json](data/2026-09-07.json)
-- Markdown 归档：[reports/2026-09-07.md](reports/2026-09-07.md)
+- JSON 数据：[data/2026-09-08.json](data/2026-09-08.json)
+- Markdown 归档：[reports/2026-09-08.md](reports/2026-09-08.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
