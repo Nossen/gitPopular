@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-08 (Asia/Shanghai)
+## 最新榜单：2026-09-09 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 40 | 54,404 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 2 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | hyperframes 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 33 | 47,541 | TypeScript | `AI 视频` `内容生产` `多模态` `MCP` `AI 编程` | ★★★★☆ | 中 |
-| 3 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | markitdown 把多格式文件转成 Markdown/文本，方便接入 LLM、RAG 和资料分析流程。 | 26 | 181,475 | Python | `文档转换` `RAG` `知识库` `OpenAI` `多模态` | ★★★★★ | 高 |
-| 4 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 24 | 253,972 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 5 | [Tencent/teamai-cli](https://github.com/Tencent/teamai-cli) | teamai-cli 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 2,262 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
-| 6 | [jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser) | camofox-browser 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 18 | 10,329 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `自动化` | ★★★☆☆ | 高 |
-| 7 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 34,279 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 216,112 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 9 | [hoochanlon/fq-book](https://github.com/hoochanlon/fq-book) | fq-book 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 17 | 5,380 | Shell | `联网 Agent` `信息抓取` `自动化` `AI 编程` `Shell` | ★★★☆☆ | 低 |
-| 10 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | headroom 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 16 | 70,673 | Python | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 183 | 33,742 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 2 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 77 | 36,316 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 3 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 67 | 20,930 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
+| 4 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 66 | 55,836 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 133,181 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 6 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 50 | 217,322 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 7 | [openai/NavierStokesAndEuler](https://github.com/openai/NavierStokesAndEuler) | NavierStokesAndEuler 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 45 | 1,482 | Lean | `AI 编程` `开发工具` `工作流` `Lean` `高增长` | ★★☆☆☆ | 中 |
+| 8 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 37 | 254,938 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 9 | [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC) | OpenMAIC 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 37 | 34,259 | TypeScript | `AI 教程` `学习路径` `工程实践` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 10 | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) | hyperframes 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 36 | 48,310 | TypeScript | `AI 视频` `内容生产` `多模态` `MCP` `AI 编程` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-08.json](data/2026-09-08.json)
-- Markdown 归档：[reports/2026-09-08.md](reports/2026-09-08.md)
+- JSON 数据：[data/2026-09-09.json](data/2026-09-09.json)
+- Markdown 归档：[reports/2026-09-09.md](reports/2026-09-09.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
