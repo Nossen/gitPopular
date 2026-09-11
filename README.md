@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-10 (Asia/Shanghai)
+## 最新榜单：2026-09-11 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 193 | 37,445 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
-| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 94 | 218,931 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 3 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 82 | 23,176 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
-| 4 | [BrawlerRectify/kpvwgise](https://github.com/BrawlerRectify/kpvwgise) | kpvwgise 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 71 | 1,648 | 未知 | `智能体` `自动化` `工具调用` `大模型` `视觉 AI` | ★★☆☆☆ | 低 |
-| 5 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 67 | 57,103 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 6 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | awesome-gpt-image-2 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 61 | 30,745 | JavaScript | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★★☆ | 中 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 57 | 134,477 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 55 | 37,500 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 9 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 48 | 258,637 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 10 | [k2-fsa/OmniVoice](https://github.com/k2-fsa/OmniVoice) | OmniVoice 围绕「High-Quality Voice Cloning TTS for 600+ Languages」提供 AI 相关开源能力，适合快速评估和原型验证。 | 44 | 11,668 | Python | `多模态` `AI 编程` `模型推理` `NLP` `开发工具` | ★★★☆☆ | 中 |
+| 1 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 868 | 26,435 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
+| 2 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 841 | 40,849 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 354 | 220,381 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 4 | [BenyRonald77/uajy-academic-rag-chatbot](https://github.com/BenyRonald77/uajy-academic-rag-chatbot) | uajy-academic-rag-chatbot 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 326 | 915 | Python | `RAG` `知识库` `上下文` `大模型` `AI 编程` | ★★★☆☆ | 中 |
+| 5 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 324 | 58,313 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 6 | [github/spec-kit](https://github.com/github/spec-kit) | spec-kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 318 | 135,644 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★★ | 高 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 312 | 135,612 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 8 | [umarhadi/fly-hermes](https://github.com/umarhadi/fly-hermes) | fly-hermes 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 312 | 898 | Shell | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 9 | [sanhaji182/gateway_realtime](https://github.com/sanhaji182/gateway_realtime) | gateway_realtime 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 302 | 898 | TypeScript | `前端生成` `网站复刻` `AI 编程` `开发工具` `多模态` | ★★★☆☆ | 高 |
+| 10 | [randifajar/developer-portfolio](https://github.com/randifajar/developer-portfolio) | developer-portfolio 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 296 | 898 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `NLP` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-10.json](data/2026-09-10.json)
-- Markdown 归档：[reports/2026-09-10.md](reports/2026-09-10.md)
+- JSON 数据：[data/2026-09-11.json](data/2026-09-11.json)
+- Markdown 归档：[reports/2026-09-11.md](reports/2026-09-11.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
