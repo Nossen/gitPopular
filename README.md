@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-11 (Asia/Shanghai)
+## 最新榜单：2026-09-12 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 868 | 26,435 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
-| 2 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 841 | 40,849 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
-| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 354 | 220,381 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 4 | [BenyRonald77/uajy-academic-rag-chatbot](https://github.com/BenyRonald77/uajy-academic-rag-chatbot) | uajy-academic-rag-chatbot 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 326 | 915 | Python | `RAG` `知识库` `上下文` `大模型` `AI 编程` | ★★★☆☆ | 中 |
-| 5 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 324 | 58,313 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
-| 6 | [github/spec-kit](https://github.com/github/spec-kit) | spec-kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 318 | 135,644 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★★ | 高 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 312 | 135,612 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 8 | [umarhadi/fly-hermes](https://github.com/umarhadi/fly-hermes) | fly-hermes 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 312 | 898 | Shell | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 9 | [sanhaji182/gateway_realtime](https://github.com/sanhaji182/gateway_realtime) | gateway_realtime 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 302 | 898 | TypeScript | `前端生成` `网站复刻` `AI 编程` `开发工具` `多模态` | ★★★☆☆ | 高 |
-| 10 | [randifajar/developer-portfolio](https://github.com/randifajar/developer-portfolio) | developer-portfolio 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 296 | 898 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `NLP` | ★★★☆☆ | 高 |
+| 1 | [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd) | i-have-adhd 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 817 | 43,131 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 2 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 708 | 28,915 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
+| 3 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 325 | 221,416 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 4 | [google/artemis](https://github.com/google/artemis) | artemis 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 319 | 3,265 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 5 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 309 | 59,353 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 6 | [tonhowtf/omniget](https://github.com/tonhowtf/omniget) | omniget 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 245 | 10,771 | Rust | `AI 视频` `内容生产` `多模态` `AI 编程` `智能体` | ★★★★☆ | 高 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 244 | 136,409 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 8 | [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader) | douyin-downloader 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 233 | 10,876 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 223 | 23,570 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★★ | 高 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 218 | 260,304 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-11.json](data/2026-09-11.json)
-- Markdown 归档：[reports/2026-09-11.md](reports/2026-09-11.md)
+- JSON 数据：[data/2026-09-12.json](data/2026-09-12.json)
+- Markdown 归档：[reports/2026-09-12.md](reports/2026-09-12.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
