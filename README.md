@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-14 (Asia/Shanghai)
+## 最新榜单：2026-09-15 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [langwatch/langwatch](https://github.com/langwatch/langwatch) | langwatch 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 85 | 4,780 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `OpenAI` | ★★★☆☆ | 高 |
-| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 59 | 28,828 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★☆ | 高 |
-| 3 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 59 | 31,683 | C | `RAG` `AI 编程` `模型推理` `开发工具` `AI 设计` | ★★★★☆ | 中 |
-| 4 | [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book) | ai-infra-book 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 51 | 2,236 | Python | `金融分析` `投研` `自动化` `大模型` `智能体` | ★★☆☆☆ | 中 |
-| 5 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 44 | 33,311 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
-| 6 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 42 | 25,290 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★☆ | 高 |
-| 7 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 33 | 61,988 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 32 | 223,803 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 9 | [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | TradingAgents 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 31 | 105,935 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 26 | 261,956 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 304 | 27,939 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 222 | 3,052 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★★☆ | 中 |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 199 | 30,609 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★★ | 高 |
+| 4 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 180 | 33,416 | C | `RAG` `AI 编程` `模型推理` `开发工具` `AI 设计` | ★★★★★ | 中 |
+| 5 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 166 | 225,209 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 6 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 155 | 63,292 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 7 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 152 | 4,912 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 8 | [shadcn-ui/lint](https://github.com/shadcn-ui/lint) | lint 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 150 | 1,627 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 9 | [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast) | tinycast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 134 | 4,332 | Swift | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★★☆ | 中 |
+| 10 | [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book) | ai-infra-book 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 133 | 3,399 | Python | `金融分析` `投研` `自动化` `大模型` `智能体` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-14.json](data/2026-09-14.json)
-- Markdown 归档：[reports/2026-09-14.md](reports/2026-09-14.md)
+- JSON 数据：[data/2026-09-15.json](data/2026-09-15.json)
+- Markdown 归档：[reports/2026-09-15.md](reports/2026-09-15.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
