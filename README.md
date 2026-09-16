@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-15 (Asia/Shanghai)
+## 最新榜单：2026-09-16 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 304 | 27,939 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 222 | 3,052 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★★☆ | 中 |
-| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 199 | 30,609 | Python | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★★ | 高 |
-| 4 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 180 | 33,416 | C | `RAG` `AI 编程` `模型推理` `开发工具` `AI 设计` | ★★★★★ | 中 |
-| 5 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 166 | 225,209 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 6 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 155 | 63,292 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
-| 7 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 152 | 4,912 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 8 | [shadcn-ui/lint](https://github.com/shadcn-ui/lint) | lint 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 150 | 1,627 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast) | tinycast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 134 | 4,332 | Swift | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★★☆ | 中 |
-| 10 | [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book) | ai-infra-book 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 133 | 3,399 | Python | `金融分析` `投研` `自动化` `大模型` `智能体` | ★★★★☆ | 中 |
+| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 485 | 31,202 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 465 | 6,256 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★★☆ | 中 |
+| 3 | [arnegiacomo/fugleramme](https://github.com/arnegiacomo/fugleramme) | fugleramme 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 299 | 2,284 | Python | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 4 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 248 | 34,813 | C | `RAG` `AI 编程` `模型推理` `开发工具` `AI 设计` | ★★★★★ | 中 |
+| 5 | [supremeguardianhoist/Microsoft-Activation-Scripts](https://github.com/supremeguardianhoist/Microsoft-Activation-Scripts) | Microsoft-Activation-Scripts 围绕「Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 244 | 1,723 | 未知 | `多模态` `AI 编程` `高增长` | ★★★☆☆ | 低 |
+| 6 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 213 | 31,883 | Python | `AI 编程` `智能体` `多模态` `模型推理` `开发工具` | ★★★★★ | 高 |
+| 7 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 211 | 64,610 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 8 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 206 | 35,570 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
+| 9 | [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast) | tinycast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 204 | 5,431 | Swift | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★★☆ | 中 |
+| 10 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 182 | 226,522 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-15.json](data/2026-09-15.json)
-- Markdown 归档：[reports/2026-09-15.md](reports/2026-09-15.md)
+- JSON 数据：[data/2026-09-16.json](data/2026-09-16.json)
+- Markdown 归档：[reports/2026-09-16.md](reports/2026-09-16.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
