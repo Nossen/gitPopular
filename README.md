@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-16 (Asia/Shanghai)
+## 最新榜单：2026-09-17 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 485 | 31,202 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
-| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 465 | 6,256 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★★☆ | 中 |
-| 3 | [arnegiacomo/fugleramme](https://github.com/arnegiacomo/fugleramme) | fugleramme 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 299 | 2,284 | Python | `OCR` `视觉 AI` `多模态` `智能体` `AI 编程` | ★★★☆☆ | 高 |
-| 4 | [JustVugg/colibri](https://github.com/JustVugg/colibri) | colibri 围绕「Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦」提供 AI 相关开源能力，适合快速评估和原型验证。 | 248 | 34,813 | C | `RAG` `AI 编程` `模型推理` `开发工具` `AI 设计` | ★★★★★ | 中 |
-| 5 | [supremeguardianhoist/Microsoft-Activation-Scripts](https://github.com/supremeguardianhoist/Microsoft-Activation-Scripts) | Microsoft-Activation-Scripts 围绕「Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 244 | 1,723 | 未知 | `多模态` `AI 编程` `高增长` | ★★★☆☆ | 低 |
-| 6 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 213 | 31,883 | Python | `AI 编程` `智能体` `多模态` `模型推理` `开发工具` | ★★★★★ | 高 |
-| 7 | [tt-a1i/archify](https://github.com/tt-a1i/archify) | archify 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 211 | 64,610 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
-| 8 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 206 | 35,570 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
-| 9 | [abue-ammar/tinycast](https://github.com/abue-ammar/tinycast) | tinycast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 204 | 5,431 | Swift | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★★☆ | 中 |
-| 10 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 182 | 226,522 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 302 | 10,161 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 2 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 295 | 34,317 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
+| 3 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 198 | 8,565 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★★☆ | 中 |
+| 4 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | brag 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 196 | 3,103 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
+| 5 | [ai-sucks-butt/ai-sucks-butt](https://github.com/ai-sucks-butt/ai-sucks-butt) | ai-sucks-butt 围绕「If you think AI sucks, star the repo.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 184 | 2,759 | Python | `AI 工具` `Python` `高增长` | ★★★☆☆ | 中 |
+| 6 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | BrowserSkill 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 128 | 3,971 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 7 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 116 | 261,088 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 114 | 227,768 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 9 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 108 | 36,867 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
+| 10 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | WeKnora 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 100 | 26,175 | Go | `RAG` `知识库` `上下文` `智能体` `向量检索` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-16.json](data/2026-09-16.json)
-- Markdown 归档：[reports/2026-09-16.md](reports/2026-09-16.md)
+- JSON 数据：[data/2026-09-17.json](data/2026-09-17.json)
+- Markdown 归档：[reports/2026-09-17.md](reports/2026-09-17.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
