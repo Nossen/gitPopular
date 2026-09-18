@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-17 (Asia/Shanghai)
+## 最新榜单：2026-09-18 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 302 | 10,161 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 2 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 295 | 34,317 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
-| 3 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 198 | 8,565 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★★☆ | 中 |
-| 4 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | brag 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 196 | 3,103 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 5 | [ai-sucks-butt/ai-sucks-butt](https://github.com/ai-sucks-butt/ai-sucks-butt) | ai-sucks-butt 围绕「If you think AI sucks, star the repo.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 184 | 2,759 | Python | `AI 工具` `Python` `高增长` | ★★★☆☆ | 中 |
-| 6 | [Tencent/BrowserSkill](https://github.com/Tencent/BrowserSkill) | BrowserSkill 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 128 | 3,971 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 7 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 116 | 261,088 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 114 | 227,768 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 9 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 108 | 36,867 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★★ | 高 |
-| 10 | [Tencent/WeKnora](https://github.com/Tencent/WeKnora) | WeKnora 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 100 | 26,175 | Go | `RAG` `知识库` `上下文` `智能体` `向量检索` | ★★★★★ | 高 |
+| 1 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 229 | 4,871 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★★☆ | 中 |
+| 2 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | fast-jev-compaction 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 205 | 2,768 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★★☆☆ | 中 |
+| 3 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 176 | 12,796 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 151 | 4,913 | HTML | `AI 工具` `HTML` `高增长` | ★★★★☆ | 中 |
+| 5 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 146 | 36,427 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
+| 6 | [bendlang/bend](https://github.com/bendlang/bend) | bend 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 108 | 21,312 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 7 | [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | open-higgsfield 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 94 | 2,971 | TypeScript | `AI 视频` `内容生产` `多模态` `模型推理` `开发工具` | ★★☆☆☆ | 高 |
+| 8 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 86 | 9,926 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 9 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 84 | 228,996 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 10 | [asciimoo/hister](https://github.com/asciimoo/hister) | hister 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 74 | 4,828 | Go | `智能体` `自动化` `工具调用` `MCP` `Go` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-17.json](data/2026-09-17.json)
-- Markdown 归档：[reports/2026-09-17.md](reports/2026-09-17.md)
+- JSON 数据：[data/2026-09-18.json](data/2026-09-18.json)
+- Markdown 归档：[reports/2026-09-18.md](reports/2026-09-18.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
