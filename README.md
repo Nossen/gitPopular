@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-18 (Asia/Shanghai)
+## 最新榜单：2026-09-19 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 229 | 4,871 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★★☆ | 中 |
-| 2 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | fast-jev-compaction 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 205 | 2,768 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★★☆☆ | 中 |
-| 3 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 176 | 12,796 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 151 | 4,913 | HTML | `AI 工具` `HTML` `高增长` | ★★★★☆ | 中 |
-| 5 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 146 | 36,427 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★★ | 高 |
-| 6 | [bendlang/bend](https://github.com/bendlang/bend) | bend 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 108 | 21,312 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
-| 7 | [wide-trace/open-higgsfield](https://github.com/wide-trace/open-higgsfield) | open-higgsfield 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 94 | 2,971 | TypeScript | `AI 视频` `内容生产` `多模态` `模型推理` `开发工具` | ★★☆☆☆ | 高 |
-| 8 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 86 | 9,926 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 84 | 228,996 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 10 | [asciimoo/hister](https://github.com/asciimoo/hister) | hister 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 74 | 4,828 | Go | `智能体` `自动化` `工具调用` `MCP` `Go` | ★★★☆☆ | 高 |
+| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 39 | 15,637 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 2 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 38 | 7,529 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★☆☆ | 中 |
+| 3 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | fast-jev-compaction 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 3,973 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★★☆☆ | 中 |
+| 4 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 37,353 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★☆ | 高 |
+| 5 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | brag 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 18 | 5,663 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 6 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 38,383 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
+| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 229,888 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 265,667 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 9 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 72,429 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 10 | [TianyuCodings/NanoJev](https://github.com/TianyuCodings/NanoJev) | NanoJev 围绕「A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 792 | Python | `多模态` `大模型` `RAG` `AI 编程` `模型推理` | ★★☆☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-18.json](data/2026-09-18.json)
-- Markdown 归档：[reports/2026-09-18.md](reports/2026-09-18.md)
+- JSON 数据：[data/2026-09-19.json](data/2026-09-19.json)
+- Markdown 归档：[reports/2026-09-19.md](reports/2026-09-19.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
