@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-19 (Asia/Shanghai)
+## 最新榜单：2026-09-20 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 39 | 15,637 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 2 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 38 | 7,529 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★☆☆ | 中 |
-| 3 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | fast-jev-compaction 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 3,973 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★★☆☆ | 中 |
-| 4 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 37,353 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★☆ | 高 |
-| 5 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | brag 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 18 | 5,663 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 6 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 38,383 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
-| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 229,888 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 265,667 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 9 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 72,429 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [TianyuCodings/NanoJev](https://github.com/TianyuCodings/NanoJev) | NanoJev 围绕「A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 792 | Python | `多模态` `大模型` `RAG` `AI 编程` `模型推理` | ★★☆☆☆ | 高 |
+| 1 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 51 | 11,154 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★☆☆ | 中 |
+| 2 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 31 | 17,718 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 3 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 2,995 | Python | `智能体` `自动化` `工具调用` `RAG` `模型推理` | ★★☆☆☆ | 高 |
+| 4 | [trycua/cua](https://github.com/trycua/cua) | cua 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 15 | 25,005 | HTML | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 5 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 231,047 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 6 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 97,525 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 7 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 38,247 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★☆ | 高 |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 73,342 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | fast-jev-compaction 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 4,897 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★★☆☆ | 中 |
+| 10 | [bespokelabsai/nimble](https://github.com/bespokelabsai/nimble) | nimble 围绕「Local typed decisions, contrastive data curation, and model evaluation.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 11 | 954 | Python | `AI 编程` `RAG` `模型推理` `开发工具` `Python` | ★★☆☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-19.json](data/2026-09-19.json)
-- Markdown 归档：[reports/2026-09-19.md](reports/2026-09-19.md)
+- JSON 数据：[data/2026-09-20.json](data/2026-09-20.json)
+- Markdown 归档：[reports/2026-09-20.md](reports/2026-09-20.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
