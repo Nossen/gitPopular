@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-21 (Asia/Shanghai)
+## 最新榜单：2026-09-22 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 52 | 9,227 | Python | `智能体` `自动化` `工具调用` `RAG` `模型推理` | ★★★☆☆ | 高 |
-| 2 | [zai-org/ZCode](https://github.com/zai-org/ZCode) | ZCode 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 32 | 5,446 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `AI 设计` | ★★★☆☆ | 高 |
-| 3 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 29 | 15,204 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★☆☆ | 中 |
-| 4 | [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | laya-mlx 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 22 | 3,400 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `RAG` | ★★★☆☆ | 中 |
-| 5 | [Albert-Weasker/niubigeo](https://github.com/Albert-Weasker/niubigeo) | niubigeo 围绕「Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ \| Paid services: AI testing by real people and GEO optimization. Pricing: https://ni…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 21 | 4,667 | TypeScript | `多模态` `大模型` `AI 编程` `模型推理` `NLP` | ★★★☆☆ | 高 |
-| 6 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 21 | 11,013 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★☆☆ | 高 |
-| 7 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 5,527 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 8 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 11 | 17,537 | TypeScript | `前端生成` `网站复刻` `AI 编程` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 9 | [BuilderIO/agent-native](https://github.com/BuilderIO/agent-native) | agent-native 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 5,768 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 10 | [tamaratran/fast-jev-compaction](https://github.com/tamaratran/fast-jev-compaction) | fast-jev-compaction 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 5,898 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `模型推理` | ★★★☆☆ | 中 |
+| 1 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 269 | 15,563 | Python | `智能体` `自动化` `工具调用` `RAG` `模型推理` | ★★★★☆ | 高 |
+| 2 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 141 | 17,819 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★★☆ | 中 |
+| 3 | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | jev-chat-jarvis 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 106 | 3,577 | Kotlin | `联网 Agent` `信息抓取` `自动化` `大模型` `智能体` | ★★★★☆ | 中 |
+| 4 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 84 | 7,265 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 5 | [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | laya-mlx 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 68 | 5,222 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `RAG` | ★★★☆☆ | 中 |
+| 6 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | kev 围绕「tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own」提供 AI 相关开源能力，适合快速评估和原型验证。 | 62 | 3,657 | Python | `智能体` `RAG` `AI 编程` `模型推理` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 54 | 12,274 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★☆☆ | 高 |
+| 8 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 51 | 19,951 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 9 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 51 | 18,293 | TypeScript | `前端生成` `网站复刻` `AI 编程` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 10 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 46 | 233,306 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-21.json](data/2026-09-21.json)
-- Markdown 归档：[reports/2026-09-21.md](reports/2026-09-21.md)
+- JSON 数据：[data/2026-09-22.json](data/2026-09-22.json)
+- Markdown 归档：[reports/2026-09-22.md](reports/2026-09-22.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
