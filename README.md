@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-22 (Asia/Shanghai)
+## 最新榜单：2026-09-23 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 269 | 15,563 | Python | `智能体` `自动化` `工具调用` `RAG` `模型推理` | ★★★★☆ | 高 |
-| 2 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 141 | 17,819 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★★☆ | 中 |
-| 3 | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | jev-chat-jarvis 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 106 | 3,577 | Kotlin | `联网 Agent` `信息抓取` `自动化` `大模型` `智能体` | ★★★★☆ | 中 |
-| 4 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 84 | 7,265 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 5 | [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx) | laya-mlx 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 68 | 5,222 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `RAG` | ★★★☆☆ | 中 |
-| 6 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | kev 围绕「tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own」提供 AI 相关开源能力，适合快速评估和原型验证。 | 62 | 3,657 | Python | `智能体` `RAG` `AI 编程` `模型推理` `开发工具` | ★★★☆☆ | 高 |
-| 7 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 54 | 12,274 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★☆☆ | 高 |
-| 8 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 51 | 19,951 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock) | OpenStock 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 51 | 18,293 | TypeScript | `前端生成` `网站复刻` `AI 编程` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 10 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 46 | 233,306 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 1 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 围绕「Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 81 | 19,874 | Python | `智能体` `RAG` `AI 编程` `模型推理` `视觉 AI` | ★★★☆☆ | 高 |
+| 2 | [hypit-ai/hypit](https://github.com/hypit-ai/hypit) | hypit 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 39 | 15,312 | TypeScript | `AI 视频` `内容生产` `多模态` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 3 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 8,750 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 4 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | kev 围绕「tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own」提供 AI 相关开源能力，适合快速评估和原型验证。 | 37 | 5,676 | Python | `智能体` `RAG` `AI 编程` `模型推理` `开发工具` | ★★★☆☆ | 高 |
+| 5 | [unreallabsai/unreal-agent](https://github.com/unreallabsai/unreal-agent) | unreal-agent 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 1,610 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★☆☆☆ | 中 |
+| 6 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | cc-switch 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 36 | 135,568 | Rust | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★★★ | 中 |
+| 7 | [CopilotKit/openmuse](https://github.com/CopilotKit/openmuse) | openmuse 围绕「A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 29 | 1,655 | TypeScript | `智能体` `AI 编程` `多模态` `模型推理` `开发工具` | ★★☆☆☆ | 高 |
+| 8 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 28 | 26,442 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
+| 9 | [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | rocketride-server 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 25 | 10,389 | Python | `RAG` `知识库` `上下文` `MCP` `大模型` | ★★★☆☆ | 高 |
+| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 24 | 20,755 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-22.json](data/2026-09-22.json)
-- Markdown 归档：[reports/2026-09-22.md](reports/2026-09-22.md)
+- JSON 数据：[data/2026-09-23.json](data/2026-09-23.json)
+- Markdown 归档：[reports/2026-09-23.md](reports/2026-09-23.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
