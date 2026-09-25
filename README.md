@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-24 (Asia/Shanghai)
+## 最新榜单：2026-09-25 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 围绕「Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 56 | 22,620 | Python | `智能体` `RAG` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
-| 2 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 28 | 10,031 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 3 | [dream-num/univer](https://github.com/dream-num/univer) | univer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 25 | 17,363 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
-| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 25 | 14,063 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★☆☆ | 高 |
-| 5 | [jaredpalmer/kev](https://github.com/jaredpalmer/kev) | kev 围绕「Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own」提供 AI 相关开源能力，适合快速评估和原型验证。 | 25 | 6,672 | Python | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★☆☆ | 高 |
-| 6 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 77,364 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 7 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 19 | 27,519 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
-| 8 | [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) | jev-ultrafast 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 19,689 | Python | `智能体` `自动化` `工具调用` `大模型` `多模态` | ★★★☆☆ | 中 |
-| 9 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 16 | 184,198 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 10 | [jev-chat/jev-chat-jarvis](https://github.com/jev-chat/jev-chat-jarvis) | jev-chat-jarvis 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 16 | 5,949 | Kotlin | `联网 Agent` `信息抓取` `自动化` `大模型` `智能体` | ★★★☆☆ | 中 |
+| 1 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | paperclip 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 40 | 84,253 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 2 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 37 | 16,001 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★☆☆ | 高 |
+| 3 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 围绕「Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 26 | 24,348 | Python | `智能体` `RAG` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
+| 4 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 26 | 29,567 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
+| 5 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 24 | 11,310 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
+| 6 | [dream-num/univer](https://github.com/dream-num/univer) | univer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 18,296 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [devdotfast/whiteboard](https://github.com/devdotfast/whiteboard) | whiteboard 围绕「open-source canvas for thoughtful software design」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 1,140 | TypeScript | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★☆☆☆ | 中 |
+| 8 | [Contrastive-LM/CLM](https://github.com/Contrastive-LM/CLM) | CLM 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 17 | 1,187 | Python | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 9 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | ai-engineering-from-scratch 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 17 | 57,308 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `大模型` | ★★★★☆ | 高 |
+| 10 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 235,892 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-24.json](data/2026-09-24.json)
-- Markdown 归档：[reports/2026-09-24.md](reports/2026-09-24.md)
+- JSON 数据：[data/2026-09-25.json](data/2026-09-25.json)
+- Markdown 归档：[reports/2026-09-25.md](reports/2026-09-25.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
