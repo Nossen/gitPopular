@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-26 (Asia/Shanghai)
+## 最新榜单：2026-09-27 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 42 | 31,353 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
-| 2 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | paperclip 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 38 | 86,604 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 31 | 17,981 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★☆☆ | 高 |
-| 4 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | brag 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 19 | 9,394 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 5 | [pacifio/atlas](https://github.com/pacifio/atlas) | atlas 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 7,379 | TypeScript | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★☆☆ | 高 |
-| 6 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 围绕「Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 16 | 25,561 | Python | `智能体` `RAG` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
-| 7 | [google/ax](https://github.com/google/ax) | ax 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 11,852 | Go | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 高 |
-| 8 | [agentlas-ai/Agentlas-OS](https://github.com/agentlas-ai/Agentlas-OS) | Agentlas-OS 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 1,520 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 146,349 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 10 | [dream-num/univer](https://github.com/dream-num/univer) | univer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 19,076 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
+| 1 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 43 | 36,629 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
+| 2 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | paperclip 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 35 | 89,179 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 31 | 39,382 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 4 | [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | rocketride-server 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 31 | 15,670 | Python | `RAG` `知识库` `上下文` `MCP` `大模型` | ★★★☆☆ | 高 |
+| 5 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 围绕「按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。」提供 AI 相关开源能力，适合快速评估和原型验证。 | 24 | 20,431 | HTML | `大模型` `AI 编程` `HTML` `高增长` | ★★★★☆ | 高 |
+| 6 | [latent-spaces/brag](https://github.com/latent-spaces/brag) | brag 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 14 | 10,613 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 7 | [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya) | laya 围绕「Non-autoregressive System 1 decision engine. Typed choice, score and yes/no decisions over any text in a single forward pass, in 100+ languages, with a router that picks the right…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 13 | 26,530 | Python | `智能体` `RAG` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 高 |
+| 8 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | hyperswitch 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 10 | 44,854 | Rust | `金融分析` `投研` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [pacifio/atlas](https://github.com/pacifio/atlas) | atlas 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 9 | 7,966 | Rust | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★☆☆ | 高 |
+| 10 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | ai-engineering-from-scratch 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 9 | 59,028 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-26.json](data/2026-09-26.json)
-- Markdown 归档：[reports/2026-09-26.md](reports/2026-09-26.md)
+- JSON 数据：[data/2026-09-27.json](data/2026-09-27.json)
+- Markdown 归档：[reports/2026-09-27.md](reports/2026-09-27.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
