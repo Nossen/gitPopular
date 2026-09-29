@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-09-28 (Asia/Shanghai)
+## 最新榜单：2026-09-29 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 48 | 40,601 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
-| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 38 | 43,078 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 3 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | paperclip 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 92,253 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 24,370 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
-| 5 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 238,658 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 6 | [dream-num/univer](https://github.com/dream-num/univer) | univer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 21,103 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `开发工具` | ★★★★☆ | 高 |
-| 7 | [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | ai-engineering-from-scratch 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 11 | 60,190 | Python | `AI 教程` `学习路径` `工程实践` `智能体` `大模型` | ★★★★☆ | 高 |
-| 8 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 10 | 268,823 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 9 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 10 | 80,518 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
-| 10 | [rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server) | rocketride-server 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 9 | 17,137 | Python | `RAG` `知识库` `上下文` `MCP` `大模型` | ★★★☆☆ | 高 |
+| 1 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 76 | 47,447 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 2 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 54 | 27,748 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
+| 3 | [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT) | AIHOT 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 49 | 2,926 | TypeScript | `智能体` `自动化` `工具调用` `大模型` `MCP` | ★★☆☆☆ | 高 |
+| 4 | [paperclipai/paperclip](https://github.com/paperclipai/paperclip) | paperclip 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 38 | 94,250 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 5 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 38 | 42,613 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
+| 6 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 10,372 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 7 | [firelex/jeff](https://github.com/firelex/jeff) | jeff 围绕「Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification」提供 AI 相关开源能力，适合快速评估和原型验证。 | 25 | 960 | Python | `模型推理` `AI 编程` `多模态` `开发工具` `Python` | ★★☆☆☆ | 中 |
+| 8 | [spinabot/brigade](https://github.com/spinabot/brigade) | brigade 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 25 | 9,284 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 9 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 239,896 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 19 | 269,505 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-09-28.json](data/2026-09-28.json)
-- Markdown 归档：[reports/2026-09-28.md](reports/2026-09-28.md)
+- JSON 数据：[data/2026-09-29.json](data/2026-09-29.json)
+- Markdown 归档：[reports/2026-09-29.md](reports/2026-09-29.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
