@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-01 (Asia/Shanghai)
+## 最新榜单：2026-10-02 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 84 | 13,824 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 2 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 63 | 18,197 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 3 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 62 | 4,232 | C++ | `多模态` `智能体` `RAG` `AI 编程` `模型推理` | ★★★☆☆ | 高 |
-| 4 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 59 | 51,178 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 5 | [Louis-CFM/coucou](https://github.com/Louis-CFM/coucou) | coucou 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 59 | 2,249 | Swift | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 6 | [archestra-ai/OpenAPPA](https://github.com/archestra-ai/OpenAPPA) | OpenAPPA 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 56 | 1,151 | Rust | `安全研究` `工具链` `Agent` `安全` `AI 编程` | ★★☆☆☆ | 中 |
-| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 49 | 150,076 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 8 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 49 | 33,296 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
-| 9 | [nanaism/yomiyasu](https://github.com/nanaism/yomiyasu) | yomiyasu 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 880 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
-| 10 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 36 | 87,256 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 1 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 88 | 35,255 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
+| 2 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 65 | 4,315 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 64 | 151,468 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 4 | [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots) | OpenDots 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 53 | 1,273 | TypeScript | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★☆☆☆ | 高 |
+| 5 | [tester-army/e2e](https://github.com/tester-army/e2e) | e2e 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 51 | 1,652 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `模型推理` | ★★☆☆☆ | 中 |
+| 6 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 48 | 5,920 | C++ | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★☆☆ | 高 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 43 | 274,557 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 8 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 42 | 88,326 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 41 | 51,775 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 10 | [earendil-works/pi](https://github.com/earendil-works/pi) | pi 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 38 | 111,710 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-01.json](data/2026-10-01.json)
-- Markdown 归档：[reports/2026-10-01.md](reports/2026-10-01.md)
+- JSON 数据：[data/2026-10-02.json](data/2026-10-02.json)
+- Markdown 归档：[reports/2026-10-02.md](reports/2026-10-02.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
