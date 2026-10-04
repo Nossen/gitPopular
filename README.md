@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-03 (Asia/Shanghai)
+## 最新榜单：2026-10-04 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 114 | 8,091 | C++ | `AI 编程` `大模型` `智能体` `RAG` `多模态` | ★★★★☆ | 高 |
-| 2 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 96 | 36,949 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
-| 3 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 91 | 5,788 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 4 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 73 | 89,584 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 66 | 152,920 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 6 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 58 | 272,011 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 7 | [experientiallabs/experiential](https://github.com/experientiallabs/experiential) | experiential 围绕「Experiential is the open source, zero markup gateway for BYOK, self-hosted and 1000+ marketplace models. It learns from your traffic to cut costs, recommend better models, and tra…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 54 | 8,417 | Python | `AI 编程` `大模型` `智能体` `模型推理` `开发工具` | ★★★☆☆ | 高 |
-| 8 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 46 | 19,934 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 9 | [CopilotKit/OpenDots](https://github.com/CopilotKit/OpenDots) | OpenDots 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 40 | 2,159 | TypeScript | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★☆☆☆ | 高 |
-| 10 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 38 | 74,994 | JavaScript | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 中 |
+| 1 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 95 | 39,997 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
+| 2 | [neilsonnn/image-blaster](https://github.com/neilsonnn/image-blaster) | image-blaster 围绕「An image-to-world skillset for Claude.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 85 | 7,565 | TypeScript | `多模态` `大模型` `模型推理` `开发工具` `TypeScript` | ★★★☆☆ | 中 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 73 | 154,530 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 4 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 53 | 7,278 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 5 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 42 | 10,188 | C++ | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 6 | [omnirush-ai/omnirush-gui](https://github.com/omnirush-ai/omnirush-gui) | omnirush-gui 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 38 | 1,066 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
+| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 30 | 76,061 | JavaScript | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 中 |
+| 8 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 28 | 272,759 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 28 | 90,611 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
+| 10 | [LAMDA-NeSy/Research-Starter-Kit](https://github.com/LAMDA-NeSy/Research-Starter-Kit) | Research-Starter-Kit 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 3,618 | 未知 | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★★☆☆ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-03.json](data/2026-10-03.json)
-- Markdown 归档：[reports/2026-10-03.md](reports/2026-10-03.md)
+- JSON 数据：[data/2026-10-04.json](data/2026-10-04.json)
+- Markdown 归档：[reports/2026-10-04.md](reports/2026-10-04.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
