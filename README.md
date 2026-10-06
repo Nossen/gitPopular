@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-05 (Asia/Shanghai)
+## 最新榜单：2026-10-06 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 66 | 5,048 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `MCP` | ★★★☆☆ | 高 |
-| 2 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 55 | 43,275 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
-| 3 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 51 | 13,429 | C++ | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 4 | [neilsonnn/image-blaster](https://github.com/neilsonnn/image-blaster) | image-blaster 围绕「An image-to-world skillset for Claude.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 31 | 9,533 | TypeScript | `多模态` `大模型` `模型推理` `开发工具` `TypeScript` | ★★★☆☆ | 中 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 155,847 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 6 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | openGym 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 25 | 3,941 | JavaScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★☆☆ | 高 |
-| 7 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 23 | 21,133 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 8 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 23 | 9,012 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 9 | [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach) | Agent-Reach 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 22 | 91,725 | Python | `联网 Agent` `信息抓取` `自动化` `智能体` `AI 编程` | ★★★★☆ | 高 |
-| 10 | [kargulstudio/sales-crm](https://github.com/kargulstudio/sales-crm) | sales-crm 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 21 | 1,368 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `多模态` | ★★☆☆☆ | 高 |
+| 1 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 60 | 46,237 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
+| 2 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 50 | 10,807 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 3 | [tester-army/e2e](https://github.com/tester-army/e2e) | e2e 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 42 | 5,875 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `模型推理` | ★★★☆☆ | 中 |
+| 4 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 39 | 7,696 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `MCP` | ★★★☆☆ | 高 |
+| 5 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 37 | 15,266 | C++ | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 6 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 3,237 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 7 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | odysseus 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 28 | 91,043 | Python | `智能体` `自动化` `工具调用` `RAG` `多模态` | ★★★★☆ | 高 |
+| 8 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | openGym 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 26 | 5,232 | JavaScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★☆☆ | 高 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 156,563 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 10 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 18 | 64,556 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-05.json](data/2026-10-05.json)
-- Markdown 归档：[reports/2026-10-05.md](reports/2026-10-05.md)
+- JSON 数据：[data/2026-10-06.json](data/2026-10-06.json)
+- Markdown 归档：[reports/2026-10-06.md](reports/2026-10-06.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
