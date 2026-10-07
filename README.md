@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-06 (Asia/Shanghai)
+## 最新榜单：2026-10-07 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 60 | 46,237 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
-| 2 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 50 | 10,807 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
-| 3 | [tester-army/e2e](https://github.com/tester-army/e2e) | e2e 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 42 | 5,875 | TypeScript | `前端生成` `网站复刻` `AI 编程` `智能体` `模型推理` | ★★★☆☆ | 中 |
-| 4 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 39 | 7,696 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `MCP` | ★★★☆☆ | 高 |
-| 5 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 37 | 15,266 | C++ | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 6 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 3,237 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 7 | [odysseus-dev/odysseus](https://github.com/odysseus-dev/odysseus) | odysseus 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 28 | 91,043 | Python | `智能体` `自动化` `工具调用` `RAG` `多模态` | ★★★★☆ | 高 |
-| 8 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | openGym 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 26 | 5,232 | JavaScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★★☆☆ | 高 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 156,563 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 10 | [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage) | OpenMontage 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 18 | 64,556 | Python | `AI 视频` `内容生产` `多模态` `智能体` `OpenAI` | ★★★★☆ | 中 |
+| 1 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 323 | 14,360 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 2 | [openai/math](https://github.com/openai/math) | math 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 240 | 8,350 | Lean | `AI 编程` `开发工具` `工作流` `模型推理` `AI 教程` | ★★★★☆ | 中 |
+| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 136 | 13,121 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `MCP` | ★★★★☆ | 高 |
+| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 100 | 49,976 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★★ | 高 |
+| 5 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | Compositor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 57 | 10,890 | Swift | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★☆☆ | 中 |
+| 6 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 54 | 4,259 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★☆☆ | 中 |
+| 7 | [shader-effects-inc/shaders](https://github.com/shader-effects-inc/shaders) | shaders 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 49 | 2,292 | TypeScript | `智能体` `自动化` `工具调用` `MCP` `大模型` | ★★☆☆☆ | 高 |
+| 8 | [storytold/filmcraft](https://github.com/storytold/filmcraft) | filmcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 47 | 2,755 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★☆☆☆ | 中 |
+| 9 | [Niko1221/Strata](https://github.com/Niko1221/Strata) | Strata 围绕「Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 46 | 16,751 | C++ | `智能体` `大模型` `RAG` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 10 | [lexmount/moli](https://github.com/lexmount/moli) | moli 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 45 | 12,220 | Rust | `联网 Agent` `信息抓取` `自动化` `智能体` `RAG` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-06.json](data/2026-10-06.json)
-- Markdown 归档：[reports/2026-10-06.md](reports/2026-10-06.md)
+- JSON 数据：[data/2026-10-07.json](data/2026-10-07.json)
+- Markdown 归档：[reports/2026-10-07.md](reports/2026-10-07.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
