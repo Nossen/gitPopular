@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-09 (Asia/Shanghai)
+## 最新榜单：2026-10-10 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 307 | 39,129 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 154 | 32,961 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★★ | 高 |
-| 3 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 74 | 10,481 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★☆☆ | 中 |
-| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 43 | 56,828 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
-| 5 | [storytold/lightcraft](https://github.com/storytold/lightcraft) | lightcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 38 | 7,150 | Rust | `智能体` `自动化` `工具调用` `多模态` `开发工具` | ★★★☆☆ | 高 |
-| 6 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 36 | 47,571 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 7 | [robbietilton/Compositor](https://github.com/robbietilton/Compositor) | Compositor 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 36 | 14,660 | Swift | `智能体` `自动化` `工具调用` `RAG` `AI 编程` | ★★★☆☆ | 中 |
-| 8 | [storytold/filmcraft](https://github.com/storytold/filmcraft) | filmcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 33 | 6,536 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 中 |
-| 9 | [mhtsec/ARTEX](https://github.com/mhtsec/ARTEX) | ARTEX 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 31 | 2,046 | Go | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★☆☆☆ | 高 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 29 | 282,270 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 535 | 67,004 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 144 | 40,536 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★★ | 高 |
+| 3 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 60 | 13,692 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★☆☆ | 中 |
+| 4 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 43 | 58,703 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
+| 5 | [storytold/filmcraft](https://github.com/storytold/filmcraft) | filmcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 40 | 8,260 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 中 |
+| 6 | [storytold/lightcraft](https://github.com/storytold/lightcraft) | lightcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 33 | 8,712 | Rust | `智能体` `自动化` `工具调用` `多模态` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | wordcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 32 | 2,902 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 8 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 31 | 284,069 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 9 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 48,707 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 10 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 26 | 6,723 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-09.json](data/2026-10-09.json)
-- Markdown 归档：[reports/2026-10-09.md](reports/2026-10-09.md)
+- JSON 数据：[data/2026-10-10.json](data/2026-10-10.json)
+- Markdown 归档：[reports/2026-10-10.md](reports/2026-10-10.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
