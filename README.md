@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-12 (Asia/Shanghai)
+## 最新榜单：2026-10-13 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 474 | 147,389 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 61 | 52,413 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 3 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 52 | 21,102 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★★☆ | 中 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 49 | 11,772 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 5 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | wordcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 8,681 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 6 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | anatomy 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 5,732 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 7 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 53,273 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
-| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 52,278 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 9 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 22 | 60,109 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 10 | [liseami/CCBaga](https://github.com/liseami/CCBaga) | CCBaga 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 1,561 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 578 | 197,868 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 45 | 24,797 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★★☆ | 中 |
+| 3 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 56,859 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 32 | 13,879 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 5 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | anatomy 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 7,854 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
+| 6 | [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view) | gods-eye-view 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 25 | 54,926 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★★☆ | 高 |
+| 7 | [storytold/wordcraft](https://github.com/storytold/wordcraft) | wordcraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 25 | 10,637 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 8 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 53,755 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 9 | [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | free-claude-code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 60,067 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 289,225 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-12.json](data/2026-10-12.json)
-- Markdown 归档：[reports/2026-10-12.md](reports/2026-10-12.md)
+- JSON 数据：[data/2026-10-13.json](data/2026-10-13.json)
+- Markdown 归档：[reports/2026-10-13.md](reports/2026-10-13.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
