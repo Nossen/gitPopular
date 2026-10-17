@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-16 (Asia/Shanghai)
+## 最新榜单：2026-10-17 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 491 | 287,268 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 45 | 70,562 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 3 | [storytold/photocraft](https://github.com/storytold/photocraft) | photocraft 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 35 | 64,652 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 4 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | claude-plugins-official 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 33 | 40,198 | Python | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★★☆ | 高 |
-| 5 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 33 | 30,279 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★★☆ | 中 |
-| 6 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | xerj 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 32 | 6,695 | Rust | `安全研究` `工具链` `Agent` `RAG` `大模型` | ★★★☆☆ | 高 |
-| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 293,813 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
-| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 19,167 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 9 | [wheresryan22/anatomy](https://github.com/wheresryan22/anatomy) | anatomy 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 26 | 13,754 | JavaScript | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 10 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | scientific-agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 25 | 51,280 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 331 | 303,068 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 58 | 21,360 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 41 | 72,673 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 4 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 32 | 49,711 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 27 | 282,117 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
+| 6 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | claude-plugins-official 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 41,380 | Python | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★★☆ | 高 |
+| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 22 | 251,959 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 8 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 21 | 31,459 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★★☆ | 中 |
+| 9 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 56,839 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 10 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 65,079 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-16.json](data/2026-10-16.json)
-- Markdown 归档：[reports/2026-10-16.md](reports/2026-10-16.md)
+- JSON 数据：[data/2026-10-17.json](data/2026-10-17.json)
+- Markdown 归档：[reports/2026-10-17.md](reports/2026-10-17.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
