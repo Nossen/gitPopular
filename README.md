@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-17 (Asia/Shanghai)
+## 最新榜单：2026-10-18 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 331 | 303,068 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 58 | 21,360 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 41 | 72,673 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 4 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 32 | 49,711 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 5 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 27 | 282,117 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
-| 6 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | claude-plugins-official 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 41,380 | Python | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★★☆ | 高 |
-| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 22 | 251,959 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 8 | [storytold/artcraft](https://github.com/storytold/artcraft) | artcraft 围绕「ArtCraft is an intentional crafting engine for artists, designers, and filmmakers」提供 AI 相关开源能力，适合快速评估和原型验证。 | 21 | 31,459 | Rust | `多模态` `大模型` `模型推理` `Rust` `高增长` | ★★★★☆ | 中 |
-| 9 | [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | diagram-design 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 56,839 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 10 | [eternity4719/HowToLiveBetter](https://github.com/eternity4719/HowToLiveBetter) | HowToLiveBetter 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 65,079 | HTML | `AI 编程` `开发工具` `工作流` `大模型` `HTML` | ★★★★☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 462 | 318,470 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 123 | 24,453 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★★ | 高 |
+| 3 | [google-research/harness2](https://github.com/google-research/harness2) | harness2 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 87 | 4,568 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 4 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 81 | 52,112 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 5 | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | claude-plugins-official 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 47 | 42,436 | Python | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★★☆ | 高 |
+| 6 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 47 | 74,634 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 7 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | Filee 围绕「Free, open-source file converter. Convert 180+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no O…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 47 | 3,729 | C# | `多模态` `智能体` `AI 编程` `NLP` `开发工具` | ★★★☆☆ | 中 |
+| 8 | [Gathin23/tv-vibehack](https://github.com/Gathin23/tv-vibehack) | tv-vibehack 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 43 | 1,288 | Java | `AI 编程` `开发工具` `工作流` `大模型` `多模态` | ★★☆☆☆ | 中 |
+| 9 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 36 | 96,255 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★☆ | 中 |
+| 10 | [yetone/magpie](https://github.com/yetone/magpie) | magpie 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 35 | 15,785 | Go | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-17.json](data/2026-10-17.json)
-- Markdown 归档：[reports/2026-10-17.md](reports/2026-10-17.md)
+- JSON 数据：[data/2026-10-18.json](data/2026-10-18.json)
+- Markdown 归档：[reports/2026-10-18.md](reports/2026-10-18.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
