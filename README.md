@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-20 (Asia/Shanghai)
+## 最新榜单：2026-10-21 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 135 | 345,985 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer 围绕「DeepInfer: High-performance, large-scale inference framework for DeepSeek models」提供 AI 相关开源能力，适合快速评估和原型验证。 | 91 | 10,879 | Python | `模型推理` `大模型` `开发工具` `Python` `高增长` | ★★★☆☆ | 中 |
-| 3 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 68 | 10,618 | Java | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★★☆☆ | 中 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 48 | 30,723 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [google-research/harness2](https://github.com/google-research/harness2) | harness2 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 42 | 14,731 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 6 | [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 42 | 59,935 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 7 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | xerj 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 31 | 12,313 | Rust | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★☆☆ | 高 |
-| 8 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | Filee 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 22 | 7,803 | C# | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★☆☆ | 中 |
-| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 169,236 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 17 | 33,659 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 127 | 356,013 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer 围绕「DeepInfer: High-performance, large-scale inference framework for DeepSeek models」提供 AI 相关开源能力，适合快速评估和原型验证。 | 99 | 17,509 | Python | `模型推理` `大模型` `开发工具` `Python` `高增长` | ★★★☆☆ | 中 |
+| 3 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 74 | 17,911 | Java | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★★☆☆ | 中 |
+| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 28 | 33,562 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 171,192 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 6 | [ai-job-search-dev/ai-job-search](https://github.com/ai-job-search-dev/ai-job-search) | ai-job-search 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 25 | 62,764 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 7 | [google-research/harness2](https://github.com/google-research/harness2) | harness2 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 16,979 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 8 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 21 | 35,514 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | Filee 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 8,978 | C# | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★★☆☆ | 中 |
+| 10 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | aerial-tv 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 20 | 1,980 | Kotlin | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★☆☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-20.json](data/2026-10-20.json)
-- Markdown 归档：[reports/2026-10-20.md](reports/2026-10-20.md)
+- JSON 数据：[data/2026-10-21.json](data/2026-10-21.json)
+- Markdown 归档：[reports/2026-10-21.md](reports/2026-10-21.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
