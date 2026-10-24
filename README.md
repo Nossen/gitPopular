@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-23 (Asia/Shanghai)
+## 最新榜单：2026-10-24 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 81 | 371,937 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 59 | 27,260 | Java | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 3 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 42 | 41,514 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 37 | 38,939 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 174,632 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
-| 6 | [seedds/nxnative](https://github.com/seedds/nxnative) | nxnative 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 2,470 | C | `AI 编程` `开发工具` `工作流` `RAG` `模型推理` | ★★☆☆☆ | 中 |
-| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 259,326 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 8 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 17 | 18,566 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
-| 9 | [xerj-org/xerj](https://github.com/xerj-org/xerj) | xerj 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 15 | 14,130 | Rust | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★☆☆ | 高 |
-| 10 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 14 | 82,785 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 198 | 377,014 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 112 | 30,735 | Java | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 71 | 41,015 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 65 | 43,620 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 5 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 63 | 84,492 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 6 | [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) | OpenShell 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 41 | 19,266 | Rust | `智能体` `自动化` `工具调用` `AI 编程` `多模态` | ★★★☆☆ | 高 |
+| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 39 | 260,310 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 8 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 38 | 175,336 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 9 | [YuJunZhiXue/dsh-purge](https://github.com/YuJunZhiXue/dsh-purge) | dsh-purge 围绕「DeepSeek Harness 破甲：让所有模型都能破甲，不同模型可换不同提示词；默认提示词面向国模「小码酱」。Jailbreak for every model — swap prompts per model. 求 Star 收藏 ⭐ 如要二开，请查看署名要求部分」提供 AI 相关开源能力，适合快速评估和原型验证。 | 34 | 7,978 | JavaScript | `模型推理` `大模型` `RAG` `AI 编程` `开发工具` | ★★★☆☆ | 高 |
+| 10 | [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) | DeepInfer 围绕「DeepInfer: High-performance, large-scale inference framework for DeepSeek models」提供 AI 相关开源能力，适合快速评估和原型验证。 | 31 | 21,690 | Python | `模型推理` `大模型` `开发工具` `Python` `高增长` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-23.json](data/2026-10-23.json)
-- Markdown 归档：[reports/2026-10-23.md](reports/2026-10-23.md)
+- JSON 数据：[data/2026-10-24.json](data/2026-10-24.json)
+- Markdown 归档：[reports/2026-10-24.md](reports/2026-10-24.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
