@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-25 (Asia/Shanghai)
+## 最新榜单：2026-10-26 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 55 | 383,115 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | gpu-unlock 围绕「Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents」提供 AI 相关开源能力，适合快速评估和原型验证。 | 33 | 5,795 | C | `大模型` `RAG` `多模态` `C` `高增长` | ★★★☆☆ | 中 |
-| 3 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 28 | 34,179 | Java | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 4 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 24 | 46,310 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [JustAResearcher/gpu-unlock-ada](https://github.com/JustAResearcher/gpu-unlock-ada) | gpu-unlock-ada 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 2,320 | C | `AI 编程` `开发工具` `工作流` `智能体` `多模态` | ★★☆☆☆ | 中 |
-| 6 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 22 | 86,228 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 7 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 42,759 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ai-design-skills 围绕「AI Design Skills」提供 AI 相关开源能力，适合快速评估和原型验证。 | 20 | 4,824 | 未知 | `AI 编程` `大模型` `智能体` `NLP` `AI 设计` | ★★★☆☆ | 低 |
-| 9 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 18 | 87,345 | Rust | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 中 |
-| 10 | [ludovic111/horizon](https://github.com/ludovic111/horizon) | horizon 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 17 | 1,764 | Rust | `AI 教程` `学习路径` `工程实践` `智能体` `AI 编程` | ★★☆☆☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 69 | 389,840 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 35 | 38,295 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 3 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ai-design-skills 围绕「AI Design Skills」提供 AI 相关开源能力，适合快速评估和原型验证。 | 24 | 7,439 | 未知 | `AI 编程` `大模型` `智能体` `NLP` `AI 设计` | ★★★☆☆ | 低 |
+| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 44,581 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 5 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 35,569 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 6 | [Zagitta/gpu-unlock](https://github.com/Zagitta/gpu-unlock) | gpu-unlock 围绕「Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents」提供 AI 相关开源能力，适合快速评估和原型验证。 | 20 | 8,924 | C | `大模型` `RAG` `多模态` `C` `高增长` | ★★★☆☆ | 中 |
+| 7 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 88,419 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
+| 8 | [makecindy/cindy](https://github.com/makecindy/cindy) | cindy 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 6,042 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 9 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 16 | 88,741 | Rust | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 中 |
+| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 15 | 48,116 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-25.json](data/2026-10-25.json)
-- Markdown 归档：[reports/2026-10-25.md](reports/2026-10-25.md)
+- JSON 数据：[data/2026-10-26.json](data/2026-10-26.json)
+- Markdown 归档：[reports/2026-10-26.md](reports/2026-10-26.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
