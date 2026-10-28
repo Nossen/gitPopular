@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-27 (Asia/Shanghai)
+## 最新榜单：2026-10-28 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 77 | 396,396 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 35 | 38,611 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 3 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 33 | 91,026 | Python | `AI 编程` `大模型` `智能体` `多模态` `模型推理` | ★★★★☆ | 高 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 46,661 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 41,361 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 6 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 29 | 45,582 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
-| 7 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 围绕「The design language that makes your AI harness better at design.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 22 | 90,286 | Rust | `智能体` `大模型` `AI 编程` `模型推理` `NLP` | ★★★★☆ | 中 |
-| 8 | [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | andrej-karpathy-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 225,361 | 未知 | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 低 |
-| 9 | [rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner) | android-ad-cleaner 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 3,138 | Python | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 中 |
-| 10 | [seedds/nxnative](https://github.com/seedds/nxnative) | nxnative 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 7,514 | Objective-C | `AI 编程` `开发工具` `工作流` `RAG` `模型推理` | ★★★☆☆ | 中 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 58 | 401,086 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 40 | 48,619 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 3 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 29 | 47,584 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
+| 4 | [AienTech/dossier](https://github.com/AienTech/dossier) | dossier 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 28 | 2,511 | TypeScript | `前端生成` `网站复刻` `AI 编程` `大模型` `多模态` | ★★☆☆☆ | 高 |
+| 5 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 91,985 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 6 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 25 | 43,307 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 7 | [unclebob/ub-mode](https://github.com/unclebob/ub-mode) | ub-mode 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 23 | 3,478 | 未知 | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 低 |
+| 8 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 40,285 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 9 | [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills) | ai-design-skills 围绕「AI Design Skills」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 10,808 | 未知 | `AI 编程` `大模型` `智能体` `NLP` `AI 设计` | ★★★☆☆ | 低 |
+| 10 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | elephant-goldfish-model 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 4,268 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-27.json](data/2026-10-27.json)
-- Markdown 归档：[reports/2026-10-27.md](reports/2026-10-27.md)
+- JSON 数据：[data/2026-10-28.json](data/2026-10-28.json)
+- Markdown 归档：[reports/2026-10-28.md](reports/2026-10-28.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
