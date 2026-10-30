@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-29 (Asia/Shanghai)
+## 最新榜单：2026-10-30 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 69 | 406,443 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 50 | 50,647 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 3 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 32 | 94,734 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 4 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 24 | 49,492 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
-| 5 | [Edge0-AI/Edge0](https://github.com/Edge0-AI/Edge0) | Edge0 围绕「Run 35B MoE models in ~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads a step ahead. Mac, iPhone, Android, Windows supported」提供 AI 相关开源能力，适合快速评估和原型验证。 | 20 | 8,698 | Python | `模型推理` `RAG` `AI 编程` `NLP` `开发工具` | ★★★☆☆ | 高 |
-| 6 | [KnifeLemon/Filee](https://github.com/KnifeLemon/Filee) | Filee 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 17,276 | C# | `AI 编程` `开发工具` `工作流` `多模态` `NLP` | ★★★☆☆ | 中 |
-| 7 | [vectorize-io/hindsight](https://github.com/vectorize-io/hindsight) | hindsight 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 19 | 56,084 | Python | `上下文管理` `Agent` `Token 优化` `智能体` `RAG` | ★★★★☆ | 高 |
-| 8 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 45,001 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
-| 9 | [seedds/nxnative](https://github.com/seedds/nxnative) | nxnative 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 9,451 | Objective-C | `AI 编程` `开发工具` `工作流` `RAG` `模型推理` | ★★★☆☆ | 中 |
-| 10 | [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) | ai-pose-gallery-zh 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 17 | 2,961 | HTML | `联网 Agent` `信息抓取` `自动化` `多模态` `开发工具` | ★★☆☆☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 71 | 411,122 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 2 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 33 | 96,654 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 3 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | jailbreaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 10,332 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
+| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 28 | 52,495 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 5 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 26 | 51,503 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
+| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | claude-mem 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 26 | 105,697 | TypeScript | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 7 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 2,140 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
+| 8 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Claude-Code-Game-Studios 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 30,227 | Shell | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 低 |
+| 9 | [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) | ai-pose-gallery-zh 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 21 | 3,865 | HTML | `联网 Agent` `信息抓取` `自动化` `多模态` `大模型` | ★★★☆☆ | 高 |
+| 10 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 46,331 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-29.json](data/2026-10-29.json)
-- Markdown 归档：[reports/2026-10-29.md](reports/2026-10-29.md)
+- JSON 数据：[data/2026-10-30.json](data/2026-10-30.json)
+- Markdown 归档：[reports/2026-10-30.md](reports/2026-10-30.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
