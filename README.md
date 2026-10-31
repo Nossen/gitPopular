@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-10-30 (Asia/Shanghai)
+## 最新榜单：2026-10-31 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 71 | 411,122 | TypeScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 2 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 33 | 96,654 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 3 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | jailbreaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 10,332 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 28 | 52,495 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 26 | 51,503 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
-| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | claude-mem 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 26 | 105,697 | TypeScript | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★★ | 高 |
-| 7 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 2,140 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 中 |
-| 8 | [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios) | Claude-Code-Game-Studios 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 30,227 | Shell | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 低 |
-| 9 | [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) | ai-pose-gallery-zh 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 21 | 3,865 | HTML | `联网 Agent` `信息抓取` `自动化` `多模态` `大模型` | ★★★☆☆ | 高 |
-| 10 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | cleanyourtv 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 46,331 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 中 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 68 | 414,854 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 2 | [heydamir/unslop](https://github.com/heydamir/unslop) | unslop 围绕「A Claude skill that turns vibecoded, AI-looking UI into a designed interface」提供 AI 相关开源能力，适合快速评估和原型验证。 | 43 | 3,038 | JavaScript | `AI 编程` `大模型` `智能体` `多模态` `AI 设计` | ★★★☆☆ | 高 |
+| 3 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 37 | 41,063 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
+| 4 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 36 | 34,621 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 5 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | agent-desktop 围绕「Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 35 | 3,804 | Rust | `智能体` `自动化` `MCP` `AI 编程` `RAG` | ★★★☆☆ | 中 |
+| 6 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | claude-mem 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 33 | 107,452 | TypeScript | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 7 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | Mika 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 2,549 | Kotlin | `智能体` `自动化` `工具调用` `大模型` `模型推理` | ★★☆☆☆ | 高 |
+| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 54,160 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | impeccable 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 98,011 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 10 | [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks) | jailbreaks 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 12,076 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-10-30.json](data/2026-10-30.json)
-- Markdown 归档：[reports/2026-10-30.md](reports/2026-10-30.md)
+- JSON 数据：[data/2026-10-31.json](data/2026-10-31.json)
+- Markdown 归档：[reports/2026-10-31.md](reports/2026-10-31.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
