@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-01 (Asia/Shanghai)
+## 最新榜单：2026-11-02 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | dsh-superagent-prototype 围绕「Towards a More Autonomous Agent System」提供 AI 相关开源能力，适合快速评估和原型验证。 | 94 | 6,311 | TypeScript | `AI 编程` `智能体` `模型推理` `AI 设计` `TypeScript` | ★★★☆☆ | 中 |
-| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 61 | 417,753 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 3 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | agent-desktop 围绕「Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay…」提供 AI 相关开源能力，适合快速评估和原型验证。 | 49 | 6,192 | Rust | `智能体` `自动化` `MCP` `AI 编程` `RAG` | ★★★☆☆ | 中 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 46 | 55,572 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 41 | 37,058 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 6 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | elephant-goldfish-model 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 35 | 8,643 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 7 | [ifixai-ai/iFixAi](https://github.com/ifixai-ai/iFixAi) | iFixAi 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 29 | 42,201 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★★★☆ | 中 |
-| 8 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 4,439 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) | DeepTutor 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 24 | 53,477 | Python | `RAG` `知识库` `上下文` `智能体` `大模型` | ★★★★☆ | 高 |
-| 10 | [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | hallmark 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 44,533 | CSS | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 1 | [deepseek-ai/dsh-superagent-prototype](https://github.com/deepseek-ai/dsh-superagent-prototype) | dsh-superagent-prototype 围绕「Towards a More Autonomous Agent System」提供 AI 相关开源能力，适合快速评估和原型验证。 | 89 | 12,693 | TypeScript | `AI 编程` `智能体` `模型推理` `AI 设计` `TypeScript` | ★★★☆☆ | 中 |
+| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 57 | 422,302 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 3 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 53 | 41,287 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 4 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 39 | 3,484 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 5 | [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop) | agent-desktop 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 39 | 9,099 | Rust | `智能体` `自动化` `工具调用` `MCP` `AI 编程` | ★★★☆☆ | 中 |
+| 6 | [l0ng-ai/openidea](https://github.com/l0ng-ai/openidea) | openidea 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 36 | 4,825 | TypeScript | `RAG` `知识库` `上下文` `AI 编程` `TypeScript` | ★★★☆☆ | 高 |
+| 7 | [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | claude-mem 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 34 | 110,551 | TypeScript | `RAG` `知识库` `上下文` `智能体` `AI 编程` | ★★★★★ | 高 |
+| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 57,219 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [wangzan101/Mika](https://github.com/wangzan101/Mika) | Mika 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 5,199 | Kotlin | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 10 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | elephant-goldfish-model 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 22 | 10,460 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-01.json](data/2026-11-01.json)
-- Markdown 归档：[reports/2026-11-01.md](reports/2026-11-01.md)
+- JSON 数据：[data/2026-11-02.json](data/2026-11-02.json)
+- Markdown 归档：[reports/2026-11-02.md](reports/2026-11-02.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
