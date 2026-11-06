@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-05 (Asia/Shanghai)
+## 最新榜单：2026-11-06 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 52 | 14,437 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
-| 2 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | auto-ontology 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 44 | 6,861 | Python | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★☆☆ | 高 |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 42 | 433,625 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 4 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 31 | 60,895 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 5 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 11,261 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 6 | [JuneYaooo/rea-video](https://github.com/JuneYaooo/rea-video) | rea-video 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 26 | 1,914 | Python | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 7 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 25 | 62,155 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 24 | 273,639 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 9 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 47,854 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 10 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | MoneyPrinterTurbo 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 22 | 139,686 | Python | `AI 视频` `内容生产` `多模态` `大模型` `智能体` | ★★★★★ | 中 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 40 | 436,997 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 2 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 32 | 63,301 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 3 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 29 | 17,346 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 高 |
+| 4 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | OpenMausBot 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 14,801 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 5 | [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology) | auto-ontology 帮助构建知识检索、记忆或图谱上下文，让 AI 更容易理解复杂资料。 | 26 | 8,620 | Python | `RAG` `知识库` `上下文` `大模型` `智能体` | ★★★☆☆ | 高 |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 23 | 316,364 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 7 | [larashero3-dotcom/lieflat-less-ai-tone](https://github.com/larashero3-dotcom/lieflat-less-ai-tone) | lieflat-less-ai-tone 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 6,398 | Python | `智能体` `自动化` `工具调用` `大模型` `RAG` | ★★★☆☆ | 中 |
+| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 117,543 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
+| 9 | [zortos293/Lichii](https://github.com/zortos293/Lichii) | Lichii 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 3,441 | C++ | `AI 编程` `开发工具` `工作流` `C++` `高增长` | ★★★☆☆ | 中 |
+| 10 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 12,775 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-05.json](data/2026-11-05.json)
-- Markdown 归档：[reports/2026-11-05.md](reports/2026-11-05.md)
+- JSON 数据：[data/2026-11-06.json](data/2026-11-06.json)
+- Markdown 归档：[reports/2026-11-06.md](reports/2026-11-06.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
