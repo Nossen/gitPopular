@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-08 (Asia/Shanghai)
+## 最新榜单：2026-11-09 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 40 | 442,859 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 2 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 33 | 22,162 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 3 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 30 | 15,806 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 30 | 66,061 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 23 | 66,511 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
-| 6 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 52,095 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 7 | [zortos293/Lichii](https://github.com/zortos293/Lichii) | Lichii 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 22 | 6,512 | C++ | `AI 编程` `开发工具` `工作流` `C++` `高增长` | ★★★☆☆ | 中 |
-| 8 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | OpenMausBot 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 17,904 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 9 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 15,656 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★☆☆ | 中 |
-| 10 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 318,280 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 1 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 39 | 19,513 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★☆☆ | 中 |
+| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 25 | 446,486 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 3 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 24,264 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 20 | 277,295 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
+| 5 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | elephant-goldfish-model 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 16,282 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
+| 6 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 67,310 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 7 | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | agent_skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 1,774 | 未知 | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 低 |
+| 8 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 53,844 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 9 | [anthropics/skills](https://github.com/anthropics/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 190,725 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 10 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | OpenMausBot 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 19,538 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-08.json](data/2026-11-08.json)
-- Markdown 归档：[reports/2026-11-08.md](reports/2026-11-08.md)
+- JSON 数据：[data/2026-11-09.json](data/2026-11-09.json)
+- Markdown 归档：[reports/2026-11-09.md](reports/2026-11-09.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
