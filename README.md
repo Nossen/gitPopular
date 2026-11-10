@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-09 (Asia/Shanghai)
+## 最新榜单：2026-11-10 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 39 | 19,513 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★☆☆ | 中 |
-| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 25 | 446,486 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 3 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 24,264 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 4 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | deepseek-harness 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 20 | 277,295 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `AI 设计` | ★★★★★ | 高 |
-| 5 | [google/elephant-goldfish-model](https://github.com/google/elephant-goldfish-model) | elephant-goldfish-model 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 16,282 | Python | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 6 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 67,310 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 7 | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | agent_skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 13 | 1,774 | 未知 | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 低 |
-| 8 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 53,844 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 9 | [anthropics/skills](https://github.com/anthropics/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 190,725 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
-| 10 | [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot) | OpenMausBot 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 12 | 19,538 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 1 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 37 | 449,290 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 2 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 32 | 22,166 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★★☆ | 中 |
+| 3 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) | GestaltX 围绕「An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 31 | 4,460 | Swift | `多模态` `AI 编程` `模型推理` `NLP` `开发工具` | ★★★☆☆ | 中 |
+| 4 | [anthropics/skills](https://github.com/anthropics/skills) | skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 192,016 | Python | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 高 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 20 | 320,622 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 6 | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | agent_skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 3,420 | 未知 | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 低 |
+| 7 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 55,353 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
+| 8 | [expo/exact](https://github.com/expo/exact) | exact 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 1,858 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 中 |
+| 9 | [shinyobjectz/raea](https://github.com/shinyobjectz/raea) | raea 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 16 | 1,908 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★☆☆☆ | 高 |
+| 10 | [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | daily_stock_analysis 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 16 | 69,525 | Python | `金融分析` `投研` `自动化` `智能体` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-09.json](data/2026-11-09.json)
-- Markdown 归档：[reports/2026-11-09.md](reports/2026-11-09.md)
+- JSON 数据：[data/2026-11-10.json](data/2026-11-10.json)
+- Markdown 归档：[reports/2026-11-10.md](reports/2026-11-10.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
