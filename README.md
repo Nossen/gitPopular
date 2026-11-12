@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-11 (Asia/Shanghai)
+## 最新榜单：2026-11-12 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 30 | 24,556 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★★☆ | 中 |
-| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 28 | 452,108 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 3 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 4,596 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
-| 4 | [huamidev/GestaltX](https://github.com/huamidev/GestaltX) | GestaltX 围绕「An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 22 | 6,082 | Swift | `多模态` `AI 编程` `模型推理` `NLP` `开发工具` | ★★★☆☆ | 中 |
-| 5 | [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | Claude-Cage 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 22 | 2,941 | Go | `金融分析` `投研` `自动化` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 6 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 20 | 28,118 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 7 | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | agent_skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 5,327 | 未知 | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 低 |
-| 8 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 19,617 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 中 |
-| 9 | [yetone/magpie](https://github.com/yetone/magpie) | magpie 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 34,631 | Go | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 高 |
-| 10 | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | security-audit-skill 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 15 | 70,069 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★★☆ | 中 |
+| 1 | [aws/aws-emulator](https://github.com/aws/aws-emulator) | aws-emulator 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 60 | 4,684 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 2 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 37 | 6,743 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
+| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 37 | 454,759 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 4 | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | agent_skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 24 | 7,466 | 未知 | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★☆☆ | 低 |
+| 5 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 23 | 26,250 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★★☆ | 中 |
+| 6 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 22 | 29,619 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 7 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 21 | 58,062 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 20 | 71,205 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [Lee-xeo/Claude-Cage](https://github.com/Lee-xeo/Claude-Cage) | Claude-Cage 用 LLM 串联行情、新闻和看板，适合验证投研分析自动化。 | 19 | 4,690 | Go | `金融分析` `投研` `自动化` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 10 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | agent-skills 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 116,512 | JavaScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-11.json](data/2026-11-11.json)
-- Markdown 归档：[reports/2026-11-11.md](reports/2026-11-11.md)
+- JSON 数据：[data/2026-11-12.json](data/2026-11-12.json)
+- Markdown 归档：[reports/2026-11-12.md](reports/2026-11-12.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
