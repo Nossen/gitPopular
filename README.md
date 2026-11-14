@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-13 (Asia/Shanghai)
+## 最新榜单：2026-11-14 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 58 | 10,245 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
-| 2 | [vercel-labs/ui](https://github.com/vercel-labs/ui) | ui 围绕「A library of behaviors for agents to build the next generation of user interfaces.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 51 | 3,400 | TypeScript | `智能体` `MCP` `AI 编程` `开发工具` `AI 设计` | ★★★☆☆ | 中 |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 48 | 457,068 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 4 | [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src) | modern-web-guidance-src 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 4,491 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 中 |
-| 5 | [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) | obscura 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 24 | 34,877 | Rust | `智能体` `自动化` `工具调用` `RAG` `多模态` | ★★★★☆ | 高 |
-| 6 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 24 | 31,223 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 7 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 20 | 72,628 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 59,301 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 9 | [meta/astryx](https://github.com/meta/astryx) | astryx 围绕「An open source design system that's fully customizable and agent ready」提供 AI 相关开源能力，适合快速评估和原型验证。 | 19 | 27,265 | TypeScript | `智能体` `AI 编程` `开发工具` `AI 设计` `TypeScript` | ★★★★☆ | 中 |
-| 10 | [aws/aws-emulator](https://github.com/aws/aws-emulator) | aws-emulator 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 6,718 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 1 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 43 | 14,237 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
+| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 21 | 459,434 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 3 | [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | chat-demo 围绕「Chat Demo」提供 AI 相关开源能力，适合快速评估和原型验证。 | 18 | 1,669 | TypeScript | `多模态` `开发工具` `AI 设计` `TypeScript` `高增长` | ★★☆☆☆ | 高 |
+| 4 | [vercel-labs/ui](https://github.com/vercel-labs/ui) | ui 围绕「A library of behaviors for agents to build the next generation of user interfaces.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 17 | 4,438 | TypeScript | `智能体` `MCP` `AI 编程` `开发工具` `AI 设计` | ★★★☆☆ | 中 |
+| 5 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 74,226 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 6 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 32,612 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 7 | [alibaba/open-code-review](https://github.com/alibaba/open-code-review) | open-code-review 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 51,280 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★★☆ | 高 |
+| 8 | [aws/aws-emulator](https://github.com/aws/aws-emulator) | aws-emulator 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 7,978 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `RAG` | ★★★☆☆ | 高 |
+| 9 | [dream-num/univer](https://github.com/dream-num/univer) | univer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 24,370 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `模型推理` | ★★★★☆ | 高 |
+| 10 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 60,397 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-13.json](data/2026-11-13.json)
-- Markdown 归档：[reports/2026-11-13.md](reports/2026-11-13.md)
+- JSON 数据：[data/2026-11-14.json](data/2026-11-14.json)
+- Markdown 归档：[reports/2026-11-14.md](reports/2026-11-14.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
