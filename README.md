@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-16 (Asia/Shanghai)
+## 最新榜单：2026-11-17 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [dream-num/univer](https://github.com/dream-num/univer) | univer 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 35 | 27,687 | TypeScript | `智能体` `自动化` `工具调用` `AI 编程` `模型推理` | ★★★★☆ | 高 |
-| 2 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 34 | 19,895 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★☆☆ | 低 |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 32 | 463,791 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 27 | 77,227 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [hitkeeen/blender-ai-mcp-addon](https://github.com/hitkeeen/blender-ai-mcp-addon) | blender-ai-mcp-addon 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 23 | 2,121 | 未知 | `智能体` `自动化` `工具调用` `大模型` `MCP` | ★★☆☆☆ | 高 |
-| 6 | [deepseek-ai/chat-demo](https://github.com/deepseek-ai/chat-demo) | chat-demo 围绕「Chat Demo」提供 AI 相关开源能力，适合快速评估和原型验证。 | 22 | 4,003 | TypeScript | `多模态` `开发工具` `AI 设计` `TypeScript` `高增长` | ★★★☆☆ | 高 |
-| 7 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 62,602 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 8 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 126,654 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
-| 9 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 16 | 4,638 | Go | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 10 | [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | SkillEvaluator 聚焦视觉识别/OCR 能力，适合把图片或文档中的信息转成可处理文本。 | 15 | 2,519 | Python | `OCR` `视觉 AI` `多模态` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
+| 1 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 21,875 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 低 |
+| 2 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 24 | 465,940 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 3 | [NYLLON-SOFTWARE/SignuDoc](https://github.com/NYLLON-SOFTWARE/SignuDoc) | SignuDoc 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 1,589 | TypeScript | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★☆☆☆ | 高 |
+| 4 | [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) | paper-orchestra 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 2,731 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★☆☆☆ | 中 |
+| 5 | [mattpocock/skills](https://github.com/mattpocock/skills) | skills 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 326,622 | Shell | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★★ | 低 |
+| 6 | [ag-ui-protocol/ag-ui](https://github.com/ag-ui-protocol/ag-ui) | ag-ui 围绕「AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 17 | 19,897 | TypeScript | `智能体` `AI 编程` `大模型` `模型推理` `开发工具` | ★★★☆☆ | 高 |
+| 7 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 14 | 8,803 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 8 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 25,915 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 9 | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | ffmpeg-skill 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 13 | 7,669 | Python | `AI 视频` `内容生产` `多模态` `智能体` `AI 编程` | ★★★☆☆ | 高 |
+| 10 | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ECC 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 12 | 305,281 | JavaScript | `安全研究` `工具链` `Agent` `智能体` `AI 编程` | ★★★★★ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-16.json](data/2026-11-16.json)
-- Markdown 归档：[reports/2026-11-16.md](reports/2026-11-16.md)
+- JSON 数据：[data/2026-11-17.json](data/2026-11-17.json)
+- Markdown 归档：[reports/2026-11-17.md](reports/2026-11-17.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
