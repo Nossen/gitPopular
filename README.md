@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-19 (Asia/Shanghai)
+## 最新榜单：2026-11-20 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 31 | 11,392 | Go | `安全研究` `工具链` `Agent` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 2 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | rust-anything 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 4,868 | Rust | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★☆☆ | 高 |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 23 | 469,684 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 4 | [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | SoduWork 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 3,996 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 5 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 321,911 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
-| 6 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 66,197 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 7 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 80,906 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [google-research/paper-orchestra](https://github.com/google-research/paper-orchestra) | paper-orchestra 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 4,929 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★☆☆ | 中 |
-| 9 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 15 | 12,188 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 10 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 129,695 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
+| 1 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 30 | 13,799 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 2 | [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | SoduWork 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 5,786 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 25 | 471,218 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 4 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 23 | 13,335 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 5 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | linger 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 23 | 2,757 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★☆☆☆ | 高 |
+| 6 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | LoopForge 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 5,246 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★☆☆ | 高 |
+| 7 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 130,794 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
+| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 82,018 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 18 | 205,019 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
+| 10 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 67,520 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-19.json](data/2026-11-19.json)
-- Markdown 归档：[reports/2026-11-19.md](reports/2026-11-19.md)
+- JSON 数据：[data/2026-11-20.json](data/2026-11-20.json)
+- Markdown 归档：[reports/2026-11-20.md](reports/2026-11-20.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
