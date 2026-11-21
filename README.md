@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-20 (Asia/Shanghai)
+## 最新榜单：2026-11-21 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 30 | 13,799 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 2 | [mdiri-ai/SoduWork](https://github.com/mdiri-ai/SoduWork) | SoduWork 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 26 | 5,786 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 25 | 471,218 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 4 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 23 | 13,335 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 5 | [simplexai-labs/linger](https://github.com/simplexai-labs/linger) | linger 帮 Agent 压缩上下文和工具输出，降低 token 成本并保留关键信息。 | 23 | 2,757 | TypeScript | `上下文管理` `Agent` `Token 优化` `智能体` `大模型` | ★★☆☆☆ | 高 |
-| 6 | [Tencent/LoopForge](https://github.com/Tencent/LoopForge) | LoopForge 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 20 | 5,246 | Go | `AI 编程` `开发工具` `工作流` `智能体` `代码审查` | ★★★☆☆ | 高 |
-| 7 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 130,794 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
-| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 82,018 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 9 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 18 | 205,019 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
-| 10 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 67,520 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 1 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 69,105 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 2 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 18 | 14,714 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 高 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 18 | 82,981 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 18 | 472,462 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 5 | [obra/superpowers](https://github.com/obra/superpowers) | superpowers 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 16 | 323,494 | Shell | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★★ | 低 |
+| 6 | [havenicec/google-qr-sms-helper](https://github.com/havenicec/google-qr-sms-helper) | google-qr-sms-helper 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 1,675 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 中 |
+| 7 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 13 | 15,539 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 8 | [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) | firecrawl 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 13 | 205,905 | TypeScript | `联网 Agent` `信息抓取` `自动化` `智能体` `大模型` | ★★★★★ | 高 |
+| 9 | [hatsunemiku-ai/google-one-tools](https://github.com/hatsunemiku-ai/google-one-tools) | google-one-tools 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 13 | 857 | Python | `AI 编程` `开发工具` `工作流` `Python` `高增长` | ★★☆☆☆ | 高 |
+| 10 | [erkamyaman/rust-anything](https://github.com/erkamyaman/rust-anything) | rust-anything 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 11 | 7,212 | Rust | `AI 编程` `开发工具` `工作流` `MCP` `大模型` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-20.json](data/2026-11-20.json)
-- Markdown 归档：[reports/2026-11-20.md](reports/2026-11-20.md)
+- JSON 数据：[data/2026-11-21.json](data/2026-11-21.json)
+- Markdown 归档：[reports/2026-11-21.md](reports/2026-11-21.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
