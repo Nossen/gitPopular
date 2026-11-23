@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-22 (Asia/Shanghai)
+## 最新榜单：2026-11-23 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 71,168 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 2 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 17 | 17,267 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 17 | 473,773 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 4 | [havenicec/google-qr-sms-helper](https://github.com/havenicec/google-qr-sms-helper) | google-qr-sms-helper 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 2,866 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★☆☆☆ | 中 |
-| 5 | [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | minimind 把 AI 工程知识组织成可跟练路径，适合系统学习和团队培训。 | 15 | 68,532 | Python | `AI 教程` `学习路径` `工程实践` `多模态` `大模型` | ★★★★☆ | 中 |
-| 6 | [GoogleChrome/modern-web-guidance](https://github.com/GoogleChrome/modern-web-guidance) | modern-web-guidance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 24,936 | 未知 | `AI 编程` `开发工具` `工作流` `大模型` `智能体` | ★★★★☆ | 低 |
-| 7 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 14 | 41,015 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 8 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 13 | 15,904 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 9 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 13 | 116,386 | Python | `AI 编程` `智能体` `多模态` `模型推理` `开发工具` | ★★★★★ | 中 |
-| 10 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 83,871 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 1 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 29 | 74,129 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 2 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 26 | 19,187 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 3 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 134,149 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
+| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 16 | 84,886 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 5 | [ccch1mneyyy/dsh-Go](https://github.com/ccch1mneyyy/dsh-Go) | dsh-Go 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 30,671 | Dart | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 中 |
+| 6 | [EL4CTEO/fast-anything](https://github.com/EL4CTEO/fast-anything) | fast-anything 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 15 | 2,908 | Rust | `AI 编程` `开发工具` `工作流` `智能体` `MCP` | ★★☆☆☆ | 高 |
+| 7 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 15 | 475,194 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
+| 8 | [storytold/craft-anything](https://github.com/storytold/craft-anything) | craft-anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 15 | 41,919 | Rust | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 9 | [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) | app-store-compliance 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 14 | 4,660 | Shell | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★☆☆ | 低 |
+| 10 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 13 | 17,258 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-22.json](data/2026-11-22.json)
-- Markdown 归档：[reports/2026-11-22.md](reports/2026-11-22.md)
+- JSON 数据：[data/2026-11-23.json](data/2026-11-23.json)
+- Markdown 归档：[reports/2026-11-23.md](reports/2026-11-23.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
