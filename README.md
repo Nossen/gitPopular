@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-24 (Asia/Shanghai)
+## 最新榜单：2026-11-25 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 24 | 77,173 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 2 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 22 | 135,892 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
-| 3 | [4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi) | portwatch-vi 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 20 | 2,521 | JavaScript | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★☆☆☆ | 高 |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 85,948 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
-| 5 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 15 | 19,019 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★☆☆ | 高 |
-| 6 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 11 | 21,211 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 7 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 11 | 64,614 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 8 | [morluto/rea](https://github.com/morluto/rea) | rea 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 11 | 476,933 | TypeScript | `安全研究` `工具链` `Agent` `AI 编程` `MCP` | ★★★★★ | 高 |
-| 9 | [shirudo-dev/shirudo](https://github.com/shirudo-dev/shirudo) | shirudo 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 11 | 1,605 | C | `安全研究` `工具链` `Agent` `安全` `智能体` | ★★☆☆☆ | 高 |
-| 10 | [kunkundi/crossdesk](https://github.com/kunkundi/crossdesk) | crossdesk 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 10 | 7,265 | C++ | `智能体` `自动化` `工具调用` `MCP` `AI 编程` | ★★★☆☆ | 高 |
+| 1 | [fxceless/victory-fork](https://github.com/fxceless/victory-fork) | victory-fork 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 2,937 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★☆☆☆ | 中 |
+| 2 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 65,562 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 3 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 18 | 20,487 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★★☆ | 高 |
+| 4 | [Belobug/VIctory-Belobug-AMD](https://github.com/Belobug/VIctory-Belobug-AMD) | VIctory-Belobug-AMD 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 1,583 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★☆☆☆ | 中 |
+| 5 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 137,744 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
+| 6 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 79,211 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 7 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 13 | 118,294 | Python | `AI 编程` `智能体` `多模态` `模型推理` `开发工具` | ★★★★★ | 中 |
+| 8 | [creekleaderintroduce/autocad](https://github.com/creekleaderintroduce/autocad) | autocad 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 362 | HTML | `智能体` `自动化` `工具调用` `开发工具` `AI 设计` | ★★☆☆☆ | 中 |
+| 9 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 12 | 22,736 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 10 | [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) | ai-pose-gallery-zh 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 11 | 9,162 | TypeScript | `前端生成` `网站复刻` `AI 编程` `多模态` `大模型` | ★★★☆☆ | 高 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-24.json](data/2026-11-24.json)
-- Markdown 归档：[reports/2026-11-24.md](reports/2026-11-24.md)
+- JSON 数据：[data/2026-11-25.json](data/2026-11-25.json)
+- Markdown 归档：[reports/2026-11-25.md](reports/2026-11-25.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
