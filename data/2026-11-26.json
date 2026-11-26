@@ -1,0 +1,629 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Shanghai",
+  "generated_at": "2026-11-26T19:13:22.802759Z",
+  "source": {
+    "stars": "GH Archive WatchEvent",
+    "metadata": "GitHub REST API",
+    "analysis": "Local heuristic fallback"
+  },
+  "items": [
+    {
+      "rank": 1,
+      "repo": "stablyai/orca",
+      "repo_id": 1183888342,
+      "url": "https://github.com/stablyai/orca",
+      "description": "Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.",
+      "language": "TypeScript",
+      "topics": [
+        "agent-ide",
+        "ai-agents",
+        "automation",
+        "bot",
+        "claude-code",
+        "codex",
+        "ghostty",
+        "grok-bot",
+        "hermes-agent",
+        "mobile-app",
+        "muse",
+        "openclaw",
+        "opencode",
+        "orchestration",
+        "pi",
+        "runtime",
+        "swarm",
+        "terminal",
+        "worktrees",
+        "yc-backed"
+      ],
+      "yesterday_new_stars": 27,
+      "total_stars": 140142,
+      "readme_url": "https://github.com/stablyai/orca/blob/main/README.md",
+      "ai_confidence": 0.67,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "orca 主要围绕「Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、知识检索与上下文增强相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于企业知识库、客服问答或研发资料检索，提升大模型回答的准确性和可追溯性。"
+      ],
+      "positioning_zh": "orca 面向代码理解、审查或研发协作场景，主要能力是「Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.」。",
+      "product_view_zh": "从产品/应用角度看，orca 主要服务研发效率。它把「Orca lets you run a fleet of bots with your own subscription (e.g. Claude Code, Grok, Agy, Codex). Available on desktop, mobile and remote runtime.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括CLI、API、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 27 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "自动化"
+      ],
+      "maturity_score": 5,
+      "adoption_difficulty": "高",
+      "recommendation_score": 5,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 2,
+      "repo": "pingdotgg/t3code",
+      "repo_id": 1153130349,
+      "url": "https://github.com/pingdotgg/t3code",
+      "description": "The best way to control Claude Code, Codex and more from any computer or phone",
+      "language": "TypeScript",
+      "topics": [
+        "agent-orchestration",
+        "agents",
+        "ai",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "code",
+        "vibe-coding"
+      ],
+      "yesterday_new_stars": 23,
+      "total_stars": 80727,
+      "readme_url": "https://github.com/pingdotgg/t3code/blob/main/README.md",
+      "ai_confidence": 0.74,
+      "summary_zh": "该项目以 TypeScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "t3code 主要围绕「The best way to control Claude Code, Codex and more from any computer or phone」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ],
+      "positioning_zh": "t3code 面向代码理解、审查或研发协作场景，主要能力是「The best way to control Claude Code, Codex and more from any computer or phone」。",
+      "product_view_zh": "从产品/应用角度看，t3code 主要服务研发效率。它把「The best way to control Claude Code, Codex and more from any computer or phone」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 TypeScript 实现，可见工程信号包括MCP、CLI、服务端组件。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 23 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 3,
+      "repo": "Ebony-Vinyl/dsh-our-free-model",
+      "repo_id": 1385896447,
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "language": "JavaScript",
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "yesterday_new_stars": 21,
+      "total_stars": 88094,
+      "readme_url": "https://github.com/Ebony-Vinyl/dsh-our-free-model/blob/main/README.md",
+      "ai_confidence": 0.83,
+      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "dsh-our-free-model 主要围绕「在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier m…」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、模型训练与推理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "用于模型实验、推理服务验证或内部 AI 平台选型，降低从研究到原型的落地成本。"
+      ],
+      "positioning_zh": "dsh-our-free-model 是一个智能体/自动化工作流项目，核心目标是「在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier m…」。",
+      "product_view_zh": "从产品/应用角度看，dsh-our-free-model 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier m…」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括API、服务端组件。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、AI 编程与代码理解。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "Agent 工具",
+      "highlight_zh": "dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。",
+      "target_users_zh": [
+        "Agent 开发者",
+        "自动化工作流团队",
+        "AI 工具调研者"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "智能体",
+        "自动化",
+        "工具调用",
+        "大模型",
+        "AI 编程"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 4,
+      "repo": "elementalsouls/Claude-BugHunter",
+      "repo_id": 1229774092,
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "language": "Python",
+      "topics": [
+        "ai-security",
+        "anthropic",
+        "application-security",
+        "bug-bounty",
+        "bugbounty",
+        "bugcrowd",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "ethical-hacking",
+        "hackerone",
+        "offensive-security",
+        "pentesting",
+        "red-team",
+        "security-tools",
+        "web-security"
+      ],
+      "yesterday_new_stars": 21,
+      "total_stars": 24272,
+      "readme_url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/README.md",
+      "ai_confidence": 0.65,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "Claude-BugHunter 主要围绕「A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, p…」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "在授权环境中组织逆向、安全测试、工具路由和知识库沉淀。",
+        "把安全研究流程拆成可复用的 Agent 技能或命令链。",
+        "为安全团队建立可审计的实验流程，降低重复配置工具链的成本。"
+      ],
+      "positioning_zh": "Claude-BugHunter 面向授权安全研究和工具编排，核心能力是「A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, p…」。",
+      "product_view_zh": "从产品/应用角度看，Claude-BugHunter 主要服务研发效率。它把「A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, p…」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API、服务端组件。重点应关注授权边界、命令执行隔离、日志审计和工具链可控性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 21 stars，反映出：安全工具也在尝试用 Agent 化方式组织工具链、知识库和重复性分析流程。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "安全研究",
+      "highlight_zh": "Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。",
+      "target_users_zh": [
+        "安全研究员",
+        "授权渗透测试团队",
+        "安全工具开发者"
+      ],
+      "best_use_case_zh": "在授权环境中组织逆向、安全测试和工具路由流程。",
+      "not_suitable_zh": "不适合未授权测试、灰色用途或缺少审计边界的生产环境。",
+      "project_tags_zh": [
+        "安全研究",
+        "工具链",
+        "Agent",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 5,
+      "repo": "BaaRai/ARTEX",
+      "repo_id": 1410961834,
+      "url": "https://github.com/BaaRai/ARTEX",
+      "description": "Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.",
+      "language": "Go",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "bug-bounty",
+        "docker",
+        "golang",
+        "linux",
+        "llm",
+        "mcp",
+        "nextjs",
+        "penetration-testing",
+        "pentest",
+        "postgresql",
+        "rea",
+        "react",
+        "red-team",
+        "security",
+        "security-automation",
+        "sqlite",
+        "typescript"
+      ],
+      "yesterday_new_stars": 20,
+      "total_stars": 22026,
+      "readme_url": "https://github.com/BaaRai/ARTEX/blob/main/README.md",
+      "ai_confidence": 0.82,
+      "summary_zh": "该项目以 Go 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "ARTEX 主要围绕「Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、知识检索与上下文增强、AI 编程与代码理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "把自有或授权网站迁移到现代前端栈，并保留主要视觉和交互细节。",
+        "用于前端学习、页面重构评估或设计还原原型验证。",
+        "快速生成可修改的页面初稿，再由工程师补齐状态管理和业务逻辑。"
+      ],
+      "positioning_zh": "ARTEX 面向网站复刻和前端重建，核心目标是「Actively maintained ARTEX: AI autonomous penetration testing system. Self-hosted, model-agnostic, evidence-backed findings. Community continuation of Autumn-27/ARTEX, AGPL-3.0.」。",
+      "product_view_zh": "从产品/应用角度看，ARTEX 把网页观察、设计 token 提取和组件重建组织成可执行流程。它适合自有站点迁移、前端原型复刻和设计还原学习，但不应绕过版权或服务条款。",
+      "technical_view_zh": "技术选型上，它主要以 Go 实现，可见工程信号包括Docker、MCP、API、TypeScript。重点应关注页面解析、组件还原、样式一致性和生成代码的可维护性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 20 stars，反映出：前端生产力工具正在把页面理解、设计还原和代码生成合并到一个流程中。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "网站/前端生成",
+      "highlight_zh": "ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。",
+      "target_users_zh": [
+        "前端开发者",
+        "设计工程师",
+        "站点迁移团队"
+      ],
+      "best_use_case_zh": "把自有或授权网站迁移到现代前端栈，并保留主要视觉和交互细节。",
+      "not_suitable_zh": "不适合用于仿冒、钓鱼、侵权复刻或未经授权复制他人品牌资产。",
+      "project_tags_zh": [
+        "前端生成",
+        "网站复刻",
+        "AI 编程",
+        "智能体",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 6,
+      "repo": "4lwayz/portwatch-vi",
+      "repo_id": 1467035512,
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.",
+      "language": "JavaScript",
+      "topics": [],
+      "yesterday_new_stars": 18,
+      "total_stars": 5420,
+      "readme_url": "https://github.com/4lwayz/portwatch-vi/blob/main/README.md",
+      "ai_confidence": 0.59,
+      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "portwatch-vi 主要围绕「Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
+        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
+      ],
+      "positioning_zh": "portwatch-vi 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，portwatch-vi 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括API、服务端组件。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 18 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "portwatch-vi 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
+      ],
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "project_tags_zh": [
+        "联网 Agent",
+        "信息抓取",
+        "自动化",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 3,
+      "adoption_difficulty": "高",
+      "recommendation_score": 3,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 7,
+      "repo": "DietrichGebert/ponytail",
+      "repo_id": 1266797999,
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "yesterday_new_stars": 17,
+      "total_stars": 199263,
+      "readme_url": "https://github.com/DietrichGebert/ponytail/blob/main/README.md",
+      "ai_confidence": 0.79,
+      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、自然语言处理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "ponytail 主要围绕「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、自然语言处理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "作为同类开源方案的调研对象，评估其 README、示例和社区活跃度后决定是否引入。"
+      ],
+      "positioning_zh": "ponytail 面向代码理解、审查或研发协作场景，主要能力是「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」。",
+      "product_view_zh": "从产品/应用角度看，ponytail 主要服务研发效率。它把「Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.」包装成可试用的开源能力，适合评估代码审查、代码库理解或开发协作流程中的 AI 增益。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括API。README 和 topics 暗示其核心能力集中在AI 编程与代码理解、大语言模型、智能体与自动化工作流。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 17 stars，反映出：AI 编程工具正在从补全走向代码库级理解和审查。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 编程工作流",
+      "highlight_zh": "ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。",
+      "target_users_zh": [
+        "AI 编程用户",
+        "研发团队",
+        "代码审查/交付负责人"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "AI 编程",
+        "开发工具",
+        "工作流",
+        "智能体",
+        "大模型"
+      ],
+      "maturity_score": 5,
+      "adoption_difficulty": "中",
+      "recommendation_score": 5,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+      ]
+    },
+    {
+      "rank": 8,
+      "repo": "jub0t/Concat",
+      "repo_id": 1346499044,
+      "url": "https://github.com/jub0t/Concat",
+      "description": "The open-source CapCut alternative.",
+      "language": "Rust",
+      "topics": [
+        "ffmpeg",
+        "free-video-editor",
+        "model-context-protocol",
+        "non-linear-editor",
+        "offline-first",
+        "open-source-video-editor",
+        "self-hosted",
+        "video-editing",
+        "video-editing-automation",
+        "video-editing-software",
+        "video-editing-tools",
+        "video-editor",
+        "voice-cloning",
+        "youtube-automation",
+        "youtube-shorts"
+      ],
+      "yesterday_new_stars": 16,
+      "total_stars": 21422,
+      "readme_url": "https://github.com/jub0t/Concat/blob/main/README.md",
+      "ai_confidence": 0.62,
+      "summary_zh": "该项目以 Rust 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "Concat 主要围绕「The open-source CapCut alternative.」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、多媒体生成与理解相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "搭建从选题、脚本、素材、字幕到配音的短视频自动化原型。",
+        "批量生成营销素材、教程视频或产品演示草稿，再由人工做最终审核。",
+        "把多模态生成能力嵌入内容工作流，验证低成本视频生产的可行性。"
+      ],
+      "positioning_zh": "Concat 是 AI 视频生产工具，核心目标是「The open-source CapCut alternative.」。",
+      "product_view_zh": "从产品/应用角度看，Concat 把脚本、素材、字幕、配音和画面生成串成视频生产流程。它适合内容团队或个人开发者验证低成本视频自动化，而不是只做单点生成。",
+      "technical_view_zh": "技术选型上，它主要以 Rust 实现，可见工程信号包括MCP、API、服务端组件。重点应关注生成链路编排、素材依赖、渲染性能、版权控制和人工审核接口。当前接入难度评估为「高」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 16 stars，反映出：内容生产正在从单点生成转向脚本、素材、配音和渲染的端到端工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 视频生产",
+      "highlight_zh": "Concat 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。",
+      "target_users_zh": [
+        "内容创作者",
+        "营销/运营团队",
+        "视频自动化开发者"
+      ],
+      "best_use_case_zh": "用 Concat 快速搭建从主题、脚本、素材到字幕/配音的自动化视频原型。",
+      "not_suitable_zh": "不适合缺少运维、安全和依赖治理能力的团队直接投入生产。",
+      "project_tags_zh": [
+        "AI 视频",
+        "内容生产",
+        "多模态",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "高",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "涉及自托管或服务端部署时，优先评估数据安全、运维成本和可观测性。"
+      ]
+    },
+    {
+      "rank": 9,
+      "repo": "mvanhorn/last30days-skill",
+      "repo_id": 1140843380,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "artificial-intelligence",
+        "automation",
+        "bot",
+        "command-line",
+        "data-science",
+        "dsh",
+        "dsh-plugin",
+        "golang",
+        "instagram",
+        "llms",
+        "nlp",
+        "osint",
+        "polymarket",
+        "python3",
+        "reddit",
+        "terminal",
+        "tiktok",
+        "twitter",
+        "youtube"
+      ],
+      "yesterday_new_stars": 15,
+      "total_stars": 75635,
+      "readme_url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
+      "ai_confidence": 0.86,
+      "summary_zh": "该项目以 Python 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "last30days-skill 主要围绕「AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary」展开，结合 README、topics 和仓库描述来看，可用于AI 编程与代码理解、大语言模型、智能体与自动化工作流、模型训练与推理相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+        "用于竞品监测、舆情观察、选题收集或公开信息尽调。",
+        "把外部信息获取封装成可复用工具，接入内部 Agent 或自动化工作流。"
+      ],
+      "positioning_zh": "last30days-skill 是联网信息获取工具，主要帮助 Agent 读取和搜索外部内容。",
+      "product_view_zh": "从产品/应用角度看，last30days-skill 让 Agent 能访问外部平台信息，适合研究、舆情、竞品和内容运营场景。采用时要重点确认平台权限、稳定性和合规边界。",
+      "technical_view_zh": "技术选型上，它主要以 Python 实现，可见工程信号包括MCP、CLI、API。重点应关注平台适配、限流处理、失败重试、数据合规和结果可追溯性。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 15 stars，反映出：Agent 的价值正在从离线推理扩展到可验证的公开信息获取和任务执行。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "联网 Agent",
+      "highlight_zh": "last30days-skill 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。",
+      "target_users_zh": [
+        "研究型 Agent 开发者",
+        "舆情/竞品分析团队",
+        "内容运营团队"
+      ],
+      "best_use_case_zh": "让研究型 Agent 自动读取公开网页、社媒和视频平台资料并生成报告。",
+      "not_suitable_zh": "不适合在未确认数据来源、平台条款和合规要求前直接自动化生产决策。",
+      "project_tags_zh": [
+        "联网 Agent",
+        "信息抓取",
+        "自动化",
+        "AI 编程",
+        "大模型"
+      ],
+      "maturity_score": 4,
+      "adoption_difficulty": "中",
+      "recommendation_score": 4,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+      ]
+    },
+    {
+      "rank": 10,
+      "repo": "RMvdesi/obsidian-prism",
+      "repo_id": 1460834967,
+      "url": "https://github.com/RMvdesi/obsidian-prism",
+      "description": "Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)",
+      "language": "JavaScript",
+      "topics": [
+        "antigravity",
+        "desktop-customization",
+        "developer-tools",
+        "gplv3",
+        "optical-ui",
+        "spring-animation",
+        "theme",
+        "ui-theme",
+        "webgl2"
+      ],
+      "yesterday_new_stars": 15,
+      "total_stars": 2191,
+      "readme_url": "https://github.com/RMvdesi/obsidian-prism/blob/main/README.md",
+      "ai_confidence": 0.67,
+      "summary_zh": "该项目以 JavaScript 为主要语言，近期新增 stars 较快。综合 README、topics 和仓库描述可见的核心信号包括智能体与自动化工作流、大语言模型、AI 编程与代码理解、开发框架与 SDK；建议结合原始 README、依赖条件、许可证和 issue 活跃度判断生产可用性。",
+      "purpose_zh": "obsidian-prism 主要围绕「Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)」展开，结合 README、topics 和仓库描述来看，可用于智能体与自动化工作流、大语言模型、AI 编程与代码理解、开发框架与 SDK相关的开源实践、集成或学习。",
+      "application_scenarios_zh": [
+        "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+        "作为智能体工作流的基础组件，连接工具、数据源和业务系统，完成半自动化任务编排。",
+        "辅助产品和设计团队快速生成界面原型、设计系统草案或多版本视觉方案。"
+      ],
+      "positioning_zh": "obsidian-prism 是一个智能体/自动化工作流项目，核心目标是「Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)」。",
+      "product_view_zh": "从产品/应用角度看，obsidian-prism 更像一个流程中枢：把工具调用、上下文和任务步骤组织起来。如果团队正在把「Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)」落到真实工作流，它可以作为原型底座，用来验证自动化是否能减少人工切换。",
+      "technical_view_zh": "技术选型上，它主要以 JavaScript 实现，可见工程信号包括API。README 和 topics 暗示其核心能力集中在智能体与自动化工作流、大语言模型、AI 编程与代码理解。当前接入难度评估为「中」，建议先检查安装方式、依赖服务、示例完整度和许可证。",
+      "trend_view_zh": "趋势上，该项目昨日新增 15 stars，反映出：智能体正在从演示走向可执行工作流。如果后续 issue、release 和文档继续活跃，它可能成为同类方案选型时值得跟踪的候选。",
+      "category_zh": "AI 设计",
+      "highlight_zh": "obsidian-prism 围绕「Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)」提供 AI 相关开源能力，适合快速评估和原型验证。",
+      "target_users_zh": [
+        "AI 工具调研者",
+        "开发者",
+        "产品/技术团队"
+      ],
+      "best_use_case_zh": "接入团队研发流程，辅助代码库理解、重构评估、文档生成或 AI 编程助手的上下文构建。",
+      "not_suitable_zh": "不适合在未验证安装成本、许可证和维护活跃度前直接作为核心依赖。",
+      "project_tags_zh": [
+        "智能体",
+        "大模型",
+        "AI 编程",
+        "开发工具",
+        "AI 设计"
+      ],
+      "maturity_score": 2,
+      "adoption_difficulty": "中",
+      "recommendation_score": 2,
+      "adoption_notes_zh": [
+        "先用 README 示例搭建最小原型，确认核心能力是否符合预期。",
+        "检查许可证、release 节奏、issue 响应和关键依赖，避免只被短期热度影响。",
+        "接入业务前建议做一次小规模集成测试，验证配置、性能和边界条件。"
+      ]
+    }
+  ]
+}

@@ -2,25 +2,25 @@
 
 > 自动统计北京时间昨日 GitHub 新增 stars 最快的 AI 相关开源项目，并用中文解释项目作用与潜在应用场景。
 
-## 最新榜单：2026-11-25 (Asia/Shanghai)
+## 最新榜单：2026-11-26 (Asia/Shanghai)
 
 | 排名 | 项目 | 一句话亮点 | 昨日新增 stars | 当前 stars | 语言 | 标签 | 推荐 | 接入 |
 | --- | --- | --- | ---: | ---: | --- | --- | ---: | --- |
-| 1 | [fxceless/victory-fork](https://github.com/fxceless/victory-fork) | victory-fork 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 19 | 2,937 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★☆☆☆ | 中 |
-| 2 | [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything) | CLI-Anything 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 19 | 65,562 | Python | `智能体` `自动化` `工具调用` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 3 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 18 | 20,487 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★★☆ | 高 |
-| 4 | [Belobug/VIctory-Belobug-AMD](https://github.com/Belobug/VIctory-Belobug-AMD) | VIctory-Belobug-AMD 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 1,583 | Rust | `AI 编程` `开发工具` `工作流` `大模型` `RAG` | ★★☆☆☆ | 中 |
-| 5 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 18 | 137,744 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
-| 6 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 79,211 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
-| 7 | [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | VoiceStudio 围绕「VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.」提供 AI 相关开源能力，适合快速评估和原型验证。 | 13 | 118,294 | Python | `AI 编程` `智能体` `多模态` `模型推理` `开发工具` | ★★★★★ | 中 |
-| 8 | [creekleaderintroduce/autocad](https://github.com/creekleaderintroduce/autocad) | autocad 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 12 | 362 | HTML | `智能体` `自动化` `工具调用` `开发工具` `AI 设计` | ★★☆☆☆ | 中 |
-| 9 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 12 | 22,736 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
-| 10 | [anhao/ai-pose-gallery-zh](https://github.com/anhao/ai-pose-gallery-zh) | ai-pose-gallery-zh 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 11 | 9,162 | TypeScript | `前端生成` `网站复刻` `AI 编程` `多模态` `大模型` | ★★★☆☆ | 高 |
+| 1 | [stablyai/orca](https://github.com/stablyai/orca) | orca 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 27 | 140,142 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `自动化` | ★★★★★ | 高 |
+| 2 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | t3code 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 23 | 80,727 | TypeScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★☆ | 高 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | dsh-our-free-model 提供 Agent 工具、技能或工作流能力，适合扩展自动化任务边界。 | 21 | 88,094 | JavaScript | `智能体` `自动化` `工具调用` `大模型` `AI 编程` | ★★★★☆ | 高 |
+| 4 | [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter) | Claude-BugHunter 把安全研究工具链和知识库组织成 Agent 可调用的工作流。 | 21 | 24,272 | Python | `安全研究` `工具链` `Agent` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 5 | [BaaRai/ARTEX](https://github.com/BaaRai/ARTEX) | ARTEX 用 AI agent 复刻网站结构和视觉细节，适合迁移自有站点或学习前端实现。 | 20 | 22,026 | Go | `前端生成` `网站复刻` `AI 编程` `智能体` `大模型` | ★★★★☆ | 高 |
+| 6 | [4lwayz/portwatch-vi](https://github.com/4lwayz/portwatch-vi) | portwatch-vi 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 18 | 5,420 | JavaScript | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★☆☆ | 高 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | ponytail 面向 AI 编程工作流，帮助代码代理更稳定地理解、修改或交付项目。 | 17 | 199,263 | JavaScript | `AI 编程` `开发工具` `工作流` `智能体` `大模型` | ★★★★★ | 中 |
+| 8 | [jub0t/Concat](https://github.com/jub0t/Concat) | Concat 把 AI 编程助手扩展成视频生产工作流，适合从脚本到成片的自动化验证。 | 16 | 21,422 | Rust | `AI 视频` `内容生产` `多模态` `AI 编程` `大模型` | ★★★★☆ | 高 |
+| 9 | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) | last30days-skill 为 Agent 接入网页和社媒信息源，让研究和监测流程更自动化。 | 15 | 75,635 | Python | `联网 Agent` `信息抓取` `自动化` `AI 编程` `大模型` | ★★★★☆ | 中 |
+| 10 | [RMvdesi/obsidian-prism](https://github.com/RMvdesi/obsidian-prism) | obsidian-prism 围绕「Optical UI, damped-spring choreography, 512K shallow-water vial, pixel mascots & dual-mode thought suite for Antigravity (GPL-3.0)」提供 AI 相关开源能力，适合快速评估和原型验证。 | 15 | 2,191 | JavaScript | `智能体` `大模型` `AI 编程` `开发工具` `AI 设计` | ★★☆☆☆ | 中 |
 
 ## 数据与归档
 
-- JSON 数据：[data/2026-11-25.json](data/2026-11-25.json)
-- Markdown 归档：[reports/2026-11-25.md](reports/2026-11-25.md)
+- JSON 数据：[data/2026-11-26.json](data/2026-11-26.json)
+- Markdown 归档：[reports/2026-11-26.md](reports/2026-11-26.md)
 - 最新 JSON：[data/latest.json](data/latest.json)
 
 ## 自动更新
